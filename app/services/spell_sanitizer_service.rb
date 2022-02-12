@@ -35,12 +35,12 @@ class SpellSanitizerService < ApplicationService
   end
 
   def assign_school_level_and_ritual
-    # "*Vyvolávání 6. úrovně* (rituál)"
+    # "*Vyvolávání 6. úrovně (rituál)*"
     words = un_spell[1].split(' ')
     school = words.first[1..]
     attributes[:school] = CANTRIP_SCHOOLS[school.downcase.to_sym] || school
     attributes[:level] = words[1].to_i
-    attributes[:ritual] = words.last == '(rituál)'
+    attributes[:ritual] = words.last == '(rituál)*'
   end
 
   def assign_casting
