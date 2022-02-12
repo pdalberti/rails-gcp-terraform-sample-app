@@ -2,6 +2,16 @@ class SpellSanitizerService < ApplicationService
   attr_reader :un_spell
   attr_accessor :attributes
 
+  CANTRIP_SCHOOLS = {
+    iluzorní: 'Iluze',
+    nekromantický: 'Nekromancie',
+    transmutační: 'Transmutace',
+    vymítací: 'Vymítání',
+    vyvolávací: 'Vyvolávání',
+    věštecký: 'Věštění',
+    zaklínací: 'Zaklínání'
+  }.freeze
+
   def initialize(unsanitized_spell)
     @un_spell =   unsanitized_spell.split("\n\n")
     @attributes = { description: unsanitized_spell }
@@ -27,7 +37,8 @@ class SpellSanitizerService < ApplicationService
   def assign_school_level_and_ritual
     # "*Vyvolávání 6. úrovně* (rituál)"
     words = un_spell[1].split(' ')
-    attributes[:school] = words.first[1..]
+    school = words.first[1..]
+    attributes[:school] = CANTRIP_SCHOOLS[school.downcase.to_sym] || school
     attributes[:level] = words[1].to_i
     attributes[:ritual] = words.last == '(rituál)'
   end
