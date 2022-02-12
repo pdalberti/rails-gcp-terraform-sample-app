@@ -24,3 +24,4 @@
   = f.select :concentration_eq, Spell.pluck(:concentration).uniq, include_blank: true
 
   = f.submit
+= link_to 'Zrušit filtry', root_path
