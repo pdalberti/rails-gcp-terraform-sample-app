@@ -5,6 +5,7 @@ class SpellSanitizerService < ApplicationService
   CANTRIP_SCHOOLS = {
     iluzorní: 'Iluze',
     nekromantický: 'Nekromancie',
+    očarovací: 'Očarování',
     transmutační: 'Transmutace',
     vymítací: 'Vymítání',
     vyvolávací: 'Vyvolávání',

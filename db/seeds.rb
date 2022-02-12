@@ -10,9 +10,11 @@ DatabaseCleaner.clean
 
 # write your new seeds after this line
 
-path = 'storage/11-kapitola-a.md'
-f = File.open(path).read
-f = f.split('### ')[1..] # split by spell title and select only spells
-f.each { |spell| SpellSanitizerService.call(spell) }
+paths = %w[storage/11-kapitola-a.md storage/11-kapitola-b.md]
+paths.each do |path|
+  f = File.open(path).read
+  f = f.split('### ')[1..] # split by spell title and select only spells
+  f.each { |spell| SpellSanitizerService.call(spell) }
+end
 
 puts "Created #{Spell.count} spells"
