@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home ]
   def home
+    # return @spells = [] if params[:q].blank?
+
+    @spells = Spell.first(10)
   end
 end

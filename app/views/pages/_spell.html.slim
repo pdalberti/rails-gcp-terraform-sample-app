@@ -1,0 +1,7 @@
+.accordion-item
+  h2.accordion-header id="spellPanels-heading#{spell.id}"
+    button.accordion-button type="button" data-bs-toggle="collapse" data-bs-target="#spellPanels-collapse#{spell.id}" aria-expanded="true" aria-controls="spellPanels-collapse#{spell.id}"
+      = spell.name
+  .accordion-collapse.collapse id="spellPanels-collapse#{spell.id}" aria-labelledby="spellPanels-heading#{spell.id}"
+    .accordion-body
+      = spell.description.html_safe
