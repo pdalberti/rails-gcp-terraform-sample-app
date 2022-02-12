@@ -4,4 +4,4 @@
       = spell.name
   .accordion-collapse.collapse id="spellPanels-collapse#{spell.id}" aria-labelledby="spellPanels-heading#{spell.id}"
     .accordion-body
-      = spell.description.html_safe
+      = CommonMarker.render_html(spell.description, :DEFAULT).html_safe
