@@ -10,11 +10,17 @@ DatabaseCleaner.clean
 
 # write your new seeds after this line
 
-paths = %w[storage/11-kapitola-a.md storage/11-kapitola-b.md]
+classes = %w[bard druid hraničář klerik kouzelník paladin čaroděj černokněžník].map do |name|
+  { name: name }
+end
+DndClass.insert_all!(classes)
+
+puts "Created #{classes.join(', ')} classes"
+
+paths = Dir['storage/*.md']
 paths.each do |path|
-  f = File.open(path).read
-  f = f.split('### ')[1..] # split by spell title and select only spells
-  f.each { |spell| SpellSanitizerService.call(spell) }
+  file = File.open(path).read
+  SpellSanitizerService.call(file)
 end
 
 puts "Created #{Spell.count} spells"

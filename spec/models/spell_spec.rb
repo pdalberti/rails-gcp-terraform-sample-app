@@ -8,6 +8,7 @@
 #  concentration :boolean
 #  description   :string
 #  duration      :string
+#  en_name       :string
 #  level         :integer
 #  name          :string
 #  range         :string

@@ -8,6 +8,7 @@
 #  concentration :boolean
 #  description   :string
 #  duration      :string
+#  en_name       :string
 #  level         :integer
 #  name          :string
 #  range         :string
@@ -17,4 +18,6 @@
 #  updated_at    :datetime         not null
 #
 class Spell < ApplicationRecord
+  has_many :class_spells
+  has_many :dnd_classes, through: :class_spells
 end
