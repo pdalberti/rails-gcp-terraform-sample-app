@@ -10,14 +10,12 @@ DatabaseCleaner.clean
 
 # write your new seeds after this line
 
-classes = %w[bard druid hraničář klerik kouzelník paladin čaroděj černokněžník].map do |name|
-  { name: name }
-end
-DndClass.insert_all!(classes)
+classes = %w[bard druid hraničář klerik kouzelník paladin čaroděj černokněžník]
+classes.each { |klass| DndClass.create!(name: klass) }
 
 puts "Created #{classes.join(', ')} classes"
 
-paths = Dir['storage/*.md']
+paths = Dir['storage/*.md'].sort
 paths.each do |path|
   file = File.open(path).read
   SpellSanitizerService.call(file)

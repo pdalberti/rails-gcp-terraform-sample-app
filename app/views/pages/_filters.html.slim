@@ -23,5 +23,8 @@
   = label_tag 'Soustředění?'
   = f.select :concentration_eq, Spell.pluck(:concentration).uniq, include_blank: true
 
+  = label_tag 'Povolání'
+  = f.select :dnd_classes_name_eq, DndClass.pluck(:name), include_blank: true
+
   = f.submit
 = link_to 'Zrušit filtry', root_path

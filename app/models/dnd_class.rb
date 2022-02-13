@@ -10,4 +10,6 @@
 class DndClass < ApplicationRecord
   has_many :class_spells
   has_many :spells, through: :class_spells
+
+  validates :name, presence: true, uniqueness: true
 end

@@ -95,7 +95,8 @@ class SpellSanitizerService < ApplicationService
 
   def assign_dnd_classes
     # "**Povolání:** Čaroděj, kouzelník"
-    # un_spell[8]
+    classes = non_bold_text(un_spell[8]).downcase.split(', ')
+    attributes[:dnd_classes] = DndClass.where(name: classes)
   end
 
   # helper methods
