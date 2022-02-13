@@ -20,11 +20,14 @@ class SpellSanitizerService < ApplicationService
 
   def call
     assign_name
+    assign_en_name
+    assign_source
     assign_school_level_and_ritual
     assign_casting
     assign_range
     assign_components
     assign_duration_and_concentration
+    assign_dnd_classes
     Spell.create!(attributes)
   end
 
@@ -32,12 +35,23 @@ class SpellSanitizerService < ApplicationService
 
   def assign_name
     # "ANTIMAGICKÉ POLE"
-    attributes[:name] = un_spell.first
+    attributes[:name] = un_spell.first[2..]
+  end
+
+  def assign_en_name
+    # "*Aganazzar's scorcher*"
+    attributes[:en_name] = un_spell[1][1..-2]
+  end
+
+  def assign_source
+    # "***Xanatharuv pruvodce vším***"
+    # might be an N-N references
+    # un_spell[2]
   end
 
   def assign_school_level_and_ritual
     # "*Vyvolávání 6. úrovně (rituál)*"
-    words = un_spell[1].split(' ')
+    words = un_spell[3].split(' ')
     school = words.first[1..]
     attributes[:school] = CANTRIP_SCHOOLS[school.downcase.to_sym] || school
     attributes[:level] = words[1].to_i
@@ -46,18 +60,18 @@ class SpellSanitizerService < ApplicationService
 
   def assign_casting
     # "**Vyvolání:** 1 akce"
-    attributes[:casting] = non_bold_text(un_spell[2])
+    attributes[:casting] = non_bold_text(un_spell[4])
   end
 
   def assign_range
     # "**Dosah:** Ty sám (koule o poloměru 2 sáhy)"
-    attributes[:range] = non_bold_text(un_spell[3])
+    attributes[:range] = non_bold_text(un_spell[5])
   end
 
   def assign_components
-    # "**Složky:** P. S (inkoust na bázi olova v hodnotě aspoň 10 zl, který kouzlo spotřebuje)"
+    # "**Složky:** P, S (inkoust na bázi olova v hodnotě aspoň 10 zl, který kouzlo spotřebuje)"
     ############ REWORK using N-N table
-    # components = non_bold_text(un_spell[4])
+    # components = non_bold_text(un_spell[6])
     # attributes[:components] = if components.include?('(')
     #                 text = text_between_parentheses(components)
     #                 if text.include?(' zl')
@@ -73,10 +87,15 @@ class SpellSanitizerService < ApplicationService
 
   def assign_duration_and_concentration
     # "**Trvání:** Soustředění, až 1 hodina"
-    duration = non_bold_text(un_spell[5]).split(' ')
+    duration = non_bold_text(un_spell[7]).split(' ')
     concentration = duration.first == 'Soustředění,'
     attributes[:concentration] = concentration
     attributes[:duration] = concentration ? duration[1..].join(' ').capitalize : duration.join(' ')
+  end
+
+  def assign_dnd_classes
+    # "**Povolání:** Čaroděj, kouzelník"
+    # un_spell[8]
   end
 
   # helper methods
