@@ -1,4 +1,4 @@
-# OVLÁDNI POČASÍ
+# Ovládni počasí
 
 *Control weather*
 

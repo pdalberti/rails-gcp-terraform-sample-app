@@ -1,4 +1,4 @@
-# OCHRANA PŘED JEDEM
+# Ochrana před jedem
 
 *Protection from poison*
 
@@ -16,6 +16,6 @@
 
 **Povolání:** Druid, hraničář, klerik, paladin
 
-Dotkneš se tvora. Je-li otráveny, zneutralizuješ mu jed. Působí-li na cíl více než jeden jed, zneutralizuješ mu jeden jed, o kterém víš, nebo mu zneutralizuješ jeden náhodně. 
+Dotkneš se tvora. Je-li otráveny, zneutralizuješ mu jed. Působí-li na cíl více než jeden jed, zneutralizuješ mu jeden jed, o kterém víš, nebo mu zneutralizuješ jeden náhodně.
 
 Po dobu trvání má cíl výhodu k záchranným hodům proti otrávení a je odolný vůči jedovému zranění.

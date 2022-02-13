@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vymítání 1. úrovně* 
+*Vymítání 1. úrovně*
 
 **Vyvolání:** 1 minuta
 

@@ -1,4 +1,4 @@
-# KŮROKŮŽE
+# Kůrokůže
 
 *Barkskin*
 

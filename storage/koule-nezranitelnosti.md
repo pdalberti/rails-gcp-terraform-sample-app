@@ -1,4 +1,4 @@
-# KOULE NEZRANITELNOSTI
+# Koule nezranitelnosti
 
 *Globe of invulnerability*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-V okruhu 2 sáhy kolem tebe se vynoří nehybná, slabě třpytivá bariéra a vydrží po dobu trvání. 
+V okruhu 2 sáhy kolem tebe se vynoří nehybná, slabě třpytivá bariéra a vydrží po dobu trvání.
 
 Žádné kouzlo 5. či nižší úrovně seslané z vnějšku bariéry nemůže ovlivnit tvory či předměty uvnitř, i kdyby bylo sesláno použitím pozice kouzla vyšší úrovně. Takové kouzlo může zacílit tvory a předměty uvnitř bariéry, ale nijak na ně nepůsobí. Stejně tak oblast uvnitř bariéry je vyjmuta z oblastí účinku takových kouzel.
 

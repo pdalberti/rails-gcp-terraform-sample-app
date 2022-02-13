@@ -1,4 +1,4 @@
-# SLEPOTA NEBO HLUCHOTA
+# Slepota nebo hluchota
 
 *Blindness/Deafness*
 

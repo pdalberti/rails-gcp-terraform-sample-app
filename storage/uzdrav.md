@@ -1,4 +1,4 @@
-# UZDRAV
+# Uzdrav
 
 *Heal*
 

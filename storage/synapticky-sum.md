@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Očarování 5. úrovně* 
+*Očarování 5. úrovně*
 
 **Vyvolání:** 1 akce
 

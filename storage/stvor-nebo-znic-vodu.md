@@ -1,4 +1,4 @@
-# STVOŘ NEBO ZNIČ VODU
+# Stvoř nebo znič vodu
 
 *Create or destroy water*
 

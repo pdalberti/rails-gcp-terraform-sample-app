@@ -1,4 +1,4 @@
-# MOCNÁ NEVIDITELNOST
+# Mocná neviditelnost
 
 *Greater invisibility*
 

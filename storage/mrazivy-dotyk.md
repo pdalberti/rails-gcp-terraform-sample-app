@@ -1,4 +1,4 @@
-# DOTEK SMRTI
+# Dotek smrti
 
 *Chill touch*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, černokněžník, kouzelník
 
-Vytvoříš přízračnou, kostlivou ruku na místě tvora v dosahu. Hoď si na útok na dálku kouzlem proti tvorovi, kterého chceš napadnout hrobových chladem. Při zásahu cíl utrpí nekrotické zranění 1k8 a nemůže si obnovit životy do začátku tvého příštího tahu. Do té doby ruka přilne k cíli. 
+Vytvoříš přízračnou, kostlivou ruku na místě tvora v dosahu. Hoď si na útok na dálku kouzlem proti tvorovi, kterého chceš napadnout hrobových chladem. Při zásahu cíl utrpí nekrotické zranění 1k8 a nemůže si obnovit životy do začátku tvého příštího tahu. Do té doby ruka přilne k cíli.
 
 Pokud zasáhneš nemrtvý cíl, má navíc proti tobě nevýhodu k hodům na útok do konce tvého příštího tahu.
 

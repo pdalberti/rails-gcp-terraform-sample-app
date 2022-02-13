@@ -1,4 +1,4 @@
-# OČISTI JÍDLO A PITÍ
+# Očisti jídlo a pití
 
 *Purify food and drink*
 

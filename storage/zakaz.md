@@ -1,4 +1,4 @@
-# ZÁKAZ
+# Zákaz
 
 *Forbiddance*
 

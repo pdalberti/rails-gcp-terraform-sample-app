@@ -1,4 +1,4 @@
-# NELIBOZVUČNY ŠEPOT
+# Nelibozvučny šepot
 
 *Dissonant whispers*
 

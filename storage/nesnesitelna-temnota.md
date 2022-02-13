@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Zaklínání 8. úrovně* 
+*Zaklínání 8. úrovně*
 
 **Vyvolání:** 1 akce
 

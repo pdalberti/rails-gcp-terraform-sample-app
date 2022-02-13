@@ -1,4 +1,4 @@
-# HADAROVY PAŽE
+# Hadarovy paže
 
 *Arms of Hadar*
 

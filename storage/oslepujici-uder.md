@@ -1,4 +1,4 @@
-# OSLEPUJÍCÍ ÚDER
+# Oslepující úder
 
 *Blinding smite*
 
@@ -16,6 +16,6 @@
 
 **Povolání:** Paladin
 
-Až příště zasáhneš tvora útokem na blízko zbraní v průběhu trvání tohoto kouzla, zbraň při úderu vzplanejasným světlem a útok způsobí cíli dodatečné zářivé zranění 3k8. Navíc cíl musí uspět v záchranném hodu na Odolnost, jinak oslepne, dokud kouzlo neskončí. 
+Až příště zasáhneš tvora útokem na blízko zbraní v průběhu trvání tohoto kouzla, zbraň při úderu vzplanejasným světlem a útok způsobí cíli dodatečné zářivé zranění 3k8. Navíc cíl musí uspět v záchranném hodu na Odolnost, jinak oslepne, dokud kouzlo neskončí.
 
 Tvor, který je slepý kvůli tomuto kouzlu, si hodí další záchranný hod na Odolnost na konci každého svého tahu. Když uspěje, přestane být slepý.

@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutace 9. úrovně* 
+*Transmutace 9. úrovně*
 
 **Vyvolání:** 1 akce
 

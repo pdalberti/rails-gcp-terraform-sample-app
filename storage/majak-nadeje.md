@@ -1,4 +1,4 @@
-# MAJÁK NADĚJE
+# Maják naděje
 
 *Beacon of hope*
 

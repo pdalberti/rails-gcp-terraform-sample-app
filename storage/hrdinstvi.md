@@ -1,4 +1,4 @@
-# HRDINSTVÍ
+# Hrdinství
 
 *Heroism*
 

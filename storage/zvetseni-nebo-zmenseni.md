@@ -1,4 +1,4 @@
-# ZVĚTŠENÍ NEBO ZMENŠENÍ
+# Zvětšení nebo zmenšení
 
 *Enlarge/reduce*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-Způsobíš, že tvor či předmět, jehož vidíš v dosahu, se zvětší či zmenší po dobu trvání. Zvol buď tvora, nebo předmět, který nikdo nedrží ani nenese. Pokud s tím cíl nesouhlasí, může si hodit záchranný hod na Odolnost. Když uspěje, kouzlo nemá žádný účinek. 
+Způsobíš, že tvor či předmět, jehož vidíš v dosahu, se zvětší či zmenší po dobu trvání. Zvol buď tvora, nebo předmět, který nikdo nedrží ani nenese. Pokud s tím cíl nesouhlasí, může si hodit záchranný hod na Odolnost. Když uspěje, kouzlo nemá žádný účinek.
 
 Je-li cílem tvor, tak vše, co má na sobě či nese, změní svou velikost spolu s ním. Jakýkoli předmět, který ovlivněný tvor upustí na zem, se rázem navrátí do své normální velikosti.
 

@@ -1,4 +1,4 @@
-# POLAPUJÍCÍ ÚDER
+# Polapující úder
 
 *Ensnaring strike*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Hraničář
 
-Až příště zasáhneš tvora útokem zbraní v průběhu trvání tohoto kouzla, v bodě dopadu se objeví svíjející se masa trnitých šlahounů a cíl musí uspět v záchranném hodu na Sílu, jinak ho magické šlahouny zadrží, dokud kouzlo neskončí. Velký či větší tvor má výhodu k tomu to záchrannému hodu. Pokud cíl v záchraně uspěje, šlahouny se scvrknou a seschnou. 
+Až příště zasáhneš tvora útokem zbraní v průběhu trvání tohoto kouzla, v bodě dopadu se objeví svíjející se masa trnitých šlahounů a cíl musí uspět v záchranném hodu na Sílu, jinak ho magické šlahouny zadrží, dokud kouzlo neskončí. Velký či větší tvor má výhodu k tomu to záchrannému hodu. Pokud cíl v záchraně uspěje, šlahouny se scvrknou a seschnou.
 
 Když je cíl zadržený tímto kouzlem, na začátku každého svého tahu utrpí bodné zranění 1k6. Tvor zadržený šlahouny nebo ten, kdo se ho může dotknout, může použít svou akci k hodu na ověření Síly proti tvému SO záchrany kouzla. Když uspěje, cíl se osvobodí.
 

@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Nekromancie 4. úrovně* 
+*Nekromancie 4. úrovně*
 
 **Vyvolání:** 1 akce
 

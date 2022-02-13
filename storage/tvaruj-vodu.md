@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutační trik* 
+*Transmutační trik*
 
 **Vyvolání:** 1 akce
 
@@ -18,7 +18,7 @@
 
 Vybereš si objem vody, který vidíš v dosahu a který se vejde do krychle o hraně 1 sáhu. Pak s ním můžeš naložit jedním z následujících způsobů:
 
- * Okamžitě přesuneš vodu, nebo jinak změníš směr proudu, až o 1 sáh libovolným směrem. Tento pohyb nemá dost síly na to, aby způsobil zranění.
+* Okamžitě přesuneš vodu, nebo jinak změníš směr proudu, až o 1 sáh libovolným směrem. Tento pohyb nemá dost síly na to, aby způsobil zranění.
  * Přiměješ vodu, aby se zformovala do jednoduchých tvarů, které se budou pohybovat zadaným způsobem. Tato změna vydrží 1 hodinu.
  * Změníš barvu nebo průhlednost vody. Lze měnit jen vzhled celého vybraného objemu naráz. Tato změna vydrží 1 hodinu.
  * Zmrazíš vodu, ale pouze za předpokladu, že se v ní nenachází žádný tvor. Voda rozmrzne za 1 hodinu.

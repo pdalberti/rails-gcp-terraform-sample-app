@@ -1,4 +1,4 @@
-# ZBROJ AGATHYSU
+# Zbroj agathysu
 
 *Armor of Agathys*
 

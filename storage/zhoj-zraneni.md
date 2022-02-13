@@ -1,4 +1,4 @@
-# ZHOJ ZRANĚNÍ
+# Zhoj zranění
 
 *Cure wounds*
 

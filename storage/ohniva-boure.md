@@ -1,4 +1,4 @@
-# OHNIVÁ BOUŘE
+# Ohnivá bouře
 
 *Fire storm*
 

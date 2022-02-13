@@ -1,4 +1,4 @@
-# KŘIŽÁKOVA PELERÍNA
+# Křižákova pelerína
 
 *Crusader's meantle*
 

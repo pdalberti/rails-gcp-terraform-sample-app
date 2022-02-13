@@ -1,4 +1,4 @@
-# FASCINUJ
+# Fascinuj
 
 *Enthrall*
 

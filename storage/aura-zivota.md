@@ -1,4 +1,4 @@
-# AURA ŽIVOTA
+# Aura života
 
 *Aura of life*
 

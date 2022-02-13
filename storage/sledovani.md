@@ -1,4 +1,4 @@
-# SLEDOVÁNÍ
+# Sledování
 
 *Scrying*
 
@@ -30,8 +30,8 @@ Vidíš a slyšíš konkrétního tvora, kterého si zvolíš, jenž je ve stejn
 | Majetek nebo kus oděvu | –4 |
 | Část těla, pramen vlasů, kus nehtu | –10 |
 
-Když cíl uspěje, kouzlo na něj nepůsobí a znovu na něj můžeš použít toto kouzlo až za 24 hodin. 
+Když cíl uspěje, kouzlo na něj nepůsobí a znovu na něj můžeš použít toto kouzlo až za 24 hodin.
 
-Když neuspěje, kouzlo vytvoří neviditelný senzor do 2 sáhů od něj. Prostřednictvím senzoru můžeš vidět a slyšet, jako bys tam byl. Senzor se pohybuje spolu s cílem a po dobu trvání se drží do 2 sáhů od něj. Tvor, který vidí neviditelné předměty, vidí senzor jako světélkující kouli zhruba velikosti tvé pěsti. 
+Když neuspěje, kouzlo vytvoří neviditelný senzor do 2 sáhů od něj. Prostřednictvím senzoru můžeš vidět a slyšet, jako bys tam byl. Senzor se pohybuje spolu s cílem a po dobu trvání se drží do 2 sáhů od něj. Tvor, který vidí neviditelné předměty, vidí senzor jako světélkující kouli zhruba velikosti tvé pěsti.
 
 Místo zacílení tvora můžeš jako cíl tohoto kouzla zvolit místo, které jsi už někdy viděl. Uděláš-li to, senzor se objeví na daném místě, a nepohybuje se.

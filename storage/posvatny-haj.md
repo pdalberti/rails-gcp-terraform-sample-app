@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vymítání 6. úrovně* 
+*Vymítání 6. úrovně*
 
 **Vyvolání:** 10 minut
 

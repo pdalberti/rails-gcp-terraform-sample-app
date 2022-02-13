@@ -1,4 +1,4 @@
-# ZPŮSOB ZRANĚNÍ
+# Způsob zranění
 
 *Inflict wounds*
 

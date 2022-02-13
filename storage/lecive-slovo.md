@@ -1,4 +1,4 @@
-# LÉČIVÉ SLOVO
+# Léčivé slovo
 
 *Healing word*
 

@@ -1,4 +1,4 @@
-# SPEKTRÁLNÍ SPRŠKA
+# Spektrální sprška
 
 *Prismatic spray*
 
@@ -20,9 +20,9 @@ Ze tvé ruky vyletí osm různobarevných paprsků světla. Každý paprsek má 
 
 ***1. Červená.*** Když cíl neuspěje, utrpí ohnivé zranění 10k6, nebo poloviční zranění při úspěšném záchranném hodu.
 
-***2. Oranžová*** Když cíl neuspěje, utrpí kyselinové zranění 10k6, nebo  poloviční zranění při úspěšném záchranném hodu. 
+***2. Oranžová*** Když cíl neuspěje, utrpí kyselinové zranění 10k6, nebo  poloviční zranění při úspěšném záchranném hodu.
 
-***3. Žlutá*** Když cíl neuspěje, utrpí bleskové zranění 10k6, nebo  poloviční zranění při úspěšném záchranném hodu. 
+***3. Žlutá*** Když cíl neuspěje, utrpí bleskové zranění 10k6, nebo  poloviční zranění při úspěšném záchranném hodu.
 
 ***4. Zelená***	Když cíl neuspěje, utrpí jedové zranění 10k6, nebo poloviční zranění při úspěšném záchranném hodu.
 

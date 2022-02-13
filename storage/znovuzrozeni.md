@@ -1,4 +1,4 @@
-# ZNOVUZROZENÍ
+# Znovuzrození
 
 *True resurrection*
 

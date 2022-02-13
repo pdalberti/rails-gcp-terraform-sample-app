@@ -1,4 +1,4 @@
-# BOUŘE ODPLATY
+# Bouře odplaty
 
 *Storm of vengeance*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Druid
 
-Zformuje se rozvířený bouřkový mrak se středem v bodě, který vidíš, a rozšíří se do velikosti o poloměru 72 sáhů. Oblastí létají blesky, duní hromy a hučí silné větry. Když se mrak objeví, každý tvor pod mrakem (ne více než 1 míli pod mrakem) si musí hodit záchranný hod na Odolnost. Když neuspěje, utrpí hromové zranění 2k6 a na 5 minut ohluchne. 
+Zformuje se rozvířený bouřkový mrak se středem v bodě, který vidíš, a rozšíří se do velikosti o poloměru 72 sáhů. Oblastí létají blesky, duní hromy a hučí silné větry. Když se mrak objeví, každý tvor pod mrakem (ne více než 1 míli pod mrakem) si musí hodit záchranný hod na Odolnost. Když neuspěje, utrpí hromové zranění 2k6 a na 5 minut ohluchne.
 
 Každé kolo, kdy se soustředíš na toto kouzlo, vytvoří bouře ve tvém tahu další účinky.
 

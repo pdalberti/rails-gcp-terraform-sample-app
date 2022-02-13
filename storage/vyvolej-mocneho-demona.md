@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vyvolávání 4. úrovně* 
+*Vyvolávání 4. úrovně*
 
 **Vyvolání:** 1 akce
 

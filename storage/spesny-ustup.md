@@ -1,4 +1,4 @@
-# SPĚŠNÝ ÚSTUP
+# Spěšný ústup
 
 *Expeditious retreat*
 

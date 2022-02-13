@@ -1,4 +1,4 @@
-# SEŽEHUJÍCÍ PAPRSEK
+# Sežehující paprsek
 
 *Scorching ray*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-Vytvoříš tři ohnivé paprsky a vrhneš je na cíle v dosahu. Můžeš je vrhnout na jeden, nebo několik cílů. 
+Vytvoříš tři ohnivé paprsky a vrhneš je na cíle v dosahu. Můžeš je vrhnout na jeden, nebo několik cílů.
 
 Za každý paprsek si hoď na útok na dálku kouzlem. Při zásahu cíl utrpí ohnivé zranění 2k6.
 

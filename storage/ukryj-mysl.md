@@ -1,4 +1,4 @@
-# UKRYJ MYSL
+# Ukryj mysl
 
 *Mind blank*
 

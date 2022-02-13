@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutace 3. úrovně* 
+*Transmutace 3. úrovně*
 
 **Vyvolání:** 1 minuta
 
@@ -24,7 +24,6 @@ Když služebníkovi klesnou životy na 0, navrátí se do své původní podoby
 
 ***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 4. či vyšší úrovně, za každou další úroveň pozice nad 3. můžeš oživit o 2 předměty navíc.
 
-
 <Monster 
     title="Drobný služebník"
     subtitle="Drobný tvor, bez přesvědčení"
@@ -42,10 +41,10 @@ Když služebníkovi klesnou životy na 0, navrátí se do své původní podoby
     senses="mimozrakové vnímání 12 sáhů (za touto hranicí je slepý), pasivní Vnímání 10"
     languages="—"
     challenge="2 (450 ZK)"
-    > 
+    >
 
 Akce
 
-***Úder pěstí.*** *Útok na blízko zbraní:* +5 k zásahu, dosah 1 sáh, jeden cíl. *Zásah:* Drtivé zranění 5 (1k4 + 3). 
+***Úder pěstí.*** *Útok na blízko zbraní:* +5 k zásahu, dosah 1 sáh, jeden cíl. *Zásah:* Drtivé zranění 5 (1k4 + 3).
 
 </monster>

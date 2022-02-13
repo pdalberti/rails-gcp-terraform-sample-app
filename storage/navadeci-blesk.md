@@ -1,4 +1,4 @@
-# NAVÁDĚCÍ BLESK
+# Naváděcí blesk
 
 *Guiding bolt*
 

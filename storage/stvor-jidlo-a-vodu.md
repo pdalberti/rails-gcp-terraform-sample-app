@@ -1,4 +1,4 @@
-# STVOŘ JÍDLO A VODU
+# Stvoř jídlo a vodu
 
 *Create food and water*
 

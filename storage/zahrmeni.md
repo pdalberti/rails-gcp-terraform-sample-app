@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Zaklínací trik* 
+*Zaklínací trik*
 
 **Vyvolání:** 1 akce
 

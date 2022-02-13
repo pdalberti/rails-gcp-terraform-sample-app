@@ -1,4 +1,4 @@
-# POROZUMĚNÍ JAZYKŮM
+# Porozumění jazykům
 
 *Comprehend languages*
 

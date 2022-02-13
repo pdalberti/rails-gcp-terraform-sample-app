@@ -1,4 +1,4 @@
-# SPEKTRÁLNÍ ZEĎ
+# Spektrální zeď
 
 *Prismatic wall*
 
@@ -16,11 +16,11 @@
 
 **Povolání:** Kouzelník
 
-Třpytivá, různobarevná světelná plocha vytvoří svislou, neprůhlednou zeď – až 18 sáhů dlouhou, 6 sáhů vysokou a 1 coul tlustou - se středem v bodě, který vidíš v dosahu. Nebo můžeš vytvarovat zeď do koule o průměru 6 sáhů se středem v bodě, který zvolíš v dosahu. Zeď vydrží na místě po dobu trvání. Umístíš-li zeď tak, že prochází přes místo obsazené tvorem, kouzlo selže a tvá akce a pozice kouzla se vyplýtvají. 
+Třpytivá, různobarevná světelná plocha vytvoří svislou, neprůhlednou zeď – až 18 sáhů dlouhou, 6 sáhů vysokou a 1 coul tlustou - se středem v bodě, který vidíš v dosahu. Nebo můžeš vytvarovat zeď do koule o průměru 6 sáhů se středem v bodě, který zvolíš v dosahu. Zeď vydrží na místě po dobu trvání. Umístíš-li zeď tak, že prochází přes místo obsazené tvorem, kouzlo selže a tvá akce a pozice kouzla se vyplýtvají.
 
-Zeď osvítí jasným světlem okruh o poloměru 20 sáhů a další 20 sáhů dosvítí slabým světlem. Ty a tvorové, které určíš při sesílání tohoto kouzla, můžete zdí procházet nebo u ní setrvávat, aniž by vám ublížila. Pokud se k ní přiblíží do 4 sáhy jiný tvor, který ji vidí, nebo tam začne svůj tah, musí uspět v záchranném hodu na Odolnost, jinak oslepne na 1 minutu. 
+Zeď osvítí jasným světlem okruh o poloměru 20 sáhů a další 20 sáhů dosvítí slabým světlem. Ty a tvorové, které určíš při sesílání tohoto kouzla, můžete zdí procházet nebo u ní setrvávat, aniž by vám ublížila. Pokud se k ní přiblíží do 4 sáhy jiný tvor, který ji vidí, nebo tam začne svůj tah, musí uspět v záchranném hodu na Odolnost, jinak oslepne na 1 minutu.
 
-Zeď se skládá ze sedmi vrstev různé barvy. Když se tvor pokusí projít skrz zeď, musí to udělat postupně po jedné vrstvě skrz všechny vrstvy zdi. Když prochází skrz každou jednu vrstvu, musí si hodit záchranný hod na Obratnost. Když neuspěje, ovlivní ho vlastnosti vrstvy popsané níže. 
+Zeď se skládá ze sedmi vrstev různé barvy. Když se tvor pokusí projít skrz zeď, musí to udělat postupně po jedné vrstvě skrz všechny vrstvy zdi. Když prochází skrz každou jednu vrstvu, musí si hodit záchranný hod na Obratnost. Když neuspěje, ovlivní ho vlastnosti vrstvy popsané níže.
 
 Zeď lze zničit, také postupně po jedné vrstvě, v pořadí od červené po fialovou, a to prostředky, které jsou pro každou vrstvu specifické. Jakmile je vrstva zničena, zůstane zničená po zbytek doby trvání kouzla. *Antimagické pole* na *spektrální zeď* neúčinkuje a *rozptyl magii* funguje jen na fialovou vrstvu.
 
@@ -38,6 +38,6 @@ Zeď lze zničit, také postupně po jedné vrstvě, v pořadí od červené po 
 
 Dokud stojí tato vrstva, kouzla neprojdou skrz zeď. Vrstvu je možné zničit jasným světlem z kouzla denní světlo nebo z podobného kouzla stejné či vyšší úrovně.
 
-***7. Fialová.*** Když cíl neuspěje, oslepne. Na začátku tvého příštího tahu si pak musí hodit záchranný hod na Moudrost. Uspěje-li, slepota skončí. Neuspěje-li i v této záchraně, je okamžitě přenesen do jiné sféry existence, kterou vybere PJ , a přestane být slepý. (Obvykle je to tak, že tvor, který není ve své domovské sféře, je vypuzen domů, a tvor, který je ve své domovské sféře, je obvykle přenesen buď do Astrální, nebo Éterické sféry) 
+***7. Fialová.*** Když cíl neuspěje, oslepne. Na začátku tvého příštího tahu si pak musí hodit záchranný hod na Moudrost. Uspěje-li, slepota skončí. Neuspěje-li i v této záchraně, je okamžitě přenesen do jiné sféry existence, kterou vybere PJ , a přestane být slepý. (Obvykle je to tak, že tvor, který není ve své domovské sféře, je vypuzen domů, a tvor, který je ve své domovské sféře, je obvykle přenesen buď do Astrální, nebo Éterické sféry)
 
 Tuto vrstvu je možné zničit kouzlem *rozptyl magii* nebo podobným kouzlem stejné či vyšší úrovně.

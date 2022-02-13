@@ -1,4 +1,4 @@
-# PLAMENNÝ ÚDER
+# Plamenný úder
 
 *Flame strike*
 

@@ -1,4 +1,4 @@
-# PROTIKOUZLO
+# Protikouzlo
 
 *Counterspell*
 

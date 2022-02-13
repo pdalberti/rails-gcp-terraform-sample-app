@@ -1,4 +1,4 @@
-# ROZPTYL ZLO A DOBRO
+# Rozptyl zlo a dobro
 
 *Dispel evil and good*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Klerik, paladin
 
-Obklopí tě třpytivá energie a ochrání tě od nemrtvých, víl a bytostí, které nepochází z Materiální sféry. Po dobu trvání mají běsi, elementálové, nebešťané, nemrtví a víly nevýhodu k hodům na útok proti tobě. 
+Obklopí tě třpytivá energie a ochrání tě od nemrtvých, víl a bytostí, které nepochází z Materiální sféry. Po dobu trvání mají běsi, elementálové, nebešťané, nemrtví a víly nevýhodu k hodům na útok proti tobě.
 
 Kouzlo můžeš ukončit předčasně použitím jedné z následujících zvláštních funkcí.
 

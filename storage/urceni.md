@@ -1,4 +1,4 @@
-# URČENÍ
+# Určení
 
 *Identify*
 
@@ -16,6 +16,6 @@
 
 **Povolání:** Bard, kouzelník
 
-Zvol jeden předmět, kterého se musíš dotýkat během vyvolávání kouzla. Je-li to kouzelný předmět nebo jiný magií prodchnutý předmět, zjistíš jeho vlastnosti a jak je používat, jestli předmět vyžaduje pro použití sladění a kolik má dávek, má-li nějaké. Zjistíš, jestli předmět ovlivňují nějaká kouzla a co jsou zač. Pokud předmět vytvořilo nějaké kouzlo, dozvíš se, jaké kouzlo ho vytvořilo. 
+Zvol jeden předmět, kterého se musíš dotýkat během vyvolávání kouzla. Je-li to kouzelný předmět nebo jiný magií prodchnutý předmět, zjistíš jeho vlastnosti a jak je používat, jestli předmět vyžaduje pro použití sladění a kolik má dávek, má-li nějaké. Zjistíš, jestli předmět ovlivňují nějaká kouzla a co jsou zač. Pokud předmět vytvořilo nějaké kouzlo, dozvíš se, jaké kouzlo ho vytvořilo.
 
 Pokud se místo toho dotýkáš během sesílání tvora, zjistíš, jaká kouzla na něj právě působí, jsou-li taková.

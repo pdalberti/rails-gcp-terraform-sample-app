@@ -1,4 +1,4 @@
-# AURA ČISTOTY
+# Aura čistoty
 
 *Aura of purity*
 

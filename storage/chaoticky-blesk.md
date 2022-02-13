@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Zaklínání 1. úrovně* 
+*Zaklínání 1. úrovně*
 
 **Vyvolání:** 1 akce
 

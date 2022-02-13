@@ -1,4 +1,4 @@
-# OHNIVÁ ČEPEL
+# Ohnivá čepel
 
 *Flame blade*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Druid
 
-Ve své volné ruce vyvoláš ohnivou čepel. Čepel má podobnou velikost a tvar jako scimitar a vydrží po dobu trvání. Pustíš-li čepel, zmizí, ale můžeš ji vyvolat znovu jako bonusovou akci. 
+Ve své volné ruce vyvoláš ohnivou čepel. Čepel má podobnou velikost a tvar jako scimitar a vydrží po dobu trvání. Pustíš-li čepel, zmizí, ale můžeš ji vyvolat znovu jako bonusovou akci.
 
-Ohnivou čepelí můžeš pomocí své akce zaútočit na blízko kouzlem. Při zásahu utrpí cíl ohnivé zranění 3k6. 
+Ohnivou čepelí můžeš pomocí své akce zaútočit na blízko kouzlem. Při zásahu utrpí cíl ohnivé zranění 3k6.
 
 Ohnivá čepel osvítí jasným světlem okruh o poloměru 2 sáhy a další 2 sáhy dosvítí slabým světlem.
 

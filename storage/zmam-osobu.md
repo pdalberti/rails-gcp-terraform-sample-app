@@ -1,4 +1,4 @@
-# ZMAM OSOBU
+# Zmam osobu
 
 *Charm person*
 

@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
-*Iluze 2. úrovně* 
+*Iluze 2. úrovně*
 
 **Vyvolání:** 1 bonusová akce
 

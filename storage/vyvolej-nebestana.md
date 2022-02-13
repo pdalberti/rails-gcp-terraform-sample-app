@@ -1,4 +1,4 @@
-# VYVOLEJ NEBEŠŤANA
+# Vyvolej nebešťana
 
 *Conjure celestial*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Klerik
 
-Přivoláš nebešťana s nebezpečností 4 či méně, který se objeví na volném místě, jež vidíš v dosahu. Nebešťan zmizí, když mu klesnou životy na 0, nebo když kouzlo skončí. 
+Přivoláš nebešťana s nebezpečností 4 či méně, který se objeví na volném místě, jež vidíš v dosahu. Nebešťan zmizí, když mu klesnou životy na 0, nebo když kouzlo skončí.
 
-Nebešťan je přátelský vůči tobě a tvým společníkům po dobu trvání. Hod za nebešťana na iniciativu, ve které bude mít své vlastní tahy. Poslechne jakýkoliv slovní rozkaz, který mu udělíš (akce není potřeba), pokud se nepříčí jeho přesvědčení. Neudělíš-li nebešťanovi žádný rozkaz, bude se jen bránit proti nepřátelským tvorům, ale jinak neudělá nic. 
+Nebešťan je přátelský vůči tobě a tvým společníkům po dobu trvání. Hod za nebešťana na iniciativu, ve které bude mít své vlastní tahy. Poslechne jakýkoliv slovní rozkaz, který mu udělíš (akce není potřeba), pokud se nepříčí jeho přesvědčení. Neudělíš-li nebešťanovi žádný rozkaz, bude se jen bránit proti nepřátelským tvorům, ale jinak neudělá nic.
 
 PJ má nebešťanovy statistiky.
 

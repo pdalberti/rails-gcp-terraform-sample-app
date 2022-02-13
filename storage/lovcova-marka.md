@@ -1,4 +1,4 @@
-# LOVCOVA MARKA
+# Lovcova marka
 
 *Hunter's mark*
 

@@ -1,4 +1,4 @@
-# SLUNEČNÍ PAPRSEK
+# Sluneční paprsek
 
 *Sunbeam*
 

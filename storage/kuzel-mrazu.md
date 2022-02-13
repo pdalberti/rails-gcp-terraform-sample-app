@@ -1,4 +1,4 @@
-# KUŽEL MRAZU
+# Kužel mrazu
 
 *Cone of cold*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-Ze tvých rukou vyšlehne mrazivý vzduch. Každý tvor v kuželu 12 sáhů si musí hodit záchranný hod na Odolnost. Když tvor neuspěje, utrpí chladné zranění 8k8, nebo poloviční zranění při úspěšném záchranném hodu. 
+Ze tvých rukou vyšlehne mrazivý vzduch. Každý tvor v kuželu 12 sáhů si musí hodit záchranný hod na Odolnost. Když tvor neuspěje, utrpí chladné zranění 8k8, nebo poloviční zranění při úspěšném záchranném hodu.
 
 Z tvora zabitého tímto kouzlem se stane zmrzlá socha, dokud neroztaje.
 

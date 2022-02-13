@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutace 2. úrovně (rituál)*
+*Transmutace 2. úrovně (rituál)*
 
 **Vyvolání:** 1 akce
 

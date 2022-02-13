@@ -1,4 +1,4 @@
-# PRAVDIVÉ VIDĚNÍ
+# Pravdivé vidění
 
 *True seeing*
 

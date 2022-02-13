@@ -1,4 +1,4 @@
-# ŠTÍT PROTI ŽIVÝM
+# Štít proti živým
 
 *Antilife shell*
 

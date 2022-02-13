@@ -1,4 +1,4 @@
-# HMYZÍ ZHOUBA
+# Hmyzí zhouba
 
 *Insect plague*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, druid, klerik
 
-Roj kousajících kobylek vyplní kouli o poloměru 4 sáhy se středem v tebou zvoleném bodě v dosahu. Koule se rozšiřuje kolem rohů. Vydrží po dobu trvání a je slabě zahalená. Oblast koule je těžký terén. 
+Roj kousajících kobylek vyplní kouli o poloměru 4 sáhy se středem v tebou zvoleném bodě v dosahu. Koule se rozšiřuje kolem rohů. Vydrží po dobu trvání a je slabě zahalená. Oblast koule je těžký terén.
 
 Když se oblast objeví, každý tvor v ní si musí hodit záchranný hod na Odolnost. Když tvor neuspěje, utrpí bodné zranění 4k10, nebo poloviční zranění při úspěšném záchranném hodu. Tvor si také musí hodit tento záchranný hod, když vstoupí do oblasti kouzla v tahu poprvé, nebo v ní skončí svůj tah.
 

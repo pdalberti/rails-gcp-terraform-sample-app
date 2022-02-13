@@ -1,4 +1,4 @@
-# ROZKAZ
+# Rozkaz
 
 *Command*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Klerik, paladin
 
-Tvorovi, kterého vidíš v dosahu, zadáš jednoslovný rozkaz. Cíl musí uspět v záchranném hodu na Moudrost, jinak ve svém příštím tahu musí splnit tvůj rozkaz. Toto kouzlo nemá žádný účinek, je-li cíl nemrtvý či nerozumí tvému jazyku, nebo pokud by ho tvůj příkaz přímým způsobem zranil. 
+Tvorovi, kterého vidíš v dosahu, zadáš jednoslovný rozkaz. Cíl musí uspět v záchranném hodu na Moudrost, jinak ve svém příštím tahu musí splnit tvůj rozkaz. Toto kouzlo nemá žádný účinek, je-li cíl nemrtvý či nerozumí tvému jazyku, nebo pokud by ho tvůj příkaz přímým způsobem zranil.
 
 Následuje několik typických rozkazů a jejich účinků. Můžeš vydat i jiný rozkaz než zde popsaný. Uděláš-li to, PJ určí, jak se bude cíl chovat. Je-li cíli bráněno ve vykonání rozkazu, kouzlo skončí.
 

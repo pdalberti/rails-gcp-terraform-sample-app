@@ -1,4 +1,4 @@
-# SEJMI KLETBU
+# Sejmi kletbu
 
 *Remove curse*
 

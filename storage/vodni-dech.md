@@ -1,4 +1,4 @@
-# VODNÍ DECH
+# Vodní dech
 
 *Water breathing*
 

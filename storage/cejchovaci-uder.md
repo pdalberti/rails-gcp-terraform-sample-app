@@ -1,4 +1,4 @@
-# CEJCHOVACÍ ÚDER
+# Cejchovací úder
 
 *Branding smite*
 

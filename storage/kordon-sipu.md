@@ -1,4 +1,4 @@
-# KORDON ŠÍPŮ
+# Kordon šípů
 
 *Cordon of arrows*
 

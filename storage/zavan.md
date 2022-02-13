@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutační trik* 
+*Transmutační trik*
 
 **Vyvolání:** 1 bonusová akce
 

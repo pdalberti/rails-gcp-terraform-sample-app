@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Očarování 9. úrovně* 
+*Očarování 9. úrovně*
 
 **Vyvolání:** 1 akce
 

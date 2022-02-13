@@ -1,4 +1,4 @@
-# ROZPTYL MAGII
+# Rozptyl magii
 
 *Dispel magic*
 

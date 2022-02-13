@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutace 1. úrovně* 
+*Transmutace 1. úrovně*
 
 **Vyvolání:** 1 akce
 

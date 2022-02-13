@@ -1,4 +1,4 @@
-# OBLAK SMRTI
+# Oblak smrti
 
 *Cloudkill*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-Vytvoříš kouli jedovaté, žlutozelené mlhy o poloměru 4 sáhy se středem v bodě, který zvolíš v dosahu. Mlha se rozšiřuje kolem rohů. Vydrží po dobu trvání, nebo dokud ji nerozfouká silný vítr, čímž kouzlo skončí. Oblast je husté zahalená. 
+Vytvoříš kouli jedovaté, žlutozelené mlhy o poloměru 4 sáhy se středem v bodě, který zvolíš v dosahu. Mlha se rozšiřuje kolem rohů. Vydrží po dobu trvání, nebo dokud ji nerozfouká silný vítr, čímž kouzlo skončí. Oblast je husté zahalená.
 
-Když tvor vstoupí do oblasti kouzla poprvé v tahu, nebo v ní začne svůj tah, musí si hodit záchranný hod na Odolnost. Když neuspěje, utrpí jedové zranění 5k8, nebo poloviční zranění při úspěšném záchranném hodu. Tvorové jsou ovlivnění, i když zadrží svůj dech nebo když nemusí dýchat. 
+Když tvor vstoupí do oblasti kouzla poprvé v tahu, nebo v ní začne svůj tah, musí si hodit záchranný hod na Odolnost. Když neuspěje, utrpí jedové zranění 5k8, nebo poloviční zranění při úspěšném záchranném hodu. Tvorové jsou ovlivnění, i když zadrží svůj dech nebo když nemusí dýchat.
 
 Na začátku každého tvého tahu se mlha pohne 2 sáhy od tebe, převaluje se po povrchu země. Výpary jsou těžší než vzduch a klesají na nejnižší úroveň země, dokonce proudí dolů do otvorů.
 

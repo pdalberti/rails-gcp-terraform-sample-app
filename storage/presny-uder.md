@@ -1,4 +1,4 @@
-# PŘESNÝ ÚDER
+# Přesný úder
 
 *True strike*
 

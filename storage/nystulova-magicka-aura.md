@@ -1,4 +1,4 @@
-# NYSTULOVA MAGICKÁ AURA
+# Nystulova magická aura
 
 *Nystul's magic aura*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Kouzelník
 
-Na tvora či předmět, kterého se dotkneš, umístíš iluzi, takže věštecká kouzla o něm zjeví falešné informace. Cílem může být tvor, který s tím souhlasí, nebo předmět, který nedrží ani nenese někdo jiný. 
+Na tvora či předmět, kterého se dotkneš, umístíš iluzi, takže věštecká kouzla o něm zjeví falešné informace. Cílem může být tvor, který s tím souhlasí, nebo předmět, který nedrží ani nenese někdo jiný.
 
 Když sesíláš toto kouzlo, zvol jeden či oba z následujících účinků. Účinek vydrží po dobu trvání. Sešleš-li toto kouzlo na stejného tvora či předmět každý den po dobu 30 dní a pokaždé na něj umístíš stejný účinek, iluze se stane trvalou, dokud se nerozptýlí.
 

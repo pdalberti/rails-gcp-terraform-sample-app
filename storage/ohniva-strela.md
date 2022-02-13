@@ -1,4 +1,4 @@
-# OHNIVÁ STŘELA
+# Ohnivá střela
 
 *Fire bolt*
 

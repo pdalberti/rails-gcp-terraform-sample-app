@@ -1,4 +1,4 @@
-# ŽIVELNÁ ZBRAŇ
+# Živelná zbraň
 
 *Elemental weapon*
 

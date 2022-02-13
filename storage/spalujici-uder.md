@@ -1,4 +1,4 @@
-# SPALUJÍCÍ ÚDER
+# Spalující úder
 
 *Searing smite*
 

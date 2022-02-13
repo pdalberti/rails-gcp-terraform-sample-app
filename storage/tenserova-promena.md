@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutace 6. úrovně* 
+*Transmutace 6. úrovně*
 
 **Vyvolání:** 1 akce
 

@@ -1,4 +1,4 @@
-# VYVOLEJ NIŽŠÍ ELEMENTÁLY
+# Vyvolej nižší elementály
 
 *Conjure minor elementals*
 
@@ -18,14 +18,14 @@
 
 Přivoláš elementály, kteří se objeví na volných místech, jež vidíš v dosahu. Zvol jednu z následujících možností pro to, co se objeví:
 
- * Jeden elementál s nebezpečností 2 či méně 
+* Jeden elementál s nebezpečností 2 či méně 
  * Dva  elementálové s nebezpečností 1 či méně 
  * Čtyři  elementálové s nebezpečností 1/2 či méně 
- * Osm  elementálů s nebezpečností 1/4 či méně 	
+ * Osm  elementálů s nebezpečností 1/4 či méně
 
-Přivolaný elementál zmizí, když mu klesnou životy na 0, nebo když kouzlo skončí. 
+Přivolaný elementál zmizí, když mu klesnou životy na 0, nebo když kouzlo skončí.
 
-Přivolaní elementálové jsou přátelští vůči tobě a tvým společníkům. Hod za přivolané elementály na iniciativu (jako skupinu), ve které budou mít své vlastní tahy. Poslechnou jakýkoliv slovní rozkaz, který jim udělíš (akce není potřeba). Neudělíš-li jim žádný rozkaz, budou se jen bránit proti nepřátelským tvorům, ale jinak neudělají nic. 
+Přivolaní elementálové jsou přátelští vůči tobě a tvým společníkům. Hod za přivolané elementály na iniciativu (jako skupinu), ve které budou mít své vlastní tahy. Poslechnou jakýkoliv slovní rozkaz, který jim udělíš (akce není potřeba). Neudělíš-li jim žádný rozkaz, budou se jen bránit proti nepřátelským tvorům, ale jinak neudělají nic.
 
 PJ má statistiky elementálů.
 

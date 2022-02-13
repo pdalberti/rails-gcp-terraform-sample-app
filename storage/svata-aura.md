@@ -1,4 +1,4 @@
-# SVATÁ AURA
+# Svatá aura
 
 *Holy aura*
 

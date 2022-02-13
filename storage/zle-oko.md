@@ -1,4 +1,4 @@
-# ZLÉ OKO
+# Zlé oko
 
 *Eyebite*
 

@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutace 2. úrovně* 
+*Transmutace 2. úrovně*
 
 **Vyvolání:** 1 bonusová akce
 

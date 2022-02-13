@@ -1,4 +1,4 @@
-# MLŽNÝ KROK
+# Mlžný krok
 
 *Misty step*
 

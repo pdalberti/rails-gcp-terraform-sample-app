@@ -1,4 +1,4 @@
-# ODOLÁNÍ
+# Odolání
 
 *Resistance*
 

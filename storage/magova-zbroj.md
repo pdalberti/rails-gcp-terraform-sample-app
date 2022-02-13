@@ -1,4 +1,4 @@
-# MÁGOVA ZBROJ
+# Mágova zbroj
 
 *Mage armor*
 

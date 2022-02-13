@@ -1,4 +1,4 @@
-# MRAZIVÝ PAPRSEK
+# Mrazivý paprsek
 
 *Ray of frost*
 

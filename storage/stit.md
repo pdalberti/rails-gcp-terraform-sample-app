@@ -1,4 +1,4 @@
-# ŠTÍT
+# Štít
 
 *Shield*
 

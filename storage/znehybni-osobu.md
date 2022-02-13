@@ -1,4 +1,4 @@
-# ZNEHYBNI OSOBU
+# Znehybni osobu
 
 *Hold person*
 

@@ -1,4 +1,4 @@
-# OCHRANA PŘED ENERGIÍ
+# Ochrana před energií
 
 *Protection from energy*
 

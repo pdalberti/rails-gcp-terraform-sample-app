@@ -1,4 +1,4 @@
-# ANTIMAGICKÉ POLE
+# Antimagické pole
 
 *Antimagic field*
 

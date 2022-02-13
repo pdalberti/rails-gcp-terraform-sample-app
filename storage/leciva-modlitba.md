@@ -1,4 +1,4 @@
-# LÉČIVÁ MODLITBA
+# Léčivá modlitba
 
 *Prayer of healing*
 

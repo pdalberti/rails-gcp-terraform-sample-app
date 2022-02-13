@@ -1,4 +1,4 @@
-# VÝŘEČNOSTI
+# Výřečnosti
 
 *Glibness*
 

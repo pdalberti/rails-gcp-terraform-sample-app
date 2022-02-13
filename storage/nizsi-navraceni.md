@@ -1,4 +1,4 @@
-# NIŽŠÍ NAVRÁCENÍ
+# Nižší navrácení
 
 *Lesser restoration*
 

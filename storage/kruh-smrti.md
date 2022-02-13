@@ -1,4 +1,4 @@
-# KRUH SMRTI
+# Kruh smrti
 
 *Circle of death*
 

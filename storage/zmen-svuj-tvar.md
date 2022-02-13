@@ -1,4 +1,4 @@
-# ZMĚŇ SVŮJ TVAR
+# Změň svůj tvar
 
 *Alter self*
 

@@ -1,4 +1,4 @@
-# TANČÍCÍ SVĚTLA
+# Tančící světla
 
 *Dancing lights*
 
@@ -16,6 +16,6 @@
 
 **Povolání:** Bard, čaroděj, kouzelník
 
-V dosahu vytvoříš až čtyři světla o velikosti pochodně, která vypadají jako pochodně, lucerny nebo svítící koule, jež se vznáší ve vzduchu po dobu trvání. Můžeš také zkombinovat čtyři světla do jednoho svítícího, neurčitého humanoidního těla Střední velikosti. Ať zvolíš jakoukoliv formu, každé světlo slabě osvítí okruh o poloměru 2 sáhy. 
+V dosahu vytvoříš až čtyři světla o velikosti pochodně, která vypadají jako pochodně, lucerny nebo svítící koule, jež se vznáší ve vzduchu po dobu trvání. Můžeš také zkombinovat čtyři světla do jednoho svítícího, neurčitého humanoidního těla Střední velikosti. Ať zvolíš jakoukoliv formu, každé světlo slabě osvítí okruh o poloměru 2 sáhy.
 
 Jako bonusovou akci můžeš ve svém tahu pohnout světly až o 12 sáhů na nové místo v rámci dosahu. Světlo musí být do 4 sáhy od jiného světla stvořeného tímto kouzlem. Pokud se nějaké světlo vzdálí mimo dosah kouzla, se zablikáním zhasne.

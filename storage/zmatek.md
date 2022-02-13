@@ -1,4 +1,4 @@
-# ZMATEK
+# Zmatek
 
 *Confusion*
 
@@ -16,13 +16,13 @@
 
 **Povolání:** Bard, čaroděj, druid, kouzelník
 
-Toto kouzlo napadne a poblouzní mysli tvorů, způsobí jim halucinace a vyvolá neovladatelnou akci. Každý tvor v kouli o poloměru 2 sáhy se středem v bodě, který zvolíš v dosahu, musí uspět v záchranném hodu na Moudrost, když sešleš toto kouzlo, jinak ho kouzlo ovlivní. 
+Toto kouzlo napadne a poblouzní mysli tvorů, způsobí jim halucinace a vyvolá neovladatelnou akci. Každý tvor v kouli o poloměru 2 sáhy se středem v bodě, který zvolíš v dosahu, musí uspět v záchranném hodu na Moudrost, když sešleš toto kouzlo, jinak ho kouzlo ovlivní.
 
-Ovlivněný tvor nemůže reagovat a na začátku každého svého tahu si musí hodit k 10 a určit své chování během daného tahu dle tabulky. 
+Ovlivněný tvor nemůže reagovat a na začátku každého svého tahu si musí hodit k 10 a určit své chování během daného tahu dle tabulky.
 
 Na konci každého svého tahu si ovlivněný cíl může hodit záchranný hod na Moudrost. Uspěje-li, tento účinek pro něj skončí.
 
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 5. či vyšší úrovně, za každou další úroveň pozice nad 4. se zvýší poloměr koule o 1 sáh. 
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 5. či vyšší úrovně, za každou další úroveň pozice nad 4. se zvýší poloměr koule o 1 sáh.
 
 | kıo | Chování |
 | --- | --- |

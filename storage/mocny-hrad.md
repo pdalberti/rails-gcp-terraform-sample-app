@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vyvolávání 8. úrovně* 
+*Vyvolávání 8. úrovně*
 
 **Vyvolání:** 1 minuta
 
@@ -27,6 +27,6 @@ Pevnost obývá stovka neviditelných služebníků, kteří poslechnou jakýkol
 
 Hradby pevnosti, obranné věže i obytná věž jsou celé z kamene, který může být poškozen. Každý úsek zdi o rozměrech 2 x 2 sáhy má OČ 15 a 30 životů za každý coul tloušťky zdi a je imunní vůči psychickému a jedovému zranění. Pokud úsek zdi přijde o všechny životy, je probořen a, dle úvahy PJ, může způsobit prolomení, až zhroucení sousedících sekcí.
 
-Po 7 dnech, nebo pokud toto kouzlo sešleš někde jinde, se hrad zase ponoří do země, ze které povstal. Tvorové, kteří byli uvnitř nebo na hradbách, skončí bezpečně na zemi. 
+Po 7 dnech, nebo pokud toto kouzlo sešleš někde jinde, se hrad zase ponoří do země, ze které povstal. Tvorové, kteří byli uvnitř nebo na hradbách, skončí bezpečně na zemi.
 
 Trvalou pevnost můžeš vytvořit tak, že toto kouzlo sešleš každých 7 dní na stejném místě po dobu jednoho roku.

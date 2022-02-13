@@ -1,4 +1,4 @@
-# MLUV SE ZVÍŘATY
+# Mluv se zvířaty
 
 *Speak with animals*
 

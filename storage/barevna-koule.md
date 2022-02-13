@@ -1,4 +1,4 @@
-# BAREVNÁ KOULE
+# Barevná koule
 
 *Chromatic orb*
 

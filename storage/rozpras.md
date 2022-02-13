@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vyvolávání 6. úrovně* 
+*Vyvolávání 6. úrovně*
 
 **Vyvolání:** 1 akce
 

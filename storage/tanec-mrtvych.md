@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Nekromancie 5. úrovně* 
+*Nekromancie 5. úrovně*
 
 **Vyvolání:** 1 akce
 

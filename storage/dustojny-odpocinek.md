@@ -1,4 +1,4 @@
-# DŮSTOJNÝ ODPOČINEK
+# Důstojný odpočinek
 
 *Gentle repose*
 
@@ -16,6 +16,6 @@
 
 **Povolání:** Klerik, kouzelník
 
-Dotkneš se mrtvoly nebo jiných ostatků. Po dobu trvání je cíl chráněný před rozkladem a nemůže se stát nemrtvým. 
+Dotkneš se mrtvoly nebo jiných ostatků. Po dobu trvání je cíl chráněný před rozkladem a nemůže se stát nemrtvým.
 
 Kouzlo také prakticky prodlužuje časový limit pro vzkříšení cíle, neboť dny, po které působí toto kouzlo, se nepočítají do časového limitu kouzel typu *vzkříšení*.

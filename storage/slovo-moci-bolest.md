@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Očarování 7. úrovně* 
+*Očarování 7. úrovně*
 
 **Vyvolání:** 1 akce
 

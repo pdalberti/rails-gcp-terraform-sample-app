@@ -1,4 +1,4 @@
-# OBLAK MLHY
+# Oblak mlhy
 
 *Fog cloud*
 

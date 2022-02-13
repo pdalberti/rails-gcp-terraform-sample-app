@@ -1,4 +1,4 @@
-# BIGBYHO RUKA
+# Bigbyho ruka
 
 *Bigby's hand*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Kouzelník
 
-Na volném místě, které vidíš v dosahu, vytvoříš Velkou ruku světélkující, průsvitné síly. Ruka vydrží po dobu trvání kouzla, pohybuje se na tvůj rozkaz a napodobuje pohyby tvé vlastní ruky. 
+Na volném místě, které vidíš v dosahu, vytvoříš Velkou ruku světélkující, průsvitné síly. Ruka vydrží po dobu trvání kouzla, pohybuje se na tvůj rozkaz a napodobuje pohyby tvé vlastní ruky.
 
-Ruka je předmět, který má OČ 20 a životy rovné tvému maximu životů. Klesnou-li její životy na 0, kouzlo skončí. Má Sílu 26 (+8) a Obratnost 10 (+0). Ruka nevyplňuje svoje místo úplně. 
+Ruka je předmět, který má OČ 20 a životy rovné tvému maximu životů. Klesnou-li její životy na 0, kouzlo skončí. Má Sílu 26 (+8) a Obratnost 10 (+0). Ruka nevyplňuje svoje místo úplně.
 
 Když sešleš toto kouzlo a také jako bonusovou akci ve svých pozdějších tazích, můžeš pohnout rukou až o 12 sáhů a pak s ní způsobit jeden z následujících účinků.
 

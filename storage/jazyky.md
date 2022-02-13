@@ -1,4 +1,4 @@
-# JAZYKY
+# Jazyky
 
 *Tongues*
 

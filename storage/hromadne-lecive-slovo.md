@@ -1,4 +1,4 @@
-# HROMADNÉ LÉČIVÉ SLOVO
+# Hromadné léčivé slovo
 
 *Mass healing word*
 

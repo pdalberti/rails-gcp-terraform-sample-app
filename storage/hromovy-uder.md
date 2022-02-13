@@ -1,4 +1,4 @@
-# HROMOVÝ ÚDER
+# Hromový úder
 
 *Thunderous smite*
 

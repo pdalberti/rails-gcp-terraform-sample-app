@@ -1,4 +1,4 @@
-# TVORBA
+# Tvorba
 
 *Creation*
 
@@ -26,7 +26,7 @@ Vytáhneš ze Stínopádu chuchvalce stínového materiálu a v rámci dosahu vy
 | Drahokamy | 10 minut |
 | Adamantin nebo mitril | 1 minuta |
 
-Trvání záleží na materiálu předmětu. Je-li předmět složený z více materiálů, použij nejkratší dobu trvání. 
+Trvání záleží na materiálu předmětu. Je-li předmět složený z více materiálů, použij nejkratší dobu trvání.
 
 Použití jakéhokoli materiálu vytvořeného tímto kouzlem jako surovinovou složku jiného kouzla způsobí, že kouzlo selže.
 

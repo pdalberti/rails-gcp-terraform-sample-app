@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Nekromantický trik* 
+*Nekromantický trik*
 
 **Vyvolání:** 1 akce
 

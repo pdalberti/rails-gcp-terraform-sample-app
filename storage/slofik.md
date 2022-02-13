@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Očarování 3. úrovně* 
+*Očarování 3. úrovně*
 
 **Vyvolání:** 1 akce
 

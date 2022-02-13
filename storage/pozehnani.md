@@ -1,4 +1,4 @@
-# POŽEHNÁNÍ
+# Požehnání
 
 *Bless*
 

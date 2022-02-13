@@ -1,4 +1,4 @@
-# NAJDI ZLO A DOBRO
+# Najdi zlo a dobro
 
 *Detect evil and good*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Klerik, paladin
 
-Po dobu trvání víš, jestli je do 6 sáhů od tebe běs, elementál, nebešťan, nemrtvý, víla nebo zrůda, stejně jako kde se nachází. Podobně víš, jestli je do 6 sáhů od tebe místo či předmět, který je magicky posvěcený nebo znesvěcený. 
+Po dobu trvání víš, jestli je do 6 sáhů od tebe běs, elementál, nebešťan, nemrtvý, víla nebo zrůda, stejně jako kde se nachází. Podobně víš, jestli je do 6 sáhů od tebe místo či předmět, který je magicky posvěcený nebo znesvěcený.
 
 Kouzlo pronikne skrz většinu překážek, ale neprojde 1 stopou kamene, 1 coulem běžného kovu, tenkou vrstvou olova nebo 3 stopami dřeva či hlíny.
 <!--stackedit_data:

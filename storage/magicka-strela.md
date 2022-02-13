@@ -1,4 +1,4 @@
-# MAGICKÁ STŘELA
+# Magická střela
 
 *Magic missile*
 

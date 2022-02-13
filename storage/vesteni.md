@@ -1,4 +1,4 @@
-# VĚŠTĚNÍ
+# Věštění
 
 *Divination*
 
@@ -16,8 +16,8 @@
 
 **Povolání:** Klerik
 
-Tvá magie a oběť tě dostanou do kontaktu s tvým bohem nebo božským služebníkem. Zeptáš se na jednu otázku ohledně konkrétního cíle, události nebo činnosti, jenž nastane do 7 dnů. PJ popravdě odpoví. Odpovědí může být krátká věta, verš se skrytým významem nebo věštba. 
+Tvá magie a oběť tě dostanou do kontaktu s tvým bohem nebo božským služebníkem. Zeptáš se na jednu otázku ohledně konkrétního cíle, události nebo činnosti, jenž nastane do 7 dnů. PJ popravdě odpoví. Odpovědí může být krátká věta, verš se skrytým významem nebo věštba.
 
-Kouzlo nepočítá s potenciálními okolnostmi, které by mohly změnit výsledek, jako například seslání dalších kouzel nebo ztráta či zisk člena družiny. 
+Kouzlo nepočítá s potenciálními okolnostmi, které by mohly změnit výsledek, jako například seslání dalších kouzel nebo ztráta či zisk člena družiny.
 
 Sešleš-li kouzlo dvakrát či víckrát před tím, než si důkladně odpočineš, je u každého seslání po prvním kumulativní 25% šance, že dostaneš chybné údaje. PJ si hází tento hod v tajnosti.

@@ -1,4 +1,4 @@
-# VYVOLEJ SALVU
+# Vyvolej salvu
 
 *Conjure volley*
 

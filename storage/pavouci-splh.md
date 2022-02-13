@@ -1,4 +1,4 @@
-# PAVOUČÍ ŠPLH
+# Pavoučí šplh
 
 *Spider climb*
 

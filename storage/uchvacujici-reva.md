@@ -1,4 +1,4 @@
-# UCHVACUJÍCÍ RÉVA
+# Uchvacující réva
 
 *Grasping vine*
 
@@ -16,6 +16,6 @@
 
 **Povolání:** Druid, hraničář
 
-Vyvoláš révu, jež vyroste ze země na volném místě dle tvé volby, které vidíš dosahu. Když sešleš toto kouzlo, můžeš révě přikázat, aby se ohnala po tvorovi do 6 sáhů od ní, kterého vidíš. Tvor musí uspět v záchranném hodu na Obratnost, jinak je přitažen 4 sáhy přímým směrem k révě. 
+Vyvoláš révu, jež vyroste ze země na volném místě dle tvé volby, které vidíš dosahu. Když sešleš toto kouzlo, můžeš révě přikázat, aby se ohnala po tvorovi do 6 sáhů od ní, kterého vidíš. Tvor musí uspět v záchranném hodu na Obratnost, jinak je přitažen 4 sáhy přímým směrem k révě.
 
 Dokud kouzlo neskončí, můžeš v každém svém tahu jako bonusovou akci přikázat révě, aby se ohnala po tom stejném, nebo jiném tvorovi.

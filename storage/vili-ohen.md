@@ -1,4 +1,4 @@
-# VÍLÍ OHEŇ
+# Vílí oheň
 
 *Faerie fire*
 
@@ -16,6 +16,6 @@
 
 **Povolání:** Bard, druid
 
-Každý předmět v krychli 4 sáhy v dosahu se obalí modrým, zeleným, nebo fialovým světlem (dle tvé volby). Tímto světlem se obalí také tvorové v oblasti účinku, kteří neuspějí v záchranném hodu na Obratnost. Předměty a ovlivnění tvorové po dobu trvání vyzařují slabé světlo v okruhu o poloměru 2 sáhy. 
+Každý předmět v krychli 4 sáhy v dosahu se obalí modrým, zeleným, nebo fialovým světlem (dle tvé volby). Tímto světlem se obalí také tvorové v oblasti účinku, kteří neuspějí v záchranném hodu na Obratnost. Předměty a ovlivnění tvorové po dobu trvání vyzařují slabé světlo v okruhu o poloměru 2 sáhy.
 
 Hody na útok na tvora nebo předmět, na něž působí toto kouzlo, mají výhodu, pokud útočník cíl vidí, a ovlivněný tvor či předmět nemají žádný prospěch z neviditelnosti.

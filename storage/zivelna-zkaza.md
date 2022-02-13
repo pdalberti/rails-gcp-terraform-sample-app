@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutace 4. úrovně* 
+*Transmutace 4. úrovně*
 
 **Vyvolání:** 1 akce
 

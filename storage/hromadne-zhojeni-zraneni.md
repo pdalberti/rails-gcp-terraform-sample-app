@@ -1,4 +1,4 @@
-# HROMADNÉ ZHOJENÍ ZRANĚNÍ
+# Hromadné zhojení zranění
 
 *Mass cure wounds*
 

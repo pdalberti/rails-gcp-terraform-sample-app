@@ -1,4 +1,4 @@
-# VYVOLEJ PALBU
+# Vyvolej palbu
 
 *Conjure barrage*
 

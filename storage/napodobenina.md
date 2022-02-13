@@ -1,4 +1,4 @@
-# NAPODOBENINA
+# Napodobenina
 
 *Simulacrum*
 
@@ -16,12 +16,12 @@
 
 **Povolání:** Kouzelník
 
-Vytvaruješ iluzorní duplikát jednoho zvířete či humanoida, který je v dosahu po celou dobu vyvolání kouzla. Duplikát je tvor, částečně skutečný a vyrobený z ledu a sněhu, a může provádět akce a být ovlivněn jako normální tvor. 
+Vytvaruješ iluzorní duplikát jednoho zvířete či humanoida, který je v dosahu po celou dobu vyvolání kouzla. Duplikát je tvor, částečně skutečný a vyrobený z ledu a sněhu, a může provádět akce a být ovlivněn jako normální tvor.
 
-Vypadá jako originál, ale má poloviční maximum životů původního tvora a je bez vybavení. Jinak iluze používá všechny statistiky tvora, kterého kopíruje. 
+Vypadá jako originál, ale má poloviční maximum životů původního tvora a je bez vybavení. Jinak iluze používá všechny statistiky tvora, kterého kopíruje.
 
-Napodobenina je vůči tobě a tebou určeným tvorům přátelská. Poslechne tebou vyřčené rozkazy, pohybuje se a jedná dle tvých přání a v boji jedná ve tvém tahu. Napodobenina se nedokáže učit ani se stát mocnější, takže nikdy nezvýší svou úroveň ani ostatní vlastnosti, ani si nemůže obnovit utracené pozice kouzel. 
+Napodobenina je vůči tobě a tebou určeným tvorům přátelská. Poslechne tebou vyřčené rozkazy, pohybuje se a jedná dle tvých přání a v boji jedná ve tvém tahu. Napodobenina se nedokáže učit ani se stát mocnější, takže nikdy nezvýší svou úroveň ani ostatní vlastnosti, ani si nemůže obnovit utracené pozice kouzel.
 
-Je-li napodobenina zraněná, můžeš ji opravit v alchymistické laboratoři pomocí vzácných bylin a nerostů v hodnotě 100 zl za každý obnovený život. Napodobenina vydrží, dokud jí neklesnou životy na 0, a poté se promění zpátky ve sníh a okamžitě roztaje. 
+Je-li napodobenina zraněná, můžeš ji opravit v alchymistické laboratoři pomocí vzácných bylin a nerostů v hodnotě 100 zl za každý obnovený život. Napodobenina vydrží, dokud jí neklesnou životy na 0, a poté se promění zpátky ve sníh a okamžitě roztaje.
 
 Sešleš-li toto kouzlo znovu, jakýkoli právě aktivní duplikát, který jsi stvořil tímto kouzlem, se okamžitě zničí.

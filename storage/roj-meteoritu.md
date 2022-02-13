@@ -1,4 +1,4 @@
-# ROJ METEORITŮ
+# Roj meteoritů
 
 *Meteor swarm*
 

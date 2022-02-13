@@ -1,4 +1,4 @@
-# VYPUZUJÍCÍ ÚDER
+# Vypuzující úder
 
 *Banishing smite*
 

@@ -1,10 +1,10 @@
-# PRAŠNÝ VÍR
+# Prašný vír
 
 *Dust devil*
 
 ***Xanatharuv pruvodce vším***
 
- *Vyvolávání 2. úrovně* 
+*Vyvolávání 2. úrovně*
 
 **Vyvolání:** 1 akce
 

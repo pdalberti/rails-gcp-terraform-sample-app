@@ -1,4 +1,4 @@
-# BLESKOVÝ ŠÍP
+# Bleskový šíp
 
 *Lightning arrow*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Hraničář
 
-Až příště zaútočíš na dálku zbraní v průběhu trvání tohoto kouzla, střela zbraně, nebo zbraň samotná, je-li to vrhací zbraň, se přemění na blesk. Hoď si na útok jako normálně. Cíl utrpí bleskové zranění 4k8 při zásahu, nebo poloviční zranění při minutí, místo běžného zranění zbraně. 
+Až příště zaútočíš na dálku zbraní v průběhu trvání tohoto kouzla, střela zbraně, nebo zbraň samotná, je-li to vrhací zbraň, se přemění na blesk. Hoď si na útok jako normálně. Cíl utrpí bleskové zranění 4k8 při zásahu, nebo poloviční zranění při minutí, místo běžného zranění zbraně.
 
-Bez ohledu na to, jestli zasáhneš, každý tvor do 2 sáhů od cíle si musí hodit záchranný hod na Obratnost. Každý z těchto tvorů utrpí bleskové zranění 2k8 při neúspěšné záchraně, nebo poloviční zranění při úspěšném záchranném hodu. 
+Bez ohledu na to, jestli zasáhneš, každý tvor do 2 sáhů od cíle si musí hodit záchranný hod na Obratnost. Každý z těchto tvorů utrpí bleskové zranění 2k8 při neúspěšné záchraně, nebo poloviční zranění při úspěšném záchranném hodu.
 
 Střela nebo zbraň se pak navrátí do své původní podoby.
 

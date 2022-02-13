@@ -1,4 +1,4 @@
-# PÁCHNOUCÍ OBLAK
+# Páchnoucí oblak
 
 *Stinking cloud*
 

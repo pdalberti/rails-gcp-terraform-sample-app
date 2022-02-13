@@ -1,4 +1,4 @@
-# KEJKLE
+# Kejkle
 
 *Prestidigitation*
 
@@ -18,7 +18,7 @@
 
 Toto kouzlo je drobný magický trik, který používají k procvičování adepti sesílání kouzel. V rámci dosahu vytvoříš jeden z následujících účinků.
 
- * Vytvoříš okamžitý, neškodný smyslový účinek, například prskavku, závan větru, slabé hudební tóny nebo zvláštní vůni.
+* Vytvoříš okamžitý, neškodný smyslový účinek, například prskavku, závan větru, slabé hudební tóny nebo zvláštní vůni.
  * V mžiku zapálíš nebo zhasíš svíčku, pochodeň nebo malý táborový oheň.
  * V mžiku vyčistíš nebo ušpiníš předmět o objemu až 1 stopa krychlová.
  * Na 1 hodinu ochladíš nebo ohřeješ neživý materiál o objemu až 1 stopa krychlová.

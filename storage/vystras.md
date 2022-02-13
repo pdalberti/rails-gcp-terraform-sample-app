@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Nekromancie 1. úrovně* 
+*Nekromancie 1. úrovně*
 
 **Vyvolání:** 1 akce
 

@@ -1,4 +1,4 @@
-# MOCNÉ NAVRÁCENÍ
+# Mocné navrácení
 
 *Greater restoration*
 
@@ -18,6 +18,6 @@
 
 Tvora, jehož se dotkneš, naplníš pozitivní energií a zrušíš vysilující účinek. Můžeš snížit únavu cíle o jeden stupeň, nebo ukončit jeden z následujících účinků, jenž působí na cíl:
 
- * Jeden účinek, který zkameněl či zmámil cíl 
+* Jeden účinek, který zkameněl či zmámil cíl 
  * Jedna kletba, včetně sladění cíle s prokletým kouzelným předmětem 
  * Snížení jedné z hodnot vlastností cíleJeden účinek snižující maximum životů cíle

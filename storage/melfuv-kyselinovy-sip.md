@@ -1,4 +1,4 @@
-# MELFŮV KYSELINOVÝ ŠÍP
+# Melfův kyselinový šíp
 
 *Melf's acid arrow*
 

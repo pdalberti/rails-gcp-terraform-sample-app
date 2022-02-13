@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vyvolávání 7. úrovně* 
+*Vyvolávání 7. úrovně*
 
 **Vyvolání:** 1 hodina
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Klerik
 
-Způsobíš, že se vzduch zavlní a najednou tam, kde před chvílí byla jen holá zem, stojí chrám. Zvol si neobsazený prostor v podobě krychle o hraně až 24 sáhů. Chrám stojí, dokud kouzlo neskončí. Chrám je zasvěcen bohu, panteonu, nebo filozofii reprezentované svatým symbolem, použitým během sesílání kouzla. 
+Způsobíš, že se vzduch zavlní a najednou tam, kde před chvílí byla jen holá zem, stojí chrám. Zvol si neobsazený prostor v podobě krychle o hraně až 24 sáhů. Chrám stojí, dokud kouzlo neskončí. Chrám je zasvěcen bohu, panteonu, nebo filozofii reprezentované svatým symbolem, použitým během sesílání kouzla.
 
 Chrám je tvořen podlahou, zdmi, střechou, jedněmi dveřmi a tolika okny, kolik si budeš přát. Jeho výzdoba záleží jen na tvém rozhodnutí. Dveře do chrámu můžeš otevřít jen ty a tvorové, kterým to dovolíš během sesílání kouzla.
 

@@ -1,4 +1,4 @@
-# MAGICKÁ ZBRAŇ
+# Magická zbraň
 
 *Magic weapon*
 

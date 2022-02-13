@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vyvolávání 2. úrovně* 
+*Vyvolávání 2. úrovně*
 
 **Vyvolání:** 1 bonusová akce
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Druid, hraničář
 
-Povoláš ducha přírody, aby těšil zraněné. Nehmatatelný duch se zjeví v prostoru krychle o hraně 1 sáhu, který vidíš v dosahu. Duch na sebe vezme podobu průsvitného zvířete nebo víly (záleží na tobě). 
+Povoláš ducha přírody, aby těšil zraněné. Nehmatatelný duch se zjeví v prostoru krychle o hraně 1 sáhu, který vidíš v dosahu. Duch na sebe vezme podobu průsvitného zvířete nebo víly (záleží na tobě).
 
 Až do konce kouzla, kdykoliv se tvor, kterého vidíš, zastaví poprvé ve svém tahu na místě obsazeném duchem, nebo na tomto místě začne své kolo, můžeš způsobit, že duch tomuto tvorovi obnoví 1k6 životů (nevyžaduje akci). Duch nedokáže vyléčit výtvory ani nemrtvé.
 

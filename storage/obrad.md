@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vymítání 1. úrovně (rituál)*
+*Vymítání 1. úrovně (rituál)*
 
 **Vyvolání:** 1 hodina
 

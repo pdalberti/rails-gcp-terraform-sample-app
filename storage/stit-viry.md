@@ -1,4 +1,4 @@
-# ŠTÍT VÍRY
+# Štít víry
 
 *Shield of faith*
 

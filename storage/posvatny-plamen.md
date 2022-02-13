@@ -1,4 +1,4 @@
-# POSVÁTNÝ PLAMEN
+# Posvátný plamen
 
 *Sacred flame*
 

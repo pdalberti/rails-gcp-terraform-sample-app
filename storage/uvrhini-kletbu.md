@@ -1,4 +1,4 @@
-# UVRHNI KLETBU
+# Uvrhni kletbu
 
 *Bestow curse*
 
@@ -18,10 +18,10 @@
 
 Dotkneš se tvora a ten musí uspět v záchranném hodu na Moudrost, jinak se stane prokletý po dobu trvání kouzla. Když sesíláš toto kouzlo, zvol povahu kletby z následujících možností:
 
- * Zvol  jednu vlastnost. Zatímco je cíl prokletý, má nevýhodu k ověřením této vlastnosti a záchranným hodům na tuto  vlastnost. 	
+* Zvol  jednu vlastnost. Zatímco je cíl prokletý, má nevýhodu k ověřením této vlastnosti a záchranným hodům na tuto  vlastnost. 	
  * Zatímco  je cíl prokletý, má nevýhodu k hodům na útok proti tobě. 
  * Zatímco  je cíl prokletý, musí si na začátku každého svého tahu hodit  záchranný hod na Moudrost. Neuspěje-li, nic neudělá a vyplýtvá svou akci v tomto tahu. 	
- * Zatímco  je cíl prokletý, tvé útoky a kouzla mu způsobí dodatečné  nekrotické zranění 1k8. 	
+ * Zatímco  je cíl prokletý, tvé útoky a kouzla mu způsobí dodatečné  nekrotické zranění 1k8.
 
 Kouzlo *sejmi kletbu* ukončí tento účinek. Dle úvahy PJ si můžeš zvolit jiný účinek kletby, ale neměl by být mocnější než ty popsané výše. Pán jeskyně má konečné slovo na účinek takové kletby.
 

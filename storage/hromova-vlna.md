@@ -1,4 +1,4 @@
-# HROMOVÁ VLNA
+# Hromová vlna
 
 *Thunderwave*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Bard, čaroděj, druid, kouzelník
 
-Vyjde z tebe vlna hromové síly. Každý tvor v krychli 3 sáhy vycházející z tebe si musí hodit záchranný hod na Odolnost. Když tvor neuspěje, utrpí hromové zranění 2k8 a je odtlačen 2 sáhy od tebe. Když uspěje, utrpí poloviční zranění a není odtlačen. 
+Vyjde z tebe vlna hromové síly. Každý tvor v krychli 3 sáhy vycházející z tebe si musí hodit záchranný hod na Odolnost. Když tvor neuspěje, utrpí hromové zranění 2k8 a je odtlačen 2 sáhy od tebe. Když uspěje, utrpí poloviční zranění a není odtlačen.
 
 Mimo to, nezajištěné předměty, které jsou celé v oblasti účinku, jsou účinkem kouzla automaticky odtlačeny 2 sáhy od tebe a kouzlo hromově zaduní, což lze slyšet až 60 sáhů od tebe.
 

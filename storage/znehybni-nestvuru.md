@@ -1,4 +1,4 @@
-# ZNEHYBNI NESTVŮRU
+# Znehybni nestvůru
 
 *Hold monster*
 

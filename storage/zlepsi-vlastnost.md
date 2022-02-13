@@ -1,4 +1,4 @@
-# ZLEPŠI VLASTNOST
+# Zlepši vlastnost
 
 *Enchance ability*
 

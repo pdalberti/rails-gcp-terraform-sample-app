@@ -1,4 +1,4 @@
-# OHNIVÁ KOULE
+# Ohnivá koule
 
 *Fireball*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-Z tvého ukazováčku se blýskne jasná čmouha do bodu, který zvolíš v rámci dosahu, a pak s tichým zaburácením rozkvete do ohnivého výbuchu. Každý tvor v kouli o poloměru 4 sáhy se středem v daném bodě si musí hodit záchranný hod na Obratnost. Když cíl neuspěje, utrpí ohnivé zranění 8k6, nebo poloviční zranění při úspěšném záchranném hodu. 
+Z tvého ukazováčku se blýskne jasná čmouha do bodu, který zvolíš v rámci dosahu, a pak s tichým zaburácením rozkvete do ohnivého výbuchu. Každý tvor v kouli o poloměru 4 sáhy se středem v daném bodě si musí hodit záchranný hod na Obratnost. Když cíl neuspěje, utrpí ohnivé zranění 8k6, nebo poloviční zranění při úspěšném záchranném hodu.
 
 Oheň se rozšiřuje kolem rohů. Oheň zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
 

@@ -1,4 +1,4 @@
-# TICHO
+# Ticho
 
 *Silence*
 

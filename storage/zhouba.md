@@ -1,4 +1,4 @@
-# UŘKNUTÍ
+# Uřknutí
 
 *Bane*
 

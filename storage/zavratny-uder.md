@@ -1,4 +1,4 @@
-# ZÁVRATNÝ ÚDER
+# Závratný úder
 
 *Staggering smite*
 

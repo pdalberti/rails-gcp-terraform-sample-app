@@ -1,4 +1,4 @@
-# TVARUJ KÁMEN
+# Tvaruj kámen
 
 *Stone shape*
 

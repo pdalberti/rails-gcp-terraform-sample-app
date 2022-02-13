@@ -1,4 +1,4 @@
-# HOŘÍCÍ OBLAK
+# Hořící oblak
 
 *Incendiary cloud*
 

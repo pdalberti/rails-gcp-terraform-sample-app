@@ -1,4 +1,4 @@
-# PODROB ZVÍŘE
+# Podrob zvíře
 
 *Dominate beast*
 
@@ -16,11 +16,11 @@
 
 **Povolání:** Čaroděj, druid
 
-Pokusíš se obalamutit zvíře, které vidíš v dosahu. Musí uspět v záchranném hodu na Moudrost, jinak ho zmámíš po dobu trvání. Pokud s ním ty nebo tvorové, kteří jsou vůči tobě přátelští, bojujete, má výhodu k tomuto záchrannému hodu. 
+Pokusíš se obalamutit zvíře, které vidíš v dosahu. Musí uspět v záchranném hodu na Moudrost, jinak ho zmámíš po dobu trvání. Pokud s ním ty nebo tvorové, kteří jsou vůči tobě přátelští, bojujete, má výhodu k tomuto záchrannému hodu.
 
-Zatímco je zvíře zmámené, máš s ním telepatické spojení, dokud jste ve stejné sféře existence. Když jsi při vědomí, můžeš mu skrz spojení telepaticky dávat příkazy (akce není potřeba), které splní, jak nejlépe dovede. Můžeš mu zadat jednoduchou a obecnou činnost, například „Zaútoč na tam toho tvora," „Běž tam," nebo „Přines ten předmět." Splní-li zvíře příkaz a neobdrží od tebe další, bude se jen co nejlépe bránit a udržovat. 
+Zatímco je zvíře zmámené, máš s ním telepatické spojení, dokud jste ve stejné sféře existence. Když jsi při vědomí, můžeš mu skrz spojení telepaticky dávat příkazy (akce není potřeba), které splní, jak nejlépe dovede. Můžeš mu zadat jednoduchou a obecnou činnost, například „Zaútoč na tam toho tvora," „Běž tam," nebo „Přines ten předmět." Splní-li zvíře příkaz a neobdrží od tebe další, bude se jen co nejlépe bránit a udržovat.
 
-Pomocí své akce můžeš nad cílem převzít úplnou a přesnou kontrolu. Do konce tvého příštího tahu tvor provádí jen akce, které zvolíš, a nedělá nic, co mu nedovolíš. Během této doby můžeš také ovládat jeho reakci, ale to vyžaduje, abys na to použil také svou reakci. 
+Pomocí své akce můžeš nad cílem převzít úplnou a přesnou kontrolu. Do konce tvého příštího tahu tvor provádí jen akce, které zvolíš, a nedělá nic, co mu nedovolíš. Během této doby můžeš také ovládat jeho reakci, ale to vyžaduje, abys na to použil také svou reakci.
 
 Pokaždé, když cíl utrpí zranění, hodí si nový záchranný hod na Moudrost proti tomuto kouzlu. Když v záchranném hodu uspěje, kouzlo skončí.
 

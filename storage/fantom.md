@@ -1,4 +1,4 @@
-# FANTÓM
+# Fantóm
 
 *Phantasmal killer*
 

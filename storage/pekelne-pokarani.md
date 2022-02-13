@@ -1,4 +1,4 @@
-# PEKELNÉ POKÁRÁNÍ
+# Pekelné pokárání
 
 *Hellish rebuke*
 

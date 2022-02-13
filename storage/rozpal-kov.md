@@ -1,4 +1,4 @@
-# ROZPAL KOV
+# Rozpal kov
 
 *Heat metal*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Bard, druid
 
-Zvol vyrobený kovový předmět (například kovovou zbraň nebo těžkou či střední kovovou zbroj), který vidíš v dosahu. Způsobíš, že předmět svítí do ruda rozpálenou barvou. Tvor, který je ve fyzickém kontaktu s předmětem, utrpí ohnivé zranění 2k8, když sešleš toto kouzlo. Dokud kouzlo neskončí, můžeš v každém ze svých pozdějších tahů použít bonusovou akci k opětovnému způsobení tohoto zranění. 
+Zvol vyrobený kovový předmět (například kovovou zbraň nebo těžkou či střední kovovou zbroj), který vidíš v dosahu. Způsobíš, že předmět svítí do ruda rozpálenou barvou. Tvor, který je ve fyzickém kontaktu s předmětem, utrpí ohnivé zranění 2k8, když sešleš toto kouzlo. Dokud kouzlo neskončí, můžeš v každém ze svých pozdějších tahů použít bonusovou akci k opětovnému způsobení tohoto zranění.
 
 Drží-li tvor ovlivněný předmět, nebo ho má na sobě, když utrpí dané zranění, musí uspět v záchranném hodu na Odolnost, jinak předmět pustí na zem, pokud může. Není-li možné, aby předmět pustil, má do začátku tvého příštího tahu nevýhodu k hodům na útok a ověřením vlastností.
 

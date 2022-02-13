@@ -4,13 +4,13 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Transmutace 3. úrovně* 
+*Transmutace 3. úrovně*
 
 **Vyvolání:** 1 akce
 
 **Dosah:** 24 sáhů
 
-**Složky:** V, P, M (kousek obsidiánu)
+**Složky:** V, P, S (kousek obsidiánu)
 
 **Trvání:** Ihned
 

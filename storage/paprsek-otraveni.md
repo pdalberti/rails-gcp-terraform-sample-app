@@ -1,4 +1,4 @@
-# PAPRSEK OTRÁVENÍ
+# Paprsek otrávení
 
 *Ray of sickness*
 

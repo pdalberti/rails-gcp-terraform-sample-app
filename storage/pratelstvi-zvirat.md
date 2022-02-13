@@ -1,4 +1,4 @@
-# PŘÁTELSTVÍ ZVÍŘAT
+# Přátelství zvířat
 
 *Animal friendship*
 

@@ -1,4 +1,4 @@
-# KRUPOBITÍ TRNŮ
+# Krupobití trnů
 
 *Hail of thorns*
 

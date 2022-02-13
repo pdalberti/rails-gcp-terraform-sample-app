@@ -1,4 +1,4 @@
-# VOLNOST
+# Volnost
 
 *Freedom of movement*
 
@@ -16,6 +16,6 @@
 
 **Povolání:** Bard, druid, hraničář, klerik
 
-Dotkneš se tvora, který s tím souhlasí. Po dobu trvání na pohyb cíle nepůsobí těžký terén a kouzla a jiné magické účinky nemohou omezit rychlost cíle ani ho nemohou paralyzovat či zadržet. 
+Dotkneš se tvora, který s tím souhlasí. Po dobu trvání na pohyb cíle nepůsobí těžký terén a kouzla a jiné magické účinky nemohou omezit rychlost cíle ani ho nemohou paralyzovat či zadržet.
 
 Cíl také může utratit 1 sáh pohybu k automatickému uniknutí z nemagického zadržení: například z okovů nebo z chvatu tvora. Mimo to, prostředí pod vodou nezpůsobuje pohybu a útokům cíle žádné postihy.

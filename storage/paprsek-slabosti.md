@@ -1,4 +1,4 @@
-# PAPRSEK SLABOSTI
+# Paprsek slabosti
 
 *Ray of enfeeblement*
 

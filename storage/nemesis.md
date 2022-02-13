@@ -1,4 +1,4 @@
-# NEMESIS
+# Nemesis
 
 *Weird*
 

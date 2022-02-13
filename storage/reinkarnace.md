@@ -1,4 +1,4 @@
-# REINKARNACE
+# Reinkarnace
 
 *Reincarnate*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Druid
 
-Dotkneš se mrtvého humanoida, nebo části mrtvého humanoida. Pokud tento tvor není mrtvý déle než 10 dní, kouzlo pro něj vytvoří nové dospělé tělo a pak po volá duši, aby vstoupila do tohoto těla. Není-li duše cíle svolná nebo jí něco brání, kouzlo selže. 
+Dotkneš se mrtvého humanoida, nebo části mrtvého humanoida. Pokud tento tvor není mrtvý déle než 10 dní, kouzlo pro něj vytvoří nové dospělé tělo a pak po volá duši, aby vstoupila do tohoto těla. Není-li duše cíle svolná nebo jí něco brání, kouzlo selže.
 
-Magie udělá pro tvora nové tělo, což nejspíš způsobí, že se změní rasa tvora. PJ si hodí k% a podle tabulky rozhodne, jaké tělo tvor pojme, když se navrátí do života, nebo PJ zvolí tělo sám. 
+Magie udělá pro tvora nové tělo, což nejspíš způsobí, že se změní rasa tvora. PJ si hodí k% a podle tabulky rozhodne, jaké tělo tvor pojme, když se navrátí do života, nebo PJ zvolí tělo sám.
 
 Reinkarnovaný tvor má vzpomínky i zkušenosti ze svého předchozího života. Uchová si schopnosti, které měl ve svém původním těle, jen se změní jeho původní rasa za novou a náležitě se změní jeho rasové rysy.
 

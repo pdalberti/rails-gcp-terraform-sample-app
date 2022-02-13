@@ -1,4 +1,4 @@
-# ZNAMENÍ PROTI ČEPELÍM
+# Znamení proti čepelím
 
 *Blade ward*
 

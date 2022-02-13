@@ -1,4 +1,4 @@
-# PROJDI BEZE STOP
+# Projdi beze stop
 
 *Pass without trace*
 

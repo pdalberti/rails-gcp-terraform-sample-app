@@ -1,4 +1,4 @@
-# STRÁŽCE VÍRY
+# Strážce víry
 
 *Guardian of faith*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Klerik
 
-Na volném místě dle tvé volby, které vidíš v dosahu, se objeví Velký přízračný strážce a vznáší se po dobu trvání. Strážce zabírá dané místo a je nezřetelný, kromě jeho zářícího meče a lesknoucího se štítu ozdobeného symbolem tvého božstva. 
+Na volném místě dle tvé volby, které vidíš v dosahu, se objeví Velký přízračný strážce a vznáší se po dobu trvání. Strážce zabírá dané místo a je nezřetelný, kromě jeho zářícího meče a lesknoucího se štítu ozdobeného symbolem tvého božstva.
 
 Každý vůči tobě nepřátelský tvor, který se poprvé v rámci tahu pohne na místo do 2 sáhů od strážce, musí uspět v záchranném hodu na Obratnost. Když tvor neuspěje, utrpí zářivé zranění 20, nebo poloviční zranění při úspěšném záchranném hodu. Strážce zmizí, když utrpí celkové zranění za 60 životů.
 <!--stackedit_data:

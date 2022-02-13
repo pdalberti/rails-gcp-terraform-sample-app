@@ -1,4 +1,4 @@
-# PLANOUCÍ KOULE
+# Planoucí koule
 
 *Flaming sphere*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Druid, kouzelník
 
-Na volném místě dle tvé volby v dosahu se objeví koule ohně o průměru 1 sáh a vydrží po dobu trvání. Každý tvor, který skončí svůj tah do 1 sáhu od koule, si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí ohnivé zranění 2k6, nebo poloviční zranění při úspěšném záchranném hodu. 
+Na volném místě dle tvé volby v dosahu se objeví koule ohně o průměru 1 sáh a vydrží po dobu trvání. Každý tvor, který skončí svůj tah do 1 sáhu od koule, si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí ohnivé zranění 2k6, nebo poloviční zranění při úspěšném záchranném hodu.
 
-Jako bonusovou akci můžeš pohnout koulí až o 6 sáhů. Narazíš-li koulí do tvora, musí si hodit záchranný hod proti zranění koule a koule zastaví svůj pohyb v tomto tahu. 
+Jako bonusovou akci můžeš pohnout koulí až o 6 sáhů. Narazíš-li koulí do tvora, musí si hodit záchranný hod proti zranění koule a koule zastaví svůj pohyb v tomto tahu.
 
 Když pohybuješ koulí, dokáže překonat až 1 sáh vysoké bariéry a přeskočí až 2 sáhy široké jámy. Koule zapaluje hořlavé předměty, které nikdo nedrží ani nenese, a osvítí jasným světlem okruh o poloměru 4 sáhy a dalších 4 sáhy dosvítí slabým světlem.
 

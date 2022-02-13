@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Nekromancie 6. úrovně* 
+*Nekromancie 6. úrovně*
 
 **Vyvolání:** 1 reakce, kterou provedeš, když humanoid, jehož vidíš, zemře do 12 sáhů od tebe
 

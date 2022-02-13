@@ -1,4 +1,4 @@
-# HROMADNÁ SUGESCE
+# Hromadná sugesce
 
 *Mass suggestion*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Bard, čaroděj, černokněžník, druid, hraničář, klerik, kouzelník
 
-Sugescí (omezenou na jednu či dvě věty) činnosti magicky ovlivníš až dvanáct tvorů dle tvé volby, které vidíš v dosahu, kteří tě slyší a rozumí ti. Tvorové, které nelze zmámit, jsou imunní vůči tomuto účinku. Sugesci musíš formulovat tak, aby zadaná činnost zněla rozumně. Požádání tvora, aby se probodl, naběhl na kopí, obětoval se, nebo provedl jinou očividně sebepoškozující činnost, automaticky popře účinek kouzla. 
+Sugescí (omezenou na jednu či dvě věty) činnosti magicky ovlivníš až dvanáct tvorů dle tvé volby, které vidíš v dosahu, kteří tě slyší a rozumí ti. Tvorové, které nelze zmámit, jsou imunní vůči tomuto účinku. Sugesci musíš formulovat tak, aby zadaná činnost zněla rozumně. Požádání tvora, aby se probodl, naběhl na kopí, obětoval se, nebo provedl jinou očividně sebepoškozující činnost, automaticky popře účinek kouzla.
 
-Každý cíl si musí hodit záchranný hod na Moudrost. Když neuspěje, drží se tebou sugestivně popsané činnosti, jak nejlépe dovede. Sugestivní činnost může trvat po celou dobu trvání kouzla. Dá-li se sugestivní činnost stihnout rychleji, pak kouzlo skončí, když cíl splní, o co jsi ho požádal. 
+Každý cíl si musí hodit záchranný hod na Moudrost. Když neuspěje, drží se tebou sugestivně popsané činnosti, jak nejlépe dovede. Sugestivní činnost může trvat po celou dobu trvání kouzla. Dá-li se sugestivní činnost stihnout rychleji, pak kouzlo skončí, když cíl splní, o co jsi ho požádal.
 
 Můžeš také vymezit podmínky, které spustí určitou činnost v průběhu doby trvání kouzla. Můžeš například sugestivně navrhnout, aby skupina vojáků dala všechny své peníze prvnímu žebrákovi, kterého potká. Nesplní-li se dané podmínky před uplynutím doby trvání kouzla, činnost se neprovede. Pokud ty nebo tví společníci zraníte tvora, na něhož působí toto kouzlo, přestane na něj působit.
 

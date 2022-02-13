@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Zaklínání 4. úrovně* 
+*Zaklínání 4. úrovně*
 
 **Vyvolání:** 1 akce
 

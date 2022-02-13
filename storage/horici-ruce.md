@@ -1,4 +1,4 @@
-# HOŘÍCÍ RUCE
+# Hořící ruce
 
 *Burning hands*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-Když podržíš ruce tak, že se palce vzájemně dotýkají a ostatní prsty máš roztažené od sebe, z konečků roztažených prstů ti vystřelí tenký pás plamenů. Každý tvor v kuželu 3 sáhy si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí ohnivé zranění 3k6, nebo poloviční zranění při úspěšném záchranném hodu. 
+Když podržíš ruce tak, že se palce vzájemně dotýkají a ostatní prsty máš roztažené od sebe, z konečků roztažených prstů ti vystřelí tenký pás plamenů. Každý tvor v kuželu 3 sáhy si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí ohnivé zranění 3k6, nebo poloviční zranění při úspěšném záchranném hodu.
 
 Oheň zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
 

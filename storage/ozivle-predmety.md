@@ -1,4 +1,4 @@
-# OŽIVLÉ PŘEDMĚTY
+# Oživlé předměty
 
 *Animate objects*
 

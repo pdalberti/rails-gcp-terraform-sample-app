@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vymítání 1. úrovně* 
+*Vymítání 1. úrovně*
 
 **Vyvolání:** 1 reakce, kterou provedeš, jsi-li zraněn bleskovým, hromovým, chladným, kyselinovým, nebo ohnivým útokem.
 

@@ -1,4 +1,4 @@
-# KRUH MOCI
+# Kruh moci
 
 *Circle of power*
 

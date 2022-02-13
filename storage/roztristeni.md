@@ -1,4 +1,4 @@
-# ROZTŘÍŠTĚNÍ
+# Roztříštění
 
 *Shatter*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Bard, čaroděj, černokněžník, kouzelník
 
-Z bodu, který zvolíš v dosahu, se rázem ozve bolestivě hlasitý tříštivý zvuk. Každý tvor v kouli o poloměru 2 sáhy se středem v daném bodě, si musí hodit záchranný hod na Odolnost. Když cíl neuspěje, utrpí hromové zranění 3k8, nebo poloviční zranění při úspěšném záchranném hodu. Tvor vyrobený z neživého materiálu, například kamene, křišťálu či kovu, má nevýhodu k tomuto záchrannému hodu. 
+Z bodu, který zvolíš v dosahu, se rázem ozve bolestivě hlasitý tříštivý zvuk. Každý tvor v kouli o poloměru 2 sáhy se středem v daném bodě, si musí hodit záchranný hod na Odolnost. Když cíl neuspěje, utrpí hromové zranění 3k8, nebo poloviční zranění při úspěšném záchranném hodu. Tvor vyrobený z neživého materiálu, například kamene, křišťálu či kovu, má nevýhodu k tomuto záchrannému hodu.
 
 Nemagický předmět, který nikdo nedrží ani nenese, utrpí také poškození, je-li v oblasti kouzla.
 

@@ -1,4 +1,4 @@
-# ROZVĚTVENÝ BLESK
+# Rozvětvený blesk
 
 *Chain lightning*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-Vytvoříš blesk, který obloukem zamíří k tebou zvolenému cíli, kterého vidíš v dosahu. Z cíle pak přeskočí až tři blesky na až tři další sekundární cíle, jež nejsou dál než 6 sáhů od prvního cíle. Cíl může být tvor nebo předmět a může být zacílen jen jedním z blesků. 
+Vytvoříš blesk, který obloukem zamíří k tebou zvolenému cíli, kterého vidíš v dosahu. Z cíle pak přeskočí až tři blesky na až tři další sekundární cíle, jež nejsou dál než 6 sáhů od prvního cíle. Cíl může být tvor nebo předmět a může být zacílen jen jedním z blesků.
 
 Cíl si musí hodit záchranný hod na Obratnost. Když cíl neuspěje, utrpí bleskové zranění 10k8, nebo poloviční zranění při úspěšném záchranném hodu.
 

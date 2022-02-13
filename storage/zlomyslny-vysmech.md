@@ -1,4 +1,4 @@
-# ZLOMYSLNÝ VÝSMĚCH
+# Zlomyslný výsměch
 
 *Vicious mockery*
 

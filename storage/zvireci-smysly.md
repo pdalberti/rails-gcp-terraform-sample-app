@@ -1,4 +1,4 @@
-# ZVÍŘECÍ SMYSLY
+# Zvířecí smysly
 
 *Beast sense*
 

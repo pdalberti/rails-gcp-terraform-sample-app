@@ -1,4 +1,4 @@
-# PŘÁTELÉ
+# Přátelé
 
 *Friends*
 

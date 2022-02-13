@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Věštění 2. úrovně* 
+*Věštění 2. úrovně*
 
 **Vyvolání:** 1 akce
 

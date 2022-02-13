@@ -1,4 +1,4 @@
-# ČARODĚJNICKÝ BLESK
+# Čarodějnický blesk
 
 *Witch bolt*
 

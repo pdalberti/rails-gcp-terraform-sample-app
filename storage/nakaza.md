@@ -1,4 +1,4 @@
-# NÁKAZA
+# Nákaza
 
 *Contagion*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Druid, klerik
 
-Tvůj dotyk způsobí nákazu nemocí. Hoď si na útok na blízko kouzlem proti tvorovi ve svém dosahu. Při zásahu způsobíš tvorovi nákazu jednou z níže popsaných nemocí dle své volby, ale nemoc se ještě neprojeví. 
+Tvůj dotyk způsobí nákazu nemocí. Hoď si na útok na blízko kouzlem proti tvorovi ve svém dosahu. Při zásahu způsobíš tvorovi nákazu jednou z níže popsaných nemocí dle své volby, ale nemoc se ještě neprojeví.
 
-Na konci každého svého tahu si cíl musí hodit záchranný hod na Odolnost. Když třikrát neuspěje v těchto záchranných hodech, pak se nemoc projeví, její účinky vydrží po dobu trvání a cíl si přestane házet na tyto záchrany. Když třikrát uspěje v těchto záchranných hodech, cíl se z nemoci uzdraví, nemoc se nijak neprojeví a kouzlo skončí. Úspěchy či neúspěchy nemusí jít po sobě; udržuj si přehled o obou, dokud cíl nenasbírá tři stejného druhu. 
+Na konci každého svého tahu si cíl musí hodit záchranný hod na Odolnost. Když třikrát neuspěje v těchto záchranných hodech, pak se nemoc projeví, její účinky vydrží po dobu trvání a cíl si přestane házet na tyto záchrany. Když třikrát uspěje v těchto záchranných hodech, cíl se z nemoci uzdraví, nemoc se nijak neprojeví a kouzlo skončí. Úspěchy či neúspěchy nemusí jít po sobě; udržuj si přehled o obou, dokud cíl nenasbírá tři stejného druhu.
 
 Protože toto kouzlo způsobuje svému cíli přírodní nemoc, působí na ni každý účinek, který odstraňuje nemoc nebo jiným způsobem ovlivňuje účinky nemoci.
 

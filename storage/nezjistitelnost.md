@@ -1,4 +1,4 @@
-# NEZJISTITELNOST
+# Nezjistitelnost
 
 *Nondetection*
 

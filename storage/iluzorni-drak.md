@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Iluze 8. úrovně* 
+*Iluze 8. úrovně*
 
 **Vyvolání:** 1 akce
 

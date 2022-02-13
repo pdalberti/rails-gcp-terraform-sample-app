@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Vymítání 9. úrovně* 
+*Vymítání 9. úrovně*
 
 **Vyvolání:** 1 akce
 

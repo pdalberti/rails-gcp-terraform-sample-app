@@ -1,4 +1,4 @@
-# PŘÍZEŇ BOHŮ
+# Přízeň bohů
 
 *Divine favor*
 

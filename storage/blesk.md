@@ -1,4 +1,4 @@
-# BLESK
+# Blesk
 
 *Lightning bolt*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Čaroděj, kouzelník
 
-Vyšlehne z tebe blesk a utvoří 20 sáhů dlouhou a 1 sáh širokou dráhu ve směru, který zvolíš. Každý tvor v dráze si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí bleskové zranění 8k6, nebo poloviční zranění pří úspěšném záchranném hodu. 
+Vyšlehne z tebe blesk a utvoří 20 sáhů dlouhou a 1 sáh širokou dráhu ve směru, který zvolíš. Každý tvor v dráze si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí bleskové zranění 8k6, nebo poloviční zranění pří úspěšném záchranném hodu.
 
 Blesk zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
 

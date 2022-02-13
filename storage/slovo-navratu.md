@@ -1,4 +1,4 @@
-# SLOVO NÁVRATU
+# Slovo návratu
 
 *Word of recall*
 

@@ -1,4 +1,4 @@
-# VYVOLEJ ZVÍŘATA
+# Vyvolej zvířata
 
 *Conjure animals*
 
@@ -18,14 +18,14 @@
 
 Přivoláš vílí duchy, kteří na sebe vezmou zvířecí podoby a objeví se na volných místech, jež vidíš v dosahu. Zvol jednu z následujících možností pro to, co se objeví:
 
- * Jedno zvíře s nebezpečností 2 či méně 	
+* Jedno zvíře s nebezpečností 2 či méně 	
  * Dvě zvířata s nebezpečností 1 či méně 
  * Čtyřizvířata s nebezpečností 1/2 či méně 
- * Osm zvířat s nebezpečností 1/4 či méně 	
+ * Osm zvířat s nebezpečností 1/4 či méně
 
-Každé přivolané zvíře se současně považuje za vílu a zmizí, když mu klesnou životy na 0, nebo když kouzlo skončí. 
+Každé přivolané zvíře se současně považuje za vílu a zmizí, když mu klesnou životy na 0, nebo když kouzlo skončí.
 
-Přivolaná zvířata jsou přátelská vůči tobě a tvým společníkům. Hod za přivolaná zvířata na iniciativu (jako skupinu), ve které budou mít své vlastní tahy. Poslechnou jakýkoliv slovní rozkaz, který jim udělíš (akce není potřeba). Neudělíš-li jim žádný rozkaz, budou se jen bránit proti nepřátelským tvorům, ale jinak neudělají nic. 
+Přivolaná zvířata jsou přátelská vůči tobě a tvým společníkům. Hod za přivolaná zvířata na iniciativu (jako skupinu), ve které budou mít své vlastní tahy. Poslechnou jakýkoliv slovní rozkaz, který jim udělíš (akce není potřeba). Neudělíš-li jim žádný rozkaz, budou se jen bránit proti nepřátelským tvorům, ale jinak neudělají nic.
 
 PJ má statistiky tvorů.
 

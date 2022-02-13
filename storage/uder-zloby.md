@@ -1,4 +1,4 @@
-# ÚDER ZLOBY
+# Úder zloby
 
 *Wrathful smite*
 

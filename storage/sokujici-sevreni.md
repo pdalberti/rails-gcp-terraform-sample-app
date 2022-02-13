@@ -1,4 +1,4 @@
-# ŠOKUJÍCÍ SEVŘENÍ
+# Šokující sevření
 
 *Shocking grasp*
 

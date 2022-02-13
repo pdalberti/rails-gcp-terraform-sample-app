@@ -1,4 +1,4 @@
-# KAMENNÁ KŮŽE
+# Kamenná kůže
 
 *Stoneskin*
 

@@ -1,4 +1,4 @@
-# NIČIVÁ VLNA
+# Ničivá vlna
 
 *Destruction wave*
 

@@ -1,4 +1,4 @@
-# NAJDI ZVÍŘATA A ROSTLINY
+# Najdi zvířata a rostliny
 
 *Locate animals or plants*
 

@@ -1,4 +1,4 @@
-# SLOVO MOCI „UZDRAV "
+# Slovo moci „uzdrav "
 
 *Power word heal*
 

@@ -1,4 +1,4 @@
-# UŠETŘI UMÍRAJÍCÍHO
+# Ušetři umírajícího
 
 *Space the dying*
 

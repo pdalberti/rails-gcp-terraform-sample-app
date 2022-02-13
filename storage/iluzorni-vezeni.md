@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Iluze 6. úrovně* 
+*Iluze 6. úrovně*
 
 **Vyvolání:** 1 akce
 

@@ -1,4 +1,4 @@
-# SYMBOL
+# Symbol
 
 *Symbol*
 
@@ -16,13 +16,13 @@
 
 **Povolání:** Bard, klerik, kouzelník
 
-Když sesíláš toto kouzlo, vyryješ zraňující znak buď na povrch (například na stůl nebo část podlahy či zdi), nebo do předmětu, který se dá zavřít (například do knihy, svitku či truhly) pro ukrytí znaku. Zvolíš-li povrch, znak může pokrývat oblast menší nebo rovnou 2 sáhy v průměru. Zvolíš-li předmět, pak tento předmět musí zůstat na místě; pokud se vzdálí o víc než 2 sáhy od místa, kde jsi seslal toto kouzlo, znak se rozptýlí a kouzlo skončí bez spuštění. 
+Když sesíláš toto kouzlo, vyryješ zraňující znak buď na povrch (například na stůl nebo část podlahy či zdi), nebo do předmětu, který se dá zavřít (například do knihy, svitku či truhly) pro ukrytí znaku. Zvolíš-li povrch, znak může pokrývat oblast menší nebo rovnou 2 sáhy v průměru. Zvolíš-li předmět, pak tento předmět musí zůstat na místě; pokud se vzdálí o víc než 2 sáhy od místa, kde jsi seslal toto kouzlo, znak se rozptýlí a kouzlo skončí bez spuštění.
 
-Znak je téměř neviditelný a jeho objevení vyžaduje úspěšný hod na ověření Inteligence (Pátrání) proti tvému SO záchrany kouzla. 
+Znak je téměř neviditelný a jeho objevení vyžaduje úspěšný hod na ověření Inteligence (Pátrání) proti tvému SO záchrany kouzla.
 
-Když sesíláš toto kouzlo, určíš, co znak spustí. Pro znaky vyryté na povrch patří mezi nejtypičtější spouštěče dotyk nebo stoupnutí na znak, přemístění předmětu, který zakrývá znak, přiblížení se do jisté vzdálenosti od znaku, nebo manipulování s objektem, na kterém je znak vyrytý. Pro znaky vyryté do předmětu patří mezi nejtypičtější spouštěče otevření předmětu, přiblížení se do jisté vzdálenosti od předmětu, nebo pohled na symbol či přečtení symbolu. 
+Když sesíláš toto kouzlo, určíš, co znak spustí. Pro znaky vyryté na povrch patří mezi nejtypičtější spouštěče dotyk nebo stoupnutí na znak, přemístění předmětu, který zakrývá znak, přiblížení se do jisté vzdálenosti od znaku, nebo manipulování s objektem, na kterém je znak vyrytý. Pro znaky vyryté do předmětu patří mezi nejtypičtější spouštěče otevření předmětu, přiblížení se do jisté vzdálenosti od předmětu, nebo pohled na symbol či přečtení symbolu.
 
-Spouštěč můžeš dále upravit, aby se kouzlo aktivovalo pouze za určitých podmínek nebo podle fyzikálních vlastností (jako je například výška či váha), druhu tvora (znak může být například nastaven, aby působil jen na ježibaby či tvaroměnce) či přesvědčení. Můžeš také nastavit podmínky pro tvory, kteří znak nespustí, například pro ty, kteří vysloví určité heslo. 
+Spouštěč můžeš dále upravit, aby se kouzlo aktivovalo pouze za určitých podmínek nebo podle fyzikálních vlastností (jako je například výška či váha), druhu tvora (znak může být například nastaven, aby působil jen na ježibaby či tvaroměnce) či přesvědčení. Můžeš také nastavit podmínky pro tvory, kteří znak nespustí, například pro ty, kteří vysloví určité heslo.
 
 Když vyrýváš znak, zvol jako účinek jednu z níže uvedených možností. Jakmile se znak spustí, žhne a na 10 minut vyplní kouli o poloměru 12 sáhů slabým světlem, načež kouzlo skončí. Když se znak aktivuje, každý tvor v kouli je zacílen jeho účinkem, stejně jako každý tvor, který vstoupí do koule poprvé v tahu, nebo v ní skončí svůj tah.
 
@@ -32,7 +32,7 @@ Když vyrýváš znak, zvol jako účinek jednu z níže uvedených možností. 
 
 ***Ochromení.*** Každý cíl si musí hodit záchranný hod na Moudrost. Když cíl neuspěje, stane se na 1 minutu ochromený.
 
-***Strach.*** Každý cíl si musí hodit záchranný hod na Moudrost. Když cíl neuspěje, stane se na 1 minutu vystrašený. Zatímco je vystrašený, pustí, cokoliv drží a každý svůj tah se musí vzdálit aspoň o 6 sáhů od znaku, pokud může. 
+***Strach.*** Každý cíl si musí hodit záchranný hod na Moudrost. Když cíl neuspěje, stane se na 1 minutu vystrašený. Zatímco je vystrašený, pustí, cokoliv drží a každý svůj tah se musí vzdálit aspoň o 6 sáhů od znaku, pokud může.
 
 ***Smrt.*** Každý cíl si musí hodit záchranný hod na Odolnost. Když cíl neuspěje, utrpí nekrotické zranění 10k10, nebo poloviční zranění při úspěšném záchranném hodu.
 

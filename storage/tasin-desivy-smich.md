@@ -1,4 +1,4 @@
-# TAŠIN DĚSIVÝ SMÍCH
+# Tašin děsivý smích
 
 *Tasha's Hideous laughter*
 
@@ -16,7 +16,7 @@
 
 **Povolání:** Bard, kouzelník
 
-Tvor dle tvé volby, kterého vidíš v dosahu, vnímá všechno jako náramně směšné a popuká se smíchy, když na něj působí toto kouzlo. Cíl musí uspět v záchranném hodu na Moudrost, jinak spadne, stane se neschopný a nemůže vstát po dobu trvání. Tvor s hodnotou Inteligence 4 nebo méně není ovlivněn. 
+Tvor dle tvé volby, kterého vidíš v dosahu, vnímá všechno jako náramně směšné a popuká se smíchy, když na něj působí toto kouzlo. Cíl musí uspět v záchranném hodu na Moudrost, jinak spadne, stane se neschopný a nemůže vstát po dobu trvání. Tvor s hodnotou Inteligence 4 nebo méně není ovlivněn.
 
 Na konci každého svého tahu a pokaždé, když utrpí zranění, si může cíl hodit další záchranný hod na Moudrost. Je-li to kvůli zranění, má cíl výhodu k záchrannému hodu. Když uspěje, kouzlo skončí.
 <!--stackedit_data:

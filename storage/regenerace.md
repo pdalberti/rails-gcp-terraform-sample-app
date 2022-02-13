@@ -1,4 +1,4 @@
-# REGENERACE
+# Regenerace
 
 *Regenerate*
 

@@ -1,4 +1,4 @@
-# HROMADNÉ UZDRAVENÍ
+# Hromadné uzdravení
 
 *Mass heal*
 

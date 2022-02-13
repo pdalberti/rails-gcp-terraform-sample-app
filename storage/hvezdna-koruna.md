@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
- *Zaklínání 7. úrovně* 
+*Zaklínání 7. úrovně*
 
 **Vyvolání:** 1 akce
 

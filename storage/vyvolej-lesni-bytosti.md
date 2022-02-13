@@ -1,4 +1,4 @@
-# VYVOLEJ LESNÍ BYTOSTI
+# Vyvolej lesní bytosti
 
 *Conjure Woodland Beings*
 
@@ -18,14 +18,14 @@
 
 Přivoláš vílí tvory, kteří se objeví na volných místech, jež vidíš v dosahu. Zvol jednu z následujících možností pro to, co se objeví:
 
- * Jeden vílí tvor s nebezpečností 2 či méně 
+* Jeden vílí tvor s nebezpečností 2 či méně 
  * Dva vílí tvorové s nebezpečností 1 či méně 	
  * Čtyři vílí tvorové s nebezpečností 1/2 či méně 	
- * Osm vílích tvorů s nebezpečností 1/4 či méně 	
+ * Osm vílích tvorů s nebezpečností 1/4 či méně
 
-Přivolaný tvor zmizí, když mu klesnou životy na 0, nebo když kouzlo skončí. 
+Přivolaný tvor zmizí, když mu klesnou životy na 0, nebo když kouzlo skončí.
 
-Přivolaní tvorové jsou přátelští vůči tobě a tvým společníkům. Hod za přivolané tvory na iniciativu (jako skupinu), ve které budou mít své vlastní tahy. Poslechnou jakýkoliv slovní rozkaz, který jim udělíš (akce není potřeba). Neudělíš-li jim žádný rozkaz, budou se jen bránit proti nepřátelským tvorům, ale jinak neudělají nic. 
+Přivolaní tvorové jsou přátelští vůči tobě a tvým společníkům. Hod za přivolané tvory na iniciativu (jako skupinu), ve které budou mít své vlastní tahy. Poslechnou jakýkoliv slovní rozkaz, který jim udělíš (akce není potřeba). Neudělíš-li jim žádný rozkaz, budou se jen bránit proti nepřátelským tvorům, ale jinak neudělají nic.
 
 PJ má statistiky vílích tvorů.
 

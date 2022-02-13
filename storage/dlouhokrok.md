@@ -1,4 +1,4 @@
-# DLOUHOKROK
+# Dlouhokrok
 
 *Longstrider*
 

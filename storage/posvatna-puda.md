@@ -1,4 +1,4 @@
-# POSVÁTNÁ PŮDA
+# Posvátná půda
 
 *Hallow*
 
@@ -16,9 +16,9 @@
 
 **Povolání:** Klerik
 
-Dotkneš se bodu a naplníš okolní oblast svatou (nebo kacířskou) mocí. Oblast je okruh o poloměru až 12 sáhů a kouzlo selže, pokud okruh obsahuje oblast, na kterou už působí kouzlo *posvátná půda*. V oblasti účinku působí následující účinky. 
+Dotkneš se bodu a naplníš okolní oblast svatou (nebo kacířskou) mocí. Oblast je okruh o poloměru až 12 sáhů a kouzlo selže, pokud okruh obsahuje oblast, na kterou už působí kouzlo *posvátná půda*. V oblasti účinku působí následující účinky.
 
-Za prvé. Běsi, elementálové, nebešťané, nemrtví a víly nemohou vstoupit do oblasti, ani nemohou posednout, vystrašit nebo zmámit tvory uvnitř. Posedlý, vystrašený či zmámený tvor takovou bytostí přestane být posedlý, vystrašený nebo zmámený, jakmile vstoupí do oblasti. Z tohoto účinku můžeš vyjmout jeden nebo více typů těchto bytostí. 
+Za prvé. Běsi, elementálové, nebešťané, nemrtví a víly nemohou vstoupit do oblasti, ani nemohou posednout, vystrašit nebo zmámit tvory uvnitř. Posedlý, vystrašený či zmámený tvor takovou bytostí přestane být posedlý, vystrašený nebo zmámený, jakmile vstoupí do oblasti. Z tohoto účinku můžeš vyjmout jeden nebo více typů těchto bytostí.
 
 Za druhé. Na oblast můžeš navázat dodatečný účinek. Vyber si účinek z následujícího seznamu, nebo účinek, který ti nabídne PJ. Některé z těchto účinků působí na tvory v oblasti; můžeš stanovit, jestli účinek platí na všechny tvory, či tvory, kteří následují určité božstvo nebo vůdce, či tvory určitého druhu, například orky nebo troly. Když tvor, na kterého má působit dodatečný účinek, vstoupí do oblasti kouzla poprvé v tahu, nebo v ní začne svůj tah, si může hodit záchranný hod na Charisma. Když tvor uspěje, ignoruje dodatečný účinek, dokud oblast neopustí.
 
