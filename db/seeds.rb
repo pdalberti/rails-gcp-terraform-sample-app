@@ -10,7 +10,7 @@ DatabaseCleaner.clean
 
 # write your new seeds after this line
 
-classes = %w[bard druid hraničář klerik kouzelník paladin čaroděj černokněžník]
+classes = %w[Bard Čaroděj Černokněžník Druid Hraničář Klerik Kouzelník Paladin]
 classes.each { |klass| DndClass.create!(name: klass) }
 
 puts "Created #{classes.join(', ')} classes"
