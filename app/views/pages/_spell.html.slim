@@ -1,7 +1,11 @@
 .accordion-item
   h2.accordion-header id="spellPanels-heading#{spell.id}"
-    button.accordion-button type="button" data-bs-toggle="collapse" data-bs-target="#spellPanels-collapse#{spell.id}" aria-expanded="true" aria-controls="spellPanels-collapse#{spell.id}"
-      = spell.name
+    row.accordion-button type="button" data-bs-toggle="collapse" data-bs-target="#spellPanels-collapse#{spell.id}" aria-expanded="true" aria-controls="spellPanels-collapse#{spell.id}"
+      .col-3 = spell.name
+      .col-1 Stupeň: #{spell.level}.
+      .col-2 Škola: #{spell.school}
+      .col-3 Vyvolání: #{spell.casting}
+      .col-3 Dosah: #{spell.range}
   .accordion-collapse.collapse id="spellPanels-collapse#{spell.id}" aria-labelledby="spellPanels-heading#{spell.id}"
     .accordion-body
       = CommonMarker.render_html(spell.description, :DEFAULT).html_safe
