@@ -70,19 +70,9 @@ class SpellSanitizerService < ApplicationService
 
   def assign_components
     # "**Složky:** P, S (inkoust na bázi olova v hodnotě aspoň 10 zl, který kouzlo spotřebuje)"
-    ############ REWORK using N-N table
-    # components = non_bold_text(un_spell[6])
-    # attributes[:components] = if components.include?('(')
-    #                 text = text_between_parentheses(components)
-    #                 if text.include?(' zl')
-    #                   value = extract_value(text, text.index(' zl'))
-    #                   "#{components.split('(').first}(#{value}#{text.include?('aspoň') ? '+' : ''} zl)"
-    #                 else
-    #                   components.split(' (').first
-    #                 end
-    #               else
-    #                 components
-    #               end
+    components = non_bold_text(un_spell[6])
+    components = components.include?(' zl') ? "#{components.split(' (').first}, zl" : components.split(' (').first
+    attributes[:components] = components
   end
 
   def assign_duration_and_concentration
@@ -106,7 +96,7 @@ class SpellSanitizerService < ApplicationService
     string.split('** ').last
   end
 
-  # def text_between_parentheses(string)
-  #   string[/\((.*?)\)/m, 1]
-  # end
+  def text_between_parentheses(string)
+    string[/\((.*?)\)/m, 1]
+  end
 end
