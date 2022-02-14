@@ -59,8 +59,9 @@ class SpellSanitizerService < ApplicationService
   end
 
   def assign_casting
-    # "**Vyvolání:** 1 akce"
-    attributes[:casting] = non_bold_text(un_spell[4])
+    # "**Vyvolání:** 1 reakce, kterou provedeš jako odpověď na zranění způsobené tvorem do 12 sáhů od tebe, kterého vidíš"
+    casting = non_bold_text(un_spell[4])
+    attributes[:casting] = casting.split(',').first == '1 reakce' ? casting.split(',').first : casting
   end
 
   def assign_range
