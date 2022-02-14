@@ -1,15 +1,15 @@
 = search_form_for @q, url: root_path do |f|
   .row
     .col-2 = f.input :name_cont, required: false, label: 'Název'
-    .col-2 = f.input :dnd_classes_name_eq, required: false, label: 'Povolání', collection: DndClass.pluck(:name).map(&:capitalize), include_blank: true
-    .col-2 = f.input :school_eq, required: false, label: 'Škola', collection: Spell.pluck(:school).uniq.sort, multiple: true, include_blank: true
-    .col-1 = f.input :level_eq, required: false, label: 'Stupeň', collection: Spell.pluck(:level).uniq.sort, include_blank: true
+    .col-2 = f.input :dnd_classes_name_in, required: false, label: 'Povolání', collection: DndClass.pluck(:name), include_blank: true, input_html: { multiple: true }
+    .col-2 = f.input :school_in, required: false, label: 'Škola', collection: Spell.pluck(:school).uniq.sort, multiple: true, include_blank: true, input_html: { multiple: true }
+    .col-1 = f.input :level_in, required: false, label: 'Stupeň', collection: Spell.pluck(:level).uniq.sort, include_blank: true, input_html: { multiple: true }
     .col-1 = f.input :ritual_eq, required: false, label: 'Rituál?', collection: Spell.pluck(:ritual).uniq, include_blank: true
-    .col-3 = f.input :duration_eq, required: false, label: 'Trvání', collection: Spell.pluck(:duration).uniq.sort, include_blank: true
+    .col-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell.pluck(:duration).uniq.sort, include_blank: true, input_html: { multiple: true }
     .col-1 = f.input :concentration_eq, required: false, label: 'Soustředění?', collection: Spell.pluck(:concentration).uniq, include_blank: true
   .row
-    .col-8 = f.input :casting_eq, required: false, label: 'Vyvolání', collection: Spell.pluck(:casting).uniq.sort, include_blank: true
-    .col-4 = f.input :range_eq, required: false, label: 'Dosah', collection: Spell.pluck(:range).uniq.sort, include_blank: true
+    .col-8 = f.input :casting_in, required: false, label: 'Vyvolání', collection: Spell.pluck(:casting).uniq.sort, include_blank: true, input_html: { multiple: true }
+    .col-4 = f.input :range_in, required: false, label: 'Dosah', collection: Spell.pluck(:range).uniq.sort, include_blank: true, input_html: { multiple: true }
   = f.submit
 
 = link_to 'Zrušit filtry', root_path
