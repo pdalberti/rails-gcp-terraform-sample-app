@@ -8,8 +8,10 @@
     .col-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell.pluck(:duration).uniq.sort, include_blank: true, input_html: { multiple: true }
     .col-1 = f.input :concentration_eq, required: false, label: 'Soustředění?', collection: Spell.pluck(:concentration).uniq, include_blank: true
   .row
-    .col-8 = f.input :casting_in, required: false, label: 'Vyvolání', collection: Spell.pluck(:casting).uniq.sort, include_blank: true, input_html: { multiple: true }
+    .col-9 = f.input :casting_in, required: false, label: 'Vyvolání', collection: Spell.pluck(:casting).uniq.sort, include_blank: true, input_html: { multiple: true }
     .col-4 = f.input :range_in, required: false, label: 'Dosah', collection: Spell.pluck(:range).uniq.sort, include_blank: true, input_html: { multiple: true }
+  .row
+    .col-4 = f.input :rulebooks_name_in, required: false, label: 'Zdroj', collection: Rulebook.pluck(:name), include_blank: true, input_html: { multiple: true }
   = f.submit
 
 = link_to 'Zrušit filtry', root_path

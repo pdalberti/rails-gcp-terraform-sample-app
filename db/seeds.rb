@@ -1,5 +1,4 @@
 require 'database_cleaner/active_record'
-require 'open-uri'
 require_relative '../app/services/application_service'
 require_relative '../app/services/spell_sanitizer_service'
 
@@ -14,6 +13,11 @@ classes = %w[Bard Čaroděj Černokněžník Druid Hraničář Klerik Kouzelník
 classes.each { |klass| DndClass.create!(name: klass) }
 
 puts "Created #{classes.join(', ')} classes"
+
+rulebooks = ['Dobrodruhův průvodce Mečovým prostředím', 'Příručka hráče', 'Xanatharuv pruvodce vším']
+rulebooks.each { |rulebook| Rulebook.create!(name: rulebook) }
+
+puts "Created #{rulebooks.join(', ')} rulebooks"
 
 paths = Dir['storage/*.md'].sort
 paths.each do |path|

@@ -40,13 +40,13 @@ class SpellSanitizerService < ApplicationService
 
   def assign_en_name
     # "*Aganazzar's scorcher*"
-    attributes[:en_name] = un_spell[1][1..-2]
+    attributes[:en_name] = un_spell[1].gsub('*', '')
   end
 
   def assign_source
     # "***Xanatharuv pruvodce vším***"
-    # might be an N-N references
-    # un_spell[2]
+    sources = un_spell[2].gsub('*', '')
+    attributes[:rulebooks] = Rulebook.where(name: sources)
   end
 
   def assign_school_level_and_ritual
