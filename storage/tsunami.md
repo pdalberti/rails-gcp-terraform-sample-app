@@ -8,7 +8,7 @@
 
 **Vyvolání:** 1 minuta
 
-**Dosah:** Výhled
+**Dosah:** Dohled
 
 **Složky:** V, P
 
