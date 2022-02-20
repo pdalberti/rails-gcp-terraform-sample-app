@@ -66,7 +66,9 @@ class SpellSanitizerService < ApplicationService
 
   def assign_range
     # "**Dosah:** Ty sám (koule o poloměru 2 sáhy)"
-    attributes[:range] = non_bold_text(un_spell[5])
+    range = non_bold_text(un_spell[5])
+    range = range.start_with?('Ty sám (') ? 'Ty sám (oblast)' : range
+    attributes[:range] = range
   end
 
   def assign_components
@@ -81,7 +83,7 @@ class SpellSanitizerService < ApplicationService
     duration = non_bold_text(un_spell[7]).split(' ')
     concentration = duration.first == 'Soustředění,'
     attributes[:concentration] = concentration
-    attributes[:duration] = concentration ? duration[1..].join(' ').capitalize : duration.join(' ')
+    attributes[:duration] = concentration ? duration[2..].join(' ') : duration.join(' ')
   end
 
   def assign_dnd_classes
