@@ -61,14 +61,18 @@ class SpellSanitizerService < ApplicationService
   def assign_casting
     # "**Vyvolání:** 1 reakce, kterou provedeš jako odpověď na zranění způsobené tvorem do 12 sáhů od tebe, kterého vidíš"
     casting = non_bold_text(un_spell[4])
-    attributes[:casting] = casting.split(',').first == '1 reakce' ? casting.split(',').first : casting
+    attributes[:casting] = if casting.split(',').first == '1 reakce'
+                             Spell::CASTING[casting.split(',').first]
+                           else
+                             Spell::CASTING[casting]
+                           end
   end
 
   def assign_range
     # "**Dosah:** Ty sám (koule o poloměru 2 sáhy)"
     range = non_bold_text(un_spell[5])
     range = range.start_with?('Ty sám (') ? 'Ty sám (oblast)' : range
-    attributes[:range] = range
+    attributes[:range] = Spell::RANGE[range]
   end
 
   def assign_components
@@ -83,7 +87,11 @@ class SpellSanitizerService < ApplicationService
     duration = non_bold_text(un_spell[7]).split(' ')
     concentration = duration.first == 'Soustředění,'
     attributes[:concentration] = concentration
-    attributes[:duration] = concentration ? duration[2..].join(' ') : duration.join(' ')
+    attributes[:duration] = if concentration
+                              Spell::DURATION[duration[2..].join(' ')]
+                            else
+                              Spell::DURATION[duration.join(' ')]
+                            end
   end
 
   def assign_dnd_classes
