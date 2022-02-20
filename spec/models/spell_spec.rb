@@ -3,15 +3,15 @@
 # Table name: spells
 #
 #  id            :bigint           not null, primary key
-#  casting       :string
+#  casting       :integer
 #  components    :string
 #  concentration :boolean
 #  description   :string
-#  duration      :string
+#  duration      :integer
 #  en_name       :string
 #  level         :integer
 #  name          :string
-#  range         :string
+#  range         :integer
 #  ritual        :boolean
 #  school        :string
 #  created_at    :datetime         not null
