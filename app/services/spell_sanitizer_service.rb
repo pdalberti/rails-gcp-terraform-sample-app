@@ -84,11 +84,12 @@ class SpellSanitizerService < ApplicationService
 
   def assign_duration_and_concentration
     # "**Trvání:** Soustředění, až 1 hodina"
-    duration = non_bold_text(un_spell[7]).split(' ')
+    text = un_spell[7].gsub('až ', '').gsub('Až ', '')
+    duration = non_bold_text(text).split(' ')
     concentration = duration.first == 'Soustředění,'
     attributes[:concentration] = concentration
     attributes[:duration] = if concentration
-                              Spell::DURATION[duration[2..].join(' ')]
+                              Spell::DURATION[duration[1..].join(' ')]
                             else
                               Spell::DURATION[duration.join(' ')]
                             end

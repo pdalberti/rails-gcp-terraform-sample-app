@@ -21,7 +21,7 @@ puts "Created #{rulebooks.join(', ')} rulebooks"
 
 paths = Dir['storage/*.md'].sort
 paths.each do |path|
-  file = File.open(path).read
+  file = File.read(path)
   SpellSanitizerService.call(file)
 end
 
