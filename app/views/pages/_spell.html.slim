@@ -1,11 +1,12 @@
 .accordion-item
   h2.accordion-header id="spellPanels-heading#{spell.id}"
-    row.accordion-button.collapsed type="button" data-bs-toggle="collapse" data-bs-target="#spellPanels-collapse#{spell.id}" aria-expanded="true" aria-controls="spellPanels-collapse#{spell.id}"
-      .col-3 = spell.name
-      .col-1 Stupeň: #{spell.level}.
-      .col-2 Škola: #{spell.school}
-      .col-3 Vyvolání: #{Spell::CASTING.key(spell.casting)}
-      .col-3 Dosah: #{Spell::DURATION.key(spell.range)}
+    .row.accordion-button.collapsed type="button" data-bs-toggle="collapse" data-bs-target="#spellPanels-collapse#{spell.id}" aria-expanded="true" aria-controls="spellPanels-collapse#{spell.id}"
+      .col-md-5.col-lg-3.fw-bold = spell.name
+      .col-md-2.col-lg-1 Stupeň: #{spell.level}.
+      .col-md-4.col-lg-2 Škola: #{spell.school}
+      .col-md-4.col-lg-2 Vyvolání: #{Spell::CASTING.key(spell.casting)}
+      .col-md-4.col-lg-2 Dosah: #{Spell::RANGE.key(spell.range)}
+      .col-md-4.col-lg-2 Trvání: #{Spell::DURATION.key(spell.duration)}
   .accordion-collapse.collapse id="spellPanels-collapse#{spell.id}" aria-labelledby="spellPanels-heading#{spell.id}"
     .accordion-body
       = CommonMarker.render_html(spell.description, :DEFAULT).html_safe

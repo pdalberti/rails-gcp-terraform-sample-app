@@ -27,8 +27,8 @@
   h5 Seřadit podle
   .mb-1
     = sort_link(@q, :name, 'Názvu', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :school, 'Školy', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :level, 'Stupně', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :casting, 'Vyvolání', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :range, 'Dosahu', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :duration, 'Trvání', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :school, [:school, 'name asc'], 'Školy', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :level, [:level, 'name asc'], 'Stupně', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :casting, [:casting, 'name asc'], 'Vyvolání', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :range, [:range, 'name asc'], 'Dosahu', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :duration, [:duration, 'name asc'], 'Trvání', {}, class: 'btn btn-secondary m-1')
