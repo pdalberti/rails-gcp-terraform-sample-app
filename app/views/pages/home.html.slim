@@ -1,6 +1,8 @@
-h1.mt-5 DnD 5e kartotéka kouzel
+h1.mt-5 SRD kartotéka
 p.card-subtitle.text-muted powered by #{link_to 'd20.cz', 'http://www.d20.cz', target: :blank, class: 'text-muted'}
-= render 'filters'
 
-.accordion.custom-accordion
-  = render partial: 'spell', collection: @spells
+.d-flex.justify-content-evenly.mt-5
+  .form-background.card.link_card.p-3.text-center
+    = link_to dnd_path do
+      = image_tag 'dnd.png', class: 'card-img-top'
+      h5.card-link DnD 5e kartotéka kouzel
