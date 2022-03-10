@@ -4,15 +4,15 @@
       .col-md-5.col-lg-3
         = f.input :name_cont, required: false, placeholder: 'Český', label: 'Název'
         = f.input :en_name_cont, required: false, placeholder: 'Anglický', label: false
-      .col-md-7.col-lg-4 = f.input :rulebooks_name_in, required: false, label: 'Zdroj', collection: Dnd::Rulebook.pluck(:name), include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :school_in, required: false, label: 'Škola', collection: Dnd::Spell.pluck(:school).uniq.sort, multiple: true, include_blank: true, input_html: { multiple: true }
-      .col-3.col-md-2.col-lg-1 = f.input :level_in, required: false, label: 'Stupeň', collection: Dnd::Spell.pluck(:level).uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :range_in, required: false, label: 'Dosah', collection: Dnd::Spell::RANGE, include_blank: true, input_html: { multiple: true }
-      .col-8.col-md-4.col-lg-3 = f.input :casting_in, required: false, label: 'Vyvolání', collection: Dnd::Spell::CASTING, include_blank: true, input_html: { multiple: true }
+      .col-md-7.col-lg-4 = f.input :rulebooks_name_in, required: false, label: 'Zdroj', collection: Rulebook.pluck(:name), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :school_in, required: false, label: 'Škola', collection: Spell.pluck(:school).uniq.sort, multiple: true, include_blank: true, input_html: { multiple: true }
+      .col-3.col-md-2.col-lg-1 = f.input :level_in, required: false, label: 'Stupeň', collection: Spell.pluck(:level).uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :range_in, required: false, label: 'Dosah', collection: Spell::RANGE, include_blank: true, input_html: { multiple: true }
+      .col-8.col-md-4.col-lg-3 = f.input :casting_in, required: false, label: 'Vyvolání', collection: Spell::CASTING, include_blank: true, input_html: { multiple: true }
       .col-3.col-md-2.col-lg-1 = f.input :ritual_eq, required: false, label: 'Rituál?', collection: [['Ano', true], ['Ne', false]], as: :check_boxes, boolean_style: :nested
-      .col-4.col-md-2.col-lg-2 = f.input :components_in, required: false, label: 'Složky', collection: Dnd::Spell.pluck(:components).uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :dnd_classes_name_in, required: false, label: 'Povolání', collection: Dnd::DndClass.pluck(:name), include_blank: true, input_html: { multiple: true }
-      .col-9.col-md-5.col-lg-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Dnd::Spell::DURATION, include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-2.col-lg-2 = f.input :components_in, required: false, label: 'Složky', collection: Spell.pluck(:components).uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :dnd_classes_name_in, required: false, label: 'Povolání', collection: DndClass.pluck(:name), include_blank: true, input_html: { multiple: true }
+      .col-9.col-md-5.col-lg-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell::DURATION, include_blank: true, input_html: { multiple: true }
       .col-3.col-md-2.col-lg-1 = f.input :concentration_eq, required: false, label: 'Soustředění?', collection: [['Ano', true], ['Ne', false]], as: :check_boxes, boolean_style: :nested
     p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
     .d-flex.justify-content-between

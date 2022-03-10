@@ -7,9 +7,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-module Dnd
-  class Rulebook < ApplicationRecord
-    has_many :sources
-    has_many :spells, through: :sources
-  end
+class Rulebook < ApplicationRecord
+  has_many :sources
+  has_many :spells, through: :sources
 end

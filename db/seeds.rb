@@ -10,12 +10,12 @@ DatabaseCleaner.clean
 # write your new seeds after this line
 
 classes = %w[Bard Čaroděj Černokněžník Druid Hraničář Klerik Kouzelník Paladin]
-classes.each { |klass| Dnd::DndClass.create!(name: klass) }
+classes.each { |klass| DndClass.create!(name: klass) }
 
 puts "Created #{classes.join(', ')} classes"
 
 rulebooks = ['Dobrodruhův průvodce Mečovým prostředím', 'Příručka hráče', 'Xanatharuv pruvodce vším']
-rulebooks.each { |rulebook| Dnd::Rulebook.create!(name: rulebook) }
+rulebooks.each { |rulebook| Rulebook.create!(name: rulebook) }
 
 puts "Created #{rulebooks.join(', ')} rulebooks"
 
@@ -25,4 +25,4 @@ paths.each do |path|
   SpellSanitizerService.call(file)
 end
 
-puts "Created #{Dnd::Spell.count} spells"
+puts "Created #{Spell.count} spells"
