@@ -18,7 +18,9 @@
 #  fk_rails_...  (rulebook_id => rulebooks.id)
 #  fk_rails_...  (spell_id => spells.id)
 #
-class Source < ApplicationRecord
-  belongs_to :spell
-  belongs_to :rulebook
+module Dnd
+  class Source < ApplicationRecord
+    belongs_to :spell
+    belongs_to :rulebook
+  end
 end
