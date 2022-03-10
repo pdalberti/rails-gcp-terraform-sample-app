@@ -16,6 +16,7 @@ class SpellSanitizerService < ApplicationService
   def initialize(unsanitized_spell)
     @un_spell =   unsanitized_spell.split("\n\n")
     @attributes = { description: unsanitized_spell }
+    super()
   end
 
   def call
@@ -28,7 +29,7 @@ class SpellSanitizerService < ApplicationService
     assign_components
     assign_duration_and_concentration
     assign_dnd_classes
-    Spell.create!(attributes)
+    Dnd::Spell.create!(attributes)
   end
 
   private
@@ -46,7 +47,7 @@ class SpellSanitizerService < ApplicationService
   def assign_source
     # "***Xanatharuv pruvodce vším***"
     sources = un_spell[2].gsub('*', '')
-    attributes[:rulebooks] = Rulebook.where(name: sources)
+    attributes[:rulebooks] = Dnd::Rulebook.where(name: sources)
   end
 
   def assign_school_level_and_ritual
@@ -62,9 +63,9 @@ class SpellSanitizerService < ApplicationService
     # "**Vyvolání:** 1 reakce, kterou provedeš jako odpověď na zranění způsobené tvorem do 12 sáhů od tebe, kterého vidíš"
     casting = non_bold_text(un_spell[4])
     attributes[:casting] = if casting.split(',').first == '1 reakce'
-                             Spell::CASTING[casting.split(',').first]
+                             Dnd::Spell::CASTING[casting.split(',').first]
                            else
-                             Spell::CASTING[casting]
+                             Dnd::Spell::CASTING[casting]
                            end
   end
 
@@ -72,7 +73,7 @@ class SpellSanitizerService < ApplicationService
     # "**Dosah:** Ty sám (koule o poloměru 2 sáhy)"
     range = non_bold_text(un_spell[5])
     range = range.start_with?('Ty sám (') ? 'Ty sám (oblast)' : range
-    attributes[:range] = Spell::RANGE[range]
+    attributes[:range] = Dnd::Spell::RANGE[range]
   end
 
   def assign_components
@@ -89,16 +90,16 @@ class SpellSanitizerService < ApplicationService
     concentration = duration.first == 'Soustředění,'
     attributes[:concentration] = concentration
     attributes[:duration] = if concentration
-                              Spell::DURATION[duration[1..].join(' ')]
+                              Dnd::Spell::DURATION[duration[1..].join(' ')]
                             else
-                              Spell::DURATION[duration.join(' ')]
+                              Dnd::Spell::DURATION[duration.join(' ')]
                             end
   end
 
   def assign_dnd_classes
     # "**Povolání:** Čaroděj, kouzelník"
     classes = non_bold_text(un_spell[8]).split(', ').map(&:capitalize)
-    attributes[:dnd_classes] = DndClass.where(name: classes)
+    attributes[:dnd_classes] = Dnd::DndClass.where(name: classes)
   end
 
   # helper methods

@@ -7,9 +7,11 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class DndClass < ApplicationRecord
-  has_many :class_spells
-  has_many :spells, through: :class_spells
+module Dnd
+  class DndClass < ApplicationRecord
+    has_many :class_spells
+    has_many :spells, through: :class_spells
 
-  validates :name, presence: true, uniqueness: true
+    validates :name, presence: true, uniqueness: true
+  end
 end
