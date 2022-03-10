@@ -16,6 +16,7 @@ class SpellSanitizerService < ApplicationService
   def initialize(unsanitized_spell)
     @un_spell =   unsanitized_spell.split("\n\n")
     @attributes = { description: unsanitized_spell }
+    super()
   end
 
   def call
