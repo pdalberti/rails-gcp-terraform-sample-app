@@ -3,6 +3,6 @@ class PagesController < ApplicationController
 
   def dnd
     @q = Spell.ransack(params[:q])
-    @spells = @q.result.includes(:dnd_classes)
+    @spells = @q.result.includes(:dnd_classes, :rulebooks)
   end
 end
