@@ -16,6 +16,7 @@ class SpellSanitizerService < ApplicationService
   def initialize(unsanitized_spell)
     @un_spell =   unsanitized_spell.split("\n\n")
     @attributes = { description: unsanitized_spell }
+    super()
   end
 
   def call
@@ -45,8 +46,7 @@ class SpellSanitizerService < ApplicationService
 
   def assign_source
     # "***Xanatharuv pruvodce vším***"
-    sources = un_spell[2].gsub('*', '')
-    attributes[:rulebooks] = Rulebook.where(name: sources)
+    attributes[:rulebook] = un_spell[2].gsub('*', '')
   end
 
   def assign_school_level_and_ritual

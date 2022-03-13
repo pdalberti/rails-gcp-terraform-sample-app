@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_20_043247) do
+ActiveRecord::Schema.define(version: 2022_02_13_102602) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,35 +30,21 @@ ActiveRecord::Schema.define(version: 2022_02_20_043247) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "rulebooks", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "sources", force: :cascade do |t|
-    t.bigint "spell_id", null: false
-    t.bigint "rulebook_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["rulebook_id"], name: "index_sources_on_rulebook_id"
-    t.index ["spell_id"], name: "index_sources_on_spell_id"
-  end
-
   create_table "spells", force: :cascade do |t|
     t.string "name"
+    t.string "en_name"
     t.string "school"
     t.integer "level"
+    t.integer "casting"
+    t.integer "range"
     t.string "components"
+    t.integer "duration"
     t.string "description"
     t.boolean "ritual"
     t.boolean "concentration"
+    t.string "rulebook"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "en_name"
-    t.integer "casting"
-    t.integer "range"
-    t.integer "duration"
   end
 
   create_table "users", force: :cascade do |t|
@@ -75,6 +61,4 @@ ActiveRecord::Schema.define(version: 2022_02_20_043247) do
 
   add_foreign_key "class_spells", "dnd_classes"
   add_foreign_key "class_spells", "spells"
-  add_foreign_key "sources", "rulebooks"
-  add_foreign_key "sources", "spells"
 end
