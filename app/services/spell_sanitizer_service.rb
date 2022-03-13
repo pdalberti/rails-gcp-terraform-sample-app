@@ -46,8 +46,7 @@ class SpellSanitizerService < ApplicationService
 
   def assign_source
     # "***Xanatharuv pruvodce vším***"
-    sources = un_spell[2].gsub('*', '')
-    attributes[:rulebooks] = Rulebook.where(name: sources)
+    attributes[:rulebook] = un_spell[2].gsub('*', '')
   end
 
   def assign_school_level_and_ritual

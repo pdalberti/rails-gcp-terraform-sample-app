@@ -13,6 +13,7 @@
 #  name          :string
 #  range         :integer
 #  ritual        :boolean
+#  rulebook      :string
 #  school        :string
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null

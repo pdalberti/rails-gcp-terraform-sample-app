@@ -13,6 +13,7 @@
 #  name          :string
 #  range         :integer
 #  ritual        :boolean
+#  rulebook      :string
 #  school        :string
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
@@ -20,8 +21,6 @@
 class Spell < ApplicationRecord
   has_many :class_spells
   has_many :dnd_classes, through: :class_spells
-  has_many :sources
-  has_many :rulebooks, through: :sources
 
   CASTING = {
     '1 reakce' => 0, '1 bonusová akce' => 1, '1 akce' => 2, '1 akce, nebo 8 hodin' => 3,

@@ -14,11 +14,6 @@ classes.each { |klass| DndClass.create!(name: klass) }
 
 puts "Created #{classes.join(', ')} classes"
 
-rulebooks = ['Dobrodruhův průvodce Mečovým prostředím', 'Příručka hráče', 'Xanatharuv pruvodce vším']
-rulebooks.each { |rulebook| Rulebook.create!(name: rulebook) }
-
-puts "Created #{rulebooks.join(', ')} rulebooks"
-
 paths = Dir['storage/*.md'].sort
 paths.each do |path|
   file = File.read(path)
