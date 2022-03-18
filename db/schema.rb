@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_13_102602) do
+ActiveRecord::Schema.define(version: 2022_03_15_055949) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,38 @@ ActiveRecord::Schema.define(version: 2022_02_13_102602) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "fate_chapters", force: :cascade do |t|
+    t.string "name"
+    t.bigint "fate_rulebook_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["fate_rulebook_id"], name: "index_fate_chapters_on_fate_rulebook_id"
+  end
+
+  create_table "fate_dials", force: :cascade do |t|
+    t.bigint "fate_chapter_id", null: false
+    t.bigint "fate_trick_id", null: false
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["fate_chapter_id"], name: "index_fate_dials_on_fate_chapter_id"
+    t.index ["fate_trick_id"], name: "index_fate_dials_on_fate_trick_id"
+  end
+
+  create_table "fate_rulebooks", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "fate_tricks", force: :cascade do |t|
+    t.string "name"
+    t.bigint "fate_rulebook_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["fate_rulebook_id"], name: "index_fate_tricks_on_fate_rulebook_id"
   end
 
   create_table "spells", force: :cascade do |t|
@@ -61,4 +93,8 @@ ActiveRecord::Schema.define(version: 2022_02_13_102602) do
 
   add_foreign_key "class_spells", "dnd_classes"
   add_foreign_key "class_spells", "spells"
+  add_foreign_key "fate_chapters", "fate_rulebooks"
+  add_foreign_key "fate_dials", "fate_chapters"
+  add_foreign_key "fate_dials", "fate_tricks"
+  add_foreign_key "fate_tricks", "fate_rulebooks"
 end
