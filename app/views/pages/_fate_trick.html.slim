@@ -1,0 +1,15 @@
+.accordion-item
+  h2.accordion-header id="fate_trickPanels-heading#{fate_trick.id}"
+    .accordion-button.collapsed type="button" data-bs-toggle="collapse" data-bs-target="#fate_trickPanels-collapse#{fate_trick.id}" aria-expanded="true" aria-controls="fate_trickPanels-collapse#{fate_trick.id}"
+      .container
+        .row
+          .col-md-5.col-lg-3.fw-bold = fate_trick.name
+          - fate_trick.fate_dials.pluck(:name).uniq.each do |dial|
+            .col-md-4.col-lg-2 = dial
+          - if fate_trick.action
+            .col-md-4.col-lg-2 = fate_trick.action
+          - if fate_trick.trick_type
+            .col-md-4.col-lg-2 = fate_trick.trick_type
+  .accordion-collapse.collapse id="fate_trickPanels-collapse#{fate_trick.id}" aria-labelledby="fate_trickPanels-heading#{fate_trick.id}"
+    .accordion-body
+      = fate_trick.name
