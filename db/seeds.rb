@@ -9,20 +9,20 @@ DatabaseCleaner.clean
 
 # write your new seeds after this line
 
-# puts 'Setting up DnD Compendium'
+puts 'Setting up DnD Compendium'
 
-# classes = %w[Bard Čaroděj Černokněžník Druid Hraničář Klerik Kouzelník Paladin]
-# classes.each { |klass| DndClass.create!(name: klass) }
+classes = %w[Bard Čaroděj Černokněžník Druid Hraničář Klerik Kouzelník Paladin]
+classes.each { |klass| DndClass.create!(name: klass) }
 
-# puts "Created #{classes.join(', ')} classes"
+puts "Created #{classes.join(', ')} classes"
 
-# paths = Dir['storage/*.md'].sort
-# paths.each do |path|
-#   file = File.read(path)
-#   SpellSanitizerService.call(file)
-# end
+paths = Dir['storage/*.md'].sort
+paths.each do |path|
+  file = File.read(path)
+  SpellSanitizerService.call(file)
+end
 
-# puts "Created #{Spell.count} spells"
+puts "Created #{Spell.count} spells"
 
 
 puts 'Setting up Fate Compendium'
@@ -48,6 +48,9 @@ puts "Created #{chapters.keys.join(', ')} chapters"
 
 trick = Fate::Trick.create!(
   name: 'Gravitační akrobacie',
+  trick_type: '+2, -aspekty/vynucení',
+  action: 'O, CA',
+  description: 'Tvoje zkušenosti se stavem beztíže ti dávají ohromnou orientaci ve 3D prostoru. Máš +2 k hodům na Překonání nebo Vytvoření výhody kdykoliv, kdy jednáš během skoku, pádu nebo letu. Prostředí bez gravitace ti nečiní žádné problémy (situační aspekty, které se k němu váží, můžeš ignorovat a nejdou proti tobě vyvolat ani vynutit).',
   fate_rulebook: Fate::Rulebook.find_by(name: 'Fate SW')
 )
 Fate::Dial.create!(
@@ -65,6 +68,9 @@ Fate::Dial.create!(
 
 trick = Fate::Trick.create!(
   name: 'Bitevní orientace',
+  trick_type: '+akce, -aspekty/vynucení',
+  action: 'D',
+  description: 'Že na tebe někdo střílí je pro tebe normální a střely, které tě těsně minou, tě už nevzrušují. Máš tak čas dívat se okolo, jednat s chladnou efektivitou a využívat vlastní střelbu k zastrašení těch, kteří tvůj klid nesdílejí. Můžeš použít Blastery k obraně před nepřátelskou střelbou, za předpokladu, že na protivníka můžeš střílet zpátky. Pokud se můžeš krýt svou střelbou, můžeš ignorovat situační aspekty související s volným prostranstvím a máš +2 k obraně před riziky prostředí založenými na intenzitě okolní palby.',
   fate_rulebook: Fate::Rulebook.find_by(name: 'Fate SW')
 )
 Fate::Dial.create!(
@@ -82,6 +88,8 @@ Fate::Dial.create!(
 
 trick = Fate::Trick.create!(
   name: 'Lovecká zkušenost',
+  trick_type: '+schopnost',
+  description: 'Pokud se alespoň rámcově seznámíš s profilem (osobností, schopnostmi) cíle, který pronásleduješ, pak dokážeš odhadnout, kam se vydal dál, jen na základě znalosti situace, v níž se nacházel (zdroje, možnosti, čas...).',
   fate_rulebook: Fate::Rulebook.find_by(name: 'Fate SW')
 )
 Fate::Dial.create!(
@@ -99,6 +107,9 @@ Fate::Dial.create!(
 
 trick = Fate::Trick.create!(
   name: 'Nepředvídatelná povaha',
+  trick_type: '+schopnost',
+  restriction: '1/sezení',
+  description: 'Jednou za sezení, když se rozhodneš jednat v rozporu se svým aspektem postavy (včetně na tobě umístěných situačních aspektů psychické povahy typu „zastrašený“ atp., ale nikoliv aspektů vzešlých ze Síly a aspektů zkorumpovaných Temnou stranou) a někdo se tě vynucením pokusí přimět chovat v souladu s aspektem, můžeš takové vynucení zdarma odmítnout.',
   fate_rulebook: Fate::Rulebook.find_by(name: 'Fate SW')
 )
 Fate::Dial.create!(
@@ -115,21 +126,49 @@ Fate::Dial.create!(
 
 
 trick = Fate::Trick.create!(
-  name: 'Základní pravidla',
-  fate_rulebook: Fate::Rulebook.find_by(name: 'Fate SW')
+  name: 'Odhalování lží',
+  en_name: 'Lie Whisperer',
+  trick_type: '+2p',
+  description: '+2 na všechny hody na Empatii, které jsou činěny za účelem odhalení lží, ať už jsou cíleny na vás nebo na někoho jiného.',
+  fate_rulebook: Fate::Rulebook.find_by(name: 'Základní pravidla')
 )
 Fate::Dial.create!(
   fate_trick: trick,
   fate_chapter: Fate::Chapter.find_by(name: 'FC S0'),
-  name: 'Skrývání'
+  name: 'Empatie'
 )
 
 Fate::Dial.create!(
   fate_trick: trick,
   fate_chapter: Fate::Chapter.find_by(name: 'SW S0'),
-  name: 'Infiltrace'
+  name: 'Přesvědčování'
+)
+
+Fate::Dial.create!(
+  fate_trick: trick,
+  fate_chapter: Fate::Chapter.find_by(name: 'SW S0'),
+  name: 'Pozornost'
 )
 
 
-# create tricks and assign dials
-# create search page to test ransack
+trick = Fate::Trick.create!(
+  name: 'Omračující protiúder',
+  en_name: 'Dazing Counter',
+  trick_type: '+2p, +možnost',
+  action: 'D',
+  description: 'Když uspějete stylově při obraně proti protivníkovu hodu na Boj, automaticky mu vracíte omračující ránu nebo nějaký typ nervového úderu. Přidělte oponentovi situační aspekt _**Omráčený**_ s volným vyvoláním namísto obyčejného posílení.',
+  fate_rulebook: Fate::Rulebook.find_by(name: 'Základní pravidla')
+)
+Fate::Dial.create!(
+  fate_trick: trick,
+  fate_chapter: Fate::Chapter.find_by(name: 'FC S0'),
+  name: 'Atletika'
+)
+
+Fate::Dial.create!(
+  fate_trick: trick,
+  fate_chapter: Fate::Chapter.find_by(name: 'SW S0'),
+  name: 'Atletika'
+)
+
+puts "Created #{Fate::Trick.count} tricks"

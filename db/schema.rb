@@ -56,6 +56,13 @@ ActiveRecord::Schema.define(version: 2022_03_15_055949) do
 
   create_table "fate_tricks", force: :cascade do |t|
     t.string "name"
+    t.string "en_name"
+    t.string "trick_type"
+    t.string "tag"
+    t.string "restriction"
+    t.integer "fate"
+    t.string "action"
+    t.text "description"
     t.bigint "fate_rulebook_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
