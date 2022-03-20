@@ -10,5 +10,7 @@
 module Fate
   class Trick < ApplicationRecord
     belongs_to :fate_rulebook, class_name: 'Fate::Rulebook'
+    has_many :fate_dials, foreign_key: 'fate_trick_id', class_name: 'Fate::Dial'
+    has_many :fate_chapters, through: :fate_dials, class_name: 'Fate::Chapter'
   end
 end

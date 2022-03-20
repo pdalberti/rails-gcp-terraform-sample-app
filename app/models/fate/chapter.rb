@@ -19,5 +19,6 @@
 module Fate
   class Chapter < ApplicationRecord
     belongs_to :fate_rulebook, class_name: 'Fate::Rulebook'
+    has_many :fate_dials, foreign_key: 'fate_chapter_id', class_name: 'Fate::Dial'
   end
 end
