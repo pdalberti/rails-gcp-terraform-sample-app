@@ -4,13 +4,13 @@
       .col-md-5.col-lg-3
         = f.input :name_cont, required: false, placeholder: 'Český', label: 'Název'
         = f.input :en_name_cont, required: false, placeholder: 'Anglický', label: false
-      .col-md-7.col-lg-4 = f.input :fate_rulebook_name_in, required: false, label: 'Zdroj', collection: Fate::Rulebook.pluck(:name).sort, include_blank: true, input_html: { multiple: true }
+      .col-8.col-md-4.col-lg-3 = f.input :fate_rulebook_name_in, required: false, label: 'Zdroj', collection: Fate::Rulebook.pluck(:name).sort, include_blank: true, input_html: { multiple: true }
       - @chapters.each do |chapter|
-        .col-5.col-md-3.col-lg-2 = f.input :fate_dials_name_in, required: false, label: chapter.name, collection: chapter.fate_dials.pluck(:name).uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-8.col-md-4.col-lg-3 = f.input :trick_type_in, required: false, label: 'Type', collection: Fate::Trick.pluck(:trick_type).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
-      .col-3.col-md-2.col-lg-1 = f.input :action_in, required: false, label: 'Akce', collection: Fate::Trick.pluck(:action).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :tag_in, required: false, label: 'Tag', collection: Fate::Trick.pluck(:tag).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
-      .col-4.col-md-2.col-lg-2 = f.input :restriction_in, required: false, label: 'Omezení', collection: Fate::Trick.pluck(:restriction).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
+        .col-5.col-md-3.col-lg-2 = f.input :fate_dials_name_cont_any, required: false, label: chapter.name, collection: chapter.fate_dials.pluck(:name).uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :tag_cont_any, required: false, label: 'Tag', collection: comma_unique(Fate::Trick.pluck(:tag)), include_blank: true, input_html: { multiple: true }
+      .col-8.col-md-4.col-lg-3 = f.input :trick_type_cont_any, required: false, label: 'Type', collection: comma_unique(Fate::Trick.pluck(:trick_type)), include_blank: true, input_html: { multiple: true }
+      .col-3.col-md-2.col-lg-1 = f.input :action_cont_any, required: false, label: 'Akce', collection: comma_unique(Fate::Trick.pluck(:action)), include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-2.col-lg-2 = f.input :restriction_cont_any, required: false, label: 'Omezení', collection: comma_unique(Fate::Trick.pluck(:restriction)), include_blank: true, input_html: { multiple: true }
       / .col-3.col-md-2.col-lg-1 = f.input :ritual_eq, required: false, label: 'Rituál?', collection: [['Ano', true], ['Ne', false]], as: :check_boxes, boolean_style: :nested
       / .col-6.col-md-3.col-lg-2 = f.input :dnd_classes_name_in, required: false, label: 'Povolání', collection: DndClass.pluck(:name), include_blank: true, input_html: { multiple: true }
       / .col-9.col-md-5.col-lg-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell::DURATION, include_blank: true, input_html: { multiple: true }
