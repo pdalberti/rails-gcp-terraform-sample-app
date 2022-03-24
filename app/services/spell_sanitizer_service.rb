@@ -100,15 +100,4 @@ class SpellSanitizerService < ApplicationService
     classes = non_bold_text(un_spell[8]).split(', ').map(&:capitalize)
     attributes[:dnd_classes] = DndClass.where(name: classes)
   end
-
-  # helper methods
-  ########################################
-
-  def non_bold_text(string)
-    string.split('** ').last
-  end
-
-  def text_between_parentheses(string)
-    string[/\((.*?)\)/m, 1]
-  end
 end
