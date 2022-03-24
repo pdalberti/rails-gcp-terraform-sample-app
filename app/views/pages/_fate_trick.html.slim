@@ -6,7 +6,7 @@
           .col-md-5.col-lg-3.fw-bold = fate_trick.name
           .col-md-5.col-lg-3 = fate_trick.fate_dials.pluck(:name).uniq.join(', ')
           .col-md-2.col-lg-1 = fate_trick.action
-          .col-md-4.col-lg-2 = fate_trick.trick_type
+          .col-md-5.col-lg-3 = fate_trick.trick_type
           .col-md-4.col-lg-2 = fate_trick.restriction
   .accordion-collapse.collapse id="fate_trickPanels-collapse#{fate_trick.id}" aria-labelledby="fate_trickPanels-heading#{fate_trick.id}"
     .accordion-body
