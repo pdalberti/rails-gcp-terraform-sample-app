@@ -7,7 +7,7 @@ DatabaseCleaner.allow_remote_database_url = true
 DatabaseCleaner.strategy = :truncation
 DatabaseCleaner.clean
 
-write your new seeds after this line
+# write your new seeds after this line
 
 puts 'Setting up DnD Compendium'
 
