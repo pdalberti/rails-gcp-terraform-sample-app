@@ -1,1049 +1,717 @@
-# Generátor štítu
+<stunt
+    title="Generátor štítu"
 
-***Fate Epizoda I: Star Wars***
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Těžký bojový droid Droideka"
 
-**FC S0:** 
+    sw-enemy="droidi"
 
-**FA A0:** 
+    type="+2, +akce"
 
-**SW S0:** 
+    tags="droid, pancíř"
 
-**SW C0:** 
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** droidi
-
-**Typ:** +2, +akce
-
-**Tag:** droid, pancíř
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 Může používat blastery k obraně. +2 proti ručním zbraním (blastery, blasterové pušky atp.) a malým výbušninám (granáty atp.).
 
-# Maskovací rutiny
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Maskovací rutiny"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Komando čtyř autonomních bojových droidů"
 
-**SW S0:** 
+    sw-enemy="droidi"
 
-**SW C0:** 
+    type="předrátování"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** droidi
-
-**Typ:** předrátování
-
-**Tag:** droid
-
-**Omezení:** 
-
-**Akce:** 
+    tags="droid"
+    >
 
 Skupina je vystrojena na zamaskování a má rozšířený program pro skrývání. Má-li čas na Zamaskování, může si na skrývání házet Atletikou.
 
-# Bezhlavý útok
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Bezhlavý útok"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Skupina osmi úderných klonových vojáků"
 
-**SW S0:** 
+    sw-enemy="troopeři"
 
-**SW C0:** 
+    type="+2"
 
-**SW R0:**
+    tags="skupina"
 
-**SW E0:** 
+    actions="A"
+    >
 
-**SW En:** troopeři
+Skupina se vrhne do útoku bez ohledu na své bezpečí - získá +2 k útoku, ale sama obdrží stres za každý druhý posun protivníkovy obrany (úspěšné nebo ne).
 
-**Typ:** +2
+</stunt>
 
-**Tag:** skupiny
 
-**Omezení:** 
+<stunt
+    title="Těžce oplátovaný"
 
-**Akce:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: AT-ST"
 
-Bezhlavý útok. Skupina se vrhne do útoku bez ohledu na své bezpečí - získá +2 k útoku, ale sama obdrží stres za každý druhý posun protivníkovy obrany (úspěšné nebo ne).
+    sw-enemy="Těžká technika"
 
-# Těžce oplátovaný
+    type="+2p"
 
-***Fate Epizoda I: Star Wars***
+    tags="lodě, pancíř"
+    >
 
-**FC S0:** 
+AT-ST má Pancíř:2 proti všem útokům ručními zbraněmi (odebírá 2 posuny ze síly každého zásahu, který jimi obdrží).
 
-**FA A0:** 
+</stunt>
 
-**SW S0:** 
 
-**SW C0:** 
+<stunt
+    title="Brutálně pancéřovaný"
 
-**SW R0:**
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: AT-AT"
 
-**SW E0:** 
+    sw-enemy="vozidla"
 
-**SW En:** 
+    type="+2p"
 
-**Typ:** +2p
-
-**Tag:** lodě, pancíř
-
-**Omezení:** 
-
-**Akce:** 
-
-Těžce oplátovaný. AT-ST má Pancíř:2 proti všem útokům ručními zbraněmi (odebírá 2 posuny ze síly každého zásahu, který jimi obdrží).
-
-# Brutálně pancéřovaný
-
-***Fate Epizoda I: Star Wars***
-
-**FC S0:** 
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** vozidla
-
-**Typ:** +2p
-
-**Tag:** pancíř
-
-**Omezení:** 
-
-**Akce:** 
+    tags="pancíř"
+    >
 
 AT-AT má univerzální Pancíř:2 (odebírá 2 posuny ze síly každého zásahu, který obdrží)
 
-# Ohromná rychlost
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Ohromná rychlost"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Speeder"
 
-**SW S0:** 
+    sw-enemy="vozidla"
 
-**SW C0:** 
+    type="+2p"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** vozidla
-
-**Typ:** +2p
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    actions="A, CA"
+    >
 
 Speeder je výborně ovladatelný i ve velmi vysokých rychlostech - v měřítku pěšího střetnutí snižuje náročnost hodu pro přesun mezi zónami na polovinu.
 
-# Ryhlý pohyblivý cíl
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Ryhlý pohyblivý cíl"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Taktický bombardér"
 
-**SW S0:** 
+    sw-enemy="letouny"
 
-**SW C0:** 
+    type="+2"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** letouny
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 Proti útokům ze země z jiných, než vysloveně protivzdušných zbraní, má bombardér +2 k obraně.
 
+</stunt>
 
-# Taktický štít
 
-***Fate Epizoda I: Star Wars***
+<stunt
+    title="Taktický štít"
 
-**FC S0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Taktický bombardér"
 
-**FA A0:** 
+    sw-enemy="letouny"
 
-**SW S0:** 
+    type="+2p"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** letouny
-
-**Typ:** +2p
-
-**Tag:** pancíř
-
-**Omezení:** 
-
-**Akce:** 
+    tags="pancíř"
+    >
 
 Bombardér má Pancíř:2 proti útokům ručními zbraněmi.
 
+</stunt>
 
-# Plošný úder
 
-***Fate Epizoda I: Star Wars***
+<stunt
+    title="Plošný úder"
 
-**FC S0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Taktický bombardér"
 
-**FA A0:** 
+    sw-enemy="letouny"
 
-**SW S0:** 
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** letouny
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Bombardér může provést táhlý nálet a udeřit na celou zónu. Tuto akci musí vyhlásit o kolo dříve, když je v sousední zóně, a provést ji jako svou první akci ihned poté, co do zóny vstoupí.
 
-# Těžké blastery
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Těžké blastery"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Opevněné postavení"
 
-**SW S0:** 
+    sw-enemy="opevnění"
 
-**SW C0:** 
+    type="+2p"
 
-**SW R0:**
+    tags="zbraň"
 
-**SW E0:** 
-
-**SW En:** opevnění
-
-**Typ:** +2
-
-**Tag:** zbraň
-
-**Omezení:** 
-
-**Akce:** 
+    actions="A"
+    >
 
 V bunkru je rozmístěných pár pěchotních blasterových děl a protivzdušná blasterová opakovací věž. Jde o silné, ale poněkud neobratné zbraně: přidávají 2 posuny k zásahu, ale jednotky s třídou velikosti 1 proti nim mají +2 k obraně.
 
-# Soustředěná palba
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Soustředěná palba"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Řetězová blasterová věž"
 
-**SW S0:** 
+    sw-enemy="opevnění"
 
-**SW C0:** 
+    type="+možnost"
 
-**SW R0:**
+    tags="zbraň"
 
-**SW E0:** 
-
-**SW En:** opevnění
-
-**Typ:** +možnost
-
-**Tag:** zbraň
-
-**Omezení:** 
-
-**Akce:** 
+    actions="A"
+    >
 
 Nekončící řetěz souvislých výstřelů je noční můrou pěchoty. Pokud zamíříš věž na jeden jediný cíl (jednotlivce, skupinu či těžkou techniku) a zasáhnete, pak cíl připravíš o jeden další (nejnižší dostupný) čtvereček stresu, aniž by z něj měl nějaký další užitek.
 
-# Plošná palba
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Plošná palba"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Řetězová blasterová věž"
 
-**SW S0:** 
+    sw-enemy="opevnění"
 
-**SW C0:** 
+    type="+možnost"
 
-**SW R0:**
+    tags="zbraň"
 
-**SW E0:** 
-
-**SW En:** opevnění
-
-**Typ:** +možnost
-
-**Tag:** zbraň
-
-**Omezení:** 
-
-**Akce:** 
+    actions="A"
+    >
 
 Střelbou z věže lze pokrýt značný prostor naráz - můžeš zasáhnout až tři cíle vedle sebe bez rozdělování úspěchů nebo umístit aspekt Slušného (+2) rizika prostředí Pod palbou na celou zónu.
 
-# Toydarianská vůle
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Toydarianská vůle"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Toydorianský šmelinář"
 
-**SW S0:** 
+    sw-enemy="NPC"
 
-**SW C0:** 
+    type="+2"
 
-**SW R0:**
+    tags="psionika"
 
-**SW E0:** 
-
-**SW En:** NPC
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    actions="D"
+    >
 
 Toydariané mají +2 proti ovlivňování své mysli Silou.
 
-# Taktický vhled
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Taktický vhled"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Tarský admirál Nilak Brinte"
 
-**SW S0:** 
+    sw-enemy="NPC"
 
-**SW C0:** 
+    type="+možnost"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** NPC
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    actions="CA"
+    >
 
 Hodem na Znalosti dokáže admirál vytvářet výhody na vzdálených bojištích a předávat volná vyvolání tamnějším velitelům.
 
+</stunt>
 
-# Kryté formace
 
-***Fate Epizoda I: Star Wars***
+<stunt
+    title="Kryté formace"
 
-**FC S0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Tarský admirál Nilak Brinte"
 
-**FA A0:** 
+    fc-skill="Přesvědčování"
+    sw-enemy="NPC"
 
-**SW S0:** 
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** NPC
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    actions="CA"
+    >
 
 Viz Držte linii u Elitního vojáka, strana 48, ale působí na flotily ve vesmírných bitvách. Skrze rozkazy může takovou výhodu vytvořit jednou do začátku scény, i když sám není bitvě přítomen.
 
 *(Držte liniii: Můžeš vytvořit výhodu vystihující tvojí ostřílenou taktiku nebo morálku podporující velení. Dokud jste v boji, tví spojenci (vč. skupin) mohou tuto výhodu použít namísto mírného (+4) následku, čímž ji zruší. Naráz může existovat pouze jedna taková výhoda.)*
 
-# Výběrový cíl
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Výběrový cíl"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Jaris Larko (nájemný zabiják)"
 
-**SW S0:** 
+    fc-skill="Střelba"
+    sw-skill="Blastery"
+    sw-enemy="NPC"
 
-**SW C0:** 
+    type="+možnost"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** NPC
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Pokud Jaris útočí do skupiny (např. na cíl obklopený ochrankou), může si vybrat, koho zasáhne (postava nemůže využít stres skupiny před tím svým).
 
-# Autonomní plán
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Autonomní plán"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Jaris Larko (nájemný zabiják)"
 
-**SW S0:** 
+    sw-enemy="NPC"
 
-**SW C0:** 
+    type="+schopnost"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** NPC
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    actions="CA"
+    >
 
 Pokud má Jaris hodně času na přípravu, může si hodit na Vůli proti Slušné (+2) obtížnosti. Počet úspěchů ukazuje počet situačních aspektů, které fungují jako hrozby prostředí s hodnotou Jarisovy dovednosti (každý aspekt musí být vázán k jiné dovednosti) a které vystihnou smrtící situaci, kterou Jaris připravil.
 
-# Extrémně obratný
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Extrémně obratný"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: TIE stíhač"
 
-**SW S0:** 
+    sw-enemy="letouny"
 
-**SW C0:** 
+    type="+2"
 
-**SW R0:**
+    tags="lodě"
 
-**SW E0:** 
-
-**SW En:** letouny
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** O, CA
+    actions="O, CA"
+    >
 
 TIE stíhač má +2 na tvorbu a překonání výhod spočívajících v rychlých manévrech nebo získávání dobré bojové pozice.
 
 
-# Zesílené štíty
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Zesílené štíty"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Droidí stíhač Vulture"
 
-**SW S0:** 
+    sw-enemy="letouny"
 
-**SW C0:** 
+    type="+2p"
 
-**SW R0:**
+    tags="pancíř"
 
-**SW E0:** 
-
-**SW En:** letouny
-
-**Typ:** +2p
-
-**Tag:** pancíř
-
-**Omezení:** 
-
-**Akce:** O, CA
+    actions="O, CA"
+    >
 
 Štíty, jimiž je Vulture vybaven, byly od začátku tvořeny přímo pro jeho design, který naopak počítal s jejich užitím, což jim dává neobvyklou efektivitu.
 
-# Výrazná palebná síla
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Výrazná palebná síla"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
 
-**SW S0:** 
+    origin="sw-protivník: Letka čtyř Naboo N1"
 
-**SW C0:** 
+    sw-enemy="letouny"
 
-**SW R0:**
+    type="+2p"
 
-**SW E0:** 
+    tags="skupina"
 
-**SW En:** letouny
-
-**Typ:** +2p
-
-**Tag:** skupina
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Naboo nemá vlastní flotilu - namísto toho investovalo těžké peníze do velmi nestandardního vyzbrojení svých stíhacích letek. Jakýkoliv zásah (vč. remízy) vůči jiné letce stíhačů vždy vyřadí minimálně jeden stroj. Při zásahu lodí s třídou velikosti 2 až 4 způsobuje letka N1 o 2 posuny poškození víc.
 
-# Krycí manévry
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Krycí manévry"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Obranná letka šesti TIE stíhačů"
 
-**SW S0:** 
+    sw-enemy="letouny"
 
-**SW C0:** 
+    type="+2p"
 
-**SW R0:**
+    tags="skupina"
 
-**SW E0:** 
 
-**SW En:** letouny
-
-**Typ:** +2p
-
-**Tag:** skupina
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 TIE stíhače jsou extrémně obratné a jejich piloti jsou secvičení ve vzájemném krytí. Žádný útok na letku TIE stíhačů (i kdyby se záměrně stavěla do cesty nepřátelské palbě) nikdy nezasáhne více, než dva její stroje naráz.
 
-# Ze všech stran
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Ze všech stran"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Záchytná letka čtyř TIE stíhačů"
 
-**SW S0:** 
+    sw-enemy="letouny"
 
-**SW C0:** 
+    type="+2"
 
-**SW R0:**
+    tags="skupina"
 
-**SW E0:** 
-
-**SW En:** letouny
-
-**Typ:** +2
-
-**Tag:** skupina
-
-**Omezení:** 
-
-**Akce:** O, CA
+    actions="O, CA"
+    >
 
 Obratnost TIE stíhačů umožňuje jejich sehraným pilotům bleskově obklopit nepřátelskou loď či formaci a dostat jí do křížové palby. Záchytné letky mají +2 na překonání nepřátelských obranných manévrů a formací a na tvoření výhod spočívajících v obklopení jednotlivého nepřítele.
 
-# Falešné identifikační kódy
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Falešné identifikační kódy"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Pašerácká loď"
 
-**SW S0:** 
+    sw-enemy="lodě"
 
-**SW C0:** 
+    type="předrátování"
 
-**SW R0:**
+    tags="lodě, výbava"
 
-**SW E0:**
-
-**SW En:** lodě
-
-**Typ:** předrátování
-
-**Tag:** lodě, výbava
-
-**Omezení:** 
-
-**Akce:** 
+    actions="O, CA"
+    >
 
 Pro účely vydávání se za jinou loď/posádku si posádka hází Infiltrací namísto Manipulací.
 
-# Skrytá úložiště
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Skrytá úložiště"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Pašerácká loď"
 
-**SW S0:** 
+    sw-enemy="lodě"
 
-**SW C0:** 
+    type="+2"
 
-**SW R0:**
+    tags="lodě, výbava"
 
-**SW E0:** 
-
-**SW En:** lodě
-
-**Typ:** +2
-
-**Tag:** lodě, výbava
-
-**Omezení:** 
-
-**Akce:** 
+    actions="D"
+    >
 
 Pokud loď prohledává někdo, kdo neví, co přesně hledá, má loď +2 na Infiltraci pro účely skrytí nákladu o rozumném rozsahu.
 
-# Blasterová houfnice
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Blasterová houfnice"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Rebelská fregata"
 
-**SW S0:** 
+    sw-enemy="lodě"
 
-**SW C0:** 
+    type="+2"
 
-**SW R0:**
+    tags="lodě, zbraň"
 
-**SW E0:** 
-
-**SW En:** lodě
-
-**Typ:** +2
-
-**Tag:** lodě, zbraň
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Fregata je vybavena mnoha vícehlavňovými blastery bodové obrany s rozptylem, které jí dávají +2 na útok proti letkám stihačů ve stejné zóně.
 
-# Iontový super kanon
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Iontový super kanon"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Satelit planetární obrany"
 
-**SW S0:** 
+    sw-enemy="lodě"
 
-**SW C0:** 
+    type="+2"
 
-**SW R0:**
+    tags="lodě, zbraň"
 
-**SW E0:** 
-
-**SW En:** lodě
-
-**Typ:** +2
-
-**Tag:** lodě, zbraň
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Do vzdálených zón útočí jen s poloviční penalizací. Při zásahu způsobuje o 2 posuny poškození méně (minimálně vždy alespoň 1), ale ignoruje bitevní štíty a až do konce scény sníží hodnoty všech čtverečků stresu lodi o 1.
 
-# V Republice těžce ilegální průbojné senzory
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="V Republice těžce ilegální průbojné senzory"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Obchodní vesmírná stanice"
 
-**SW S0:** 
+    sw-enemy="lodě"
 
-**SW C0:** 
+    type="+možnost"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** lodě
-
-**Typ:** +možnost
-
-**Tag:** lodě, výbava
-
-**Omezení:** 
-
-**Akce:**
+    tags="lodě, výbava"
+    >
 
 Hodem Pozornosti proti Infiltraci dokáže odhalit všechny zbraně a potenciálně rizikový náklad. Celou posádku tím vystaví Slušnému (+2) útoku (proti Kondici) zbytkovou radiací.
 
 
-# Obranné blasterové baterie
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Obranné blasterové baterie"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Star Destroyer"
 
-**SW S0:** 
+    sw-enemy="lodě"
 
-**SW C0:** 
+    type="+možnost"
 
-**SW R0:**
+    tags="lodě, zbraň"
 
-**SW E0:** 
-
-**SW En:** lodě
-
-**Typ:** +možnost
-
-**Tag:** lodě, zbraň
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Hustá síť bodové obrany umožňuje útočit až na 4 cíle v přilehlých a vzdálených zónách naráz (pouze na 4 cíle dohromady před sebou) a na 1 (další) cíl ve vlastní zóně (Pravobok a Levobok).
 
-# Pohotovostní start
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Pohotovostní start"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Star Destroyer"
 
-**SW S0:** 
+    sw-enemy="lodě"
 
-**SW C0:** 
+    type="+schopnost"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** lodě
-
-**Typ:** +schopnost
-
-**Tag:** lodě, zbraň
-
-**Omezení:** 
-
-**Akce:**
+    tags="lodě, zbraň"
+    >
 
 Dok dokáže v každé výměně vypustit nebo přijmout jednu letku TIE stíhačů (kterých může nést až deset) nebo malou loď. Ta se objeví v zóně napravo nebo nalevo od Star Destroyeru.
 
-# Supervýkonné senzory
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Supervýkonné senzory"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Star Destroyer"
 
-**SW S0:** 
+    sw-enemy="lodě"
 
-**SW C0:** 
+    type="+2p"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** lodě
-
-**Typ:** +2p
-
-**Tag:** lodě, výbava
-
-**Omezení:** 
-
-**Akce:**
+    tags="lodě, výbava"
+    >
 
 Star Destroyer je vlajková loď flotil a je vybaven ohromnou sbírkou supervýkonných senzorů. Jakékoliv penalizace hodů na Pozornost za vzdálenost se snižují na čtvrtinu. (Bohužel, pro senzory a antény už nezbylo moc místa na blastery.)
 
-# Pohyblivost
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** Atletika
+<stunt
+    title="Pohyblivost"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Varactyl"
 
-**SW S0:** Atletika
+    fc-skill="Atletika"
+    sw-skill="Atletika"
 
-**SW C0:** 
+    sw-enemy="nestvůry"
 
-**SW R0:**
+    type="+2"
 
-**SW E0:** 
-
-**SW En:** nestvůry
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** O, CA
+    actions="O, CA"
+    >
 
 Varactyl má +2 k Překonání a tvorbě výhod Atletikou založených na rychlosti a/nebo obratnosti (vč. hodů na pohyb při přesunu mezi zónami).
 
-# Spousta nohou a periferní vidění
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Spousta nohou a periferní vidění"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Acklay"
 
-**SW S0:** 
+    sw-enemy="nestvůry"
 
-**SW C0:** 
+    type="+možnost"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** nestvůry
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Acklay na tebe může zaútočit bez ohledu na to, kde vůči němu stojíš. A že zároveň útočí na někoho jiného ho moc neruší.
 
-# Drtivé sevření
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Drtivé sevření"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Exogorth"
 
-**SW S0:** 
+    sw-enemy="nestvůry"
 
-**SW C0:** 
+    type="+schopnost"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** nestvůry
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Proti Exogorthovi nelze použít žádné štíty vyjma bitevních (fyzický stisk gigantických čelistí je něco, na co žádné moderní silové pole nebylo designované ani kalibrované - po prvních pár zlomcích vteřin obvykle prostě selže).
 
+</stunt>
 
-# Zakousnutí
 
-***Fate Epizoda I: Star Wars***
+<stunt
+    title="Zakousnutí"
 
-**FC S0:** 
+    source="Fate Epizoda I: Star Wars"
+    origin="sw-protivník: Exogorth"
 
-**FA A0:** 
+    sw-enemy="nestvůry"
 
-**SW S0:** 
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** nestvůry
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Jako mnoho dalších velkých predátorů, jakmile se Exogorth jednou zakousne, nemá žádnou zvláštní touhu se moc pouštět. Úspěšný útok proti lodi s menší třídou velikosti, než je jeho vlastní, mu automaticky vytvoří výhodu Zakousnutá. Zakousnutá loď nemůže provést žádný pohyb, dokud se aspektu nezbaví (Exogorth ho bude bránit svou Kondicí). Podrobnosti o ideálním postupu bohužel nejsou známy.
 
-# Zrazuješ Sílu v sobě
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** 
+<stunt
+    title="Zrazuješ Sílu v sobě"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
 
-**SW S0:** 
+    origin="sw-protivník: Mystici Temného klidu"
 
-**SW C0:** 
+    sw-extra="Síla"
+    sw-enemy="NPC"
 
-**SW R0:**
+    type="+schopnost"
 
-**SW E0:** Síla
+    tags="psionika"
 
-**SW En:** NPC
-
-**Typ:** +schopnost
-
-**Tag:** psionika
-
-**Omezení:** 
-
-**Akce:**
+    actions="A"
+    >
 
 Mystik může ovlivnit duševní následky postavy - pokud duševním útokem způsobí nad rámec stresu (3 posuny záashu pro již existující drobný následek, 2 posuny pro mírný a 1 pro vážný), tak může postavu donutit tento následek odmazat, jakoby šlo o následek Temné strany. Naopak pokud má postava nějaký zkorumpovaný aspekt, Mystik jej 3 posunovým zásahem může „očistit“ za cenu způsobení vážného duševního následku.
 
-# Zvláštní přátelé
+</stunt>
 
-***Fate Epizoda I: Star Wars***
 
-**FC S0:** Vztahy
+<stunt
+    title="Zvláštní přátelé"
 
-**FA A0:** 
+    source="Fate Epizoda I: Star Wars"
 
-**SW S0:** Vztahy
+    origin="sw-protivník: Darth Nialda"
 
-**SW C0:** 
+    fc-skill="Vztahy"
+    sw-skill="Vztahy"
+    sw-enemy="NPC"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** NPC
-
-**Typ:** +možnost
-
-**Tag:** psionika
-
-**Omezení:** 
-
-**Akce:**
+    type="+možnost"
+    >
 
 Darth Nialda má podivné přátele na zvláštních místech - pokud nejedná přímo jménem Impéria, může používat Vztahy napříč Galaxií bez jakýchkoliv omezení daných jejím statusem Sith lorda.
 
+</stunt>
 
-# Temné flirtování
 
-***Fate Epizoda I: Star Wars***
+<stunt
+    title="Temné flirtování"
 
-**FC S0:** 
+    source="Fate Epizoda I: Star Wars"
 
-**FA A0:** 
+    origin="sw-protivník:"
 
-**SW S0:** 
+    sw-enemy="NPC"
 
-**SW C0:** 
+    type="+schopnost"
 
-**SW R0:**
+    tags="psionika"
 
-**SW E0:** 
-
-**SW En:** NPC
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:**
+    actions="A"
+    >
 
 Bojová forma světelného meče, na pohled jakoby složená z obraných prvků Makashi a Ataru. Nialda neútočí fyzicky - deptá protivníka za hranu příčetnosti a přitom na něj jemně působí Silou - stres, který způsobí, je duševní stres Temné strany. Když způsobí následek, zvolí si, zda je fyzický, nebo zda jde o následek Temné strany.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM4NDUwMDMsMTY2MTQ5MTMxNCwxMj
-U1NzQ1OTIsLTkxNDU5OTkyMiwyNzM2OTM4MSw3MzA5OTgxMTZd
-fQ==
--->
+
+</stunt>

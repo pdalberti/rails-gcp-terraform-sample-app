@@ -1,807 +1,534 @@
-# Útok ze zálohy
+<stunt
+    title="Útok ze zálohy"
+    original="Backstab"
 
-*Backstab*
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - přidání nové akce"
 
-***Základní pravidla***
+    fc-skill="Skrývání"
+    sw-skill="Infiltrace"
 
-**FC S0:** Skrývání
+    type="předrátování"
 
-**FA A0:**
-
-**SW S0:** Infiltrace
-
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** předrátování
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** A
+    actions="A"
+    >
 
 Můžete použít Skrývání, abyste učinili fyzický útok, za předpokladu, že si cíl není vědom vaší přítomnosti.
 
-# Rvát se jak pes
+</stunt>
 
-*The Fight in the Dog*
 
-***Základní pravidla***
+<stunt
+    title="Rvát se jak pes"
+    original="The Fight in the Dog"
 
-**FC S0:** Provokace
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - přidání nové akce"
 
-**FA A0:**
+    fc-skill="Provokace"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
-
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** předrátování
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:**
+    type="předrátování"
+    >
 
 Můžete použít Provokaci ve střetech, na které byste normálně potřebovali Kondici, kdykoliv je možné brát v potaz schopnost vytočit vašeho oponenta pouhou silou vaší osobnosti.
 
-# Nikdy nejste v bezpečí
+</stunt>
 
-*You’re Never Safe*
 
-***Základní pravidla***
+<stunt
+    title="Nikdy nejste v bezpečí"
+    original="You’re Never Safe"
 
-**FC S0:** Zlodějna
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - přidání nové akce"
 
-**FA A0:**
+    fc-skill="Zlodějna"
+    sw-skill="Infiltrace"
 
-**SW S0:** Infiltrace
+    type="+akce"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +akce
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA, A
+    actions="CA, A"
+    >
 
 Můžete použít Zlodějnu k provedení duševních útoků a vytváření výhod proti cíli, kdykoliv zrežírujete loupež způsobem, který naruší jeho důvěru ve vlastní bezpečnost.
 
-# Okultní expert
+</stunt>
 
-*Arcane Expert*
 
-***Základní pravidla***
+<stunt
+    title="Okultní expert"
+    original="Arcane Expert"
 
-**FC S0:** Učenost
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - přidání bonusu k akci"
 
-**FA A0:**
+    fc-skill="Učenost"
 
-**SW S0:** Znalosti
+    sw-skill="Znalosti"
 
-**SW C0:**
+    type="+2"
 
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Získáte +2 na vytvoření výhody Učeností v jakékoliv situaci, která má co dočinění s nadpřirozenem či okultnem.
 
-# Olovo ve vzduchu
+</stunt>
 
-*Lead in the Air*
 
-***Základní pravidla***
+<stunt
+    title="Olovo ve vzduchu"
+    original="Lead in the Air"
 
-**FC S0:** Střelba
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - přidání bonusu k akci"
 
-**FA A0:**
+    fc-skill="Střelba"
+    sw-skill="Znalosti"
 
-**SW S0:** Znalosti
+    type="+2p, +možnost"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2p, +možnost
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Opravdu rádi vyprazdňujete zásobníky. Kdykoliv použijete plně automatickou zbraň a uspějete na útok Střelbou, automaticky tvoříte Slušnou (+2) opozici proti pohybu v dané zóně až do své další akce, kvůli všemu tomu olovu ve vzduchu. (Normálně byste na vytvoření podobné překážky potřebovali samostatnou akci, ale s tímto trikem to je zdarma.)
 
-# Dítě dvora
+</stunt>
 
-*Child of the Court*
 
-***Základní pravidla***
+<stunt
+    title="Dítě dvora"
+    original="Child of the Court"
 
-**FC S0:** Vztahy
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - přidání bonusu k akci"
 
-**FA A0:**
+    fc-skill="Vztahy"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
+    type="+2"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** O
+    actions="O"
+    >
 
 Získáváte bonus +2 na jakýkoliv pokus o překonání překážky pomocí Vztahů kdykoliv se nacházíte u nějaké šlechtické události, jako je třeba královský ples.
 
-# Ritualista
+</stunt>
 
-*Ritualist*
 
-***Základní pravidla***
+<stunt
+    title="Ritualista"
+    original="Ritualist"
 
-**FC S0:** Učenost
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - výjimky z pravidel"
 
-**FA A0:**
+    fc-skill="Učenost"
+    sw-skill="Znalosti"
 
-**SW S0:** Znalosti
+    type="předrátování, +možnost"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** předrátování, +možnost
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** O
+    actions="O"
+    >
 
 Získáváte bonus +2 na jakýkoliv pokus o překonání překážky pomocí Vztahů kdykoliv se nacházíte u nějaké šlechtické události, jako je třeba královský ples.
 
+</stunt>
 
-# Svazovač
 
-*Hogtie*
+<stunt
+    title="Svazovač"
+    original="Hogtie"
 
-***Základní pravidla***
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - výjimky z pravidel"
 
-**FC S0:** Řemesla
+    fc-skill="Řemesla"
+    sw-skill="Technika"
 
-**FA A0:**
+    type="+možnost"
 
-**SW S0:** Technika
-
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +možnost
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** AO
+    actions="AO"
+    >
 
 Když na někom za pomoci Řemesel vytvoříte výhodu Svázaný (nebo podobnou), můžete vždy provádět aktivní opozici pro hody pokoušející se ji překonat (také za použití Řemesel), i když nejste přítomni. (Normálně, nejste-li přítomni, by si unikající postava házela pouze proti pasivní opozici, což by jí únik dost zjednodušilo)
 
+</stunt>
 
-# Riposta
 
-*Riposte*
+<stunt
+    title="Riposta"
+    original="Riposte"
 
-***Základní pravidla***
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - výjimky z pravidel, FC: Typy PV - Barathar"
 
-**FC S0:** Boj
+    fc-skill="Boj"
+    sw-skill="Boj"
 
-**FA A0:**
+    type="+možnost"
 
-**SW S0:** Boj
-
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +možnost
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** D
+    actions="D"
+    >
 
 Pokud uspějete se stylem na obranu Bojem, můžete způsobit 2 posunový zásah namísto toho, abyste dostali posílení.
 
+</stunt>
 
-# Smrtící ostří
 
-*My blade strikes true*
+<stunt
+    title="Smrtící ostří"
+    original="My blade strikes true"
 
-***Základní pravidla***
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - vyvažování - příklad"
 
-**FC S0:** Boj
+    fc-skill="Boj"
+    sw-skill="Boj"
 
-**FA A0:**
+    type="+možnost"
 
-**SW S0:** Boj
+    restrictions="1/scéna"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +možnost
-
-**Tag:**
-
-**Omezení:** 1/scéna
-
-**Akce:** D
+    actions="D"
+    >
 
 Při úspěšném útoku svým rodinným mečem mohu soupeře jednou během každého konfliktu donutit, aby použil drobný následek místo dvoubodového čtverečku stresu.
 
-# Pokročilý válečník
+</stunt>
 
-*Advanced Warmaster*
 
-***Základní pravidla***
+<stunt
+    title="Pokročilý válečník"
+    original="Advanced Warmaster"
 
-**FC S0:** Boj
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - rodiny - skládání"
 
-**FA A0:**
+    fc-skill="Boj"
+    sw-skill="Boj"
 
-**SW S0:** Boj
+    type="+2, řetězený"
 
-**SW C0:**
+    costs="navazující"
 
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2, řetězený
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 (vyžaduje Válečníka, str. 299) Pokud bojujete s někým, kdo je ozbrojen mečem, dostanete další bonus +2 na vytvoření výhody pomocí Válečníka.
 
+</stunt>
 
-# Dvorní ratolest
 
-*Scion of the Court*
+<stunt
+    title="Dvorní ratolest"
+    original="Scion of the Court"
 
-***Základní pravidla***
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - rodiny - skládání"
 
-**FC S0:** Vztahy
+    fc-skill="Vztahy"
+    sw-skill="Vztahy"
 
-**FA A0:**
+    type="+2p, +možnost, řetězený"
 
-**SW S0:** Vztahy
+    costs="navazující"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2p, +možnost, řetězený
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** O
+    actions="O"
+    >
 
 (vyžaduje Dítě dvora, str. 90) Pokud překonáte překážku pomocí Dítěte dvora, můžete k tomu vytvořit situační aspekt, který popíše obecnou změnu nálady ve váš prospěch. Pokud se tohoto aspektu chce někdo zbavit, musí překonat Slušnou (+2) opozici.
 
 
-# Pokročilý ritualista
+</stunt>
 
-*Advanced Ritualist*
 
-***Základní pravidla***
+<stunt
+    title="Pokročilý ritualista"
+    original="Advanced Ritualist"
 
-**FC S0:** Učenost
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - rodiny - skládání"
 
-**FA A0:**
+    fc-skill="Učenost"
+    sw-skill="Znalosti"
 
-**SW S0:** Znalosti
+    type="+2, řetězený"
 
-**SW C0:**
+    costs="navazující"
 
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2, řetězený
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 (vyžaduje Ritualistu, str. 91) Získáváte bonus +2, pokud používáte Učenost namísto jiné dovednosti během výzvy. To vám umožňuje použít Učenost dvakrát během té samé výzvy.
 
-# Pohotovost
+</stunt>
 
-*Advanced Ritualist*
 
-***Základní pravidla***
+<stunt
+    title="Pohotovost"
+    original="Fast talk"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - rodiny - větvení"
 
-**FA A0:**
+    fc-skill="Klamání"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="+2"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2,
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** O
+    actions="O"
+    >
 
 Získáte +2 na překonání překážek Klamáním, za předpokladu, že k překonání klamané osoby s ní nemusíte mluvit více než jen v pár větách.
 
-# Rychlá přetvářka
+</stunt>
 
-*Quick Disguise*
 
-***Základní pravidla***
+<stunt
+    title="Rychlá přetvářka"
+    original="Quick Disguise"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - rodiny - větvení"
 
-**FA A0:**
+    fc-skill="Klamání"
 
-**SW S0:** Manipulace
+    sw-skill="Manipulace"
 
-**SW C0:**
+    type="+možnost"
 
-**SW R0:**
+    costs="navazující"
 
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +možnost
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:**
+    actions="O"
+    >
 
 (vyžaduje Pohotovost.) Jste schopní dát dohromady rychlý převlek během pár úderů srdce za použití věcí ve vašem okolí. Můžete si hodit Klamáním na vytvoření převleku bez času na přípravu v takřka jakékoli situaci.
 
-# Okamžitá zástěrka
+</stunt>
 
-*Instant Cover*
 
-***Základní pravidla***
+<stunt
+    title="Okamžitá zástěrka"
+    original="Instant Cover"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - rodiny - větvení"
 
-**FA A0:**
+    fc-skill="Klamání"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="+2p, +možnost"
 
-**SW C0:**
+    costs="navazující"
 
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2p, +možnost
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** O
+    actions="O"
+    >
 
 (vyžaduje Pohotovost.)Jste schopni vypálit zástěrku jen tak z patra, i když jste se předtím nijak nesnažili si ji předpřipravit. Kdykoliv překonáváte překážku během veřejného proslovu pomocí Klamání, automaticky přidejte situační aspekt reprezentující vaši zástěrku a vezměte si na ni volné vyvolání.
 
-# Hej, co to bylo?
+</stunt>
 
-*Hey, What’s That? *
 
-***Základní pravidla***
+<stunt
+    title="Hej, co to bylo?"
+    original="Hey, What’s That?"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="FC: Tvorba triků - rodiny - větvení"
 
-**FA A0:**
+    fc-skill="Klamání"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="+2"
 
-**SW C0:**
+    costs="navazující"
 
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:**
+    actions="O, CA"
+    >
 
 (vyžaduje Pohotovost.) Získáváte bonus +2 kdykoliv používáte Klamání na něčí momentální rozptýlení, pokud vaše snaha zahrnuje nějaké mluvení.
 
-# Bitevní velitel
+</stunt>
 
-*Battlefield Expert*
 
-***Základní pravidla***
+<stunt
+    title="Bitevní velitel"
+    original="Battlefield Expert"
 
-**FC S0:** Boj
+    source="Základní pravidla"
+    origin="FC: Typy PV - Starý Finn"
 
-**FA A0:**
+    fc-skill="Boj"
+    sw-skill="Boj"
 
-**SW S0:** Boj
+    type="+možnost"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +možnost
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Může použít Boj k vytvoření taktické výhody v rozsáhlých bojích.
 
-# Jsem uvnitř
+</stunt>
 
-*Inside Man*
 
-***Základní pravidla***
+<stunt
+    title="Jsem uvnitř"
+    original="Inside Man"
 
-**FC S0:** Skrývání
+    source="Základní pravidla"
+    origin="FC: Typy PV - Mrštný Teran"
 
-**FA A0:**
+    fc-skill="Skrývání"
+    sw-skill="Infiltrace"
 
-**SW S0:** Infiltrace
+    type="+2"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:**
+    actions="O, CA"
+    >
 
 +2 na Skrývání když je uvnitř budov v městské zástavbě
 
-# Každý je naivní
+</stunt>
 
-*Takes One to Know One*
 
-***Základní pravidla***
+<stunt
+    title="Každý je naivní"
+    original="Takes One to Know One"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="FC: Typy PV - Barathar"
 
-**FA A0:**
+    fc-skill="Klamání"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="předrátování"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** předrátování
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 K vytvoření výhody v sociálních situacích použijte Klamání namísto Empatie.
 
-# Mistrině fint
+</stunt>
 
-*Feint Master*
 
-***Základní pravidla***
+<stunt
+    title="Mistrině fint"
+    original="Feint Master"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="FC: Typy PV - Barathar"
 
-**FA A0:**
+    fc-skill="Klamání"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="+2"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 +2 na Klamání k vytvoření výhody ve fyzickém konfliktu.
 
-# Zabiják démonů
+</stunt>
 
-*Demon-Slayer*
 
-***Základní pravidla***
+<stunt
+    title="Zabiják démonů"
+    original="Demon-Slayer"
 
-**FC S0:** Boj
+    source="Základní pravidla"
+    origin="FC: Dlouhá hra - příklad"
 
-**FA A0:**
+    fc-skill="Boj"
+    sw-skill="Boj"
 
-**SW S0:** Boj
+    type="+2, řetězený"
 
-**SW C0:**
+    costs="navazující"
 
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2, řetězený
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 +2 k užití triku Mistr boje, pokud trik využije proti jakémukoliv démonovi nebo démonickému přisluhovači.
 
-# Další rundu?
+</stunt>
 
-*Another Round?*
 
-***Základní pravidla***
+<stunt
+    title="Další rundu?"
+    original="Another Round?"
 
-**FC S0:** Vztahy
+    source="Základní pravidla"
+    origin="FC ukázkové postavy - Landon"
 
-**FA A0:**
+    fc-skill="Vztahy"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
-
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +2
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:**
+    type="+2"
+    >
 
 +2 ke Vztahům, když s někým popíjí v hospodě.
 
-# Učenec, léčitel
+</stunt>
 
-*Backup Weapon*
 
-***Základní pravidla***
+<stunt
+    title="Učenec, léčitel"
+    original="Scholar, Healer."
 
-**FC S0:** Učenost
+    source="Základní pravidla"
+    origin="FC ukázkové postavy - Zird"
 
-**FA A0:**
+    fc-skill="Učenost"
 
-**SW S0:** Znalosti
+    sw-skill="Znalosti"
 
-**SW C0:**
+    type="+možnost, +schopnost"
 
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** +možnost, +schopnost
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:**
+    actions="O"
+    >
 
 Může pomoci fyzickému zotavování pomocí Učenosti.
 
-# Přátelský lhář
+</stunt>
 
-*Friendly Liar*
 
-***Základní pravidla***
+<stunt
+    title="Přátelský lhář"
+    original="Friendly Liar"
 
-**FC S0:** Vztahy
+    source="Základní pravidla"
+    origin="FC ukázkové postavy - Zird"
 
-**FA A0:**
+    fc-skill="Vztahy"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
+    type="předrátování"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** předrátování
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** CA
+    actions="CA"
+    >
 
 K vytvoření výhody založené na lhaní může namísto Klamání použít Vztahy.
 
-# Holka z lacinýho příběhu
+</stunt>
 
-*Friendly Liar*
 
-***Základní pravidla***
+<stunt
+    title="Holka z lacinýho příběhu"
+    original="Second-Story Girl"
 
-**FC S0:** Atletika
+    source="Základní pravidla"
+    origin="FC ukázkové postavy - Cynere"
 
-**FA A0:**
+    fc-skill="Atletika"
+    sw-skill="Atletika"
 
-**SW S0:** Atletika
+    type="předrátování"
 
-**SW C0:**
-
-**SW R0:**
-
-**SW E0:**
-
-**SW En:**
-
-**Typ:** předrátování
-
-**Tag:**
-
-**Omezení:**
-
-**Akce:** O
+    actions="O"
+    >
 
 K akci překonání můžete použít Atletiku namísto Zlodějny, za předpokladu, že nepotřebujete překonat zámek nebo jiný podobný druh zabezpečení.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjM0ODg0OSw2OTE4NDgzMTgsMTMwMj
-Y4OTE3NSwyNzEzODE4MDksNzMwOTk4MTE2XX0=
--->
+</stunt>

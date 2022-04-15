@@ -1,1272 +1,685 @@
-# Dílky skládačky
+<stunt
+    title="Dílky skládačky"
+    original="The Pieces of the Puzzle"
 
-*The Pieces of the Puzzle*
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-***Systémové nástroje***
+    fc-skill="Vyšetřování"
+    fc-extra="Magie Vezírů"
+    sw-skill="Znalosti"
 
-**FC S0:** Vyšetřování
+    type="+schopnost"
+    >
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** Znalosti
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
 
 Pokud věnujete pár minut studiu nějakého předmětu a jeho pozice, můžete důvěryhodně zrekonstruovat řetězec událostí, které vedly k tomu, že je tam, kde je. Tato rekonstrukce bude přesná, nicméně neodhalí více, než jen potřebné detaily. Například může sdělit, že byl předmět na místo v určitý moment donesen v rukou, ale už neřekne kým.
 
-# Paměť oka
+</stunt>
 
-*The Vault of the Eye*
 
-***Systémové nástroje***
+<stunt
+    title="Paměť oka"
+    original="The Vault of the Eye"
 
-**FC S0:** Vyšetřování
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Vyšetřování"
+    fc-extra="Magie Vezírů"
+    sw-skill="Pozornost"
 
-**FA A0:** 
-
-**SW S0:** Pozornost
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** (Bod osudu)
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Můžete se podívat na scénu a dokonale si vybavit každý její detail. V praxi vám to umožňuje pokládat vypravěči otázky k dané vzpomínce dlouho poté, co jste ji viděli, a můžete si dát na čas se svými hody na Vyšetřování. To zahrnuje možnost zeptat se na cokoliv, jakobyste stále byli na tom samém místě v tom samém čase, jako třeba na obsah nádob. Pokud by odpověď na otázku vyžadovala hod na dovednost - jako třeba na vypáčení zámku - můžete se o něj pokusit normálním způsobem, jakobyste tam stále byli.
 
 Můžete v paměti držet více, než jen jednu scénu, ale jen za cenu bodu osudu za každou scénu, kterou si již pamatujete.
 
 
-# Požehnání tisíce jazyků
+</stunt>
 
-*The Blessing of a Thousand Tongues*
 
-***Systémové nástroje***
+<stunt
+    title="Požehnání tisíce jazyků"
+    original="The Blessing of a Thousand Tongues"
 
-**FC S0:** Učenost
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Učenost"
+    fc-extra="Magie Vezírů"
+    sw-skill="Znalosti"
 
-**FA A0:** 
-
-**SW S0:** Znalosti
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Dokážete se rychle naučit jakýkoliv jazyk. Pokud vám někdo pomáhá, zabere vám to jen jeden den. Pokud můžete jen číst nebo poslouchat, trvá to týden. Pokud máte jen málo materiálu, může to trvat až měsíc.
 
 
-# Oko vidící všech cest
+</stunt>
 
-*The Vault of the Eye*
 
-***Systémové nástroje***
+<stunt
+    title="Oko vidící všech cest"
+    original="The Vault of the Eye"
 
-**FC S0:** Učenost
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Učenost"
+    fc-extra="Magie Vezírů"
+    sw-skill="Znalosti"
 
-**FA A0:** 
-
-**SW S0:** Znalosti
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** Bod osudu
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Možná, že neznáte všechno, ale vždy víte, jak to zjistit. Když se podíváte na nějaký dostatečně konkrétní kus informace, můžete dát vypravěči bod osudu a dozvědět se, kam potřebujete jít, abyste se dozvěděli víc, bez ohledu na to, jak tajná ona informace je. V krátkosti, když se snažíte něco zjistit, nikdy neskončíte ve slepé uličce.
 
 Neexistují žádné záruky ohledně toho, jak snadné bude danou vědomost získat, ale to je to, k čemu slouží dobrodružství.
 
 
-# Oko vidoucí do všech směrů
+</stunt>
 
-*The Eye Gazes in All Directions*
 
-***Systémové nástroje***
+<stunt
+    title="Oko vidoucí do všech směrů"
+    original="The Eye Gazes in All Directions"
 
-**FC S0:** Pozornost
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Pozornost"
+    fc-extra="Magie Vezírů"
+    sw-skill="Pozornost"
 
-**FA A0:** 
-
-**SW S0:** Pozornost
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Nikdy nejste překvapeni. Vždy víte o všem neočekávaném, i když třeba jen o krátký okamžik předem.
 
 
-# Noc osvětlující hvězdy
+</stunt>
 
-*Stars Illuminate the Night*
 
-***Systémové nástroje***
+<stunt
+    title="Noc osvětlující hvězdy"
+    original="Stars Illuminate the Night"
 
-**FC S0:** Pozornost
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Pozornost"
+    fc-extra="Magie Vezírů"
+    sw-skill="Pozornost"
 
-**FA A0:** 
-
-**SW S0:** Pozornost
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Dokud je okolo alespoň trochu světla, dokážete vidět, jakoby byl jasný den. Ve vzácných případech naprosté temnoty vidíte stejně dobře jako ve světle svíce.
 
 
-# Má ruka uvádí svět v pohyb
+</stunt>
 
-*By My Hand, Set the World in Motion*
 
-***Systémové nástroje***
+<stunt
+    title="Má ruka uvádí svět v pohyb"
+    original="By My Hand, Set the World in Motion*"
 
-**FC S0:** Atletika
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Atletika"
+    fc-extra="Magie Vezírů"
+    sw-skill="Atletika"
 
-**FA A0:** 
-
-**SW S0:** Atletika
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Skrze kombinaci rychlosti, obratnosti a nadlidského načasování dokážete jít vždy vpřed. Ve statickém prostředí to znamená, že jste schopni šíleného pohybu ve stylu parkouru, abyste se dostali na takřka jakékoliv místo, které je fyzicky dostupné. V proměnlivějším prostředí je nemožné vás zastavit nebo zablokovat, protože vždy najdete svou skulinu.
 
 
-# Kroky obra
+</stunt>
 
-*Strides of the Giant*
 
-***Systémové nástroje***
+<stunt
+    title="Kroky obra"
+    original="Strides of the Giant*"
 
-**FC S0:** Atletika
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Atletika"
+    fc-extra="Magie Vezírů"
+    sw-skill="Atletika"
 
-**FA A0:** 
-
-**SW S0:** Atletika
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Běháte rychlostí koně, skáčete do výšky sebe sama a můžete běžet celý den a noc aniž byste se museli zastavit a odpočívat - nicméně když doběhnete, potřebujete někam padnout a hodně se najíst.
 
 
-# Obří apetit
+</stunt>
 
-*Giant’s Appetite*
 
-***Systémové nástroje***
+<stunt
+    title="Obří apetit"
+    original="Giant’s Appetite*"
 
-**FC S0:** Kondice
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Kondice"
+    fc-extra="Magie Vezírů"
+    sw-skill="Kondice"
 
-**FA A0:** 
-
-**SW S0:** Kondice
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Dokážete sníst _cokoliv_, aniž by vám to ublížilo. Nejen jídlo - pokud to dokážete rozžvýkat a polknout, nebo vypít, můžete to bezpečně sníst a i se z toho najíst. Můete s klidem ignorovat jedy, zkažené jídlo, skleněné skřepy i další otravnosti. Navíc k tomu jsou pro vás chutě velmi rozličné a zapamatovatelné, což vám umožňuje dělat takové kousky, jako porovnat různé stopy krve, abyste zjistili, zda jsou ze stejného zdroje, nebo i užitečnější věci, jako třeba určit jedy, s nimiž už jste seznámeni.
 
 
-# Nikdo nespoutá Obra
+</stunt>
 
-*None May Bind The Giant*
 
-***Systémové nástroje***
+<stunt
+    title="Nikdo nespoutá Obra"
+    original="None May Bind The Giant"
 
-**FC S0:** Kondice
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Kondice"
 
-**FA A0:** 
+    fc-extra="Magie Vezírů"
+    sw-skill="Kondice"
 
-**SW S0:** Kondice
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Když jste svázáni či spoutáni, vždy můžete své okovy rozbít, alespoň dokud jsou přirozené nebo vyrobené. Žádné dveře ani zámek nevydrží více, než jeden váš úder. Beriéry s více jištěními mohou vydržet déle, ale v podstatě sami o sobě jen se svýma rukama, nohama a věcmi, co máte u sebe vydáte za celou demoliční četu.
 
 
 
-# Má mysl je nejvyšší horou
+</stunt>
 
-*The Mind Is the Greatest Mountain*
 
-***Systémové nástroje***
+<stunt
+    title="Má mysl je nejvyšší horou"
+    original="The Mind Is the Greatest Mountain"
 
-**FC S0:** Vůle
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Vůle"
+    fc-extra="Magie Vezírů"
 
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Pokud jde o sociální dovednosti, neexistujete. Nemůžete být znejistěni, nakloněni, zastrašeni ani jinak ovlivněni. Vaše řeč o vás neodhaluje nic, než pravdivost vašich slov. Pro účely Vesničanových schopností, vaše hodnota Klamání je vyšší, než Vesničanova Empatie.
 
 
-# Nezlomný
+</stunt>
 
-*Never Broken*
 
-***Systémové nástroje***
+<stunt
+    title="Nezlomný"
+    original="Never Broken"
 
-**FC S0:** Vůle
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Vůle"
+    fc-extra="Magie Vezírů"
 
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Získáte fyzický následek s hodnotou 8, který se obnovuje stejně, jako následek s hodnotou 2.
 
 
-# Malá domů
+</stunt>
 
-*The Accounting of Small Things*
 
-***Systémové nástroje***
+<stunt
+    title="Malá domů"
+    original="The Accounting of Small Things"
 
-**FC S0:** Zlodějna
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Zlodějna"
+    fc-extra="Magie Vezírů"
+    sw-skill="Infiltrace"
 
-**FA A0:** 
-
-**SW S0:** Infiltrace
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Pokud úspěšně ukradnete nějaký malý předmět, který by se vám vešel do kapsy, je ztracen, dokud se jej nerozhodnete znovu ukázat. Žádné prohledávání - ani svlékání - zmizelý předmět neodhalí. Tímto způsobem můžete skrýt pouze jeden předmět naráz.
 
+</stunt>
 
-# Zaříkávač zámků
 
-*The Supplication of Locks*
+<stunt
+    title="Zaříkávač zámků"
+    original="The Supplication of Locks"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Zlodějna
+    fc-skill="Zlodějna"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Stačí, když do zámku zašeptáte své jméno, a můžete se jej pokusit otevřít, jakobyste u sebe měli celou sadu šperháků. Pokud to vyjde, zabere to jen okamžik, pokud ne, můžete to stále zkusit tradičním způsobem.
 
+</stunt>
 
-# Náhodné potvrzení
 
-*Corroboration of Coincidence*
+<stunt
+    title="Náhodné potvrzení"
+    original="Corroboration of Coincidence"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Klamání
+    fc-skill="Klamání"
+    fc-extra="Magie Vezírů"
+    sw-skill="Manipulace"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** Manipulace
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Osud hraje do karet vašim lžím malými náhodami a nepřímými náznaky, které jim dodávají důvěryhodnost. Když popíšete, co vám pomůže vypadat důvěryhodněji, můžete použít posílení před hodem na Klamání. Pokud uspějete, posílení se změní na situační aspekt dané scény.
 
 
-# Jméno je maskou pro svět
+</stunt>
 
-*The Vault of the Eye*
 
-***Systémové nástroje***
+<stunt
+    title="Jméno je maskou pro svět"
+    original="The Vault of the Eye"
 
-**FC S0:** Klamání
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Klamání"
+    fc-extra="Magie Vezírů"
 
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Kdykoliv, kdy někoho zaslechnete vyřknout jeho vlastní jméno, můžete až do druhého úsvitu převzít jeho tvář, hlas a způsoby. Tu samou osobu nemůžete nikdy napodobit podruhé
 
+</stunt>
 
-# Jen vítr mě vidí odcházet
 
-*Only the Wind Will See Me Go*
+<stunt
+    title="Jen vítr mě vidí odcházet"
+    original="Only the Wind Will See Me Go"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Skrývání
+    fc-skill="Skrývání"
 
-**FC E:** Magie Vezírů
+    fc-extra="Magie Vezírů"
 
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** Bod osudu
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Za cenu bodu osudu můžete nepozorovaně opustit scénu.
 
+</stunt>
 
-# Slova braná větru
 
-*Stealing Words from the Wind*
+<stunt
+    title="Slova braná větru"
+    original="Stealing Words from the Wind"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Skrývání
+    fc-skill="Skrývání"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Pokud si nepřejete být slyšeni, nevydáváte žádný zvuk. Nejen, že vám to umožňuje pohybovat se v naprosté tichosti, ale navíc to můžete použít selektivně a mluvit tak, aby vás slyšela jen jedna jiná osoba.
 
+</stunt>
 
-# Čepel s mocí armády
 
-*Army on the Edge of My Blade*
+<stunt
+    title="Čepel s mocí armády"
+    original="Army on the Edge of My Blade"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Boj
+    fc-skill="Boj"
+    fc-extra="Magie Vezírů"
+    sw-skill="Boj"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** Boj
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+možnost"
+    >
 
 Nemáte žádné postihy - a nedáváte žádné bonusy - za to, že stojíte proti více protivníkům, bez ohledu na to, jak mnoho jich je.
 
+</stunt>
 
-# Kopí Zeleného lesa
 
-*Spears of Green Wood*
+<stunt
+    title="Kopí Zeleného lesa"
+    original="Spears of Green Wood"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Boj
+    fc-skill="Boj"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Za týden dokážete vytrénovat jednotku bojovníků - skupinu až sta bezejmenných postav - tak, že se jejich dovednost Boj zvedne o +1. To můžete několikrát zopakovat a vycvičit tak jakoukoliv jednotku až na maximum vašho vlastního Boje -2.
 
+</stunt>
 
-# Jen vítr kolem nás
 
-*Only the Wind Beneath Us*
+<stunt
+    title="Jen vítr kolem nás"
+    original="Only the Wind Beneath Us"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Řízení
+    fc-skill="Řízení"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Dokud se držíte pevně v sedle, jakýkoliv oř, na němž jedete, může běžet přes vodu, jakoby to byla pevná zem, a může dokonce i běžet několik set metrů napříč prázdným vzduchem - poté ale jemně klesne zpět k zemi, jakoby sjel po mírném svahu.
 
+</stunt>
 
-# Jezdecká jednota
 
-*We Ride as One*
+<stunt
+    title="Jezdecká jednota"
+    original="We Ride as One"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Řízení
+    fc-skill="Řízení"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Ze hřbetu koně můžete bojovat a jednat bez postihů a nic vás z něj nemůže srazit dolů. Kdykoliv, kdy byste měli přijmout fyzický následek, můžete se rozhodnout, že jej místo vás přijme váš kůň - ten má shodný typ a počet následků, jako vaše postava.
 
+</stunt>
 
-# Na horizont
 
-*To the Horizon*
+<stunt
+    title="Na horizont"
+    original="To the Horizon"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Střelba
+    fc-skill="Střelba"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Když střílíte, tak cokoliv, co můžete vidět, je efektivně jednu zónu od vás.
 
+</stunt>
 
-# Ke hvězdám
 
-*To the Stars*
+<stunt
+    title="Ke hvězdám"
+    original="To the Stars"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Střelba
+    fc-skill="Střelba"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Jakákoliv střela, kterou pošlete do vzduchu, může dopadnout na jakékoliv místo, které znáte, nebo poblíž kohokoliv, koho dokážete jmenovat. Tímto způsobem lze doručovat zprávy i malé předměty, ale nemůžete jím na nikoho přímo zaútočit, i když pokud vystřelíte se zlým úmyslem, tak je dost dobře možné, že zabijete koně nebo poblíž stojící bezejmennou PV.
 
+</stunt>
 
-# Koruna hrozby
 
-*The Vault of the Eye*
+<stunt
+    title="Koruna hrozby"
+    original="The Vault of the Eye"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Provokace
+    fc-skill="Provokace"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Jste příliš děsivým, než aby jste byli napadeni. Dokud neprovedete ve scéně fyzický útok, postavy s horší než Dobrou (+3) Vůlí na vás prostě nezaútočí. I ti s dostatečnou Vůlí při svém prvním útoku stále zaváhají a automaticky minou.
 
+</stunt>
 
-# Cestování s bouřemi
 
-*Walking with Storms*
+<stunt
+    title="Cestování s bouřemi"
+    original="Walking with Storms"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Provokace
+    fc-skill="Provokace"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Nálada ve městě - nebo v obdobně velkém místě - je taková, jakou ji chcete.
 
+</stunt>
 
-# Všichni znají mé místo
 
-*All Things in Their Place*
+<stunt
+    title="Všichni znají mé místo"
+    original="All Things in Their Place"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Vztahy
+    fc-skill="Vztahy"
+    fc-extra="Magie Vezírů"
+    sw-skill="Vztahy"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** Vztahy
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Vždy chápete silovou dynamiku v místnosti a můžete v ní sami sebe umístit, kamkoliv si přejete. Používejte to s rozvahou - ačkoliv to ovlivní, jak s vámi lidé interagují, tak vám to nedává skutečnou autoritu a pokud se umístíte příliš vysoko - zejména nad lidi, kteří nejsou zvyklí být ničím méně, než nejvyšším kápem - tak můžete vyvolat nepříjemné reakce.
 
+</stunt>
 
-# Kdo skutečně jsi
 
-*The Truth of Who You Are*
+<stunt
+    title="Kdo skutečně jsi"
+    original="The Truth of Who You Are"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Vztahy
+    fc-skill="Vztahy"
 
-**FC E:** Magie Vezírů
+    fc-extra="Magie Vezírů"
 
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Když se s někým bavíte, tak za každé dvě minuty rozhovoru dokážete odhalit jeden jeho aspekt. Nicméně, za každé dva aspekty, které zjistíte, odhalíte všem okolo jeden ze svých. Zaokrouhlujete dolů, takže ten první, který zjistíte, máte zdarma.
 
+</stunt>
 
-# Řeky zlata
 
-*Rivers of Gold*
+<stunt
+    title="Řeky zlata"
+    original="Rivers of Gold"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Majetek
+    fc-skill="Majetek"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Peníze jsou pro vás jen drobnost. Když vás někdo svlékne do naha a hodí na pustý ostrov, brzy budete žít v luxusu. Když vás uvrhne do vězení, za chvíli budete uplácet stráže. Žádná situace nemůže omezit váš přístup k vaší dovednosti Majetek.
 
+</stunt>
 
-# Papírová válka
 
-*War of Papers*
+<stunt
+    title="Papírová válka"
+    original="War of Papers"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Majetek
+    fc-skill="Majetek"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Dokážete jednat proti organizaci za pomoci nepřímých akcí. Efektivně můžete bojovat jako rovný s rovným s jakoukoliv organizací menší než národ, aniž byste k tomu museli shánět spojence nebo měli nějakou vlastní organizaci. Ano, toto znamená, že s dostatkem času můžete efektivně „zabít“ město nebo armádu.
 
+</stunt>
 
-# Lidská pouta překračují horizonty
 
-*The Bonds of Man Stretch to the Horizon*
+<stunt
+    title="Lidská pouta překračují horizonty"
+    original="The Bonds of Man Stretch to the Horizon"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Kontakty
+    fc-skill="Kontakty"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Neexistuje místo, v němž bys někoho neznal, včetně míst, kde jsi nikdy nebyl. Ať už půjdeš kamkoliv, vždy tam nalezneš přítele.
 
+</stunt>
 
-# Síla jednoho se stane silou všech
 
-*The Strength of One Becomes the Strength of Many*
+<stunt
+    title="Síla jednoho se stane silou všech"
+    original="The Strength of One Becomes the Strength of Many"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Kontakty
+    fc-skill="Kontakty"
+    fc-extra="Magie Vezírů"
+    sw-skill="Vztahy"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** Vztahy
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Jakmile se pokusíš někoho kontaktovat, slovo se začne šířit samo s tím, jak lidé, s nimiž jsi mluvil, mluví s lidmi, kteří dále mluví s dalšími lidmi. V důsledku vždy dostaneš odpověď, je to jen otázka času.
 
+</stunt>
 
-# Spojení forem
 
-*The Conjunction of Form*
+<stunt
+    title="Spojení forem"
+    original="The Conjunction of Form"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Řemesla
+    fc-skill="Řemesla"
+    fc-extra="Magie Vezírů"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Můžeš kombinovat materiály nemožnými způsoby a předávat jim navzájem jejich vlastnosti. Můžeš vyrobit papír s pevností oceli nebo ocel s vahou papíru. Abys to udělal, je potřeba při tvorbě konečného produktu vyvolat k hodu na Řemesla dva aspekty - jeden původního materiálu, jeden pro dodatečnou vlastnost - naráz.
 
+</stunt>
 
-# Ruka je více, než její nástroje
 
-*The Tools Are Lesser than the Hand*
+<stunt
+    title="Ruka je více, než její nástroje"
+    original="The Tools Are Lesser than the Hand"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Řemesla
+    fc-skill="Řemesla"
+    fc-extra="Magie Vezírů"
+    sw-skill="Technologie"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** Technologie
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Dokážeš vytvořit mistrovské výrobky jen s těmi nejjednoduššími nástroji. S běžnou dílnou umíš vyrobit naprosto úžasné přístroje v tom nejlepším da Vinciho stylu.
 
+</stunt>
 
-# Architektura srdce
 
-*Architecture of the Heart*
+<stunt
+    title="Architektura srdce"
+    original="Architecture of the Heart"
 
-***Systémové nástroje***
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC S0:** Empatie
+    fc-skill="Empatie"
+    fc-extra="Magie Vezírů"
+    sw-skill="Vztahy"
 
-**FC E:** Magie Vezírů
-
-**FA A0:** 
-
-**SW S0:** Vztahy
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Přečíst náladu a vztahy v místnosti je pro tebe snadné. Navíc si dokážeš všimnout citových vazeb a snadno pochopit, jaké akce by mohly náladu ovlivnit. Pokud si hodíš Empatií na přečtení místnosti - proti Nevalné (+0) obtížnosti - tak počet posunů, které získáš, udává, kolikrát se vypravěče můžeš zeptat, jak by lidé reagovali na jakýkoliv hypotetický scénář.
 
-# Vnitřní oko vidí vnitřní pravdu
+</stunt>
 
-*The Inner Eye Sees Inner Truth*
 
-***Systémové nástroje***
+<stunt
+    title="Vnitřní oko vidí vnitřní pravdu"
+    original="The Inner Eye Sees Inner Truth"
 
-**FC S0:** Empatie
+    source="Systémové nástroje"
+    origin="fc-extra: Magie Vezírů"
 
-**FC E:** Magie Vezírů
+    fc-skill="Empatie"
+    fc-extra="Magie Vezírů"
+    sw-skill="Pozornost"
 
-**FA A0:** 
-
-**SW S0:** Pozornost
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Cena:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Pokud je Klamání cíle stejné nebo nižší, než tvá Empatie, pak dokážeš říct, zda postava lže nebo mluví pravdu, aniž by sis na to musel házet. V případě vysokého klamání poznáš, že to nedokážeš rozeznat, ale nikdy přitom nedojdeš chybného závěru.
 
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzgwMTAzNCw4ODE2MDA1NTYsMjE2NT
-cxOTAsLTE1MDAxOTM0OSwyNDQyODAyOTQsMTc5OTk5MTk1OCwt
-MTgzNzMxOTk1MywxNTgzMjAxMjY0LC04OTI0OTA2NzUsMTQzOT
-AxODQxNSw3MzA5OTgxMTZdfQ==
--->
+</stunt>

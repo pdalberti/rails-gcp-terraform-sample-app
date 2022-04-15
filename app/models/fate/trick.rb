@@ -2,31 +2,31 @@
 #
 # Table name: fate_tricks
 #
-#  id               :bigint           not null, primary key
-#  action           :string
-#  description      :text
-#  en_name          :string
-#  fate             :integer
-#  name             :string
-#  restriction      :string
-#  tag              :string
-#  trick_type       :string
-#  created_at       :datetime         not null
-#  updated_at       :datetime         not null
-#  fate_rulebook_id :bigint           not null
-#
-# Indexes
-#
-#  index_fate_tricks_on_fate_rulebook_id  (fate_rulebook_id)
-#
-# Foreign Keys
-#
-#  fk_rails_...  (fate_rulebook_id => fate_rulebooks.id)
+#  id           :bigint           not null, primary key
+#  actions      :string           default([]), is an Array
+#  costs        :string           default([]), is an Array
+#  description  :text
+#  dials        :string           default([]), is an Array
+#  fae_approach :string           default([]), is an Array
+#  fc_extra     :string           default([]), is an Array
+#  fc_skill     :string           default([]), is an Array
+#  origin       :string
+#  original     :string
+#  restrictions :string           default([]), is an Array
+#  source       :string
+#  sw_archetype :string           default([]), is an Array
+#  sw_enemy     :string           default([]), is an Array
+#  sw_extra     :string           default([]), is an Array
+#  sw_race      :string           default([]), is an Array
+#  sw_skill     :string           default([]), is an Array
+#  tags         :string           default([]), is an Array
+#  title        :string
+#  trick_type   :string           default([]), is an Array
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
 #
 module Fate
   class Trick < ApplicationRecord
-    belongs_to :fate_rulebook, class_name: 'Fate::Rulebook'
-    has_many :fate_dials, foreign_key: 'fate_trick_id', class_name: 'Fate::Dial'
-    has_many :fate_chapters, through: :fate_dials, class_name: 'Fate::Chapter'
+    STRING_COLUMNS = %i[origin original source title].freeze
   end
 end

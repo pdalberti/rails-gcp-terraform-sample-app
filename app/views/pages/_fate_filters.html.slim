@@ -2,15 +2,25 @@
   = search_form_for @q, url: fate_path do |f|
     .row
       .col-md-5.col-lg-3
-        = f.input :name_cont, required: false, placeholder: 'Český', label: 'Název'
-        = f.input :en_name_cont, required: false, placeholder: 'Anglický', label: false
-      .col-8.col-md-4.col-lg-3 = f.input :fate_rulebook_name_in, required: false, label: 'Zdroj', collection: Fate::Rulebook.pluck(:name).sort, include_blank: true, input_html: { multiple: true }
-      - @chapters.each do |chapter|
-        .col-5.col-md-3.col-lg-2 = f.input :fate_dials_name_cont_any, required: false, label: chapter.name, collection: chapter.fate_dials.pluck(:name).uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :tag_cont_any, required: false, label: 'Tag', collection: comma_unique(Fate::Trick.pluck(:tag)), include_blank: true, input_html: { multiple: true }
-      .col-4.col-md-2.col-lg-2 = f.input :trick_type_cont_any, required: false, label: 'Type', collection: comma_unique(Fate::Trick.pluck(:trick_type)), include_blank: true, input_html: { multiple: true }
-      .col-3.col-md-2.col-lg-1 = f.input :action_cont_any, required: false, label: 'Akce', collection: comma_unique(Fate::Trick.pluck(:action)), include_blank: true, input_html: { multiple: true }
-      .col-4.col-md-2.col-lg-2 = f.input :restriction_cont_any, required: false, label: 'Omezení', collection: comma_unique(Fate::Trick.pluck(:restriction)), include_blank: true, input_html: { multiple: true }
+        = f.input :title_cont, required: false, placeholder: 'Český', label: 'Název'
+        = f.input :original_cont, required: false, placeholder: 'Anglický', label: false
+      .col-8.col-md-4.col-lg-3 = f.input :source_in, required: false, label: 'Zdroj', collection: Fate::Trick.pluck(:source).uniq.sort, include_blank: true, input_html: { multiple: true }
+      / .col-5.col-md-3.col-lg-2 = f.input :origin_in, required: false, label: 'Původ', collection: Fate::Trick.pluck(:origin).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
+
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FAE přístupy', collection: Fate::Trick.pluck(:fae_approach).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FC speciality', collection: Fate::Trick.pluck(:fc_extra).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FC dovednosti', collection: Fate::Trick.pluck(:fc_skill).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW archetypy', collection: Fate::Trick.pluck(:sw_archetype).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW protivníci', collection: Fate::Trick.pluck(:sw_enemy).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW speciality', collection: Fate::Trick.pluck(:sw_extra).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW rasy', collection: Fate::Trick.pluck(:sw_race).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW dovednosti', collection: Fate::Trick.pluck(:sw_skill).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+
+      .col-6.col-md-3.col-lg-2 = f.input :tags_cont_any, required: false, label: 'Tag', collection: Fate::Trick.pluck(:tags).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-2.col-lg-2 = f.input :trick_type_array_overlaps, required: false, label: 'Typ', collection: Fate::Trick.pluck(:trick_type).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-3.col-md-2.col-lg-1 = f.input :actions_array_overlaps, required: false, label: 'Akce', collection: Fate::Trick.pluck(:actions).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-2.col-lg-2 = f.input :restrictions_array_overlaps, required: false, label: 'Omezení', collection: Fate::Trick.pluck(:restrictions).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-2.col-lg-2 = f.input :costs_array_overlaps, required: false, label: 'Cena', collection: Fate::Trick.pluck(:costs).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
     p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
     .d-flex.justify-content-between
       p

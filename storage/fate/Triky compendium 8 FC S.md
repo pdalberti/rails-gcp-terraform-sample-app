@@ -1,1635 +1,1048 @@
-# Sprinter 
+<stunt
+    title="Sprinter"
+    original="Sprinter"
 
-*Sprinter*
+    source="Základní pravidla"
+    origin="fc-skill: Atletika"
 
-***Základní pravidla***
+    fc-skill="Atletika"
+    sw-skill="Atletika"
 
-**FC S0:** Atletika
-
-**FA A0:** 
-
-**SW S0:** Atletika
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:**
+    type="+možnost"
+    >
 
 Aniž byste si házeli, můžete se během konfliktu pohnout zdarma o dvě zóny namísto jedné, za předpokladu, že vám v tom nebrání žádné situační aspekty.
 
-# Tvrdý parkour
+</stunt>
 
-*Hardcore Parkour*
 
-***Základní pravidla***
+<stunt
+    title="Tvrdý parkour"
+    original="Hardcore Parkour"
 
-**FC S0:** Atletika
+    source="Základní pravidla"
+    origin="fc-skill: Atletika"
 
-**FA A0:** 
+    fc-skill="Atletika"
+    sw-skill="Atletika"
 
-**SW S0:** Atletika
+    type="+2"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** O
+    actions="O"
+    >
 
 +2 na akce překonávání s Atletikou pokud jste v honičce po střechách nebo v jiném riskantním terénu
 
-# Omračující protiúder
+</stunt>
 
-*Dazing Counter*
 
-***Základní pravidla***
+<stunt
+    title="Omračující protiúder"
+    original="Dazing Counter"
 
-**FC S0:** Atletika
+    source="Základní pravidla"
+    origin="fc-skill: Atletika"
 
-**FA A0:** 
+    fc-skill="Atletika"
+    sw-skill="Atletika"
 
-**SW S0:** Atletika
+    type="+2p, +možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2p, +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 Když uspějete stylově při obraně proti protivníkovu hodu na Boj, automaticky mu vracíte omračující ránu nebo nějaký typ nervového úderu. Přidělte oponentovi situační aspekt _**Omráčený**_ s volným vyvoláním namísto obyčejného posílení.
 
-# Ranař
+</stunt>
 
-*Heavy Hitter*
 
-***Základní pravidla***
+<stunt
+    title="Ranař"
+    original="Heavy Hitter*"
 
-**FC S0:** Boj
+    source="Základní pravidla"
+    origin="fc-skill: Boj"
 
-**FA A0:** 
+    fc-skill="Boj"
+    sw-skill="Boj"
 
-**SW S0:** Boj
+    type="+2p, +možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2p, +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Pokud uspějete se stylem na útok Bojem a rozhodnete se snížit výsledek o jedna, abyste získali posílení, dostanete namísto toho plný situační aspekt s volným vyvoláním.
 
-# Záložní zbraň
+</stunt>
 
-*Backup Weapon*
 
-***Základní pravidla***
+<stunt
+    title="Záložní zbraň"
+    original="Backup Weapon"
 
-**FC S0:** Boj
+    source="Základní pravidla"
+    origin="fc-skill: Boj"
 
-**FA A0:** 
+    fc-skill="Boj"
+    sw-skill="Boj"
 
-**SW S0:** Boj
+    type="+schopnost"
 
-**SW C0:** 
+    restrictions="Bod osudu"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** Bod osudu
-
-**Akce:** 
+    >
 
 Kdykoliv vás někdo zasáhne se situačním aspektem Odzbrojený nebo něčím podobným, utraťte bod osudu a prohlaste, že máte další zbraň. Namísto situačního aspektu dostane váš protivník posílení reprezentující chvilkové rozptýlení, které jste utrpěli nutným přezbrojením.
 
-# Zabiják
+</stunt>
 
-*Killing Stroke*
 
-***Základní pravidla***
+<stunt
+    title="Zabiják"
+    original="Killing Stroke"
 
-**FC S0:** Boj
+    source="Základní pravidla"
+    origin="fc-skill:"
 
-**FA A0:** 
+    fc-skill="Boj"
+    sw-skill="Boj"
 
-**SW S0:** Boj
+    type="+2p, +možnost"
 
-**SW C0:** 
+    restrictions="1/scéna, Bod osudu"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2p, +možnost
-
-**Tag:** 
-
-**Omezení:** 1/scéna, Bod osudu
-
-**Akce:** A
+    actions="A"
+    >
 
 Jednou za scénu, když donutíte oponenta přijmout následek, můžete utratit bod osudu a navýšit závažnost jeho následku (takže drobný se stane mírným, mírný se stane vážným). Pokud by váš protivník beztak přijímal vážný následek, musí přijmout vážný následek a jeden další následek nebo se nechat vyřadit.
 
 
-# Odhalování lží
+</stunt>
 
-*Lie Whisperer*
 
-***Základní pravidla***
+<stunt
+    title="Odhalování lží"
+    original="Lie Whisperer*"
 
-**FC S0:** Empatie
+    source="Základní pravidla"
+    origin="fc-skill: Empatie"
 
-**FA A0:** 
+    fc-skill="Empatie"
+    sw-skill="Přesvědčování, Pozornost"
 
-**SW S0:** Přesvědčování, Pozornost
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2p
-
-**Tag:** 
-
-**Omezení:**
-
-**Akce:** 
+    type="+2p"
+    >
 
 +2 na všechny hody na Empatii, které jsou činěny za účelem odhalení lží, ať už jsou cíleny na vás nebo na někoho jiného.
 
-# Cit pro potíže
+</stunt>
 
-*Nose for Trouble*
 
-***Základní pravidla***
+<stunt
+    title="Cit pro potíže"
+    original="Nose for Trouble"
 
-**FC S0:** Empatie
+    source="Základní pravidla"
+    origin="fc-skill: Empatie"
 
-**FA A0:** 
+    fc-skill="Empatie"
+    sw-skill="Přesvědčování"
 
-**SW S0:** Přesvědčování
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:**
-
-**Akce:** 
+    type="předrátování"
+    >
 
 Můžete použít svou Empatii namísto Pozornosti, abyste určili pořadí jednání v konfliktu, pokud máte během scény dostatek příležitostí sledovat nebo mluvit se zainteresovanými alespoň pár minut předem.
 
-# Psycholog
+</stunt>
 
-*Psychologist*
 
-***Základní pravidla***
+<stunt
+    title="Psycholog"
+    original="Psychologist"
 
-**FC S0:** Empatie
+    source="Základní pravidla"
+    origin="fc-skill: Empatie"
 
-**FA A0:** 
+    fc-skill="Empatie"
+    sw-skill="Přesvědčování"
 
-**SW S0:** Přesvědčování
+    type="+možnost, +schopnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost, +schopnost
-
-**Tag:** 
-
-**Omezení:** 1/sezení
-
-**Akce:** 
+    restrictions="1/sezení"
+    >
 
 Jednou za sezení můžete snížit někomu jinému následky o jednu úroveň závažnosti (vážné na mírné, mírné na drobné, dobrné na vůbec žádné) úspěšným hodem na Empatii se Slušnou (+2) obtížností pro drobné následky, Dobrou (+3) obtížností pro mírné a Skvělou (+4) pro vážné. Abyste mohli získat benefity tohoto triku, musíte s osobou, které pomáháte, mluvit alespoň půl hodiny a nemůžete jej použít sami na sebe. (Normálně by tento hod pouze započal ozdravný proces namísto změny úrovně následku.)
 
-# Lež za lží
+</stunt>
 
-*Lies upon Lies*
 
-***Základní pravidla***
+<stunt
+    title="Lež za lží"
+    original="Lies upon Lies*"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="fc-skill: Klamání"
 
-**FA A0:** 
+    fc-skill="Klamání"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="+2"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** CA
+    actions="CA"
+    >
 
 +2 na vytvoření výhody Klamáním proti někomu, kdo už během tohoto sezení některé z vašich lží uvěřil.
 
-# Myšlenkové hry
+</stunt>
 
-*Mind Games*
 
-***Základní pravidla***
+<stunt
+    title="Myšlenkové hry"
+    original="Mind Games"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="fc-skill: Klamání"
 
-**FA A0:** 
+    fc-skill="Klamání"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Můžete použít Klamání namísto Provokace k provedení duševního útoku.
 
-# Muž mnoha tváří
+</stunt>
 
-*One Person, Many Faces*
 
-***Základní pravidla***
+<stunt
+    title="Muž mnoha tváří"
+    original="One Person, Many Faces"
 
-**FC S0:** Klamání
+    source="Základní pravidla"
+    origin="fc-skill: Klamání"
 
-**FA A0:** 
+    fc-skill="Klamání"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="předrátování, +schopnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování, +schopnost
-
-**Tag:** 
-
-**Omezení:** Bod osudu
-
-**Akce:** 
+    restrictions="Bod osudu"
+    >
 
 Kdykoliv potkáte někoho nového, můžete utratit bod osudu a prohlásit, že jste tu postavu už potkali, ale pod jinou identitou. Vytvořte si situační aspekt reprezentující vaší zástěrku a můžete použít Klamání namísto Vztahů kdykoliv s danou osobou interagujete.
 
 
-# Zápasník
+</stunt>
 
-*Grappler*
 
-***Základní pravidla***
+<stunt
+    title="Zápasník"
+    original="Grappler"
 
-**FC S0:** Kondice
+    source="Základní pravidla"
+    origin="fc-skill: Kondice"
 
-**FA A0:** 
+    fc-skill="Kondice"
+    sw-skill="Kondice"
 
-**SW S0:** Kondice
+    type="+2"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** CA
+    actions="CA"
+    >
 
 +2 na Kondiční hody pro získání výhody nad nepřítelem pomocí zaklesnutí se nebo jeho chycení.
 
-# Drsňák
+</stunt>
 
-*Take the Blow*
 
-***Základní pravidla***
+<stunt
+    title="Drsňák"
+    original="Take the Blow"
 
-**FC S0:** Kondice
+    source="Základní pravidla"
+    origin="fc-skill: Kondice"
 
-**FA A0:** 
+    fc-skill="Kondice"
+    sw-skill="Kondice"
 
-**SW S0:** Kondice
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 Můžete použít Kondici k obraně proti Bojovým útokům pěstmi nebo tupými nástroji, ale v případě remízy dostanete 1 posun stresu.
 
-# Nezdolný
+</stunt>
 
-*Tough as Nails*
 
-***Základní pravidla***
+<stunt
+    title="Nezdolný"
+    original="Tough as Nails*"
 
-**FC S0:** Kondice
+    source="Základní pravidla"
+    origin="fc-skill: Kondice"
 
-**FA A0:** 
+    fc-skill="Kondice"
+    sw-skill="Kondice"
 
-**SW S0:** Kondice
+    type="+schopnost"
 
-**SW C0:** 
+    restrictions="1/sezení, Bod osudu"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 1/sezení, Bod osudu
-
-**Akce:** D
+    actions="D"
+    >
 
 Jednou za sezení můžete za bod osudu snížit závažnost následku fyzické podstaty z mírného na drobný (je-li vaše kolonka mírného následku volná) nebo úplně odmazat drobný následek.
 
-# Ucho v pozoru
+</stunt>
 
-*Ear to the Ground*
 
-***Základní pravidla***
+<stunt
+    title="Ucho v pozoru"
+    original="Ear to the Ground"
 
-**FC S0:** Kontakty
+    source="Základní pravidla"
+    origin="fc-skill: Kontakty"
 
-**FA A0:** 
+    fc-skill="Kontakty"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** Předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="předrátování"
+    >
 
 Kdykoliv proti vám někdo zahájí konflikt v prostředí, v němž máte vybudovanou svou síť kontaktů, použijete Kontakty namísto Pozornosti, abyste určili pořadí jednání, protože jste byli varováni včas.
 
-# Drbna
+</stunt>
 
-*Rumormonger*
 
-***Základní pravidla***
+<stunt
+    title="Drbna"
+    original="Rumormonger*"
 
-**FC S0:** Kontakty
+    source="Základní pravidla"
+    origin="fc-skill: Kontakty"
 
-**FA A0:** 
+    fc-skill="Kontakty"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
+    type="+2"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** CA
+    actions="CA"
+    >
 
 +2 na vytvoření výhody, když o někom rozšiřujete zlomyslné pomluvy.
 
-# Síla reputace
+</stunt>
 
-*The Weight of Reputation*
 
-***Základní pravidla***
+<stunt
+    title="Síla reputace"
+    original="The Weight of Reputation"
 
-**FC S0:** Kontakty
+    source="Základní pravidla"
+    origin="fc-skill: Kontakty"
 
-**FA A0:** 
+    fc-skill="Kontakty"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Můžete využít Kontakty namísto Provokace, abyste vytvořili výhodu na základě strachu vycházejícího ze zlověstné reputace, kterou jste si vytvořili pro sebe a své pochybné konexe. Měli byste mít vhodný aspekt spojený s tímto trikem.
 
-# Peníze rozvazují jazyk
+</stunt>
 
-*Money Talks*
 
-***Základní pravidla***
+<stunt
+    title="Peníze rozvazují jazyk"
+    original="Money Talks"
 
-**FC S0:** Majetek
+    source="Základní pravidla"
+    origin="fc-skill: Majetek"
 
-**FA A0:** 
+    fc-skill="Majetek"
 
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="předrátování"
+    >
 
 Můžete použít Majetek namísto Vztahů v jakékoliv situaci, ve které vám materiální bohatství může pomoci.
 
-# Šetrný investor
+</stunt>
 
-*Savvy Investor*
 
-***Základní pravidla***
+<stunt
+    title="Šetrný investor"
+    original="Savvy Investor*"
 
-**FC S0:** Majetek
+    source="Základní pravidla"
+    origin="fc-skill: Majetek"
 
-**FA A0:** 
+    fc-skill="Majetek"
 
-**SW S0:** 
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Dostanete další volné vyvolání, pokud vytvoříte výhodu pomocí Majetku, za předpokladu, že to popisuje návrat nějaké investice, kterou jste udělali během předchozího sezení. (Jinými slovy, nemůžete zpětně prohlásit, že jste to udělali, ale pokud se to ve hře skutečně stalo, tak z toho získáte více.)
 
-# Investiční fond, bejby
+</stunt>
 
-*Investiční fond, bejby*
 
-***Základní pravidla***
+<stunt
+    title="Investiční fond, bejby"
+    original="Investiční fond, bejby*"
 
-**FC S0:** Majetek
+    source="Základní pravidla"
+    origin="fc-skill: Majetek"
 
-**FA A0:** 
+    fc-skill="Majetek"
 
-**SW S0:** 
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Dvakrát za sezení můžete přijmout posílení reprezentované náhlým přísunem peněz.
 
 
-# Cit pro ohrožení
+</stunt>
 
-*Danger Sense*
 
-***Základní pravidla***
+<stunt
+    title="Cit pro ohrožení"
+    original="Danger Sense"
 
-**FC S0:** Pozornost
+    source="Základní pravidla"
+    origin="fc-skill: Pozornost"
 
-**FA A0:** 
+    fc-skill="Pozornost"
+    sw-skill="Pozornost"
 
-**SW S0:** Pozornost
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+možnost"
+    >
 
 Máte téměř nadpřirozenou schopnost vycítit nebezpečí. Vaše dovednost Pozorování funguje bez omezení podmínkami, jako jsou dokonalé maskování, temnota nebo jiné omezení smyslů v situacích, v nichž se vám někdo nebo něco pokouší ublížit.
 
-# Čtenář řeči těla
+</stunt>
 
-*Body Language Reader*
 
-***Základní pravidla***
+<stunt
+    title="Čtenář řeči těla"
+    original="Body Language Reader"
 
-**FC S0:** Pozornost
+    source="Základní pravidla"
+    origin="fc-skill: Pozornost"
 
-**FA A0:** 
+    fc-skill="Pozornost"
+    sw-skill="Pozornost"
 
-**SW S0:** Pozornost
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Můžete použít Pozornost namísto Empatie, abyste se dozvěděli aspekty cíle pozorováním.
 
-# Střelba od boku
+</stunt>
 
-*Reactive Shot*
 
-***Základní pravidla***
+<stunt
+    title="Střelba od boku"
+    original="Reactive Shot"
 
-**FC S0:** Pozornost
+    source="Základní pravidla"
+    origin="fc-skill: Pozornost"
 
-**FA A0:** 
+    fc-skill="Pozornost"
+    sw-skill="Pozornost"
 
-**SW S0:** Pozornost
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Můžete použít Pozorování namísto Střelby, abyste udělali rychlý, reflexivní výstřel bez míření. Nicméně protože jednáte bezmyšlenkovitě, nemůžete říci přesně, na koho střílíte, předtím, než tento trik použijete. Takže, například, můžete být schopni tímto trikem střelit někoho, koho se vidíte hýbat v křoví, ale už nedokážete říci, zda to je přítel nebo nepřítel předtím, než stisknete spoušť. Volte rozvážně!
 
-# Zbroj strachu
+</stunt>
 
-*Armor of Fear*
 
-***Základní pravidla***
+<stunt
+    title="Zbroj strachu"
+    original="Armor of Fear"
 
-**FC S0:** Provokace
+    source="Základní pravidla"
+    origin="fc-skill: Provokace"
 
-**FA A0:** 
+    fc-skill="Provokace"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 Můžete použít Provokaci k obraně proti Bojovým útokům, ale pouze dokud v konfliktu poprvé neobdržíte stres. Dokážete vaše protivníky donutit váhat v útoku, ale jakmile jim někdo ukáže, že jste pouze člověk, vaše výhoda zmizí.
 
-# Vyprovokování násilí
+</stunt>
 
-*Provoke Violence*
 
-***Základní pravidla***
+<stunt
+    title="Vyprovokování násilí"
+    original="Provoke Violence"
 
-**FC S0:** Provokace
+    source="Základní pravidla"
+    origin="fc-skill: Provokace"
 
-**FA A0:** 
+    fc-skill="Provokace"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Když vytvoříte výhodu na protivníkovi pomocí Provokace, můžete použít své volné vyvolání k tomu, abyste se stali cílem příští související akce této postavy a strhnout tak na sebe pozornost od jiného cíle.
 
-# Ok, v pohodě!
+</stunt>
 
-*Okay, Fine!*
 
-***Základní pravidla***
+<stunt
+    title="Ok, v pohodě!"
+    original="Okay, Fine!"
 
-**FC S0:** Provokace
+    source="Základní pravidla"
+    origin="fc-skill: Provokace"
 
-**FA A0:** 
+    fc-skill="Provokace"
+    sw-skill="Manipulace"
 
-**SW S0:** Manipulace
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Můžete použít Provokaci namísto Empatie, abyste zjistili protivníkovy aspekty tím, že ho provokujete, dokud je neodhalí. Cíl se vám brání Vůlí. (Pokud si vypravěč myslí, že je aspekt značně zranitelný vaším agresivním přístupem, dostanete bonus +2.)
 
-# Vždy vyrábím užitečné věci
+</stunt>
 
-*Always Making Useful Things*
 
-***Základní pravidla***
+<stunt
+    title="Vždy vyrábím užitečné věci"
+    original="Always Making Useful Things"
 
-**FC S0:** Řemesla
+    source="Základní pravidla"
+    origin="fc-skill: Řemesla"
 
-**FA A0:** 
+    fc-skill="Řemesla"
+    sw-skill="Technika"
 
-**SW S0:** Technika
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+možnost"
+    >
 
 Nikdy nemusíte utrácet bod osudu, abyste ustanovili, že máte správné nástroje na nějakou Řemeslnou práci, ani v extrémních situacích (jako když jste uvězněni a odděleni od vašich věcí). Takový typ opozice je prostě shozen ze stolu.
 
-# Lepší než nové!
+</stunt>
 
-*Better than New!*
 
-***Základní pravidla***
+<stunt
+    title="Lepší než nové!"
+    original="Better than New!"
 
-**FC S0:** Řemesla
+    source="Základní pravidla"
+    origin="fc-skill: Řemesla"
 
-**FA A0:** 
+    fc-skill="Řemesla"
+    sw-skill="Technika"
 
-**SW S0:** Technika
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** O
+    actions="O"
+    >
 
 Kdykoliv uspějete se stylem na akci překonání při opravování nějakého stroje, můžete mu namísto posílení ihned dát nový situační aspekt (s volným vyvoláním), odrážející zlepšení, které jste udělali.
 
-# Chirurgické zásahy
+</stunt>
 
-*Surgical Strikes*
 
-***Základní pravidla***
+<stunt
+    title="Chirurgické zásahy"
+    original="Surgical Strikes"
 
-**FC S0:** Řemesla
+    source="Základní pravidla"
+    origin="fc-skill: Řemesla"
 
-**FA A0:** 
+    fc-skill="Řemesla"
+    sw-skill="Technika"
 
-**SW S0:** Technika
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** A
+    actions="A"
+    >
 
 Když užíváte Řemesla v konfliktu zahrnujícím stroje, můžete odstranit nechtěné cíle v celé zóně útoku bez toho, abyste museli rozdělovat posuny (normálně byste museli rozdělit svůj hod mezi více cílů).
 
-# Jako klíště
+</stunt>
 
-*Hard to Shake*
 
-***Základní pravidla***
+<stunt
+    title="Jako klíště"
+    original="Hard to Shake"
 
-**FC S0:** Řízení
+    source="Základní pravidla"
+    origin="fc-skill: Řízení"
 
-**FA A0:** 
+    fc-skill="Řízení"
+    sw-skill="Pilotování"
 
-**SW S0:** Pilotování
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+2"
+    >
 
 +2 na Řízení kdykoliv ve scéně honičky pronásledujete jiné vozidlo.
 
-# Plyn na podlaze
+</stunt>
 
-*Pedal to the Metal*
 
-***Základní pravidla***
+<stunt
+    title="Plyn na podlaze"
+    original="Pedal to the Metal"
 
-**FC S0:** Řízení
+    source="Základní pravidla"
+    origin="fc-skill: Řízení"
 
-**FA A0:** 
+    fc-skill="Řízení"
+    sw-skill="Pilotování"
 
-**SW S0:** Pilotování
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2p
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+2p"
+    >
 
 Můžete ze svého vozu vyždímat větší rychlost, než se zdá možné. Kdykoliv jste zapojeni do střetu, v němž je rychlost hlavní faktor (jako je honička nebo nějaký druh závodu) a remízujete ve svém hodu na Řízení, je to považováno za úspěch.
 
-# Napalte je! 
+</stunt>
 
-*Ramming Speed! *
 
-***Základní pravidla***
+<stunt
+    title="Napalte je!"
+    original="Ramming Speed!"
 
-**FC S0:** Řízení
+    source="Základní pravidla"
+    origin="fc-skill: Řízení"
 
-**FA A0:** 
+    fc-skill="Řízení"
+    sw-skill="Pilotování"
 
-**SW S0:** Pilotování
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2p, +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+2p, +možnost"
+    >
 
 Když úmyslně narážíte do jiného vozidla, ignorujete dva posuny poškození. Pokud tedy narážíte do vozidla a zasáhnete jej za čtyři posuny, sami dostanete jen dva.
 
-# Tvář v davu 
+</stunt>
 
-*Face in the Crowd*
 
-***Základní pravidla***
+<stunt
+    title="Tvář v davu"
+    original="Face in the Crowd"
 
-**FC S0:** Skrývání
+    source="Základní pravidla"
+    origin="fc-skill: Skrývání"
 
-**FA A0:** 
+    fc-skill="Skrývání"
+    sw-skill="Infiltrace"
 
-**SW S0:** Infiltrace
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+2"
+    >
 
 +2 k hodům na Skrývání pro zapadnutí v davu. Co znamená „dav” záleží hlavně na prostředí – nástupní stanice metra bude muset být zalidněnější než malý bar.
 
-# Ninja zmizení 
+</stunt>
 
-*Ninja Vanish*
 
-***Základní pravidla***
+<stunt
+    title="Ninja zmizení"
+    original="Ninja Vanish"
 
-**FC S0:** Skrývání
+    source="Základní pravidla"
+    origin="fc-skill: Skrývání"
 
-**FA A0:** 
+    fc-skill="Skrývání"
+    sw-skill="Infiltrace"
 
-**SW S0:** Infiltrace
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 1/scéna, Bod osudu
-
-**Akce:** 
+    restrictions="1/scéna, Bod osudu"
+    >
 
 Jednou za scénu můžete zaplatit bod osudu a zmizet přímo z očí za použití kouřových patron nebo jiné mystické techniky. To vám dá posílení _**Zmizelý**_. Dokud jste skrytí, nikdo na vás nemůže útočit nebo vůči vám tvořit výhodu, dokud neuspěje na překonání v hodu na Pozornost, aby si všiml, kde jste (v podstatě to znamená, že musí obětovat výměnu, aby to zkusil.) Tento aspekt zmizí hned, co jej vyvoláte, nebo v okamžiku, kdy někdo uspěje v jeho překonání.
 
-# Nejasný cíl 
+</stunt>
 
-*Slippery Target*
 
-***Základní pravidla***
+<stunt
+    title="Nejasný cíl"
+    original="Slippery Target"
 
-**FC S0:** Skrývání
+    source="Základní pravidla"
+    origin="fc-skill: Skrývání"
 
-**FA A0:** 
+    fc-skill="Skrývání"
+    sw-skill="Infiltrace"
 
-**SW S0:** Infiltrace
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 Za předpokladu, že jste ve tmě nebo stínu, můžete použít Skrývání na obranu před útoky Střelbou proti nepřátelům, kteří jsou alespoň dvě zóny daleko.
 
-# Cílený výstřel
+</stunt>
 
-*Called Shot*
 
-***Základní pravidla***
+<stunt
+    title="Cílený výstřel"
+    original="Called Shot"
 
-**FC S0:** Střelba
+    source="Základní pravidla"
+    origin="fc-skill: Střelba"
 
-**FA A0:** 
+    fc-skill="Střelba"
+    sw-skill="Blastery"
 
-**SW S0:** Blastery
+    type="+možnost"
 
-**SW C0:** 
+    restrictions="Bod osudu"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** Bod osudu
-
-**Akce:** A
+    actions="A"
+    >
 
 Během útoku Střelbou zaplaťte bod osudu za vyhlášení zvláštního stavu, který chcete cíli způsobit, jako _**Střelený do ruky**_. Pokud uspějete, tak navíc ke způsobenému stresu na cíl umístíte situační aspekt.
 
-# Rychlé tasení
+</stunt>
 
-*Quick on the Draw*
 
-***Základní pravidla***
+<stunt
+    title="Rychlé tasení"
+    original="Quick on the Draw"
 
-**FC S0:** Střelba
+    source="Základní pravidla"
+    origin="fc-skill: Střelba"
 
-**FA A0:** 
+    fc-skill="Střelba"
+    sw-skill="Blastery"
 
-**SW S0:** Blastery
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:**
-
-**Akce:** 
+    type="předrátování"
+    >
 
 Můžete použít Střelbu namísto Pozornosti, abyste určili pořadí jednání ve fyzickém konfliktu, v němž by rychlá střelba mohla být užitečná.
 
-# Neskutečná přesnost
+</stunt>
 
-*Uncanny Accuracy*
 
-***Základní pravidla***
+<stunt
+    title="Neskutečná přesnost"
+    original="Uncanny Accuracy"
 
-**FC S0:** Střelba
+    source="Základní pravidla"
+    origin="fc-skill: Střelba"
 
-**FA A0:** 
+    fc-skill="Střelba"
+    sw-skill="Blastery"
 
-**SW S0:** Blastery
+    type="+2p"
 
-**SW C0:** 
+    restrictions="1/scéna"
 
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2p
-
-**Tag:** 
-
-**Omezení:** 1/scéna
-
-**Akce:** CA
+    actions="CA"
+    >
 
 Jednou za konflikt můžete přidat volné vyvolání navíc k výhodě, kterou jste vytvořili, abyste vyjádřili čas strávený mířením nebo systematičností palby (třeba _**V hledáčku**_).
 
-# O tom jsem četl!
+</stunt>
 
-*I’ve Read about That!*
 
-***Základní pravidla***
+<stunt
+    title="O tom jsem četl!"
+    original="I’ve Read about That!"
 
-**FC S0:** Učenost
+    source="Základní pravidla"
+    origin="fc-skill: Učenost"
 
-**FA A0:** 
+    fc-skill="Učenost"
+    sw-skill="Znalosti"
 
-**SW S0:** Znalosti
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** Bod osudu
-
-**Akce:** 
+    restrictions="Bod osudu"
+    >
 
 Četli jste stovky, ne-li tisíce knih o širokém množství témat. Můžete utratit bod osudu, abyste na jeden hod nebo výměnu použili Učenost namísto jakékoliv dovednosti za předpokladu, že můžete ospravedlnit, že jste četli o akci, kterou se chystáte provést.
 
-# Štít rozumu
+</stunt>
 
-*Shield of Reason*
 
-***Základní pravidla***
+<stunt
+    title="Štít rozumu"
+    original="Shield of Reason"
 
-**FC S0:** Učenost
+    source="Základní pravidla"
+    origin="fc-skill: Učenost"
 
-**FA A0:** 
+    fc-skill="Učenost"
+    sw-skill="Znalosti"
 
-**SW S0:** Znalosti
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 Můžete použít Učenost jako obranu proti pokusům o Provokaci, za předpokladu, že můžete ospravedlnit svou schopnost překonat strach pomocí racionality a rozumu.
 
-# Specialista
+</stunt>
 
-*Specialist*
 
-***Základní pravidla***
+<stunt
+    title="Specialista"
+    original="Specialist"
 
-**FC S0:** Učenost
+    source="Základní pravidla"
+    origin="fc-skill: Učenost"
 
-**FA A0:** 
+    fc-skill="Učenost"
+    sw-skill="Znalosti"
 
-**SW S0:** Znalosti
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+2"
+    >
 
 Zvolte si obor specializace, jako bylinky, kriminologie nebo zoologie. Dostanete +2 na všechny Znalostní hody vztažené k oboru vaší specializace.
 
-# Síla z odhodlání
+</stunt>
 
-*Strength From Determination*
 
-***Základní pravidla***
+<stunt
+    title="Síla z odhodlání"
+    original="Strength From Determination"
 
-**FC S0:** Vůle
+    source="Základní pravidla"
+    origin="fc-skill: Vůle"
 
-**FA A0:** 
+    fc-skill="Vůle"
+    sw-skill="Vůle"
 
-**SW S0:** Vůle
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** O
+    actions="O"
+    >
 
 Použijte Vůli namísto Kondice na překonání překážek založených na použití síly.
 
-# Zatvrzelost
+</stunt>
 
-*Hard Boiled*
 
-***Základní pravidla***
+<stunt
+    title="Zatvrzelost"
+    original="Hard Boiled"
 
-**FC S0:** Vůle
+    source="Základní pravidla"
+    origin="fc-skill: Vůle"
 
-**FA A0:** 
+    fc-skill="Vůle"
+    sw-skill="Vůle"
 
-**SW S0:** Vůle
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +schopnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+schopnost"
+    >
 
 Můžete se rozhodnout ve scéně ignorovat drobný nebo mírný následek. Nemůže být vynucen ani vyvolán vašimi nepřáteli. Na konci scény se však vrátí hroší – pokud byl drobný, stane se mírným, a byl-li mírný, stane se vážným.
 
-# Neovládnutelný
+</stunt>
 
-*Indomitable*
 
-***Základní pravidla***
+<stunt
+    title="Neovládnutelný"
+    original="Indomitable"
 
-**FC S0:** Vůle
+    source="Základní pravidla"
+    origin="fc-skill: Vůle"
 
-**FA A0:** 
+    fc-skill="Vůle"
+    sw-skill="Vůle"
 
-**SW S0:** Vůle
+    type="+2"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 +2 k obraně před útoky Provokací zaměřenými na strach nebo zastrašování.
 
-# Pozornost k detailu
+</stunt>
 
-*Attention to Detail*
 
-***Základní pravidla***
+<stunt
+    title="Pozornost k detailu"
+    original="Attention to Detail"
 
-**FC S0:** Vyšetřování
+    source="Základní pravidla"
+    origin="fc-skill: Vyšetřování"
 
-**FA A0:** 
+    fc-skill="Vyšetřování"
+    sw-skill="Pozornost"
 
-**SW S0:** 
+    type="předrátování"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** D
+    actions="D"
+    >
 
 Můžete využít Vyšetřování namísto Empatie k obraně proti Klamání. Co ostatní odhalí pomocí pocitů a intuice, vy zjišťujete pečlivým pozorováním mikrovýrazů.
 
-# Fízlování
+</stunt>
 
-*Eavesdropper*
 
-***Základní pravidla***
+<stunt
+    title="Fízlování"
+    original="Eavesdropper"
 
-**FC S0:** Vyšetřování
+    source="Základní pravidla"
+    origin="fc-skill: Vyšetřování"
 
-**FA A0:** 
+    fc-skill="Vyšetřování"
+    sw-skill="Pozornost"
 
-**SW S0:** Pozornost
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2p
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+2p"
+    >
 
 Při úspěšném hodu na Vyšetřování k vytvoření výhody odposloucháváním konverzace můžete odhalit nebo vytvořit jeden další aspekt (nedá vám to ale žádné další volné vyvolání)
 
-# Síla úsudku
+</stunt>
 
-*The Power of Deduction*
 
-***Základní pravidla***
+<stunt
+    title="Síla úsudku"
+    original="The Power of Deduction"
 
-**FC S0:** Vyšetřování
+    source="Základní pravidla"
+    origin="fc-skill: Vyšetřování"
 
-**FA A0:** 
+    fc-skill="Vyšetřování"
+    sw-skill="Znalosti"
 
-**SW S0:** Znalosti
+    type="+možnost, +schopnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost, +schopnost
-
-**Tag:** 
-
-**Omezení:** 1/scéna, Bod osudu
-
-**Akce:** 
+    restrictions="1/scéna, Bod osudu"
+    >
 
 Jednou za scénu můžete utratit bod osudu (a ztratit pár minut pozorováním) a provést speciální hod na Vyšetřování reprezentující vaše mocné dedukční schopnosti. Za každý posun, který v hodu získáte, odhalíte nebo vytvoříte aspekt, ať už na scéně nebo na cíli vašeho pozorování. Možnost volného vyvolání ale stále získáte pouze na jeden z nich.
 
-# Pití pro všechny!
+</stunt>
 
-*Best Foot Forward*
 
-***Základní pravidla***
+<stunt
+    title="Pití pro všechny!"
+    original="Best Foot Forward"
 
-**FC S0:** Vztahy
+    source="Základní pravidla"
+    origin="fc-skill: Vztahy"
 
-**FA A0:** 
+    fc-skill="Vztahy"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 2/scéna, 
-
-**Akce:** 
+    restrictions="2/scéna"
+    >
 
 Dvakrát za sezení můžete zlepšit posílení, které jste získali pomocí Vztahů, na plný situační aspekt s volným vyvoláním.
 
-# Demagog
+</stunt>
 
-*Demagogue*
 
-***Základní pravidla***
+<stunt
+    title="Demagog"
+    original="Demagogue"
 
-**FC S0:** Vztahy
+    source="Základní pravidla"
+    origin="fc-skill: Vztahy"
 
-**FA A0:** 
+    fc-skill="Vztahy"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2, +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+2, +možnost"
+    >
 
 +2 na Vztahy, pokud pronášíte inspirující řeč před davem. (Jsou-li na scéně nějaké pojmenované PV nebo PH, můžete je zasáhnout jedním hodem namísto toho, abyste rozdělovali své posuny)
 
-# Populární
+</stunt>
 
-*Popular*
 
-***Základní pravidla***
+<stunt
+    title="Populární"
+    original="Popular"
 
-**FC S0:** Vztahy
+    source="Základní pravidla"
+    origin="fc-skill: Vztahy"
 
-**FA A0:** 
+    fc-skill="Vztahy"
+    sw-skill="Vztahy"
 
-**SW S0:** Vztahy
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="předrátování"
+    >
 
 Pokud jste v místě, kde jste populární a oblíbený, můžete použít Vztahy namísto Kontaktů. Můžete určit svou popularitu utracením bodu osudu na vytvoření příběhového detailu, nebo pomocí ospravedlnění z dřívějška.
 
-# Vždy mám zadní vrátka
+</stunt>
 
-*Always a Way Out*
 
-***Základní pravidla***
+<stunt
+    title="Vždy mám zadní vrátka"
+    original="Always a Way Out"
 
-**FC S0:** Zlodějna
+    source="Základní pravidla"
+    origin="fc-skill: Zlodějna"
 
-**FA A0:** 
+    fc-skill="Zlodějna"
 
-**SW S0:** Infiltrace
+    sw-skill="Infiltrace"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +2
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="+2"
+    >
 
 +2 k hodům na Zlodějnu pro hody na vytvoření výhody, kdykoliv se snažíte uniknout z lokace.
 
-# Bezpečnostní odborník
+</stunt>
 
-*Security Specialist*
 
-***Základní pravidla***
+<stunt
+    title="Bezpečnostní odborník"
+    original="Security Specialist"
 
-**FC S0:** Zlodějna
+    source="Základní pravidla"
+    origin="fc-skill: Zlodějna"
 
-**FA A0:** 
+    fc-skill="Zlodějna"
+    sw-skill="Infiltrace"
 
-**SW S0:** Infiltrace
+    type="+možnost"
 
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** +možnost
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** AO
+    actions="AO"
+    >
 
 Nepotřebujete být přítomni, abyste poskytovali aktivní opozici někomu, kdo překonává bezpečnostní opatření, které jste umístili nebo na nich pracovali. (Normálně by postava házela proti pasivní opozici.)
 
-# Co se šeptá
+</stunt>
 
-*Talk the Talk*
 
-***Základní pravidla***
+<stunt
+    title="Co se šeptá"
+    original="Talk the Talk"
 
-**FC S0:** Zlodějna
+    source="Základní pravidla"
+    origin="fc-skill: Zlodějna"
 
-**FA A0:** 
+    fc-skill="Zlodějna"
+    sw-skill="Infiltrace"
 
-**SW S0:** Infiltrace
-
-**SW C0:** 
-
-**SW R0:**
-
-**SW E0:** 
-
-**SW En:** 
-
-**Typ:** předrátování
-
-**Tag:** 
-
-**Omezení:** 
-
-**Akce:** 
+    type="předrátování"
+    >
 
 Můžete použít Zlodějnu namísto Kontaktů kdykoliv jednáte s jinými zloději a zločinci.
 
-
-
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTAwNDQ4OSwxMTg1MTkyOTUsOTc5Mj
-Q4NzA3LDQ3OTY3NTQ4NywtNTE0NDMwNzQ1LDQ3NTg4MDQyMiwt
-MTY3MzQ1NzU4NiwtMTI2NDcyMTgxOCwxMTA4NjQxOTg4LDU5Nz
-cxMjU0MSw3MzA5OTgxMTZdfQ==
--->
+</stunt>
