@@ -4,6 +4,7 @@
 #
 #  id            :bigint           not null, primary key
 #  casting       :integer
+#  classes       :string           default([]), is an Array
 #  components    :string
 #  concentration :boolean
 #  description   :string

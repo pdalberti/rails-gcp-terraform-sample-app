@@ -28,7 +28,7 @@ class SpellSanitizerService < ApplicationService
     assign_range
     assign_components
     assign_duration_and_concentration
-    assign_dnd_classes
+    assign_classes
     Spell.create!(attributes)
   end
 
@@ -95,9 +95,9 @@ class SpellSanitizerService < ApplicationService
                             end
   end
 
-  def assign_dnd_classes
+  def assign_classes
     # "**Povolání:** Čaroděj, kouzelník"
     classes = non_bold_text(un_spell[8]).split(', ').map(&:capitalize)
-    attributes[:dnd_classes] = DndClass.where(name: classes)
+    attributes[:classes] = classes
   end
 end

@@ -11,7 +11,7 @@
       .col-8.col-md-4.col-lg-3 = f.input :casting_in, required: false, label: 'Vyvolání', collection: Spell::CASTING, include_blank: true, input_html: { multiple: true }
       .col-3.col-md-2.col-lg-1 = f.input :ritual_eq, required: false, label: 'Rituál?', collection: [['Ano', true], ['Ne', false]], as: :check_boxes, boolean_style: :nested
       .col-4.col-md-2.col-lg-2 = f.input :components_in, required: false, label: 'Složky', collection: Spell.pluck(:components).uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :dnd_classes_name_in, required: false, label: 'Povolání', collection: DndClass.pluck(:name), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :classes_array_overlaps, required: false, label: 'Povolání', collection: Spell.pluck(:classes).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
       .col-9.col-md-5.col-lg-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell::DURATION, include_blank: true, input_html: { multiple: true }
       .col-3.col-md-2.col-lg-1 = f.input :concentration_eq, required: false, label: 'Soustředění?', collection: [['Ano', true], ['Ne', false]], as: :check_boxes, boolean_style: :nested
     p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.

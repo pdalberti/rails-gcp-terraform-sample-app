@@ -9,13 +9,6 @@ DatabaseCleaner.clean
 
 # write your new seeds after this line
 
-puts 'Setting up DnD Compendium'
-
-classes = %w[Bard Čaroděj Černokněžník Druid Hraničář Klerik Kouzelník Paladin]
-classes.each { |klass| DndClass.create!(name: klass) }
-
-puts "Created #{classes.join(', ')} classes"
-
 paths = Dir['storage/dnd/*.md'].sort
 paths.each do |path|
   file = File.read(path)

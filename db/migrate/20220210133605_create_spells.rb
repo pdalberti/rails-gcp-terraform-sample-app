@@ -13,6 +13,7 @@ class CreateSpells < ActiveRecord::Migration[6.1]
       t.boolean :ritual
       t.boolean :concentration
       t.string :rulebook
+      t.string :classes, array: true, default: []
 
       t.timestamps
     end
