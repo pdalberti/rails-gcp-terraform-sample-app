@@ -1,5 +1,9 @@
 module PagesHelper
-  def comma_unique(array)
-    array.compact.map { |e| e.split(',').map(&:strip) }.flatten.uniq.compact_blank.sort
+  def psql_array_czech_sort(array)
+    collator.sort(array.flatten.uniq)
+  end
+
+  def collator
+    ::TwitterCldr::Collation::Collator.new(:cz)
   end
 end

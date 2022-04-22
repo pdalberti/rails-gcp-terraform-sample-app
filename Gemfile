@@ -65,6 +65,7 @@ gem 'pundit'
 gem 'ransack'
 gem 'simple_form'
 gem 'slim-rails'
+gem 'twitter_cldr'
 
 group :development, :test do
   gem 'annotate'
