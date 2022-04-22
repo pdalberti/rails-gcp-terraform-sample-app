@@ -7,20 +7,20 @@
       .col-8.col-md-4.col-lg-3 = f.input :source_in, required: false, label: 'Zdroj', collection: Fate::Trick.pluck(:source).uniq.sort, include_blank: true, input_html: { multiple: true }
       / .col-5.col-md-3.col-lg-2 = f.input :origin_in, required: false, label: 'Původ', collection: Fate::Trick.pluck(:origin).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
 
-      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FAE přístupy', collection: Fate::Trick.pluck(:fae_approach).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FC speciality', collection: Fate::Trick.pluck(:fc_extra).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FC dovednosti', collection: Fate::Trick.pluck(:fc_skill).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW archetypy', collection: Fate::Trick.pluck(:sw_archetype).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW protivníci', collection: Fate::Trick.pluck(:sw_enemy).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW speciality', collection: Fate::Trick.pluck(:sw_extra).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW rasy', collection: Fate::Trick.pluck(:sw_race).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW dovednosti', collection: Fate::Trick.pluck(:sw_skill).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FAE přístupy', collection: psql_array_czech_sort(Fate::Trick.pluck(:fae_approach)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FC speciality', collection: psql_array_czech_sort(Fate::Trick.pluck(:fc_extra)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FC dovednosti', collection: psql_array_czech_sort(Fate::Trick.pluck(:fc_skill)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW archetypy', collection: psql_array_czech_sort(Fate::Trick.pluck(:sw_archetype)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW protivníci', collection: psql_array_czech_sort(Fate::Trick.pluck(:sw_enemy)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW speciality', collection: psql_array_czech_sort(Fate::Trick.pluck(:sw_extra)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW rasy', collection: psql_array_czech_sort(Fate::Trick.pluck(:sw_race)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'SW dovednosti', collection: psql_array_czech_sort(Fate::Trick.pluck(:sw_skill)), include_blank: true, input_html: { multiple: true }
 
-      .col-6.col-md-3.col-lg-2 = f.input :tags_cont_any, required: false, label: 'Tag', collection: Fate::Trick.pluck(:tags).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-4.col-md-2.col-lg-2 = f.input :trick_type_array_overlaps, required: false, label: 'Typ', collection: Fate::Trick.pluck(:trick_type).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-3.col-md-2.col-lg-1 = f.input :actions_array_overlaps, required: false, label: 'Akce', collection: Fate::Trick.pluck(:actions).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-4.col-md-2.col-lg-2 = f.input :restrictions_array_overlaps, required: false, label: 'Omezení', collection: Fate::Trick.pluck(:restrictions).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-4.col-md-2.col-lg-2 = f.input :costs_array_overlaps, required: false, label: 'Cena', collection: Fate::Trick.pluck(:costs).flatten.uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :tags_array_overlaps, required: false, label: 'Tag', collection: psql_array_czech_sort(Fate::Trick.pluck(:tags)), include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-2.col-lg-2 = f.input :trick_type_array_overlaps, required: false, label: 'Typ', collection: psql_array_czech_sort(Fate::Trick.pluck(:trick_type)), include_blank: true, input_html: { multiple: true }
+      .col-3.col-md-2.col-lg-1 = f.input :actions_array_overlaps, required: false, label: 'Akce', collection: psql_array_czech_sort(Fate::Trick.pluck(:actions)), include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-2.col-lg-2 = f.input :restrictions_array_overlaps, required: false, label: 'Omezení', collection: psql_array_czech_sort(Fate::Trick.pluck(:restrictions)), include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-2.col-lg-2 = f.input :costs_array_overlaps, required: false, label: 'Cena', collection: psql_array_czech_sort(Fate::Trick.pluck(:costs)), include_blank: true, input_html: { multiple: true }
     p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
     .d-flex.justify-content-between
       p
@@ -33,4 +33,4 @@
 .form-background.mb-5.p-3
   h5 Seřadit podle
   .mb-1
-    = sort_link(@q, :name, 'Názvu', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :czech_title, 'Názvu', {}, class: 'btn btn-secondary m-1')

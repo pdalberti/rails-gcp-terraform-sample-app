@@ -27,6 +27,9 @@
 #
 module Fate
   class Trick < ApplicationRecord
+    scope :sort_by_czech_title_asc, -> { sort { |a, b| Fate::Trick.collator.compare(a.title, b.title) } }
+    scope :sort_by_czech_title_desc, -> { sort { |a, b| Fate::Trick.collator.compare(b.title, a.title) } }
+
     STRING_COLUMNS = %i[origin original source title].freeze
   end
 end

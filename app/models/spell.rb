@@ -20,8 +20,60 @@
 #  updated_at    :datetime         not null
 #
 class Spell < ApplicationRecord
-  has_many :class_spells
-  has_many :dnd_classes, through: :class_spells
+  scope :sort_by_czech_name_asc, -> { sort { |a, b| Spell.collator.compare(a.name, b.name) } }
+  scope :sort_by_czech_name_desc, -> { sort { |a, b| Spell.collator.compare(b.name, a.name) } }
+  scope :sort_by_school_and_name_asc, lambda {
+    sort do |a, b|
+      [Spell.collator.get_sort_key(a.school), Spell.collator.get_sort_key(a.name)] <=>
+        [Spell.collator.get_sort_key(b.school), Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_school_and_name_desc, lambda {
+    sort do |a, b|
+      [Spell.collator.get_sort_key(b.school), Spell.collator.get_sort_key(a.name)] <=>
+        [Spell.collator.get_sort_key(a.school), Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_level_and_name_asc, lambda {
+    sort do |a, b|
+      [a.level, Spell.collator.get_sort_key(a.name)] <=> [b.level, Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_level_and_name_desc, lambda {
+    sort do |a, b|
+      [b.level, Spell.collator.get_sort_key(a.name)] <=> [a.level, Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_casting_and_name_asc, lambda {
+    sort do |a, b|
+      [a.casting, Spell.collator.get_sort_key(a.name)] <=> [b.casting, Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_casting_and_name_desc, lambda {
+    sort do |a, b|
+      [b.casting, Spell.collator.get_sort_key(a.name)] <=> [a.casting, Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_range_and_name_asc, lambda {
+    sort do |a, b|
+      [a.range, Spell.collator.get_sort_key(a.name)] <=> [b.range, Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_range_and_name_desc, lambda {
+    sort do |a, b|
+      [b.range, Spell.collator.get_sort_key(a.name)] <=> [a.range, Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_duration_and_name_asc, lambda {
+    sort do |a, b|
+      [a.duration, Spell.collator.get_sort_key(a.name)] <=> [b.duration, Spell.collator.get_sort_key(b.name)]
+    end
+  }
+  scope :sort_by_duration_and_name_desc, lambda {
+    sort do |a, b|
+      [b.duration, Spell.collator.get_sort_key(a.name)] <=> [a.duration, Spell.collator.get_sort_key(b.name)]
+    end
+  }
 
   CASTING = {
     '1 reakce' => 0, '1 bonusová akce' => 1, '1 akce' => 2, '1 akce, nebo 8 hodin' => 3,
