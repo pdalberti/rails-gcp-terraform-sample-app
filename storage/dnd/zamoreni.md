@@ -4,7 +4,7 @@
 
 ***Xanatharuv pruvodce vším***
 
-*Vyvolávácí trik*
+*Vyvolávací trik*
 
 **Vyvolání:** 1 akce
 
