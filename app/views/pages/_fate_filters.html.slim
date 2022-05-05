@@ -21,7 +21,7 @@
       .col-3.col-md-2.col-lg-1 = f.input :actions_array_overlaps, required: false, label: 'Akce', collection: psql_array_czech_sort(Fate::Trick.pluck(:actions)), include_blank: true, input_html: { multiple: true }
       .col-4.col-md-2.col-lg-2 = f.input :restrictions_array_overlaps, required: false, label: 'Omezení', collection: psql_array_czech_sort(Fate::Trick.pluck(:restrictions)), include_blank: true, input_html: { multiple: true }
       .col-4.col-md-2.col-lg-2 = f.input :costs_array_overlaps, required: false, label: 'Cena', collection: psql_array_czech_sort(Fate::Trick.pluck(:costs)), include_blank: true, input_html: { multiple: true }
-    p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
+    p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL. Mapování triků je mechanické - při použití triku z jiného zdroje vždy zvaž stylizaci!
     .d-flex.justify-content-between
       p
         span.text-primary.me-1 = @tricks.size

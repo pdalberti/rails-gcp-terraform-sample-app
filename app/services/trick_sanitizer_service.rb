@@ -46,6 +46,6 @@ class TrickSanitizerService < ApplicationService
   end
 
   def assign_description
-    attributes[:description] = "<stunt\n#{un_trick}\n</stunt>"
+    attributes[:description] = un_trick.split(">\n").last.strip
   end
 end

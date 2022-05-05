@@ -183,7 +183,7 @@ Jednou za scénu se můžeš rozhodnout vyčistit si hlavu bolestí - když si z
 
 
 <stunt
-    title="Zuřivost"
+    title="Hrozivý"
 
     source="Fate Epizoda I: Star Wars"
     origin="sw-skill: Kondice"
@@ -507,7 +507,7 @@ Když se poprvé setkáš s něčím novým a použiješ Znalosti k vytvoření 
 
 
 <stunt
-    title="Užitečná teorie"
+    title="Cit pro zvláštnosti"
 
     source="Fate Epizoda I: Star Wars"
     origin="sw-skill: Znalosti"

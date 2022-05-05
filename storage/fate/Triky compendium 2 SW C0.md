@@ -257,7 +257,7 @@ Lovci odměn fungují napříč Galaxií. Patříš k těm, co v tom umí chodit
 
 
 <stunt
-    title="Lovecká zkušenost"
+    title="Variabilní zbrojnice"
 
     source="Fate Epizoda I: Star Wars"
     origin="sw-archetype: Lovec odměn"
