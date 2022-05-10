@@ -29,6 +29,18 @@ module Fate
   class Trick < ApplicationRecord
     scope :sort_by_czech_title_asc, -> { sort { |a, b| Fate::Trick.collator.compare(a.title, b.title) } }
     scope :sort_by_czech_title_desc, -> { sort { |a, b| Fate::Trick.collator.compare(b.title, a.title) } }
+    scope :sort_by_dial_and_title_asc, lambda {
+      sort do |a, b|
+        [Fate::Trick.collator.get_sort_key(a.dials.first), Fate::Trick.collator.get_sort_key(a.title)] <=>
+          [Fate::Trick.collator.get_sort_key(b.dials.first), Fate::Trick.collator.get_sort_key(b.title)]
+      end
+    }
+    scope :sort_by_dial_and_title_desc, lambda {
+      sort do |a, b|
+        [Fate::Trick.collator.get_sort_key(b.dials.first), Fate::Trick.collator.get_sort_key(a.title)] <=>
+          [Fate::Trick.collator.get_sort_key(a.dials.first), Fate::Trick.collator.get_sort_key(b.title)]
+      end
+    }
 
     STRING_COLUMNS = %i[origin original source title].freeze
   end
