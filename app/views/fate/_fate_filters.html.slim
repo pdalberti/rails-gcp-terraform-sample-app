@@ -1,5 +1,5 @@
 .form-background.p-3.mt-3.delimiter
-  = search_form_for @q, url: fate_path do |f|
+  = search_form_for @q, url: triky_fate_index_path do |f|
     .row
       .col-md-5.col-lg-3
         = f.input :title_cont, required: false, placeholder: 'Český', label: 'Název'
@@ -27,7 +27,7 @@
         span.text-primary.me-1 = @tricks.size
         | triků nalezeno
       div
-        = link_to 'Reset', fate_path, class: 'btn btn-outline-secondary mx-0 mx-sm-3'
+        = link_to 'Reset', triky_fate_index_path, class: 'btn btn-outline-secondary mx-0 mx-sm-3'
         = f.submit 'Hledat', class: 'btn btn-primary'
 
 .form-background.mb-5.p-3
