@@ -11,7 +11,10 @@ html
 
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true
 
+    link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+
     = render 'shared/analytics'
+    = render 'shared/cookies'
 
   body
     .d-flex.flex-column.justify-content-between.full-page
@@ -19,4 +22,3 @@ html
         = render 'shared/flashes'
         = yield
       = render 'shared/footer'
-    = render 'cookies_eu/consent_banner'
