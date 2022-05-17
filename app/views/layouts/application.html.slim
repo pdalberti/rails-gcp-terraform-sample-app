@@ -11,9 +11,12 @@ html
 
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true
 
+    = render 'shared/analytics'
+
   body
     .d-flex.flex-column.justify-content-between.full-page
       .container
         = render 'shared/flashes'
         = yield
       = render 'shared/footer'
+    = render 'cookies_eu/consent_banner'
