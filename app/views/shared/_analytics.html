@@ -1,8 +1,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1K8WF677VQ"></script>
+<script src="https://cdn.rawgit.com/Alex-D/Cookies-EU-banner/master/src/cookies-eu-banner.js"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  new CookiesEuBanner(function () {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-1K8WF677VQ');
+    gtag('config', 'G-1K8WF677VQ');
+  });
 </script>

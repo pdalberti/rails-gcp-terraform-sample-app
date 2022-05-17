@@ -13,11 +13,11 @@ html
 
     link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
 
-    = render 'shared/analytics'
-
   body
+    = render 'shared/cookies'
     .d-flex.flex-column.justify-content-between.full-page
       .container
         = render 'shared/flashes'
         = yield
       = render 'shared/footer'
+    = render 'shared/analytics'
