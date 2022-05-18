@@ -4,7 +4,7 @@
       .col-md-5.col-lg-3
         = f.input :title_cont, required: false, placeholder: 'Český', label: 'Název'
         = f.input :original_cont, required: false, placeholder: 'Anglický', label: false
-      .col-8.col-md-4.col-lg-3 = f.input :source_in, required: false, label: 'Zdroj', collection: Fate::Trick.pluck(:source).uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-8.col-md-4.col-lg-3 = f.input :source_in, required: false, label: 'Zdroj', collection: Fate::Trick.pluck(:source).uniq.sort.reverse, include_blank: true, input_html: { multiple: true }
       / .col-5.col-md-3.col-lg-2 = f.input :origin_in, required: false, label: 'Původ', collection: Fate::Trick.pluck(:origin).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
 
       .col-5.col-md-3.col-lg-2 = f.input :dials_array_overlaps, required: false, label: 'FAE přístupy', collection: psql_array_czech_sort(Fate::Trick.pluck(:fae_approach)), include_blank: true, input_html: { multiple: true, class: 'shared-selection' }
@@ -18,7 +18,7 @@
 
       .col-6.col-md-3.col-lg-2 = f.input :tags_array_overlaps, required: false, label: 'Tag', collection: psql_array_czech_sort(Fate::Trick.pluck(:tags)), include_blank: true, input_html: { multiple: true }
       .col-4.col-md-2.col-lg-2 = f.input :trick_type_array_overlaps, required: false, label: 'Typ', collection: psql_array_czech_sort(Fate::Trick.pluck(:trick_type)), include_blank: true, input_html: { multiple: true }
-      .col-3.col-md-2.col-lg-1 = f.input :actions_array_overlaps, required: false, label: 'Akce', collection: psql_array_czech_sort(Fate::Trick.pluck(:actions)), include_blank: true, input_html: { multiple: true }
+      .col-3.col-md-2.col-lg-1 = f.input :actions_array_overlaps, required: false, label: 'Akce', collection: %w[O CA A D AO], include_blank: true, input_html: { multiple: true }
       .col-4.col-md-2.col-lg-2 = f.input :restrictions_array_overlaps, required: false, label: 'Omezení', collection: psql_array_czech_sort(Fate::Trick.pluck(:restrictions)), include_blank: true, input_html: { multiple: true }
       .col-4.col-md-2.col-lg-2 = f.input :costs_array_overlaps, required: false, label: 'Cena', collection: psql_array_czech_sort(Fate::Trick.pluck(:costs)), include_blank: true, input_html: { multiple: true }
     p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL. Mapování triků je mechanické - při použití triku z jiného zdroje vždy zvaž stylizaci!

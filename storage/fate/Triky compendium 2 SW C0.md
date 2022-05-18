@@ -154,7 +154,7 @@ Patříš mezi ně. Ty, co tam byli, co to udělali, co to přežili. Ostatní t
     source="Fate Epizoda I: Star Wars"
     origin="sw-archetype: Elitní voják"
 
-    fc-skill="Přesvědčování"
+    fc-skill="Učenost"
     sw-archetype="Elitní voják"
 
     type="+aspekt/vyvolání, stres/následky"

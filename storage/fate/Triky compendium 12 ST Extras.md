@@ -364,7 +364,7 @@ Utraťte bod osudu. Třikrát během scény se můžete zeptat vypravěče, zda 
 
     type="+2"
 
-    tags="skupiny"
+    tags="skupina"
 
     actions="O"
     >
@@ -385,7 +385,7 @@ Vemte si +2 k hodům na Překonání, které provádíte, abyste ustoupili z boj
 
     type="+2"
 
-    tags="skupiny"
+    tags="skupina"
     >
 
 Vaše jednotka je rychlá, lehká a smrtící. Získáte +2 ke všem hodům na Operace, při nichž se váš útok soustředí na to zastihnout nepřítele nepřipraveného.
@@ -404,7 +404,7 @@ Vaše jednotka je rychlá, lehká a smrtící. Získáte +2 ke všem hodům na O
 
     type="předrátování"
 
-    tags="skupiny"
+    tags="skupina"
     >
 
 Můžete použít Vybavení namísto Operací v jakékoliv situaci, v níž je k vítězství dostatečná prostá technologická převaha.
@@ -423,7 +423,7 @@ Můžete použít Vybavení namísto Operací v jakékoliv situaci, v níž je k
 
     type="+2"
 
-    tags="skupiny"
+    tags="skupina"
 
     actions="CA"
     >
@@ -444,7 +444,7 @@ You gain a +2 on all Equipment rolls made to create an advantage when you are ac
 
     type="+2p"
 
-    tags="skupiny"
+    tags="skupina"
 
     actions="CA"
     >
@@ -465,7 +465,7 @@ Při úspěšném hodu na Průzkum k vytvoření výhody během monitorování n
 
     type="předrátování"
 
-    tags="skupiny"
+    tags="skupina"
     >
 
 Když proti nepříteli používáte jeho vastní komunikační systém, tak můžete použít Průzkum namísto Operací k přípravě pasti.

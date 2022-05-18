@@ -637,7 +637,7 @@ Můžeš kombinovat materiály nemožnými způsoby a předávat jim navzájem j
 
     fc-skill="Řemesla"
     fc-extra="Magie Vezírů"
-    sw-skill="Technologie"
+    sw-skill="Technika"
 
     type="+schopnost"
     >

@@ -4,7 +4,7 @@
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Těžký bojový droid Droideka"
 
-    sw-enemy="droidi"
+    sw-enemy="Droidi"
 
     type="+2, +akce"
 
@@ -25,7 +25,7 @@ Může používat blastery k obraně. +2 proti ručním zbraním (blastery, blas
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Komando čtyř autonomních bojových droidů"
 
-    sw-enemy="droidi"
+    sw-enemy="Droidi"
 
     type="předrátování"
 
@@ -43,7 +43,7 @@ Skupina je vystrojena na zamaskování a má rozšířený program pro skrýván
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Skupina osmi úderných klonových vojáků"
 
-    sw-enemy="troopeři"
+    sw-enemy="Troopeři"
 
     type="+2"
 
@@ -81,7 +81,7 @@ AT-ST má Pancíř:2 proti všem útokům ručními zbraněmi (odebírá 2 posun
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: AT-AT"
 
-    sw-enemy="vozidla"
+    sw-enemy="Vozidla"
 
     type="+2p"
 
@@ -99,7 +99,7 @@ AT-AT má univerzální Pancíř:2 (odebírá 2 posuny ze síly každého zásah
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Speeder"
 
-    sw-enemy="vozidla"
+    sw-enemy="Vozidla"
 
     type="+2p"
 
@@ -117,7 +117,7 @@ Speeder je výborně ovladatelný i ve velmi vysokých rychlostech - v měřítk
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Taktický bombardér"
 
-    sw-enemy="letouny"
+    sw-enemy="Letouny"
 
     type="+2"
 
@@ -135,7 +135,7 @@ Proti útokům ze země z jiných, než vysloveně protivzdušných zbraní, má
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Taktický bombardér"
 
-    sw-enemy="letouny"
+    sw-enemy="Letouny"
 
     type="+2p"
 
@@ -153,7 +153,7 @@ Bombardér má Pancíř:2 proti útokům ručními zbraněmi.
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Taktický bombardér"
 
-    sw-enemy="letouny"
+    sw-enemy="Letouny"
 
     type="+možnost"
 
@@ -171,7 +171,7 @@ Bombardér může provést táhlý nálet a udeřit na celou zónu. Tuto akci mu
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Opevněné postavení"
 
-    sw-enemy="opevnění"
+    sw-enemy="Opevnění"
 
     type="+2p"
 
@@ -191,7 +191,7 @@ V bunkru je rozmístěných pár pěchotních blasterových děl a protivzdušn�
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Řetězová blasterová věž"
 
-    sw-enemy="opevnění"
+    sw-enemy="Opevnění"
 
     type="+možnost"
 
@@ -211,7 +211,7 @@ Nekončící řetěz souvislých výstřelů je noční můrou pěchoty. Pokud z
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Řetězová blasterová věž"
 
-    sw-enemy="opevnění"
+    sw-enemy="Opevnění"
 
     type="+možnost"
 
@@ -269,7 +269,7 @@ Hodem na Znalosti dokáže admirál vytvářet výhody na vzdálených bojiští
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Tarský admirál Nilak Brinte"
 
-    fc-skill="Přesvědčování"
+    fc-skill="Učenost"
     sw-enemy="NPC"
 
     type="+možnost"
@@ -328,7 +328,7 @@ Pokud má Jaris hodně času na přípravu, může si hodit na Vůli proti Sluš
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: TIE stíhač"
 
-    sw-enemy="letouny"
+    sw-enemy="Letouny"
 
     type="+2"
 
@@ -349,7 +349,7 @@ TIE stíhač má +2 na tvorbu a překonání výhod spočívajících v rychlýc
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Droidí stíhač Vulture"
 
-    sw-enemy="letouny"
+    sw-enemy="Letouny"
 
     type="+2p"
 
@@ -370,7 +370,7 @@ TIE stíhač má +2 na tvorbu a překonání výhod spočívajících v rychlýc
 
     origin="sw-protivník: Letka čtyř Naboo N1"
 
-    sw-enemy="letouny"
+    sw-enemy="Letouny"
 
     type="+2p"
 
@@ -390,7 +390,7 @@ Naboo nemá vlastní flotilu - namísto toho investovalo těžké peníze do vel
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Obranná letka šesti TIE stíhačů"
 
-    sw-enemy="letouny"
+    sw-enemy="Letouny"
 
     type="+2p"
 
@@ -411,7 +411,7 @@ TIE stíhače jsou extrémně obratné a jejich piloti jsou secvičení ve vzáj
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Záchytná letka čtyř TIE stíhačů"
 
-    sw-enemy="letouny"
+    sw-enemy="Letouny"
 
     type="+2"
 
@@ -431,7 +431,7 @@ Obratnost TIE stíhačů umožňuje jejich sehraným pilotům bleskově obklopit
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Pašerácká loď"
 
-    sw-enemy="lodě"
+    sw-enemy="Lodě"
 
     type="předrátování"
 
@@ -451,7 +451,7 @@ Pro účely vydávání se za jinou loď/posádku si posádka hází Infiltrací
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Pašerácká loď"
 
-    sw-enemy="lodě"
+    sw-enemy="Lodě"
 
     type="+2"
 
@@ -471,7 +471,7 @@ Pokud loď prohledává někdo, kdo neví, co přesně hledá, má loď +2 na In
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Rebelská fregata"
 
-    sw-enemy="lodě"
+    sw-enemy="Lodě"
 
     type="+2"
 
@@ -491,7 +491,7 @@ Fregata je vybavena mnoha vícehlavňovými blastery bodové obrany s rozptylem,
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Satelit planetární obrany"
 
-    sw-enemy="lodě"
+    sw-enemy="Lodě"
 
     type="+2"
 
@@ -511,7 +511,7 @@ Do vzdálených zón útočí jen s poloviční penalizací. Při zásahu způso
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Obchodní vesmírná stanice"
 
-    sw-enemy="lodě"
+    sw-enemy="Lodě"
 
     type="+možnost"
 
@@ -530,7 +530,7 @@ Hodem Pozornosti proti Infiltraci dokáže odhalit všechny zbraně a potenciál
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Star Destroyer"
 
-    sw-enemy="lodě"
+    sw-enemy="Lodě"
 
     type="+možnost"
 
@@ -550,7 +550,7 @@ Hustá síť bodové obrany umožňuje útočit až na 4 cíle v přilehlých a 
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Star Destroyer"
 
-    sw-enemy="lodě"
+    sw-enemy="Lodě"
 
     type="+schopnost"
 
@@ -568,7 +568,7 @@ Dok dokáže v každé výměně vypustit nebo přijmout jednu letku TIE stíha�
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Star Destroyer"
 
-    sw-enemy="lodě"
+    sw-enemy="Lodě"
 
     type="+2p"
 
@@ -589,7 +589,7 @@ Star Destroyer je vlajková loď flotil a je vybaven ohromnou sbírkou supervýk
     fc-skill="Atletika"
     sw-skill="Atletika"
 
-    sw-enemy="nestvůry"
+    sw-enemy="Nestvůry"
 
     type="+2"
 
@@ -607,7 +607,7 @@ Varactyl má +2 k Překonání a tvorbě výhod Atletikou založených na rychlo
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Acklay"
 
-    sw-enemy="nestvůry"
+    sw-enemy="Nestvůry"
 
     type="+možnost"
 
@@ -625,7 +625,7 @@ Acklay na tebe může zaútočit bez ohledu na to, kde vůči němu stojíš. A 
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Exogorth"
 
-    sw-enemy="nestvůry"
+    sw-enemy="Nestvůry"
 
     type="+schopnost"
 
@@ -643,7 +643,7 @@ Proti Exogorthovi nelze použít žádné štíty vyjma bitevních (fyzický sti
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Exogorth"
 
-    sw-enemy="nestvůry"
+    sw-enemy="Nestvůry"
 
     type="+možnost"
 
