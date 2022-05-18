@@ -22,7 +22,7 @@ def spell_components(spell)
 end
 
 def spell_description(spell)
-  spell.description.split('**Povolání:**').last.strip.split("\n")[2].strip
+  spell.description.split('**Povolání:**').last.strip.split("\n")[2..].join("\n")
 end
 
 File.open('storage/dnd-spells.md', 'w') do |f|
