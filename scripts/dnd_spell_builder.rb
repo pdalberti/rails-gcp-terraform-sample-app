@@ -1,7 +1,7 @@
 def spell_content(spell)
   "<spell
-    title=\"#{spell.name}\"
-    original=\"#{spell.en_name}\"
+    title=\"#{spell.title}\"
+    original=\"#{spell.original}\"
     rulebook=\"#{spell.rulebook}\"
     school=\"#{spell.school}\"
     level=\"#{spell.level}\"
@@ -14,12 +14,8 @@ def spell_content(spell)
     classes=\"#{spell.classes.join(', ')}\"
     >
 
-  #{spell_description(spell)}
+  #{spell.description.strip}
   </spell>\n\n"
-end
-
-def spell_description(spell)
-  spell.description.split('**Povolání:**').last.strip.split("\n")[2..].join("\n")
 end
 
 File.open('storage/dnd-spells.md', 'w') do |f|
