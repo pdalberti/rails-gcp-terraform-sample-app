@@ -2,22 +2,26 @@
 #
 # Table name: spells
 #
-#  id            :bigint           not null, primary key
-#  casting       :integer
-#  classes       :string           default([]), is an Array
-#  components    :string
-#  concentration :boolean
-#  description   :string
-#  duration      :integer
-#  en_name       :string
-#  level         :integer
-#  name          :string
-#  range         :integer
-#  ritual        :boolean
-#  rulebook      :string
-#  school        :string
-#  created_at    :datetime         not null
-#  updated_at    :datetime         not null
+#  id                  :bigint           not null, primary key
+#  casting             :integer
+#  classes             :string           default([]), is an Array
+#  components          :string
+#  concentration       :boolean
+#  description         :string
+#  duration            :integer
+#  en_name             :string
+#  level               :integer
+#  name                :string
+#  original_casting    :string
+#  original_components :string
+#  original_duration   :string
+#  original_range      :string
+#  range               :integer
+#  ritual              :boolean
+#  rulebook            :string
+#  school              :string
+#  created_at          :datetime         not null
+#  updated_at          :datetime         not null
 #
 require 'rails_helper'
 

@@ -5,20 +5,17 @@ def spell_content(spell)
     rulebook=\"#{spell.rulebook}\"
     school=\"#{spell.school}\"
     level=\"#{spell.level}\"
-    casting=\"#{Spell::CASTING.key(spell.casting)}\"
-    range=\"#{Spell::RANGE.key(spell.range)}\"
-    components=\"#{spell_components(spell)}\"
-    duration=\"#{Spell::DURATION.key(spell.duration)}\"
+    ritual=\"#{spell.ritual}\"
+    casting=\"#{spell.original_casting}\"
+    range=\"#{spell.original_range}\"
+    components=\"#{spell.original_components}\"
+    duration=\"#{spell.original_duration}\"
+    concentration=\"#{spell.concentration}\"
     classes=\"#{spell.classes.join(', ')}\"
     >
 
   #{spell_description(spell)}
   </spell>\n\n"
-end
-
-def spell_components(spell)
-  spell = File.read("storage/dnd/#{spell.name.parameterize}.md")
-  spell.split('**Složky:**').last.split('**Trvání:**').first.strip
 end
 
 def spell_description(spell)

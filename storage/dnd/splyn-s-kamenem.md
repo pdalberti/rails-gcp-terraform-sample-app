@@ -1,4 +1,4 @@
-# Splyň s kamenen
+# Splyň s kamenem
 
 *Meld into stone*
 

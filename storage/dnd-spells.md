@@ -4,10 +4,12 @@
     rulebook="Xanatharuv pruvodce vším"
     school="Nekromancie"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (kousek houby)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -22,10 +24,12 @@ Nemagické rostliny v oblasti, které se nepočítají jako tvorové (např. str
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (šupina rudého draka)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -43,10 +47,12 @@ eyJoaXN0b3J5IjpbMTY4Mjc2NjgzMl19
     rulebook="Příručka hráče"
     school="Vymítání"
     level="8"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (koule o poloměru 2 sáhy)"
     components="V, P, S (špetka práškového železa nebo železných pilin)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Klerik, Kouzelník"
     >
 
@@ -73,10 +79,12 @@ eyJoaXN0b3J5IjpbMTY4Mjc2NjgzMl19
     rulebook="Příručka hráče"
     school="Očarování"
     level="8"
+    ritual="false"
     casting="1 hodina"
     range="12 sáhů"
     components="V, P, S (buď kus kamence namočený v octu pro účinek *antipatie*, nebo kapka medu pro účinek *sympatie*)"
     duration="10 dní"
+    concentration="false"
     classes="Druid, Kouzelník"
     >
 
@@ -99,10 +107,12 @@ Tvor, který uspěje v záchraně proti tomuto účinku, je vůči němu imunní
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="9"
+    ritual="false"
     casting="1 hodina"
     range="2 sáhy"
     components="V, P, S (za každého tvora, na něhož sešleš toto kouzlo, musíš poskytnout jeden hyacint v hodnotě aspoň 1 000 zl a jeden ozdobný stříbrný slitek v hodnotě aspoň 100 zl; vše kouzlo spotřebuje)"
     duration="Zvláštní"
+    concentration="false"
     classes="Černokněžník, Druid, Hraničář, Klerik, Kouzelník"
     >
 
@@ -125,10 +135,12 @@ Jsi-li navrácen do svého těla předčasně, tví společníci zůstanou ve sv
     rulebook="Příručka hráče"
     school="Vymítání"
     level="4"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (6 sáhů)"
     components="V"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -144,10 +156,12 @@ eyJoaXN0b3J5IjpbLTI1MDg1MDk3MF19
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (6 sáhů)"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -160,10 +174,12 @@ eyJoaXN0b3J5IjpbLTI1MDg1MDk3MF19
     rulebook="Příručka hráče"
     school="Vymítání"
     level="4"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (6 sáhů)"
     components="V"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -176,10 +192,12 @@ eyJoaXN0b3J5IjpbLTI1MDg1MDk3MF19
     rulebook="Příručka hráče"
     school="Vymítání"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="6 sáhů"
     components="V, P, S (stříbrné zrcátko)"
     duration="1 minuta"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -194,10 +212,12 @@ Pokud strážený tvor zaútočí nebo sešle kouzlo, které působí na nepřá
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (diamant v hodnotě aspoň 50 zl)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -212,10 +232,12 @@ Pokud strážený tvor zaútočí nebo sešle kouzlo, které působí na nepřá
     rulebook="Příručka hráče"
     school="Iluze"
     level="1"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (kužel 3 sáhy)"
     components="V, P, S (špetka červeného, špetka žlutého a špetka modrého prášku nebo písku)"
     duration="1 kolo"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -233,10 +255,12 @@ eyJoaXN0b3J5IjpbLTc0OTI1NTk4MF19
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Klerik"
     >
 
@@ -251,10 +275,12 @@ Když tvor neuspěje, utrpísečné zranění 6k10. V případě úspěchu utrp�
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (skořápka a jedna rukavice z hadí kůže)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -276,33 +302,17 @@ Když sešleš toto kouzlo a také jako bonusovou akci ve svých pozdějších t
   </spell>
 
 <spell
-    title="Divoké roztrhání"
-    original="Primal savagery"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Transmutace"
-    level="0"
-    casting="1 akce"
-    range="Ty sám"
-    components="P"
-    duration="Ihned"
-    classes="Druid"
-    >
-
-  Necháš sebou proudit pradávnou magii přírody, aby ti proměnila nehty v drápy nebo zuby v ostré tesáky, vhodné k zasazení bolestivého úderu. Hoď si na útok kouzlem na blízko proti jednomu tvorovi stojícímu do 1 sáhu od tebe. Když zasáhneš, cíl utrpí 1k10 kyselinového zranění. Ať už útok zasáhne, nebo mine, tvé zuby nebo nehty se poté vrátí zpět do své normální podoby.
-
-Zranění tohoto kouzla se zvýší o 1k10, když dosáhneš 5. úrovně (2k10), 11. úrovně (3k10) a 17. úrovně (4k10).
-  </spell>
-
-<spell
     title="Blesk"
     original="Lightning bolt"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (dráha 20 sáhů)"
     components="V, P, S (kus kožešiny a jantarové, křišťálové, nebo skleněné žezlo)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -322,10 +332,12 @@ eyJoaXN0b3J5IjpbLTM5ODA3MTcxNV19
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Hraničář"
     >
 
@@ -342,15 +354,35 @@ eyJoaXN0b3J5IjpbLTc4MzI1MTczOV19
   </spell>
 
 <spell
+    title="Ušetři umírajícího"
+    original="Space the dying"
+    rulebook="Příručka hráče"
+    school="Nekromancie"
+    level="0"
+    ritual="false"
+    casting="1 akce"
+    range="Dotyk"
+    components="V, P"
+    duration="Ihned"
+    concentration="false"
+    classes="Klerik"
+    >
+
+  Dotkneš se živého tvora, který má 0 životů. Tvor se stabilizuje. Toto kouzlo nijak nepůsobí na nemrtvé ani výtvory.
+  </spell>
+
+<spell
     title="Bludiště"
     original="Maze"
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -367,10 +399,12 @@ Když kouzlo skončí, cíl se znovu objeví na místě, které opustil, nebo, p
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="Dohled"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid"
     >
 
@@ -396,10 +430,12 @@ eyJoaXN0b3J5IjpbMjA0ODI3MjJdfQ==
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -412,37 +448,17 @@ Tvorové do 6 sáhů od koule mají nevýhodu k ověřením Moudrosti (Vnímán�
   </spell>
 
 <spell
-    title="Časovaná ohnivá koule"
-    original="Delayed blast fireball"
-    rulebook="Příručka hráče"
-    school="Zaklínání"
-    level="7"
-    casting="1 akce"
-    range="30 sáhů"
-    components="V, P, S (drobná kulička z netopýřího guana a síry)"
-    duration="1 minuta"
-    classes="Čaroděj, Kouzelník"
-    >
-
-  Z tvého ukazováčku se blýskne paprsek žlutého světla a pak zhuštěný setrvá po dobu trvání ve zvoleném bodě v dosahu jako svítící korálek. Když kouzlo skončí, buď protože se přeruší tvé soustředění, nebo protože se rozhodneš ho ukončit, korálek s tichým zaburácením rozkvete do ohnivého výbuchu, který se rozšiřuje kolem rohů. Každý tvor v kouli o poloměru 4 sáhy se středem v daném bodě si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí ohnivé zranění rovné celkově nastřádanému zranění, nebo poloviční zranění při úspěšném záchranném hodu.
-
-Základní zranění kouzla je 12k6. Pokud na konci tvého tahu korálek stále ještě nevybuchl, zvýší se zranění o 1k6. Dotkne-li se nějaký tvor svítícího korálku, než interval vyprší, musí si hodit záchranný hod na Obratnost. Když neuspěje, kouzlo okamžitě skončí a korálek ohnivě vybuchne. Když v záchraně uspěje, může hodit korálek až 9 sáhů. Když trefí tvora nebo pevný předmět, kouzlo skončí a korálek vybuchne.
-
-Oheň zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
-
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 8. či vyšší úrovně, za každou další úroveň pozice nad 7. se zvýší základní zranění o 1k6.
-  </spell>
-
-<spell
     title="Boží chrám"
     original="Temple of the gods"
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="7"
+    ritual="false"
     casting="1 hodina"
     range="24 sáhů"
     components="V, P, S (svatý symbol v ceně alespoň 5 zl)"
     duration="24 hodin"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -464,34 +480,17 @@ Trvalý chrám můžeš vytvořit tak, že toto kouzlo sešleš každý den na s
   </spell>
 
 <spell
-    title="Vedení"
-    original="Guidance"
-    rulebook="Příručka hráče"
-    school="Věštění"
-    level="0"
-    casting="1 akce"
-    range="Dotyk"
-    components="V, P"
-    duration="1 minuta"
-    classes="Druid, Klerik"
-    >
-
-  Dotkneš se jednoho tvora, který s tím souhlasí. Než kouzlo skončí, cíl si může jednou hodit k4 a přičíst si hozené číslo k jednomu ověření vlastnosti dle své volby. Touto kostkou si může hodit před hodem na ověření vlastnosti, nebo až po něm. Kouzlo poté skončí.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTYzMDc1MF19
--->
-  </spell>
-
-<spell
     title="Božské slovo"
     original="Divine word"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="7"
+    ritual="false"
     casting="1 bonusová akce"
     range="6 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -511,10 +510,12 @@ Bez ohledu na jeho současné životy, běs, elementál, nebešťan nebo víla, 
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (diamant v hodnotě aspoň 5 000 zl)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Klerik, Kouzelník"
     >
 
@@ -528,15 +529,37 @@ Když sesíláš toto kouzlo, můžeš vyslovit jméno konkrétního tvora (pseu
   </spell>
 
 <spell
+    title="Dlouhokrok"
+    original="Longstrider"
+    rulebook="Příručka hráče"
+    school="Transmutace"
+    level="1"
+    ritual="false"
+    casting="1 akce"
+    range="Dotyk"
+    components="V, P, S (špetka hlíny)"
+    duration="1 hodina"
+    concentration="false"
+    classes="Bard, Druid, Hraničář, Kouzelník"
+    >
+
+  Dotkneš se tvora. Rychlost tvora se zvýší o 2 sáhy, dokud kouzlo neskončí.
+
+***Na vyšších úrovních***. Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. můžeš zacílit jednoho tvora navíc.
+  </spell>
+
+<spell
     title="Čarodějnický blesk"
     original="Witch bolt"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (větvička ze stromu, do kterého uhodil blesk)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -546,15 +569,41 @@ Když sesíláš toto kouzlo, můžeš vyslovit jméno konkrétního tvora (pseu
   </spell>
 
 <spell
+    title="Časovaná ohnivá koule"
+    original="Delayed blast fireball"
+    rulebook="Příručka hráče"
+    school="Zaklínání"
+    level="7"
+    ritual="false"
+    casting="1 akce"
+    range="30 sáhů"
+    components="V, P, S (drobná kulička z netopýřího guana a síry)"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Čaroděj, Kouzelník"
+    >
+
+  Z tvého ukazováčku se blýskne paprsek žlutého světla a pak zhuštěný setrvá po dobu trvání ve zvoleném bodě v dosahu jako svítící korálek. Když kouzlo skončí, buď protože se přeruší tvé soustředění, nebo protože se rozhodneš ho ukončit, korálek s tichým zaburácením rozkvete do ohnivého výbuchu, který se rozšiřuje kolem rohů. Každý tvor v kouli o poloměru 4 sáhy se středem v daném bodě si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí ohnivé zranění rovné celkově nastřádanému zranění, nebo poloviční zranění při úspěšném záchranném hodu.
+
+Základní zranění kouzla je 12k6. Pokud na konci tvého tahu korálek stále ještě nevybuchl, zvýší se zranění o 1k6. Dotkne-li se nějaký tvor svítícího korálku, než interval vyprší, musí si hodit záchranný hod na Obratnost. Když neuspěje, kouzlo okamžitě skončí a korálek ohnivě vybuchne. Když v záchraně uspěje, může hodit korálek až 9 sáhů. Když trefí tvora nebo pevný předmět, kouzlo skončí a korálek vybuchne.
+
+Oheň zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 8. či vyšší úrovně, za každou další úroveň pozice nad 7. se zvýší základní zranění o 1k6.
+  </spell>
+
+<spell
     title="Cejchovací úder"
     original="Branding smite"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -569,10 +618,12 @@ Když sesíláš toto kouzlo, můžeš vyslovit jméno konkrétního tvora (pseu
     rulebook="Dobrodruhův průvodce Mečovým prostředím"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="1 sáh"
     components="V, S (zbraň)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -590,10 +641,12 @@ eyJoaXN0b3J5IjpbLTk2ODY2MDA3Nyw3MzA5OTgxMTZdfQ==
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj"
     >
 
@@ -616,15 +669,40 @@ Každý tvor může být tímto bleskem zasažen jen jednou v rámci jednoho ses
   </spell>
 
 <spell
+    title="Dobrůvka"
+    original="Goodberry"
+    rulebook="Příručka hráče"
+    school="Transmutace"
+    level="1"
+    ritual="false"
+    casting="1 akce"
+    range="Dotyk"
+    components="V, P, S (snítka jmelí)"
+    duration="Ihned"
+    concentration="false"
+    classes="Druid, Hraničář"
+    >
+
+  Ve tvé ruce se objeví až deset bobulí prodchnutých magií po dobu trvání. Tvor může pomocí své akce sníst jednu bobuli. Snědení bobule obnoví 1 život a poskytne tvorovi dostatečnou Vyvýživu na jeden den.
+
+Pokud se bobule nesní do 24 hodin od seslání toho to kouzla, ztratí svou účinnost.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg5MDQ3NDM2OSwxMDA1OTQ4NDk5XX0=
+-->
+  </spell>
+
+<spell
     title="Chůze po vodě"
     original="Water walk"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="true"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (kus korku)"
     duration="1 hodina"
+    concentration="false"
     classes="Čaroděj, Druid, Hraničář, Klerik"
     >
 
@@ -639,10 +717,12 @@ Zacílíš-li tvora, který je ponořen do kapaliny, kouzlo ho bude vynášet k 
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -657,10 +737,12 @@ Tuto teleportační schopnost můžeš použít jen jednou za kolo v průběhu d
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="5"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -673,10 +755,12 @@ Tuto teleportační schopnost můžeš použít jen jednou za kolo v průběhu d
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="1 hodina"
+    concentration="false"
     classes="Čaroděj, Druid, Hraničář, Klerik, Paladin"
     >
 
@@ -693,10 +777,12 @@ Překrývá-li se oblast tohoto kouzla s oblastí tmy vytvořenou kouzlem 3. či
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="100 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -708,15 +794,37 @@ Pokud by ses měl přenést na místo, které je obsazené, například nějaký
   </spell>
 
 <spell
+    title="Divoké roztrhání"
+    original="Primal savagery"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Transmutace"
+    level="0"
+    ritual="false"
+    casting="1 akce"
+    range="Ty sám"
+    components="P"
+    duration="Ihned"
+    concentration="false"
+    classes="Druid"
+    >
+
+  Necháš sebou proudit pradávnou magii přírody, aby ti proměnila nehty v drápy nebo zuby v ostré tesáky, vhodné k zasazení bolestivého úderu. Hoď si na útok kouzlem na blízko proti jednomu tvorovi stojícímu do 1 sáhu od tebe. Když zasáhneš, cíl utrpí 1k10 kyselinového zranění. Ať už útok zasáhne, nebo mine, tvé zuby nebo nehty se poté vrátí zpět do své normální podoby.
+
+Zranění tohoto kouzla se zvýší o 1k10, když dosáhneš 5. úrovně (2k10), 11. úrovně (3k10) a 17. úrovně (4k10).
+  </spell>
+
+<spell
     title="Divotvorství"
     original="Thaumaturgy"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V"
-    duration="1 minuta"
+    duration="Až 1 minuta"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -733,41 +841,27 @@ Sešleš-li toto kouzlo několikrát, můžeš mít aktivní až tři minutové 
   </spell>
 
 <spell
-    title="Dlouhokrok"
-    original="Longstrider"
+    title="Dotek smrti"
+    original="Chill touch"
     rulebook="Příručka hráče"
-    school="Transmutace"
-    level="1"
+    school="Nekromancie"
+    level="0"
+    ritual="false"
     casting="1 akce"
-    range="Dotyk"
-    components="V, P, S (špetka hlíny)"
-    duration="1 hodina"
-    classes="Bard, Druid, Hraničář, Kouzelník"
+    range="24 sáhů"
+    components="V, P"
+    duration="1 kolo"
+    concentration="false"
+    classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
-  Dotkneš se tvora. Rychlost tvora se zvýší o 2 sáhy, dokud kouzlo neskončí.
+  Vytvoříš přízračnou, kostlivou ruku na místě tvora v dosahu. Hoď si na útok na dálku kouzlem proti tvorovi, kterého chceš napadnout hrobových chladem. Při zásahu cíl utrpí nekrotické zranění 1k8 a nemůže si obnovit životy do začátku tvého příštího tahu. Do té doby ruka přilne k cíli.
 
-***Na vyšších úrovních***. Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. můžeš zacílit jednoho tvora navíc.
-  </spell>
+Pokud zasáhneš nemrtvý cíl, má navíc proti tobě nevýhodu k hodům na útok do konce tvého příštího tahu.
 
-<spell
-    title="Dobrůvka"
-    original="Goodberry"
-    rulebook="Příručka hráče"
-    school="Transmutace"
-    level="1"
-    casting="1 akce"
-    range="Dotyk"
-    components="V, P, S (snítka jmelí)"
-    duration="Ihned"
-    classes="Druid, Hraničář"
-    >
-
-  Ve tvé ruce se objeví až deset bobulí prodchnutých magií po dobu trvání. Tvor může pomocí své akce sníst jednu bobuli. Snědení bobule obnoví 1 život a poskytne tvorovi dostatečnou Vyvýživu na jeden den.
-
-Pokud se bobule nesní do 24 hodin od seslání toho to kouzla, ztratí svou účinnost.
+Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 11. úrovně (3k8) a 17. úrovně (4k8).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDQ3NDM2OSwxMDA1OTQ4NDk5XX0=
+eyJoaXN0b3J5IjpbNDQ1MTQ3NTgyXX0=
 -->
   </spell>
 
@@ -777,10 +871,12 @@ eyJoaXN0b3J5IjpbMTg5MDQ3NDM2OSwxMDA1OTQ4NDk5XX0=
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 bonusová akce"
     range="Dotyk"
     components="V, P, S (pálivá paprika)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -797,10 +893,12 @@ Každý tvor v zasažené oblasti si musí hodit záchranný hod na Obratnost. N
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="6"
+    ritual="false"
     casting="1 minuta"
     range="Dotyk"
     components="V, P, S (safír v hodnotě 1 000 zl)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -819,10 +917,12 @@ Pokud předmět někdo drží nebo ho nese, rozdrcení safíru předmět nepřen
     rulebook="Příručka hráče"
     school="Iluze"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="P, S (kousek ovčího rouna)"
     duration="1 minuta"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -846,10 +946,12 @@ eyJoaXN0b3J5IjpbLTExMTQ1MTQ5MTNdfQ==
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 minuta"
     range="Dotyk"
     components="V, P"
     duration="8 hodin"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -888,33 +990,17 @@ Akce
   </spell>
 
 <spell
-    title="Hlas umíráčku"
-    original="Toll the dead"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Nekromancie"
-    level="0"
-    casting="1 akce"
-    range="12 sáhů"
-    components="V, P"
-    duration="Ihned"
-    classes="Černokněžník, Klerik, Kouzelník"
-    >
-
-  Ukážeš na jednoho tvora, kterého vidíš v dosahu a vzduch kolem něj se na chvíli naplní hlasem vyzvánějícího umíráčku. Cíl musí uspět v záchranném hodu na Moudrost, jinak utrpí 1k8 nekrotického zranění. Pokud cíli chybí byť jen jediný život, zranění se zvýší na 1k12.
-
-Zranění tohoto kouzla se zvýší o jednu kostku, když dosáhneš 5. úrovně (2k8 nebo 2k12), 11. úrovně (3k8 nebo 3k12) a 17. úrovně (4k8 nebo 4k12).
-  </spell>
-
-<spell
     title="Druidství"
     original="Druidcraft"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Druid"
     >
 
@@ -930,15 +1016,37 @@ eyJoaXN0b3J5IjpbNTQ2MjY0NTY4LC0zNjk3NzY4NDddfQ==
   </spell>
 
 <spell
+    title="Falešný život"
+    original="False life"
+    rulebook="Příručka hráče"
+    school="Nekromancie"
+    level="1"
+    ritual="false"
+    casting="1 akce"
+    range="Ty sám"
+    components="V, P, S (malé množství alkoholu nebo destilátu)"
+    duration="1 hodina"
+    concentration="false"
+    classes="Čaroděj, Kouzelník"
+    >
+
+  Posílíš se nekromantickou napodobeninou života. Po dobu trvání získáš 1k4 + 4 dočasných životů.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. získáš dalších 5 dočasných životů.
+  </spell>
+
+<spell
     title="Duchovní zbraň"
     original="Spiritual weapon"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 bonusová akce"
     range="12 sáhů"
     components="V, P"
     duration="1 minuta"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -957,10 +1065,12 @@ Zbraň může mít libovolnou podobu dle tvé volby, nicméně klerici božstev,
     rulebook="Dobrodruhův průvodce Mečovým prostředím"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="1 sáh"
     components="V, S (zbraň)"
     duration="1 kolo"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -978,10 +1088,12 @@ eyJoaXN0b3J5IjpbNDQ2NTU0NDUzLDczMDk5ODExNl19
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="2"
+    ritual="true"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (špetka soli a po jednom měďáku umístěném na každé oko mrtvoly, které tam musí zůstat po dobu trvání)"
     duration="10 dní"
+    concentration="false"
     classes="Klerik, Kouzelník"
     >
 
@@ -996,10 +1108,12 @@ Kouzlo také prakticky prodlužuje časový limit pro vzkříšení cíle, nebo�
     rulebook="Příručka hráče"
     school="Iluze"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Kouzelník"
     >
 
@@ -1016,10 +1130,12 @@ Vidíš jeho očima a slyšíš jeho ušima, jako bys byl na jeho místě. V ka�
     rulebook="Příručka hráče"
     school="Transmutace"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="8 hodin"
+    duration="Až 8 hodin"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Klerik, Kouzelník"
     >
 
@@ -1037,15 +1153,161 @@ Toto kouzlo nemá žádný účinek, když ho sešleš, zatímco jsi v Éterick�
   </spell>
 
 <spell
+    title="Evardova černá chapadla"
+    original="Evard's black tentacles"
+    rulebook="Příručka hráče"
+    school="Vyvolávání"
+    level="4"
+    ritual="false"
+    casting="1 akce"
+    range="18 sáhů"
+    components="V, P, S (kus chapadla z obří chobotnice nebo obří olihně)"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Kouzelník"
+    >
+
+  Kroutící se černá chapadla vyplní na zemi čtverec o straně 4 sáhy, který vidíš v dosahu. Po dobu trvání tato chapadla promění zemi v oblast s těžkým terénem.
+
+Když tvor vstoupí do ovlivněné oblasti v tahu poprvé, nebo v ní začne svůj tah, musí uspět v záchranném hodu na Obratnost, jinak utrpí drtivé zranění 3k6 a je zadržený chapadly do konce trvání kouzla. Tvor, který začne v oblasti svůj tah a už je zadržený chapadly, utrpí drtivé zranění 3k6.
+
+Tvor zadržený chapadly může použít svou akci k ověření Síly nebo Obratnosti (dle své volby) proti tvému SO záchrany kouzla. V případě úspěchu se osvobodí.
+  </spell>
+
+<spell
+    title="Fantóm"
+    original="Phantasmal killer"
+    rulebook="Příručka hráče"
+    school="Iluze"
+    level="4"
+    ritual="false"
+    casting="1 akce"
+    range="24 sáhů"
+    components="V, P"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Kouzelník"
+    >
+
+  Na základě nočních můr tvora, kterého vidíš v dosahu, vytvoříš iluzorní bytost jeho nejhorších obav, kterou vidí jen on. Cíl si musí hodit záchranný hod na Moudrost. Když neuspěje, stane se vystrašený po dobu trvání. Na konci každého tahu cíle, než kouzlo skončí, musí cíl uspět v záchranném hodu na Moudrost, jinak utrpí psychické zranění 4k10. Když uspěje v záchranném hodu, kouzlo skončí.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 5. či vyšší úrovně, za každou další úroveň pozice nad 4. se zvýší zranění o 1k10.
+  </spell>
+
+<spell
+    title="Fascinuj"
+    original="Enthrall"
+    rulebook="Příručka hráče"
+    school="Očarování"
+    level="2"
+    ritual="false"
+    casting="1 akce"
+    range="12 sáhů"
+    components="V, P"
+    duration="1 minuta"
+    concentration="false"
+    classes="Bard, Černokněžník"
+    >
+
+  Předneseš rozptylující záplavu slov, kvůli níž si tvorové dle tvé volby, které vidíš v dosahu a kteří tě slyší, musí hodit záchranný hod na Moudrost. Tvor, kterého nelze zmámit, automaticky uspěje v tomto záchranném hodu, a pokud ty nebo tvoji společníci s tvorem bojujete, má výhodu k záchrannému hodu. Když cíl neuspěje v záchranném hodu, má nevýhodu k ověřením Moudrosti (Vnímání) na postřehnutí jiného tvora než tebe. Kouzlo na něj působí, dokud neskončí, nebo dokud tě cíl slyší. Kouzlo skončí, pokud se staneš neschopný, nebo pokud nemůžeš nadále mluvit.
+  </spell>
+
+<spell
+    title="Fata morgána"
+    original="Mirage arcane"
+    rulebook="Příručka hráče"
+    school="Iluze"
+    level="7"
+    ritual="false"
+    casting="10 minut"
+    range="Dohled"
+    components="V, P"
+    duration="10 dní"
+    concentration="false"
+    classes="Bard, Druid, Kouzelník"
+    >
+
+  Vytvoříš terén v oblasti, jejíž velikost se vejde do čtverce o straně 1 míle, který vypadá, zní, voní a dokonce i působí jako nějaký jiný druh terénu. Obecný tvar terénu však zůstane stejný. Otevřená pole nebo cesta mohou připomínat bažinu, kopec, rozsedlinu, nebo nějaký jiný těžký nebo neprůchodný terén. Rybník může vypadat jako travnatá louka, sráz jako mírný svah, nebo balvany posetá rokle jako široká a hladká silnice.
+
+Podobně můžeš změnit vzhled budov, nebo je přidat tam, kde žádné nejsou. Kouzlo však nemaskuje, nezakrývá ani nevytváfi tvory.
+
+Iluze obsahuje sluchové, zrakové, hmatové a čichové prvky, takže může přeměnit rovnou zemi v těžký terén (nebo naopak), či jinak bránit pohybu skrz oblast. Jakýkoli kus iluzorního terénu (například kámen nebo klacek), který se vyjme z oblasti kouzla, okamžitě zmizí.
+
+Tvorové s pravdivým viděním vidí skrz iluzi skutečnou podobu terénu; ale všechny ostatní prvky iluze zůstávají, takže i když si je tvor vědom přítomnosti iluze, stále může s iluzí fyzicky interagovat.
+  </spell>
+
+<spell
+    title="Hadarova touha"
+    original="Hunger of Hadar"
+    rulebook="Příručka hráče"
+    school="Vyvolávání"
+    level="3"
+    ritual="false"
+    casting="1 akce"
+    range="30 sáhů"
+    components="V, P, S (naložené chapadlo chobotnice)"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Černokněžník"
+    >
+
+  Otevřeš bránu do temnoty mezi hvězdami, oblasti zamořené neznámymi hrůzami. Zjeví se pronikavé mrazivá černočerná koule o poloměru 4 sáhy se středem v bodě v dosahu a vydrží po dobu trvání. Tato prázdnota je plná kakofonie tichého šeptání a chlemtajících zvuků, která je slyšet až 6 sáhů daleko. Žádné světlo, magické ani jiné, nemůže oblast osvětlit a tvorové, kteří jsou zcela v oblasti, jsou slepí.
+
+Prázdnota vytváří zakřivení struktury prostoru a oblast je těžký terén. Tvor, který začne svůj tah v oblasti, utrpí chladné zranění 2k6. Tvor, který skončí svůj tah v oblasti, musí uspět v záchranném hodu na Obratnost, jinak utrpí kyselinové zranění 2k6, jak se o něj otírají něžná chapadla z jiného světa.
+  </spell>
+
+<spell
+    title="Hadarovy paže"
+    original="Arms of Hadar"
+    rulebook="Příručka hráče"
+    school="Vyvolávání"
+    level="1"
+    ritual="false"
+    casting="1 akce"
+    range="Ty sám (okruh 2 sáhy)"
+    components="V, P"
+    duration="Ihned"
+    concentration="false"
+    classes="Černokněžník"
+    >
+
+  Vyvoláš moc Hadara, Temného chlípníka. Vyrazí z tebe úponky temné energie a narazí do všech tvorů do 2 sáhů od tebe. Každý tvor v této oblasti si musí hodit záchranný hod na Sílu. Když tvor v záchranném hodu neuspěje, utrpí nekrotické zranění 2k6 a nemůže reagovat do svého příštího tahu. Když uspěje, utrpí poloviční zranění, ale žádný jiný účinek.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. se zvýší zranění o 1k6.
+  </spell>
+
+<spell
+    title="Hlas umíráčku"
+    original="Toll the dead"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Nekromancie"
+    level="0"
+    ritual="false"
+    casting="1 akce"
+    range="12 sáhů"
+    components="V, P"
+    duration="Ihned"
+    concentration="false"
+    classes="Černokněžník, Klerik, Kouzelník"
+    >
+
+  Ukážeš na jednoho tvora, kterého vidíš v dosahu a vzduch kolem něj se na chvíli naplní hlasem vyzvánějícího umíráčku. Cíl musí uspět v záchranném hodu na Moudrost, jinak utrpí 1k8 nekrotického zranění. Pokud cíli chybí byť jen jediný život, zranění se zvýší na 1k12.
+
+Zranění tohoto kouzla se zvýší o jednu kostku, když dosáhneš 5. úrovně (2k8 nebo 2k12), 11. úrovně (3k8 nebo 3k12) a 17. úrovně (4k8 nebo 4k12).
+  </spell>
+
+<spell
     title="Hlídej a střež"
     original="Guards and wards"
     rulebook="Příručka hráče"
     school="Vymítání"
     level="6"
+    ritual="false"
     casting="10 minut"
     range="Dotyk"
     components="V, P, S (žhavé kadidlo, trocha síry a oleje, provaz s uzly, trocha krve klepetnatce, malé stříbrné žezlo v hodnotě aspoň 10 zl)"
     duration="24 hodin"
+    concentration="false"
     classes="Bard, Kouzelník"
     >
 
@@ -1076,133 +1338,21 @@ eyJoaXN0b3J5IjpbLTkxNzUwNDkwMF19
   </spell>
 
 <spell
-    title="Evardova černá chapadla"
-    original="Evard's black tentacles"
+    title="Vidění ve tmě"
+    original="Darkvision"
     rulebook="Příručka hráče"
-    school="Vyvolávání"
-    level="4"
-    casting="1 akce"
-    range="18 sáhů"
-    components="V, P, S (kus chapadla z obří chobotnice nebo obří olihně)"
-    duration="1 minuta"
-    classes="Kouzelník"
-    >
-
-  Kroutící se černá chapadla vyplní na zemi čtverec o straně 4 sáhy, který vidíš v dosahu. Po dobu trvání tato chapadla promění zemi v oblast s těžkým terénem.
-
-Když tvor vstoupí do ovlivněné oblasti v tahu poprvé, nebo v ní začne svůj tah, musí uspět v záchranném hodu na Obratnost, jinak utrpí drtivé zranění 3k6 a je zadržený chapadly do konce trvání kouzla. Tvor, který začne v oblasti svůj tah a už je zadržený chapadly, utrpí drtivé zranění 3k6.
-
-Tvor zadržený chapadly může použít svou akci k ověření Síly nebo Obratnosti (dle své volby) proti tvému SO záchrany kouzla. V případě úspěchu se osvobodí.
-  </spell>
-
-<spell
-    title="Falešný život"
-    original="False life"
-    rulebook="Příručka hráče"
-    school="Nekromancie"
-    level="1"
-    casting="1 akce"
-    range="Ty sám"
-    components="V, P, S (malé množství alkoholu nebo destilátu)"
-    duration="1 hodina"
-    classes="Čaroděj, Kouzelník"
-    >
-
-  Posílíš se nekromantickou napodobeninou života. Po dobu trvání získáš 1k4 + 4 dočasných životů.
-
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. získáš dalších 5 dočasných životů.
-  </spell>
-
-<spell
-    title="Fantóm"
-    original="Phantasmal killer"
-    rulebook="Příručka hráče"
-    school="Iluze"
-    level="4"
-    casting="1 akce"
-    range="24 sáhů"
-    components="V, P"
-    duration="1 minuta"
-    classes="Kouzelník"
-    >
-
-  Na základě nočních můr tvora, kterého vidíš v dosahu, vytvoříš iluzorní bytost jeho nejhorších obav, kterou vidí jen on. Cíl si musí hodit záchranný hod na Moudrost. Když neuspěje, stane se vystrašený po dobu trvání. Na konci každého tahu cíle, než kouzlo skončí, musí cíl uspět v záchranném hodu na Moudrost, jinak utrpí psychické zranění 4k10. Když uspěje v záchranném hodu, kouzlo skončí.
-
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 5. či vyšší úrovně, za každou další úroveň pozice nad 4. se zvýší zranění o 1k10.
-  </spell>
-
-<spell
-    title="Fascinuj"
-    original="Enthrall"
-    rulebook="Příručka hráče"
-    school="Očarování"
+    school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
-    range="12 sáhů"
-    components="V, P"
-    duration="1 minuta"
-    classes="Bard, Černokněžník"
+    range="Dotyk"
+    components="V, P, S (buď špetka sušené mrkve, nebo achát)"
+    duration="8 hodin"
+    concentration="false"
+    classes="Čaroděj, Druid, Hraničář, Kouzelník"
     >
 
-  Předneseš rozptylující záplavu slov, kvůli níž si tvorové dle tvé volby, které vidíš v dosahu a kteří tě slyší, musí hodit záchranný hod na Moudrost. Tvor, kterého nelze zmámit, automaticky uspěje v tomto záchranném hodu, a pokud ty nebo tvoji společníci s tvorem bojujete, má výhodu k záchrannému hodu. Když cíl neuspěje v záchranném hodu, má nevýhodu k ověřením Moudrosti (Vnímání) na postřehnutí jiného tvora než tebe. Kouzlo na něj působí, dokud neskončí, nebo dokud tě cíl slyší. Kouzlo skončí, pokud se staneš neschopný, nebo pokud nemůžeš nadále mluvit.
-  </spell>
-
-<spell
-    title="Fata morgána"
-    original="Mirage arcane"
-    rulebook="Příručka hráče"
-    school="Iluze"
-    level="7"
-    casting="10 minut"
-    range="Dohled"
-    components="V, P"
-    duration="10 dní"
-    classes="Bard, Druid, Kouzelník"
-    >
-
-  Vytvoříš terén v oblasti, jejíž velikost se vejde do čtverce o straně 1 míle, který vypadá, zní, voní a dokonce i působí jako nějaký jiný druh terénu. Obecný tvar terénu však zůstane stejný. Otevřená pole nebo cesta mohou připomínat bažinu, kopec, rozsedlinu, nebo nějaký jiný těžký nebo neprůchodný terén. Rybník může vypadat jako travnatá louka, sráz jako mírný svah, nebo balvany posetá rokle jako široká a hladká silnice.
-
-Podobně můžeš změnit vzhled budov, nebo je přidat tam, kde žádné nejsou. Kouzlo však nemaskuje, nezakrývá ani nevytváfi tvory.
-
-Iluze obsahuje sluchové, zrakové, hmatové a čichové prvky, takže může přeměnit rovnou zemi v těžký terén (nebo naopak), či jinak bránit pohybu skrz oblast. Jakýkoli kus iluzorního terénu (například kámen nebo klacek), který se vyjme z oblasti kouzla, okamžitě zmizí.
-
-Tvorové s pravdivým viděním vidí skrz iluzi skutečnou podobu terénu; ale všechny ostatní prvky iluze zůstávají, takže i když si je tvor vědom přítomnosti iluze, stále může s iluzí fyzicky interagovat.
-  </spell>
-
-<spell
-    title="Hadarova touha"
-    original="Hunger of Hadar"
-    rulebook="Příručka hráče"
-    school="Vyvolávání"
-    level="3"
-    casting="1 akce"
-    range="30 sáhů"
-    components="V, P, S (naložené chapadlo chobotnice)"
-    duration="1 minuta"
-    classes="Černokněžník"
-    >
-
-  Otevřeš bránu do temnoty mezi hvězdami, oblasti zamořené neznámymi hrůzami. Zjeví se pronikavé mrazivá černočerná koule o poloměru 4 sáhy se středem v bodě v dosahu a vydrží po dobu trvání. Tato prázdnota je plná kakofonie tichého šeptání a chlemtajících zvuků, která je slyšet až 6 sáhů daleko. Žádné světlo, magické ani jiné, nemůže oblast osvětlit a tvorové, kteří jsou zcela v oblasti, jsou slepí.
-
-Prázdnota vytváří zakřivení struktury prostoru a oblast je těžký terén. Tvor, který začne svůj tah v oblasti, utrpí chladné zranění 2k6. Tvor, který skončí svůj tah v oblasti, musí uspět v záchranném hodu na Obratnost, jinak utrpí kyselinové zranění 2k6, jak se o něj otírají něžná chapadla z jiného světa.
-  </spell>
-
-<spell
-    title="Hadarovy paže"
-    original="Arms of Hadar"
-    rulebook="Příručka hráče"
-    school="Vyvolávání"
-    level="1"
-    casting="1 akce"
-    range="Ty sám (oblast)"
-    components="V, P"
-    duration="Ihned"
-    classes="Černokněžník"
-    >
-
-  Vyvoláš moc Hadara, Temného chlípníka. Vyrazí z tebe úponky temné energie a narazí do všech tvorů do 2 sáhů od tebe. Každý tvor v této oblasti si musí hodit záchranný hod na Sílu. Když tvor v záchranném hodu neuspěje, utrpí nekrotické zranění 2k6 a nemůže reagovat do svého příštího tahu. Když uspěje, utrpí poloviční zranění, ale žádný jiný účinek.
-
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. se zvýší zranění o 1k6.
+  Dotkneš se tvora, který s tím souhlasí, a udělíš mu schopnost vidět ve tmě. Po dobu trvání má vidění ve tmě na vzdálenost 12 sáhů.
   </spell>
 
 <spell
@@ -1211,10 +1361,12 @@ Prázdnota vytváří zakřivení struktury prostoru a oblast je těžký terén
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="60 sáhů"
     components="V, P, S (špetka cukru, pár zrn obilí a trocha tuku)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Druid, Klerik"
     >
 
@@ -1231,10 +1383,12 @@ Když se oblast objeví, každý tvor v ní si musí hodit záchranný hod na Od
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -1255,10 +1409,12 @@ Když se oblast objeví, každý tvor v ní si musí hodit záchranný hod na Od
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -1277,10 +1433,12 @@ Zacílíš-li nemagickou rostlinu, která není tvor, například obyčejný str
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -1297,10 +1455,12 @@ Oblak se pohybuje rychlostí 2 sáhy přímo od tebe směrem, který určíš na
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (kužel 3 sáhy)"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -1317,10 +1477,12 @@ Oheň zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Paladin"
     >
 
@@ -1335,10 +1497,12 @@ Oheň zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (kokon housenky)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -1360,10 +1524,12 @@ Tvorovo vybavení splyne s novou podobou. Tvor ho nemůže aktivovat, používat
     rulebook="Příručka hráče"
     school="Očarování"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, S (hadí jazyk a buď kousek včelího plástu, nebo kapka sladkého oleje)"
     duration="24 hodin"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Druid, Hraničář, Klerik, Kouzelník"
     >
 
@@ -1382,10 +1548,12 @@ Můžeš také vymezit podmínky, které spustí určitou činnost v průběhu d
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 bonusová akce"
     range="12 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -1400,10 +1568,12 @@ Můžeš také vymezit podmínky, které spustí určitou činnost v průběhu d
     rulebook="Příručka hráče"
     school="Iluze"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
     duration="8 hodin"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -1422,10 +1592,12 @@ Tvor může pomocí své akce prozkoumat cíl a hodit si na ověření Inteligen
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -1438,10 +1610,12 @@ Tvor může pomocí své akce prozkoumat cíl a hodit si na ověření Inteligen
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Druid, Klerik"
     >
 
@@ -1456,10 +1630,12 @@ Tvor může pomocí své akce prozkoumat cíl a hodit si na ověření Inteligen
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -1478,10 +1654,12 @@ Abys mohl s sebou vzít jiného tvora, musí v okamžiku sesílání kouzla stá
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (krychle 3 sáhy)"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Druid, Kouzelník"
     >
 
@@ -1498,10 +1676,12 @@ Mimo to, nezajištěné předměty, které jsou celé v oblasti účinku, jsou �
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -1514,10 +1694,12 @@ Mimo to, nezajištěné předměty, které jsou celé v oblasti účinku, jsou �
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
     duration="1 hodina"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -1534,10 +1716,12 @@ Pokud ti zbývají 4 nebo více hvězdiček, svítí jasným světlem 6 sáhů o
     rulebook="Příručka hráče"
     school="Iluze"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="P, S (žhavá tyčinka kadidla, nebo křišťálový flakónek naplněný fosforeskující látkou)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -1552,10 +1736,12 @@ Kouzlo skončí pro daného tvora, pokud utrpí zranění, nebo když někdo jin
     rulebook="Xanatharuv pruvodce vším"
     school="Iluze"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -1574,10 +1760,12 @@ Iluze je hmatatelná, neboť je stvořena z hmoty, byť stínové povahy. Nicmé
     rulebook="Příručka hráče"
     school="Iluze"
     level="1"
+    ritual="true"
     casting="1 minuta"
     range="Dotyk"
     components="P, S (inkoust na bázi olova v hodnotě aspoň 10 zl, který kouzlo spotřebuje)"
     duration="10 dní"
+    concentration="false"
     classes="Bard, Černokněžník, Kouzelník"
     >
 
@@ -1599,10 +1787,12 @@ eyJoaXN0b3J5IjpbLTgyNDEyODM3XX0=
     rulebook="Xanatharuv pruvodce vším"
     school="Iluze"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -1619,10 +1809,12 @@ Ať už mají stěny iluzorní cely jakoukoliv podobu, zajatý tvor nevidí ani 
     rulebook="Příručka hráče"
     school="Věštění"
     level="3"
+    ritual="false"
     casting="10 minut"
     range="1 míle"
     components="V, P, S (ohniskový předmět v hodnotě aspoň 100 zl, buď drahokamový roh pro sluch, nebo skleněné oko pro zrak)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Bard, Čaroděj, Klerik, Kouzelník"
     >
 
@@ -1639,10 +1831,12 @@ Tvor, který vidí senzor (například tvor, na něhož působí *spatři nevidi
     rulebook="Příručka hráče"
     school="Věštění"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, S (malý hliněný model zikkuratu)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Klerik, Kouzelník"
     >
 
@@ -1655,10 +1849,12 @@ Tvor, který vidí senzor (například tvor, na něhož působí *spatři nevidi
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (kapka žluči obřího slimáka)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -1673,10 +1869,12 @@ Tvor, který vidí senzor (například tvor, na něhož působí *spatři nevidi
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="2 sáhy"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -1691,10 +1889,12 @@ Zranění tohoto kouzla se zvýší o 1k12, když dosáhneš 5. úrovně (2k12),
     rulebook="Příručka hráče"
     school="Vymítání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (diamantový prach v hodnotě aspoň 100 zl, který kouzlo spotřebuje)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Druid, Hraničář, Kouzelník"
     >
 
@@ -1707,10 +1907,12 @@ Zranění tohoto kouzla se zvýší o 1k12, když dosáhneš 5. úrovně (2k12),
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (malá žulová kostka)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -1733,10 +1935,12 @@ Soustředíš-li se na toto kouzlo po celou dobu jeho trvání, zeď se stane tr
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -1752,10 +1956,12 @@ Soustředíš-li se na toto kouzlo po celou dobu jeho trvání, zeď se stane tr
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -1770,10 +1976,12 @@ Soustředíš-li se na toto kouzlo po celou dobu jeho trvání, zeď se stane tr
     rulebook="Příručka hráče"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="2 sáhy"
     components="V, P"
-    duration="1 hodina"
+    duration="Až 1 hodina"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -1795,10 +2003,12 @@ Sešleš-li toto kouzlo několikrát, můžeš mít až tři jeho neokamžité �
     rulebook="Příručka hráče"
     school="Iluze"
     level="4"
+    ritual="false"
     casting="10 minut"
     range="60 sáhů"
     components="V, P, S (kámen, větvička a kus zelené rosliny)"
     duration="24 hodin"
+    concentration="false"
     classes="Bard, Černokněžník, Druid, Kouzelník"
     >
 
@@ -1813,10 +2023,12 @@ Hmatové vlastnosti terénu se nezmění, takže tvorové, kteří vstoupí do o
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="18 sáhů"
     components="V, P, S (zkamenělé oko mlоka)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Černokněžník"
     >
 
@@ -1835,10 +2047,12 @@ Sejmi kletbu seslané na cíl ukončí toto kouzlo předčasně.
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="8"
+    ritual="false"
     casting="1 hodina"
     range="Dotyk"
     components="V, P, S (diamant v hodnotě aspoň 1 000 zl a kousek - velký asi jako poslední článek palce - těla tvora, kterého chceš naklonovat, přičemž obě věci kouzlo spotřebuje, a nádoba v hodnotě aspoň 2 000 zl s těsnícím víkem, do které se vejde Střední tvor, například obrovská urna, rakev, dutina v zemi plná bahna, nebo křišťálová nádoba plná slané vody)"
     duration="Ihned"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -1854,10 +2068,12 @@ eyJoaXN0b3J5IjpbNTkyOTAwMDE4XX0=
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="1 sáh"
     components="V, P, S (čtyři nebo více šípů či šipek do kuše)"
     duration="8 hodin"
+    concentration="false"
     classes="Hraničář"
     >
 
@@ -1874,10 +2090,12 @@ Když sesíláš toto kouzlo, můžeš určit jakékoliv tvory, které bude kouz
     rulebook="Příručka hráče"
     school="Očarování"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -1894,10 +2112,12 @@ V následujících tazích musíš použít svou akci k udržení kontroly nad c
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Druid"
     >
 
@@ -1916,10 +2136,12 @@ Pokud sloup nemůže vyrůst do své plné výše, například kvůli stropu neb
     rulebook="Příručka hráče"
     school="Vymítání"
     level="6"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 2 sáhy)"
     components="V, P, S (skleněný nebo křišťálový korálek, který se roztříští, když kouzlo skončí)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -1939,10 +2161,12 @@ eyJoaXN0b3J5IjpbMTUwMDQyMDM2MF19
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 bonusová akce"
     range="Dotyk"
     components="V, P"
     duration="1 minuta"
+    concentration="false"
     classes="Černokněžník, Druid"
     >
 
@@ -1957,10 +2181,12 @@ Pokud toto kouzlo sešleš znova, magie ze všech tebou dříve očarovaných ob
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -1976,10 +2202,12 @@ eyJoaXN0b3J5IjpbMzk2NjU5OTUwXX0=
     rulebook="Příručka hráče"
     school="Vymítání"
     level="5"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 6 sáhů)"
     components="V"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -1995,10 +2223,12 @@ eyJoaXN0b3J5IjpbNzA3NTg5MTI1XX0=
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (prach z rozdrcené černé perly v hodnotě aspoň 500 zl)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -2013,10 +2243,12 @@ eyJoaXN0b3J5IjpbNzA3NTg5MTI1XX0=
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Hraničář"
     >
 
@@ -2031,10 +2263,12 @@ eyJoaXN0b3J5IjpbNzA3NTg5MTI1XX0=
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (hrst dubové kůry)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -2047,10 +2281,12 @@ eyJoaXN0b3J5IjpbNzA3NTg5MTI1XX0=
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (kužel 12 sáhů)"
     components="V, P, S (malý křišťálový či skleněný kužílek)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2067,10 +2303,12 @@ Z tvora zabitého tímto kouzlem se stane zmrzlá socha, dokud neroztaje.
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2085,10 +2323,12 @@ Zranění tohoto kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6), 1
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="10 minut"
     range="6 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -2103,10 +2343,12 @@ Zranění tohoto kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6), 1
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="12 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Druid, Klerik"
     >
 
@@ -2121,10 +2363,12 @@ Zranění tohoto kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6), 1
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="2"
+    ritual="false"
     casting="1 bonusová akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -2138,31 +2382,17 @@ Jako bonusovou akci můžeš ve svém tahu pohnout duchem až o 6 sáhů na mís
   </spell>
 
 <spell
-    title="Rozpraš"
-    original="Scatter"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Vyvolávání"
-    level="6"
-    casting="1 akce"
-    range="6 sáhů"
-    components="V"
-    duration="Ihned"
-    classes="Čaroděj, Černokněžník, Kouzelník"
-    >
-
-  Vzduch kolem až pěti tvorů, které zvolíš a které vidíš v dosahu, se zachvěje. Tvor, který je nedobrovolným cílem, si musí hodit záchranný hod na Moudrost a pokud uspěje, kouzlo na něj nepůsobí. Každý tvor, ovlivněný tímto kouzlem, je teleportován na tebou zvolené místo, které vidíš a které se nachází do 24 sáhů od tebe. Zvolené místo musí být na zemi nebo na podlaze.
-  </spell>
-
-<spell
     title="Ledová bouře"
     original="Ice storm"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="60 sáhů"
     components="V, P, S (špetka prachu a pár kapek vody)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -2179,10 +2409,12 @@ Kroupy promění oblast účinku bouře v těžký terén do konce tvého pří�
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (kousek křemene)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -2201,10 +2433,12 @@ Zeď je předmět, který se dá poškodit, a tak prolomit. Má OČ 12 a 30 živ
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="P, S (kapka vody nebo kousek ledu)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -2219,10 +2453,12 @@ Zeď je předmět, který se dá poškodit, a tak prolomit. Má OČ 12 a 30 živ
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -2239,10 +2475,12 @@ Zeď je předmět, který se dá poškodit, a tak prolomit. Má OČ 12 a 30 živ
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="true"
     casting="1 minuta"
-    range="Ty sám (oblast)"
+    range="Ty sám (polokoule o poloměru 2 sáhy)"
     components="V, P, S (křišťálový korálek)"
     duration="8 hodin"
+    concentration="false"
     classes="Bard, Kouzelník"
     >
 
@@ -2257,23 +2495,21 @@ eyJoaXN0b3J5IjpbMTEwNTg5Nzk1MF19
   </spell>
 
 <spell
-    title="Mystické oko"
-    original="Arcane eye"
-    rulebook="Příručka hráče"
-    school="Věštění"
-    level="4"
+    title="Nebepis"
+    original="Skywrite"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Transmutace"
+    level="2"
+    ritual="true"
     casting="1 akce"
-    range="6 sáhů"
-    components="V, P, S (kousek netopýří kůže)"
-    duration="1 hodina"
-    classes="Kouzelník"
+    range="Dohled"
+    components="V, P"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
+    classes="Bard, Druid, Kouzelník"
     >
 
-  V rámci dosahu vytvoříš neviditelné, magické oko, které se vznáší ve vzduchu po dobu trvání.
-
-Z tohoto oka, které má normální vidění a vidění ve tmě na vzdálenost 6 sáhů, mentálně přijímáš zrakový vjem. Oko se může dívat jakýmkoliv směrem.
-
-Pomocí akce můžeš pohnout okem libovolným směrem až o 6 sáhů. Není žádné omezení, jak daleko se oko může od tebe vzdálit, ale nesmí vstoupit do jiné sféry existence. Pevná bariéra blokuje jeho pohyb, ale oko se dokáže protáhnout i malým otvorem s průmě rem aspoň 1 coul.
+  Způsobíš, že se na té části nebe, kterou vidíš, zformuje až deset slov podle tvé volby. Slova vypadají, jako by byla tvořena mraky a zůstanou na obloze vidět po celou dobu trvání kouzla. Oblačná slova zmizí, když kouzlo skončí, nebo když je rozežene silný vítr a ukončí tak kouzlo předčasně.
   </spell>
 
 <spell
@@ -2282,10 +2518,12 @@ Pomocí akce můžeš pohnout okem libovolným směrem až o 6 sáhů. Není ž�
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (znamenitá truhla, 3 X 2 X 2. stopy, vyrobená ze vzácných materiálů v hodnotě aspoň 5 000 zl a Drobná replika vyrobená ze stejných materiálů v hodnotě aspoň 50 zl)"
     duration="Ihned"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -2305,10 +2543,12 @@ eyJoaXN0b3J5IjpbLTExNzAwNTEyMzJdfQ==
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (péro z křídla nějakého ptáka)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -2323,10 +2563,12 @@ eyJoaXN0b3J5IjpbLTExNzAwNTEyMzJdfQ==
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (buď malá kožená smyčka, nebo kus zlatého drátu ohnutý do tvaru hrníčku s dlouhým ouškem na konci)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2343,10 +2585,12 @@ Když kouzlo skončí a cíl je stále ve vzduchu, pozvolna sestoupá na zem.
     rulebook="Příručka hráče"
     school="Věštění"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="18 sáhů"
     components="V"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Hraničář"
     >
 
@@ -2361,10 +2605,12 @@ Když kouzlo skončí a cíl je stále ve vzduchu, pozvolna sestoupá na zem.
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (papír nebo list smotaný do trychtýře)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid"
     >
 
@@ -2377,10 +2623,12 @@ Když kouzlo skončí a cíl je stále ve vzduchu, pozvolna sestoupá na zem.
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2390,28 +2638,21 @@ Když kouzlo skončí a cíl je stále ve vzduchu, pozvolna sestoupá na zem.
   </spell>
 
 <spell
-    title="Zkamenění"
-    original="Flesh to stone"
+    title="Ničivá vlna"
+    original="Destruction wave"
     rulebook="Příručka hráče"
-    school="Transmutace"
-    level="6"
+    school="Zaklínání"
+    level="5"
+    ritual="false"
     casting="1 akce"
-    range="12 sáhů"
-    components="V, P, S (špetka vápna, hlíny a voda)"
-    duration="1 minuta"
-    classes="Černokněžník, Kouzelník"
+    range="Ty sám (okruh 6 sáhů)"
+    components="V"
+    duration="Ihned"
+    concentration="false"
+    classes="Paladin"
     >
 
-  Pokusíš se proměnit jednoho tvora, kterého vidíš v dosahu, na kámen. Je-li tělo cíle z masa, musí si tvor hodit záchranný hod na Odolnost. Když neuspěje, je zadržený a jeho tělo začne tvrdnout. V případě úspěšného záchranného hodu není tvor nijak ovlivněn.
-
-Tvor, který je tímto kouzlem zadržený, si musí hodit další záchranný hod na Odolnost na konci každého svého tahu.Pokud uspěje ve třech záchranách, kouzlo skončí. Pokud neuspěje ve třech záchranách, zkamení a zůstane zkamenělý po dobu trvání. Úspěchy či neúspěchy nemusí jít po sobě; udržuj si přehled o obou, dokud cíl nenasbírá tři stejného druhu.
-
-Pokud se tvor během zkamenění fyzicky poškodí, utrpí podobné deformace při návratu do původního stavu.
-
-Budeš-li se soustředit na toto kouzlo po celou dobu trvání, tvor bude zkamenělý, dokud se účinek neodstraní.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTY0MjAxNF19
--->
+  Udeříš do země a vytvoříš výbuch božské energie, která z tebe vytryskne. Každý tvor, kterého zvolíš do 6 sáhů od tebe, musí uspět v záchranném hodu na Odolnost, jinak utrpí hromové zranění 5k6 a také buď zářivé, nebo nekrotické zranění (dle tvé volby) 5k6 a je sražen k zemi. Tvor, který uspěje v záchranném hodu, utrpí poloviční zranění a není sražen k zemi.
   </spell>
 
 <spell
@@ -2420,10 +2661,12 @@ eyJoaXN0b3J5IjpbMTA0OTY0MjAxNF19
     rulebook="Příručka hráče"
     school="Iluze"
     level="2"
+    ritual="true"
     casting="1 minuta"
     range="6 sáhů"
     components="V, P, S (kousíček plástve medu a rozdrcený nefrit v hodnotě aspoň 10 zl, které kouzlo spotřebuje)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Bard, Kouzelník"
     >
 
@@ -2440,10 +2683,12 @@ Spouštěcí okolnost může být libovolně obecná či podrobná, ale musí b�
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 bonusová akce"
     range="Dotyk"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Kouzelník, Paladin"
     >
 
@@ -2458,10 +2703,12 @@ Spouštěcí okolnost může být libovolně obecná či podrobná, ale musí b�
     rulebook="Příručka hráče"
     school="Vymítání"
     level="3"
+    ritual="false"
     casting="1 minuta"
     range="2 sáhy"
     components="V, P, S (svěcená voda, nebo stříbrný a železný prášek v hodnotě aspoň 100 zlatých, které kouzlo spotrebuje)"
     duration="1 hodina"
+    concentration="false"
     classes="Černokněžník, Klerik, Kouzelník, Paladin"
     >
 
@@ -2485,10 +2732,12 @@ eyJoaXN0b3J5IjpbLTEyMzY4MTY5MzFdfQ==
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
     duration="1 minuta"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -2505,10 +2754,12 @@ Ruka nemůže útočit ani aktivovat kouzelné předměty a neunese víc než 10
     rulebook="Příručka hráče"
     school="Vymítání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (kus tvrzené kůže)"
     duration="8 hodin"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2521,10 +2772,12 @@ Ruka nemůže útočit ani aktivovat kouzelné předměty a neunese víc než 10
     rulebook="Příručka hráče"
     school="Vymítání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Klerik"
     >
 
@@ -2532,21 +2785,21 @@ Ruka nemůže útočit ani aktivovat kouzelné předměty a neunese víc než 10
   </spell>
 
 <spell
-    title="Mluv s mrtvými"
-    original="Speak with dead"
+    title="Nižší navrácení"
+    original="Lesser restoration"
     rulebook="Příručka hráče"
-    school="Nekromancie"
-    level="3"
+    school="Vymítání"
+    level="2"
+    ritual="false"
     casting="1 akce"
-    range="2 sáhy"
-    components="V, P, S (žhavé kadidlo)"
-    duration="10 minut"
-    classes="Bard, Klerik"
+    range="Dotyk"
+    components="V, P"
+    duration="Ihned"
+    concentration="false"
+    classes="Bard, Druid, Hraničář, Klerik, Paladin"
     >
 
-  Mrtvole, kterou zvolíš v dosahu, udělíš napodobeninu života a inteligence a umožníš jí odpovědět na tebou položené otázky. Mrtvola stále musí mít ústa a nesmí být nemrtvá. Kouzlo selže, byla-li mrtvola cílem tohoto kouzla v posledních 10 dnech.
-
-Dokud kouzlo neskončí, můžeš se mrtvoly zeptat až na pět otázek. Mrtvola zná pouze to, co věděla za svého života, a to včetně svého jazyka. Odpovědi jsou obvykle krátké, se skrytým významem, nebo se opakují a mrtvola není nucena poskytnout pravdivou odpověď, jsi-li vůči ní nepřátelský, nebo pokládá-li tě za svého nepřítele. Toto kouzlo nevrací do těla tvorovu duši, pouze oživuje ducha. Takže se mrtvola nemůže dozvědět žádné nové informace, nedokáže pochopit nic, co se stalo od její smrti a nemůže ani spekulovat o budoucích událostech.
+  Dotkneš se tvora a můžeš ukončit buď jednu nemoc, nebo jeden stav, který na něj působí. Stav může být hluchý, otrávený, paralyzovaný nebo slepý.
   </spell>
 
 <spell
@@ -2555,10 +2808,12 @@ Dokud kouzlo neskončí, můžeš se mrtvoly zeptat až na pět otázek. Mrtvola
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (drobný keramický model humanoidní ruky)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2577,10 +2832,12 @@ Jako akci můžeš způsobit, že se ruka natáhne po jiném tvorovi, nebo se p�
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (kulička uhnětená z ledku, síry a dřevěného dehtu)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2595,10 +2852,12 @@ Jako akci můžeš způsobit, že se ruka natáhne po jiném tvorovi, nebo se p�
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (prášek z rebarborového listu a žaludek zmije)"
     duration="Ihned"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -2613,10 +2872,12 @@ Jako akci můžeš způsobit, že se ruka natáhne po jiném tvorovi, nebo se p�
     rulebook="Xanatharuv pruvodce vším"
     school="Věštění"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -2633,10 +2894,12 @@ Navíc, pokud v záchranném hodu selže, až do konce trvání kouzla víš př
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (několik semen jakékoli lunoplodovité rostliny a kus opalizujícího živce)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid"
     >
 
@@ -2652,15 +2915,35 @@ Každý svůj tah poté, co sešleš toto kouzlo, můžeš použít svou akci k 
   </spell>
 
 <spell
+    title="Očisti jídlo a pití"
+    original="Purify food and drink"
+    rulebook="Příručka hráče"
+    school="Transmutace"
+    level="1"
+    ritual="true"
+    casting="1 akce"
+    range="2 sáhy"
+    components="V, P"
+    duration="Ihned"
+    concentration="false"
+    classes="Druid, Klerik, Paladin"
+    >
+
+  Všechno nemagické jídlo a pití v kouli o poloměru 1 sáh se středem v bodě dle tvé volby v dosahu se očistí a zbaví se jedů a nemocí.
+  </spell>
+
+<spell
     title="Mihotání"
     original="Blink"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
     duration="1 minuta"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2670,15 +2953,37 @@ Zatímco jsi v Éterické sféře, vidíš a slyšíš svou původní sféru, kt
   </spell>
 
 <spell
+    title="Mluv s mrtvými"
+    original="Speak with dead"
+    rulebook="Příručka hráče"
+    school="Nekromancie"
+    level="3"
+    ritual="false"
+    casting="1 akce"
+    range="2 sáhy"
+    components="V, P, S (žhavé kadidlo)"
+    duration="10 minut"
+    concentration="false"
+    classes="Bard, Klerik"
+    >
+
+  Mrtvole, kterou zvolíš v dosahu, udělíš napodobeninu života a inteligence a umožníš jí odpovědět na tebou položené otázky. Mrtvola stále musí mít ústa a nesmí být nemrtvá. Kouzlo selže, byla-li mrtvola cílem tohoto kouzla v posledních 10 dnech.
+
+Dokud kouzlo neskončí, můžeš se mrtvoly zeptat až na pět otázek. Mrtvola zná pouze to, co věděla za svého života, a to včetně svého jazyka. Odpovědi jsou obvykle krátké, se skrytým významem, nebo se opakují a mrtvola není nucena poskytnout pravdivou odpověď, jsi-li vůči ní nepřátelský, nebo pokládá-li tě za svého nepřítele. Toto kouzlo nevrací do těla tvorovu duši, pouze oživuje ducha. Takže se mrtvola nemůže dozvědět žádné nové informace, nedokáže pochopit nic, co se stalo od její smrti a nemůže ani spekulovat o budoucích událostech.
+  </spell>
+
+<spell
     title="Mluv s rostlinami"
     original="Speak with plants"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 6 sáhů)"
     components="V, P"
     duration="10 minut"
+    concentration="false"
     classes="Bard, Druid, Hraničář"
     >
 
@@ -2699,10 +3004,12 @@ Toto kouzlo může způsobit, že rostliny stvořené pomocí kouzla zapletení 
     rulebook="Příručka hráče"
     school="Věštění"
     level="1"
+    ritual="true"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
     duration="10 minut"
+    concentration="false"
     classes="Bard, Druid, Hraničář"
     >
 
@@ -2715,10 +3022,12 @@ Toto kouzlo může způsobit, že rostliny stvořené pomocí kouzla zapletení 
     rulebook="Příručka hráče"
     school="Věštění"
     level="5"
+    ritual="false"
     casting="1 minuta"
     range="Ty sám"
     components="V"
     duration="1 minuta"
+    concentration="false"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -2728,15 +3037,42 @@ Uspěješ-li v záchranném hodu, můžeš se zeptat bytosti až na pět otázek
   </spell>
 
 <spell
+    title="Najdi předmět"
+    original="Locate object"
+    rulebook="Příručka hráče"
+    school="Věštění"
+    level="2"
+    ritual="false"
+    casting="1 akce"
+    range="Ty sám (okruh 200 sáhů)"
+    components="V, P, S (rozdvojující se větev)"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
+    classes="Bard, Druid, Hraničář, Klerik, Kouzelník, Paladin"
+    >
+
+  Popiš nebo jmenuj předmět, který znáš. Zjistíš směr k místu, kde se nachází, pokud je do 200 sáhů od tebe. Pokud se předmět pohybuje, víš směr jeho pohybu.
+
+Kouzlo dokáže najít konkrétní předmět, který znáš, pokud jsi ho viděl zblízka (do 6 sáhů) aspoň jednou. Nebo toto kouzlo může najít nejbližší předmět konkrétního druhu, například jistý druh oděvu, šperku, nábytku, pomůcky nebo zbraně.
+
+Toto kouzlo nedokáže najít předmět, pokud přímou cestu mezi ním a tebou blokuje jakákoliv vrstva olova, dokonce třeba i jen tenký plech.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjkyODgxNzk4XX0=
+-->
+  </spell>
+
+<spell
     title="Mlžná podoba"
     original="Gaseous form"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (kousek gázy a pramínek kouře)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -2753,10 +3089,12 @@ Zatímco má cíl podobu mlžného oblaku, nemůže mluvit ani manipulovat před
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="2"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -2769,10 +3107,12 @@ Zatímco má cíl podobu mlžného oblaku, nemůže mluvit ani manipulovat před
     rulebook="Příručka hráče"
     school="Iluze"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -2785,10 +3125,12 @@ Zatímco má cíl podobu mlžného oblaku, nemůže mluvit ani manipulovat před
     rulebook="Příručka hráče"
     school="Vymítání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (diamantový prach v hodnotě aspoň 100 zl, který kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Druid, Klerik"
     >
 
@@ -2805,10 +3147,12 @@ Zatímco má cíl podobu mlžného oblaku, nemůže mluvit ani manipulovat před
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="8"
+    ritual="false"
     casting="1 minuta"
     range="1 míle"
     components="V, P, S (diamant v hodnotě alespoň 500 zl, který kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -2834,10 +3178,12 @@ Trvalou pevnost můžeš vytvořit tak, že toto kouzlo sešleš každých 7 dn�
     rulebook="Příručka hráče"
     school="Vymítání"
     level="4"
+    ritual="false"
     casting="10 minut"
     range="24 sáhů"
     components="V, P, S (tenkáolovéná fólie, kus neprühledného skla, srolovaný kousek bavlny nebo tkaniny a rozdrcený olivín)"
     duration="24 hodin"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -2861,10 +3207,12 @@ Sesílání tohoto  kouzla na stejné místo každý den po dobu jednoho roku ud
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (miniaturní platinový mečík, jehož jílec a hruška jsou z mědi a zinku, v hodnotě 250 zl)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Kouzelník"
     >
 
@@ -2879,10 +3227,12 @@ Když se meč objeví, hod si na útok na blízko kouzlem proti cíli dle tvé v
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="7"
+    ritual="false"
     casting="1 minuta"
     range="60 sáhů"
     components="V, P, S (miniaturní portál vyřezaný ze slonoviny, kousíček leštěného mramoru a mrňavá stříbrná lžička, každá věc v hodnotě aspoň 5 zl)"
     duration="24 hodin"
+    concentration="false"
     classes="Bard, Kouzelník"
     >
 
@@ -2894,15 +3244,47 @@ Můžeš vytvořit libovolný půdorys, ale celkový prostor nesmí přesáhnout
   </spell>
 
 <spell
+    title="Najdi přítelíčka"
+    original="Find familiar"
+    rulebook="Příručka hráče"
+    school="Vyvolávání"
+    level="1"
+    ritual="true"
+    casting="1 hodina"
+    range="2 sáhy"
+    components="V, P, S (dřevěné uhlí, kadidlo a byliny, to vše v hodnotě 10 zl, které se při sesílání spálí v bronzovém koši na oheň)"
+    duration="Ihned"
+    concentration="false"
+    classes="Kouzelník"
+    >
+
+  Vstoupí k tobě do služby přítelíček; duch, který má podobu zvířete, které zvolíš: chobotnice, jedovatý had, jestřáb, ještěr, kočka, krab, krkavec, krysa, lasička, mořský koník, netopýr, pavouk, ryba (piraňa), sova nebo žába (ropucha). Přítelíček se objeví na volném místě v dosahu a má statistiky zvolené podoby, ale místo zvířete je buď běs, nebešťan, nebo víla (dle tvé volby).
+
+Tvůj přítelíček jedná nezávisle na tobě, ale vždy poslechne tvé příkazy. V boji si hází na svou vlastní iniciativu a jedná ve svém vlastním tahu. Nemůže útočit, ale ostatní akce můžeš provádět normálně.
+
+Když mu klesnou životy na 0, zmizí a nezanechá po sobě žádné fyzické tělo. Znovu se objeví, když opětovně sešleš toto kouzlo.
+
+Když se nacházíš do 20 sáhů od svého přítelíčka, můžeš s ním telepaticky komunikovat. Navíc jako akci můžeš vidět jeho očima a slyšet jeho ušima až do začátku tvého příštího tahu a mít tak prospěch z jeho případných zvláštních smyslů. Během této doby jsi hluchý a slepý svými vlastními smysly.
+
+Jako akci můžeš svého přítelíčka dočasně odvolat. Zmizí do kapesní dimenze, kde čeká na tvé přivolání. Nebo ho můžeš zrušit navždy. Když je dočasně odvolaný, jako akci můžeš způsobit, že se znovu objeví na volném místě do 6 sáhů od tebe.
+
+V jednu chvíli můžeš mít jen jednoho přítelíčka. Sešleš-li toto kouzlo, když už přítelíčka máš, dáš mu novou podobu, místo abys vyvolal nového. Vyber jednu z podob ze seznamu výše. Tvůj přítelíček se přemění do zvoleného tvora.
+
+Když sesíláš kouzlo s dosahem dotyk, může ho uštědřit tvůj přítelíček, jako by ho sesílal on. Přítelíček musí být do 20 sáhů od tebe a pro uštědření kouzla musí použít svou reakci, když ho sesíláš. Vyžaduje-li kouzlo hod na útok, použiješ k hodu svou útočnou opravu.
+  </spell>
+
+<spell
     title="Mordenkainenův věrný pes"
     original="Mordenkainen's faithful hound"
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (malinká stříbrná píšťalka, kus kosti a šňůrka)"
     duration="8 hodin"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -2914,38 +3296,17 @@ Na začátku každého tvého tahu se pes pokusí kousnout jednoho tvora do 1 s�
   </spell>
 
 <spell
-    title="Dotek smrti"
-    original="Chill touch"
-    rulebook="Příručka hráče"
-    school="Nekromancie"
-    level="0"
-    casting="1 akce"
-    range="24 sáhů"
-    components="V, P"
-    duration="1 kolo"
-    classes="Čaroděj, Černokněžník, Kouzelník"
-    >
-
-  Vytvoříš přízračnou, kostlivou ruku na místě tvora v dosahu. Hoď si na útok na dálku kouzlem proti tvorovi, kterého chceš napadnout hrobových chladem. Při zásahu cíl utrpí nekrotické zranění 1k8 a nemůže si obnovit životy do začátku tvého příštího tahu. Do té doby ruka přilne k cíli.
-
-Pokud zasáhneš nemrtvý cíl, má navíc proti tobě nevýhodu k hodům na útok do konce tvého příštího tahu.
-
-Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 11. úrovně (3k8) a 17. úrovně (4k8).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1MTQ3NTgyXX0=
--->
-  </spell>
-
-<spell
     title="Mrazivý paprsek"
     original="Ray of frost"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -2960,10 +3321,12 @@ Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 1
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="100 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -2975,15 +3338,39 @@ Tvor či předmět, který vejde do jednoho portálu, vyjde druhým portálem, j
   </spell>
 
 <spell
+    title="Mystické oko"
+    original="Arcane eye"
+    rulebook="Příručka hráče"
+    school="Věštění"
+    level="4"
+    ritual="false"
+    casting="1 akce"
+    range="6 sáhů"
+    components="V, P, S (kousek netopýří kůže)"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
+    classes="Kouzelník"
+    >
+
+  V rámci dosahu vytvoříš neviditelné, magické oko, které se vznáší ve vzduchu po dobu trvání.
+
+Z tohoto oka, které má normální vidění a vidění ve tmě na vzdálenost 6 sáhů, mentálně přijímáš zrakový vjem. Oko se může dívat jakýmkoliv směrem.
+
+Pomocí akce můžeš pohnout okem libovolným směrem až o 6 sáhů. Není žádné omezení, jak daleko se oko může od tebe vzdálit, ale nesmí vstoupit do jiné sféry existence. Pevná bariéra blokuje jeho pohyb, ale oko se dokáže protáhnout i malým otvorem s průmě rem aspoň 1 coul.
+  </spell>
+
+<spell
     title="Mystický zámek"
     original="Arcane lock"
     rulebook="Příručka hráče"
     school="Vymítání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (zlatý prach v hodnotě nejméně 25 zl, který kouzlo spotřebuje)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -2998,10 +3385,12 @@ Během působení tohoto kouzla je předmět těžší zničit či násilně ote
     rulebook="Příručka hráče"
     school="Věštění"
     level="6"
+    ritual="false"
     casting="1 minuta"
     range="Ty sám"
     components="V, P, S (sada vešteckych pomicek - napriklad kosti, zdobené tyčky, karty, zuby nebo vyřezané runy – v hodnotě aspoň 100 zl a předmět z místa, které si přeješ najít)"
-    duration="1 den"
+    duration="Soustředění, až 1 den"
+    concentration="true"
     classes="Bard, Druid, Klerik"
     >
 
@@ -3016,10 +3405,12 @@ Po dobu trvání víš, jak daleko a jakým směrem leží cílové místo, poku
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="10 minut"
     range="6 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Paladin"
     >
 
@@ -3041,10 +3432,12 @@ Kdykoliv oř zmizí, zanechá za sebou jakékoliv předměty, které nesl nebo m
     rulebook="Příručka hráče"
     school="Věštění"
     level="1"
+    ritual="true"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 6 sáhů)"
     components="V, P, S (tisový list)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Druid, Hraničář, Klerik, Paladin"
     >
 
@@ -3062,10 +3455,12 @@ eyJoaXN0b3J5IjpbODMzMTEwMTI3XX0=
     rulebook="Příručka hráče"
     school="Věštění"
     level="1"
+    ritual="true"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 6 sáhů)"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Bard, Čaroděj, Druid, Hraničář, Klerik, Kouzelník, Paladin"
     >
 
@@ -3083,10 +3478,12 @@ eyJoaXN0b3J5IjpbMTk1NDEyOTMwM119
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="2"
+    ritual="false"
     casting="10 minut"
     range="6 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Paladin"
     >
 
@@ -3107,10 +3504,12 @@ Najednou můžeš mít jen jednoho oře připoutaného tímto kouzlem. Jako akci
     rulebook="Příručka hráče"
     school="Věštění"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Druid, Hraničář, Klerik"
     >
 
@@ -3120,54 +3519,23 @@ Toto kouzlo pouze odhaluje, že je přítomná past. Neznáš polohu každé pas
   </spell>
 
 <spell
-    title="Najdi předmět"
-    original="Locate object"
+    title="Naváděcí blesk"
+    original="Guiding bolt"
     rulebook="Příručka hráče"
-    school="Věštění"
-    level="2"
-    casting="1 akce"
-    range="Ty sám (oblast)"
-    components="V, P, S (rozdvojující se větev)"
-    duration="10 minut"
-    classes="Bard, Druid, Hraničář, Klerik, Kouzelník, Paladin"
-    >
-
-  Popiš nebo jmenuj předmět, který znáš. Zjistíš směr k místu, kde se nachází, pokud je do 200 sáhů od tebe. Pokud se předmět pohybuje, víš směr jeho pohybu.
-
-Kouzlo dokáže najít konkrétní předmět, který znáš, pokud jsi ho viděl zblízka (do 6 sáhů) aspoň jednou. Nebo toto kouzlo může najít nejbližší předmět konkrétního druhu, například jistý druh oděvu, šperku, nábytku, pomůcky nebo zbraně.
-
-Toto kouzlo nedokáže najít předmět, pokud přímou cestu mezi ním a tebou blokuje jakákoliv vrstva olova, dokonce třeba i jen tenký plech.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyODgxNzk4XX0=
--->
-  </spell>
-
-<spell
-    title="Najdi přítelíčka"
-    original="Find familiar"
-    rulebook="Příručka hráče"
-    school="Vyvolávání"
+    school="Zaklínání"
     level="1"
-    casting="1 hodina"
-    range="2 sáhy"
-    components="V, P, S (dřevěné uhlí, kadidlo a byliny, to vše v hodnotě 10 zl, které se při sesílání spálí v bronzovém koši na oheň)"
-    duration="Ihned"
-    classes="Kouzelník"
+    ritual="false"
+    casting="1 akce"
+    range="24 sáhů"
+    components="V, P"
+    duration="1 kolo"
+    concentration="false"
+    classes="Klerik"
     >
 
-  Vstoupí k tobě do služby přítelíček; duch, který má podobu zvířete, které zvolíš: chobotnice, jedovatý had, jestřáb, ještěr, kočka, krab, krkavec, krysa, lasička, mořský koník, netopýr, pavouk, ryba (piraňa), sova nebo žába (ropucha). Přítelíček se objeví na volném místě v dosahu a má statistiky zvolené podoby, ale místo zvířete je buď běs, nebešťan, nebo víla (dle tvé volby).
+  Na tvora dle tvé volby v dosahu vystřelí záblesk světla. Hoď si na útok na dálku kouzlem proti cíli. Při zásahu cíl utrpí zářivé zranění 4k6 a příští hod na útok proti tomuto cíli, před koncem tvého příštího tahu, má výhodu, díky mystickému slabému jasu, jakým se do té doby cíl třpytí.
 
-Tvůj přítelíček jedná nezávisle na tobě, ale vždy poslechne tvé příkazy. V boji si hází na svou vlastní iniciativu a jedná ve svém vlastním tahu. Nemůže útočit, ale ostatní akce můžeš provádět normálně.
-
-Když mu klesnou životy na 0, zmizí a nezanechá po sobě žádné fyzické tělo. Znovu se objeví, když opětovně sešleš toto kouzlo.
-
-Když se nacházíš do 20 sáhů od svého přítelíčka, můžeš s ním telepaticky komunikovat. Navíc jako akci můžeš vidět jeho očima a slyšet jeho ušima až do začátku tvého příštího tahu a mít tak prospěch z jeho případných zvláštních smyslů. Během této doby jsi hluchý a slepý svými vlastními smysly.
-
-Jako akci můžeš svého přítelíčka dočasně odvolat. Zmizí do kapesní dimenze, kde čeká na tvé přivolání. Nebo ho můžeš zrušit navždy. Když je dočasně odvolaný, jako akci můžeš způsobit, že se znovu objeví na volném místě do 6 sáhů od tebe.
-
-V jednu chvíli můžeš mít jen jednoho přítelíčka. Sešleš-li toto kouzlo, když už přítelíčka máš, dáš mu novou podobu, místo abys vyvolal nového. Vyber jednu z podob ze seznamu výše. Tvůj přítelíček se přemění do zvoleného tvora.
-
-Když sesíláš kouzlo s dosahem dotyk, může ho uštědřit tvůj přítelíček, jako by ho sesílal on. Přítelíček musí být do 20 sáhů od tebe a pro uštědření kouzla musí použít svou reakci, když ho sesíláš. Vyžaduje-li kouzlo hod na útok, použiješ k hodu svou útočnou opravu.
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. se zvýší zranění o 1k6.
   </spell>
 
 <spell
@@ -3176,10 +3544,12 @@ Když sesíláš kouzlo s dosahem dotyk, může ho uštědřit tvůj přítelí�
     rulebook="Příručka hráče"
     school="Věštění"
     level="4"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 200 sáhů)"
     components="V, P, S (kus kožešiny z krvavého ohaře)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Druid, Hraničář, Klerik, Kouzelník, Paladin"
     >
 
@@ -3199,10 +3569,12 @@ eyJoaXN0b3J5IjpbNjUzMjMxNzE2XX0=
     rulebook="Příručka hráče"
     school="Věštění"
     level="1"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 6 sáhů)"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Klerik, Paladin"
     >
 
@@ -3220,10 +3592,12 @@ eyJoaXN0b3J5IjpbLTE3NDYyMzcyMzldfQ==
     rulebook="Příručka hráče"
     school="Věštění"
     level="2"
+    ritual="true"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 5 mil)"
     components="V, P, S (kus kožešiny z krvavého ohaře)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Druid, Hraničář"
     >
 
@@ -3234,31 +3608,17 @@ eyJoaXN0b3J5IjpbLTEzNzYyODk4ODFdfQ==
   </spell>
 
 <spell
-    title="Nižší navrácení"
-    original="Lesser restoration"
-    rulebook="Příručka hráče"
-    school="Vymítání"
-    level="2"
-    casting="1 akce"
-    range="Dotyk"
-    components="V, P"
-    duration="Ihned"
-    classes="Bard, Druid, Hraničář, Klerik, Paladin"
-    >
-
-  Dotkneš se tvora a můžeš ukončit buď jednu nemoc, nebo jeden stav, který na něj působí. Stav může být hluchý, otrávený, paralyzovaný nebo slepý.
-  </spell>
-
-<spell
     title="Nákaza"
     original="Contagion"
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="7 dní"
+    concentration="false"
     classes="Druid, Klerik"
     >
 
@@ -3285,10 +3645,12 @@ Protože toto kouzlo způsobuje svému cíli přírodní nemoc, působí na ni k
     rulebook="Příručka hráče"
     school="Iluze"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (kousek ovčího rouna a rozdrcený nefrit v hodnotě aspoň 25 zl, které kouzlo spotřebuje)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Bard, Kouzelník"
     >
 
@@ -3307,10 +3669,12 @@ Fyzická interakce s obrazem prozradí, že jde o iluzi, neboť jím prochází 
     rulebook="Příručka hráče"
     school="Iluze"
     level="7"
+    ritual="false"
     casting="12 hodin"
     range="Dotyk"
     components="V, P, S (sníh či led v dostatečném množství pro vytvoření duplikátu kopírovaného tvora v životní velikosti; ústřižek z nehtu (nebo jiný kousek z těla tvora) umístěný dovnitř sněhu či ledu; rozdrcený rubín v hodnotě 1 500 zl, posypaný po kopii, který kouzlo spotřebuje)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -3326,67 +3690,17 @@ Sešleš-li toto kouzlo znovu, jakýkoli právě aktivní duplikát, který jsi 
   </spell>
 
 <spell
-    title="Naváděcí blesk"
-    original="Guiding bolt"
-    rulebook="Příručka hráče"
-    school="Zaklínání"
-    level="1"
-    casting="1 akce"
-    range="24 sáhů"
-    components="V, P"
-    duration="1 kolo"
-    classes="Klerik"
-    >
-
-  Na tvora dle tvé volby v dosahu vystřelí záblesk světla. Hoď si na útok na dálku kouzlem proti cíli. Při zásahu cíl utrpí zářivé zranění 4k6 a příští hod na útok proti tomuto cíli, před koncem tvého příštího tahu, má výhodu, díky mystickému slabému jasu, jakým se do té doby cíl třpytí.
-
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. se zvýší zranění o 1k6.
-  </spell>
-
-<spell
-    title="Nebepis"
-    original="Skywrite"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Transmutace"
-    level="2"
-    casting="1 akce"
-    range="Dohled"
-    components="V, P"
-    duration="1 hodina"
-    classes="Bard, Druid, Kouzelník"
-    >
-
-  Způsobíš, že se na té části nebe, kterou vidíš, zformuje až deset slov podle tvé volby. Slova vypadají, jako by byla tvořena mraky a zůstanou na obloze vidět po celou dobu trvání kouzla. Oblačná slova zmizí, když kouzlo skončí, nebo když je rozežene silný vítr a ukončí tak kouzlo předčasně.
-  </spell>
-
-<spell
-    title="Ohnivá střela"
-    original="Fire bolt"
-    rulebook="Příručka hráče"
-    school="Zaklínání"
-    level="0"
-    casting="1 akce"
-    range="24 sáhů"
-    components="V, P"
-    duration="Ihned"
-    classes="Čaroděj, Kouzelník"
-    >
-
-  Na tvora či předmět v dosahu vrhneš smítko ohně. Hoď si na útok na dálku kouzlem proti cíli. Když zasáhneš, utrpí cíl ohnivé zranění 1k10. Hořlavé předměty zasažené tímto kouzlem se zapálí, pokud je nikdo nedrží ani nenese.
-
-Zranění tohoto kouzla se zvýší o 1k 10, když dosáhneš 5. úrovně (2k10), 11. úrovně (3k10) a 17. úrovně (4k10).
-  </spell>
-
-<spell
     title="Nelibozvučny šepot"
     original="Dissonant whispers"
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Bard"
     >
 
@@ -3401,10 +3715,12 @@ Zranění tohoto kouzla se zvýší o 1k 10, když dosáhneš 5. úrovně (2k10)
     rulebook="Příručka hráče"
     school="Iluze"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -3417,10 +3733,12 @@ Zranění tohoto kouzla se zvýší o 1k 10, když dosáhneš 5. úrovně (2k10)
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, S (kapka smůly promíchaná s kapkou rtuti)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -3435,10 +3753,12 @@ Ze tmy se ozývají výkřiky, blábolení a šílený smích. Každý tvor, kte
     rulebook="Příručka hráče"
     school="Iluze"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (oční řasa obalená v kousku arabské gumy)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -3453,10 +3773,12 @@ Ze tmy se ozývají výkřiky, blábolení a šílený smích. Každý tvor, kte
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="1"
+    ritual="true"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (kus řetězu a kousek dřeva)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Černokněžník, Kouzelník"
     >
 
@@ -3473,10 +3795,12 @@ Přikážeš-li služebníkovi, aby vykonal činnost, která ho vzdálí více n
     rulebook="Příručka hráče"
     school="Vymítání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (špetka diamantového prachu v hodnotě 25 zl posypaná na cíl, kterou kouzlo spotřebuje)"
     duration="8 hodin"
+    concentration="false"
     classes="Bard, Hraničář, Kouzelník"
     >
 
@@ -3489,30 +3813,16 @@ Přikážeš-li služebníkovi, aby vykonal činnost, která ho vzdálí více n
     rulebook="Xanatharuv pruvodce vším"
     school="Vymítání"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (kousek adamantia v ceně alespoň 500 zl, který kouzlo spotřebuje)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Kouzelník"
     >
 
   Po dobu trvání kouzla jsi imunní vůči veškerému zranění.
-  </spell>
-
-<spell
-    title="Ničivá vlna"
-    original="Destruction wave"
-    rulebook="Příručka hráče"
-    school="Zaklínání"
-    level="5"
-    casting="1 akce"
-    range="Ty sám (oblast)"
-    components="V"
-    duration="Ihned"
-    classes="Paladin"
-    >
-
-  Udeříš do země a vytvoříš výbuch božské energie, která z tebe vytryskne. Každý tvor, kterého zvolíš do 6 sáhů od tebe, musí uspět v záchranném hodu na Odolnost, jinak utrpí hromové zranění 5k6 a také buď zářivé, nebo nekrotické zranění (dle tvé volby) 5k6 a je sražen k zemi. Tvor, který uspěje v záchranném hodu, utrpí poloviční zranění a není sražen k zemi.
   </spell>
 
 <spell
@@ -3521,10 +3831,12 @@ Přikážeš-li služebníkovi, aby vykonal činnost, která ho vzdálí více n
     rulebook="Příručka hráče"
     school="Očarování"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard"
     >
 
@@ -3539,10 +3851,12 @@ Cíl není nucen se pohnout do očividně smrtící nástrahy, například do oh
     rulebook="Příručka hráče"
     school="Iluze"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (čtvereček hedvábí)"
     duration="24 hodin"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -3564,10 +3878,12 @@ eyJoaXN0b3J5IjpbLTY5ODE4MTc0XX0=
     rulebook="Xanatharuv pruvodce vším"
     school="Očarování"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -3582,10 +3898,12 @@ Kdykoliv si ovlivněný tvor volí nový cíl, musí si zvolit náhodně mezi tv
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (skleněný střep)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -3600,10 +3918,12 @@ Kdykoliv si ovlivněný tvor volí nový cíl, musí si zvolit náhodně mezi tv
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Druid, Hraničář, Kouzelník"
     >
 
@@ -3621,10 +3941,12 @@ eyJoaXN0b3J5IjpbLTE3MzQzMjA2MDhdfQ==
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -3643,10 +3965,12 @@ Na začátku každého tvého tahu se mlha pohne 2 sáhy od tebe, převaluje se 
     rulebook="Xanatharuv pruvodce vším"
     school="Vymítání"
     level="1"
+    ritual="true"
     casting="1 hodina"
     range="Dotyk"
     components="V, P, S (stříbrný prášek v hodnotě 25 zl, který kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Klerik, Paladin"
     >
 
@@ -3665,10 +3989,12 @@ Na začátku každého tvého tahu se mlha pohne 2 sáhy od tebe, převaluje se 
     rulebook="Příručka hráče"
     school="Transmutace"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Druid"
     >
 
@@ -3687,10 +4013,12 @@ PJ ti může umožnit zvolit jiné cíle. Například, pokud proměníš včelu,
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (diamanty v hodnotě 300 zl, které kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Klerik, Paladin"
     >
 
@@ -3703,10 +4031,12 @@ PJ ti může umožnit zvolit jiné cíle. Například, pokud proměníš včelu,
     rulebook="Příručka hráče"
     school="Vymítání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Druid, Hraničář, Klerik, Kouzelník"
     >
 
@@ -3719,10 +4049,12 @@ PJ ti může umožnit zvolit jiné cíle. Například, pokud proměníš včelu,
     rulebook="Příručka hráče"
     school="Vymítání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="1 hodina"
+    concentration="false"
     classes="Druid, Hraničář, Klerik, Paladin"
     >
 
@@ -3737,10 +4069,12 @@ Po dobu trvání má cíl výhodu k záchranným hodům proti otrávení a je od
     rulebook="Příručka hráče"
     school="Vymítání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (svěcená voda, nebo stříbrný a železný prášek, který kouzlo spotřebuje)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Černokněžník, Klerik, Kouzelník, Paladin"
     >
 
@@ -3755,10 +4089,12 @@ Ochrana poskytuje několik výhod: Tvorové těchto typů mají nevýhodu k hod�
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="4"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -3778,31 +4114,17 @@ Ochrana poskytuje několik výhod: Tvorové těchto typů mají nevýhodu k hod�
   </spell>
 
 <spell
-    title="Očisti jídlo a pití"
-    original="Purify food and drink"
-    rulebook="Příručka hráče"
-    school="Transmutace"
-    level="1"
-    casting="1 akce"
-    range="2 sáhy"
-    components="V, P"
-    duration="Ihned"
-    classes="Druid, Klerik, Paladin"
-    >
-
-  Všechno nemagické jídlo a pití v kouli o poloměru 1 sáh se středem v bodě dle tvé volby v dosahu se očistí a zbaví se jedů a nemocí.
-  </spell>
-
-<spell
     title="Odhal myšlenky"
     original="Detect thoughts"
     rulebook="Příručka hráče"
     school="Věštění"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (měďák)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -3823,10 +4145,12 @@ Jakmile odhalíš přítomnost tvora tímto způsobem, můžeš číst jeho myš
     rulebook="Příručka hráče"
     school="Vymítání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (miniaturní plášť)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid, Klerik"
     >
 
@@ -3842,10 +4166,12 @@ eyJoaXN0b3J5IjpbMjEyNTM1ODIxNF19
     rulebook="Xanatharuv pruvodce vším"
     school="Vymítání"
     level="1"
-    casting="1 reakce"
+    ritual="false"
+    casting="1 reakce, kterou provedeš, jsi-li zraněn bleskovým, hromovým, chladným, kyselinovým, nebo ohnivým útokem."
     range="Ty sám"
     components="P"
     duration="1 kolo"
+    concentration="false"
     classes="Čaroděj, Druid, Hraničář, Kouzelník"
     >
 
@@ -3860,10 +4186,12 @@ eyJoaXN0b3J5IjpbMjEyNTM1ODIxNF19
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -3878,10 +4206,12 @@ Když tvor během svého tahu poprvé vstoupí do oblasti zalité tímto světle
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Druid, Klerik"
     >
 
@@ -3896,10 +4226,12 @@ Oheň zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V, P, S (list škumpy)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Druid"
     >
 
@@ -3918,10 +4250,12 @@ Ohnivá čepel osvítí jasným světlem okruh o poloměru 2 sáhy a další 2 s
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (drobná kulička z netopýřího guana a síry)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -3933,15 +4267,37 @@ Oheň se rozšiřuje kolem rohů. Oheň zapaluje v oblasti hořlavé předměty,
   </spell>
 
 <spell
+    title="Ohnivá střela"
+    original="Fire bolt"
+    rulebook="Příručka hráče"
+    school="Zaklínání"
+    level="0"
+    ritual="false"
+    casting="1 akce"
+    range="24 sáhů"
+    components="V, P"
+    duration="Ihned"
+    concentration="false"
+    classes="Čaroděj, Kouzelník"
+    >
+
+  Na tvora či předmět v dosahu vrhneš smítko ohně. Hoď si na útok na dálku kouzlem proti cíli. Když zasáhneš, utrpí cíl ohnivé zranění 1k10. Hořlavé předměty zasažené tímto kouzlem se zapálí, pokud je nikdo nedrží ani nenese.
+
+Zranění tohoto kouzla se zvýší o 1k 10, když dosáhneš 5. úrovně (2k10), 11. úrovně (3k10) a 17. úrovně (4k10).
+  </spell>
+
+<spell
     title="Ohnivá zeď"
     original="Wall of fire"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (kousek fosforu)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -3960,10 +4316,12 @@ Jedna strana zdi, jíž vybereš při sesílání tohoto kouzla, způsobí ohniv
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (kousek fosforu, nebo světluška)"
     duration="10 minut"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -3980,10 +4338,12 @@ Navíc kdykoliv tě tvor do 1 sáhu od tebe zasáhne útokem na blízko, že št
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="10 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -3998,10 +4358,12 @@ Zranění kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6) a pak zno
     rulebook="Příručka hráče"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 minuta"
     range="Dotyk"
     components="V, P, S (dva magnetovce)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Druid, Klerik, Kouzelník"
     >
 
@@ -4016,10 +4378,12 @@ Toto kouzlo dokáže fyzicky opravit kouzelný předmět nebo výtvor, ale magii
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -4034,10 +4398,12 @@ Tvor, který je slepý kvůli tomuto kouzlu, si hodí další záchranný hod na
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="60 sáhů"
     components="V, P, S (křišťálová kulička)"
     duration="Ihned"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -4051,33 +4417,17 @@ Pokud chceš, nemusíš kouli po vyvolání vystřelit. Místo toho se může ve
   </spell>
 
 <spell
-    title="Slovo návratu"
-    original="Word of recall"
-    rulebook="Příručka hráče"
-    school="Vyvolávání"
-    level="6"
-    casting="1 akce"
-    range="1 sáh"
-    components="V"
-    duration="Ihned"
-    classes="Klerik"
-    >
-
-  Ty a až pět dalších tvorů, kteří s tím souhlasí a jsou do 1 sáhu od tebe, se okamžitě teleportujete do dříve stanovené svatyně. Po teleportaci se objevíte na nejbližším volném místě k bodu, které jsi určil, když sis svatyni připravoval (viz níže). Sešleš-li toto kouzlo, aniž by sis prve připravil svatyni, kouzlo nemá žádný účinek.
-
-Musíš stanovit svatyni sesláním tohoto kouzla v místě zasvěcenému nebo silně spojenému s tvým božstvem, například v chrámu. Pokusíš-li se seslat kouzlo tímto způsobem v oblasti, která není zasvěcená tvému božstvu, kouzlo nemá žádný účinek.
-  </spell>
-
-<spell
     title="Otilukova nepoddajná koule"
     original="Otiluke's resilient sphere"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (polokoule z čirého křišťálu a odpovídající polokoule z arabské gumy)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -4096,10 +4446,12 @@ Kouzlo *rozklad* zacílené na kouli ji zničí, aniž by zranilo či poškodilo
     rulebook="Příručka hráče"
     school="Transmutace"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="20 sáhů"
     components="V, P, S (magnetovec a železné piliny)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -4116,10 +4468,12 @@ Na konci doby trvání ovlivněné předměty a tvorové spadnou zpět dolů.
     rulebook="Příručka hráče"
     school="Očarování"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Kouzelník"
     >
 
@@ -4134,10 +4488,12 @@ Tancující tvor musí použít všechen svůj pohyb k tanci, aniž by opustil s
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="P"
     duration="Ihned, nebo 1 hodina"
+    concentration="false"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -4157,10 +4513,12 @@ Na jednom ohni mohou být současně aktivní až tři efekty najednou. Zrušen�
     rulebook="Příručka hráče"
     school="Transmutace"
     level="8"
+    ritual="false"
     casting="10 minut"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 5 mil)"
     components="V, P, S (žhavé kadidlo a kousky zeminy a dřeva smíchané ve vodě)"
-    duration="8 hodin"
+    duration="Soustředění, až 8 hodin"
+    concentration="true"
     classes="Druid, Klerik, Kouzelník"
     >
 
@@ -4202,33 +4560,17 @@ eyJoaXN0b3J5IjpbLTE3Nzk1OTAwNThdfQ==
   </spell>
 
 <spell
-    title="Přílivová vlna"
-    original="Tidal wave"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Vyvolávání"
-    level="3"
-    casting="1 akce"
-    range="24 sáhů"
-    components="V, P, S (kapka vody)"
-    duration="Ihned"
-    classes="Čaroděj, Druid, Kouzelník"
-    >
-
-  Vyvoláš vodní vlnu, která projde zvolenou oblastí a strhne s sebou každého, kdo jí bude stát v cestě. Zasažená oblast může být až 6 sáhů dlouhá, 2 sáhy široká a 2 sáhy vysoká. Každý tvor v této oblasti si musí hodit záchranný hod na Obratnost. Selže-li v něm, utrpí 4k8 drtivého zranění a je sražen na zem. Při úspěchu utrpí jen poloviční zranění a sražen není.
-
-Vlna pak opadne, voda, která ji tvořila, se rozteče do okolí a uhasí tak všechny nechráněné ohně, které se nacházejí v dráze vlny, nebo do 6 sáhů od ní. Voda poté zmizí a kouzlo skončí.
-  </spell>
-
-<spell
     title="Ovládni vítr"
     original="Control winds"
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="60 sáhů"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -4247,10 +4589,12 @@ Vlna pak opadne, voda, která ji tvořila, se rozteče do okolí a uhasí tak v�
     rulebook="Příručka hráče"
     school="Transmutace"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="60 sáhů"
     components="V, P, S (kapka vody a špetka prachu)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Druid, Klerik, Kouzelník"
     >
 
@@ -4272,40 +4616,17 @@ Vodní hladina zůstane zvýšená, dokud kouzlo neskončí, nebo dokud nezvolí
   </spell>
 
 <spell
-    title="Stvoř nemrtvého"
-    original="Animate dead"
-    rulebook="Příručka hráče"
-    school="Nekromancie"
-    level="3"
-    casting="1 minuta"
-    range="2 sáhy"
-    components="V, P, S (kapka krve, kousek těla a špetka kostní moučky)"
-    duration="Ihned"
-    classes="Klerik, Kouzelník"
-    >
-
-  Toto kouzlo vytvoří nemrtvého služebníka. Zvol hromádku kostí nebo mrtvolu Středního nebo Malého humanoida v dosahu. Tvé kouzlo naplní cíl falešnou napodobeninou života a oživí ho jako nemrtvého tvora. Pokud jsi zvolil kosti, stane se z nich kostlivec, a pokud jsi zvolil mrtvolu, stane se z ní zombie (PJ má jejich herní statistiky).
-
-V každém svém tahu můžeš pomocí bonusové akce mentálně udělit rozkaz libovolnému tvorovi, kterého jsi oživil tímto kouzlem, pokud je do 12 sáhů od tebe (máš-li pod svou kontrolou několik tvorů, můžeš udělit rozkaz některým z nich či všem najednou, přičemž každému udělíš stejný rozkaz). Určíš, jakou akci tvor vykoná a kam se pohne ve svém příštím tahu. Nebo mu můžeš vydat obecný rozkaz, například aby hlídal konkrétní místnost nebo chodbu. Neudělíš-li žádný rozkaz, tvor se bude jen bránit proti nepřátelským tvorům. Jakmile udělíš rozkaz, tvor se ho snaží plnit, dokud činnost nedokončí.
-
-Tvor je pod tvou kontrolou 24 hodin a poté přestane plnit tebou vydané rozkazy. Aby sis udržel nad tvorem kontrolu na dalších 24 hodin, musíš na něj seslat toto kouzlo, než uplyne aktuální 24-hodinový interval. Takovéto použití kouzla opětovně uplatní tvou kontrolu až nad čtyřmi tvory, které jsi oživil tímto kouzlem, místo aby oživilo jednoho nového.
-
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 4. či vyšší úrovně, za každou další úroveň pozice nad 3. oživíš nebo opětovně uplatníš svou kontrolu nad dvěma dalšími nemrtvými tvory. Každý tvor musí vzejít z jiné mrtvoly nebo hromádky kostí.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NTc4MjYwXX0=
--->
-  </spell>
-
-<spell
     title="Oživlé předměty"
     original="Animate objects"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -4336,10 +4657,12 @@ Nařídíš-li předmětu zaútočit, může provést jeden útok na blízko pro
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (shnilé vejce nebo pár listů kapsovce)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -4352,10 +4675,12 @@ Nařídíš-li předmětu zaútočit, může provést jeden útok na blízko pro
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -4370,10 +4695,12 @@ Nařídíš-li předmětu zaútočit, může provést jeden útok na blízko pro
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -4386,10 +4713,12 @@ Nařídíš-li předmětu zaútočit, může provést jeden útok na blízko pro
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (kapka asfaltu a pavouk)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -4402,10 +4731,12 @@ Nařídíš-li předmětu zaútočit, může provést jeden útok na blízko pro
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (kousek pavučiny)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -4426,10 +4757,12 @@ Pavučiny jsou hořlavé. Každá krychle pavučin o straně 1 sáh vystavená o
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
-    casting="1 reakce"
+    ritual="false"
+    casting="1 reakce, kterou provedeš jako odpověď na zranění způsobené tvorem do 12 sáhů od tebe, kterého vidíš"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Černokněžník"
     >
 
@@ -4444,10 +4777,12 @@ Pavučiny jsou hořlavé. Každá krychle pavučin o straně 1 sáh vystavená o
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="5"
+    ritual="false"
     casting="1 minuta"
     range="18 sáhů"
     components="V, P, S (rubín v hodnotě alespoň 999 zl)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -4476,10 +4811,12 @@ Pokud máš u sebe talisman konkrétního ďábla, můžeš tohoto ďábla vyvol
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (hrst písku)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -4492,10 +4829,12 @@ Pokud máš u sebe talisman konkrétního ďábla, můžeš tohoto ďábla vyvol
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Druid, Hraničář, Kouzelník"
     >
 
@@ -4510,10 +4849,12 @@ Pokud máš u sebe talisman konkrétního ďábla, můžeš tohoto ďábla vyvol
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -4529,10 +4870,12 @@ Pokud máš u sebe talisman konkrétního ďábla, můžeš tohoto ďábla vyvol
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (špetka síry)"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -4542,35 +4885,17 @@ Pokud máš u sebe talisman konkrétního ďábla, můžeš tohoto ďábla vyvol
   </spell>
 
 <spell
-    title="Poplach"
-    original="Alarm"
-    rulebook="Příručka hráče"
-    school="Vymítání"
-    level="1"
-    casting="1 minuta"
-    range="6 sáhů"
-    components="V, P, S (zvonek a kus jemného stříbrného drátku)"
-    duration="8 hodin"
-    classes="Hraničář, Kouzelník"
-    >
-
-  Nastavíš poplach proti nežádoucímu narušení. Zvol dveře, okno, nebo oblast v dosahu, jenž není větší než krychle o straně 4 sáhy. Dokud kouzlo neskončí, alarm tě upozorní, kdykoliv se Drobný nebo větší tvor dotkne střežené oblasti, nebo do ní vstoupí. Když toto kouzlo sesíláš, můžeš určit tvory, kteří nespustí poplach. Zvolíš také, jestli bude poplach mentální, nebo zvukový.
-
-Mentální poplachtě upozorní ve tvé hlavě, pokud jsi do 1 míle od střežené oblasti. Toto upozornění tě případně probudí ze spánku.
-
-Zvukový poplach bude 10 sekund vydávat zvuk ručního zvonku, který je slyšet do 12 sáhů.
-  </spell>
-
-<spell
     title="Planoucí koule"
     original="Flaming sphere"
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (kousek loje, špetka síry a prach z železného prášku)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid, Kouzelník"
     >
 
@@ -4589,10 +4914,12 @@ Když pohybuješ koulí, dokáže překonat až 1 sáh vysoké bariéry a přesk
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="6"
+    ritual="false"
     casting="10 minut"
     range="Ty sám"
     components="V, P, S (soška tebe vyřezaná ze slonoviny a ozdobená drahokamy v hodnotě aspoň 1 500 zl)"
     duration="10 dní"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -4609,10 +4936,12 @@ Podmínečné kouzlo působí jen na tebe, i kdyby normálně mohlo cílit na os
     rulebook="Příručka hráče"
     school="Vymítání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (malý proužek bílé látky)"
     duration="8 hodin"
+    concentration="false"
     classes="Klerik, Paladin"
     >
 
@@ -4627,10 +4956,12 @@ Podmínečné kouzlo působí jen na tebe, i kdyby normálně mohlo cílit na os
     rulebook="Příručka hráče"
     school="Očarování"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -4651,10 +4982,12 @@ Pokaždé, když cíl utrpí zranění, hodí si nový záchranný hod na Moudro
     rulebook="Příručka hráče"
     school="Očarování"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -4670,36 +5003,17 @@ Pokaždé, když cíl utrpí zranění, hodí si nový záchranný hod na Moudro
   </spell>
 
 <spell
-    title="Porozumění jazykům"
-    original="Comprehend languages"
-    rulebook="Příručka hráče"
-    school="Věštění"
-    level="1"
-    casting="1 akce"
-    range="Ty sám"
-    components="V, P, S (trocha sazí a soli)"
-    duration="1 hodina"
-    classes="Bard, Čaroděj, Černokněžník, Kouzelník"
-    >
-
-  Po dobu trvání rozumíš doslovnému významu mluveného jazyka, který slyšíš. Porozumíš také psanému jazyku, který vidíš, ale musíš se dotýkat povrchu, na kterém jsou slova napsaná. Během 1 minuty přečteš jednu stranu textu.
-
-Toto kouzlo nerozšifruje tajné textové zprávy ani znak, například magickou runu, který není součástí psaného jazyka.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjMzMjI0Ml19
--->
-  </spell>
-
-<spell
     title="Podrob zvíře"
     original="Dominate beast"
     rulebook="Příručka hráče"
     school="Očarování"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid"
     >
 
@@ -4720,10 +5034,12 @@ Pokaždé, když cíl utrpí zranění, hodí si nový záchranný hod na Moudro
     rulebook="Příručka hráče"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (železné ostří a směs zeminy – jílu, hlíny a písku - v pytlíku)"
-    duration="2 hodiny"
+    duration="Soustředění, až 2 hodiny"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -4744,10 +5060,12 @@ Podobně toto kouzlo neovlivňuje přímo růst rostlin, nicméně pohybující 
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Hraničář"
     >
 
@@ -4764,10 +5082,12 @@ Když je cíl zadržený tímto kouzlem, na začátku každého svého tahu utrp
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="P"
     duration="1 hodina"
+    concentration="false"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -4782,10 +5102,12 @@ Pokaždé, když sešleš toto kouzlo, můžeš vytvořit novou polosféru, nebo
     rulebook="Příručka hráče"
     school="Transmutace"
     level="1"
-    casting="1 reakce"
+    ritual="false"
+    casting="1 reakce, kterou provedeš, když ty nebo tvor do 12 sáhů od tebe spadne"
     range="12 sáhů"
     components="V, S (pírko, nebo chmýří)"
     duration="1 minuta"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -4793,23 +5115,67 @@ Pokaždé, když sešleš toto kouzlo, můžeš vytvořit novou polosféru, nebo
   </spell>
 
 <spell
-    title="Požehnání"
-    original="Bless"
+    title="Posvátný plamen"
+    original="Sacred flame"
     rulebook="Příručka hráče"
-    school="Očarování"
-    level="1"
+    school="Zaklínání"
+    level="0"
+    ritual="false"
     casting="1 akce"
-    range="6 sáhů"
-    components="V, P, S (kropenka svěcené vody)"
-    duration="1 minuta"
-    classes="Klerik, Paladin"
+    range="12 sáhů"
+    components="V, P"
+    duration="Ihned"
+    concentration="false"
+    classes="Klerik"
     >
 
-  Požehnáš až třem tvorům dle své volby v rámci dosahu. Kdykoliv si cíl hodí na útok nebo záchranný hod, než kouzlo skončí, může si hoditk4 a hozené číslo si přičíst k danému hodu na útok nebo záchrannému hodu.
+  Záření podobné plameni sestoupí na tvora, kterého vidíš v dosahu. Cíl musí uspět v záchranném hodu na Obratnost, jinak utrpí zářivé zranění 1k8. Tvor nemá žádný prospěch z krytu pro tento záchranný hod.
 
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. můžeš zacílit jednoho tvora navíc.
+Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 11. úrovně (3k8) a 17. úrovně (4k8).
+  </spell>
+
+<spell
+    title="Poplach"
+    original="Alarm"
+    rulebook="Příručka hráče"
+    school="Vymítání"
+    level="1"
+    ritual="true"
+    casting="1 minuta"
+    range="6 sáhů"
+    components="V, P, S (zvonek a kus jemného stříbrného drátku)"
+    duration="8 hodin"
+    concentration="false"
+    classes="Hraničář, Kouzelník"
+    >
+
+  Nastavíš poplach proti nežádoucímu narušení. Zvol dveře, okno, nebo oblast v dosahu, jenž není větší než krychle o straně 4 sáhy. Dokud kouzlo neskončí, alarm tě upozorní, kdykoliv se Drobný nebo větší tvor dotkne střežené oblasti, nebo do ní vstoupí. Když toto kouzlo sesíláš, můžeš určit tvory, kteří nespustí poplach. Zvolíš také, jestli bude poplach mentální, nebo zvukový.
+
+Mentální poplachtě upozorní ve tvé hlavě, pokud jsi do 1 míle od střežené oblasti. Toto upozornění tě případně probudí ze spánku.
+
+Zvukový poplach bude 10 sekund vydávat zvuk ručního zvonku, který je slyšet do 12 sáhů.
+  </spell>
+
+<spell
+    title="Porozumění jazykům"
+    original="Comprehend languages"
+    rulebook="Příručka hráče"
+    school="Věštění"
+    level="1"
+    ritual="true"
+    casting="1 akce"
+    range="Ty sám"
+    components="V, P, S (trocha sazí a soli)"
+    duration="1 hodina"
+    concentration="false"
+    classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+    >
+
+  Po dobu trvání rozumíš doslovnému významu mluveného jazyka, který slyšíš. Porozumíš také psanému jazyku, který vidíš, ale musíš se dotýkat povrchu, na kterém jsou slova napsaná. Během 1 minuty přečteš jednu stranu textu.
+
+Toto kouzlo nerozšifruje tajné textové zprávy ani znak, například magickou runu, který není součástí psaného jazyka.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDAwNTE2Nl19
+eyJoaXN0b3J5IjpbMjEwNjMzMjI0Ml19
 -->
   </spell>
 
@@ -4819,10 +5185,12 @@ eyJoaXN0b3J5IjpbLTIzMDAwNTE2Nl19
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (dráha 12 sáhů)"
     components="V, P, S (luštěninové semínko)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -4841,10 +5209,12 @@ Jako bonusovou akci můžeš v každém svém tahu, než kouzlo skončí, změni
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Neomezený"
     components="V, P, S (kousek jemného měděného drátku)"
     duration="1 kolo"
+    concentration="false"
     classes="Bard, Klerik, Kouzelník"
     >
 
@@ -4859,10 +5229,12 @@ Můžeš poslat zprávu na libovolnou vzdálenost, a dokonce i do jiných sfér 
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -4877,10 +5249,12 @@ Musíš zvolit dovednost, ve které je cíl zdatný již před sesláním kouzla
     rulebook="Příručka hráče"
     school="Věštění"
     level="5"
+    ritual="false"
     casting="10 minut"
     range="Ty sám"
     components="V, P, S (kadidlo v hodnotě aspoň 250 zl, které kouzlo spotřebuje, a čtyři slonovinové plátky, každý v hodnotě aspoň 50 zl)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Klerik, Kouzelník"
     >
 
@@ -4895,10 +5269,12 @@ Informace, které zjistíš, jsou přesné, ale mohou být formulovány květnat
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="24 hodin"
     range="Dotyk"
     components="V, P, S (byliny, oleje a kadidlo v hodnotě aspoň 1 000 zl, které kouzlo spotřebuje)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -4935,10 +5311,12 @@ Za druhé. Na oblast můžeš navázat dodatečný účinek. Vyber si účinek z
     rulebook="Xanatharuv pruvodce vším"
     school="Vymítání"
     level="6"
+    ritual="false"
     casting="10 minut"
     range="Dotyk"
     components="V, P, S (snítka jmelí, sklizená za světla úplňkové noci zlatým srpem, kterou kouzlo spotřebuje)"
     duration="24 hodin"
+    concentration="false"
     classes="Druid"
     >
 
@@ -4963,21 +5341,26 @@ Pro tvory imunní vůči tomuto účinku jsou větry jen příjemným vánkem a 
   </spell>
 
 <spell
-    title="Posvátný plamen"
-    original="Sacred flame"
+    title="Požehnání"
+    original="Bless"
     rulebook="Příručka hráče"
-    school="Zaklínání"
-    level="0"
+    school="Očarování"
+    level="1"
+    ritual="false"
     casting="1 akce"
-    range="12 sáhů"
-    components="V, P"
-    duration="Ihned"
-    classes="Klerik"
+    range="6 sáhů"
+    components="V, P, S (kropenka svěcené vody)"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Klerik, Paladin"
     >
 
-  Záření podobné plameni sestoupí na tvora, kterého vidíš v dosahu. Cíl musí uspět v záchranném hodu na Obratnost, jinak utrpí zářivé zranění 1k8. Tvor nemá žádný prospěch z krytu pro tento záchranný hod.
+  Požehnáš až třem tvorům dle své volby v rámci dosahu. Kdykoliv si cíl hodí na útok nebo záchranný hod, než kouzlo skončí, může si hoditk4 a hozené číslo si přičíst k danému hodu na útok nebo záchrannému hodu.
 
-Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 11. úrovně (3k8) a 17. úrovně (4k8).
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. můžeš zacílit jednoho tvora navíc.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIzMDAwNTE2Nl19
+-->
   </spell>
 
 <spell
@@ -4986,10 +5369,12 @@ Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 1
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -5016,10 +5401,12 @@ Při seslání tohoto kouzla pro vytvoření účinku, jenž je jiný než dupli
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (špetka prachu)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -5040,10 +5427,12 @@ Oblak vydrží až do tvého dalšího kola a po dobu svého trvání hustě zah
     rulebook="Příručka hráče"
     school="Očarování"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="P, S (trocha make-upu nanesená na obličej při sesílání tohoto kouzla)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -5056,10 +5445,12 @@ Oblak vydrží až do tvého dalšího kola a po dobu svého trvání hustě zah
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (pamlsek)"
     duration="24 hodin"
+    concentration="false"
     classes="Bard, Druid, Hraničář"
     >
 
@@ -5074,10 +5465,12 @@ Oblak vydrží až do tvého dalšího kola a po dobu svého trvání hustě zah
     rulebook="Příručka hráče"
     school="Věštění"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (mast na oči v hodnotě 25 zl vyrobená z drcených hub, šafránu a tuku, kterou kouzlo spotiebuje)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Klerik, Kouzelník"
     >
 
@@ -5090,10 +5483,12 @@ Oblak vydrží až do tvého dalšího kola a po dobu svého trvání hustě zah
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="3"
+    ritual="true"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (špetka hřbitovní hlíny)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Druid, Klerik, Kouzelník"
     >
 
@@ -5103,15 +5498,37 @@ Po dobu trvání kouzla, nebo dokud se pomocí své akce nedotkneš cíle a kouz
   </spell>
 
 <spell
+    title="Přesun života"
+    original="Life transference"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Nekromancie"
+    level="3"
+    ritual="false"
+    casting="1 akce"
+    range="6 sáhů"
+    components="V, P"
+    duration="Ihned"
+    concentration="false"
+    classes="Klerik, Kouzelník"
+    >
+
+  Obětuješ něco ze své životní síly, abys zhojil zranění druhého. Utrpíš 4k8 nekrotického zranění a jeden tvor, kterého vidíš v dosahu, si obnoví počet životů rovný zranění, které jsi utrpěl.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 4. či vyšší úrovně, za každou další úroveň pozice nad 3. se utrpěné zranění zvýší o 1k8.
+  </spell>
+
+<spell
     title="Předtucha"
     original="Foresight"
     rulebook="Příručka hráče"
     school="Věštění"
     level="9"
+    ritual="false"
     casting="1 minuta"
     range="Dotyk"
     components="V, P, S (péro z kolibříka)"
     duration="8 hodin"
+    concentration="false"
     classes="Bard, Černokněžník, Druid, Kouzelník"
     >
 
@@ -5126,10 +5543,12 @@ Toto kouzlo okamžitě skončí, pokud ho sešleš znovu, než skončí jeho dob
     rulebook="Příručka hráče"
     school="Věštění"
     level="2"
+    ritual="true"
     casting="1 minuta"
     range="Ty sám"
     components="V, P, S (Speciálně označené tyčky, kosti nebo obdobné symboly v hodnotě nejméně 25 zl)"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -5149,10 +5568,12 @@ Kouzlo nepočítá s potenciálními okolnostmi, které by mohly změnit výsled
     rulebook="Příručka hráče"
     school="Iluze"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (kousek ovčího rouna)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -5171,10 +5592,12 @@ Ovlivněný tvor je natolik přesvědčený o reálnosti přeludu, že ho může
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (jíl a voda)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Druid, Kouzelník"
     >
 
@@ -5193,10 +5616,12 @@ Pokud toto kouzlo sešleš na strop, bláto spadne. Každý tvor, kterého blát
     rulebook="Příručka hráče"
     school="Věštění"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="P"
-    duration="1 kolo"
+    duration="Soustředění, až 1 kolo"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -5209,10 +5634,12 @@ Pokud toto kouzlo sešleš na strop, bláto spadne. Každý tvor, kterého blát
     rulebook="Příručka hráče"
     school="Iluze"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -5229,10 +5656,12 @@ Aby tvor odhalil, že jsi přestrojený, musí si tě pomocí své akce pozorně
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="2 sáhy"
     components="V, P"
     duration="1 kolo"
+    concentration="false"
     classes="Druid"
     >
 
@@ -5245,10 +5674,12 @@ Aby tvor odhalil, že jsi přestrojený, musí si tě pomocí své akce pozorně
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (vidlicové, kovové žezlo v hodnotě aspoň 250 zl, které je sladěné s konkrétní sférou existence)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Druid, Hraničář, Klerik, Kouzelník"
     >
 
@@ -5260,21 +5691,23 @@ Toto kouzlo můžeš použít na vyhoštění tvora do jiné sféry, i když s t
   </spell>
 
 <spell
-    title="Přesun života"
-    original="Life transference"
+    title="Přílivová vlna"
+    original="Tidal wave"
     rulebook="Xanatharuv pruvodce vším"
-    school="Nekromancie"
+    school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
-    range="6 sáhů"
-    components="V, P"
+    range="24 sáhů"
+    components="V, P, S (kapka vody)"
     duration="Ihned"
-    classes="Klerik, Kouzelník"
+    concentration="false"
+    classes="Čaroděj, Druid, Kouzelník"
     >
 
-  Obětuješ něco ze své životní síly, abys zhojil zranění druhého. Utrpíš 4k8 nekrotického zranění a jeden tvor, kterého vidíš v dosahu, si obnoví počet životů rovný zranění, které jsi utrpěl.
+  Vyvoláš vodní vlnu, která projde zvolenou oblastí a strhne s sebou každého, kdo jí bude stát v cestě. Zasažená oblast může být až 6 sáhů dlouhá, 2 sáhy široká a 2 sáhy vysoká. Každý tvor v této oblasti si musí hodit záchranný hod na Obratnost. Selže-li v něm, utrpí 4k8 drtivého zranění a je sražen na zem. Při úspěchu utrpí jen poloviční zranění a sražen není.
 
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 4. či vyšší úrovně, za každou další úroveň pozice nad 3. se utrpěné zranění zvýší o 1k8.
+Vlna pak opadne, voda, která ji tvořila, se rozteče do okolí a uhasí tak všechny nechráněné ohně, které se nacházejí v dráze vlny, nebo do 6 sáhů od ní. Voda poté zmizí a kouzlo skončí.
   </spell>
 
 <spell
@@ -5283,10 +5716,12 @@ Toto kouzlo můžeš použít na vyhoštění tvora do jiné sféry, i když s t
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -5299,10 +5734,12 @@ Toto kouzlo můžeš použít na vyhoštění tvora do jiné sféry, i když s t
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (poloměr 3 sáhy)"
     components="V, P, S (svatý symbol)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Klerik"
     >
 
@@ -5319,10 +5756,12 @@ Když sesíláš toto kouzlo, můžeš určit libovolné množství tvorů, kter
     rulebook="Příručka hráče"
     school="Iluze"
     level="3"
+    ritual="true"
     casting="1 minuta"
     range="6 sáhů"
     components="V, P"
     duration="1 hodina"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -5337,10 +5776,12 @@ Po dobu trvání můžeš ty nebo tvor, kterého určíš, jezdit na oři. Oř p
     rulebook="Příručka hráče"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="8 hodin"
     range="Dotyk"
     components="V, P, S (achát v hodnotě aspoň 1 000 zl, který kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Druid"
     >
 
@@ -5355,10 +5796,12 @@ Probuzené zvíře či rostlina je tebou zmámené 30 dní, nebo dokud mu ty neb
     rulebook="Příručka hráče"
     school="Vymítání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (popel ze spáleného listu jmelí a snítka smrku)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -5371,10 +5814,12 @@ Probuzené zvíře či rostlina je tebou zmámené 30 dní, nebo dokud mu ty neb
     rulebook="Příručka hráče"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (špetka sezamových semínek)"
     duration="1 hodina"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -5389,10 +5834,12 @@ Když otvor zmizí, tak všichni tvorové a předměty, kteří byli stále ješ
     rulebook="Příručka hráče"
     school="Transmutace"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (zámotek housenky)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Čaroděj, Druid, Kouzelník"
     >
 
@@ -5416,10 +5863,12 @@ eyJoaXN0b3J5IjpbLTE3NjIxMTU3MF19
     rulebook="Příručka hráče"
     school="Vymítání"
     level="3"
-    casting="1 reakce"
+    ritual="false"
+    casting="1 reakce, kterou provedeš, když vidíš tvora do 12 sahů od tebe sesilat kouzlo"
     range="12 sáhů"
     components="P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -5434,10 +5883,12 @@ eyJoaXN0b3J5IjpbLTE3NjIxMTU3MF19
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -5452,10 +5903,12 @@ Humanoid zabitý tímto kouzlem povstane na začát ku tvého příštího tahu 
     rulebook="Xanatharuv pruvodce vším"
     school="Vymítání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid"
     >
 
@@ -5470,10 +5923,12 @@ Když utrpíš zranění některého ze zmíněných typů, můžeš použít sv
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -5488,10 +5943,12 @@ Když utrpíš zranění některého ze zmíněných typů, můžeš použít sv
     rulebook="Příručka hráče"
     school="Věštění"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (vaječné skořápky ze dvou různých tvorů)"
     duration="1 hodina"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -5506,10 +5963,12 @@ Dokud kouzlo neskončí, cíle spolu mohou tele paticky komunikovat skrz spojen�
     rulebook="Příručka hráče"
     school="Transmutace"
     level="7"
+    ritual="false"
     casting="1 minuta"
     range="Dotyk"
     components="V, P, S (modlitební kolečko a svěcená voda)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Druid, Klerik"
     >
 
@@ -5522,10 +5981,12 @@ Dokud kouzlo neskončí, cíle spolu mohou tele paticky komunikovat skrz spojen�
     rulebook="Příručka hráče"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="1 hodina"
     range="Dotyk"
     components="V, P, S (vzácné oleje a masti v hodnotě aspoň 1 000 zl, které kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Druid"
     >
 
@@ -5562,10 +6023,12 @@ eyJoaXN0b3J5IjpbLTE4Nzg0NzY3OTVdfQ==
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="1 míle"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -5583,10 +6046,12 @@ eyJoaXN0b3J5IjpbLTQ5ODUzMjkzNl19
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (kousek ledu nebo odštěpek bílého kamene)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -5601,10 +6066,12 @@ eyJoaXN0b3J5IjpbLTQ5ODUzMjkzNl19
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V"
     duration="1 kolo"
+    concentration="false"
     classes="Klerik, Paladin"
     >
 
@@ -5631,10 +6098,12 @@ Následuje několik typických rozkazů a jejich účinků. Můžeš vydat i jin
     rulebook="Příručka hráče"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (magnetovec a špetka prachu)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -5655,10 +6124,12 @@ Toto kouzlo automaticky rozloží Velký nebo menší nemagický předmět či v
     rulebook="Příručka hráče"
     school="Iluze"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -5671,10 +6142,12 @@ Toto kouzlo automaticky rozloží Velký nebo menší nemagický předmět či v
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (kus železa a plamen)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Druid"
     >
 
@@ -5686,15 +6159,35 @@ Drží-li tvor ovlivněný předmět, nebo ho má na sobě, když utrpí dané z
   </spell>
 
 <spell
+    title="Rozpraš"
+    original="Scatter"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Vyvolávání"
+    level="6"
+    ritual="false"
+    casting="1 akce"
+    range="6 sáhů"
+    components="V"
+    duration="Ihned"
+    concentration="false"
+    classes="Čaroděj, Černokněžník, Kouzelník"
+    >
+
+  Vzduch kolem až pěti tvorů, které zvolíš a které vidíš v dosahu, se zachvěje. Tvor, který je nedobrovolným cílem, si musí hodit záchranný hod na Moudrost a pokud uspěje, kouzlo na něj nepůsobí. Každý tvor, ovlivněný tímto kouzlem, je teleportován na tebou zvolené místo, které vidíš a které se nachází do 24 sáhů od tebe. Zvolené místo musí být na zemi nebo na podlaze.
+  </spell>
+
+<spell
     title="Rozptyl magii"
     original="Dispel magic"
     rulebook="Příručka hráče"
     school="Vymítání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Druid, Hraničář, Klerik, Kouzelník, Paladin"
     >
 
@@ -5709,10 +6202,12 @@ Drží-li tvor ovlivněný předmět, nebo ho má na sobě, když utrpí dané z
     rulebook="Příručka hráče"
     school="Vymítání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (svěcená voda, nebo stříbrný a železný prášek)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Klerik, Paladin"
     >
 
@@ -5731,10 +6226,12 @@ Kouzlo můžeš ukončit předčasně použitím jedné z následujících zvlá
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (odštěpek slídy)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -5751,10 +6248,12 @@ Nemagický předmět, který nikdo nedrží ani nenese, utrpí také poškození
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (kousek kožešiny; kus jantaru, skla, nebo křišťálové žezlo; a tři stříbrné špendlíky)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -5774,10 +6273,12 @@ eyJoaXN0b3J5IjpbLTE4NjI5MDk1OF19
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce, nebo 8 hodin"
     range="30 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Druid, Hraničář"
     >
 
@@ -5796,10 +6297,12 @@ Sesíláš-li kouzlo 8 hodin, zúrodníš půdu. Všechny rostliny v okruhu o po
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (kořen lékořice lysé)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -5809,33 +6312,17 @@ Když kouzlo skončí, tvor se bude moci pohybovat a provádět akce až po své
   </spell>
 
 <spell
-    title="Slovo světla"
-    original="Word of radiance"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Zaklínání"
-    level="0"
-    casting="1 akce"
-    range="1 sáh"
-    components="V, S (svatý symbol)"
-    duration="Ihned"
-    classes="Klerik"
-    >
-
-  Proneseš slovo boží a vyjde z tebe spalující záře. Každý tvor podle tvé volby, kterého vidíš v dosahu, musí uspět v záchranném hodu na Odolnost, jinak utrpí 1k6 zářivého zranění.
-
-Zranění tohoto kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6), 11. úrovně (3k6) a 17. úrovně (4k6).
-  </spell>
-
-<spell
     title="Rychlý toulec"
     original="Swift quiver"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="1 bonusová akce"
     range="Dotyk"
     components="V, P, S (toulec, ve kterém je aspoň jedna střela)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Hraničář"
     >
 
@@ -5850,10 +6337,12 @@ V každém svém tahu, dokud kouzlo neskončí, můžeš použít bonusovou akci
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (kus vepřové kůže, nebo máslo)"
     duration="1 minuta"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -5868,10 +6357,12 @@ Když se mazadlo objeví, každý tvor stojící v jeho oblasti musí uspět v z
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="6"
+    ritual="false"
     casting="1 minuta"
     range="Ty sám"
     components="V, P, S (drahokam, křišťál a relikviář, nebo nějaká jiná ozdobná nádoba v hodnotě aspoň 500 zl)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -5896,10 +6387,12 @@ Když kouzlo skončí, nádoba se zničí.
     rulebook="Příručka hráče"
     school="Vymítání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Černokněžník, Klerik, Kouzelník, Paladin"
     >
 
@@ -5912,10 +6405,12 @@ Když kouzlo skončí, nádoba se zničí.
     rulebook="Příručka hráče"
     school="Iluze"
     level="5"
+    ritual="false"
     casting="1 minuta"
     range="Zvláštní"
     components="V, P, S (hrst písku, kapka inkoustu a psací brk vytržený ze spícího ptáka)"
     duration="8 hodin"
+    concentration="false"
     classes="Bard, Černokněžník, Kouzelník"
     >
 
@@ -5934,10 +6429,12 @@ Pokud máš část těla, pramen vlasů, ústřižek z nehtu či podobnou část
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -5949,33 +6446,23 @@ Za každý paprsek si hoď na útok na dálku kouzlem. Při zásahu cíl utrpí 
   </spell>
 
 <spell
-    title="Strážný znak"
-    original="Glyph of warding"
-    rulebook="Příručka hráče"
-    school="Vymítání"
-    level="3"
-    casting="1 hodina"
-    range="Dotyk"
-    components="V, P, S (kadidlo a diamantový prach v hodnotě aspoň 200 zl, které kouzlo spotřebuje)"
-    duration="Do rozptýlení, nebo spuštění"
-    classes="Bard, Klerik, Kouzelník"
+    title="Stín moilu"
+    original="Shadow of moil"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Nekromancie"
+    level="4"
+    ritual="false"
+    casting="1 akce"
+    range="Ty sám"
+    components="V, P, S (nemrtvé oko uzavřené v drahokamu, který má hodnotu alespoň 150 zl)"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Černokněžník"
     >
 
-  Když sesíláš toto kouzlo, vyryješ znak, který zraňuje ostatní tvory, buď na povrch (například na stůl nebo část podlahy či zdi), nebo do předmětu, který se dá zavřít (například do knihy, svitku či truhly) pro ukrytí znaku. Zvolíš-li povrch, znak může pokrývat oblast menší nebo rovnou 2 sáhy v průměru. Zvolíš-li předmět, pak tento předmět musí zůstat na místě; pokud se vzdálí o víc než 2 sáhy od místa, kde jsi seslal toto kouzlo, znak se rozptýlí a kouzlo skončí bez spuštění.
+  Stíny podobné plamenům zahalí tvé tělo a až do konce kouzla se staneš pro ostatní hustě zahaleným. Stíny, které tě obklopují, změní tlumená světla do 2 sáhů od tebe na tmu a jasná světla na tlumená.
 
-Znak je téměř neviditelný a jeho objevení vyžaduje úspěšný hod na ověření Inteligence (Pátrání) proti tvému SO záchrany kouzla.
-
-Když sesíláš toto kouzlo, určíš, co znak spustí. Pro znaky vyryté na povrch patří mezi nejtypičtější spouštěče dotyk nebo stoupnutí na znak, přemístění předmětu, který zakrývá znak, přiblížení se do jisté vzdálenosti od znaku, nebo manipulování s objektem, na kterém je znak vyrytý. Pro znaky vyryté do předmětu patří mezi nejtypičtější spouštěče otevření předmětu, přiblížení se do jisté vzdálenosti od předmětu, nebo pohled na symbol či přečtení symbolu. Jakmile se znak spustí, toto kouzlo skončí.
-
-Spouštěč můžeš dále upravit, aby se kouzlo aktivovalo pouze za určitých podmínek nebo podle fyzikálních vlastností (jako je například výška či váha), druhu tvora (strážný znak může být například nastaven, aby působil jen na drovy či zrůdy) či přesvědčení. Můžeš také nastavit podmínky pro tvory, kteří znak nespustí, například pro ty, kteří vysloví určité heslo.
-
-Když vyrýváš znak, zvol buď *výbušné runy*, nebo *znak kouzla*.
-
-***Výbušné runy.*** Když se znak spustí, vybuchne magickou energií v kouli o poloměru 4 sáhy se středem ve znaku. Koule se rozšiřuje kolem rohů. Každý tvor v oblasti si musí hodit záchranný hod na Obratnost. Když neuspěje, utrpí buď bleskové, hromové, chladné, kyselinové, nebo ohnivé (dle tvé volby, když vytváříš znak) zranění 5k8, nebo poloviční zranění při úspěšném záchranném hodu.
-
-***Znak kouzla.*** Do znaku můžeš uložit připravené kouzlo 3. či nižší úrovně; sešleš ho jako součást tvorby znaku. Kouzlo musí cílit na jednoho tvora nebo oblast. Ukládané kouzlo nemá žádný okamžitý účinek, když je sesláno tímto způsobem. Když se znak spustí, uložené kouzlo se sešle. Má-li kouzlo cíl, zacílí tvora, který znak spustil. Pokud kouzlo ovlivňuje oblast, pak oblast účinku má střed v tomto tvorovi. Pokud kouzlo přivolává nepřátelské tvory nebo vytváří zraňující předměty či pasti, objeví se co nejblíže narušiteli a zaútočí na něj. Vyžaduje-li kouzlo soustředění, vydrží do konce své plné doby trvání.
-
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 4. či vyšší úrovně, za každou další úroveň pozice nad 3. se zvýší zranění výbušných run o 3k6. Vytvoříš-li znak kouzla, můžeš v něm uložit jakékoliv kouzlo stejné úrovně, jako je úroveň pozice, kterou použiješ pro *strážný znak*.
+Po dobu trvání kouzla jsi odolný proti zářivému zranění. Navíc, kdykoliv tě tvor do 2 sáhů od tebe zasáhne zbraní na blízko, stíny se po něm oženou a způsobí mu 2k8 nekrotického zranění.
   </spell>
 
 <spell
@@ -5984,10 +6471,12 @@ Když vyrýváš znak, zvol buď *výbušné runy*, nebo *znak kouzla*.
     rulebook="Příručka hráče"
     school="Vymítání"
     level="5"
+    ritual="false"
     casting="1 hodina"
     range="12 sáhů"
     components="V, P, S (šperk v hodnotě aspoň 1 000 zl, který se kouzlem spotrebuje)"
     duration="24 hodin"
+    concentration="false"
     classes="Bard, Druid, Klerik, Kouzelník"
     >
 
@@ -6004,10 +6493,12 @@ Zavázaný tvor musí plnit tvé instrukce, jak nejlépe dokáže. Můžeš mu p
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="6"
+    ritual="false"
     casting="10 minut"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -6030,10 +6521,12 @@ Tvor, jenž se přidá k vaší družině, se bere za jejího člena a obdrží 
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="20 sáhů"
     components="V, P, S (rubínový prach v hodnotě 1 500 zl)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Černokněžník, Kouzelník"
     >
 
@@ -6056,10 +6549,12 @@ Toto kouzlo nelze rozptýlit pomocí *rozptyl magii*.
     rulebook="Příručka hráče"
     school="Transmutace"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (zadní noha kobylky)"
     duration="1 minuta"
+    concentration="false"
     classes="Čaroděj, Druid, Hraničář, Kouzelník"
     >
 
@@ -6072,10 +6567,12 @@ Toto kouzlo nelze rozptýlit pomocí *rozptyl magii*.
     rulebook="Příručka hráče"
     school="Transmutace"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (kapka rtuti, hrudka arabské gumy a obláček kouře)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Černokněžník, Kouzelník"
     >
 
@@ -6102,10 +6599,12 @@ Stane-li se kouzlo trvalé, přestaneš tvora ovládat. Může zůstat vůči to
     rulebook="Příručka hráče"
     school="Očarování"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (hrst jílu, křišťál, sklo nebo nerostné koule)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Černokněžník, Druid, Kouzelník"
     >
 
@@ -6127,10 +6626,12 @@ eyJoaXN0b3J5IjpbLTEyMDEwNDgzMTldfQ==
     rulebook="Příručka hráče"
     school="Věštění"
     level="5"
+    ritual="false"
     casting="10 minut"
     range="Ty sám"
     components="V, P, S (ohniskový předmět v hodnotě aspoň 1 000 zl, například křišťálová koule, stříbrné zrcadlo, nebo kropenka se svěcenou vodou)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Bard, Černokněžník, Druid, Klerik, Kouzelník"
     >
 
@@ -6161,10 +6662,12 @@ Místo zacílení tvora můžeš jako cíl tohoto kouzla zvolit místo, které j
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V"
     duration="1 minuta"
+    concentration="false"
     classes="Bard, Čaroděj, Klerik, Kouzelník"
     >
 
@@ -6174,15 +6677,61 @@ Místo zacílení tvora můžeš jako cíl tohoto kouzla zvolit místo, které j
   </spell>
 
 <spell
+    title="Teleport"
+    original="Teleport"
+    rulebook="Příručka hráče"
+    school="Vyvolávání"
+    level="7"
+    ritual="false"
+    casting="1 akce"
+    range="2 sáhy"
+    components="V"
+    duration="Ihned"
+    concentration="false"
+    classes="Bard, Čaroděj, Kouzelník"
+    >
+
+  Toto kouzlo okamžitě přenese buď tebe a až osm dalších tvorů dle tvé volby, kteří s tím souhlasí a které vidíš v dosahu, nebo jeden předmět, který vidíš v dosahu, na cílové místo, které zvolíš. Zvolíš-li předmět, musí se zcela vejít do krychle o straně 2 sáhy a nesmí ho držet ani nést tvor, který s teleportem nesouhlasí.
+
+Cílové místo, které zvolíš, musíš znát a musí být ve stejné sféře existence jako ty. Tvá obeznámenost s cílovým místem určí, jestli úspěšně dorazíte. PJ hodí k% a nahlédne do tabulky.
+
+***Obeznámenost.*** „Trvalý kruh" znamená trvalý teleportační kruh, u něhož znáš řadu jeho run. „Spjatý předmět" znamená, že máš předmět, který byl vzat z požadovaného cílové místa v posledních šesti měsících, například kniha z kouzelnické knihovny, ložní prádlo z královského apartmá nebo úlomek mramoru z kostějovy tajné hrobky.
+
+„Dobře známé" je místo, na němž jsi velmi často pobýval, nebo které jsi pečlivě prostudoval, nebo které vidíš, když sesíláš kouzlo. „Od vidění" je nějaké místo, které jsi viděl více než jednou, ale se kterým nejsi moc obeznámený. „Jednou spatřené" je místo, které jsi jednou viděl, nejspíš použitím magie. „Z popisu" je místo, jehož polohu a vzhled znáš z cizího popisu, nejspíš z mapу.
+
+„Falešné cílové místo" je místo, které neexistuje. Nejspíš ses pokusil magicky sledovat nepřátelskou svatyni, ale místo ní jsi viděl iluzi, nebo se snažíš teleportovat na známé místo, které už neexistuje.
+
+***Na cíli.*** Ty a tvá družina (nebo cílový předmět) se objevíte tam, kde chceš.
+
+***Mimo cíl.*** Ty a tvá skupina (nebo cílový předmět) se objevíte v náhodné vzdálenosti a náhodném směru od cílového místa. Vzdálenost od cíle je 1k10 X 1k10% ze vzdálenosti, kterou jste měli urazit. Pokud jste se například pokoušeli cestovat 120 mil a přistanete mimo cíl a hodíš 5 a 3 na dvou k 10, pak budete mimo cíl o 15%, tedy 18 mil. PJ stanoví směr mimo cíl náhodně hodem k8. 1 pro sever; 2 pro severovýchod; 3 pro východ a tak dál kolem světových stran. Pokud jste se chtěli teleportovat do pobřežního města a skončili jste 30 mil v moři, můžete být v průšvihu.
+
+***Podobná oblast.*** Ty a tvá skupina (nebo cílový předmět) skončíte v jiné oblasti, která je vizuálně či tematicky podobná cílové oblasti. Pokud například směřuješ do své domácí laboratoře, můžeš skončit v laboratoři jiného kouzelníka nebo v obchodě s alchymistickými potřebami, ve kterém je mnoho stejných nástrojů a pomůcek jako ve tvé laboratoři. Obecně se objevíš na nejbližším podobném místě, ale protože kouzlo nemá omezený dosah, mohl bys teoreticky skončit kdekoliv v dané sféře.
+
+***Nehoda.*** Nepředvídatelná magie kouzla vyústí v obtížnou cestu. Každý teleportovaný tvor (nebo cílový předmět) utrpí silové zranění 3k10 a PJ si opět hodí podle tabulky, aby zjistil, kde jste skončili (nehoda se může vyskytnout opakovaně, přičemž pokaždé způsobí zranění).
+
+| Obeznámenost | Nehoda | Podobná oblast Mimo cíl | Do cíle |
+| --- | --- | --- | --- |
+| Trvalý kruh | — | — | — | 01–100 |
+| Spjatý předmět | — | — | — | 01–100 |
+| Dobře známé | 01−05 | 06−13 | 14−24 | 25−100 |
+| Od vidění | 01−33 | 34−43 | 44−53 | 54−100 |
+| Jednou spatřené | 01−43 | 44−53 | 54−73 | 74−100 |
+| Z popisu | 01−43 | 44−53 | 54−73 | 74−100 |
+| Falešné cílové místo | 01−50 | 51−100 | — | — |
+  </spell>
+
+<spell
     title="Šlofík"
     original="Catnap"
     rulebook="Xanatharuv pruvodce vším"
     school="Očarování"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="P, S (špetka písku)"
     duration="10 minut"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -6197,10 +6746,12 @@ Místo zacílení tvora můžeš jako cíl tohoto kouzla zvolit místo, které j
     rulebook="Xanatharuv pruvodce vším"
     school="Očarování"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -6217,10 +6768,12 @@ Cíl trpící bolestí může zopakovat záchranný hod na Odolnost na konci ka�
     rulebook="Příručka hráče"
     school="Očarování"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -6235,10 +6788,12 @@ Ochromený tvor si musí hodit záchranný hod na Odolnost na konci každého sv
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard"
     >
 
@@ -6251,14 +6806,78 @@ Ochromený tvor si musí hodit záchranný hod na Odolnost na konci každého sv
     rulebook="Příručka hráče"
     school="Očarování"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
   Proneseš slovo moci, které dokáže přinutit jednoho tvora, kterého vidíš v dosahu, okamžitě zemřít. Má-li cíl 100 či méně životů, zemře. V opačném případě je kouzlo bez účinku.
+  </spell>
+
+<spell
+    title="Slovo návratu"
+    original="Word of recall"
+    rulebook="Příručka hráče"
+    school="Vyvolávání"
+    level="6"
+    ritual="false"
+    casting="1 akce"
+    range="1 sáh"
+    components="V"
+    duration="Ihned"
+    concentration="false"
+    classes="Klerik"
+    >
+
+  Ty a až pět dalších tvorů, kteří s tím souhlasí a jsou do 1 sáhu od tebe, se okamžitě teleportujete do dříve stanovené svatyně. Po teleportaci se objevíte na nejbližším volném místě k bodu, které jsi určil, když sis svatyni připravoval (viz níže). Sešleš-li toto kouzlo, aniž by sis prve připravil svatyni, kouzlo nemá žádný účinek.
+
+Musíš stanovit svatyni sesláním tohoto kouzla v místě zasvěcenému nebo silně spojenému s tvým božstvem, například v chrámu. Pokusíš-li se seslat kouzlo tímto způsobem v oblasti, která není zasvěcená tvému božstvu, kouzlo nemá žádný účinek.
+  </spell>
+
+<spell
+    title="Slovo světla"
+    original="Word of radiance"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Zaklínání"
+    level="0"
+    ritual="false"
+    casting="1 akce"
+    range="1 sáh"
+    components="V, S (svatý symbol)"
+    duration="Ihned"
+    concentration="false"
+    classes="Klerik"
+    >
+
+  Proneseš slovo boží a vyjde z tebe spalující záře. Každý tvor podle tvé volby, kterého vidíš v dosahu, musí uspět v záchranném hodu na Odolnost, jinak utrpí 1k6 zářivého zranění.
+
+Zranění tohoto kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6), 11. úrovně (3k6) a 17. úrovně (4k6).
+  </spell>
+
+<spell
+    title="Sluneční paprsek"
+    original="Sunbeam"
+    rulebook="Příručka hráče"
+    school="Zaklínání"
+    level="6"
+    ritual="false"
+    casting="1 akce"
+    range="Ty sám (dráha 12 sáhů)"
+    components="V, P, S (lupa)"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Čaroděj, Druid, Kouzelník"
+    >
+
+  Ze tvé ruky vyletí paprsek oslnivého světla v 1 sáh široké a 12 sáhů dlouhé dráze. Každý tvor v dráze si musí hodit záchranný hod na Odolnost. Když tvor neuspěje, utrpí zářivé zranění 6k8 a oslepne do tvého příštího tahu. Když uspěje, utrpí poloviční zranění a neoslepne tímto kouzlem. Nemrtví a slizy mají nevýhodu k tomuto záchrannému hodu.
+
+Jako svou akci v libovolném tahu, dokud kouzlo neskončí, můžeš vytvořit novou dráhu záření.
+
+Po dobu trvání ve tvé dlani svítí zrnko oslnivého světla. Osvítí jasným světlem okruh o poloměru 6 sáhů a dalších 6 sáhů dosvítí slabým světlem. Jde o sluneční světlo.
   </spell>
 
 <spell
@@ -6267,10 +6886,12 @@ Ochromený tvor si musí hodit záchranný hod na Odolnost na konci každého sv
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (oheň a kus slunečního kamene)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -6285,35 +6906,17 @@ eyJoaXN0b3J5IjpbLTUyODEwNTQ1M119
   </spell>
 
 <spell
-    title="Sluneční paprsek"
-    original="Sunbeam"
-    rulebook="Příručka hráče"
-    school="Zaklínání"
-    level="6"
-    casting="1 akce"
-    range="Ty sám (oblast)"
-    components="V, P, S (lupa)"
-    duration="1 minuta"
-    classes="Čaroděj, Druid, Kouzelník"
-    >
-
-  Ze tvé ruky vyletí paprsek oslnivého světla v 1 sáh široké a 12 sáhů dlouhé dráze. Každý tvor v dráze si musí hodit záchranný hod na Odolnost. Když tvor neuspěje, utrpí zářivé zranění 6k8 a oslepne do tvého příštího tahu. Když uspěje, utrpí poloviční zranění a neoslepne tímto kouzlem. Nemrtví a slizy mají nevýhodu k tomuto záchrannému hodu.
-
-Jako svou akci v libovolném tahu, dokud kouzlo neskončí, můžeš vytvořit novou dráhu záření.
-
-Po dobu trvání ve tvé dlani svítí zrnko oslnivého světla. Osvítí jasným světlem okruh o poloměru 6 sáhů a dalších 6 sáhů dosvítí slabým světlem. Jde o sluneční světlo.
-  </spell>
-
-<spell
     title="Smršť"
     original="Whirlwind"
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="60 sáhů"
     components="V, S (kousek slámy)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -6330,10 +6933,12 @@ Zadržený tvor může použít svou akci k ověření Síly nebo Obratnosti pro
     rulebook="Xanatharuv pruvodce vším"
     school="Vymítání"
     level="1"
+    ritual="false"
     casting="1 minuta"
     range="Dotyk"
     components="P, S (5 sáhů provazu, které kouzlo spotřebuje)"
     duration="8 hodin"
+    concentration="false"
     classes="Druid, Hraničář, Kouzelník"
     >
 
@@ -6354,10 +6959,12 @@ Poté, co je past jednou spuštěna, skončí kouzlo ve chvíli, kdy jím není 
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -6372,10 +6979,12 @@ Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 1
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -6385,15 +6994,39 @@ Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 1
   </spell>
 
 <spell
+    title="Spojení"
+    original="Commune"
+    rulebook="Příručka hráče"
+    school="Věštění"
+    level="5"
+    ritual="false"
+    casting="1 minuta"
+    range="Ty sám"
+    components="V, P, S (kadidlo a flakónek svěcené nebo kacířské vody)"
+    duration="1 minuta"
+    concentration="false"
+    classes="Klerik"
+    >
+
+  Kontaktuješ své božstvo či jeho prostředníka a zeptáš se až na tři otázky, jež se dají zodpovědět „ano" nebo „ne". Své dotazy musíš položit, než kouzlo skončí. Na každou otázku získáš správnou odpověd.
+
+Božské bytosti nemusí být nutně vševědoucí, takže mohou odpovědět „nejasné", týká-li se dotaz něčeho, co je mimo jejich božské znalosti. V případě, že by jednoslovná odpověď byla zavádějící nebo v rozporu se zájmy božstva, může PJ odpovědět krátkou větou.
+
+Sešleš-li kouzlo dvakrát či víckrát před tím, než si důkladně odpočineš, je u každého seslání po prvním kumulativní 25% šance, že nedostaneš žádnou odpověd. PJ si hází tento hod v tajnosti.
+  </spell>
+
+<spell
     title="Spánek"
     original="Sleep"
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (špetka jemného písku, okvětní lístky růže, nebo cvrček)"
     duration="1 minuta"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -6412,10 +7045,12 @@ Toto kouzlo nijak nepůsobí na nemrtvé ani tvory, kteří jsou imunní vůči 
     rulebook="Příručka hráče"
     school="Věštění"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (kousek slídy a malá špetka stříbrného prášku)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -6428,10 +7063,12 @@ Toto kouzlo nijak nepůsobí na nemrtvé ani tvory, kteří jsou imunní vůči 
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="7"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (kužel 12 sáhů)"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -6460,10 +7097,12 @@ Toto kouzlo nijak nepůsobí na nemrtvé ani tvory, kteří jsou imunní vůči 
     rulebook="Příručka hráče"
     school="Vymítání"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="10 minut"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -6500,14 +7139,41 @@ Tuto vrstvu je možné zničit kouzlem *rozptyl magii* nebo podobným kouzlem st
     rulebook="Příručka hráče"
     school="Transmutace"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
   Toto kouzlo ti umožňuje pohybovat se neuvěřitelným tempem. Když sešleš toto kouzlo a pak jako bonusovou akci v každém svém tahu, dokud kouzlo neskončí, můžeš provést akci Sprint.
+  </spell>
+
+<spell
+    title="Splyň s kamenem"
+    original="Meld into stone"
+    rulebook="Příručka hráče"
+    school="Transmutace"
+    level="3"
+    ritual="false"
+    casting="1 akce"
+    range="Dotyk"
+    components="V, P"
+    duration="8 hodin"
+    concentration="false"
+    classes="Druid, Klerik"
+    >
+
+  Vejdeš do kamenného předmětu nebo povrchu, jenž je dostatečně velký, aby dokázal plně pojmout tvé tělo a splyneš i se vším svým vybavením s kamenem po dobu trvání. Pomocí svého pohybu vstoupíš do kamene v bodě, kterého se můžeš dotknout. Nic z tebe nebude viditeliné ani odhaliteliné nemagickymi smysly.
+
+V době, kdy splýváš s kamenem, nevidíš, co se děje venku a ke všem ověřením Moudrosti (Vnímání), která si hodíš na zaslechnutí zvuků venku, máš nevýhodu. Během této doby si zůstaneš vědom plynutí času a můžeš na sebe sesílat kouzla. Pomocí svého pohybu můžeš opustit kámen tam, kde jsi do něj vstoupil, a kouzlo tak ukončit. Jinak se nemůžeš hýbat.
+
+Drobná fyzická poškození kamene ti neublíží, ale jeho částečné zničení nebo změna tvaru (do rozsahu, do které se už nevejdeš) tě vypudí a způsobí ti drtivé zranění 6k6. Úplné zničení kamene (nebo proměna do jiného materiálu) tě vypudí a způsobí ti drtivé zranění 50. Jsi-li vypuzen, spadneš na volné místo, které je nejblíž bodu, ve kterém jsi vstupoval do kamene.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE5MjQ2NjQ0M119
+-->
   </spell>
 
 <spell
@@ -6516,10 +7182,12 @@ Tuto vrstvu je možné zničit kouzlem *rozptyl magii* nebo podobným kouzlem st
     rulebook="Příručka hráče"
     school="Věštění"
     level="5"
+    ritual="false"
     casting="1 minuta"
     range="Ty sám"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Druid, Hraničář"
     >
 
@@ -6537,53 +7205,17 @@ Například můžeš určit polohu mocného nemrtvého v oblasti, polohu hlavní
   </spell>
 
 <spell
-    title="Spojení"
-    original="Commune"
-    rulebook="Příručka hráče"
-    school="Věštění"
-    level="5"
-    casting="1 minuta"
-    range="Ty sám"
-    components="V, P, S (kadidlo a flakónek svěcené nebo kacířské vody)"
-    duration="1 minuta"
-    classes="Klerik"
-    >
-
-  Kontaktuješ své božstvo či jeho prostředníka a zeptáš se až na tři otázky, jež se dají zodpovědět „ano" nebo „ne". Své dotazy musíš položit, než kouzlo skončí. Na každou otázku získáš správnou odpověd.
-
-Božské bytosti nemusí být nutně vševědoucí, takže mohou odpovědět „nejasné", týká-li se dotaz něčeho, co je mimo jejich božské znalosti. V případě, že by jednoslovná odpověď byla zavádějící nebo v rozporu se zájmy božstva, může PJ odpovědět krátkou větou.
-
-Sešleš-li kouzlo dvakrát či víckrát před tím, než si důkladně odpočineš, je u každého seslání po prvním kumulativní 25% šance, že nedostaneš žádnou odpověd. PJ si hází tento hod v tajnosti.
-  </spell>
-
-<spell
-    title="Stín moilu"
-    original="Shadow of moil"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Nekromancie"
-    level="4"
-    casting="1 akce"
-    range="Ty sám"
-    components="V, P, S (nemrtvé oko uzavřené v drahokamu, který má hodnotu alespoň 150 zl)"
-    duration="1 minuta"
-    classes="Černokněžník"
-    >
-
-  Stíny podobné plamenům zahalí tvé tělo a až do konce kouzla se staneš pro ostatní hustě zahaleným. Stíny, které tě obklopují, změní tlumená světla do 2 sáhů od tebe na tmu a jasná světla na tlumená.
-
-Po dobu trvání kouzla jsi odolný proti zářivému zranění. Navíc, kdykoliv tě tvor do 2 sáhů od tebe zasáhne zbraní na blízko, stíny se po něm oženou a způsobí mu 2k8 nekrotického zranění.
-  </spell>
-
-<spell
     title="Stínočepel"
     original="Shadow blade"
     rulebook="Xanatharuv pruvodce vším"
     school="Iluze"
     level="2"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -6600,10 +7232,12 @@ Když zbraň upustíš nebo ji vrhneš, rozplyne se na konci tvého kola jako p�
     rulebook="Příručka hráče"
     school="Vymítání"
     level="5"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (okruh 2 sáhy)"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Druid"
     >
 
@@ -6620,10 +7254,12 @@ Pohneš-li se tak, že ovlivněný tvor je nucen projít bariérou, kouzlo skon�
     rulebook="Příručka hráče"
     school="Vymítání"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="12 sáhů"
     components="V, P, S (malý pergamen, na kterém je napsaný kus svatého textu)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Klerik, Paladin"
     >
 
@@ -6636,10 +7272,12 @@ Pohneš-li se tak, že ovlivněný tvor je nucen projít bariérou, kouzlo skon�
     rulebook="Příručka hráče"
     school="Vymítání"
     level="1"
-    casting="1 reakce"
+    ritual="false"
+    casting="1 reakce, kterou provedeš, když tě zasáhne útok, nebo když jsi zacílen kouzlem magická střela"
     range="Ty sám"
     components="V, P"
     duration="1 kolo"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -6652,10 +7290,12 @@ Pohneš-li se tak, že ovlivněný tvor je nucen projít bariérou, kouzlo skon�
     rulebook="Příručka hráče"
     school="Iluze"
     level="3"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (kužel 6 sáhů)"
     components="V, P, S (bílé péro, nebo slepičí srdce)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -6670,10 +7310,12 @@ Když je tvor vystrašený tímto kouzlem, musí v každém svém tahu provést 
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V"
     duration="8 hodin"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -6691,10 +7333,12 @@ eyJoaXN0b3J5IjpbLTEwMTA2MzY2ODVdfQ==
     rulebook="Příručka hráče"
     school="Vymítání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (dvojice platinových prstenů, každý v hodnotě aspoň 50 zl, které ty a cíl musíte mít navlečené na prstu po dobu trvání)"
     duration="1 hodina"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -6709,10 +7353,12 @@ Kouzlo skončí, pokud ti klesnou životy na 0, nebo pokud se s cílem vzdálít
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Bard, Čaroděj, Druid, Kouzelník"
     >
 
@@ -6727,15 +7373,49 @@ Vítr působí následující účinky:
   </spell>
 
 <spell
+    title="Strážný znak"
+    original="Glyph of warding"
+    rulebook="Příručka hráče"
+    school="Vymítání"
+    level="3"
+    ritual="false"
+    casting="1 hodina"
+    range="Dotyk"
+    components="V, P, S (kadidlo a diamantový prach v hodnotě aspoň 200 zl, které kouzlo spotřebuje)"
+    duration="Do rozptýlení, nebo spuštění"
+    concentration="false"
+    classes="Bard, Klerik, Kouzelník"
+    >
+
+  Když sesíláš toto kouzlo, vyryješ znak, který zraňuje ostatní tvory, buď na povrch (například na stůl nebo část podlahy či zdi), nebo do předmětu, který se dá zavřít (například do knihy, svitku či truhly) pro ukrytí znaku. Zvolíš-li povrch, znak může pokrývat oblast menší nebo rovnou 2 sáhy v průměru. Zvolíš-li předmět, pak tento předmět musí zůstat na místě; pokud se vzdálí o víc než 2 sáhy od místa, kde jsi seslal toto kouzlo, znak se rozptýlí a kouzlo skončí bez spuštění.
+
+Znak je téměř neviditelný a jeho objevení vyžaduje úspěšný hod na ověření Inteligence (Pátrání) proti tvému SO záchrany kouzla.
+
+Když sesíláš toto kouzlo, určíš, co znak spustí. Pro znaky vyryté na povrch patří mezi nejtypičtější spouštěče dotyk nebo stoupnutí na znak, přemístění předmětu, který zakrývá znak, přiblížení se do jisté vzdálenosti od znaku, nebo manipulování s objektem, na kterém je znak vyrytý. Pro znaky vyryté do předmětu patří mezi nejtypičtější spouštěče otevření předmětu, přiblížení se do jisté vzdálenosti od předmětu, nebo pohled na symbol či přečtení symbolu. Jakmile se znak spustí, toto kouzlo skončí.
+
+Spouštěč můžeš dále upravit, aby se kouzlo aktivovalo pouze za určitých podmínek nebo podle fyzikálních vlastností (jako je například výška či váha), druhu tvora (strážný znak může být například nastaven, aby působil jen na drovy či zrůdy) či přesvědčení. Můžeš také nastavit podmínky pro tvory, kteří znak nespustí, například pro ty, kteří vysloví určité heslo.
+
+Když vyrýváš znak, zvol buď *výbušné runy*, nebo *znak kouzla*.
+
+***Výbušné runy.*** Když se znak spustí, vybuchne magickou energií v kouli o poloměru 4 sáhy se středem ve znaku. Koule se rozšiřuje kolem rohů. Každý tvor v oblasti si musí hodit záchranný hod na Obratnost. Když neuspěje, utrpí buď bleskové, hromové, chladné, kyselinové, nebo ohnivé (dle tvé volby, když vytváříš znak) zranění 5k8, nebo poloviční zranění při úspěšném záchranném hodu.
+
+***Znak kouzla.*** Do znaku můžeš uložit připravené kouzlo 3. či nižší úrovně; sešleš ho jako součást tvorby znaku. Kouzlo musí cílit na jednoho tvora nebo oblast. Ukládané kouzlo nemá žádný okamžitý účinek, když je sesláno tímto způsobem. Když se znak spustí, uložené kouzlo se sešle. Má-li kouzlo cíl, zacílí tvora, který znak spustil. Pokud kouzlo ovlivňuje oblast, pak oblast účinku má střed v tomto tvorovi. Pokud kouzlo přivolává nepřátelské tvory nebo vytváří zraňující předměty či pasti, objeví se co nejblíže narušiteli a zaútočí na něj. Vyžaduje-li kouzlo soustředění, vydrží do konce své plné doby trvání.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 4. či vyšší úrovně, za každou další úroveň pozice nad 3. se zvýší zranění výbušných run o 3k6. Vytvoříš-li znak kouzla, můžeš v něm uložit jakékoliv kouzlo stejné úrovně, jako je úroveň pozice, kterou použiješ pro *strážný znak*.
+  </spell>
+
+<spell
     title="Stvoř homunkula"
     original="Create homonculus"
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 hodina"
     range="Dotyk"
     components="V, P, S (hlína, popel a kořen mandragory, které kouzlo spotřebuje a dýka osázená drahokamy, v hodnotě alespoň 1000 zl)"
     duration="Ihned"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -6752,10 +7432,12 @@ Najednou můžeš mít jen jednoho homunkula. Pokud sešleš toto kouzlo, zatím
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Klerik, Paladin"
     >
 
@@ -6768,10 +7450,12 @@ Najednou můžeš mít jen jednoho homunkula. Pokud sešleš toto kouzlo, zatím
     rulebook="Příručka hráče"
     school="Transmutace"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (kapka vody pro stvoření vody, nebo pár zrníček písku pro zničení vody)"
     duration="Ihned"
+    concentration="false"
     classes="Druid, Klerik"
     >
 
@@ -6790,10 +7474,12 @@ Najednou můžeš mít jen jednoho homunkula. Pokud sešleš toto kouzlo, zatím
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="6"
+    ritual="false"
     casting="1 minuta"
     range="2 sáhy"
     components="V, P, S (jeden hliněný kotlík naplněný hřbitovní hlínou, jeden hliněný kotlík naplněný poloslanou vodou a jeden černý onyx v hodnotě 150 zl za každou mrtvolu)"
     duration="Ihned"
+    concentration="false"
     classes="Černokněžník, Klerik, Kouzelník"
     >
 
@@ -6807,15 +7493,44 @@ Tvor je pod tvou kontrolou 24 hodin a poté přestane plnit tebou vydané rozkaz
   </spell>
 
 <spell
+    title="Stvoř nemrtvého"
+    original="Animate dead"
+    rulebook="Příručka hráče"
+    school="Nekromancie"
+    level="3"
+    ritual="false"
+    casting="1 minuta"
+    range="2 sáhy"
+    components="V, P, S (kapka krve, kousek těla a špetka kostní moučky)"
+    duration="Ihned"
+    concentration="false"
+    classes="Klerik, Kouzelník"
+    >
+
+  Toto kouzlo vytvoří nemrtvého služebníka. Zvol hromádku kostí nebo mrtvolu Středního nebo Malého humanoida v dosahu. Tvé kouzlo naplní cíl falešnou napodobeninou života a oživí ho jako nemrtvého tvora. Pokud jsi zvolil kosti, stane se z nich kostlivec, a pokud jsi zvolil mrtvolu, stane se z ní zombie (PJ má jejich herní statistiky).
+
+V každém svém tahu můžeš pomocí bonusové akce mentálně udělit rozkaz libovolnému tvorovi, kterého jsi oživil tímto kouzlem, pokud je do 12 sáhů od tebe (máš-li pod svou kontrolou několik tvorů, můžeš udělit rozkaz některým z nich či všem najednou, přičemž každému udělíš stejný rozkaz). Určíš, jakou akci tvor vykoná a kam se pohne ve svém příštím tahu. Nebo mu můžeš vydat obecný rozkaz, například aby hlídal konkrétní místnost nebo chodbu. Neudělíš-li žádný rozkaz, tvor se bude jen bránit proti nepřátelským tvorům. Jakmile udělíš rozkaz, tvor se ho snaží plnit, dokud činnost nedokončí.
+
+Tvor je pod tvou kontrolou 24 hodin a poté přestane plnit tebou vydané rozkazy. Aby sis udržel nad tvorem kontrolu na dalších 24 hodin, musíš na něj seslat toto kouzlo, než uplyne aktuální 24-hodinový interval. Takovéto použití kouzla opětovně uplatní tvou kontrolu až nad čtyřmi tvory, které jsi oživil tímto kouzlem, místo aby oživilo jednoho nového.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 4. či vyšší úrovně, za každou další úroveň pozice nad 3. oživíš nebo opětovně uplatníš svou kontrolu nad dvěma dalšími nemrtvými tvory. Každý tvor musí vzejít z jiné mrtvoly nebo hromádky kostí.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjU5NTc4MjYwXX0=
+-->
+  </spell>
+
+<spell
     title="Stvoř plamen"
     original="Produce flame"
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
     duration="10 minut"
+    concentration="false"
     classes="Druid"
     >
 
@@ -6832,10 +7547,12 @@ Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš 5. úrovně (2k8), 1
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -6850,10 +7567,12 @@ Zranění se zvýší o 1k8, když dosáhneš 5. úrovně (2k8) a pak znovu na 1
     rulebook="Příručka hráče"
     school="Očarování"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, S (hadí jazyk a buď kousek včelího plástu, nebo kapka sladkého oleje)"
-    duration="8 hodin"
+    duration="Soustředění, až 8 hodin"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -6870,10 +7589,12 @@ Můžeš také vymezit podmínky, které spustí určitou činnost v průběhu d
     rulebook="Příručka hráče"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 bonusová akce"
     range="Dotyk"
     components="V, P, S (jmelí, trojlístek z jetele a hůl, nebo kyj)"
     duration="1 minuta"
+    concentration="false"
     classes="Druid"
     >
 
@@ -6886,10 +7607,12 @@ Můžeš také vymezit podmínky, které spustí určitou činnost v průběhu d
     rulebook="Příručka hráče"
     school="Vymítání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (drobný relikviář v hodnotě aspoň 1 000 zl, který obsahuje svatou relikvii, například kousek roucha svaté osoby nebo kus pergamenu s náboženským textem)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Klerik"
     >
 
@@ -6902,10 +7625,12 @@ Můžeš také vymezit podmínky, které spustí určitou činnost v průběhu d
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 bonusová akce"
     range="Dotyk"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Klerik, Paladin"
     >
 
@@ -6920,10 +7645,12 @@ Jako bonusovou akci během svého kola můžeš toto kouzlo zrušit. Pokud to ud
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (ruční zrcátko)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -6944,10 +7671,12 @@ Dokud kouzlo neskončí, můžeš použít svou akci k vystřelení zářivého 
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, S (světluška, nebo světélkující mech)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Čaroděj, Klerik, Kouzelník"
     >
 
@@ -6962,10 +7691,12 @@ Pokud zacílíš předmět, který drží nebo má na sobě nepřátelský tvor,
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Druid"
     >
 
@@ -6985,10 +7716,12 @@ eyJoaXN0b3J5IjpbLTEwNTk2MjYwODRdfQ==
     rulebook="Příručka hráče"
     school="Vymítání"
     level="7"
+    ritual="false"
     casting="1 minuta"
     range="Dotyk"
     components="V, P, S (rtuť, fosfor, diamantový prach a opál v celkové hodnotě aspoň 1 000 zl, které kouzlo spotrebuje)"
     duration="Do rozptýlení, nebo spuštění"
+    concentration="false"
     classes="Bard, Klerik, Kouzelník"
     >
 
@@ -7025,10 +7758,12 @@ Když vyrýváš znak, zvol jako účinek jednu z níže uvedených možností. 
     rulebook="Xanatharuv pruvodce vším"
     school="Očarování"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -7043,10 +7778,12 @@ Po neúspěšném záchranném hodu je myšlení tvora na 1 minutu zakaleno. Bě
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Černokněžník"
     >
 
@@ -7056,15 +7793,37 @@ Kouzlo vytvoří víc než jeden paprsek, když dosáhneš vyšší úrovně; dv
   </spell>
 
 <spell
+    title="Úder ocelového vichru"
+    original="Steel wind strike"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Vyvolávání"
+    level="5"
+    ritual="false"
+    casting="1 akce"
+    range="6 sáhů"
+    components="P, S (zbraň na blízko v hodnotě alespoň 1 st)"
+    duration="Ihned"
+    concentration="false"
+    classes="Hraničář, Kouzelník"
+    >
+
+  Zamáváš zbraní, která tvoří surovinovou složku kouzla a zbraň poté zmizí, jen aby udeřila silou vichru. Zvol si až pět tvorů, které vidíš v dosahu. Hoď si na útok kouzlem na blízko proti každému z vybraných tvorů. Při zásahu tvor utrpí 6k10 silového zranění.
+
+Poté se můžeš teleportovat na neobsazené místo do 1 sáhu od jednoho z cílů tohoto kouzla, bez ohledu na to, zda jej útok tímto kouzlem zasáhnul nebo minul.
+  </spell>
+
+<spell
     title="Tančící světla"
     original="Dancing lights"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (trocha fosforu nebo kousek světélkujícího dřeva nebo světluška)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -7079,10 +7838,12 @@ Jako bonusovou akci můžeš ve svém tahu pohnout světly až o 12 sáhů na no
     rulebook="Xanatharuv pruvodce vším"
     school="Nekromancie"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -7102,10 +7863,12 @@ Nemrtví jsou pod tvou kontrolou po celou dobu kouzla, na jehož konci z nich vy
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (drobné dortíčky a peříčko, které se vlní ve vzduchu)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Kouzelník"
     >
 
@@ -7123,10 +7886,12 @@ eyJoaXN0b3J5IjpbMTY5ODMwNzcyMl19
     rulebook="Příručka hráče"
     school="Transmutace"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -7149,10 +7914,12 @@ V pozdějších kolech můžeš použít svou akci k pokusu o udržení svého t
     rulebook="Xanatharuv pruvodce vším"
     school="Očarování"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -7169,10 +7936,12 @@ Ochromený tvor se může na konci každého ze svých tahů pokusit o záchrann
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="Neomezený"
     components="V, P, S (dvojice spojených stříbrných prstenů)"
     duration="24 hodin"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -7182,57 +7951,17 @@ Dokud kouzlo neskončí, můžete navzájem okamžitě sdílet slova, obrázky, 
   </spell>
 
 <spell
-    title="Teleport"
-    original="Teleport"
-    rulebook="Příručka hráče"
-    school="Vyvolávání"
-    level="7"
-    casting="1 akce"
-    range="2 sáhy"
-    components="V"
-    duration="Ihned"
-    classes="Bard, Čaroděj, Kouzelník"
-    >
-
-  Toto kouzlo okamžitě přenese buď tebe a až osm dalších tvorů dle tvé volby, kteří s tím souhlasí a které vidíš v dosahu, nebo jeden předmět, který vidíš v dosahu, na cílové místo, které zvolíš. Zvolíš-li předmět, musí se zcela vejít do krychle o straně 2 sáhy a nesmí ho držet ani nést tvor, který s teleportem nesouhlasí.
-
-Cílové místo, které zvolíš, musíš znát a musí být ve stejné sféře existence jako ty. Tvá obeznámenost s cílovým místem určí, jestli úspěšně dorazíte. PJ hodí k% a nahlédne do tabulky.
-
-***Obeznámenost.*** „Trvalý kruh" znamená trvalý teleportační kruh, u něhož znáš řadu jeho run. „Spjatý předmět" znamená, že máš předmět, který byl vzat z požadovaného cílové místa v posledních šesti měsících, například kniha z kouzelnické knihovny, ložní prádlo z královského apartmá nebo úlomek mramoru z kostějovy tajné hrobky.
-
-„Dobře známé" je místo, na němž jsi velmi často pobýval, nebo které jsi pečlivě prostudoval, nebo které vidíš, když sesíláš kouzlo. „Od vidění" je nějaké místo, které jsi viděl více než jednou, ale se kterým nejsi moc obeznámený. „Jednou spatřené" je místo, které jsi jednou viděl, nejspíš použitím magie. „Z popisu" je místo, jehož polohu a vzhled znáš z cizího popisu, nejspíš z mapу.
-
-„Falešné cílové místo" je místo, které neexistuje. Nejspíš ses pokusil magicky sledovat nepřátelskou svatyni, ale místo ní jsi viděl iluzi, nebo se snažíš teleportovat na známé místo, které už neexistuje.
-
-***Na cíli.*** Ty a tvá družina (nebo cílový předmět) se objevíte tam, kde chceš.
-
-***Mimo cíl.*** Ty a tvá skupina (nebo cílový předmět) se objevíte v náhodné vzdálenosti a náhodném směru od cílového místa. Vzdálenost od cíle je 1k10 X 1k10% ze vzdálenosti, kterou jste měli urazit. Pokud jste se například pokoušeli cestovat 120 mil a přistanete mimo cíl a hodíš 5 a 3 na dvou k 10, pak budete mimo cíl o 15%, tedy 18 mil. PJ stanoví směr mimo cíl náhodně hodem k8. 1 pro sever; 2 pro severovýchod; 3 pro východ a tak dál kolem světových stran. Pokud jste se chtěli teleportovat do pobřežního města a skončili jste 30 mil v moři, můžete být v průšvihu.
-
-***Podobná oblast.*** Ty a tvá skupina (nebo cílový předmět) skončíte v jiné oblasti, která je vizuálně či tematicky podobná cílové oblasti. Pokud například směřuješ do své domácí laboratoře, můžeš skončit v laboratoři jiného kouzelníka nebo v obchodě s alchymistickými potřebami, ve kterém je mnoho stejných nástrojů a pomůcek jako ve tvé laboratoři. Obecně se objevíš na nejbližším podobném místě, ale protože kouzlo nemá omezený dosah, mohl bys teoreticky skončit kdekoliv v dané sféře.
-
-***Nehoda.*** Nepředvídatelná magie kouzla vyústí v obtížnou cestu. Každý teleportovaný tvor (nebo cílový předmět) utrpí silové zranění 3k10 a PJ si opět hodí podle tabulky, aby zjistil, kde jste skončili (nehoda se může vyskytnout opakovaně, přičemž pokaždé způsobí zranění).
-
-| Obeznámenost | Nehoda | Podobná oblast Mimo cíl | Do cíle |
-| --- | --- | --- | --- |
-| Trvalý kruh | — | — | — | 01–100 |
-| Spjatý předmět | — | — | — | 01–100 |
-| Dobře známé | 01−05 | 06−13 | 14−24 | 25−100 |
-| Od vidění | 01−33 | 34−43 | 44−53 | 54−100 |
-| Jednou spatřené | 01−43 | 44−53 | 54−73 | 74−100 |
-| Z popisu | 01−43 | 44−53 | 54−73 | 74−100 |
-| Falešné cílové místo | 01−50 | 51−100 | — | — |
-  </spell>
-
-<spell
     title="Teleportační kruh"
     original="Teleportation circle"
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="5"
+    ritual="false"
     casting="1 minuta"
     range="2 sáhy"
     components="V, S (vzácné křídy a inkousty napuštěné vzácnými materiály v hodnotě 50 zl, které kouzlo spotřebuje)"
     duration="1 kolo"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -7249,10 +7978,12 @@ Trvalý teleportační kruh můžeš vytvořit tak, že toto kouzlo sešleš ka�
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (pár chlupů z býka)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -7271,10 +8002,12 @@ Ihned poté, co kouzlo skončí, musíš uspět v záchranném hodu na Odolnost,
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="1"
+    ritual="true"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (kapka rtuti)"
     duration="1 hodina"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -7291,10 +8024,12 @@ Vzdálíš-li se víc než 20 sáhů od disku (obvykle proto, že tě nemůže n
     rulebook="Příručka hráče"
     school="Iluze"
     level="2"
+    ritual="true"
     casting="1 akce"
     range="24 sáhů"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Bard, Hraničář, Klerik"
     >
 
@@ -7307,10 +8042,12 @@ Vzdálíš-li se víc než 20 sáhů od disku (obvykle proto, že tě nemůže n
     rulebook="Příručka hráče"
     school="Iluze"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (kousek ovčího rouna)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -7322,15 +8059,35 @@ Fyzická interakce s obrazem prozradí, že jde o iluzi, neboť jím prochází 
   </spell>
 
 <spell
+    title="Úder zloby"
+    original="Wrathful smite"
+    rulebook="Příručka hráče"
+    school="Zaklínání"
+    level="1"
+    ritual="false"
+    casting="1 bonusová akce"
+    range="Ty sám"
+    components="V"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Paladin"
+    >
+
+  Až příště zasáhneš útokem na blízko zbraní v průběhu trvání tohoto kouzla, tvůj útok způsobí dodatečné psychické zranění 1k6. Mimo to, pokud je cílem tvor, musí uspět v záchranném hodu na Moudrost, jinak se stane vystrašený, dokud kouzlo neskončí. Jako akci si tvor může hodit na ověření Moudrosti proti tvému SO záchrany kouzla, a pokud uspěje, vzmuží se a ukončí toto kouzlo.
+  </spell>
+
+<spell
     title="Tma"
     original="Darkness"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, S (netopýří trus a kapka dehtu nebo kus uhlí)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -7347,10 +8104,12 @@ Překrývá-li se jakýkoliv oblast tohoto kouzla s plochou světla vytvořenéh
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (moučkový kukuřičný extrakt a stočený pergamen)"
     duration="1 hodina"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -7369,10 +8128,12 @@ Když kouzlo skončí, všechno uvnitř mimodimenzionálního prostoru vypadne.
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (hrst trnů)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Druid"
     >
 
@@ -7391,10 +8152,12 @@ Tvor může projít skrz zeď, i když jen pomalu a bolestivě. Za každý sáh,
     rulebook="Příručka hráče"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (stonek rostliny s trny)"
     duration="Ihned"
+    concentration="false"
     classes="Druid"
     >
 
@@ -7409,10 +8172,12 @@ Zranění tohoto kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6), 1
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (sedm ostrých trnů, nebo sedm větviček ořezaných do špičky)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -7422,33 +8187,17 @@ Přeměna země je maskovaná, aby vypadala přirozeně. Tvor, který nevidí ob
   </spell>
 
 <spell
-    title="Uchvacující réva"
-    original="Grasping vine"
-    rulebook="Příručka hráče"
-    school="Vyvolávání"
-    level="4"
-    casting="1 bonusová akce"
-    range="6 sáhů"
-    components="V, P"
-    duration="1 minuta"
-    classes="Druid, Hraničář"
-    >
-
-  Vyvoláš révu, jež vyroste ze země na volném místě dle tvé volby, které vidíš dosahu. Když sešleš toto kouzlo, můžeš révě přikázat, aby se ohnala po tvorovi do 6 sáhů od ní, kterého vidíš. Tvor musí uspět v záchranném hodu na Obratnost, jinak je přitažen 4 sáhy přímým směrem k révě.
-
-Dokud kouzlo neskončí, můžeš v každém svém tahu jako bonusovou akci přikázat révě, aby se ohnala po tom stejném, nebo jiném tvorovi.
-  </spell>
-
-<spell
     title="Tsunami"
     original="Tsunami"
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="8"
+    ritual="false"
     casting="1 minuta"
     range="Dohled"
     components="V, P"
-    duration="6 kol"
+    duration="Soustředění, až 6 kol"
+    concentration="true"
     classes="Druid"
     >
 
@@ -7467,10 +8216,12 @@ Tvor, který je ve stěně chycený, se může pohybovat plaváním. Ale kvůli 
     rulebook="Příručka hráče"
     school="Transmutace"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (jemný jíl, který musí být opracovaný do přibližně požadovaného tvaru kamenného předmětu)"
     duration="Ihned"
+    concentration="false"
     classes="Druid, Klerik, Kouzelník"
     >
 
@@ -7483,10 +8234,12 @@ Tvor, který je ve stěně chycený, se může pohybovat plaváním. Ale kvůli 
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="P"
-    duration="1 hodina"
+    duration="Až 1 hodina"
+    concentration="false"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -7506,10 +8259,12 @@ Sešleš-li toto kouzlo několikrát, můžeš mít až dva jeho neokamžité ú
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="P"
-    duration="1 hodina"
+    duration="Až 1 hodina"
+    concentration="false"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -7528,10 +8283,12 @@ Sešleš-li toto kouzlo několikrát, můžeš mít až dva jeho neokamžité ú
     rulebook="Příručka hráče"
     school="Iluze"
     level="5"
+    ritual="false"
     casting="1 minuta"
     range="6 sáhů"
     components="V, P, S (kousíček materiálu stejného druhu, z jakého má být předmět, který hodláš stvořit)"
     duration="Zvláštní"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -7558,10 +8315,12 @@ Použití jakéhokoli materiálu vytvořeného tímto kouzlem jako surovinovou s
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="6"
+    ritual="false"
     casting="10 minut"
     range="6 sáhů"
     components="V, P, S (mísa pokrytá drahokamy v hodnotě aspoň 1 000 zl, kterou kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Druid, Klerik"
     >
 
@@ -7571,37 +8330,23 @@ Tvor, který se zúčastní hostiny, získá několik užitků. Uzdraví si veš
   </spell>
 
 <spell
-    title="Úder ocelového vichru"
-    original="Steel wind strike"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Vyvolávání"
-    level="5"
-    casting="1 akce"
-    range="6 sáhů"
-    components="P, S (zbraň na blízko v hodnotě alespoň 1 st)"
-    duration="Ihned"
-    classes="Hraničář, Kouzelník"
-    >
-
-  Zamáváš zbraní, která tvoří surovinovou složku kouzla a zbraň poté zmizí, jen aby udeřila silou vichru. Zvol si až pět tvorů, které vidíš v dosahu. Hoď si na útok kouzlem na blízko proti každému z vybraných tvorů. Při zásahu tvor utrpí 6k10 silového zranění.
-
-Poté se můžeš teleportovat na neobsazené místo do 1 sáhu od jednoho z cílů tohoto kouzla, bez ohledu na to, zda jej útok tímto kouzlem zasáhnul nebo minul.
-  </spell>
-
-<spell
-    title="Úder zloby"
-    original="Wrathful smite"
+    title="Uchvacující réva"
+    original="Grasping vine"
     rulebook="Příručka hráče"
-    school="Zaklínání"
-    level="1"
+    school="Vyvolávání"
+    level="4"
+    ritual="false"
     casting="1 bonusová akce"
-    range="Ty sám"
-    components="V"
-    duration="1 minuta"
-    classes="Paladin"
+    range="6 sáhů"
+    components="V, P"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Druid, Hraničář"
     >
 
-  Až příště zasáhneš útokem na blízko zbraní v průběhu trvání tohoto kouzla, tvůj útok způsobí dodatečné psychické zranění 1k6. Mimo to, pokud je cílem tvor, musí uspět v záchranném hodu na Moudrost, jinak se stane vystrašený, dokud kouzlo neskončí. Jako akci si tvor může hodit na ověření Moudrosti proti tvému SO záchrany kouzla, a pokud uspěje, vzmuží se a ukončí toto kouzlo.
+  Vyvoláš révu, jež vyroste ze země na volném místě dle tvé volby, které vidíš dosahu. Když sešleš toto kouzlo, můžeš révě přikázat, aby se ohnala po tvorovi do 6 sáhů od ní, kterého vidíš. Tvor musí uspět v záchranném hodu na Obratnost, jinak je přitažen 4 sáhy přímým směrem k révě.
+
+Dokud kouzlo neskončí, můžeš v každém svém tahu jako bonusovou akci přikázat révě, aby se ohnala po tom stejném, nebo jiném tvorovi.
   </spell>
 
 <spell
@@ -7610,10 +8355,12 @@ Poté se můžeš teleportovat na neobsazené místo do 1 sáhu od jednoho z cí
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Klerik"
     >
 
@@ -7633,10 +8380,12 @@ eyJoaXN0b3J5IjpbLTE3MjY1MjYwNTNdfQ==
     rulebook="Příručka hráče"
     school="Očarování"
     level="5"
+    ritual="false"
     casting="1 minuta"
     range="12 sáhů"
     components="V"
     duration="30 dní"
+    concentration="false"
     classes="Bard, Druid, Klerik, Kouzelník, Paladin"
     >
 
@@ -7655,10 +8404,12 @@ Kouzlo můžeš ukončit předčasně použitím akce k jeho zrušení. Kouzla *
     rulebook="Příručka hráče"
     school="Vymítání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="24 hodin"
+    concentration="false"
     classes="Bard, Kouzelník"
     >
 
@@ -7671,10 +8422,12 @@ Kouzlo můžeš ukončit předčasně použitím akce k jeho zrušení. Kouzla *
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -7689,10 +8442,12 @@ Pokud zranění z tohoto kouzla sníží cíli jeho životy na 0, je cíl spále
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -7707,10 +8462,12 @@ Pokud zranění z tohoto kouzla sníží cíli jeho životy na 0, je cíl spále
     rulebook="Příručka hráče"
     school="Věštění"
     level="1"
+    ritual="true"
     casting="1 minuta"
     range="Dotyk"
     components="V, P, S (perla v hodnotě aspoň 100 zl a soví péro)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Kouzelník"
     >
 
@@ -7720,19 +8477,26 @@ Pokud se místo toho dotýkáš během sesílání tvora, zjistíš, jaká kouzl
   </spell>
 
 <spell
-    title="Ušetři umírajícího"
-    original="Space the dying"
+    title="Uřknutí"
+    original="Bane"
     rulebook="Příručka hráče"
-    school="Nekromancie"
-    level="0"
+    school="Očarování"
+    level="1"
+    ritual="false"
     casting="1 akce"
-    range="Dotyk"
-    components="V, P"
-    duration="Ihned"
-    classes="Klerik"
+    range="6 sáhů"
+    components="V, P, S (kapka krve)"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Bard, Klerik"
     >
 
-  Dotkneš se živého tvora, který má 0 životů. Tvor se stabilizuje. Toto kouzlo nijak nepůsobí na nemrtvé ani výtvory.
+  Až tři tvorové dle tvé volby, které vidíš v dosahu, si musí hodit záchranný hod na Charisma. Kdykoliv si cíl, který neuspěje v tomto záchranném hodu, hodí na útok nebo záchranný hod, než kouzlo skončí, musí si hodit 1k4 a hozené číslo odečíst od hodu na útok nebo záchranného hodu.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. můžeš zacílit jednoho tvora navíc.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTYwNzIwMDEzN119
+-->
   </spell>
 
 <spell
@@ -7741,10 +8505,12 @@ Pokud se místo toho dotýkáš během sesílání tvora, zjistíš, jaká kouzl
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (přívěsek ve tvaru slunce, v ceně alespoň 100 zl)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Klerik, Kouzelník"
     >
 
@@ -7761,10 +8527,12 @@ Pokud se nacházíš do 12 sáhů od hranice zářivého sloupu, můžeš s ním
     rulebook="Příručka hráče"
     school="Vymítání"
     level="9"
+    ritual="false"
     casting="1 minuta"
     range="6 sáhů"
     components="V, P, S (malba na jemném svitku nebo vyřezaná soška zpodobňující cíl, a zvláštní suroviny, které se liší v závislosti na tebou zvolené verzi kouzla, v hodnotě aspoň 500 zl za Kostku životů cíle)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -7801,10 +8569,12 @@ Jednu konkrétní zvláštní surovinu můžeš použít k vytvoření jen jedno
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Klerik, Kouzelník"
     >
 
@@ -7829,10 +8599,12 @@ eyJoaXN0b3J5IjpbLTEyNjM0MjU0MjZdfQ==
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Druid, Klerik"
     >
 
@@ -7847,10 +8619,12 @@ eyJoaXN0b3J5IjpbLTEyNjM0MjU0MjZdfQ==
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="60 sáhů"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -7863,10 +8637,12 @@ eyJoaXN0b3J5IjpbLTEyNjM0MjU0MjZdfQ==
     rulebook="Dobrodruhův průvodce Mečovým prostředím"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="3 sáhy"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -7885,14 +8661,37 @@ eyJoaXN0b3J5IjpbNjg5OTg1MjQwLDczMDk5ODExNl19
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (rubínový prach v hodnotě 50 zl, který kouzlo spotřebuje)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Klerik, Kouzelník"
     >
 
   Z předmětu, kterého se dotkneš, vzejde plamen, jehož jas je ekvivalentní k pochodni. Účinek vypadá jako běžný plamen, ale nevytváří žádné teplo a nespotřebovává kyslík. *Věčný plamen* lze zakrýt nebo schovat, ale ne udusit ani uhasit.
+  </spell>
+
+<spell
+    title="Vedení"
+    original="Guidance"
+    rulebook="Příručka hráče"
+    school="Věštění"
+    level="0"
+    ritual="false"
+    casting="1 akce"
+    range="Dotyk"
+    components="V, P"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Druid, Klerik"
+    >
+
+  Dotkneš se jednoho tvora, který s tím souhlasí. Než kouzlo skončí, cíl si může jednou hodit k4 a přičíst si hozené číslo k jednomu ověření vlastnosti dle své volby. Touto kostkou si může hodit před hodem na ověření vlastnosti, nebo až po něm. Kouzlo poté skončí.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTcwNTYzMDc1MF19
+-->
   </spell>
 
 <spell
@@ -7901,10 +8700,12 @@ eyJoaXN0b3J5IjpbNjg5OTg1MjQwLDczMDk5ODExNl19
     rulebook="Příručka hráče"
     school="Iluze"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (kousek ovčího rouna)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -7923,10 +8724,12 @@ Fyzická interakce s obrazem prozradí, že jde o iluzi, neboť jím prochází 
     rulebook="Příručka hráče"
     school="Věštění"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P, S (kadidlo a obětní dar dle tvého náboženství, dohromady v hodnotě aspoň 25 zl, které kouzlo spotiebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -7943,10 +8746,12 @@ Sešleš-li kouzlo dvakrát či víckrát před tím, než si důkladně odpoči
     rulebook="Příručka hráče"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 minuta"
     range="6 sáhů"
     components="V, P, S (oheň a svěcená voda)"
     duration="8 hodin"
+    concentration="false"
     classes="Druid"
     >
 
@@ -7961,10 +8766,12 @@ Je-li tvor v podobě oblaku a letí ve chvíli, kdy účinek skončí, bude kles
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (malinký vějířek a péro exotického původu)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -7976,31 +8783,17 @@ Silný vítr drží mlhu, kouř a jiné plyny na uzdě. Malí nebo menší léta
   </spell>
 
 <spell
-    title="Vyvolej salvu"
-    original="Conjure volley"
-    rulebook="Příručka hráče"
-    school="Vyvolávání"
-    level="5"
-    casting="1 akce"
-    range="30 sáhů"
-    components="V, P, S (jedna střela, nebo vrhací zbraň)"
-    duration="Ihned"
-    classes="Hraničář"
-    >
-
-  Vystřelíš do vzduchu nemagickou střelu ze střelné zbraně, nebo vrhneš do vzduchu nemagickou vrhací zbraň a zvolíš bod v dosahu. Seshora spadnou v salvě stovky kopií střely či zbraně a pak zmizí. Každý tvor ve válci s poloměrem 9 sáhů, výškou 4 sáhy a středem v daném bodě si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí zranění 8k8, nebo poloviční zranění při úspěšném záchranném hodu. Typ zranění je stejný jako u použité střely či zbraně.
-  </spell>
-
-<spell
     title="Větrný plášť"
     original="Investiture of wind"
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -8016,10 +8809,12 @@ Silný vítr drží mlhu, kouř a jiné plyny na uzdě. Malí nebo menší léta
     rulebook="Xanatharuv pruvodce vším"
     school="Nekromancie"
     level="6"
-    casting="1 reakce"
+    ritual="false"
+    casting="1 reakce, kterou provedeš, když humanoid, jehož vidíš, zemře do 12 sáhů od tebe"
     range="12 sáhů"
     components="V, P, S (drobná stříbrná klícka v hodnotě alespoň 100 zl)"
     duration="8 hodin"
+    concentration="false"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -8037,31 +8832,17 @@ Uvězněnou duši můžeš použít až šestkrát. Po šestém zneužití se du
   </spell>
 
 <spell
-    title="Vidění ve tmě"
-    original="Darkvision"
-    rulebook="Příručka hráče"
-    school="Transmutace"
-    level="2"
-    casting="1 akce"
-    range="Dotyk"
-    components="V, P, S (buď špetka sušené mrkve, nebo achát)"
-    duration="8 hodin"
-    classes="Čaroděj, Druid, Hraničář, Kouzelník"
-    >
-
-  Dotkneš se tvora, který s tím souhlasí, a udělíš mu schopnost vidět ve tmě. Po dobu trvání má vidění ve tmě na vzdálenost 12 sáhů.
-  </spell>
-
-<spell
     title="Vílí oheň"
     original="Faerie fire"
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Druid"
     >
 
@@ -8076,10 +8857,12 @@ Hody na útok na tvora nebo předmět, na něž působí toto kouzlo, mají výh
     rulebook="Příručka hráče"
     school="Iluze"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="800 mil"
     components="V, P, S (malá kopie tebe vyrobená z materiálů v hodnotě aspoň 5 zl)"
-    duration="1 den"
+    duration="Soustředění, až 1 den"
+    concentration="true"
     classes="Bard, Kouzelník"
     >
 
@@ -8098,10 +8881,12 @@ Fyzická interakce s obrazem prozradí, že jde o iluzi, neboť jím prochází 
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (kapka vody)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -8122,10 +8907,12 @@ Když kouzlo skončí, voda tvořící kouli ztratí tvar, spadne na zem, rozlij
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (krátký rákos, nebo kus stébla)"
     duration="24 hodin"
+    concentration="false"
     classes="Čaroděj, Druid, Hraničář, Kouzelník"
     >
 
@@ -8138,10 +8925,12 @@ Když kouzlo skončí, voda tvořící kouli ztratí tvar, spadne na zem, rozlij
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (kapka vody)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -8158,10 +8947,12 @@ Kouzla, způsobující chladné zranění a prostupující zdí, způsobí, že 
     rulebook="Příručka hráče"
     school="Vymítání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (kožený řemínek připnutý kolem ruky, nebo nějaký podobný přívěsek)"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Druid, Hraničář, Klerik"
     >
 
@@ -8176,10 +8967,12 @@ Cíl také může utratit 1 sáh pohybu k automatickému uniknutí z nemagickéh
     rulebook="Dobrodruhův průvodce Mečovým prostředím"
     school="Vyvolávání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="1 sáh"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -8198,10 +8991,12 @@ k5ODExNl19
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (kousek obsidiánu)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -8216,10 +9011,12 @@ k5ODExNl19
     rulebook="Xanatharuv pruvodce vším"
     school="Nekromancie"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -8236,10 +9033,12 @@ Kdykoliv tímto kouzlem zraníš cíl, obnovíš si množství životů rovné p
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="6 sáhů"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -8252,34 +9051,17 @@ eyJoaXN0b3J5IjpbMTAyODY0NjU3XX0=
   </spell>
 
 <spell
-    title="Závan"
-    original="Gust"
-    rulebook="Xanatharuv pruvodce vším"
-    school="Transmutace"
-    level="0"
-    casting="1 bonusová akce"
-    range="6 sáhů"
-    components="V, S"
-    duration="Ihned"
-    classes="Čaroděj, Druid, Kouzelník"
-    >
-
-  Zmocníš se větru a vnutíš mu svou vůli. Na místě v dosahu, které vidíš, způsobíš jeden z následujících účinků:
- * Střední nebo menší tvor, kterého zvolíš, musí uspět v záchranném hodu na Sílu, jinak bude odtlačen 1 sáh od tebe.
- * Odfoukneš zvolený předmět vážící 5 liber nebo méně. Předmět je odtlačen 2 sáhy od tebe. Předmět není odtlačen natolik silně, aby způsobil jakékoliv zranění.
- * Necháš vítr způsobit neškodný smyslový účinek jako šumění listí, zabouchnutí okenic, nebo povlávání tvého pláště v mírném vánku.
-  </spell>
-
-<spell
     title="Vypuzení"
     original="Banishment"
     rulebook="Příručka hráče"
     school="Vymítání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (předmět, který se cíli hnusí)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Černokněžník, Klerik, Kouzelník, Paladin"
     >
 
@@ -8298,10 +9080,12 @@ Patří-li cíl do jiné sféry existence, než ve které se spolu nacházíte, 
     rulebook="Příručka hráče"
     school="Vymítání"
     level="5"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -8314,10 +9098,12 @@ Patří-li cíl do jiné sféry existence, než ve které se spolu nacházíte, 
     rulebook="Příručka hráče"
     school="Transmutace"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Černokněžník"
     >
 
@@ -8330,10 +9116,12 @@ Patří-li cíl do jiné sféry existence, než ve které se spolu nacházíte, 
     rulebook="Xanatharuv pruvodce vším"
     school="Nekromancie"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -8348,10 +9136,12 @@ Patří-li cíl do jiné sféry existence, než ve které se spolu nacházíte, 
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="5"
+    ritual="false"
     casting="1 minuta"
     range="18 sáhů"
     components="V, P, S (síra a fosfor pro ohnivého, voda a písek pro vodního, žhavé kadidlo pro vzdušného, nebo jemný jíl pro zemního)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Druid, Kouzelník"
     >
 
@@ -8370,10 +9160,12 @@ Pokud přerušíš své soustředění, elementál nezmizí. Místo toho nad ní
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (jeden plod cesmíny za každého přivolaného tvora)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -8399,10 +9191,12 @@ PJ má statistiky vílích tvorů.
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (ampule s krví humanoida, zabitého v posledních 24 hodinách)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -8429,10 +9223,12 @@ Jako součást sesílání kouzla můžeš na zemi nakreslit kruh krví, která 
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (ampule s krví humanoida, zabitého v posledních 24 hodinách)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -8448,15 +9244,37 @@ Jako součást sesílání kouzla můžeš na zemi nakreslit kruh krví, která 
   </spell>
 
 <spell
+    title="Zbroj agathysu"
+    original="Armor of Agathys"
+    rulebook="Příručka hráče"
+    school="Vymítání"
+    level="1"
+    ritual="false"
+    casting="1 akce"
+    range="Ty sám"
+    components="V, P, S (hrnek vody)"
+    duration="1 hodina"
+    concentration="false"
+    classes="Černokněžník"
+    >
+
+  Obklopí tě ochranná magická síla, která se projevuje jako přízračná jinovatka, jež pokrývá tebe a tvou zbroj. Získáš 5 dočasných životů po dobu trvání. Zasáhne-li tě tvor útokem na blízko, zatímco máš tyto životy, utrpí chladné zranění 5.
+
+***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. se zvýší dočasné životy i chladné zranění o 5.
+  </spell>
+
+<spell
     title="Vyvolej nebešťana"
     original="Conjure celestial"
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="7"
+    ritual="false"
     casting="1 minuta"
     range="18 sáhů"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Klerik"
     >
 
@@ -8475,10 +9293,12 @@ PJ má nebešťanovy statistiky.
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="4"
+    ritual="false"
     casting="1 minuta"
     range="18 sáhů"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Druid, Kouzelník"
     >
 
@@ -8504,14 +9324,34 @@ PJ má statistiky elementálů.
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
-    range="Ty sám (oblast)"
+    range="Ty sám (kužel 12 sáhů)"
     components="V, P, S (jedna střela, nebo vrhací zbraň)"
     duration="Ihned"
+    concentration="false"
     classes="Hraničář"
     >
 
   Vystřelíš do vzduchu nemagickou střelu ze střelné zbraně, nebo vrhneš do vzduchu nemagickou vrhací zbraň, a vytvoříš tak kužel totožných střel či zbraní, které vystřelí kupředu a pak zmizí. Každý tvor v kuželu 12 sáhů si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí zranění 3k8, nebo poloviční zranění při úspěšném záchranném hodu. Typ zranění je stejný jako u použité střely či zbraně.
+  </spell>
+
+<spell
+    title="Vyvolej salvu"
+    original="Conjure volley"
+    rulebook="Příručka hráče"
+    school="Vyvolávání"
+    level="5"
+    ritual="false"
+    casting="1 akce"
+    range="30 sáhů"
+    components="V, P, S (jedna střela, nebo vrhací zbraň)"
+    duration="Ihned"
+    concentration="false"
+    classes="Hraničář"
+    >
+
+  Vystřelíš do vzduchu nemagickou střelu ze střelné zbraně, nebo vrhneš do vzduchu nemagickou vrhací zbraň a zvolíš bod v dosahu. Seshora spadnou v salvě stovky kopií střely či zbraně a pak zmizí. Každý tvor ve válci s poloměrem 9 sáhů, výškou 4 sáhy a středem v daném bodě si musí hodit záchranný hod na Obratnost. Když tvor neuspěje, utrpí zranění 8k8, nebo poloviční zranění při úspěšném záchranném hodu. Typ zranění je stejný jako u použité střely či zbraně.
   </spell>
 
 <spell
@@ -8520,10 +9360,12 @@ PJ má statistiky elementálů.
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="6"
+    ritual="false"
     casting="1 minuta"
     range="18 sáhů"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Černokněžník, Druid"
     >
 
@@ -8537,15 +9379,69 @@ PJ má statistiky vílího tvora.
   </spell>
 
 <spell
+    title="Zaklep"
+    original="Knock"
+    rulebook="Příručka hráče"
+    school="Transmutace"
+    level="2"
+    ritual="false"
+    casting="1 akce"
+    range="12 sáhů"
+    components="V"
+    duration="Ihned"
+    concentration="false"
+    classes="Bard, Čaroděj, Kouzelník"
+    >
+
+  Zvol předmět, který vidíš v dosahu. Předmětem mohou být dveře, krabice, truhla, pouta, visací zámek nebo jiný předmět obsahující obyčejné nebo magické prostředky k zamezení přístupu.
+
+Cíl, který je zamčený na obyčejný zámek, vzpříčený, nebo zavřený na petlici, se odemkne, uvolní, nebo otevře petlici. Má-li předmět několik zámků, odemkne se pouze jeden z nich.
+
+Pokud zvolíš cíl, který drží zavřený mystický zámek, tak se na 10 minut potlačí a během této doby lze cíl normálně otevřít i zavřít.
+
+Když kouzlo sešleš, cílový předmět vyloudí hlasité zaklepání, slyšitelné až 60 sáhů daleko.
+  </spell>
+
+<spell
+    title="Změna podoby"
+    original="Shapechange"
+    rulebook="Příručka hráče"
+    school="Transmutace"
+    level="9"
+    ritual="false"
+    casting="1 akce"
+    range="Ty sám"
+    components="V, P, S (nefritová čelenka v hodnotě aspoň 1 500 zl, kterou si musíš dát na hlavu, než sešleš toto kouzlo)"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
+    classes="Druid, Kouzelník"
+    >
+
+  Vezmeš na sebe vzhled jiného tvora po dobu trvání. Nová podoba může být podoba tvora s nebezpečností rovnou tvé úrovni či nižší. Nesmí to být nemrtvý ani výtvor a druh daného tvora jsi už někdy musel vidět. Přeměníš se do průměrného příkladu tohoto tvora, který nemá úrovně povolání ani rys Sesílání kouzel.
+
+Tvé herní statistiky se nahradí statistikami zvoleného tvora, ale ponecháš si své přesvědčení a hodnoty Inteligence, Moudrosti a Charismatu. Ponecháš si také všechny své zdatnosti v dovednostech a záchranných hodech, a k nim navíc získáš ty tvorovy. Má-li tvor stejnou zdatnost jako ty a bonus uvedený v jeho statistikách je vyšší než tvůj, použij jeho bonus místo svého. Nemůžeš použít žádné legendární akce ani akce doupěte nové podoby.
+
+Převezmeš životy a Kostky životů nové podoby. Když se navrátíš do své normální podoby, vrátí se ti počet životů, které jsi měl před přeměnou. Navrátíš-li se jako výsledek snížení životů na 0, jakékoli přebývající zranění se přenese do tvé normální podoby. Pokud přebývající zranění nesníží životy tvé normální podoby na 0, neupadneš do bezvědomí.
+
+Ponecháš si prospěch z rysů své rasy a schopností svého povolání či jiného zdroje a můžeš je používat, pokud je toho fyzicky schopna tvá nová podoba. Nemůžeš používat žádné zvláštní smysly, které máš (například vidění ve tmě), pokud daný smysl nemá také tvá nová podoba. Můžeš pouze mluvit, pokud tvor může normálně mluvit.
+
+Když se přeměníš, zvolíš si, jestli tvé vybavení upadne na zem, nebo splyne s novou podobou, nebo si ho nová podoba obleče. Oblečené vybavení funguje jako normálně. PJ rozhodne, jestli je účelné pro novou podobu nosit daný kus vybavení, na základě tvaru a velikosti tvora. Tvé vybavení nezmění tvar ani velikost, aby pasovalo na novou podobu a vybavení, které nová podoba nemůže nosit, musí buď spadnout na zem, nebo splynout s novou podobou. Vybavení, které splyne, nemá v tomto stavu žádný účinek.
+
+V průběhu trvání tohoto kouzla můžeš pomocí své akce vzít na sebe jiný vzhled dle stejných omezení a pravidel pro původní podobu, s jednou výjimkou: má-li tvá nová podoba více životů než tvá současná, tvé životy zůstanou na své aktuální hodnotě.
+  </spell>
+
+<spell
     title="Vyvolej zvířata"
     original="Conjure animals"
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -8571,10 +9467,12 @@ PJ má statistiky tvorů.
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="5"
+    ritual="false"
     casting="1 hodina"
     range="Dotyk"
     components="V, P, S (diamant v hodnotě aspoň 500 zl, který kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Klerik, Paladin"
     >
 
@@ -8593,10 +9491,12 @@ Navrátit se ze smrti je nesmírně útrpné. Cíl utrpí postih –4 ke všem h
     rulebook="Příručka hráče"
     school="Transmutace"
     level="7"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (prach z diamantu, smaragdu, rubínu a safíru v hodnotě aspoň 5 000 zl, který kouzlo spotřbuje)"
     duration="Do rozptýlení"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -8613,10 +9513,12 @@ Můžeš nastavit podmínku, za které kouzlo skončí předčasně. Podmínkou 
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="1 sáh"
     components="P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -8626,31 +9528,17 @@ Zranění tohoto kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6) a 
   </spell>
 
 <spell
-    title="Závratný úder"
-    original="Staggering smite"
-    rulebook="Příručka hráče"
-    school="Zaklínání"
-    level="4"
-    casting="1 bonusová akce"
-    range="Ty sám"
-    components="V"
-    duration="1 minuta"
-    classes="Paladin"
-    >
-
-  Až příště zasáhneš tvora útokem na blízko zbraní v průběhu trvání tohoto kouzla, zbraň probodne jeho tělo i mysl a útok způsobí cíli dodatečné psychické zranění 4k6. Cíl si musí hodit záchranný hod na Moudrost. Když neuspěje, má nevýhodu k hodům na útok a ověřením vlastností a nemůže reagovat do konce svého příštího tahu.
-  </spell>
-
-<spell
     title="Zákaz"
     original="Forbiddance"
     rulebook="Příručka hráče"
     school="Vymítání"
     level="6"
+    ritual="false"
     casting="10 minut"
     range="Dotyk"
     components="V, P, S (kropenka svěcené vody, vzácné kadidlo a rubínový prach v hodnotě aspoň 1 000 zl)"
     duration="1 den"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -8667,37 +9555,17 @@ eyJoaXN0b3J5IjpbMjA0MjM3Mzg5MCwtNjMxMTQwNjQyXX0=
   </spell>
 
 <spell
-    title="Zaklep"
-    original="Knock"
-    rulebook="Příručka hráče"
-    school="Transmutace"
-    level="2"
-    casting="1 akce"
-    range="12 sáhů"
-    components="V"
-    duration="Ihned"
-    classes="Bard, Čaroděj, Kouzelník"
-    >
-
-  Zvol předmět, který vidíš v dosahu. Předmětem mohou být dveře, krabice, truhla, pouta, visací zámek nebo jiný předmět obsahující obyčejné nebo magické prostředky k zamezení přístupu.
-
-Cíl, který je zamčený na obyčejný zámek, vzpříčený, nebo zavřený na petlici, se odemkne, uvolní, nebo otevře petlici. Má-li předmět několik zámků, odemkne se pouze jeden z nich.
-
-Pokud zvolíš cíl, který drží zavřený mystický zámek, tak se na 10 minut potlačí a během této doby lze cíl normálně otevřít i zavřít.
-
-Když kouzlo sešleš, cílový předmět vyloudí hlasité zaklepání, slyšitelné až 60 sáhů daleko.
-  </spell>
-
-<spell
     title="Zamoření"
     original="Infestation"
     rulebook="Xanatharuv pruvodce vším"
     school="Vyvolávání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (živá veš)"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -8712,10 +9580,12 @@ Zranění, způsobené kouzlem, se zvýší o 1k6, když dosáhneš 5. úrovně 
     rulebook="Xanatharuv pruvodce vším"
     school="Nekromancie"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, S (zlomená kost a čtvercový kus černého hedvábí)"
     duration="Ihned"
+    concentration="false"
     classes="Černokněžník, Kouzelník"
     >
 
@@ -8730,10 +9600,12 @@ Pokud je cíl nemrtvý, neháže si záchranný hod. Místo toho hoď 5k12. Cíl
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Druid"
     >
 
@@ -8750,10 +9622,12 @@ Když kouzlo skončí, vyvolané rostliny uvadnou.
     rulebook="Příručka hráče"
     school="Transmutace"
     level="9"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -8768,10 +9642,12 @@ Toto kouzlo skončí, pokud nějaká tvá akce či účinek, který vytvoříš 
     rulebook="Xanatharuv pruvodce vším"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="2 sáhy"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Čaroděj, Druid, Kouzelník"
     >
 
@@ -8781,21 +9657,42 @@ Toto kouzlo skončí, pokud nějaká tvá akce či účinek, který vytvoříš 
   </spell>
 
 <spell
-    title="Zbroj agathysu"
-    original="Armor of Agathys"
-    rulebook="Příručka hráče"
-    school="Vymítání"
-    level="1"
-    casting="1 akce"
-    range="Ty sám"
-    components="V, P, S (hrnek vody)"
-    duration="1 hodina"
-    classes="Černokněžník"
+    title="Závan"
+    original="Gust"
+    rulebook="Xanatharuv pruvodce vším"
+    school="Transmutace"
+    level="0"
+    ritual="false"
+    casting="1 bonusová akce"
+    range="6 sáhů"
+    components="V, S"
+    duration="Ihned"
+    concentration="false"
+    classes="Čaroděj, Druid, Kouzelník"
     >
 
-  Obklopí tě ochranná magická síla, která se projevuje jako přízračná jinovatka, jež pokrývá tebe a tvou zbroj. Získáš 5 dočasných životů po dobu trvání. Zasáhne-li tě tvor útokem na blízko, zatímco máš tyto životy, utrpí chladné zranění 5.
+  Zmocníš se větru a vnutíš mu svou vůli. Na místě v dosahu, které vidíš, způsobíš jeden z následujících účinků:
+ * Střední nebo menší tvor, kterého zvolíš, musí uspět v záchranném hodu na Sílu, jinak bude odtlačen 1 sáh od tebe.
+ * Odfoukneš zvolený předmět vážící 5 liber nebo méně. Předmět je odtlačen 2 sáhy od tebe. Předmět není odtlačen natolik silně, aby způsobil jakékoliv zranění.
+ * Necháš vítr způsobit neškodný smyslový účinek jako šumění listí, zabouchnutí okenic, nebo povlávání tvého pláště v mírném vánku.
+  </spell>
 
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. se zvýší dočasné životy i chladné zranění o 5.
+<spell
+    title="Závratný úder"
+    original="Staggering smite"
+    rulebook="Příručka hráče"
+    school="Zaklínání"
+    level="4"
+    ritual="false"
+    casting="1 bonusová akce"
+    range="Ty sám"
+    components="V"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Paladin"
+    >
+
+  Až příště zasáhneš tvora útokem na blízko zbraní v průběhu trvání tohoto kouzla, zbraň probodne jeho tělo i mysl a útok způsobí cíli dodatečné psychické zranění 4k6. Cíl si musí hodit záchranný hod na Moudrost. Když neuspěje, má nevýhodu k hodům na útok a ověřením vlastností a nemůže reagovat do konce svého příštího tahu.
   </spell>
 
 <spell
@@ -8804,10 +9701,12 @@ Toto kouzlo skončí, pokud nějaká tvá akce či účinek, který vytvoříš 
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (špetka prachu vytvořená drcením čirého drahokamu)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Kouzelník"
     >
 
@@ -8822,10 +9721,12 @@ Zdí fyzicky nic neprojde. Zeď je imunní vůči všem poškozením a nedá se 
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="1"
+    ritual="false"
     casting="1 bonusová akce"
     range="Ty sám"
     components="V"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Hraničář"
     >
 
@@ -8840,10 +9741,12 @@ Než kouzlo skončí, můžeš si během svého kola dát jednou výhodu k jedno
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="100 sáhů"
     components="V, P, S (špetka hlíny, odštěpek skály a hrouda jílu)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid, Klerik"
     >
 
@@ -8868,10 +9771,12 @@ Trhlina, která se otevře pod budovou, způsobí, že se budova automaticky zř
     rulebook="Příručka hráče"
     school="Zaklínání"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Druid, Hraničář, Klerik, Paladin"
     >
 
@@ -8886,10 +9791,12 @@ Trhlina, která se otevře pod budovou, způsobí, že se budova automaticky zř
     rulebook="Příručka hráče"
     school="Transmutace"
     level="4"
+    ritual="false"
     casting="10 minut"
     range="24 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Kouzelník"
     >
 
@@ -8901,36 +9808,17 @@ Tímto kouzlem nelze stvořit či přeměnit tvory ani kouzelné předměty. Tot
   </spell>
 
 <spell
-    title="Uřknutí"
-    original="Bane"
-    rulebook="Příručka hráče"
-    school="Očarování"
-    level="1"
-    casting="1 akce"
-    range="6 sáhů"
-    components="V, P, S (kapka krve)"
-    duration="1 minuta"
-    classes="Bard, Klerik"
-    >
-
-  Až tři tvorové dle tvé volby, které vidíš v dosahu, si musí hodit záchranný hod na Charisma. Kdykoliv si cíl, který neuspěje v tomto záchranném hodu, hodí na útok nebo záchranný hod, než kouzlo skončí, musí si hodit 1k4 a hozené číslo odečíst od hodu na útok nebo záchranného hodu.
-
-***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 2. či vyšší úrovně, za každou další úroveň pozice nad 1. můžeš zacílit jednoho tvora navíc.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzIwMDEzN119
--->
-  </spell>
-
-<spell
     title="Živelná zbraň"
     original="Elemental weapon"
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Paladin"
     >
 
@@ -8945,10 +9833,12 @@ eyJoaXN0b3J5IjpbLTYwNzIwMDEzN119
     rulebook="Xanatharuv pruvodce vším"
     school="Transmutace"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Černokněžník, Druid, Kouzelník"
     >
 
@@ -8958,15 +9848,44 @@ eyJoaXN0b3J5IjpbLTYwNzIwMDEzN119
   </spell>
 
 <spell
+    title="Zkamenění"
+    original="Flesh to stone"
+    rulebook="Příručka hráče"
+    school="Transmutace"
+    level="6"
+    ritual="false"
+    casting="1 akce"
+    range="12 sáhů"
+    components="V, P, S (špetka vápna, hlíny a voda)"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
+    classes="Černokněžník, Kouzelník"
+    >
+
+  Pokusíš se proměnit jednoho tvora, kterého vidíš v dosahu, na kámen. Je-li tělo cíle z masa, musí si tvor hodit záchranný hod na Odolnost. Když neuspěje, je zadržený a jeho tělo začne tvrdnout. V případě úspěšného záchranného hodu není tvor nijak ovlivněn.
+
+Tvor, který je tímto kouzlem zadržený, si musí hodit další záchranný hod na Odolnost na konci každého svého tahu.Pokud uspěje ve třech záchranách, kouzlo skončí. Pokud neuspěje ve třech záchranách, zkamení a zůstane zkamenělý po dobu trvání. Úspěchy či neúspěchy nemusí jít po sobě; udržuj si přehled o obou, dokud cíl nenasbírá tři stejného druhu.
+
+Pokud se tvor během zkamenění fyzicky poškodí, utrpí podobné deformace při návratu do původního stavu.
+
+Budeš-li se soustředit na toto kouzlo po celou dobu trvání, tvor bude zkamenělý, dokud se účinek neodstraní.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA0OTY0MjAxNF19
+-->
+  </spell>
+
+<spell
     title="Zlé oko"
     original="Eyebite"
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -8985,10 +9904,12 @@ eyJoaXN0b3J5IjpbLTYwNzIwMDEzN119
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (srst nebo péro ze zvířete)"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Bard, Čaroděj, Druid, Klerik"
     >
 
@@ -9018,10 +9939,12 @@ eyJoaXN0b3J5IjpbMTE5NzkxMDg1M119
     rulebook="Příručka hráče"
     school="Očarování"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V"
     duration="Ihned"
+    concentration="false"
     classes="Bard"
     >
 
@@ -9031,15 +9954,37 @@ Zranění tohoto kouzla se zvýší o 1k4, když dosáhneš 5. úrovně (2k4), 1
   </spell>
 
 <spell
+    title="Zóna pravdy"
+    original="Zone of truth"
+    rulebook="Příručka hráče"
+    school="Očarování"
+    level="2"
+    ritual="false"
+    casting="1 akce"
+    range="12 sáhů"
+    components="V, P"
+    duration="10 minut"
+    concentration="false"
+    classes="Bard, Klerik, Paladin"
+    >
+
+  Vytvoříš magickou zónu, která chrání před klamáním v kouli o poloměru 3 sáhy se středem v bodě, který zvolíš v dosahu. Dokud kouzlo neskončí, tak každý tvor, který vstoupí do oblasti kouzla poprvé v tahu, nebo v ní začne svůj tah, si musí hodit záchranný hod na Charisma. Když tvor neuspěje, nemůže v této oblas ti vědomě říkat lži. O každém tvorovi víš, jestli uspěl nebo neuspěl ve svém záchranném hodu.
+
+Ovlivněný tvor si je kouzla vědom a může se vyhýbat odpovídání na otázky, na které by normálně zalhal, nebo může být v odpovědích vyhýbavý, pokud se drží v rámci pravdivosti.
+  </spell>
+
+<spell
     title="Zmam obludu"
     original="Charm monster"
     rulebook="Xanatharuv pruvodce vším"
     school="Očarování"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -9054,10 +9999,12 @@ Zranění tohoto kouzla se zvýší o 1k4, když dosáhneš 5. úrovně (2k4), 1
     rulebook="Příručka hráče"
     school="Očarování"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
     duration="1 hodina"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Druid, Kouzelník"
     >
 
@@ -9072,10 +10019,12 @@ Zranění tohoto kouzla se zvýší o 1k4, když dosáhneš 5. úrovně (2k4), 1
     rulebook="Příručka hráče"
     school="Očarování"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (tři ořechové skořápky)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Druid, Kouzelník"
     >
 
@@ -9101,10 +10050,12 @@ Na konci každého svého tahu si ovlivněný cíl může hodit záchranný hod 
     rulebook="Příručka hráče"
     school="Očarování"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Kouzelník"
     >
 
@@ -9127,10 +10078,12 @@ Kouzlo *sejmi kletbu* nebo *mocné navrácení* seslané na cíl obnoví tvorovu
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -9144,59 +10097,17 @@ Kouzlo *sejmi kletbu* nebo *mocné navrácení* seslané na cíl obnoví tvorovu
   </spell>
 
 <spell
-    title="Změna podoby"
-    original="Shapechange"
-    rulebook="Příručka hráče"
-    school="Transmutace"
-    level="9"
-    casting="1 akce"
-    range="Ty sám"
-    components="V, P, S (nefritová čelenka v hodnotě aspoň 1 500 zl, kterou si musíš dát na hlavu, než sešleš toto kouzlo)"
-    duration="1 hodina"
-    classes="Druid, Kouzelník"
-    >
-
-  Vezmeš na sebe vzhled jiného tvora po dobu trvání. Nová podoba může být podoba tvora s nebezpečností rovnou tvé úrovni či nižší. Nesmí to být nemrtvý ani výtvor a druh daného tvora jsi už někdy musel vidět. Přeměníš se do průměrného příkladu tohoto tvora, který nemá úrovně povolání ani rys Sesílání kouzel.
-
-Tvé herní statistiky se nahradí statistikami zvoleného tvora, ale ponecháš si své přesvědčení a hodnoty Inteligence, Moudrosti a Charismatu. Ponecháš si také všechny své zdatnosti v dovednostech a záchranných hodech, a k nim navíc získáš ty tvorovy. Má-li tvor stejnou zdatnost jako ty a bonus uvedený v jeho statistikách je vyšší než tvůj, použij jeho bonus místo svého. Nemůžeš použít žádné legendární akce ani akce doupěte nové podoby.
-
-Převezmeš životy a Kostky životů nové podoby. Když se navrátíš do své normální podoby, vrátí se ti počet životů, které jsi měl před přeměnou. Navrátíš-li se jako výsledek snížení životů na 0, jakékoli přebývající zranění se přenese do tvé normální podoby. Pokud přebývající zranění nesníží životy tvé normální podoby na 0, neupadneš do bezvědomí.
-
-Ponecháš si prospěch z rysů své rasy a schopností svého povolání či jiného zdroje a můžeš je používat, pokud je toho fyzicky schopna tvá nová podoba. Nemůžeš používat žádné zvláštní smysly, které máš (například vidění ve tmě), pokud daný smysl nemá také tvá nová podoba. Můžeš pouze mluvit, pokud tvor může normálně mluvit.
-
-Když se přeměníš, zvolíš si, jestli tvé vybavení upadne na zem, nebo splyne s novou podobou, nebo si ho nová podoba obleče. Oblečené vybavení funguje jako normálně. PJ rozhodne, jestli je účelné pro novou podobu nosit daný kus vybavení, na základě tvaru a velikosti tvora. Tvé vybavení nezmění tvar ani velikost, aby pasovalo na novou podobu a vybavení, které nová podoba nemůže nosit, musí buď spadnout na zem, nebo splynout s novou podobou. Vybavení, které splyne, nemá v tomto stavu žádný účinek.
-
-V průběhu trvání tohoto kouzla můžeš pomocí své akce vzít na sebe jiný vzhled dle stejných omezení a pravidel pro původní podobu, s jednou výjimkou: má-li tvá nová podoba více životů než tvá současná, tvé životy zůstanou na své aktuální hodnotě.
-  </spell>
-
-<spell
-    title="Zóna pravdy"
-    original="Zone of truth"
-    rulebook="Příručka hráče"
-    school="Očarování"
-    level="2"
-    casting="1 akce"
-    range="12 sáhů"
-    components="V, P"
-    duration="10 minut"
-    classes="Bard, Klerik, Paladin"
-    >
-
-  Vytvoříš magickou zónu, která chrání před klamáním v kouli o poloměru 3 sáhy se středem v bodě, který zvolíš v dosahu. Dokud kouzlo neskončí, tak každý tvor, který vstoupí do oblasti kouzla poprvé v tahu, nebo v ní začne svůj tah, si musí hodit záchranný hod na Charisma. Když tvor neuspěje, nemůže v této oblas ti vědomě říkat lži. O každém tvorovi víš, jestli uspěl nebo neuspěl ve svém záchranném hodu.
-
-Ovlivněný tvor si je kouzla vědom a může se vyhýbat odpovídání na otázky, na které by normálně zalhal, nebo může být v odpovědích vyhýbavý, pokud se drží v rámci pravdivosti.
-  </spell>
-
-<spell
     title="Zmrtvýchvstání"
     original="Resurrection"
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="7"
+    ritual="false"
     casting="1 hodina"
     range="Dotyk"
     components="V, P, S (diamant v hodnotě aspoň 1 000 zl, který kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Bard, Klerik"
     >
 
@@ -9217,10 +10128,12 @@ Seslání tohoto kouzla na tvora, jemuž vracíš život po ročním či delší
     rulebook="Příručka hráče"
     school="Vyvolávání"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="30 sáhů"
     components="V, P, S (špetka prachu a pár kapek vody)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Druid, Kouzelník"
     >
 
@@ -9237,10 +10150,12 @@ Pokud se tvor soustředí v oblasti kouzla, musí uspět v záchranném hodu na 
     rulebook="Příručka hráče"
     school="Vymítání"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
     duration="1 kolo"
+    concentration="false"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -9253,10 +10168,12 @@ Pokud se tvor soustředí v oblasti kouzla, musí uspět v záchranném hodu na 
     rulebook="Příručka hráče"
     school="Vymítání"
     level="4"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="8 hodin"
+    concentration="false"
     classes="Klerik, Paladin"
     >
 
@@ -9273,10 +10190,12 @@ Je-li kouzlo stále účinné, když je cíl vystaven účinku, jenž by ho zabi
     rulebook="Příručka hráče"
     school="Očarování"
     level="5"
+    ritual="false"
     casting="1 akce"
     range="18 sáhů"
     components="V, P, S (malý, rovný kus železa)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -9291,10 +10210,12 @@ Je-li kouzlo stále účinné, když je cíl vystaven účinku, jenž by ho zabi
     rulebook="Příručka hráče"
     school="Očarování"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P, S (malý, rovný kus železa)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Bard, Čaroděj, Černokněžník, Druid, Klerik, Kouzelník"
     >
 
@@ -9309,10 +10230,12 @@ Je-li kouzlo stále účinné, když je cíl vystaven účinku, jenž by ho zabi
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="9"
+    ritual="false"
     casting="1 hodina"
     range="Dotyk"
     components="V, P, S (kropenka svěcené vody a diamanty v hodnotě aspoň 25 000 zl, které kouzlo spotřebuje)"
     duration="Ihned"
+    concentration="false"
     classes="Druid, Klerik"
     >
 
@@ -9329,10 +10252,12 @@ Dokonce dokáže opatřit nové tělo, pokud už původní neexistuje, přičem�
     rulebook="Příručka hráče"
     school="Transmutace"
     level="3"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (kapka melasy)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -9351,10 +10276,12 @@ Tvor, na něhož působí toto kouzlo, si hodí další záchranný hod na Moudr
     rulebook="Příručka hráče"
     school="Transmutace"
     level="0"
+    ritual="false"
     casting="1 akce"
     range="24 sáhů"
     components="V, P, S (kousek měděného drátu)"
     duration="1 kolo"
+    concentration="false"
     classes="Bard, Čaroděj, Kouzelník"
     >
 
@@ -9369,10 +10296,12 @@ Toto kouzlo můžeš seslat skrz pevné objekty, pokud se znáš s cílem a ví�
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -9387,10 +10316,12 @@ Toto kouzlo můžeš seslat skrz pevné objekty, pokud se znáš s cílem a ví�
     rulebook="Příručka hráče"
     school="Nekromancie"
     level="6"
+    ritual="false"
     casting="1 akce"
     range="12 sáhů"
     components="V, P"
     duration="Ihned"
+    concentration="false"
     classes="Klerik"
     >
 
@@ -9403,10 +10334,12 @@ Toto kouzlo můžeš seslat skrz pevné objekty, pokud se znáš s cílem a ví�
     rulebook="Příručka hráče"
     school="Iluze"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="Ty sám"
     components="V, P"
     duration="1 minuta"
+    concentration="false"
     classes="Čaroděj, Černokněžník, Kouzelník"
     >
 
@@ -9427,10 +10360,12 @@ Toto kouzlo nepůsobí na tvora, který nevidí, nebo se spoléhá na jiné smys
     rulebook="Příručka hráče"
     school="Transmutace"
     level="2"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (špetka železného prášku)"
-    duration="1 minuta"
+    duration="Soustředění, až 1 minuta"
+    concentration="true"
     classes="Čaroděj, Kouzelník"
     >
 
@@ -9449,10 +10384,12 @@ Je-li cílem tvor, tak vše, co má na sobě či nese, změní svou velikost spo
     rulebook="Příručka hráče"
     school="Transmutace"
     level="8"
+    ritual="false"
     casting="1 akce"
     range="6 sáhů"
     components="V, P"
-    duration="24 hodin"
+    duration="Soustředění, až 24 hodin"
+    concentration="true"
     classes="Druid"
     >
 
@@ -9469,10 +10406,12 @@ Vybavení cíle splyne s novou podobou. Cíl ho nemůže aktivovat, používat, 
     rulebook="Příručka hráče"
     school="Očarování"
     level="2"
+    ritual="true"
     casting="1 akce"
     range="6 sáhů"
     components="V, P, S (pamlsek)"
     duration="24 hodin"
+    concentration="false"
     classes="Bard, Druid, Hraničář"
     >
 
@@ -9489,10 +10428,12 @@ Když posel dorazí, doručí tvorovi, kterého jsi popsal, tvou zprávu tvým h
     rulebook="Xanatharuv pruvodce vším"
     school="Věštění"
     level="1"
+    ritual="false"
     casting="1 akce"
     range="Dotyk"
     components="V, P, S (kousek kožešiny zabalený v látce)"
-    duration="10 minut"
+    duration="Soustředění, až 10 minut"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
@@ -9509,36 +10450,15 @@ Dokud je spojení aktivní, má zvíře výhodu ke všem útokům na jakéhokoli
     rulebook="Příručka hráče"
     school="Věštění"
     level="2"
+    ritual="true"
     casting="1 akce"
     range="Dotyk"
     components="P"
-    duration="1 hodina"
+    duration="Soustředění, až 1 hodina"
+    concentration="true"
     classes="Druid, Hraničář"
     >
 
   Dotkneš se zvířete, které s tím souhlasí. Po dobu trvání kouzla můžeš použít svou akci, abys viděl očima zvířete a slyšel, co slyší. To trvá, dokud nepoužiješ svou akci pro návrat do svých normálních smyslů. Zatímco vnímáš skrz smysly zvířete, máš prospěch z jeho případných zvláštních smyslů, ale jsi slepý a hluchý vůči svému vlastnímu okolí.
-  </spell>
-
-<spell
-    title="Splyň s kamenem"
-    original="Meld into stone"
-    rulebook="Příručka hráče"
-    school="Transmutace"
-    level="3"
-    casting="1 akce"
-    range="Dotyk"
-    components="V, P"
-    duration="8 hodin"
-    classes="Druid, Klerik"
-    >
-
-  Vejdeš do kamenného předmětu nebo povrchu, jenž je dostatečně velký, aby dokázal plně pojmout tvé tělo a splyneš i se vším svým vybavením s kamenem po dobu trvání. Pomocí svého pohybu vstoupíš do kamene v bodě, kterého se můžeš dotknout. Nic z tebe nebude viditeliné ani odhaliteliné nemagickymi smysly.
-
-V době, kdy splýváš s kamenem, nevidíš, co se děje venku a ke všem ověřením Moudrosti (Vnímání), která si hodíš na zaslechnutí zvuků venku, máš nevýhodu. Během této doby si zůstaneš vědom plynutí času a můžeš na sebe sesílat kouzla. Pomocí svého pohybu můžeš opustit kámen tam, kde jsi do něj vstoupil, a kouzlo tak ukončit. Jinak se nemůžeš hýbat.
-
-Drobná fyzická poškození kamene ti neublíží, ale jeho částečné zničení nebo změna tvaru (do rozsahu, do které se už nevejdeš) tě vypudí a způsobí ti drtivé zranění 6k6. Úplné zničení kamene (nebo proměna do jiného materiálu) tě vypudí a způsobí ti drtivé zranění 50. Jsi-li vypuzen, spadneš na volné místo, které je nejblíž bodu, ve kterém jsi vstupoval do kamene.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjQ2NjQ0M119
--->
   </spell>
 

@@ -15,6 +15,13 @@ paths.each do |path|
   SpellSanitizerService.call(file)
 end
 
+# File.read('storage/dnd-spells.md').split("<spell\n").each do |unsanitized_spell|
+#   next if unsanitized_spell.blank?
+
+#   unsanitized_spell = unsanitized_spell.gsub('</spell>', '').rstrip
+#   SpellSanitizerService.call(unsanitized_spell)
+# end
+
 puts "Created #{Spell.count} spells"
 
 
