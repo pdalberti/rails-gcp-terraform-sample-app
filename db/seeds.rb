@@ -9,18 +9,12 @@ DatabaseCleaner.clean
 
 # write your new seeds after this line
 
-paths = Dir['storage/dnd/*.md'].sort
-paths.each do |path|
-  file = File.read(path)
-  SpellSanitizerService.call(file)
+File.read('storage/dnd-spells.md').split("<spell\n").each do |unsanitized_spell|
+  next if unsanitized_spell.blank?
+
+  unsanitized_spell = unsanitized_spell.gsub('</spell>', '').rstrip
+  SpellSanitizerService.call(unsanitized_spell)
 end
-
-# File.read('storage/dnd-spells.md').split("<spell\n").each do |unsanitized_spell|
-#   next if unsanitized_spell.blank?
-
-#   unsanitized_spell = unsanitized_spell.gsub('</spell>', '').rstrip
-#   SpellSanitizerService.call(unsanitized_spell)
-# end
 
 puts "Created #{Spell.count} spells"
 

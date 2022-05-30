@@ -40,8 +40,6 @@ ActiveRecord::Schema.define(version: 2022_05_30_080846) do
   end
 
   create_table "spells", force: :cascade do |t|
-    t.string "name"
-    t.string "en_name"
     t.string "school"
     t.integer "level"
     t.integer "casting"
@@ -59,6 +57,8 @@ ActiveRecord::Schema.define(version: 2022_05_30_080846) do
     t.string "original_range"
     t.string "original_components"
     t.string "original_duration"
+    t.string "title"
+    t.string "original"
   end
 
   create_table "users", force: :cascade do |t|

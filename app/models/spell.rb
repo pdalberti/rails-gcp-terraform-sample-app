@@ -9,9 +9,8 @@
 #  concentration       :boolean
 #  description         :string
 #  duration            :integer
-#  en_name             :string
 #  level               :integer
-#  name                :string
+#  original            :string
 #  original_casting    :string
 #  original_components :string
 #  original_duration   :string
@@ -20,6 +19,7 @@
 #  ritual              :boolean
 #  rulebook            :string
 #  school              :string
+#  title               :string
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
 #
