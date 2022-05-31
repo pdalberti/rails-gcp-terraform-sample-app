@@ -24,58 +24,58 @@
 #  updated_at          :datetime         not null
 #
 class Spell < ApplicationRecord
-  scope :sort_by_czech_name_asc, -> { sort { |a, b| Spell.collator.compare(a.name, b.name) } }
-  scope :sort_by_czech_name_desc, -> { sort { |a, b| Spell.collator.compare(b.name, a.name) } }
-  scope :sort_by_school_and_name_asc, lambda {
+  scope :sort_by_czech_title_asc, -> { sort { |a, b| Spell.collator.compare(a.title, b.title) } }
+  scope :sort_by_czech_title_desc, -> { sort { |a, b| Spell.collator.compare(b.title, a.title) } }
+  scope :sort_by_school_and_title_asc, lambda {
     sort do |a, b|
-      [Spell.collator.get_sort_key(a.school), Spell.collator.get_sort_key(a.name)] <=>
-        [Spell.collator.get_sort_key(b.school), Spell.collator.get_sort_key(b.name)]
+      [Spell.collator.get_sort_key(a.school), Spell.collator.get_sort_key(a.title)] <=>
+        [Spell.collator.get_sort_key(b.school), Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_school_and_name_desc, lambda {
+  scope :sort_by_school_and_title_desc, lambda {
     sort do |a, b|
-      [Spell.collator.get_sort_key(b.school), Spell.collator.get_sort_key(a.name)] <=>
-        [Spell.collator.get_sort_key(a.school), Spell.collator.get_sort_key(b.name)]
+      [Spell.collator.get_sort_key(b.school), Spell.collator.get_sort_key(a.title)] <=>
+        [Spell.collator.get_sort_key(a.school), Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_level_and_name_asc, lambda {
+  scope :sort_by_level_and_title_asc, lambda {
     sort do |a, b|
-      [a.level, Spell.collator.get_sort_key(a.name)] <=> [b.level, Spell.collator.get_sort_key(b.name)]
+      [a.level, Spell.collator.get_sort_key(a.title)] <=> [b.level, Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_level_and_name_desc, lambda {
+  scope :sort_by_level_and_title_desc, lambda {
     sort do |a, b|
-      [b.level, Spell.collator.get_sort_key(a.name)] <=> [a.level, Spell.collator.get_sort_key(b.name)]
+      [b.level, Spell.collator.get_sort_key(a.title)] <=> [a.level, Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_casting_and_name_asc, lambda {
+  scope :sort_by_casting_and_title_asc, lambda {
     sort do |a, b|
-      [a.casting, Spell.collator.get_sort_key(a.name)] <=> [b.casting, Spell.collator.get_sort_key(b.name)]
+      [a.casting, Spell.collator.get_sort_key(a.title)] <=> [b.casting, Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_casting_and_name_desc, lambda {
+  scope :sort_by_casting_and_title_desc, lambda {
     sort do |a, b|
-      [b.casting, Spell.collator.get_sort_key(a.name)] <=> [a.casting, Spell.collator.get_sort_key(b.name)]
+      [b.casting, Spell.collator.get_sort_key(a.title)] <=> [a.casting, Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_range_and_name_asc, lambda {
+  scope :sort_by_range_and_title_asc, lambda {
     sort do |a, b|
-      [a.range, Spell.collator.get_sort_key(a.name)] <=> [b.range, Spell.collator.get_sort_key(b.name)]
+      [a.range, Spell.collator.get_sort_key(a.title)] <=> [b.range, Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_range_and_name_desc, lambda {
+  scope :sort_by_range_and_title_desc, lambda {
     sort do |a, b|
-      [b.range, Spell.collator.get_sort_key(a.name)] <=> [a.range, Spell.collator.get_sort_key(b.name)]
+      [b.range, Spell.collator.get_sort_key(a.title)] <=> [a.range, Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_duration_and_name_asc, lambda {
+  scope :sort_by_duration_and_title_asc, lambda {
     sort do |a, b|
-      [a.duration, Spell.collator.get_sort_key(a.name)] <=> [b.duration, Spell.collator.get_sort_key(b.name)]
+      [a.duration, Spell.collator.get_sort_key(a.title)] <=> [b.duration, Spell.collator.get_sort_key(b.title)]
     end
   }
-  scope :sort_by_duration_and_name_desc, lambda {
+  scope :sort_by_duration_and_title_desc, lambda {
     sort do |a, b|
-      [b.duration, Spell.collator.get_sort_key(a.name)] <=> [a.duration, Spell.collator.get_sort_key(b.name)]
+      [b.duration, Spell.collator.get_sort_key(a.title)] <=> [a.duration, Spell.collator.get_sort_key(b.title)]
     end
   }
 
