@@ -1523,35 +1523,6 @@ Pokud Sešleš toto Kouzlo pomocí Pozice 2. či vyššího Stupně, Zásah se z
 </spell>
 
 <spell
-  title="Hněv živlů"
-  rulebook="Jeskyně a draci"
-  school="Transmutace"
-  level="1"
-  ritual="false"
-  casting="1 akce"
-  range="12 sáhů"
-  components="V, P, S (prach z barevných krystalů)"
-  duration="Ihned"
-  concentration="false"
-  classes="Čaroděj, Druid, Kouzelník"
-  >
-
-Zvolíš živel v Dosahu kouzla a obrátíš ho proti Cíli do šesti sáhů od něj.
-
-**Oheň.** Musí jít alespoň o táborový nebo krbový oheň. Pokud plameny šlehají alespoň jeden sáh vysoko, mají zasažení tvorové k Záchrannému hodu Nevýhodu. Z ohně vyšlehnou plameny a utvoří jeden sáh širokou a až čtyři sáhy dlouhou Dráhu k Cíli. Cíl a každý další tvor v Dráze musí uspět v Záchranném hodu na Obratnost, jinak utrpí Ohnivý zásah za 3k6 Bodů výdrže, při úspěchu za polovinu. Hořlavé předměty v Dráze, které nikdo nedrží ani nenese, vzplanou.
-
-**Voda.** Musí jít alespoň o plné vědro vody. Pokud jde o vodní masu, která má nejméně jeden sáh ve všech směrech (včetně hloubky), má tvor k Záchrannému hodu Nevýhodu. Mezi zdrojem vody a Cílem musí být volná cesta (dostatečná pro střelbu, bez ohledu na Kryt). Voda se vymrští na Cíl do čtyř sáhů daleko, udeří do něj a zamrzne. Pokud Cíl selže v Záchranném hodu na Obratnost, utrpí Chladný zásah za 3k6 Bodů výdrže a jeho Rychlost klesne až do konce jeho příštího Tahu na nulu. Pokud uspěje, vyvázne bez následků.
-
-Pokud se Cíl nachází ve vodě, jsou zasaženi i všichni tvorové do jednoho sáhu od něj. Tvor, který v Záchranném hodu selže a nemá Rychlost plavání, se začne na začátku svého Tahu ihned topit, což pokračuje, dokud ve své Akci neuspěje na plavání Ověřením síly (Atletiky). Hněv vody dokáže rozbít a potopit malou loďku (např. pramici), jejíž posádka a náklad skončí bez další přímé újmy ve vodě.
-
-**Vzduch.** Okolo Cíle musí být prostor objemem odpovídající Krychli o hraně alespoň čtyři sáhy. Pokud prostor svým objemem odpovídá Krychli o hraně alespoň osm sáhů, mají zasažení tvorové k Záchrannému hodu Nevýhodu. Cíl a všechny tvory do dvou sáhů od něj zasáhne hromový úder. Všechny bytosti v oblasti musí uspět v Záchranném hodu na Odolnost, jinak utrpí Hromový zásah za 2k6 Bodů výdrže a až do konce svého dalšího Tahu se stanou Ohlušenými a ztratí možnost použít Reakci. Pokud uspějí, vyváznou bez následků.
-
-**Země.** Cíl se musí nacházet na hlíně nebo kamení. Pokud jsou zasažení tvorové hlínou či kamenem obklopeni (v podzemí, uprostřed skal nebo v kamenné budově, kde k žádné zdi nemají dále než tři sáhy), mají k Záchrannému hodu nevýhodu. Země se náhle vzedme a udeří na Cíl a na vše do dvou sáhů od něj, co se nachází na hlíně či kameni. Všichni tvorové v oblasti účinku musí uspět v Záchranném hodu na Sílu, jinak utrpí Drtivý zásah za 2k6 Bodů výdrže, jsou Sraženi a stanou se Ležícími. Pokud uspějí, vyváznou bez následků.
-
-Pokud Sešleš toto Kouzlo pomocí Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k6 Bodů výdrže za každý Stupeň nad 1.
-</spell>
-
-<spell
   title="Hniloba"
   original="Blight"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -2371,6 +2342,27 @@ Jeden humanoid dle tvé volby, kterého vidíš v dosahu, musí uspět v záchra
 Zmámený cíl musí v každém svém tahu před pohybem použít svou akci k útoku na blízko proti tvorovi, kterého mentálně zvolíš. Nemůžeš zvolit, aby cíl zaútočil sám na sebe. Nezvolíš-li žádného tvora, nebo není-li žádný v jeho dosahu, může cíl jednat ve svém tahu normálně.
 
 V následujících tazích musíš použít svou akci k udržení kontroly nad cílem, jinak kouzlo skončí. Cíl si také může na konci každého svého tahu hodit záchranný hod na Moudrost. Když uspěje, kouzlo skončí.
+</spell>
+
+<spell
+  title="Kořeny omotání"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="4"
+  ritual="false"
+  casting="1 Akce"
+  range="6 sáhů (Dráha 12 sáhů)"
+  components="V, P, S (semínko stromu zabalené v hlíně, které je Kouzlem spotřebováno)"
+  duration="1 minuta"
+  concentration="true"
+  classes="Druid, Hraničář"
+  >
+
+Semínko hodíš na zem do šesti sáhů od sebe. Z tohoto místa vyrostou v tebou zvoleném směru kořeny v jeden sáh široké a dvanáct sáhů dlouhé Dráze. Každý tvor, který se buď v zasažené oblasti nachází při Seslání kouzla, nebo který do ní ve svém Tahu poprvé vstoupí či v ní svůj Tah začne, musí uspět v Záchranném hodu na Sílu, jinak se okolo něj kořeny omotají a stane se Chyceným. Jako Akci se tvor může pokusit osvobodit hodem na Sílu. Obrovští a větší tvorové mají na všechny hody proti Kouzlu Výhodu.
+
+Ve svém Tahu můžeš použít svou Akci a nechat kořeny dále rozrůst. Vyber místo do dvanácti sáhů od sebe, na kterém se už Kořeny omotání nacházejí. Z něj se v tebou zvoleném směru rozroste nová, jeden sáh široká a až čtyři sáhy dlouhá Dráha.
+
+Kořeny jsou považovány za Těžký terén, ale lze je zničit. Každý jejich čtvereční sáh má OČ 13, 20 Bodů výdrže, je Imunní vůči Psychickým zásahům, Zranitelný Sečnými a Ohnivými zásahy a automaticky selže ve všech Záchranných hodech. Zničení části kořenů nemá žádný vliv na zbytek.
 </spell>
 
 <spell
@@ -5271,6 +5263,25 @@ Když pohybuješ koulí, dokáže překonat až 1 sáh vysoké bariéry a přesk
 </spell>
 
 <spell
+  title="Plášť zmaru"
+  rulebook="Jeskyně a draci"
+  school="Nekromancie"
+  level="1"
+  ritual="false"
+  casting="1 Akce"
+  range="Sesilatel"
+  components="V, P, S (černý kapesník)"
+  duration="1 minuta"
+  concentration="false"
+  classes="Černokněžník"
+  >
+
+Okolo Sesilatele se vytvoří aura nekrotické energie, která saje život z okolních tvorů. Aura má Dosah jeden sáh od Sesilatele a je viditelná. Každý tvor, který v ní začne svůj Tah, musí uspět v Záchranném hodu na Odolnost, jinak utrpí Nekrotický zásah za 1k6 \+ Zdatnostní bonus Sesilatele Bodů výdrže. Sesilatel navíc na začátku svého Tahu získá počet Dočasných bodů výdrže rovný nejvyššímu počtu Bodů výdrže, které aura od konce jeho předchozího Tahu vysála. Výtvory v Záchranném hodu automaticky uspějí.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah se zvýší o 2 Body výdrže za každý Stupeň nad 1.
+</spell>
+
+<spell
   title="Podmínečnost"
   original="Contingency"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -6924,25 +6935,6 @@ Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah
 </spell>
 
 <spell
-  title="Síla fénixe"
-  rulebook="Jeskyně a draci"
-  school="Zaklínání"
-  level="1"
-  ritual="false"
-  casting="1 akce"
-  range="Sesilatel (okruh 2 sáhy)"
-  components="V, P"
-  duration="Ihned"
-  concentration="false"
-  classes="Čaroděj, Černokněžník"
-  >
-
-Když Sešleš toto Kouzlo, vzplaneš a začnou kolem tebe šlehat barevné plameny. Všichni tvorové do dvou sáhů od tebe musí uspět v Záchranném hodu na Obratnost, jinak utrpí Ohnivý zásah za 2k6 Bodů výdrže, při úspěchu za polovinu. Ty si navíc obnovíš 1 + tvůj Zdatnostní bonus Bodů výdrže.
-
-Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k6 Bodů výdrže a obnovíš si o 2 Body Výdrže více za každý Stupeň nad 1.
-</spell>
-
-<spell
   title="Silová klec"
   original="Forcecage"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -7101,24 +7093,24 @@ Můžeš oslepit nebo ohlušit nepřítele. Zvol jednoho tvora, kterého vidíš
 </spell>
 
 <spell
-  title="Slizký úder"
+  title="Slídivé oko"
   rulebook="Jeskyně a draci"
-  school="Zaklínání"
-  level="1"
+  school="Vyvolávání"
+  level="3"
   ritual="false"
-  casting="1 akce"
-  range="6 sáhů"
-  components="V, P, S (ostatky z mrtvého Slizu)"
-  duration="10 minut"
+  casting="1 Akce"
+  range="24 sáhů"
+  components="V, P"
+  duration="1 minuta"
   concentration="true"
-  classes="Čaroděj, Černokněžník, Kouzelník"
+  classes="Černokněžník"
   >
 
-Vytvoříš kyselinovou kouli, která se vymrští přímo k Cíli a pokropí ho. Hoď si na Útok na dálku kouzlem proti jednomu tvorovi v Dosahu kouzla. Při úspěchu Cíl utrpí Drtivý zásah za 1k6 Bodů výdrže a Zásah kyselinou za 1k6 Bodů výdrže a kyselinová koule se vrátí zpátky k tobě.
+Na volném místě dle tvé volby otevřeš prostorovou Trhlinu k mocnému a zvědavému stvoření, které začne studovat vše v Kuželu čtyři sáhy ve směru podle tvé volby a s počátkem v bodě Trhliny.
 
-V každém Tahu po dobu Trvání kouzla můžeš pomocí své Akce zaútočit tímto Kouzlem znovu. Pokud Útok mine nebo pokud ve svém Tahu koulí nezaútočíš, rozpustí se a Kouzlo skončí.
+Oko na vše uvnitř Kuželu telepaticky promlouvá nesrozumitelným jazykem. Všichni tvorové, kteří jsou v oblasti účinku, když se Trhlina objeví, poprvé do ní během svého Tahu vstoupí nebo v ní skončí svůj Tah, musí uspět v Záchranném hodu na Inteligenci, jinak utrpí Psychický zásah za 2k10 Bodů výdrže a jsou do začátku svého příštího Tahu Omráčení. Při úspěchu utrpí poloviční Zásah a Omráčení nejsou. Pokud nějaký tvor stojí v oblasti účinku, může oko napadnout. Oko má OČ 15, 25 Bodů výdrže a je Imunní vůči Psychickým zásahům, avšak automaticky selže ve všech Záchranných hodech. Pokud jeho Body výdrže klesnou na 0, oko samo uzavře Trhlinu a Kouzlo ukončí.
 
-Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, vytvoříš jednu kouli navíc za každý Stupeň nad 1. S každou koulí můžeš v rámci jedné Akce zaútočit zvlášť (na různé Cíle nebo na stejný Cíl).
+Z oblasti mimo Kužel je Trhlina poloprůhledná a poskytuje poloviční kryt.
 </spell>
 
 <spell
