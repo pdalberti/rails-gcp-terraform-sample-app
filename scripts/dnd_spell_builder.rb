@@ -18,7 +18,7 @@ def spell_content(spell)
 end
 
 File.open('storage/dnd-spells.md', 'w') do |f|
-  Spell.order(:title).each do |spell|
+  Spell.sort_by_czech_title_asc.each do |spell|
     f.write(spell_content(spell))
   end
 end
