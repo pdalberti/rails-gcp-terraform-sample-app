@@ -99,6 +99,39 @@ Tvor, který uspěje v záchraně proti tomuto účinku, je vůči němu imunní
 </spell>
 
 <spell
+  title="Antropomancie"
+  rulebook="Jeskyně a draci"
+  school="Nekromancie"
+  level="2"
+  ritual="true"
+  casting="1 minuta"
+  range="Dotyk"
+  components="V, P, S (nůž na rozřezávání masa, kůže a šlach, palička na kosti)"
+  duration="5 kol"
+  concentration="false"
+  classes="Černokněžník, Klerik, Kouzelník"
+  >
+
+Vytrhneš z mrtvého těla až tři části a za pomoci temných zaříkadel je donutíš předat ti poslední vjem, který jimi prošel. Tělní části nemají vědomí a nemůžou ti úmyslně lhát, ale ani rozlišit skutečnost od iluze (tj. např. oči viděly Draka, ale pokud nebyla iluze prolomena, Drak může být pravý i jen vyvolanou iluzí). Co konkrétně zjistíš záleží na zpracované části:
+
+* **Oči.** Spatříš poslední obraz, který viděly (např. černočerná tma, chodba plná Goblinů, apod.). Obraz je statický a pomine, jakmile mrkneš.
+
+* **Uši.** Zaslechneš poslední slovo nebo zvuk, který zesnulý slyšel, než zemřel.
+
+* **Srdce.** Pocítíš poslední emoci, kterou zesnulý cítil v její plné intenzitě.
+
+* **Ruce.** Získáš povědomí o tvaru (např. válec, krychle) a materiálu předmětu, kterého se ruce naposledy dotkly. Nevíš ale, o jaký předmět přesně šlo.
+
+* **Jazyk.** Uslyšíš poslední tři slova, která zesnulý pronesl.
+
+* **Nos.** Ucítíš poslední vůni či zápach, které zesnulý cítil (např. vůně levandulí nebo zápach spáleniny).
+
+PH může povolit věštění i z jiných částí těl, pokud to uzná za vhodné.
+
+Stáří mrtvoly nehraje roli, ale část těla, ze které chceš věštit, musí být zachovalá. Kouzlo zničí ty části těla, které byly použity k věštění, a tělo samotné je tvým počínáním zohaveno.
+</spell>
+
+<spell
   title="Astrální projekce"
   original="Astral projection"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -493,6 +526,46 @@ Když sesíláš toto kouzlo, můžeš vyslovit jméno konkrétního tvora (pseu
 </spell>
 
 <spell
+  title="Bájný lučištník"
+  rulebook="Jeskyně a draci"
+  school="Iluze"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="15 sáhů"
+  components="P, S (letky k šípu z barevných per)"
+  duration="Ihned"
+  concentration="false"
+  classes="Bard, Hraničář"
+  >
+
+Na okamžik na sebe vezmeš podobu bájného lučištníka. Podoba vydrží jen tak dlouho, než vystřelíš iluzorním lukem na Cíl do patnácti sáhů. Hoď si na Útok na dálku kouzlem, a pokud zasáhneš, bude Cíl z iluze šípu pronikajícího mu srdcem tak otřesen, že utrpí Psychický zásah za 3k8 Bodů výdrže.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k8 Bodů výdrže za každý Stupeň nad 1.
+</spell>
+
+<spell
+  title="Běsnění"
+  rulebook="Jeskyně a draci"
+  school="Očarování"
+  level="2"
+  ritual="false"
+  casting="1 akce"
+  range="Dotyk"
+  components="V, P"
+  duration="1 minuta"
+  concentration="true"
+  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Dotkneš se tvora a naplníš jeho mysl krvelačnými myšlenkami. Hoď si proti Cíli na Útok na blízko kouzlem. Pokud Zasáhneš, Zmámíš ho a vyvoláš v něm vražedné běsnění.
+
+Běsnící Cíl musí na začátku každého svého Tahu uspět v Záchranném hodu na Moudrost, jinak napadne nejbližšího tvora. Pokud se ve stejné vzdálenosti nachází tvorů více, Cíl Útoku je určen náhodně. Pomocí své Reakce můžeš Cíl na okamžik přivést skutečně k šílenství a způsobit mu tak Nevýhodu na Útok. Pokud Cíl v Záchraně uspěje, může v daném Tahu jednat normálně.
+
+Tvorové s Výhodou proti Zmámení mají Výhodu i ke všem Záchranným hodům proti vlivu tohoto Kouzla.
+</spell>
+
+<spell
   title="Cejchovací úder"
   original="Branding smite"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -543,6 +616,25 @@ Každý tvor může být tímto bleskem zasažen jen jednou v rámci jednoho ses
 | 6 | Ohnivé |
 | 7 | Psychické |
 | 8 | Silové |
+</spell>
+
+<spell
+  title="Chapadlo"
+  rulebook="Jeskyně a draci"
+  school="Vyvolávání"
+  level="2"
+  ritual="false"
+  casting="1 akce"
+  range="9 sáhů (1 sáh)"
+  components="V, P, S (chapadlo z chobotnice v ceně 3 md, které je Kouzlem spotřebováno)"
+  duration="1 minuta"
+  concentration="true"
+  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Na volné místo v Dosahu kouzla hodíš chapadlo z chobotnice, které vyroste do obřího rozměru a zabere prostor 1 x 1 sáh. Chapadlo má OČ 10, 15 Bodů výdrže a Imunitu vůči Psychickým zásahům. Pokud je donuceno k Záchrannému hodu, automaticky selže. Chapadlo zaútočí jedním Útokem na blízko na každého, kdo začne svůj Tah do jednoho sáhu od něj nebo do této oblasti poprvé ve svém Tahu vstoupí, a při úspěchu způsobí Drtivý zásah za 2k8 Bodů výdrže.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 3. či vyššího Stupně, získá chapadlo dalších 5 Bodů výdrže a jeho Zásah se zvýší o 1k8 Bodů výdrže za každý Stupeň nad 2.
 </spell>
 
 <spell
@@ -695,6 +787,39 @@ Sešleš-li toto kouzlo několikrát, můžeš mít aktivní až tři minutové 
 </spell>
 
 <spell
+  title="Divotvorství"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="V"
+  duration="1 minuta"
+  concentration="false"
+  classes="Klerik"
+  >
+
+V rámci Dosahu kouzla předvedeš jako znamení nadpřirozené moci drobný zázrak. Vytvoříš jeden z následujících magických efektů:
+
+* Na jednu minutu zesílíš svůj hlas až na trojnásobek.
+
+* Na jednu minutu způsobíš třepotání plamenů, zvýšíš jejich jas, utlumíš je, nebo změníš jejich barvu.
+
+* Na jednu minutu způsobíš slabé, neškodné otřesy země.
+
+* Způsobíš náhlý zvuk, vycházející z bodu, který zvolíš v Dosahu. Například zahřmění, zakrákání havrana nebo zlověstný šepot.
+
+* Způsobíš, že se neuzamčené dveře či okno náhle rozletí dokořán, nebo naopak zabouchnou.
+
+* Na jednu minutu změníš vzhled svých očí.
+
+Pokud toto kouzlo Sešleš vícekrát, můžeš mít aktivní až tři minutové efekty najednou a každý z nich můžeš zrušit jako Akci.
+
+Od 5. Úrovně můžeš na jednu minutu nechat znít svůj hlas andělsky nebo démonicky a učinit ho až čtyřikrát silnějším. Od 11. Úrovně můžeš udržet až čtyři různé efekty tohoto kouzla naráz. Způsobené otřesy jsou cítit na budovách (ale neponičí je) a můžeš otevřít všechny nezamčené a nezajištěné dveře a okna v Dosahu kouzla. Od 17. Úrovně můžou všechny efekty trvat až hodinu. Otřesy navíc každé Kolo způsobí Zásah za 1 Bod výdrže všem věcem, které nikdo nedrží ani nenese.
+</spell>
+
+<spell
   title="Dlouhokrok"
   original="Longstrider"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -829,6 +954,31 @@ Pokud tvor odhalí, že jde o iluzi, tak iluze se stane pro tvora mdlá.
 </spell>
 
 <spell
+  title="Drobná iluze"
+  rulebook="Jeskyně a draci"
+  school="Iluze"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="P, S (kousek ovčího rouna)"
+  duration="1 minuta"
+  concentration="false"
+  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+  >
+
+V rámci Dosahu kouzla vytvoříš buď zvuk, nebo obraz předmětu, který vydrží po dobu jeho Trvání. Iluze skončí, i pokud ji zrušíš jako Akci nebo Sešleš kouzlo znovu.
+
+Pokud vytvoříš zvuk, jeho hlasitost může být v rozmezí od šepotu po křik. Může to být tvůj hlas, cizí hlas, řev lva, bubnování nebo jakýkoliv jiný zvuk, který si zvolíš. Zvuk zní po celou dobu Trvání nebo můžeš udělat samostatné zvuky, které zazní v různé časy před skončením Kouzla.
+
+Pokud vytvoříš obraz předmětu – například židli, zablácené stopy nebo truhličku – , nesmí být větší než Krychle o hraně jednoho sáhu. Obraz nemůže vytvářet zvuk, světlo, pach ani žádný jiný smyslový vjem. Fyzická interakce s obrazem prozradí, že jde o iluzi, neboť jím věci prochází.
+
+Pokud tvor použije svou Akci k pozornému prohlédnutí obrazu, dokáže úspěšným hodem na Inteligenci (Pátrání) proti tvému SO Záchrany kouzla určit, že jde o iluzi. Pokud ji odhalí, iluze se pro něj stane mdlou.
+
+Od 5. Úrovně se Dosah zvýší na dvanáct sáhů. Od 11. Úrovně můžeš při Seslání efekt až o jednu minutu odložit a ten poté trvá další až jednu minutu. Od 17. Úrovně můžeš vytvořit obraz tekutiny nebo kakofonii různých zvuků, které nejsou hlasitější než křik.
+</spell>
+
+<spell
   title="Drobný služebník"
   original="Tiny servant"
   rulebook="Xanatharuv pruvodce vším"
@@ -848,6 +998,43 @@ Akce
 ***Úder pěstí.*** *Útok na blízko zbraní:* +5 k zásahu, dosah 1 sáh, jeden cíl. *Zásah:* Drtivé zranění 5 (1k4 + 3).
 
 </monster>
+</spell>
+
+<spell
+  title="Druidství"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="V, P"
+  duration="Ihned"
+  concentration="false"
+  classes="Druid"
+  >
+
+Prosbou šeptanou k duchům přírody vytvoříš v Dosahu jeden z následujících efektů:
+
+* Vytvoříš drobný, neškodný smyslový efekt, který předpoví počasí ve tvé oblasti na následujících 24 hodin. Účinek se může projevit jako zlatá koule pro jasnou oblohu, mrak pro déšť, padající sněhové vločky pro sněžení a tak dále. Tento účinek vydrží jedno Kolo.
+
+* Necháš vmžiku rozkvést květinu, otevřít semínko nebo vyrašit poupě.
+
+* Vytvoříš okamžitý, neškodný smyslový účinek, například padající listí, závan větru, zvuk malého zvířete nebo slabý zápach tchoře. Účinek se musí vejít do Krychle o hraně jeden sáh.
+
+* Ihned zapálíš nebo uhasíš svíčku, pochodeň nebo malý táborový oheň.
+
+Od 5. Úrovně můžeš navíc způsobit jeden z následujících efektů:
+
+* Vytvoříš bariéru proti počasí s poloměrem dva sáhy a středem v tobě, která se pohybuje spolu s tebou. Bariéra vydrží deset minut, během kterých tě chrání před nemagickým deštěm, sněhem a větrem.
+
+* Můžeš utlumit světlo svíčky, pochodně nebo malého ohně, aby dosvítilo jen do poloviční vzdálenosti.
+
+* Vyvoláš silný smyslový efekt, jako je zařvání tygra, úder hromu nebo vůně kouře. Efekt se musí vejít do Krychle o hraně dva sáhy.
+
+* Dotkneš se bytosti a ihned odstraníš z jejího těla a oblečení všechen nepřirozený zápach.
+
+Od 11. Úrovně můžeš zapálit nebo uhasit všechny svíčky, pochodně nebo malé ohně v Dosahu kouzla. Když necháš rozkvést květinu, otevřít semínko nebo vyrašit poupě, dokážeš to udělat u všech rostlin v Dosahu kouzla. Efekt dokážeš také obrátit a nechat květ odkvést, semeno učinit neplodným nebo nechat uvadnout listy. Od 17. Úrovně, když vytvoříš bariéru proti počasí, můžeš uvnitř ní ovlivnit i teplotu a vlhkost vzduchu a ochránit tak tvory uvnitř před přirozeným nepohodlím.
 </spell>
 
 <spell
@@ -957,6 +1144,25 @@ Vidíš jeho očima a slyšíš jeho ušima, jako bys byl na jeho místě. V ka�
 Dotkneš se mrtvoly nebo jiných ostatků. Po dobu trvání je cíl chráněný před rozkladem a nemůže se stát nemrtvým.
 
 Kouzlo také prakticky prodlužuje časový limit pro vzkříšení cíle, neboť dny, po které působí toto kouzlo, se nepočítají do časového limitu kouzel typu *vzkříšení*.
+</spell>
+
+<spell
+  title="Elementální erupce"
+  rulebook="Jeskyně a draci"
+  school="Zaklínání"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="18 sáhů"
+  components="V, P"
+  duration="Ihned"
+  concentration="false"
+  classes="Čaroděj, Kouzelník"
+  >
+
+Vybereš přírodní živel a přivoláš jeho destruktivní sílu na jeden Cíl, který vidíš v Dosahu kouzla. Můžeš si vybrat z následujících Typů zásahu: Bleskový, Drtivý, Hromový, Chladný, Jedový, Kyselinový nebo Ohnivý. Cíl si hodí Záchranný hod na Odolnost. Při neúspěchu utrpí Zásah příslušného Typu za 2k10 Bodů výdrže, při úspěchu za polovinu.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k10 Bodů výdrže za každý Stupeň nad 1.
 </spell>
 
 <spell
@@ -1104,6 +1310,63 @@ Vyvoláš moc Hadara, Temného chlípníka. Vyrazí z tebe úponky temné energi
 </spell>
 
 <spell
+  title="Hadí uštknutí"
+  rulebook="Jeskyně a draci"
+  school="Vyvolávání"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="V, P, S (zub z jedovatého hada)"
+  duration="Ihned"
+  concentration="false"
+  classes="Čaroděj, Druid"
+  >
+
+Na tvé ruce se objeví přízračný had, který zaútočí na tebou vybraného tvora v Dosahu kouzla. Hoď si na Útok na blízko kouzlem. Při Zásahu Cíl utrpí Bodný zásah za 1k4 Bodů výdrže a Jedový zásah za 1k4 Bodů výdrže.
+
+Oba Zásahy se zvýší o 1k4 na 5. Úrovni (2k4 + 2k4), 11. Úrovni (3k4 + 3k4) a na 17. Úrovni (4k4 + 4k4).
+</spell>
+
+<spell
+  title="Hexenšus"
+  rulebook="Jeskyně a draci"
+  school="Nekromancie"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="12 sáhů"
+  components="V, P, S (hadrová panenka)"
+  duration="1 minuta"
+  concentration="true"
+  classes="Černokněžník, Klerik, Kouzelník"
+  >
+
+Zvol si tvora, kterého vidíš v Dosahu kouzla. Cíl musí uspět v Záchraně na Odolnost, jinak bude stižen náhlou intenzivní bolestí zad, zejména kříže a ledvin. Při úspěchu nemá Kouzlo na Cíl žádný efekt.
+
+Ovlivněný Cíl má po dobu Trvání kouzla Nevýhodu ke všem Ověřením a Záchranám na Sílu a Obratnost včetně hodů na Útok, jeho Rychlost se sníží na polovinu (zaokrouhleno dolů) a ztratí možnost provést Akci Běh. Bolest narušuje Soustředění Cíle a ten musí pro jeho udržení uspět na začátku každého svého Tahu v Záchranném hodu na Odolnost se SO 10. Tvor zasažený tímto Kouzlem si musí hodit další Záchranný hod na Odolnost na konci každého svého Tahu. Pokud uspěje, Kouzlo skončí.
+</spell>
+
+<spell
+  title="Hlas bouře"
+  rulebook="Jeskyně a draci"
+  school="Zaklínání"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="Sesilatel (Kužel 2 sáhy)"
+  components="V"
+  duration="Ihned"
+  concentration="false"
+  classes="Čaroděj, Druid"
+  >
+
+Vydáš ze sebe zvolání nebo výkřik, který má v sobě sílu bouře a dá ji pocítit tvorům poblíž. Každý tvor v Kuželu o velikosti dva sáhy musí uspět v Záchranném hodu na Odolnost, jinak utrpí Hromový zásah za 1k6 Bodů výdrže a stane se do konce svého příštího Tahu Ohlušeným.
+
+Zásah tohoto kouzla se zvýší o 1k6, když dosáhneš 5. Úrovně (2k6), 11. Úrovně (3k6) a 17. Úrovně (4k6).
+</spell>
+
+<spell
   title="Hlas umíráčku"
   original="Toll the dead"
   rulebook="Xanatharuv pruvodce vším"
@@ -1231,6 +1494,64 @@ Promluvíš k duchům přírody, abys je poštval proti svým nepřátelům. Zvo
 ***Kořeny a liány.*** Na konci každého z tvých tahů musí jeden tvor, kterého vidíš v krychli, uspět v záchranném hodu na Sílu, jinak je až do konce kouzla zadržený. Zadržený tvor může použít svou akci k ověření Síly (Atletiky) proti tvému SO záchrany kouzla. Uspěje-li, zadržení skončí.
 
 ***Kameny.*** Jako bonusovou akci můžeš během svého tahu způsobit, že volně ležící kámen vystřelí ze země na tvora, kterého vidíš v krychli. Hoď si na útok kouzlem na dálku. Zasáhneš-li, cíl utrpí 3k8 nemagického drtivého zranění a musí uspět v záchranném hodu na Sílu, jinak je sražen na zem.
+</spell>
+
+<spell
+  title="Hněv živlů"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="12 sáhů"
+  components="V, P, S (prach z barevných krystalů)"
+  duration="Ihned"
+  concentration="false"
+  classes="Čaroděj, Druid, Kouzelník"
+  >
+
+Zvolíš živel v Dosahu kouzla a obrátíš ho proti Cíli do šesti sáhů od něj.
+
+**Oheň.** Musí jít alespoň o táborový nebo krbový oheň. Pokud plameny šlehají alespoň jeden sáh vysoko, mají zasažení tvorové k Záchrannému hodu Nevýhodu. Z ohně vyšlehnou plameny a utvoří jeden sáh širokou a až čtyři sáhy dlouhou Dráhu k Cíli. Cíl a každý další tvor v Dráze musí uspět v Záchranném hodu na Obratnost, jinak utrpí Ohnivý zásah za 3k6 Bodů výdrže, při úspěchu za polovinu. Hořlavé předměty v Dráze, které nikdo nedrží ani nenese, vzplanou.
+
+**Voda.** Musí jít alespoň o plné vědro vody. Pokud jde o vodní masu, která má nejméně jeden sáh ve všech směrech (včetně hloubky), má tvor k Záchrannému hodu Nevýhodu. Mezi zdrojem vody a Cílem musí být volná cesta (dostatečná pro střelbu, bez ohledu na Kryt). Voda se vymrští na Cíl do čtyř sáhů daleko, udeří do něj a zamrzne. Pokud Cíl selže v Záchranném hodu na Obratnost, utrpí Chladný zásah za 3k6 Bodů výdrže a jeho Rychlost klesne až do konce jeho příštího Tahu na nulu. Pokud uspěje, vyvázne bez následků.
+
+Pokud se Cíl nachází ve vodě, jsou zasaženi i všichni tvorové do jednoho sáhu od něj. Tvor, který v Záchranném hodu selže a nemá Rychlost plavání, se začne na začátku svého Tahu ihned topit, což pokračuje, dokud ve své Akci neuspěje na plavání Ověřením síly (Atletiky). Hněv vody dokáže rozbít a potopit malou loďku (např. pramici), jejíž posádka a náklad skončí bez další přímé újmy ve vodě.
+
+**Vzduch.** Okolo Cíle musí být prostor objemem odpovídající Krychli o hraně alespoň čtyři sáhy. Pokud prostor svým objemem odpovídá Krychli o hraně alespoň osm sáhů, mají zasažení tvorové k Záchrannému hodu Nevýhodu. Cíl a všechny tvory do dvou sáhů od něj zasáhne hromový úder. Všechny bytosti v oblasti musí uspět v Záchranném hodu na Odolnost, jinak utrpí Hromový zásah za 2k6 Bodů výdrže a až do konce svého dalšího Tahu se stanou Ohlušenými a ztratí možnost použít Reakci. Pokud uspějí, vyváznou bez následků.
+
+**Země.** Cíl se musí nacházet na hlíně nebo kamení. Pokud jsou zasažení tvorové hlínou či kamenem obklopeni (v podzemí, uprostřed skal nebo v kamenné budově, kde k žádné zdi nemají dále než tři sáhy), mají k Záchrannému hodu nevýhodu. Země se náhle vzedme a udeří na Cíl a na vše do dvou sáhů od něj, co se nachází na hlíně či kameni. Všichni tvorové v oblasti účinku musí uspět v Záchranném hodu na Sílu, jinak utrpí Drtivý zásah za 2k6 Bodů výdrže, jsou Sraženi a stanou se Ležícími. Pokud uspějí, vyváznou bez následků.
+
+Pokud Sešleš toto Kouzlo pomocí Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k6 Bodů výdrže za každý Stupeň nad 1.
+</spell>
+
+<spell
+  title="Hněv živlů"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="12 sáhů"
+  components="V, P, S (prach z barevných krystalů)"
+  duration="Ihned"
+  concentration="false"
+  classes="Čaroděj, Druid, Kouzelník"
+  >
+
+Zvolíš živel v Dosahu kouzla a obrátíš ho proti Cíli do šesti sáhů od něj.
+
+**Oheň.** Musí jít alespoň o táborový nebo krbový oheň. Pokud plameny šlehají alespoň jeden sáh vysoko, mají zasažení tvorové k Záchrannému hodu Nevýhodu. Z ohně vyšlehnou plameny a utvoří jeden sáh širokou a až čtyři sáhy dlouhou Dráhu k Cíli. Cíl a každý další tvor v Dráze musí uspět v Záchranném hodu na Obratnost, jinak utrpí Ohnivý zásah za 3k6 Bodů výdrže, při úspěchu za polovinu. Hořlavé předměty v Dráze, které nikdo nedrží ani nenese, vzplanou.
+
+**Voda.** Musí jít alespoň o plné vědro vody. Pokud jde o vodní masu, která má nejméně jeden sáh ve všech směrech (včetně hloubky), má tvor k Záchrannému hodu Nevýhodu. Mezi zdrojem vody a Cílem musí být volná cesta (dostatečná pro střelbu, bez ohledu na Kryt). Voda se vymrští na Cíl do čtyř sáhů daleko, udeří do něj a zamrzne. Pokud Cíl selže v Záchranném hodu na Obratnost, utrpí Chladný zásah za 3k6 Bodů výdrže a jeho Rychlost klesne až do konce jeho příštího Tahu na nulu. Pokud uspěje, vyvázne bez následků.
+
+Pokud se Cíl nachází ve vodě, jsou zasaženi i všichni tvorové do jednoho sáhu od něj. Tvor, který v Záchranném hodu selže a nemá Rychlost plavání, se začne na začátku svého Tahu ihned topit, což pokračuje, dokud ve své Akci neuspěje na plavání Ověřením síly (Atletiky). Hněv vody dokáže rozbít a potopit malou loďku (např. pramici), jejíž posádka a náklad skončí bez další přímé újmy ve vodě.
+
+**Vzduch.** Okolo Cíle musí být prostor objemem odpovídající Krychli o hraně alespoň čtyři sáhy. Pokud prostor svým objemem odpovídá Krychli o hraně alespoň osm sáhů, mají zasažení tvorové k Záchrannému hodu Nevýhodu. Cíl a všechny tvory do dvou sáhů od něj zasáhne hromový úder. Všechny bytosti v oblasti musí uspět v Záchranném hodu na Odolnost, jinak utrpí Hromový zásah za 2k6 Bodů výdrže a až do konce svého dalšího Tahu se stanou Ohlušenými a ztratí možnost použít Reakci. Pokud uspějí, vyváznou bez následků.
+
+**Země.** Cíl se musí nacházet na hlíně nebo kamení. Pokud jsou zasažení tvorové hlínou či kamenem obklopeni (v podzemí, uprostřed skal nebo v kamenné budově, kde k žádné zdi nemají dále než tři sáhy), mají k Záchrannému hodu nevýhodu. Země se náhle vzedme a udeří na Cíl a na vše do dvou sáhů od něj, co se nachází na hlíně či kameni. Všichni tvorové v oblasti účinku musí uspět v Záchranném hodu na Sílu, jinak utrpí Drtivý zásah za 2k6 Bodů výdrže, jsou Sraženi a stanou se Ležícími. Pokud uspějí, vyváznou bez následků.
+
+Pokud Sešleš toto Kouzlo pomocí Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k6 Bodů výdrže za každý Stupeň nad 1.
 </spell>
 
 <spell
@@ -1798,6 +2119,39 @@ Toto kouzlo je drobný magický trik, který používají k procvičování adep
  * Vytvoříš nemagickou cetku nebo iluzorní obraz, který se ti vejde do ruky a který vydrží do konce tvého příštího tahu.
 
 Sešleš-li toto kouzlo několikrát, můžeš mít až tři jeho neokamžité účinky současně, a takový účinek můžeš zrušit jako akci.
+</spell>
+
+<spell
+  title="Kejkle"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="2 sáhy"
+  components="V, P"
+  duration="1 hodina"
+  concentration="false"
+  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Toto kouzlo vytvoří drobné magické efekty a je používáno studenty magie k procvičování. V rámci Dosahu kouzla vytvoříš jeden z následujících efektů:
+
+* Vytvoříš okamžitý, neškodný smyslový účinek, například prskavku, závan větru, slabé hudební tóny nebo zvláštní vůni.
+
+* Ihned zapálíš nebo uhasíš svíčku, pochodeň nebo malý táborový oheň.
+
+* Ihned vyčistíš nebo ušpiníš předmět o objemu Krychle o hraně 30 cm (jedna stopa).
+
+* Na jednu hodinu ochladíš nebo ohřeješ neživý materiál o objemu Krychle o hraně 30 cm (jedna stopa).
+
+* Na jednu hodinu vytvoříš na předmětu či povrchu barvu, malou značku nebo symbol.
+
+* Vytvoříš nemagickou cetku nebo iluzorní obraz, který se ti vejde do ruky a který vydrží do konce tvého příštího Tahu.
+
+Pokud toto kouzlo Sešleš několikrát, můžeš mít až tři jeho efekty současně. Každý efekt můžeš zrušit pomocí Akce.
+
+Od 5. Úrovně dokážeš udržet až pět efektů naráz. Navíc můžeš usušit jednu mokrou věc nebo tvora v Dosahu kouzla. Od 11. Úrovně se Dosah kouzla zvýší na šest sáhů a můžeš naráz zapálit nebo uhasit libovolný počet svíček, pochodní nebo malých ohňů v Dosahu. Od 17. Úrovně můžeš vyčistit nebo zašpinit jakoukoliv neživou věc, která se vejde do Krychle o hraně jeden sáh. Můžeš také vytvořit nějakou nemagickou cetku, která se vejde do Krychle o hraně 30 cm (jedna stopa). Všechny efekty, které nejsou okamžité, vydrží až osm hodin.
 </spell>
 
 <spell
@@ -2577,6 +2931,25 @@ Navíc, pokud v záchranném hodu selže, až do konce trvání kouzla víš př
 </spell>
 
 <spell
+  title="Mentální úder"
+  rulebook="Jeskyně a draci"
+  school="Očarování"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="12 sáhů"
+  components="P"
+  duration="Ihned"
+  concentration="false"
+  classes="Bard, Čaroděj, Černokněžník, Klerik, Kouzelník"
+  >
+
+Upřeš svůj pohled a pozornost na jednoho tvora, kterého vidíš v Dosahu a udeříš svou myslí do jeho. Cíl musí uspět v Záchranném hodu na Inteligenci, jinak utrpí Psychický zásah za 1k6 Bodů výdrže. Pokud je Cíl kýmkoliv Vystrašený nebo Zmámený, Zásah se zvýší na 1k10.
+
+Zásah tohoto kouzla se zvýší o jednu kostku, když dosáhneš 5. Úrovně (2k6 nebo 2k10), 11. Úrovně (3k6 nebo 3k10) a 17. Úrovně (4k6 nebo 4k10).
+</spell>
+
+<spell
   title="Mihotání"
   original="Blink"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -2970,6 +3343,27 @@ Během působení tohoto kouzla je předmět těžší zničit či násilně ote
 
 <spell
   title="Mágova ruka"
+  rulebook="Jeskyně a draci"
+  school="Vyvolávání"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="V, P"
+  duration="1 minuta"
+  concentration="false"
+  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+  >
+
+V bodě, který zvolíš v Dosahu kouzla, se objeví přízračná levitující ruka. Vydrží po dobu Trvání kouzla nebo dokud ji svou Akcí nezrušíš. Ruka zmizí, pokud se ocitne dál než šest sáhů od tebe, nebo když toto kouzlo Sešleš znovu.
+
+Ruku můžeš ovládat použitím své Akce. Můžeš ji použít k manipulaci s předmětem, k otevření odemčených dveří či nádoby, k vytažení či uložení předmětu z nebo do otevřené nádoby, nebo k vylití obsahu Flakónku. Pokaždé, když ruku použiješ, s ní také můžeš pohnout až o šest sáhů.
+
+Ruka nemůže útočit ani aktivovat Kouzelné předměty a neunese víc než pět kilogramů (deset liber). Od 5. Úrovně můžeš ignorovat Verbální složku kouzla. Můžeš vyvolat i zcela hmotnou ruku, což nemá žádné další efekty. Od 11. Úrovně se Dosah kouzla zvýší na dvanáct sáhů. Ruka navíc může vypadat libovolným způsobem – např. jako pařát nebo železná rukavice. Od 17. Úrovně rukou uzvedneš až deset kilogramů (dvacet liber) a můžeš ji učinit až dvakrát větší než obvykle.
+</spell>
+
+<spell
+  title="Mágova ruka"
   original="Mage hand"
   rulebook="Příručka hráče, Jeskyně a draci"
   school="Vyvolávání"
@@ -2988,6 +3382,27 @@ Přízračná, levitující ruka se objeví v bodě, který zvolíš v dosahu. V
 Ruku můžeš ovládat použitím své akce. Můžeš ji použít k manipulaci s předmětem, otevření odemčených dveří či nádoby, vytažení či uložení předmětu z či do otevřené nádoby, nebo vylití obsahu flakónku. Pokaždé, když ruku použiješ, tak s ní také můžeš pohnout až o 6 sáhů.
 
 Ruka nemůže útočit ani aktivovat kouzelné předměty a neunese víc než 10 liber
+</spell>
+
+<spell
+  title="Mágova ruka"
+  rulebook="Jeskyně a draci"
+  school="Vyvolávání"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="V, P"
+  duration="1 minuta"
+  concentration="false"
+  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+  >
+
+V bodě, který zvolíš v Dosahu kouzla, se objeví přízračná levitující ruka. Vydrží po dobu Trvání kouzla nebo dokud ji svou Akcí nezrušíš. Ruka zmizí, pokud se ocitne dál než šest sáhů od tebe, nebo když toto kouzlo Sešleš znovu.
+
+Ruku můžeš ovládat použitím své Akce. Můžeš ji použít k manipulaci s předmětem, k otevření odemčených dveří či nádoby, k vytažení či uložení předmětu z nebo do otevřené nádoby, nebo k vylití obsahu Flakónku. Pokaždé, když ruku použiješ, s ní také můžeš pohnout až o šest sáhů.
+
+Ruka nemůže útočit ani aktivovat Kouzelné předměty a neunese víc než pět kilogramů (deset liber). Od 5. Úrovně můžeš ignorovat Verbální složku kouzla. Můžeš vyvolat i zcela hmotnou ruku, což nemá žádné další efekty. Od 11. Úrovně se Dosah kouzla zvýší na dvanáct sáhů. Ruka navíc může vypadat libovolným způsobem – např. jako pařát nebo železná rukavice. Od 17. Úrovně rukou uzvedneš až deset kilogramů (dvacet liber) a můžeš ji učinit až dvakrát větší než obvykle.
 </spell>
 
 <spell
@@ -3423,6 +3838,25 @@ Na základě nejhorších obav skupiny tvorů vytvoříš iluzorní bytosti v je
 Z bodu, který zvolíš v dosahu, se začne šířit magická tma a během okamžiku vyplní kouli o poloměru 12 sáhů, která vydrží po celou dobu trvání kouzla. Z okrajů této koule se do okolí natahují jemná chapadélka temnoty. Tato tma je neproniknutelná i pro tvory obdařené viděním ve tmě a žádné kouzlo osmé či nižší úrovně ji nedokáže osvítit.
 
 Ze tmy se ozývají výkřiky, blábolení a šílený smích. Každý tvor, který započne svůj tah v kouli, si musí hodit záchranný hod na Moudrost. Neuspěje-li, utrpí 8k8 psychického zranění, při úspěchu polovinu.
+</spell>
+
+<spell
+  title="Neuvěřitelný půvab"
+  rulebook="Jeskyně a draci"
+  school="Iluze"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="Sesilatel"
+  components="V, P"
+  duration="1 minuta"
+  concentration="true"
+  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Pokryje tě iluze sebe sama, ale mnohem půvabnější a působivější. Během Trvání kouzla získáš ke všem Ověřením charismatu vůči tvorům, kteří tě vidí nebo slyší, Bonus rovný tvému Zdatnostnímu bonusu. Po skončení kouzla všichni pochopí, že se jednalo o iluzi a máš po dobu jedné minuty Nevýhodu na všechna Ověření charismatu vůči komukoliv, kdo tě během působení kouzla viděl nebo slyšel.
+
+Od 5. Úrovně můžeš nahradit Verbální a Pohybovou složku kouzla Surovinovou (viditelným šperkem) a můžeš ovlivnit tvory i pasivně (upoutat pozornost, vzbudit soucit ve věznitelích atp.). Od 11. Úrovně se Trvání prodlouží až na deset minut – následná Nevýhoda ale přetrvá stejně dlouho. Od 17. Úrovně není efekt kouzla následován Nevýhodou (tvorové si stále uvědomí, že šlo o kouzlo).
 </spell>
 
 <spell
@@ -3938,6 +4372,27 @@ Když tvor během svého tahu poprvé vstoupí do oblasti zalité tímto světle
 </spell>
 
 <spell
+  title="Odpočinková hymna"
+  rulebook="Jeskyně a draci"
+  school="Očarování"
+  level="7"
+  ritual="false"
+  casting="1 minuta"
+  range="12 sáhů"
+  components="V, P, S (Hudební nástroj)"
+  duration="Ihned"
+  concentration="false"
+  classes="Bard"
+  >
+
+Začneš vyhrávat magickou píseň, která obnovuje síly všem tvorům ve vzdálenosti do dvanácti sáhů od tebe, kteří ji slyší.
+
+Můžeš zvolit libovolný počet tvorů, kteří byli v Dosahu kouzla po celou dobu Vyvolávání. Všichni tito tvorové získají všechny přínosy Krátkého odpočinku. Pokud utratí Kostky obnovy, každá kostka, na které padne hodnota z dolní poloviny rozsahu kostky, se počítá, jako by na ní padla nejnižší hodnota z horní poloviny rozsahu kostky (4 na 1k6, 5 na 1k8, 6 na 1k10). Navíc Kouzlo odstraní stavy Oslepený, Otrávený a Paralyzovaný, až jeden Stupeň únavy a všem Cílům dodá 15 Dočasných bodů výdrže.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 8. Stupně, všichni ovlivnění tvorové získají 30 Dočasných bodů výdrže. Pokud Sešleš toto Kouzlo s použitím Pozice 9. Stupně, všechny utracené Kostky obnovy se navíc automaticky počítají jako by na nich padla nejvyšší hodnota.
+</spell>
+
+<spell
   title="Ohnivá bouře"
   original="Fire storm"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -4107,6 +4562,48 @@ Zranění kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6) a pak zno
 Toto kouzlo opraví jeden rozbitý, zlomený či roztržený předmět, kterého se dotkneš, například roztržený článek řetězu, dvě půlky zlomeného klíče, roztržený plášť nebo prosakující měch na víno. Pokud není zlom nebo trhlina v žádném svém rozměru větší než 1 stopa, předmět se opraví a neponese žádnou stopu po dřívějším poškození.
 
 Toto kouzlo dokáže fyzicky opravit kouzelný předmět nebo výtvor, ale magii mu obnovit nedokáže.
+</spell>
+
+<spell
+  title="Oprava"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="0"
+  ritual="false"
+  casting="1 minuta"
+  range="Dotyk"
+  components="V, P, S (dva magnetovce)"
+  duration="Ihned"
+  concentration="false"
+  classes="Bard, Čaroděj, Druid, Klerik, Kouzelník"
+  >
+
+Toto kouzlo opraví jeden rozbitý, zlomený či roztržený předmět, kterého se dotkneš, pokud není poškození (zlom, trhlina atp.) v žádném směru větší než 30 cm (jedna stopa). Může jít např. o roztržený článek řetězu, dvě půlky zlomeného klíče, roztržený plášť nebo prosakující měch na víno. Pokud není zlom nebo trhlina v žádném svém rozměru větší než 30 cm (jedna stopa), předmět se opraví a po dřívějším poškození nezbude žádná stopa.
+
+Toto kouzlo dokáže fyzicky opravit rozbitý Kouzelný předmět nebo výtvor, ale nedokáže mu vrátit ztracenou magii.
+
+Od 5. Úrovně může mít poškození až jeden metr (tři stopy). Navíc můžeš pospojovat libovolný počet střepů, pokud se výsledný objekt vejde do Krychle o hraně 30 cm (jedna stopa). Můžeš také odstranit škrábance z kovu nebo spáleniny z oblečení, pokud z něj zbývají nedotčené alespoň čtyři pětiny. Od 11. Úrovně má kouzlo Dosah až tři sáhy a může opravit poškození o rozsahu až dva sáhy. Navíc můžeš znovu poskládat střepy objektu, který se vejde do Krychle o hraně jeden sáh a zvrátit zreznutí kovových předmětů. Od 17. Úrovně trvá Seslání pouze jednu Akci.
+</spell>
+
+<spell
+  title="Oprava"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="0"
+  ritual="false"
+  casting="1 minuta"
+  range="Dotyk"
+  components="V, P, S (dva magnetovce)"
+  duration="Ihned"
+  concentration="false"
+  classes="Bard, Čaroděj, Druid, Klerik, Kouzelník"
+  >
+
+Toto kouzlo opraví jeden rozbitý, zlomený či roztržený předmět, kterého se dotkneš, pokud není poškození (zlom, trhlina atp.) v žádném směru větší než 30 cm (jedna stopa). Může jít např. o roztržený článek řetězu, dvě půlky zlomeného klíče, roztržený plášť nebo prosakující měch na víno. Pokud není zlom nebo trhlina v žádném svém rozměru větší než 30 cm (jedna stopa), předmět se opraví a po dřívějším poškození nezbude žádná stopa.
+
+Toto kouzlo dokáže fyzicky opravit rozbitý Kouzelný předmět nebo výtvor, ale nedokáže mu vrátit ztracenou magii.
+
+Od 5. Úrovně může mít poškození až jeden metr (tři stopy). Navíc můžeš pospojovat libovolný počet střepů, pokud se výsledný objekt vejde do Krychle o hraně 30 cm (jedna stopa). Můžeš také odstranit škrábance z kovu nebo spáleniny z oblečení, pokud z něj zbývají nedotčené alespoň čtyři pětiny. Od 11. Úrovně má kouzlo Dosah až tři sáhy a může opravit poškození o rozsahu až dva sáhy. Navíc můžeš znovu poskládat střepy objektu, který se vejde do Krychle o hraně jeden sáh a zvrátit zreznutí kovových předmětů. Od 17. Úrovně trvá Seslání pouze jednu Akci.
 </spell>
 
 <spell
@@ -4742,6 +5239,25 @@ Pomocí své akce můžeš nad cílem převzít úplnou a přesnou kontrolu. Do 
 Pokaždé, když cíl utrpí zranění, hodí si nový záchranný hod na Moudrost proti tomuto kouzlu. Když v záchranném hodu uspěje, kouzlo skončí.
 
 ***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 5. úrovně, trvání se změní na soustředění, až 10 minut. Sešleš-li toto kouzlo použitím pozice kouzla 6. úrovně, trvání se změní na soustředění, až 1 hodina. Sešleš-li toto kouzlo použitím pozice kouzla 7. či vyšší úrovně, trvání se změní na soustředění, až 8 hodin.
+</spell>
+
+<spell
+  title="Pohled smrti"
+  rulebook="Jeskyně a draci"
+  school="Nekromancie"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="Sesilatel"
+  components="V, P, S (oko z Nemrtvého)"
+  duration="8 hodin"
+  concentration="true"
+  classes="Černokněžník"
+  >
+
+Tvé oči se naplní smrtí, kterou můžou vyzářit na oběť. Jako Bonusovou akci můžeš jako Cíl zvolit jednoho tvora do 12 sáhů, který musí uspět v Záchranném hodu na Moudrost, jinak utrpí Nekrotický zásah za 1k4 Bodů výdrže, při úspěchu za polovinu. Nemrtví a Výtvory uspějí automaticky.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k4 Bodů výdrže za každý Stupeň nad 1.
 </spell>
 
 <spell
@@ -5446,6 +5962,23 @@ Pokud toto kouzlo sešleš na strop, bláto spadne. Každý tvor, kterého blát
   >
 
 Natáhneš ruku a ukážeš prstem na cíl v dosahu. Tvá magie ti poskytne stručný vhled do obrany cíle. Ve svém příštím tahu získáš výhodu k prvnímu hodu na útok proti cíli, pokud toto kouzlo do té doby neskončí.
+</spell>
+
+<spell
+  title="Přesný úder"
+  rulebook="Jeskyně a draci"
+  school="Věštění"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="P"
+  duration="1 kolo"
+  concentration="true"
+  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Natáhneš ruku a ukážeš prstem na Cíl v Dosahu kouzla. Tvá magie ti poskytne stručný vhled do jeho obrany. Pokud se do té doby tvé Soustředění na kouzlo nepřeruší, získáš ve svém příštím Tahu k prvnímu hodu na Útok proti tomuto Cíli Výhodu. Od 5. Úrovně si místo Výhody můžeš vzít Bonus +5 k Útoku. Útok navíc ignoruje až Tříčtvrtinový kryt a kouzlo nevyžaduje Soustředění. Od 11. Úrovně se Trvání kouzla prodlouží až na jednu minutu – efekt Kouzla působí na tvůj první další Útok proti zvolenému Cíli. Navíc se dozvíš, která ze Záchran Cíle na Sílu, Obratnost a Odolnost je nejnižší. Od 17. Úrovně můžeš zvolit jednu další bytost v Dosahu kouzla, která z kouzla získá stejný přínos, jako ty.
 </spell>
 
 <spell
@@ -6368,6 +6901,48 @@ Můžeš oslepit nebo ohlušit nepřítele. Zvol jednoho tvora, kterého vidíš
 </spell>
 
 <spell
+  title="Slizký úder"
+  rulebook="Jeskyně a draci"
+  school="Zaklínání"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="V, P, S (ostatky z mrtvého Slizu)"
+  duration="10 minut"
+  concentration="true"
+  classes="Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Vytvoříš kyselinovou kouli, která se vymrští přímo k Cíli a pokropí ho. Hoď si na Útok na dálku kouzlem proti jednomu tvorovi v Dosahu kouzla. Při úspěchu Cíl utrpí Drtivý zásah za 1k6 Bodů výdrže a Zásah kyselinou za 1k6 Bodů výdrže a kyselinová koule se vrátí zpátky k tobě.
+
+V každém Tahu po dobu Trvání kouzla můžeš pomocí své Akce zaútočit tímto Kouzlem znovu. Pokud Útok mine nebo pokud ve svém Tahu koulí nezaútočíš, rozpustí se a Kouzlo skončí.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, vytvoříš jednu kouli navíc za každý Stupeň nad 1. S každou koulí můžeš v rámci jedné Akce zaútočit zvlášť (na různé Cíle nebo na stejný Cíl).
+</spell>
+
+<spell
+  title="Slizký úder"
+  rulebook="Jeskyně a draci"
+  school="Zaklínání"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="V, P, S (ostatky z mrtvého Slizu)"
+  duration="10 minut"
+  concentration="true"
+  classes="Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Vytvoříš kyselinovou kouli, která se vymrští přímo k Cíli a pokropí ho. Hoď si na Útok na dálku kouzlem proti jednomu tvorovi v Dosahu kouzla. Při úspěchu Cíl utrpí Drtivý zásah za 1k6 Bodů výdrže a Zásah kyselinou za 1k6 Bodů výdrže a kyselinová koule se vrátí zpátky k tobě.
+
+V každém Tahu po dobu Trvání kouzla můžeš pomocí své Akce zaútočit tímto Kouzlem znovu. Pokud Útok mine nebo pokud ve svém Tahu koulí nezaútočíš, rozpustí se a Kouzlo skončí.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, vytvoříš jednu kouli navíc za každý Stupeň nad 1. S každou koulí můžeš v rámci jedné Akce zaútočit zvlášť (na různé Cíle nebo na stejný Cíl).
+</spell>
+
+<spell
   title="Slovo moci „bolest""
   original="Powe word pain"
   rulebook="Xanatharuv pruvodce vším"
@@ -7265,6 +7840,25 @@ Pokud zacílíš předmět, který drží nebo má na sobě nepřátelský tvor,
 </spell>
 
 <spell
+  title="Světlo"
+  rulebook="Jeskyně a draci"
+  school="Zaklínání"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="Dotyk"
+  components="V, S (světluška nebo světélkující mech)"
+  duration="1 hodina"
+  concentration="false"
+  classes="Bard, Čaroděj, Klerik, Kouzelník"
+  >
+
+Dotkneš se jednoho předmětu, který není v žádném směru větší než dva sáhy. Dokud Kouzlo neskončí, předmět osvítí Jasným světlem okruh o poloměru čtyři sáhy a další čtyři sáhy dosvítí Slabým světlem. Světlo může mít libovolnou barvu, kterou si přeješ. Úplné zakrytí daného předmětu něčím neprůsvitným světlo zakryje. Kouzlo skončí předčasně, pokud ho Sešleš znovu, nebo pokud ho ukončíš jako Akci. Pokud za Cíl zvolíš předmět nesený nebo držený tvorem, který si nepřeje, aby na něj kouzlo působilo, může se mu vyhnout úspěšným Záchranným hodem na Obratnost. V takovém případě kouzlo selže.
+
+Na 5. Úrovni můžeš vyvolané světlo utlumit a snížit jeho Dosah až na jeden sáh. Navíc pokud světlo vidíš do šedesáti sáhů daleko, můžeš jako Bonusovou akci měnit jeho sílu i barvu. Od 11. Úrovně můžeš kouzlem blýsknout paprskem světla až na dvacet čtyři sáhů. Tvor v Dráze blýsknutí, který si jím nepřeje být nasvícen, mu může uhnout úspěšnou Záchranou na Obratnost. Od 17. Úrovně můžeš při Seslání způsobit, že je světlo viditelné pouze pro tvory, kteří se nacházejí v jeho dosahu.
+</spell>
+
+<spell
   title="Symbol"
   original="Symbol"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -7347,6 +7941,44 @@ Když se mazadlo objeví, každý tvor stojící v jeho oblasti musí uspět v z
 </spell>
 
 <spell
+  title="Síla fénixe"
+  rulebook="Jeskyně a draci"
+  school="Zaklínání"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="Sesilatel (okruh 2 sáhy)"
+  components="V, P"
+  duration="Ihned"
+  concentration="false"
+  classes="Čaroděj, Černokněžník"
+  >
+
+Když Sešleš toto Kouzlo, vzplaneš a začnou kolem tebe šlehat barevné plameny. Všichni tvorové do dvou sáhů od tebe musí uspět v Záchranném hodu na Obratnost, jinak utrpí Ohnivý zásah za 2k6 Bodů výdrže, při úspěchu za polovinu. Ty si navíc obnovíš 1 + tvůj Zdatnostní bonus Bodů výdrže.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k6 Bodů výdrže a obnovíš si o 2 Body Výdrže více za každý Stupeň nad 1.
+</spell>
+
+<spell
+  title="Síla fénixe"
+  rulebook="Jeskyně a draci"
+  school="Zaklínání"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="Sesilatel (okruh 2 sáhy)"
+  components="V, P"
+  duration="Ihned"
+  concentration="false"
+  classes="Čaroděj, Černokněžník"
+  >
+
+Když Sešleš toto Kouzlo, vzplaneš a začnou kolem tebe šlehat barevné plameny. Všichni tvorové do dvou sáhů od tebe musí uspět v Záchranném hodu na Obratnost, jinak utrpí Ohnivý zásah za 2k6 Bodů výdrže, při úspěchu za polovinu. Ty si navíc obnovíš 1 + tvůj Zdatnostní bonus Bodů výdrže.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah se zvýší o 1k6 Bodů výdrže a obnovíš si o 2 Body Výdrže více za každý Stupeň nad 1.
+</spell>
+
+<spell
   title="Tajemný výšleh"
   original="Eldritch blast"
   rulebook="Příručka hráče, Jeskyně a draci"
@@ -7389,6 +8021,27 @@ Jakmile nemrtvý dostane příkaz, bude ho vykonávat až do jeho splnění. Pok
 Nemrtví jsou pod tvou kontrolou po celou dobu kouzla, na jehož konci z nich vyprchá nekromantická energie a stanou se opět jen mrtvolami.
 
 ***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 6. či vyšší úrovně, za každou další úroveň pozice nad 5. se maximální počet oživených nemrtvých zvýší o dva.
+</spell>
+
+<spell
+  title="Tančící světla"
+  rulebook="Jeskyně a draci"
+  school="Zaklínání"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="24 sáhů"
+  components="V, P, S (trocha fosforu, kousek světélkujícího dřeva nebo světluška)"
+  duration="1 minuta"
+  concentration="true"
+  classes="Bard, Čaroděj, Kouzelník"
+  >
+
+V Dosahu kouzla vytvoříš až čtyři světla o velikosti pochodně, která vypadají jako pochodně, lucerny nebo svítící koule a která se po dobu Trvání vznášejí ve vzduchu. Můžeš také zkombinovat čtyři světla do jednoho svítícího neurčitého Humanoidního těla Střední velikosti. Ať zvolíš jakoukoliv formu, každé světlo Slabě osvítí okruh o poloměru dva sáhy.
+
+Jako Bonusovou akci můžeš ve svém Tahu pohnout světly až o dvanáct sáhů na nové místo v rámci Dosahu kouzla. Každé Tančící světlo musí být do čtyř sáhů od jiného Tančícího světla stvořeného stejným kouzlem, a pokud se nějaké světlo vzdálí mimo Dosah kouzla, se zablikáním zhasne.
+
+Od 5. Úrovně můžeš způsobit, že kterékoliv vyvolané světlo svítí Jasným světlem do dvou sáhů a Slabým světlem do dalších dvou sáhů. Můžeš také světla spojit do podoby Zvířecího tvora Střední velikosti. Od 11. Úrovně můžeš při Seslání kouzla nebo v rámci Akce připnout jedno ze světel k tvorovi nebo objektu v Dosahu kouzla. Pokud si Cíl připnutí světla nepřeje, proveď proti němu Útok na dálku kouzlem. Připnuté světlo se pohybuje spolu s Cílem, už ho nemůžeš nijak ovládat, a pokud se vzdálí od ostatních světel, nezhasne. Cíl může světlo pomocí své Akce zničit (plácnutím, smetením atp.). Od 17. Úrovně můžeš vyvolat až šest světel a můžeš je spojit a utvořit tak obraz vzdáleně připomínající Velkého humanoida nebo zvíře.
 </spell>
 
 <spell
@@ -8155,6 +8808,25 @@ Až tři tvorové dle tvé volby, které vidíš v dosahu, si musí hodit záchr
 
 <spell
   title="Ušetři umírajícího"
+  rulebook="Jeskyně a draci"
+  school="Nekromancie"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="Dotyk"
+  components="V, P"
+  duration="Ihned"
+  concentration="false"
+  classes="Klerik"
+  >
+
+Dotkneš se živého tvora, který má 0 Bodů výdrže. Tvor se Stabilizuje. Toto kouzlo nepůsobí na Nemrtvé a Výtvory.
+
+Od 5. Úrovně můžeš ignorovat Pohybové složky kouzla. Od 11. Úrovně, pokud tvor Stabilizovaný tímto kouzlem neobdrží hodinu žádný další Zásah, probere se s 1 Bodem výdrže. Od 17. Úrovně můžeš tímto kouzlem ovlivnit i jeden další Cíl, který není od prvního Cíle dále než dva sáhy. Navíc se tvor Stabilizovaný tímto kouzlem, který neobdrží další Zásah, probere s 1 Bodem výdrže už po jedné minutě.
+</spell>
+
+<spell
+  title="Ušetři umírajícího"
   original="Space the dying"
   rulebook="Příručka hráče, Jeskyně a draci"
   school="Nekromancie"
@@ -8169,6 +8841,25 @@ Až tři tvorové dle tvé volby, které vidíš v dosahu, si musí hodit záchr
   >
 
 Dotkneš se živého tvora, který má 0 životů. Tvor se stabilizuje. Toto kouzlo nijak nepůsobí na nemrtvé ani výtvory.
+</spell>
+
+<spell
+  title="Vedení"
+  rulebook="Jeskyně a draci"
+  school="Věštění"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="Dotyk"
+  components="V, P"
+  duration="1 minuta"
+  concentration="true"
+  classes="Druid, Klerik"
+  >
+
+Dotkneš se jednoho tvora, který s tím souhlasí. Než Kouzlo skončí, Cíl si může hodit 1k4 a přičíst si hozené číslo k jednomu hodu na Vlastnost dle své volby. Touto kostkou si může hodit před hodem na Vlastnost nebo až po něm. Kouzlo poté skončí.
+
+Od 5. Úrovně se Dosah kouzla zvýší na 6 sáhů. Od 11. Úrovně pokud tvor na dodatečné 1k4 hodí 1, může si hodit ještě jednou – nový výsledek už ale musí použít. Od 17. Úrovně můžeš zvolit až dva Cíle – každý může z přínosu kouzla těžit právě jednou.
 </spell>
 
 <spell
@@ -8931,9 +9622,17 @@ Z předmětu, kterého se dotkneš, vzejde plamen, jehož jas je ekvivalentní k
   classes="Klerik"
   >
 
+*DnD 5e popis:*
 Ty a až deset tvorů, kteří s tím souhlasí a které vidíš v dosahu, na sebe vezmete po dobu trvání plynnou podobu, která vypadá jako cár oblaku. V podobě oblaku má tvor rychlost létání 60 sáhů a je odolný vůči zranění z nemagických zbraní. Jediné akce, které tvor může v této podobě provádět, je akce Sprint nebo návrat do normální podoby. Opětovné nabrání normální podoby zabere 1 minutu a během této doby je tvor neschopný a nemůže se hýbat. Dokud kouzlo neskončí, tvor se může navrátit do podoby oblaku, což také vyžaduje 1 minutu přeměňování.
 
 Je-li tvor v podobě oblaku a letí ve chvíli, kdy účinek skončí, bude klesat rychlostí 12 sáhů za kolo po dobu 1 minuty, dokud bezpečně nepřistane. Nedokáže-li tvor přistát do 1 minuty, zbývající vzdálenost spadne.
+
+*JaD popis:*
+Tvá magie a oběť tě dostanou do kontaktu s tvým bohem nebo božským služebníkem. Zeptáš se na jednu otázku ohledně konkrétního cíle, události nebo činnosti, jenž nastane do 7 dnů. PJ popravdě odpoví. Odpovědí může být krátká věta, verš se skrytým významem nebo věštba.
+
+Kouzlo nepočítá s potenciálními okolnostmi, které by mohly změnit výsledek, jako například seslání dalších kouzel nebo ztráta či zisk člena družiny.
+
+Sešleš-li kouzlo dvakrát či víckrát před tím, než si důkladně odpočineš, je u každého seslání po prvním kumulativní 25% šance, že dostaneš chybné údaje. PJ si hází tento hod v tajnosti.
 </spell>
 
 <spell
@@ -9238,6 +9937,27 @@ Tvor, který je tímto kouzlem zadržený, si musí hodit další záchranný ho
 Pokud se tvor během zkamenění fyzicky poškodí, utrpí podobné deformace při návratu do původního stavu.
 
 Budeš-li se soustředit na toto kouzlo po celou dobu trvání, tvor bude zkamenělý, dokud se účinek neodstraní.
+</spell>
+
+<spell
+  title="Zkřivení prostoru"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="3"
+  ritual="false"
+  casting="1 akce"
+  range="12 sáhů"
+  components="V, P, S (papír popsaný matematickými výpočty)"
+  duration="1 minuta"
+  concentration="true"
+  classes="Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Z Výchozího bodu v Dosahu kouzla vyvstane Krychle o hraně osm sáhů, deformující prostor, který obsáhne. Každý tvor, který v Krychli začne svůj Tah, musí uspět v Záchranném hodu na Moudrost, jinak mu dezorientace způsobí Psychický zásah za 2k6 Bodů výdrže a jeho Rychlost klesne až do konce jeho Tahu na polovinu (zaokrouhleno dolů). Při úspěchu utrpí poloviční Zásah a jeho Rychlost se nezmění. Každý tvor, který v Krychli skončí svůj Tah, pak musí uspět v Záchranném hodu na Sílu, jinak mu deformace prostoru způsobí Drtivý zásah za 2k6 Bodů výdrže a pohne s ním o 1k4 sáhů směrem ke středu základny Krychle – pokud se v cestě střetne s překážkou, zastaví se o ni. Při úspěchu utrpí poloviční Zásah a posunut není.
+
+Oblast v Krychli se stane Těžkým terénem. Tvorové uvnitř mají Nevýhodu ke všem Útokům na dálku a Nevýhodu mají i všechny Útoky na dálku na tyto tvory.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 4. či vyššího Stupně, Psychický i Drtivý zásah se zvýší o 1k6 Bodů výdrže za každý Stupeň nad 3.
 </spell>
 
 <spell
@@ -9639,6 +10359,25 @@ Rychlost ovlivněného tvora se zmenší na polovinu, utrpí postih –2 k OČ a
 Pokusí-li se tvor seslat kouzlo s dobou vyvolání 1 akce, hoď k20. Padne-li 11 či více, kouzlo začne působit až v příštím jeho tahu a tvor musí použít svou akci v daném tahu k dokončení kouzla. Pokud nemůže, kouzlo se vyplytvá.
 
 Tvor, na něhož působí toto kouzlo, si hodí další záchranný hod na Moudrost na konci svého tahu. Pokud uspěje, účinek pro něj skončí.
+</spell>
+
+<spell
+  title="Zpráva"
+  rulebook="Jeskyně a draci"
+  school="Transmutace"
+  level="0"
+  ritual="false"
+  casting="1 akce"
+  range="24 sáhů"
+  components="V, P, S (kousek měděného drátu)"
+  duration="1 kolo"
+  concentration="false"
+  classes="Bard, Čaroděj, Kouzelník"
+  >
+
+Ukážeš prstem na tvora v Dosahu kouzla a zašeptáš zprávu. Cíl (a nikdo jiný) ji uslyší a může odpovědět zašeptáním, které uslyšíš pouze ty. Kouzlo můžeš Seslat skrz pevné objekty, pokud se s Cílem znáš a víš, že je za bariérou. Kouzlo neprojde 30 cm (jednou stopou) kamene, 2,5 cm (jedním coulem) běžného kovu, tenkou vrstvou olova nebo 1 m (třemi stopami) dřeva či hlíny a utiší ho i magické ticho. Kouzlo však nemusí jít po přímce; může zahýbat kolem rohů nebo skrze otvory.
+
+Od 5. Úrovně má kouzlo Dosah až šedesát sáhů. Od 11. Úrovně můžeš ignorovat Pohybovou a Surovinovou složku kouzla. Od 17. Úrovně můžeš ignorovat i Verbální složku, k Cíli můžeš promluvit telepaticky a zprávu můžeš doprovodit i jednoduchým obrazem. Cíl může odpovědět stejným způsobem. Takto zesílenou Zprávu nelze blokovat magickým tichem.
 </spell>
 
 <spell
@@ -10110,6 +10849,56 @@ Oheň zapaluje v oblasti hořlavé předměty, které nikdo nedrží ani nenese.
 Jako součást akce, když sesíláš toto kouzlo, musíš provést útok zbraní na blízko proti jednomu tvoru v dosahu kouzla, jinak kouzlo selže. Když zasáhneš, tak cíl utrpí normální účinek útoku a přeskočí od něj zelený oheň na jiného tvora dle tvého výběru, kterého vidíš a který je do 1 sáhu od cíle. Druhý tvor utrpí ohnivé zranění rovné tvé opravě sesílací vlastnosti.
 
 Zranění tohoto kouzla se zvýší v závislosti na tom, jak postupuješ na vyšší úrovně. Na 5. úrovni útok na blízko způsobí cíli dodatečné ohnivé zranění 1k8 a ohnivé zranění druhého tvora se zvýší na 1k8 + tvá oprava sesílací vlastnosti. Obě zranění se zvýší o 1k8 na 11. a 17. úrovni.
+</spell>
+
+<spell
+  title="Černý jed"
+  rulebook="Jeskyně a draci"
+  school="Nekromancie"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="6 sáhů"
+  components="P, S (černý inkoust)"
+  duration="1 minuta"
+  concentration="true"
+  classes="Čaroděj, Černokněžník, Kouzelník"
+  >
+
+Vyvoláš šipku černé barvy, kterou vystřelíš na Cíl. Hoď si proti Cíli Útok na dálku kouzlem. Při úspěchu způsobíš Jedový zásah za 2k6 Bodů výdrže.
+
+Dokud se zasažený tvor nachází po dobu Trvání kouzla v jeho Dosahu, můžeš jako Akci rozšířit v tvorovi Jed, a donutit ho tak k Záchrannému hodu na Odolnost. Při neúspěchu utrpí Jedový zásah za 1k6 Bodů výdrže a stane se do začátku tvého příštího Tahu Otráveným, při úspěchu za polovinu a k Otrávení nedojde. Pokud toto Kouzlo tvora usmrtí, barva jeho krve se změní na černou. Krev má pak hořkou chuť.
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, Zásah se zvýší o 2k6 Bodů výdrže za každý Stupeň nad 1.
+</spell>
+
+<spell
+  title="Řetězy upoutání"
+  rulebook="Jeskyně a draci"
+  school="Vyvolávání"
+  level="1"
+  ritual="false"
+  casting="1 akce"
+  range="16 sáhů"
+  components="V, P, S (kus řetězu, který je Kouzlem spotřebován)"
+  duration="10 minut"
+  concentration="true"
+  classes="Černokněžník"
+  >
+
+Přivoláš dřívější moc řetězů, které kdysi poutaly mocná a tajemná stvoření. Hoď si na Útok na dálku kouzlem proti tvorovi. Při Zásahu si hodíš 1k4 a podle toho určíš, jaký druh řetězu přivoláš:
+
+1. **Řetězy prázdnoty.** Přivoláš řetězy, které kdysi poutaly zapomenuté tvory v mrazivých hlubinách či vnější prázdnotě. Na začátku svého Tahu utrpí Cíl Chladný zásah za 1k6 Bodů výdrže a jeho Rychlost se sníží na polovinu (zaokrouhleno dolů).
+
+2. **Řetězy utrpení.** Přivoláš řetězy, jejichž ostny dříve znehybňovaly krutou bolestí. Na začátku svého Tahu utrpí Cíl Bodný zásah za 1k6 Bodů výdrže a má Nevýhodu na Záchranné hody na Sílu.
+
+3. **Řetězy zmaru.** Přivoláš řetězy, které svou sílu sály z bytostí, které poutaly. Na začátku svého Tahu utrpí Cíl Nekrotický zásah za 1k6 Bodů výdrže a všichni tvorové do jednoho sáhu od něj utrpí poloviční Nekrotický zásah (zaokrouhleno dolů).
+
+4. **Řetězy omráčení.** Přivoláš řetězy, které kdysi paralyzovaly svým hromovým řinčením. Na začátku svého Tahu utrpí Cíl Hromový zásah za 1k6 Bodů výdrže a až do začátku svého dalšího Tahu ztratí možnost provádět Reakce.
+
+Tvor může použít Akci k pokusu o shození řetězu Záchranným hodem na Obratnost proti tvému SO Záchrany kouzel. Pokud tvorovi klesnou Body výdrže na 0 nebo když řetězy shodí, můžeš použít svou Akci a zaútočit řetězem znovu (na původní nebo na nový Cíl).
+
+Pokud Sešleš toto Kouzlo s použitím Pozice 2. či vyššího Stupně, vyvoláš jeden další řetěz za každý Stupeň nad 1. Na jeden Cíl může naráz působit pouze jeden řetěz. V rámci své Akce můžeš na nové Cíle poslat všechny volné řetězy.
 </spell>
 
 <spell
