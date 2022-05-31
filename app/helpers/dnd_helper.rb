@@ -2,7 +2,7 @@ module DndHelper
   def dnd_spell_description(spell)
     description = "# #{spell.title}"
     description += "\n*#{spell.original}*" if spell.original
-    description += "\n\n***#{spell.rulebook}***\n"
+    description += "\n\n***#{spell.rulebook.join(', ')}***\n"
     description += "\n\n*#{spell.school} #{spell.level}. úrovně#{' (rituál)' if spell.ritual}*"
     description += "\n\n**Vyvolání:** #{spell.original_casting}"
     description += "\n\n**Dosah:** #{spell.original_range}"

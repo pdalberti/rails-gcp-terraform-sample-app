@@ -1,7 +1,7 @@
 def spell_content(spell)
   "<spell
   title=\"#{spell.title}\"#{"\n  " + 'original="' + spell.original + '"' if spell.original}
-  rulebook=\"#{spell.rulebook}\"
+  rulebook=\"#{spell.rulebook.join(', ')}\"
   school=\"#{spell.school}\"
   level=\"#{spell.level}\"
   ritual=\"#{spell.ritual}\"

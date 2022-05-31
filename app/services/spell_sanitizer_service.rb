@@ -2,17 +2,6 @@ class SpellSanitizerService < ApplicationService
   attr_reader :un_spell
   attr_accessor :attributes
 
-  # CANTRIP_SCHOOLS = {
-  #   iluzorní: 'Iluze',
-  #   nekromantický: 'Nekromancie',
-  #   očarovací: 'Očarování',
-  #   transmutační: 'Transmutace',
-  #   vymítací: 'Vymítání',
-  #   vyvolávací: 'Vyvolávání',
-  #   věštecký: 'Věštění',
-  #   zaklínací: 'Zaklínání'
-  # }.freeze
-
   def initialize(unsanitized_spell)
     @un_spell =   unsanitized_spell
     @attributes = {}
@@ -46,7 +35,7 @@ class SpellSanitizerService < ApplicationService
     when 'range'                   then assign_range(value)
     when 'components'              then assign_components(value)
     when 'duration'                then assign_duration(value)
-    when 'classes'                 then assign_classes(value)
+    when 'classes', 'rulebook'     then assign_array(column, value)
     when 'ritual', 'concentration' then assign_boolean(column, value)
     else attributes[column] = value
     end
@@ -88,9 +77,9 @@ class SpellSanitizerService < ApplicationService
                             end
   end
 
-  def assign_classes(classes)
-    classes = classes.split(', ').map(&:capitalize)
-    attributes[:classes] = classes
+  def assign_array(column, value)
+    value = value.split(', ').map(&:capitalize)
+    attributes[column] = value
   end
 
   def assign_boolean(column, value)

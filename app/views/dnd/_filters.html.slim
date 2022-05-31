@@ -4,7 +4,7 @@
       .col-md-5.col-lg-3
         = f.input :title_cont, required: false, placeholder: 'Český', label: 'Název'
         = f.input :original_cont, required: false, placeholder: 'Anglický', label: false
-      .col-md-7.col-lg-4 = f.input :rulebook_in, required: false, label: 'Zdroj', collection: Spell.pluck(:rulebook).uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-md-7.col-lg-4 = f.input :rulebook_array_overlaps, required: false, label: 'Zdroj', collection: psql_array_czech_sort(Spell.pluck(:rulebook)), include_blank: true, input_html: { multiple: true }
       .col-5.col-md-3.col-lg-2 = f.input :school_in, required: false, label: 'Škola', collection: collator.sort(Spell.pluck(:school).uniq), include_blank: true, input_html: { multiple: true }
       .col-3.col-md-2.col-lg-1 = f.input :level_in, required: false, label: 'Stupeň', collection: Spell.pluck(:level).uniq.sort, include_blank: true, input_html: { multiple: true }
       .col-6.col-md-3.col-lg-2 = f.input :range_in, required: false, label: 'Dosah', collection: Spell::RANGE, include_blank: true, input_html: { multiple: true }

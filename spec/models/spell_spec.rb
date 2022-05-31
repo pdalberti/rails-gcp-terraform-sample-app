@@ -17,7 +17,7 @@
 #  original_range      :string
 #  range               :integer
 #  ritual              :boolean
-#  rulebook            :string
+#  rulebook            :string           default([]), is an Array
 #  school              :string
 #  title               :string
 #  created_at          :datetime         not null
