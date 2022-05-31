@@ -87,15 +87,16 @@ class Spell < ApplicationRecord
 
   RANGE = {
     'Ty sám' => 0, 'Ty sám (oblast)' => 1, 'Dotyk' => 2, '1 sáh' => 3, '2 sáhy' => 4,
-    '3 sáhy' => 5, '6 sáhů' => 6, '10 sáhů' => 7, '12 sáhů' => 8, '18 sáhů' => 9,
-    '20 sáhů' => 10, '24 sáhů' => 11, '30 sáhů' => 12, '60 sáhů' => 13, '100 sáhů' => 14,
-    'Dohled' => 15, '1 míle' => 16, '800 mil' => 17, 'Neomezený' => 18, 'Zvláštní' => 19
+    '3 sáhy' => 5, '6 sáhů' => 6, '6 sáhů (oblast)' => 7, '9 sáhů (oblast)' => 8,
+    '10 sáhů' => 9, '12 sáhů' => 10, '15 sáhů' => 11, '16 sáhů' => 12, '18 sáhů' => 13,
+    '20 sáhů' => 14, '24 sáhů' => 15, '30 sáhů' => 16, '60 sáhů' => 17, '100 sáhů' => 18,
+    'Dohled' => 19, '1 míle' => 20, '800 mil' => 21, 'Neomezený' => 22, 'Zvláštní' => 23
   }.freeze
 
   DURATION = {
-    'Ihned' => 0, 'Ihned, nebo 1 hodina' => 1, '1 kolo' => 2, '6 kol' => 3, '1 minuta' => 4,
-    '10 minut' => 5, '1 hodina' => 6, '2 hodiny' => 7, '8 hodin' => 8, '24 hodin' => 9,
-    '1 den' => 10, '7 dní' => 11, '10 dní' => 12, '30 dní' => 13, 'Do rozptýlení' => 14,
-    'Do rozptýlení, nebo spuštění' => 15, 'Zvláštní' => 16
+    'Ihned' => 0, 'Ihned, nebo 1 hodina' => 1, '1 kolo' => 2, '5 kol' => 3, '6 kol' => 4, '1 minuta' => 5,
+    '10 minut' => 6, '1 hodina' => 7, '2 hodiny' => 8, '8 hodin' => 9, '24 hodin' => 10,
+    '1 den' => 11, '7 dní' => 12, '10 dní' => 13, '30 dní' => 14, 'Do rozptýlení' => 15,
+    'Do rozptýlení, nebo spuštění' => 16, 'Zvláštní' => 17
   }.freeze
 end

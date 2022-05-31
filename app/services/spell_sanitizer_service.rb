@@ -67,7 +67,8 @@ class SpellSanitizerService < ApplicationService
 
   def assign_range(range)
     attributes[:original_range] = range
-    range = range.start_with?('Ty sám (') ? 'Ty sám (oblast)' : range
+    # swap "sesilatel" for "ty sam" and parenthesis content for "oblast"
+    range = range.gsub('Sesilatel', 'Ty sám').gsub(/\(([^)]+)\)/, '(oblast)')
     attributes[:range] = Spell::RANGE[range]
   end
 
