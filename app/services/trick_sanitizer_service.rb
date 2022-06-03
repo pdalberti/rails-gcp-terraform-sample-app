@@ -1,30 +1,16 @@
 class TrickSanitizerService < ApplicationService
-  attr_reader :un_trick
-  attr_accessor :attributes
-
   def initialize(unsanitized_trick)
-    @un_trick =   unsanitized_trick
+    @element =   unsanitized_trick
     @attributes = { dials: [] }
     super()
   end
 
   def call
-    assign_columns
-    assign_description
+    super
     Fate::Trick.create!(attributes)
   end
 
   private
-
-  def assign_columns
-    un_trick.each_line do |line|
-      line = line.strip
-      break if line == '>'
-      next if line.blank?
-
-      assign_column(line)
-    end
-  end
 
   def assign_column(line)
     column, value = line.split('=')
@@ -43,9 +29,5 @@ class TrickSanitizerService < ApplicationService
     values.each do |value|
       attributes[:dials] << value unless attributes[:dials].include?(value)
     end
-  end
-
-  def assign_description
-    attributes[:description] = un_trick.split(">\n").last.strip
   end
 end

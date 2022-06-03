@@ -1,30 +1,16 @@
 class SpellSanitizerService < ApplicationService
-  attr_reader :un_spell
-  attr_accessor :attributes
-
   def initialize(unsanitized_spell)
-    @un_spell =   unsanitized_spell
+    @element =   unsanitized_spell
     @attributes = {}
     super()
   end
 
   def call
-    assign_columns
-    assign_description
+    super
     Spell.create!(attributes)
   end
 
   private
-
-  def assign_columns
-    un_spell.each_line do |line|
-      line = line.strip
-      break if line == '>'
-      next if line.blank?
-
-      assign_column(line)
-    end
-  end
 
   def assign_column(line)
     column, value = line.split('=')
@@ -39,10 +25,6 @@ class SpellSanitizerService < ApplicationService
     when 'ritual', 'concentration' then assign_boolean(column, value)
     else attributes[column] = value
     end
-  end
-
-  def assign_description
-    attributes[:description] = un_spell.split(">\n").last.strip
   end
 
   def assign_casting(casting)
