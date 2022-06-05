@@ -19,13 +19,20 @@ class ApplicationService
       break if line == '>'
       next if line.blank?
 
-      assign_column(line)
+      column, value = split_line(line)
+      assign_column(column, value)
     end
   end
 
-  def assign_colum(line)
+  def split_line(line)
     column, value = line.split('=')
     value = value[1..-2] # value without quotation marks
+    column = column.underscore
+    [column, value]
+  end
+
+  def assign_column(column, value)
+    return if value.blank?
 
     attributes[column] = value
   end
@@ -34,25 +41,17 @@ class ApplicationService
     attributes[:description] = element.split(">\n").last.strip
   end
 
-  def bold_text(string, boldening_level)
-    case boldening_level
-    when 1 then string[/\*(.*?)\*/m, 1]
-    when 2 then string[/\*\*(.*?)\*\*/m, 1]
-    when 3 then string[/\*\*\*(.*?)\*\*\*/m, 1]
-    end
+  def assign_array(column, value)
+    value = value.split(', ').map(&:capitalize)
+    attributes[column] = value
   end
 
-  def non_bold_text(string)
-    string.split('** ').last
+  def assign_unmodified_array(column, value)
+    value = value.split(', ')
+    attributes[column] = value
   end
 
-  def text_between_parentheses(string)
-    string[/\((.*?)\)/m, 1]
+  def assign_boolean(column, value)
+    attributes[column] = value == 'true'
   end
 end
-
-# move initializer, attr_reader element, attr_accessor attributes
-# #call with #assign_columns and #assign_description
-# maybe even
-    # column, value = line.split('=')
-    # value = value[1..-2] # value without quotation marks

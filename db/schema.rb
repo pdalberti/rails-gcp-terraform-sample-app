@@ -10,10 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_05_31_123408) do
+ActiveRecord::Schema.define(version: 2022_06_04_025720) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "dnd_items", force: :cascade do |t|
+    t.string "title"
+    t.string "original"
+    t.string "rulebook", default: [], array: true
+    t.string "rarity"
+    t.integer "filter_rarity", default: [], array: true
+    t.string "attunement", default: [], array: true
+    t.string "interaction"
+    t.string "purpose", default: [], array: true
+    t.string "item", default: [], array: true
+    t.string "combat_effect", default: [], array: true
+    t.string "bonus", default: [], array: true
+    t.string "limit", default: [], array: true
+    t.string "duration"
+    t.integer "filter_duration"
+    t.text "description"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "fate_tricks", force: :cascade do |t|
     t.string "actions", default: [], array: true
