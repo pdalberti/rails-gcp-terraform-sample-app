@@ -755,7 +755,7 @@ Zranění tohoto kouzla se zvýší o 1k10, když dosáhneš 5. úrovně (2k10),
 <spell
   title="Divotvorství"
   original="Thaumaturgy"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Transmutace"
   level="0"
   ritual="false"
@@ -923,7 +923,7 @@ Pokud předmět někdo drží nebo ho nese, rozdrcení safíru předmět nepřen
 <spell
   title="Drobná iluze"
   original="Minor illusion"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Iluze"
   level="0"
   ritual="false"
@@ -1033,7 +1033,7 @@ Od 11. Úrovně můžeš zapálit nebo uhasit všechny svíčky, pochodně nebo 
 <spell
   title="Druidství"
   original="Druidcraft"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Transmutace"
   level="0"
   ritual="false"
@@ -2181,7 +2181,7 @@ Zvolíš si objekt, vážící mezi 1 a 5 librami, který se nachází v dosahu 
 <spell
   title="Kejkle"
   original="Prestidigitation"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Transmutace"
   level="0"
   ritual="false"
@@ -2955,7 +2955,7 @@ Ruka nemůže útočit ani aktivovat Kouzelné předměty a neunese víc než p�
 <spell
   title="Mágova ruka"
   original="Mage hand"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Vyvolávání"
   level="0"
   ritual="false"
@@ -2972,27 +2972,6 @@ Přízračná, levitující ruka se objeví v bodě, který zvolíš v dosahu. V
 Ruku můžeš ovládat použitím své akce. Můžeš ji použít k manipulaci s předmětem, otevření odemčených dveří či nádoby, vytažení či uložení předmětu z či do otevřené nádoby, nebo vylití obsahu flakónku. Pokaždé, když ruku použiješ, tak s ní také můžeš pohnout až o 6 sáhů.
 
 Ruka nemůže útočit ani aktivovat kouzelné předměty a neunese víc než 10 liber
-</spell>
-
-<spell
-  title="Mágova ruka"
-  rulebook="Jeskyně a draci"
-  school="Vyvolávání"
-  level="0"
-  ritual="false"
-  casting="1 akce"
-  range="6 sáhů"
-  components="V, P"
-  duration="1 minuta"
-  concentration="false"
-  classes="Bard, Čaroděj, Černokněžník, Kouzelník"
-  >
-
-V bodě, který zvolíš v Dosahu kouzla, se objeví přízračná levitující ruka. Vydrží po dobu Trvání kouzla nebo dokud ji svou Akcí nezrušíš. Ruka zmizí, pokud se ocitne dál než šest sáhů od tebe, nebo když toto kouzlo Sešleš znovu.
-
-Ruku můžeš ovládat použitím své Akce. Můžeš ji použít k manipulaci s předmětem, k otevření odemčených dveří či nádoby, k vytažení či uložení předmětu z nebo do otevřené nádoby, nebo k vylití obsahu Flakónku. Pokaždé, když ruku použiješ, s ní také můžeš pohnout až o šest sáhů.
-
-Ruka nemůže útočit ani aktivovat Kouzelné předměty a neunese víc než pět kilogramů (deset liber). Od 5. Úrovně můžeš ignorovat Verbální složku kouzla. Můžeš vyvolat i zcela hmotnou ruku, což nemá žádné další efekty. Od 11. Úrovně se Dosah kouzla zvýší na dvanáct sáhů. Ruka navíc může vypadat libovolným způsobem – např. jako pařát nebo železná rukavice. Od 17. Úrovně rukou uzvedneš až deset kilogramů (dvacet liber) a můžeš ji učinit až dvakrát větší než obvykle.
 </spell>
 
 <spell
@@ -4670,7 +4649,7 @@ Zranění kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6) a pak zno
 <spell
   title="Oprava"
   original="Mending"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Transmutace"
   level="0"
   ritual="false"
@@ -4685,27 +4664,6 @@ Zranění kouzla se zvýší o 1k6, když dosáhneš 5. úrovně (2k6) a pak zno
 Toto kouzlo opraví jeden rozbitý, zlomený či roztržený předmět, kterého se dotkneš, například roztržený článek řetězu, dvě půlky zlomeného klíče, roztržený plášť nebo prosakující měch na víno. Pokud není zlom nebo trhlina v žádném svém rozměru větší než 1 stopa, předmět se opraví a neponese žádnou stopu po dřívějším poškození.
 
 Toto kouzlo dokáže fyzicky opravit kouzelný předmět nebo výtvor, ale magii mu obnovit nedokáže.
-</spell>
-
-<spell
-  title="Oprava"
-  rulebook="Jeskyně a draci"
-  school="Transmutace"
-  level="0"
-  ritual="false"
-  casting="1 minuta"
-  range="Dotyk"
-  components="V, P, S (dva magnetovce)"
-  duration="Ihned"
-  concentration="false"
-  classes="Bard, Čaroděj, Druid, Klerik, Kouzelník"
-  >
-
-Toto kouzlo opraví jeden rozbitý, zlomený či roztržený předmět, kterého se dotkneš, pokud není poškození (zlom, trhlina atp.) v žádném směru větší než 30 cm (jedna stopa). Může jít např. o roztržený článek řetězu, dvě půlky zlomeného klíče, roztržený plášť nebo prosakující měch na víno. Pokud není zlom nebo trhlina v žádném svém rozměru větší než 30 cm (jedna stopa), předmět se opraví a po dřívějším poškození nezbude žádná stopa.
-
-Toto kouzlo dokáže fyzicky opravit rozbitý Kouzelný předmět nebo výtvor, ale nedokáže mu vrátit ztracenou magii.
-
-Od 5. Úrovně může mít poškození až jeden metr (tři stopy). Navíc můžeš pospojovat libovolný počet střepů, pokud se výsledný objekt vejde do Krychle o hraně 30 cm (jedna stopa). Můžeš také odstranit škrábance z kovu nebo spáleniny z oblečení, pokud z něj zbývají nedotčené alespoň čtyři pětiny. Od 11. Úrovně má kouzlo Dosah až tři sáhy a může opravit poškození o rozsahu až dva sáhy. Navíc můžeš znovu poskládat střepy objektu, který se vejde do Krychle o hraně jeden sáh a zvrátit zreznutí kovových předmětů. Od 17. Úrovně trvá Seslání pouze jednu Akci.
 </spell>
 
 <spell
@@ -8254,7 +8212,7 @@ Od 5. Úrovně můžeš způsobit, že kterékoliv vyvolané světlo svítí Jas
 <spell
   title="Tančící světla"
   original="Dancing lights"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Zaklínání"
   level="0"
   ritual="false"
@@ -9037,7 +8995,7 @@ Od 5. Úrovně můžeš ignorovat Pohybové složky kouzla. Od 11. Úrovně, pok
 <spell
   title="Ušetři umírajícího"
   original="Space the dying"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Nekromancie"
   level="0"
   ritual="false"
@@ -9219,7 +9177,7 @@ Od 5. Úrovně se Dosah kouzla zvýší na 6 sáhů. Od 11. Úrovně pokud tvor 
 <spell
   title="Vedení"
   original="Guidance"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Věštění"
   level="0"
   ritual="false"
@@ -10802,7 +10760,7 @@ Od 5. Úrovně má kouzlo Dosah až šedesát sáhů. Od 11. Úrovně můžeš i
 <spell
   title="Zpráva"
   original="Messege"
-  rulebook="Příručka hráče, Jeskyně a draci"
+  rulebook="Příručka hráče"
   school="Transmutace"
   level="0"
   ritual="false"
@@ -11030,4 +10988,3 @@ Zvol si jednoho tvora, kterého vidíš a který se nachází v dosahu a zvol si
 
 ***Na vyšších úrovních.*** Sešleš-li toto kouzlo použitím pozice kouzla 5. či vyšší úrovně, za každou další úroveň pozice nad 4. můžeš zacílit o jednoho tvora navíc. Všichni tvorové, které tímto kouzlem ovlivníš, se musejí nacházet do 6 sáhů jeden od druhého.
 </spell>
-
