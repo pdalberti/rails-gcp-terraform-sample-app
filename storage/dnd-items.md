@@ -1213,6 +1213,42 @@ Hůlka si každý den za úsvitu obnoví všechny spotřebované dávky. Pokud u
   duration="Zvláštní"
   >
 
+**Divotvorná figurka**
+
+_Divotvorný předmět, vzácnost podle figurky_
+
+Divotvorná figurka je soška zvířete a je tak malá, že se vejde do kapsy. Pokud pomocí akce vyslovíš zaklínadlo a vrhneš figurku na místo na zemi do 12 sáhů od tebe, z figurky se stane živý tvor. Je-li místo, kde by se tvor měl objevit, obsazeno jinými tvory či předměty, nebo není-li tam pro tvora dost místa, figurka se nestane tvorem.
+
+Tvor je vůči tobě a tvým společníkům přátelský. Rozumí tvým jazykům a splní tvé vyřčené rozkazy. Nedáš-li mu žádný příkaz, tvor se bude bránit, ale jinak neprovede žádnou akci. Statistiky tvora najdeš v Bestiáři, kromě obří mouchy.
+
+Tvor existuje po dobu uvedenou u každé figurky. Na konci této doby se tvor navrátí do podoby figurky. Klesnou-li mu životy na 0, nebo vyslovíš-li pomocí akce zaklínadlo znovu, zatímco se ho dotýkáš, navrátí se do figurky předčasně. Když se tvor stane opět figurkou, její vlastnosti se nedají znova použít, dokud neuplyne určitá doba, která je uvedená v popisu figurky.
+
+**Bronzový gryf (vzácný).** Toto je bronzová soška bujného gryfa. Může se stát gryfem až na 6 hodin. Jakmile se použije, nelze použít znovu, dokud neuplyne 5 dní.
+
+**Ebenová moucha (vzácná).** Tato ebenová soška je vyřezaná do podobizny ováda. Může se stát obří mouchou až na 12 hodin. Jakmile se použije, nelze použít znovu, dokud neuplynou 2 dny.
+
+<Card header="Obří moucha">
+
+
+*Velké zvíře, bez přesvědčení*
+
+**Obranné číslo** 11
+
+**Životy** 19 (3k10 + 3)
+
+**Rychlost** 6 sáhů, létání 12 sáhů
+
+| SIL | OBR | ODL | INT | MDR | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 14 (+2) | 13 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
+
+**Smysly** vidění ve tmě 12 sáhů, pasivní Vnímání 10
+
+**Jazyky** —
+
+
+</Card>
+
 **Hadcová sova (vzácná).** Tato hadcová soška sovy se může stát obří sovou až na 8 hodin. Jakmile se použije, nelze použít znovu, dokud neuplynou 2 dny. Sova s tebou může telepaticky komunikovat na jakoukoli vzdálenost, pokud jste ve stejné sféře existence.
 
 **Mramorový slon (vzácný).** Tato mramorová soška je asi 4 couly vysoká a dlouhá. Může se stát slonem až na 24 hodin. Jakmile se použije, nelze použít znovu, dokud neuplyne 7 dní.
@@ -1687,6 +1723,20 @@ Vně nádoby se tvoří krůpěje tohoto mlžného šedého oleje a rychle se 
   limit="Neomezené"
   duration="Permanentní"
   >
+
+Legendární meč krále Artuše, podle některých legend vytažený z kamene, podle jiných věnovaný Paní jezera. Ten, kdo Excalibur získá, je předurčen stát se králem. Excalibur je stříbrnými reliéfy zdobený Dlouhý meč v krásné, umělecky dekorované pochvě.
+
+**Prosekávání kovu.** Moc Excaliburu je tak velká, že projde kovem jako jiný Meč dřevem – Zbraně se při střetu s ním lámou, Štíty praskají a Zbroje se ničí. Excalibur dává +3 k Útoku, jeho Kostky zásahu jsou 1k10 + 1k10 (Sečný a Zářivý zásah, 1k12 \+ 1k12 při Obouručním držení) a dává +3 k Zásahu a +1 k rozsahu Kritického zásahu (běžně tedy Kriticky zasáhne při hodu 19–20). Kritický zásah Excaliburem navíc zničí nemagickou Zbraň nebo Štít protivníka, případně o 2 sníží Hodnocení jeho Zbroje. Pokud Hodnocení Zbroje klesne na 10 či méně, Zbroj je zničená.
+
+**Záře slávy.** Při tasení z pochvy zazáří Excalibur oslňujícím světlem. Všichni nepřátelé nositele do šesti sáhů (12 sáhů v šeru a 24 sáhů ve tmě) musí uspět v Záchranném hodu na Odolnost se SO 15, jinak jsou Oslepeni. Oslepení tvorové můžou Záchranu na konci každého svého Tahu zopakovat. Excalibur nadále září Jasným světlem na 12 a Slabým světlem na dalších 12 sáhů. Jeho světlo překoná, ale nezruší, kouzla a schopnosti vyvolávající tmu.
+
+**Symbol krále.** Pokud vedeš své vojsko do Bitvy, Excalibur dá Výhodu k Útoku a Manévrům všem tobě věrným Skupinám, které ho mají v dohledu.
+
+**Ochrana.** Pochva Excaliburu je popsána mocnými ochrannými zaklínadly. Pokud ji má nositel při sobě, je Odolný vůči nemagickým Bodným, Drtivým a Sečným zásahům a má Výhodu ke všem Záchranám proti efektům, které by mu přinesly nežádoucí Stavy.
+
+**Zničení.** Excalibur pomáhá králi obhájit právoplatné nároky a dostát povinnostem chránit říši. Pokud se držitel tomuto poslání zpronevěří a použije Excalibur k sobeckým zájmům (zejména když jedná ve svůj prospěch na úkor říše nebo se něčeho domáhá neprávem), riskuje jeho zničení. Když v takovém boji padne na kostce 1, Excalibur se zlomí a jeho moc pomine.
+
+<Card header="Zlomení a scelení Excaliburu">
 
 Zlomení Excaliburu není o meči samotném, ale o jeho nositeli. V artušovském mýtu je odrazem osobního selhání a nedokonalosti krále, odráží či předesílá přicházející úpadek a pojí se k následné snaze o vykoupení.
 
@@ -2528,6 +2578,30 @@ Zatímco tento kámen obíhá kolem tvé hlavy, můžeš seslat jakékoliv v n
   duration="Permanentní"
   >
 
+Jeden prsten – nenápadný zlatý kroužek, do kterého je zakována moc samotného Temného pána. Jeden prsten umocňuje sílu svého nositele, ale svou temnou vůlí kazí jeho srdce a duši. Jeden prsten se odmítne Sladit s kýmkoliv, kdo má Zdatnostní bonus menší než 4 – pokud ho ale má dotyčný nasazený, může mu Jeden prsten, když se mu to zrovna hodí, občas zprostředkovat některé své Sladění vyžadující schopnosti.
+
+**Prsten moci.** Jeden prsten je nejmocnější z Prstenů moci. Když se s ním Sladíš, získáš schopnosti, které by ti přineslo tolik dalších Úrovní, kolik je polovina tvého Zdatnostního bonusu (zaokrouhlená dolů). Za každou schopnost vyšší než 20. Úrovně si vem Zvýšení hodnot vlastností, které zároveň posune tvé maximální Hodnoty vlastností o +2.
+
+Prsten nezvýší Maximum výdrže ani samotný Zdatnostní bonus, ale zprostředkuje další Pozice kouzel a možnost naučit se patřičně mocnější Kouzla. Pokud máš více než jedno Povolání, můžeš si při prvním získání Prstenu rozdělit takto přidané Úrovně dle vlastního uvážení. Pokud si při dalším přestupu vezmeš Úroveň v Prstenem posíleném Povolání, můžeš toto posílení přenést do jiného Povolání.
+
+**Vládnoucí prsten.** Jeden prsten ti umožní automaticky Zmámit všechny tvory, kteří mají nasazený Kouzelný prsten se Stupněm vzácnosti stejným nebo nižším, než je tvůj Zdatnostní bonus, a kteří se ocitnou v Dosahu tvých přirozených nebo magických smyslů. Navíc automaticky vnímáš všechny Legendární a Artefaktové Prsteny moci, které má někdo nasazené – znáš jejich přibližnou polohu, víš, kdo je má na prstě, a můžeš s ním telepaticky komunikovat (případně jej automaticky Zmámit).
+
+**Děs a krása.** Jeden prsten zprostředkovává podoby, jimiž vládl jeho tvůrce. Pokud je s tebou Sladěný a máš ho nasazený, můžeš zapůsobit na kohokoliv, s kým mluvíš nebo s kým jsi v telepatickém kontaktu. Pokud neuspěje v Záchraně na Moudrost se SO 15 nebo tvým SO Záchrany kouzel nebo schopností (cokoliv je vyšší), je tebou dle tvé volby Vystrašený nebo Zmámený.
+
+**Děsivá vůle.** Jeden prsten ti umožňuje projektovat tvou vůli do okolního světa. V Bitvě si můžeš vybrat až tolik scén nebo Vlajek, kolik je tvůj Zdatnostní bonus, a v těchto scénách zabránit svým jednotkám v rozpadu (skupiny si zachovají původní velikost bez ohledu na zbývající Výdrž), případně pokud se Vlajka vyhodnocuje bez přítomnosti Hráčských postav, získá tvá strana Výhodu k hodu, popř. snížíš cenu, za kterou je Vlajka získána. V Mezidobí ti budování Sítí trvá o jednu Scénu za Stupeň méně a cena každého Stupně odpovídá Stupni o jedna menšímu.
+
+**Přízračný prsten.** Jeden prsten tě automaticky zneviditelní ihned, co si jej nasadíš (i když s tebou není Sladěný). Efekt je stejný jako u Kouzla Mocná neviditelnost. Pokud se s Prstenem Sladíš, můžeš tento efekt ovládat myšlenkou (Akce není třeba), a pokud navíc máš Zdatnostní bonus +4 a víc, můžeš pomocí Akce přecházet do Éterické sféry a zpět.
+
+**Korumpující podstata.** Moc Jednoho prstenu je doslova zakovaná vůle Temného pána. Jeden prsten vyvolává Závislost (viz Stavy a Nemoci). Pokud s Prstenem není nikdo Sladěný, vyžaduje pouhý pohled na něj Záchranu na Moudrost proti Závislosti se SO 15. Dotyk Jednoho prstenu vyvolá automaticky Závislost se Stupněm 1 a Sladění vyvolá Závislost se Stupněm rovným tvému Zdatnostnímu bonusu.
+
+Pokaždé, když se tvá Závislost zhorší, musíš uspět v Záchraně na Charisma se SO 15. Pokud selžeš, tvé Přesvědčení se posune o 1 směrem ke Zlu (pokud na Přesvědčení nehrajete, pak získáš jeden negativní charakterový rys).
+
+Prsten může navíc na kohokoliv, kdo s ním je Sladěný, seslat jednou za den Sugesci se SO Záchrany kouzel rovným 15.
+
+**Vlastní vůle.** Jeden prsten není přímo inteligentní, ale je obdařený vlastní vůlí – respektive fragmentem vůle Temného pána, kterému se snaží sloužit a ke kterému se snaží vrátit. Pokud se to Prstenu hodí, může tě zkusit zradit – možná ti odepře některou ze schopností, kterou ti zprostředkovává a kterou právě používáš, možná ti sklouzne z prstu, možná k tobě přitáhne přízraky. Pokud je s tebou Prsten Sladěný, můžeš mu v tom zabránit úspěšnou Záchranou na Charisma, v níž máš vždy Zdatnost, se SO 15.
+
+<Card header="Zpracování předlohy">
+
 Jeden prsten je především ukázkou zpracování a jeho moc odpovídá jeho knižnímu vyobrazení – jako herní předmět jde skutečně o velmi mocný Artefakt. I když nejspíše nebudete chtít přehrávat alternativní příběh *Pána prstenů* (případně *Silmarillionu*), může Jeden prsten snadno posloužit jako základ pro mnohé jiné Artefakty, do nichž je zakleta něčí osobní moc (nebo kus duše).
 
 </Card>
@@ -2722,6 +2796,121 @@ Jakmile se skrz kameny sešle *poselství*, nelze je použít znovu až do pří
   duration="Permanentní"
   >
 
+*Divotvorný předmět, legendární*
+
+Tento balíček se obvykle vyskytuje v krabičce nebo váčku a obsahuje několik karet ze slonoviny či pergamenu. Většina (75%) těchto balíčků má jen třináct karet, ale zbytek jich má dvacet dva.
+
+Než si lízneš kartu, musíš určit, kolik karet si chceš líznout, a pak si je náhodně lízneš (pro simulování balíčku můžeš použít upravený balíček hracích karet jako rekvizitu). Jakékoliv karty líznuté nad tento počet nemají žádný účinek. Jinak jakmile si lízneš kartu z balíčku, projeví se její magie. Každou z karet si musíš líznout nejpozději za 1 hodinu po předešlé. Nelízneš-li si zvolený počet, zbývající počet karet samovolně vyletí z balíčku a projeví se najednou.
+
+Jakmile si lízneš kartu, zmizí. Nebyla-li to karta Blázen nebo Kašpar, objeví se znovu v balíčku, čímž je teoreticky možné si líznout stejnou kartu dvakrát.
+
+| Hrací karta | Karta |
+| --- | --- |
+| Kárové eso | Vezír* |
+| Kárový král | Slunce |
+| Kárová dáma | Měsíc |
+| Kárový kluk | Hvězda |
+| Kárová dvojka | Kometa* |
+| Kárové eso | Sudičky* |
+| Kárový král | Trůn |
+| Kárová dáma | Klíč |
+| Kárový kluk | Rytíř |
+| Kárová dvojka | Drahokam* |
+| Kárové eso | Drápy* |
+| Kárový král | Prázdnota |
+| Kárová dáma | Oheň |
+| Kárový kluk | Lebka |
+| Kárová dvojka | Idiot* |
+| Kárové eso | Kobka* |
+| Kárový král | Trosky |
+| Kárová dáma | Euryalé |
+| Kárový kluk | Tulák |
+| Kárová dvojka | Rovnováha* |
+| Černý žolík | Blázen* |
+| Červený žolík | Kašpar |
+
+\*Nachází se pouze v balíčku s dvaceti dvěma kartami
+
+***Blázen.*** Ztratíš 10 000 ZK, odložíš tuto kartu a znova si lízneš z balíčku, přičemž obě líznuté karty se berou jako jedna z hlediska tebou určeného počtu. Pokud bys kvůli ztrátě tolika ZK přišel o úroveň, místo toho ztratíš jen tolik ZK, aby ti zůstala tvá úroveň.
+
+***Drahokam.*** U tvých nohou se objeví dvacet pět šperků, každý v hodnotě 2 000 zl, nebo padesát drahokamů, každý v hodnotě 1 000 zl.
+
+***Drápy.*** Všechny kouzelné předměty, které máš na sobě nebo neseš, se rozpadnou. Artefakty, které máš u sebe, se nezničí, ale zmizí.
+
+***Euryalé.*** Vizáž medúzovité karty tě prokleje. Zatímco jsi prokletý tímto způsobem, utrpíš postih −2 k záchranným hodům. Tuto kletbu může ukončit pouze bůh nebo magie karty Sudičky.
+
+***Hvězda.*** Zvyš jednu ze svých hodnot vlastností o 2. Hodnota může přesáhnout 20, ale nesmí přesáhnout 24.
+
+***Idiot.*** Trvale sniž hodnotu své Inteligence o 1k4 + 1 (ale maximálně na 1). Můžeš si líznout o jednu kartu navíc kromě těch, cos určil.
+
+***Kašpar.*** Bud získáš 10 000 ZK, nebo si můžeš líznout dvě karty navíc kromě těch, cos určil.
+
+***Klíč.*** U tvých nohou se objeví vzácná či vzácnější magická zbraň, se kterou jsi zdatný. Zbraň určí PJ.
+
+***Kobka.*** Zmizíš a budeš pohřbený ve stavu zdánlivé smrti v mimodimenzionální sféře. Vše, co jsi měl na sobě nebo jsi nesl, zůstane na místě, na kterém jsi byl v okamžiku zmizení. Zůstaneš uvězněný, dokud nejsi nalezen a přesunut ze sféry. Nelze tě najít věšteckou magií, ale polohu tvého vězení umí odhalit kouzlo *přání*. Nelízneš si žádnou další kartu.
+
+***Kometa.*** Porazíš-li samostatně příští nepřátelskou nestvůru či skupinu nestvůr, se kterými se střetneš, získáš dostatek bodů zkušenosti pro přestup o jednu úroveň. Jinak tato karta nemá žádný účinek.
+
+***Lebka.*** Přivoláš avatara smrti — přízračného humanoidního kostlivce v otrhaném černém rouchu, který drží přízračnou kůsu. Objeví se na místě dle úvahy PJ do 2 sáhů od tebe a zaútočí na tebe, přičemž varuje všechny ostatní, že musíš vyhrát souboj sám. Avatar bojuje, dokud nezemřeš, nebo mu neklesnou životy na 0, a pak zmizí. Pokusí-li se ti někdo pomoci, pomahač přivolá svého vlastního avatara smrti. Tvora poraženého avatarem smrti nelze obživnout.
+
+<Card header="Avatar smrti">
+
+Střední nemrtvý, neutrální zlo
+
+**Obranné číslo** 20
+
+**Životy** polovina maxima životů přivolavatele
+
+**Rychlost** 12 sáhů, létání 12 sáhů (vznášení se)
+
+| SIL | OBR | ODL | INT | MDR | CHA |
+| --- | --- | --- | --- | --- | --- |
+| 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) |
+
+**Imunita vůči zraněním** jedové, nekrotické
+
+**Imunita vůči stavům** otrávený, paralyzovaný, v bezvědomí, vystrašený, zmámený, zkamenělý
+
+**Smysly** vidění ve tmě 12 sáhů, pravdivé vidění 12 sáhů, pasivní Vnímání 13
+
+**Jazyky** všechny jazyky, které umí přivolavatel
+
+**Nebezpečnost** — (0 ZK)
+
+***Nehmotný pohyb.*** *Avatar se může pohybovat skrz jiné tvory a předměty, jako by byly těžký terén. Skončí-li svůj tah uvnitř předmětu, utrpí silové zranění 5 (1k10).*
+
+***Imunita vůči odvracení.*** *Avatar je imunní vůči schopnostem, které odvrací nemrtvé.*
+
+Akce
+
+***Kosa smrtky.*** Avatar máchne svou přízračnou kůsou skrz tvora do 1 sáhu od něj a způsobí mu sečné zranění 7 (1k8 + 3) plus nekrotické zranění 4 (1k8).
+
+</Card>
+
+***Měsíc.*** Získáš schopnost 1k3 krát seslat kouzlo *přání*.
+
+***Oheň.*** Tvým nepřítelem se stane mocný ďábel. Ďábel tě chce zničit a usoužit tě, vychutnat si tvé trápení, než se tě pokusí zabít. Toto nepřátelství trvá, dokud nezemřeš ty, nebo ďábel.
+
+***Prázdnota.*** Tato černá karta vykouzlí pohromu. Tvá duše je vytržena z tvého těla a vsazena do předmětu na místě dle úvahy PJ. Místo střeží jedna či více mocných bytostí. Zatímco je tvá duše uvězněná tímto způsobem, tvé tělo je neschopné. Kouzlo *přání* neumí obnovit tvou duši, ale odhalí polohu předmětu, který ji drží. Nelízneš si žádnou další kartu.
+
+***Rovnováha.*** Tvůj mozek utrpí šroubovicové poškození, což způsobí změnu tvého přesvědčení. Zákonné se stane chaotickým, dobré se stane zlým, a naopak. Pokud jsi absolutně neutrální nebo bez přesvědčení, tato karta na tebe nemá žádný účinek.
+
+***Rytíř.*** Bude ti sloužit bojovník na 4. úrovni, který se objeví na místě dle tvé volby do 6 sáhů od tebe. Bojovník je stejné rasy jako ty a slouží ti věrně až do smrti, přičemž věří, že ho k tobě zavál osud. Ovládáš tuto postavu.
+
+***Slunce.*** Získáš 50 000 ZK a ve tvých rukou se objeví divotvorný předmět (který náhodně určí PJ).
+
+***Sudičky.*** Tkanivo reality se rozplete a znovu splete, což ti umožní se vyhnout nebo vymazat jednu událost, jako by se nikdy nestala. Magii karty můžeš použít ihned poté, co si kartu lízneš, nebo kdykoliv jindy, než zemřeš.
+
+***Trosky.*** Přijdeš o všechny formy bohatství, které máš u sebe nebo vlastníš, kromě kouzelných předmětů. Přenositelný majetek zmizí. O podniky, budovy a pozemky přijdeš způsobem, který nejméně mění realitu. Dokumenty, které potvrzují tvé vlastnictví toho, o co jsi přišel touto kartou, také zmizí.
+
+***Trůn.*** Získáš zdatnost v dovednosti Přesvědčování a k ověřením této dovednosti si budeš počítat dvojnásobný zdatnostní bonus. Navíc získáš zákonné vlastnictví malé tvrze někde ve světě. Tvrz je ale v současné době v rukou nestvůr, které musíš vyklidit, než můžeš na tvrz uplatnit svůj nárok.
+
+***Tulák.*** Cizí postava dle úvahy PJ se stane vůči tobě nepřátelská. Totožnost tvého nového nepřítele je neznámá, dokud ji CP či někdo jiný neodhalí. Nepřátelství CP vůči tobě nemůže ukončit nic menšího než kouzlo *přání* nebo božský zásah.
+
+***Vezír.*** Kdykoliv do jednoho roku od líznutí této karty můžeš během meditace položit jednu otázku a mentálně na ni obdržíš pravdivou odpověď. Kromě informace ti odpověď pomůže vyřešit zapeklitý problém nebo jiné dilema. Jinými slovy, mimo informace získáš znalost, jak ji použít.
+
+<Card header="Otázka nepřátelství">
+
 Dvě karty z *karet mnoha věcí* mohou postavě vysloužit nepřátelství jiné bytosti. U karty Oheň je nepřátelství zjevné. Postava by měla zakusit ďáblovu zlomyslnou snahu při několika příležitostech. Vyhledání běsa by nemělo být snadné a dobrodruh by se měl několikrát utkat s ďáblovými spojenci a stoupenci, než se bude moci postavit samotnému ďáblovi.
 
 V případě karty Tulák je nepřátelství tajné a mělo by přijít od někoho, kdo je považován za přítele či spojence. Jako Pán jeskyně bys měl nechat dobrodruha pouze hádat, kdo se nejspíš stal zrádcem, a vyčkat na dramaticky vhodný okamžik, kdy odhalíš toto nepřátelství.
@@ -2884,6 +3073,26 @@ Když máš na sobě tento klobouk, můžeš z něj pomocí akce libovolně se
   duration="Permanentní"
   >
 
+Kniha mrtvých je velký černý grimoár obsahující tajemství smrti a kouzla související s umíráním a záhrobím. Některé legendy říkají, že Kniha byla ukradena bohu smrti, podle jiných ji daroval smrtelníkům a další tvrdí, že mu Kniha sama unikla. Ten, kdo z Knihy mrtvých čte, může poroučet hranici života a smrti.
+
+**Šero smrti.** Pouhé otevření Knihy mrtvých způsobí, že v okruhu s poloměrem 24 sáhů okolo tebe padne noční tma. Pro potřeby kouzel jde o skutečnou noc. Zdroje světla a kouzla vyvolávající světlo tmu prosvítí, ale na okolní noci nic nezmění. Dokud Knihu držíš v ruce, můžeš z ní číst, i když ji nevidíš (bez ohledu na Oslepení, slepotu nebo to, zda vůbec máš nějaké oči).
+
+**Zvedání Nemrtvých.** Čtením Kouzel z Knihy mrtvých můžeš Sesílat Kouzla Stvoř Nemrtvého a Stvoř Nemrtvé z Pozice 9. Stupně bez Surovinových složek. Stále však musíš mít k dispozici vhodná mrtvá těla v patřičném stavu a úpravě.
+
+**Moc nad smrtí.** Pokud čteš z Knihy, můžeš Sesílat Trik Ušetři umírajícího s Dosahem 24 sáhů a bez utracení Pozic kouzel nebo Surovinových složek i Kouzla Důstojný odpočinek, Mluv s mrtvými, Obrození, Schránka života, Vzkříšení, Zmrtvýchvstání a Znovuzrození.
+
+**Přístup do zásvětí.** Čtením Knihy můžeš Seslat Kouzlo Přesun Sférami jako Rituál bez utracení Pozice kouzel nebo Surovinových složek. Podmínkou je, že Cílová Sféra musí být buď záhrobím (např. Devět pekel nebo Elysium), cestou do záhrobí (např. Stínopád), nebo pokud v některé z těchto Sfér už jsi, musí jít o tvou Sféru původu.
+
+**Zničení.** Hodně velká snaha nebo mocná Kouzla (např. Rozklad) můžou Knihu mrtvých poškodit, nebo dokonce zdánlivě zničit, avšak Kniha se vždy vrátí ze záhrobí zpět – ať už poblíž místa svého zničení, nebo v některém z opuštěných chrámů smrti. Jediný způsob, jak se Knihy zbavit, je vrátit ji do rukou boha smrti.
+
+<Card header="Čtení Knihy">
+
+Kniha mrtvých dává moc číst bez nutnosti ji fyzicky vidět – ale ne nutně bez znalosti písma a jazyka, kterým je napsána. Možná, že ve vašem světě Kniha samu sebe překládá. Ale možná také ne, a nejenže je psána jazykem, kterým již staletí nikdo nepromluvil, ale navíc vzdoruje jakékoliv překladatelské magii. Snaha o porozumění jazyku Knihy může být zajímavým prvkem hry, stejně jako přirozeným způsobem omezení jejích nejmocnějších schopností. Na druhou stranu to nepřeháněj – když dáváš do hry Artefakt, tak chceš, aby se projevil.
+
+</Card>
+
+<Card header="Moc Knihy mrtvých">
+
 Kniha mrtvých obsahuje všechna nebojová kouzla Školy nekromancie. Všimni si, že jediná skutečně silná schopnost Knihy mrtvých na úrovni jednotlivce je schopnost neomezeného Sesílání Znovuzrození. Zvedání Nemrtvých nebo přebírání kontroly nad nimi ti může poskytnout armádu, což může mít určitě zajímavé dopady v příběhu (popř. v Bitvě), ale není to něco, co by ti příliš pomohlo v bojovém střetnutí na úrovni družiny Hráčských postav, a Rituální (tedy desetiminutové) Sesílání Přesunu Sférami je zajímavá herní možnost, ale ne únik z boje.
 
 Kniha mrtvých skutečně umožní vracet zpět do světa mrtvé po desítkách. Takové jednání by ale zajímavě narušilo běžný řád světa – Klerici a kněží Dobrých bohů a bohů smrti stejně jako mnozí Druidi by k tomu určitě chtěli říct svoje, stejně jako zástupy těch, kteří by chtěli někoho oživit, případně těch, kteří by chtěli, aby někdo oživen rozhodně nebyl, a o mocnostech, které budou toužit získat Knihu pro sebe, ani nemluvě.
@@ -2911,6 +3120,30 @@ Kniha mrtvých skutečně umožní vracet zpět do světa mrtvé po desítkách.
   limit="Neomezené"
   duration="Permanentní"
   >
+
+*Divotvorný předmět, artefakt (vyžaduje sladění)*
+
+Obsah tohoto odporného rukopisu nevýslovné špatnosti je něco pro ty, kdo podléhají zlu. Tajemství, která obsahuje, nejsou určeny pro žádného smrtelníka. Tak hrozné vědomosti, že i letmý pohled na načmárané stránky vzbuzuje šílenství.
+
+Většina se domnívá, že autorem *Knihy odporné temnoty* je božský kostěj Vekna. Zaznamenal na její stránky každý chorobný nápad, každou pomatenou myšlenku a každý příklad nejčernější magie, na které narazil nebo které vymyslel. Vekna se věnoval každému odpornému tématu, co mohl, a udělal z knihy příšerný katalog všech křivd smrtelníků.
+
+Knihu měli ve svém držení další praktikanti zla a do jejího katalogu odporných vědomostí přidali své vlastní postřehy. Jejich dodatky jsou zřetelné, neboť všechny své spisy všili do vazby rukověti, nebo v některých případech dělali poznámky a dodatky do již existujícího textu. Jsou místa, kde stránky chybí, jsou přetržené nebo zcela pokryté inkoustem, krví a škrábanci tak, že se z nich původní text nedá vytušit.
+
+Příroda nesnáší přítomnost knihy. Obyčejné rostliny v její blízkosti vadnou, zvířata se k ní dobrovolně nepřiblíží a kniha pozvolna ničí vše, čeho se dotýká. Dokonce i kámen pukne a změní se v prach, pokud na něm spočívá kniha dostatečně dlouho.
+
+Tvor sladěný s knihou musí strávit 80 hodin čtením a studiem knihy, aby pronikl do jejího obsahu a získal její užitky. Pak může volně upravovat obsah knihy, pokud tyto změny zvětšují zlo a rozšiřují vědomosti, které už v knize jsou.
+
+<Card header="Odporné znalosti">
+
+*Kniha odporné temnoty* probírá každé zlo ve vesmíru. Postava může pomocí znalostí obsažených v knize odkrýt strašná tajemství, která by neměl znát žádný smrtelník. Mezi tématy, jež postava může v obsahu najít, jsou následující, plus cokoliv jiného zvolíš:
+
+ * **Odporná zbožnění.** Kniha může obsahovat rituál, který postavě umožní stát se kostějem nebo rytířem smrti.
+
+ * **Pravá jména.** V knize mohou být pravá jména jakéhokoli počtu běsů.
+
+ * **Černá magie.** V knize může být několik strašně zlých kouzel, dle návrhu a volby Pána jeskyně. Kouzla mohou způsobovat hrůzné kletby, netvořit ostatní, vyžadovat lidskou oběť, postihovat tvory ochromující bolestí, šířit zhoubné nemoci a tak dále.
+
+</Card>
 
 Kdykoliv se s *Knihou odporné temnoty* sladí tvor, který není zlý, musí si hodit záchranný hod na Charisma se SO 17. Když tvor neuspěje, změní se jeho přesvědčení na neutrálně zlé.
 
@@ -7343,6 +7576,34 @@ Tento roh má 4 dávky. Když na něj v rámci své akce zatroubíš, uslyší j
 </dnd-item>
 
 <dnd-item
+  title="Roh tichého poplachu"
+  original="Horn of Silent Alarm"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní efekt"
+  item="Všední předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+**Roh tichého poplachu**
+
+*Divotvorný předmět, běžný*
+
+Tento roh má 4 dávky. Když na něj v rámci své akce zatroubíš, uslyší jeho zvuk jeden tvor, kterého sis vybral. Ten současně nesmí být hluchý a nesmí být od tebe vzdálen více než 120 sáhů. Zvuk rohu nemůže slyšet žádný jiný tvor. Roh si za úsvitu každého dne obnoví 1k4 spotřebovaných dávek.
+</dnd-item>
+
+<dnd-item
   title="Roh Valhaly"
   original="Horn of Valhalla"
 
@@ -7550,6 +7811,34 @@ Mimo to má roucho 4k4 dalších záplat. PJ zvolí jaké, nebo je určí náhod
 | 84–90 | 2 **mastifové** (viz statistiky v Bestiáři) |
 | 91–96 | Okno (2 × 4 stopy, až 2 stopy hluboké), které se dá umístit na svislý povrch, kam dosáhneš |
 | 97–100 | Přenosné beranidlo |
+</dnd-item>
+
+<dnd-item
+  title="Rubín válečného mága"
+  original="Ruby of the War Mage"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Sesilatelem"
+  interaction="žádná int."
+
+  purpose="Sesílání"
+  item="Jiný"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Zvláštní"
+  >
+
+**Rubín válečného mága**
+
+*Divotvorný předmět, běžný (vyžaduje sladění se sesilatelem)*
+
+Tento rubín o průměru jednoho coulu je pokrytý tajemnými runami a umožní ti použít jednoduchou nebo vojenskou zbraň jako Sesílací ohniskový předmět. Pokud chceš tuto vlastnost využívat, musíš ho přitisknout na danou zbraň a alespoň 10 minut ho tam držet. Rubín se pak nedá odstranit, a to ani v *antimagickém poli*, dokud není zbraň zničena nebo dokud ho v rámci akce nesundáš (ukončíš s ním sladění).
 </dnd-item>
 
 <dnd-item
@@ -7860,6 +8149,34 @@ Tato 2sáhová tyč se po vyslovení zaklínadla přemění na rybářský prut 
 </dnd-item>
 
 <dnd-item
+  title="Rybářský prut"
+  original="Pole of Angling"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní efekt"
+  item="Výbava"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Rybářský prut**
+
+_Divotvorný předmět, běžný_
+
+Tato 2sáhová tyč se po vyslovení zaklínadla přemění na rybářský prut s háčkem, vlascem a navijákem. Pokud zaklínadlo vyslovíš podruhé, složí se zpět do obyčejné tyče původní délky.
+</dnd-item>
+
+<dnd-item
   title="Samolátací oděv"
   original="Clothes of Mending"
 
@@ -7885,6 +8202,62 @@ Tato 2sáhová tyč se po vyslovení zaklínadla přemění na rybářský prut 
 *Divotvorný předmět, běžný*
 
 Toto elegantní cestovatelské oblečení se samo kouzelně opravuje a zabraňuje každodennímu opotřebení. Pokud je nějaká část oděvu zcela zničena, už se neumí sama opravit.
+</dnd-item>
+
+<dnd-item
+  title="Samolátací oděv"
+  original="Clothes of Mending"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní efekt"
+  item="Oblečení"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Samolátací oděv**
+
+*Divotvorný předmět, běžný*
+
+Toto elegantní cestovatelské oblečení se samo kouzelně opravuje a zabraňuje každodennímu opotřebení. Pokud je nějaká část oděvu zcela zničena, už se neumí sama opravit.
+</dnd-item>
+
+<dnd-item
+  title="Samoopravovací lano"
+  original="Rope of Mending"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní efekt"
+  item="Výbava"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Samoopravovací lano**
+
+_Divotvorný předmět, běžný_
+
+Tento 10sáhový smotek konopného provazu můžeš rozřezat na libovolný počet menších kousků a pak v rámci akce vyslovit zaklínadlo, kterým se kousky opět spojí dohromady. Jednotlivé kusy musejí být ve vzájemném kontaktu a nesmějí být jinak používány. Pokud se některá jeho část ztratí nebo zničí, *samoopravovací lano* se navždy zkrátí.
 </dnd-item>
 
 <dnd-item
@@ -8138,6 +8511,33 @@ Tato 2sáhová tyč se po vyslovení zaklínadla přemění na 1 stopu dlouhé �
 </dnd-item>
 
 <dnd-item
+  title="Skládací tyč"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Nekonkrétní efekt"
+  item="Žezlo"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Skládací tyč**
+
+_Divotvorný předmět, běžný_
+
+Tato 2sáhová tyč se po vyslovení zaklínadla přemění na 1 stopu dlouhé žezlo, které se pak dá snadněji přenášet. Na váhu tyče nemá tato změna vliv. Žezlo můžeš změnit zpátky na tyč, když v rámci akce vyslovíš jiné zaklínadlo. Pokud však tyč nemá pro změnu do původní délky dost místa, její délka se této skutečnosti přizpůsobí.
+</dnd-item>
+
+<dnd-item
   title="Sluneční čepel"
   original="Sun blade"
 
@@ -8196,6 +8596,34 @@ Pokud máš tento předmět u sebe, můžeš jako akci zjistit, kterým směrem 
 </dnd-item>
 
 <dnd-item
+  title="Směrová koule"
+  original="Orb of Direction"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní efekt"
+  item="Jiný"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Směrová koule**
+
+_Divotvorný předmět, běžný_
+
+Pokud máš tento předmět u sebe, můžeš jako akci zjistit, kterým směrem leží sever. Tato vlastnost funguje pouze v Materiální sféře.
+</dnd-item>
+
+<dnd-item
   title="Strážný štít"
   original="Sentinel shield"
 
@@ -8219,6 +8647,36 @@ Pokud máš tento předmět u sebe, můžeš jako akci zjistit, kterým směrem 
 *Zbroj (štít), neobvyklý*
 
 Když držíš tento štít, máš výhodu k hodům na iniciativu a ověřením Moudrosti (Vnímání). Na štítu je namalovaný symbol oka.
+</dnd-item>
+
+<dnd-item
+  title="Strojkový amulet"
+  original="Clockwork Amulet"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Amulet"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="1/denně"
+  duration="Permanentní"
+  >
+
+**Strojkový amulet**
+
+_Divotvorný předmět, běžný_
+
+Tento měděný amulet obsahuje drobná ozubená kolečka a je poháněn magií Mechanu, sféry předvídatelné jako hodinový strojek. Když k němu přiložíš ucho, uslyšíš slabé tikání a šumění.
+
+Když máš amulet u sebe, můžeš se při útoku vzdát hodu k20 a vzít si místo něj desítku. Tuto vlastnost můžeš znovu použít až za příštího úsvitu.
 </dnd-item>
 
 <dnd-item
@@ -8560,6 +9018,34 @@ Kdykoliv hodíš touhle šestistěnnou kostkou, můžeš určit číslo, které 
 </dnd-item>
 
 <dnd-item
+  title="Šarlatánova smrt"
+  original="Charlatan's Dice"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Konkrétní efekt"
+  item="Všední předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Šarlatánova smrt**
+
+_Divotvorný předmět, běžný (vyžaduje sladění)_
+
+Kdykoliv hodíš touhle šestistěnnou kostkou, můžeš určit číslo, které na ní padne.
+</dnd-item>
+
+<dnd-item
   title="Šeptající prsten"
 
   rulebook="Jeskyně a draci"
@@ -8801,6 +9287,34 @@ Přední strana štítu má tvar obličeje. Pokud ho máš na ruce, můžeš tv�
 </dnd-item>
 
 <dnd-item
+  title="Štít mnoha tváří"
+  original="Shield of Expression"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Zbroje"
+  item="Zbroj"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="nepovinný"
+  >
+
+**Štít mnoha tváří**
+
+_Zbroj (štít), běžný_
+
+Přední strana štítu má tvar obličeje. Pokud ho máš na ruce, můžeš tvář v rámci bonusové akce změnit.
+</dnd-item>
+
+<dnd-item
   title="Štít mýtů"
 
   rulebook="Jeskyně a draci"
@@ -8875,6 +9389,34 @@ Když držíš tento štít, jsi odolný vůči zranění z útoků na dálku 
 *Zbroj (štít), vzácný (vyžaduje sladění)*
 
 Když držíš tento štít, získáš bonus +2 k OČ proti útokům na dálku. Tento bonus se přičítá k normálnímu bonusu štítu k OČ. Navíc kdykoliv útočník zaútočí na dálku proti cíli do 1 sáhu od tebe, můžeš se pomocí své reakce místo toho stát cílem útoku ty.
+</dnd-item>
+
+<dnd-item
+  title="Tajemný klíč"
+  original="Mystery Key"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní efekt"
+  item="Všední předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Tajemný klíč**
+
+_Divotvorný předmět, běžný_
+
+Na hlavě tohoto klíče je zobrazen otazník. Klíč má 5% šanci odemknout jakýkoli zámek, do kterého je vložen. Jakmile klíč něco odemkne, zmizí.
 </dnd-item>
 
 <dnd-item
@@ -9214,6 +9756,34 @@ Tuto knihu kouzel, stejně jako vše, co je na jejích stránkách napsáno, nem
 </dnd-item>
 
 <dnd-item
+  title="Trvalá kniha kouzel"
+  original="Enduring Spellbook"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Sesílání"
+  item="Kniha"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Trvalá kniha kouzel**
+
+*Divotvorný předmět, běžný*
+
+Tuto knihu kouzel, stejně jako vše, co je na jejích stránkách napsáno, nemůže poškodit oheň ani ponoření do vody. Kromě toho se stářím nezhoršuje její stav.
+</dnd-item>
+
+<dnd-item
   title="Třpytivá přilba"
   original="Helm of brilliance"
 
@@ -9246,6 +9816,34 @@ Když ji máš na sobě, získáš následující užitky:
  * Dokud má přilba aspoň jeden ohnivý opál, můžeš pomocí akce vyslovit zaklínadlo a způsobit, že jedna zbraň, kterou držíš, vzplane. Plameny osvítí jasným světlem okruh o poloměru 2 sáhy a slabým světlem další 2 sáhy. Pro tebe a zbraň jsou plameny neškodné. Když zasáhneš útokem pomocí této sálající zbraně, cíl utrpí dodatečné ohnivé zranění 1k6. Plameny vydrží, dokud pomocí bonusové akce nevyslovíš zaklínadlo znovu, nebo dokud zbraň neodložíš či nezasuneš.
 
 Když máš na sobě přilbu a utrpíš ohnivé zranění jako výsledek neúspěšného záchranného hodu proti kouzlu, hoď si k20. Padne-li 1, přilba zazáří paprsky světla ze zbývajících drahokamů. Každý tvor do 12 sáhů od přilby mimo tebe musí uspět v záchranném hodu na Obratnost se SO 17, jinak do něj udeří paprsek a utrpí zářivé zranění rovné počtu drahokamů na přilbě. Přilba a její drahokamy se pak zničí.
+</dnd-item>
+
+<dnd-item
+  title="Úderné střelivo"
+  original="Walloping Ammunition"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="+stav"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Úderné střelivo**
+
+_Zbraň (jakékoliv střelivo), běžná_
+
+Toto střelivo má značnou sílu. Pokud zasažený tvor neuspěje v záchranném hodu na Sílu se SO 10, srazí ho zásah k zemi.
 </dnd-item>
 
 <dnd-item
@@ -9354,6 +9952,34 @@ Když tuto vycházkovou hůl uchopíš a pak proneseš v rámci bonusové akce z
 </dnd-item>
 
 <dnd-item
+  title="Veteránova špacírka"
+  original="Veteran's Cane"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Vyvolávání"
+  item="Berla, Zbraň"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Jednorázové"
+  duration="Permanentní"
+  >
+
+**Veteránova špacírka**
+
+*Divotvorný předmět, běžný*
+
+Když tuto vycházkovou hůl uchopíš a pak proneseš v rámci bonusové akce zaklínadlo, promění se v obyčejný dlouhý meč a ztratí svou kouzelnou vlastnost.
+</dnd-item>
+
+<dnd-item
   title="Větrný vějíř"
   original="Wind fan"
 
@@ -9377,6 +10003,34 @@ Když tuto vycházkovou hůl uchopíš a pak proneseš v rámci bonusové akce z
 *Divotvorný předmět, neobvyklý*
 
 Když držíš tento vějíř, pomocí akce z něj můžeš seslat kouzlo *poryv větru* (SO záchrany 13). Jakmile tento vějíř použiješ, neměl bys ho použít znovu až do příštího úsvitu. Pokaždé, když ho před tím znovu použiješ, je kumulativní 20% šance, že nebude fungovat a rozcupuje se na nepoužitelné, nemagické cáry.
+</dnd-item>
+
+<dnd-item
+  title="Vlající plášť"
+  original="Cloak of Billowing"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Nekonkrétní účel"
+  item="Oblečení"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+**Vlající plášť**
+
+_Divotvorný předmět, běžný_
+
+Když máš oblečen tento plášť, můžeš ho použitím bonusové akce nechat dramaticky vlát.
 </dnd-item>
 
 <dnd-item
@@ -9477,6 +10131,46 @@ Tento malý balíček obsahuje 1k6 + 4 špetek prachu. Jako akci můžeš posypa
 Někdo může pomocí akce hodit kuličku proti tvrdému povrchu a způsobit, že se kulička rozbije a uvolní vodu, kterou prach vstřebal. To ukončí magii kuličky.
 
 Elementál složený převážně z vody, jenž je vystaven špetce prachu, si musí hodit záchranný od na Odolnost se SO 13. Když neuspěje, utrpí nekrotické zranění 10k6, nebo poloviční zranění při úspěšném záchranném hodu.
+</dnd-item>
+
+<dnd-item
+  title="Výživná kulička"
+  original="Bead of Nourishment"
+
+  rulebook="Xanatharův průvodce vším"
+
+  rarity="Běžný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní efekt"
+  item="Jiný"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Jednorázové"
+  duration="nepovinný"
+  >
+
+**Výživná kulička**
+
+_Divotvorný předmět, běžný_
+
+Když si necháš tuto houbovitou želatinovou kuličku bez chuti rozpustit na jazyku, poskytne ti tolik energie, jako dávka potravin na 1 den.
+
+
+"
+    >
+
+**Pyrotechnická hůlka**
+
+_Hůlka, běžná_
+
+Tato hůlka má 7 dávek. Když ji držíš v ruce, můžeš v rámci akce spotřebovat 1 dávku a v bodě, který vidíš ve vzdálenosti do 12 sáhů, nechat vybuchnout ohňostroj různobarevného světla. Výbuch světla je doprovázen praskáním, které je slyšet až do vzdálenosti 60 sáhů. Světlo je jasné jako plamen pochodně, ale vydrží jen jednu sekundu.
+
+Hůlka si každý den za úsvitu obnoví 1k6 + 1 spotřebovaných dávek. Pokud utratíš poslední dávku, hoď k20, a když ti padne 1, hůlka vybuchne v neškodné spršce jisker a rozpadne se.
 </dnd-item>
 
 <dnd-item
@@ -10301,3 +10995,4 @@ Tento drahokam obsahuje zrnko živelné energie. Když ho pomocí akce rozbiješ
 
 Když touto magickou zbraní zaútočíš na tvora a při hodu na útok ti padne 20, cíl utrpí dodatečné nekrotické zranění 10, pokud to není výtvor či nemrtvý. Ty při tom získáš 10 dočasných životů.
 </dnd-item>
+

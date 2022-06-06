@@ -38,7 +38,7 @@ class ApplicationService
   end
 
   def assign_description
-    attributes[:description] = element.split(">\n").last.strip
+    attributes[:description] = element.split(">\n")[1..].join(">\n").strip
   end
 
   def assign_array(column, value)
