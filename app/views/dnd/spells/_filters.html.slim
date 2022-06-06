@@ -18,9 +18,9 @@
           .form-check
             = f.check_box :ritual_false, required: false, label: 'Ne', class: 'form-check-input check_boxes optional'
             = f.label :ritual_false, 'Ne', class: 'form-check-label'
-      .col-4.col-md-2.col-lg-2 = f.input :components_in, required: false, label: 'Složky', collection: Spell.pluck(:components).uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-4.col-md-3.col-lg-2 = f.input :components_in, required: false, label: 'Složky', collection: Spell.pluck(:components).uniq.sort, include_blank: true, input_html: { multiple: true }
       .col-6.col-md-3.col-lg-2 = f.input :classes_array_overlaps, required: false, label: 'Povolání', collection: psql_array_czech_sort(Spell.pluck(:classes)), include_blank: true, input_html: { multiple: true }
-      .col-9.col-md-5.col-lg-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell::DURATION, include_blank: true, input_html: { multiple: true }
+      .col-10.col-md-5.col-lg-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell::DURATION, include_blank: true, input_html: { multiple: true }
       .col-3.col-md-2.col-lg-1
         fieldset.mb-3.check_boxes.optional.q_concentration_eq
           legend.col-form-label.heading-font.pt-0 Soustředění?
