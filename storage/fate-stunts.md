@@ -619,7 +619,7 @@ Kdykoliv příjimáte drobný fyzický následek, můžete se rozhodnout místo 
 
     type="+možnost"
 
-    costs="Bod osudu"
+    restrictions="Bod osudu"
 
     actions="O"
     >
@@ -692,7 +692,7 @@ Pokud můžeš nepřítele překvapit útokem z úkrytu, můžeš provést útok
 
     type="+schopnost"
 
-    costs="Bod osudu"
+    restrictions="Bod osudu"
     >
 
 Máš falešnou identitu, kterou můžeš převzít. Popiš svou falešnou identitu, zvol si základní aspekt a problém této identity a zvol si nejlepší dovednost této identity. Tuto identitu můžeš využít, pokud máš dostatek času na přípravu a zaplatíš bod osudu. Dokud se touto identitou maskuješ, její základní koncept a problém nahrazují ty tvé a můžeš použít Klamání namísto její nejlepší dovednosti. Tyto výhody ztratíš hned poté, co je tvá zástěrka prozrazena a může chvíli trvat, než si vytvoříš nějakou novou.
@@ -709,7 +709,7 @@ Máš falešnou identitu, kterou můžeš převzít. Popiš svou falešnou ident
 
     type="+schopnost, +zdroje"
 
-    costs="Bod osudu"
+    restrictions="Bod osudu"
     >
 
 Kdykoliv vstoupíš poprvé do osídlení, můžeš utratit bod osudu a prohlásit, že tě místní kriminálníci znají. Zvol si jedno z následujícího: Vědí o nějaké slibné prácičce, poskytnou na pár týdnů tobě a tvým společníkům pokoj a stravu, nebo ti hned teď s něčím pomohou, ale tím jim můžeš začít dlužit.
@@ -1524,7 +1524,7 @@ Můžeš kombinovat materiály nemožnými způsoby a předávat jim navzájem j
 
     fc-skill="Řemesla"
     fc-extra="Magie Vezírů"
-    sw-skill="Technika"
+    sw-skill="Technologie"
 
     type="+schopnost"
     >
@@ -1894,7 +1894,7 @@ Utraťte bod osudu. Třikrát během scény se můžete zeptat vypravěče, zda 
 
     type="+2"
 
-    tags="skupina"
+    tags="skupiny"
 
     actions="O"
     >
@@ -1913,7 +1913,7 @@ Vemte si +2 k hodům na Překonání, které provádíte, abyste ustoupili z boj
 
     type="+2"
 
-    tags="skupina"
+    tags="skupiny"
     >
 
 Vaše jednotka je rychlá, lehká a smrtící. Získáte +2 ke všem hodům na Operace, při nichž se váš útok soustředí na to zastihnout nepřítele nepřipraveného.
@@ -1930,7 +1930,7 @@ Vaše jednotka je rychlá, lehká a smrtící. Získáte +2 ke všem hodům na O
 
     type="předrátování"
 
-    tags="skupina"
+    tags="skupiny"
     >
 
 Můžete použít Vybavení namísto Operací v jakékoliv situaci, v níž je k vítězství dostatečná prostá technologická převaha.
@@ -1947,7 +1947,7 @@ Můžete použít Vybavení namísto Operací v jakékoliv situaci, v níž je k
 
     type="+2"
 
-    tags="skupina"
+    tags="skupiny"
 
     actions="CA"
     >
@@ -1966,7 +1966,7 @@ You gain a +2 on all Equipment rolls made to create an advantage when you are ac
 
     type="+2p"
 
-    tags="skupina"
+    tags="skupiny"
 
     actions="CA"
     >
@@ -1985,7 +1985,7 @@ Při úspěšném hodu na Průzkum k vytvoření výhody během monitorování n
 
     type="předrátování"
 
-    tags="skupina"
+    tags="skupiny"
     >
 
 Když proti nepříteli používáte jeho vastní komunikační systém, tak můžete použít Průzkum namísto Operací k přípravě pasti.
@@ -2129,7 +2129,7 @@ Patříš mezi ně. Ty, co tam byli, co to udělali, co to přežili. Ostatní t
     source="Fate Epizoda I: Star Wars"
     origin="sw-archetype: Elitní voják"
 
-    fc-skill="Učenost"
+    fc-skill="Přesvědčování"
     sw-archetype="Elitní voják"
 
     type="+aspekt/vyvolání, stres/následky"
@@ -3717,7 +3717,7 @@ Při konfliktech na palubě má posádka lodi +2 na tvorbu výhod založených n
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Těžký bojový droid Droideka"
 
-    sw-enemy="Droidi"
+    sw-enemy="droidi"
 
     type="+2, +akce"
 
@@ -3736,7 +3736,7 @@ Může používat blastery k obraně. +2 proti ručním zbraním (blastery, blas
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Komando čtyř autonomních bojových droidů"
 
-    sw-enemy="Droidi"
+    sw-enemy="droidi"
 
     type="předrátování"
 
@@ -3752,7 +3752,7 @@ Skupina je vystrojena na zamaskování a má rozšířený program pro skrýván
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Skupina osmi úderných klonových vojáků"
 
-    sw-enemy="Troopeři"
+    sw-enemy="troopeři"
 
     type="+2"
 
@@ -3786,7 +3786,7 @@ AT-ST má Pancíř:2 proti všem útokům ručními zbraněmi (odebírá 2 posun
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: AT-AT"
 
-    sw-enemy="Vozidla"
+    sw-enemy="vozidla"
 
     type="+2p"
 
@@ -3802,7 +3802,7 @@ AT-AT má univerzální Pancíř:2 (odebírá 2 posuny ze síly každého zásah
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Speeder"
 
-    sw-enemy="Vozidla"
+    sw-enemy="vozidla"
 
     type="+2p"
 
@@ -3818,7 +3818,7 @@ Speeder je výborně ovladatelný i ve velmi vysokých rychlostech - v měřítk
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Taktický bombardér"
 
-    sw-enemy="Letouny"
+    sw-enemy="letouny"
 
     type="+2"
 
@@ -3834,7 +3834,7 @@ Proti útokům ze země z jiných, než vysloveně protivzdušných zbraní, má
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Taktický bombardér"
 
-    sw-enemy="Letouny"
+    sw-enemy="letouny"
 
     type="+2p"
 
@@ -3850,7 +3850,7 @@ Bombardér má Pancíř:2 proti útokům ručními zbraněmi.
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Taktický bombardér"
 
-    sw-enemy="Letouny"
+    sw-enemy="letouny"
 
     type="+možnost"
 
@@ -3866,7 +3866,7 @@ Bombardér může provést táhlý nálet a udeřit na celou zónu. Tuto akci mu
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Opevněné postavení"
 
-    sw-enemy="Opevnění"
+    sw-enemy="opevnění"
 
     type="+2p"
 
@@ -3884,7 +3884,7 @@ V bunkru je rozmístěných pár pěchotních blasterových děl a protivzdušn�
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Řetězová blasterová věž"
 
-    sw-enemy="Opevnění"
+    sw-enemy="opevnění"
 
     type="+možnost"
 
@@ -3902,7 +3902,7 @@ Nekončící řetěz souvislých výstřelů je noční můrou pěchoty. Pokud z
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Řetězová blasterová věž"
 
-    sw-enemy="Opevnění"
+    sw-enemy="opevnění"
 
     type="+možnost"
 
@@ -3954,7 +3954,7 @@ Hodem na Znalosti dokáže admirál vytvářet výhody na vzdálených bojiští
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Tarský admirál Nilak Brinte"
 
-    fc-skill="Učenost"
+    fc-skill="Přesvědčování"
     sw-enemy="NPC"
 
     type="+možnost"
@@ -4007,7 +4007,7 @@ Pokud má Jaris hodně času na přípravu, může si hodit na Vůli proti Sluš
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: TIE stíhač"
 
-    sw-enemy="Letouny"
+    sw-enemy="letouny"
 
     type="+2"
 
@@ -4025,7 +4025,7 @@ TIE stíhač má +2 na tvorbu a překonání výhod spočívajících v rychlýc
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Droidí stíhač Vulture"
 
-    sw-enemy="Letouny"
+    sw-enemy="letouny"
 
     type="+2p"
 
@@ -4044,7 +4044,7 @@ TIE stíhač má +2 na tvorbu a překonání výhod spočívajících v rychlýc
 
     origin="sw-protivník: Letka čtyř Naboo N1"
 
-    sw-enemy="Letouny"
+    sw-enemy="letouny"
 
     type="+2p"
 
@@ -4062,7 +4062,7 @@ Naboo nemá vlastní flotilu - namísto toho investovalo těžké peníze do vel
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Obranná letka šesti TIE stíhačů"
 
-    sw-enemy="Letouny"
+    sw-enemy="letouny"
 
     type="+2p"
 
@@ -4081,7 +4081,7 @@ TIE stíhače jsou extrémně obratné a jejich piloti jsou secvičení ve vzáj
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Záchytná letka čtyř TIE stíhačů"
 
-    sw-enemy="Letouny"
+    sw-enemy="letouny"
 
     type="+2"
 
@@ -4099,7 +4099,7 @@ Obratnost TIE stíhačů umožňuje jejich sehraným pilotům bleskově obklopit
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Pašerácká loď"
 
-    sw-enemy="Lodě"
+    sw-enemy="lodě"
 
     type="předrátování"
 
@@ -4117,7 +4117,7 @@ Pro účely vydávání se za jinou loď/posádku si posádka hází Infiltrací
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Pašerácká loď"
 
-    sw-enemy="Lodě"
+    sw-enemy="lodě"
 
     type="+2"
 
@@ -4135,7 +4135,7 @@ Pokud loď prohledává někdo, kdo neví, co přesně hledá, má loď +2 na In
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Rebelská fregata"
 
-    sw-enemy="Lodě"
+    sw-enemy="lodě"
 
     type="+2"
 
@@ -4153,7 +4153,7 @@ Fregata je vybavena mnoha vícehlavňovými blastery bodové obrany s rozptylem,
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Satelit planetární obrany"
 
-    sw-enemy="Lodě"
+    sw-enemy="lodě"
 
     type="+2"
 
@@ -4171,7 +4171,7 @@ Do vzdálených zón útočí jen s poloviční penalizací. Při zásahu způso
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Obchodní vesmírná stanice"
 
-    sw-enemy="Lodě"
+    sw-enemy="lodě"
 
     type="+možnost"
 
@@ -4187,7 +4187,7 @@ Hodem Pozornosti proti Infiltraci dokáže odhalit všechny zbraně a potenciál
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Star Destroyer"
 
-    sw-enemy="Lodě"
+    sw-enemy="lodě"
 
     type="+možnost"
 
@@ -4205,7 +4205,7 @@ Hustá síť bodové obrany umožňuje útočit až na 4 cíle v přilehlých a 
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Star Destroyer"
 
-    sw-enemy="Lodě"
+    sw-enemy="lodě"
 
     type="+schopnost"
 
@@ -4221,7 +4221,7 @@ Dok dokáže v každé výměně vypustit nebo přijmout jednu letku TIE stíha�
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Star Destroyer"
 
-    sw-enemy="Lodě"
+    sw-enemy="lodě"
 
     type="+2p"
 
@@ -4240,7 +4240,7 @@ Star Destroyer je vlajková loď flotil a je vybaven ohromnou sbírkou supervýk
     fc-skill="Atletika"
     sw-skill="Atletika"
 
-    sw-enemy="Nestvůry"
+    sw-enemy="nestvůry"
 
     type="+2"
 
@@ -4256,7 +4256,7 @@ Varactyl má +2 k Překonání a tvorbě výhod Atletikou založených na rychlo
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Acklay"
 
-    sw-enemy="Nestvůry"
+    sw-enemy="nestvůry"
 
     type="+možnost"
 
@@ -4272,7 +4272,7 @@ Acklay na tebe může zaútočit bez ohledu na to, kde vůči němu stojíš. A 
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Exogorth"
 
-    sw-enemy="Nestvůry"
+    sw-enemy="nestvůry"
 
     type="+schopnost"
 
@@ -4288,7 +4288,7 @@ Proti Exogorthovi nelze použít žádné štíty vyjma bitevních (fyzický sti
     source="Fate Epizoda I: Star Wars"
     origin="sw-protivník: Exogorth"
 
-    sw-enemy="Nestvůry"
+    sw-enemy="nestvůry"
 
     type="+možnost"
 

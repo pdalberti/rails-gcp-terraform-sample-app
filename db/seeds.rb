@@ -27,15 +27,11 @@ end
 puts "Created #{Dnd::Item.count} items"
 
 
-paths = Dir['storage/fate/*.md'].sort
-paths.each do |path|
-  file = File.read(path)
-  file.split("<stunt\n").each do |unsanitized_trick|
-    next if unsanitized_trick.blank?
+File.read('storage/fate-stunts.md').split("<stunt\n").each do |unsanitized_stunt|
+  next if unsanitized_stunt.blank?
 
-    unsanitized_trick = unsanitized_trick.gsub('</stunt>', '').rstrip
-    Fate::TrickSanitizerService.call(unsanitized_trick)
-  end
+  unsanitized_stunt = unsanitized_stunt.gsub('</stunt>', '').rstrip
+  Fate::TrickSanitizerService.call(unsanitized_stunt)
 end
 
 puts "Created #{Fate::Trick.count} tricks"
