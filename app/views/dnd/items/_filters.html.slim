@@ -6,7 +6,7 @@
         = f.input :original_cont, required: false, placeholder: 'Anglický', label: false
       .col-8.col-md-4.col-lg-3 = f.input :rulebook_array_overlaps, required: false, label: 'Zdroj', collection: psql_array_czech_sort(Dnd::Item.pluck(:rulebook)), include_blank: true, input_html: { multiple: true }
       .col-6.col-md-3.col-lg-2 = f.input :item_array_overlaps, required: false, label: 'Předmět', collection: psql_array_czech_sort(Dnd::Item.pluck(:item)), include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :rarity_array_overlaps, required: false, label: 'Vzácnost', collection: Dnd::Item::RARITY, include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :filter_rarity_array_overlaps, required: false, label: 'Vzácnost', collection: Dnd::Item::RARITY, include_blank: true, input_html: { multiple: true }
       .col-5.col-md-3.col-lg-2 = f.input :interaction_in, required: false, label: 'Interakce', collection: Dnd::Item.pluck(:interaction).uniq.sort, include_blank: true, input_html: { multiple: true }
 
       .col-6.col-md-3.col-lg-2 = f.input :bonus_array_overlaps, required: false, label: 'Bonus', collection: psql_array_czech_sort(Dnd::Item.pluck(:bonus)), include_blank: true, input_html: { multiple: true }

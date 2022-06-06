@@ -39,14 +39,14 @@ module Dnd
     }
     scope :sort_by_rarity_and_title_asc, lambda {
       sort do |a, b|
-        [Dnd::Item.collator.get_sort_key(a.rarity.first), Dnd::Item.collator.get_sort_key(a.title)] <=>
-          [Dnd::Item.collator.get_sort_key(b.rarity.first), Dnd::Item.collator.get_sort_key(b.title)]
+        [a.filter_rarity.first, Dnd::Item.collator.get_sort_key(a.title)] <=>
+          [b.filter_rarity.first, Dnd::Item.collator.get_sort_key(b.title)]
       end
     }
     scope :sort_by_rarity_and_title_desc, lambda {
       sort do |a, b|
-        [Dnd::Item.collator.get_sort_key(b.rarity.first), Dnd::Item.collator.get_sort_key(a.title)] <=>
-          [Dnd::Item.collator.get_sort_key(a.rarity.first), Dnd::Item.collator.get_sort_key(b.title)]
+        [b.filter_rarity.first, Dnd::Item.collator.get_sort_key(a.title)] <=>
+          [a.filter_rarity.first, Dnd::Item.collator.get_sort_key(b.title)]
       end
     }
 
