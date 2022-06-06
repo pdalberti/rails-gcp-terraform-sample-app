@@ -8,4 +8,4 @@
           .col-md-8.col-lg-4 #{item.rarity}
   .accordion-collapse.collapse id="itemPanels-collapse#{item.id}" aria-labelledby="itemPanels-heading#{item.id}"
     .accordion-body
-      = CommonMarker.render_html(item.description, :DEFAULT).html_safe
+      = CommonMarker.render_html(item.description, :HARDBREAKS).html_safe

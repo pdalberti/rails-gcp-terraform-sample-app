@@ -10,4 +10,4 @@
           .col-md-4.col-lg-2 = fate_trick.restrictions.join(', ')
   .accordion-collapse.collapse id="fate_trickPanels-collapse#{fate_trick.id}" aria-labelledby="fate_trickPanels-heading#{fate_trick.id}"
     .accordion-body
-      = CommonMarker.render_html(fate_trick_description(fate_trick), :DEFAULT).html_safe
+      = CommonMarker.render_html(fate_trick_description(fate_trick), :HARDBREAKS).html_safe
