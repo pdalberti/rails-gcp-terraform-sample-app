@@ -3,9 +3,8 @@
 
 h1.mt-5 DnD 5e kartotéka kouzel
 .d-flex.justify-content-between
-  p.card-subtitle.text-muted powered by #{link_to 'd20.cz', 'http://www.d20.cz', target: :blank, class: 'text-muted'}
-  = link_to 'Zpátky k rozcestníku', root_path, class: 'card-subtitle text-muted'
-= render 'filters'
+  = render 'shared/subtitle'
+= render 'dnd/spells/filters'
 
 .accordion.custom-accordion
-  = render partial: 'spell', collection: @spells
+  = render partial: 'dnd/spells/spell', collection: @spells

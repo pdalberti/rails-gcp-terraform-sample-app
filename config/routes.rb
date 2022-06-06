@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :dnd, only: [] do
     collection do
       get :kouzla
+      get :predmety
     end
   end
 

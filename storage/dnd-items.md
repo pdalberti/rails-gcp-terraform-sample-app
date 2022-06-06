@@ -9721,8 +9721,8 @@ Plamen této svíčky při ponoření do vody nezhasne, ale vydává světlo a t
 </dnd-item>
 
 <dnd-item
-    title=""
-    original=""
+    title="Honzova praktická kořenka"
+    original="Heward's Handy Spice Pouch"
 
     rulebook="Xanatharův průvodce vším"
 

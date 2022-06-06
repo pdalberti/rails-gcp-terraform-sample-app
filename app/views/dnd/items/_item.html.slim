@@ -1,0 +1,11 @@
+.accordion-item
+  h2.accordion-header id="itemPanels-heading#{item.id}"
+    .accordion-button.collapsed type="button" data-bs-toggle="collapse" data-bs-target="#itemPanels-collapse#{item.id}" aria-expanded="true" aria-controls="itemPanels-collapse#{item.id}"
+      .container
+        .row
+          .col-md-5.col-lg-3.fw-bold = item.title
+          .col-md-4.col-lg-2 #{item.item.join(', ')}
+          .col-md-8.col-lg-4 #{item.rarity}
+  .accordion-collapse.collapse id="itemPanels-collapse#{item.id}" aria-labelledby="itemPanels-heading#{item.id}"
+    .accordion-body
+      = CommonMarker.render_html(item.description, :DEFAULT).html_safe

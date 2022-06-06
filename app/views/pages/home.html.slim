@@ -6,7 +6,13 @@ p.card-subtitle.text-muted powered by #{link_to 'd20.cz', 'http://www.d20.cz', t
     = link_to kouzla_dnd_index_path do
       .d-flex.align-items-center style="height: 140px;"
         = image_tag 'dnd.png', class: 'card-img-top'
-      h5.card-link DnD 5e kartotéka kouzel
+      h5.card-link #{icon('fa-solid', 'scroll')} DnD kartotéka kouzel
+
+  .form-background.card.link_card.p-3.text-center
+    = link_to predmety_dnd_index_path do
+      .d-flex.align-items-center style="height: 140px;"
+        = image_tag 'dnd.png', class: 'card-img-top'
+      h5.card-link #{icon('fa-solid', 'toolbox')} DnD kartotéka předmětů
 
   .form-background.card.link_card.p-3.text-center
     = link_to triky_fate_index_path do

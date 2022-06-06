@@ -1,0 +1,33 @@
+.form-background.p-3.mt-3.delimiter
+  = search_form_for @q, url: predmety_dnd_index_path do |f|
+    .row
+      .col-md-5.col-lg-3
+        = f.input :title_cont, required: false, placeholder: 'Český', label: 'Název'
+        = f.input :original_cont, required: false, placeholder: 'Anglický', label: false
+      .col-8.col-md-4.col-lg-3 = f.input :rulebook_array_overlaps, required: false, label: 'Zdroj', collection: psql_array_czech_sort(Dnd::Item.pluck(:rulebook)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :item_array_overlaps, required: false, label: 'Předmět', collection: psql_array_czech_sort(Dnd::Item.pluck(:item)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :rarity_array_overlaps, required: false, label: 'Vzácnost', collection: Dnd::Item::RARITY, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :interaction_in, required: false, label: 'Interakce', collection: Dnd::Item.pluck(:interaction).uniq.sort, include_blank: true, input_html: { multiple: true }
+
+      .col-6.col-md-3.col-lg-2 = f.input :bonus_array_overlaps, required: false, label: 'Bonus', collection: psql_array_czech_sort(Dnd::Item.pluck(:bonus)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :combat_effect_array_overlaps, required: false, label: 'Bojový efekt', collection: psql_array_czech_sort(Dnd::Item.pluck(:combat_effect)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :limit_array_overlaps, required: false, label: 'Limit', collection: psql_array_czech_sort(Dnd::Item.pluck(:limit)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :filter_duration_in, required: false, label: 'Trvání', collection: Dnd::Item::DURATION, include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :attunement_array_overlaps, required: false, label: 'Sladění', collection: psql_array_czech_sort(Dnd::Item.pluck(:attunement)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :purpose_array_overlaps, required: false, label: 'Účel', collection: psql_array_czech_sort(Dnd::Item.pluck(:purpose)), include_blank: true, input_html: { multiple: true }
+
+    p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
+    .d-flex.justify-content-between
+      p
+        span.text-primary.me-1 = @items.size
+        | předmětů nalezeno
+      div
+        = link_to 'Reset', predmety_dnd_index_path, class: 'btn btn-outline-secondary mx-0 mx-sm-3'
+        = f.submit 'Hledat', class: 'btn btn-primary'
+
+.form-background.mb-5.p-3
+  h5 Seřadit podle
+  .mb-1
+    = sort_link(@q, :czech_title, 'Názvu', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :item_and_title, 'Předmětu', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :rarity_and_title, 'Vzácnosti', {}, class: 'btn btn-secondary m-1')

@@ -23,6 +23,33 @@
 #
 module Dnd
   class Item < ApplicationRecord
+    scope :sort_by_czech_title_asc, -> { sort { |a, b| Dnd::Item.collator.compare(a.title, b.title) } }
+    scope :sort_by_czech_title_desc, -> { sort { |a, b| Dnd::Item.collator.compare(b.title, a.title) } }
+    scope :sort_by_item_and_title_asc, lambda {
+      sort do |a, b|
+        [Dnd::Item.collator.get_sort_key(a.item.first), Dnd::Item.collator.get_sort_key(a.title)] <=>
+          [Dnd::Item.collator.get_sort_key(b.item.first), Dnd::Item.collator.get_sort_key(b.title)]
+      end
+    }
+    scope :sort_by_item_and_title_desc, lambda {
+      sort do |a, b|
+        [Dnd::Item.collator.get_sort_key(b.item.first), Dnd::Item.collator.get_sort_key(a.title)] <=>
+          [Dnd::Item.collator.get_sort_key(a.item.first), Dnd::Item.collator.get_sort_key(b.title)]
+      end
+    }
+    scope :sort_by_rarity_and_title_asc, lambda {
+      sort do |a, b|
+        [Dnd::Item.collator.get_sort_key(a.rarity.first), Dnd::Item.collator.get_sort_key(a.title)] <=>
+          [Dnd::Item.collator.get_sort_key(b.rarity.first), Dnd::Item.collator.get_sort_key(b.title)]
+      end
+    }
+    scope :sort_by_rarity_and_title_desc, lambda {
+      sort do |a, b|
+        [Dnd::Item.collator.get_sort_key(b.rarity.first), Dnd::Item.collator.get_sort_key(a.title)] <=>
+          [Dnd::Item.collator.get_sort_key(a.rarity.first), Dnd::Item.collator.get_sort_key(b.title)]
+      end
+    }
+
     DURATION = {
       'Ihned' => 0,
       '1 kolo' => 1,
