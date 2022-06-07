@@ -19,11 +19,39 @@
   duration="Permanentní"
   >
 
-**Adamantinová zbroj**
-
 _Zbroj (střední či těžká, ale ne usňová), neobvyklá_
 
 Tato zbroj je vyztužená adamantinem, jednou z nejtvrdších látek, co existují. Když ji máš na sobě, všechny kritické zásahy se stanou normálními zásahy.
+</dnd-item>
+
+<dnd-item
+  title="Agaironova dračí hůl"
+  original="Dragonstaff of Ahghairon"
+
+  rulebook="Dračí loupež"
+
+  rarity="Legendární"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Berla"
+
+  combat-effect="Jiný efekt"
+  bonus="Výhoda"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Hůl, legendární (vyžaduje sladění)*
+
+Držíš-li tuto hůl, máš výhodu k záchranným hodům proti kouzlům a dračím útokům dechem a proti útokům dechem tvorů dračího typu (např. dračí želvy).
+
+Tvor dračího typu, kterého se holí dotkneš, se může pohybovat Hlubinou ignorován *Agaironovou dračí ochranou* (viz „Agaironova dračí ochrana“, strana 7). Účinek skončí, jestliže se tvora holí znovu dotkneš nebo jestliže uběhne doba, kterou jsi stanovil při udílení tohoto prospěchu.
+
+Hůl má 10 nabití. Zatímco ji držíš, můžeš v rámci akce utratit jedno nabití na seslání kouzla *rozkaz*. Pokud je cílem kouzla drak, má nevýhodu k záchrannému hodu. Každé ráno si hůl obnoví 1k10 nabití.
 </dnd-item>
 
 <dnd-item
@@ -47,8 +75,6 @@ Tato zbroj je vyztužená adamantinem, jednou z nejtvrdších látek, co exist
   duration="Permanentní"
   >
 
-**Alchymistický džbán**
-
 _Divotvorný předmět, neobvyklý_
 
 Tento keramický džbán vypadá, že umí pojmout 1 galon kapaliny a plný i prázdný váží 12 liber. Když se džbánem zatřepe, je v něm slyšet čvachtání, i když je prázdný.
@@ -71,6 +97,76 @@ Jakmile džbán začne kapalinu vyrábět, nemůže vyrobit jinou, nebo víc té
 </dnd-item>
 
 <dnd-item
+  title="Amulet černé lebky"
+  original="Amulet of the Black Skull"
+
+  rulebook="Hrobka anihilace"
+
+  rarity="Velmi vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="Prokletý"
+
+  purpose="Cestování"
+  item="Amulet"
+
+  combat-effect="+stav"
+  bonus="Žádný bonus"
+
+  limit="Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+_Divotvorný předmět, velmi vzácný (vyžaduje sladění)_
+
+Amulet je vyřezán z obsidiánu do tvaru křičící humanoidní lebky, jež má oči z rubínů a zuby ze smaragdů. Visí na železném řetízku.
+
+Amulet má 6 dávek a při každém úsvitu si obnoví 1k6 utracených dávek. Pokud máš amulet na krku, můžeš použít svou akci k utracení jedné dávky k tomu, aby ses teleportoval i se svým vybavením na libovolné místo v kruhu 20 sáhů. Na místo nemusíš mít čistý výhled, ale musí ti být známé (jinými slovy jde o místo, jež jsi už navštívil nebo viděl) a musí být ve stejné sféře existence jako ty. Tento účinek nepodléhá omezení kouzel v Hrobce devíti bohů; amulet lze tedy použít k cestování do a ven z hrobky.
+
+Pokud nejsi nemrtvý, musíš během teleportace uspět v záchranném hodu na Odolnost se SO 16, jinak tě lebka prokleje a během teleportace se proměníš. Na vybraném místě se zjevíš v nové podobě, již určíš hodem na tabulku Proměn černé lebky.
+
+Proměny černé lebky
+| k100 | Proměna |
+| ---- | -------- |
+| 1–20| Do tvého masa je vypálen Acererakův symbol, kletba, již lze odstranit pouze kouzlem sejmi kletbu nebo podobným. Dokud kletba neskončí, nemůžeš si magicky obnovovat životy. |
+| 21–35 | Vyrosteš, jako bys byl cílem kouzla zvětšení nebo zmenšení, tento účinek vydrží 1 hodinu. |
+| 36–50 | Zmenšíš se, jako bys byl cílem kouzla zvětšení nebo zmenšení, tento účinek vydrží 1 hodinu. |
+| 51–70 | Na cílovém místě se objevíš nahý, jen s amuletem černé lebky kolem krku. Vše, co jsi měl na sobě či u sebe, se objeví na náhodném volném místě v okruhu 20 sáhů od tebe. |
+| 71–95 | Jsi paralyzován na 1 minutu nebo dokud není účinek zrušen kouzlem nižší navrácení nebo podobným. |
+| 96–100 | Zkameníš. Tento účinek lze zrušit pouze kouzlem mocné navrácení nebo podobným. |
+</dnd-item>
+
+<dnd-item
+  title="Amulet ochrany před odvracením"
+  original="Amulet of Protection from Turning"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Trvalý přínos"
+  item="Amulet"
+
+  combat-effect="Jiný efekt"
+  bonus="Výhoda"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, vzácný (vyžaduje sladění)*
+
+Když nosíš tento stříbrný a tyrkysový amulet, získáváš výhodu na záchranné hody u účinků odvracejících nemrtvé.
+
+Neuspěješ-li v záchranném hodu proti takovému účinku, můžeš se místo toho rozhodnout, že jsi uspěl. Můžeš tak učinit třikrát a spotřebovaná použití se každé ráno obnoví.
+
+Kdykoli se na tebe použije účinek odvracející nemrtvé, amulet bude po několik sekund modrostříbrně zářit. (*Skrytá svatyně tamoachanská*)
+</dnd-item>
+
+<dnd-item
   title="Amulet proti nalezení a lokalizaci"
   original="Amulet of Proof against Detection and Location"
 
@@ -90,8 +186,6 @@ Jakmile džbán začne kapalinu vyrábět, nemůže vyrobit jinou, nebo víc té
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Amulet proti nalezení a lokalizaci**
 
 _Divotvorný předmět, neobvyklý (vyžaduje sladění)_
 
@@ -119,8 +213,6 @@ Když máš na sobě tento amulet, jsi skrytý před věšteckou magií. Nemůž
   duration="Permanentní"
   >
 
-**Amulet sfér**
-
 _Divotvorný předmět, velmi vzácný (vyžaduje sladění)_
 
 Když máš na sobě tento amulet, můžeš pomocí akce vyslovit místo, které znáš, v jiné sféře existence. Pak si hoď na ověření Inteligence se SO 15. Uspěješ-li, sešleš kouzlo přesun sférami. Při neúspěšném ověření se ty a každý tvor a předmět do 3 sáhů od tebe přesunete na náhodné místo. Hoď k%. Když padne 1–60, přesunete se na místo ve sféře, kterou jsi vyslovil. Když padne 61–100, přesunete se do náhodně určené sféry existence.
@@ -146,8 +238,6 @@ Když máš na sobě tento amulet, můžeš pomocí akce vyslovit místo, které
   limit="Neomezené, 1/denně"
   duration="Permanentní"
   >
-
-**Amulet temného úlomku**
 
 _Divotvorný předmět, běžný (vyžaduje sladění s černokněžníkem)_
 
@@ -179,8 +269,6 @@ Tento amulet je vyroben z jediného úlomku odolného mimosférického materiál
   duration="Permanentní"
   >
 
-**Amulet zdraví**
-
 _Divotvorný předmět, vzácný (vyžaduje sladění_
 
 Když máš na sobě tento amulet, tvá hodnota Odolnosti je 19. Je-li tvá Odolnost bez něj 19 či více, amulet na tebe nemá žádný účinek.
@@ -207,8 +295,6 @@ Když máš na sobě tento amulet, tvá hodnota Odolnosti je 19. Je-li tvá Odol
   duration="Permanentní"
   >
 
-**Arcimágovo roucho**
-
 _Divotvorný předmět, legendární (vyžaduje sladění s čarodějem, černokněžníkem nebo kouzelníkem)_
 
 Tento elegantní oděv je vyroben z nádherné bíle, šedé nebo černé látky a ozdoben stříbrnými runami. Barva roucha odpovídá přesvědčení, pro jaké byl předmět vyroben. Bílé roucho bylo vyrobeno pro dobré, šedé pro neutrální a černé pro zlé. Nemůžeš se sladit s arcimágovým rouchem, které neodpovídá tvému přesvědčení.
@@ -218,6 +304,118 @@ Když máš na sobě toto roucho, získáš tyto užitky:
  *  Nemáš-li na sobě zbroj, tvé základní Obranné číslo je 15 + tvá oprava Obratnosti.
  *  Máš výhodu k záchranným hodům proti kouzlům a jiným magickým účinkům.
  *  SO záchrany kouzla a útočná oprava kouzla se ti oboje zvýší o 2.
+</dnd-item>
+
+<dnd-item
+  title="Avernská čepel"
+  original="Blade of Avernus"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Artefakt"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Artefakty"
+  item="Zbraň"
+
+  combat-effect="+útok, +zásah, -odolnost/imunita, Jiný efekt"
+  bonus="+3"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+Jde o dlouhý meč, jenž vyžaduje sladění a má následující vlastnosti:
+
+***Kouzelná zbraň.*** *Avernská čepel* je kouzelná zbraň, jež funguje jako *popravčí meč*.
+
+**Náhodné vlastnosti.*** Meč má následující náhodně určené vlastnosti popsané v kapitole 7 Průvodce Pána jeskyně:
+
+ * 2 vedlejší prospěšné vlastnosti
+ * 1 hlavní prospěšnou vlastnost
+ * 1 hlavní škodlivou vlastnost, jejíž účinky jsou potlačeny, pokud je s mečem sladěný arciďábel
+
+***Vládce Avernu.*** V rámci své akce můžeš ukázat mečem na ďábla, kterého vidíš v dosahu 12 sáhů od sebe. Tento ďábel musí uspět v záchranném hodu na Charisma se SO 22, jinak tebou bude po dobu 1 hodiny zmámený. Dokud je takto zmámený, vykonává tvé příkazy, jak nejlépe dovede. Pokud mu přikážeš vykonat něco, co by se rovnalo sebevraždě, účinek skončí a už vůči tomuto ďáblovi tuto moc meče nemůžeš použít.
+
+***Návrat do pekla.*** Ve své akci můžeš pomocí meče seslat kouzlo *slovo návratu*. Tvorové přemístění tímto kouzlem se objeví na neobsazeném místě v dosahu 6 sáhů do aktuálního vládce Avernu, nebo ve skrýši podle tvé volby, pokud jsi tímto vládcem ty.
+
+***Zničení meče.*** Meč lze zničit pouze jeho vhozením do Styxu nebo roztavením ve výhni, v níž byl ukut.
+</dnd-item>
+
+<dnd-item
+  title="Azurové ostří"
+  original="Azuredge"
+
+  rulebook="Dračí loupež"
+
+  rarity="Legendární"
+
+  attunement="Kýmkoliv"
+  interaction="Vnímající"
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+3"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Zbraň (válečná sekera), legendární (vyžaduje sladění)*
+
+Tato inteligentní válečná sekera, ukovaná arcikouzelníkem Agaironem, byla vytvořena k obraně Hlubiny. V současnosti ji nosí bývalý člen Šedé síly jménem Meloon Drakon (viz dodatek B), ale zbraň hledá nového majitele.
+
+*Azurové ostří* má kvalitní ocelové topůrko s vyleptanými drobnými runami. To je obalené kůží modrého draka a do hrušky je vsazen asterický safír. Hlavice sekery, jejíž hrany neustále svítí modrým mihotavým světlem, je ukována ze stříbra, élektra a slitin oceli.
+
+K útoku touto magickou zbraní získáváš bonus +3 k hodům na útok a zranění. Kouzlo *štít* neposkytuje proti sekeře žádnou ochranu, protože ta kouzelnou bariérou tvořenou magickou silou bez potíží projde.
+
+Zasáhneš-li sekerou běsa či nemrtvého, z její čepele vytryskne studený modrý plamen, který cíli udělí 2k6 zářivého zranění navíc.
+
+***Vrh.*** Válečná sekera má 3 nabití. Jedno můžeš utratit a provést sekerou útok na dálku. Vrhneš ji, jako by byla vrhací zbraní, s normálním dostřelem 12 sáhů a dlouhým dostřelem 36 sáhů. Sekera při zásahu i minutí přiletí na konci současného tahu k tobě a přistane ti v dlani nebo u tvých nohou ve tvém prostoru (záleží na tobě). Sekeře se všechna utracená nabití doplňují denně při úsvitu.
+
+***Svícení.*** Když sekeru držíš v ruce, můžeš v rámci akce sekeru modře osvítit nebo potemnit. Záře osvítí jasným světlem okruh o poloměru 6 sáhů a slabým světlem dalších 6 sáhů.
+
+***Vnímání.*** *Azurové ostří* je vnímající zákonně neutrální zbraň s Inteligencí 12, Moudrostí 15 a Charismatem 15. Slyší a má vidění ve tmě na vzdálenost 24 sáhů.
+
+Zbraň komunikuje se svým nositelem telepaticky a umí mluvit, číst a rozumí obecné řeči. Má klidný, nevýrazný hlas. Zbraň dokáže do vzdálenosti 24 sáhů vycítit přítomnost tvorů bez zákonného přesvědčení.
+
+***Osobnost.*** *Azurové ostří* se zapřisáhlo, že bude chránit Hlubinu a touží po tom být nošeno zákonů dbalou osobou, ochotnou zasvětit vše obraně města. Zbraň je trpělivá a na hledání ideálního nositele nespěchá.
+
+Pokusí-li se někdo použít *Azurové ostří* proti jeho vůli, sekera se stane desetkrát těžší než normálně a dokáže magicky přilnout k jakémukoliv Střednímu nebo většímu objektu nebo povrchu, se kterým přijde do kontaktu. Jakmile se tak stane, se sekerou není možné manipulovat. Od předmětu nebo povrchu, ke kterému přilne, ji lze bez zničení jednoho nebo druhého oddělit pouze kouzlem *přání*. Sekera se však může rozhodnout tento efekt kdykoliv ukončit.
+</dnd-item>
+
+<dnd-item
+  title="Berla bouřlivých mračen"
+  original="Staff of Stormclouds"
+
+  rulebook="Rudá ruka zkázy"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Kouzlící"
+  item="Berla"
+
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+1"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Berla, vzácná (vyžaduje sladění)*
+
+Tato berla umožňuje svému uživateli ovládat samotné mraky, ať na úrovni místní nebo skutečně velké, kdy ovlivňuje počasí na míle kolem sebe. Kromě toho dává bonus +1 k útoku a zranění (+1 považuj za bleskové zranění). Má čtyři nabití na den a umožňuje používat následující kouzla.
+
+ * Oblak mlhy (1 nabití)
+ * Svolej blesky (2 nabití)
+ * Ovládni počasí (4 nabití)
 </dnd-item>
 
 <dnd-item
@@ -240,8 +438,6 @@ Když máš na sobě toto roucho, získáš tyto užitky:
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Berla hemžení hmyzu**
 
 _Berla, vzácná (vyžaduje sladění s bardem, čarodějem, černokněžníkem, druidem, klerikem či kouzelníkem)_
 
@@ -272,8 +468,6 @@ Oblak hmyzu. Když držíš berlu, můžeš pomocí akce spotřebovat 1 dávku k
   limit="1/denně"
   duration="Permanentní"
   >
-
-**Berla hromů a blesků**
 
 _Berla, velmi vzácná (vyžaduje sladění)_
 
@@ -311,8 +505,6 @@ Hrom a blesk. Pomocí akce můžeš použít vlastnosti Úder blesku a Úder
   duration="Permanentní"
   >
 
-**Berla chřadnutí**
-
 _Berla, vzácná (vyžaduje sladění s černokněžníkem, druidem nebo klerikem)_
 
 Tato berla má 3 dávky a každý den za úsvitu si dobije 1k3 spotřebovaných dávek.
@@ -335,13 +527,11 @@ Berla se dá používat jako magická hůl. Při zásahu způsobí zranění jak
   item="Berla"
 
   combat-effect="Jiný efekt"
-  bonus="Žádný efekt"
+  bonus="Žádný bonus"
 
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Berla krajty**
 
 _Berla, neobvyklá (vyžaduje sladění s černokněžníkem, druidem nebo klerikem)_
 
@@ -372,8 +562,6 @@ Klesnou-li hadovi jeho životy na 0, umře a navrátí se do podoby berly. Ber
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Berla lesů**
 
 _Berla, vzácná (vyžaduje sladění s druidem)_
 
@@ -408,8 +596,6 @@ Podoba stromu. Pomocí své akce můžeš zasadit jeden konec berly do úrodné 
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Berla mágů**
 
 _Berla, legendární (vyžaduje sladění s čarodějem, černokněžníkem nebo kouzelníkem)_
 
@@ -455,8 +641,6 @@ Máš 50% šanci, že se okamžitě přesuneš do náhodné sféry existence a�
   duration="Permanentní"
   >
 
-**Berla moci**
-
 _Berla, velmi vzácná (vyžaduje sladění s čarodějem, černokněžníkem nebo kouzelníkem)_
 
 Tato berla se dá používat jako magická hůl, která dává bonus +2 k hodům na útok a na zranění pomocí ní. Když ji držíš, máš bonus +2 k Obrannému číslu, záchranným hodům a hodům na útok kouzlem.
@@ -499,8 +683,6 @@ Máš 50% šanci, že se okamžitě přesuneš do náhodné sféry existence a�
   duration="Permanentní"
   >
 
-**Berla mrazilka**
-
 _Berla, velmi vzácná (vyžaduje sladění s čarodějem, černokněžníkem, druidem nebo kouzelníkem)_
 
 Když držíš tuto berlu, jsi odolný vůči chladnému zranění.
@@ -531,13 +713,49 @@ Každý den za úsvitu si dobije 1k6 + 4 spotřebovaných dávek. Spotřebuješ-
   duration="Permanentní"
   >
 
-**Berla udeření**
-
 _Berla, velmi vzácná (vyžaduje sladění)_
 
 Tato berla se dá používat jako magická hůl, která dává bonus +3 k hodům na útok a na zranění pomocí ní.
 
 Berla má 10 dávek. Když s ní zasáhneš útokem na blízko, můžeš spotřebovat až 3 dávky. Za každou spotřebovanou dávku cíl utrpí dodatečné silové zranění 1k6. Každý den za úsvitu si berla dobije 1k6 + 4 spotřebovaných dávek. Spotřebuješ-li poslední dávku, hoď k20. Padne-li 1, berla se stane nemagickou holí.
+</dnd-item>
+
+<dnd-item
+  title="Berla Zapomenutého"
+  original="Staff of the Forgotten One"
+
+  rulebook="Hrobka anihilace"
+
+  rarity="Artefakt"
+
+  attunement="Čarodějem, Černokněžníkem, Kouzelníkem"
+  interaction="Ovlivňující"
+
+  purpose="Artefakty"
+  item="Berla"
+
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+3"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+_Berla, artefakt (vyžaduje sladění s čarodějem, černokněžníkem či kouzelníkem)_
+
+Tato pokroucená hůl je vyrobená z kosti a na konci osazená lebkou zapomenutého arcimága zabitého Acererakem již před dávnými časy. Do čela lebky je vyřezána Acererakova runa, v mnoha světech známá jako symbol smrti.
+
+**Prospěchy.** Když máš hůl u sebe, získáš následující prospěchy:
+ * Hodnota tvé opravy k ověření Inteligence (Mystika) a Inteligence (Historie) se zdvojnásobí.
+ * Nemůžeš být ohlušen, ochromen, oslepen, vystrašen, zkameněn ani zmámen.
+ * Nemrtví s nebezpečností 2 a méně tě neohrozí, ani na tebe nezaútočí, dokud je sám nenapadneš.
+ * Berlu můžeš používat jako hůl +3, jež při zásahu uděluje 10 (3k6) nekrotického zranění.
+
+**Sešli kletbu.** Berla Zapomenutého má 7 dávek, za úsvitu každého dne si obnoví 1k4 + 3 utracených dávek. Když hůl držíš, můžeš použít svou akci k utracení 1 dávky a zacílit jednoho tvora, kterého vidíš v dosahu 12 sáhů. Cíl musí uspět v záchranném hodu na Odolnost (tvůj SO záchrany kouzel), jinak je proklet. Pokud je proklet tímto způsobem, nemůže si obnovovat životy a je zranitelný vůči nekrotickému zranění. Kletbu z cíle sejme kouzlo mocné navrácení, sejmi kletbu nebo podobné.
+
+**Zapomenutý.** Hůl pohání životní síla zavražděného arcimága, již Acereak uvěznil uvnitř. Před duchovou odplatou chrání Acereraka runa vyřezaná do lebky na berle. Pokaždé, když magické schopnosti hole použije někdo jiný než Acererak, je 50% šance, že se jej životní síla arcimága pokusí posednout. Nositel hole musí uspět v záchranném hodu na Charisma se SO 20, jinak je posedlý a stane se CP pod kontrolou Pána jeskyně. Pokud je tato životní síla cílem kouzla rozptyl zlo a dobro, je znovu uvězněna v holi. Jakmile duch posedne jiného tvora, pokusí se jeho prostřednictvím hůl zničit.
+
+**Zničení hole.** Vlastník hole se ji může pokusit zničit tak, že použije svou akci k jejímu zlomení o koleno nebo jiný pevný povrch. Hůl se rozlomí a uvolní svou zbytkovou magii v explozi, jež vyplní kouli o průměru 6 sáhů se středem v holi. Každý tvor v oblasti musí uspět v záchranném hodu na Obratnost se SO 18, jinak utrpí 132 (24k10) silového zranění, nebo poloviční zranění při úspěšném záchranném hodu. Jakmile je hůl zničena, životní síla Zapomenutého odejde na onen svět. Kde to je, to nikdo neví. Vhození hole do koule anihilace zničí jak berlu, tak ducha v ní. Berla v takovém případě neexploduje, ale zničí kouli samotnou.
 </dnd-item>
 
 <dnd-item
@@ -560,8 +778,6 @@ Berla má 10 dávek. Když s ní zasáhneš útokem na blízko, můžeš spot�
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Berla zmije**
 
 _Berla, neobvyklá (vyžaduje sladění s černokněžníkem, druidem nebo klerikem)_
 
@@ -593,8 +809,6 @@ Na hadí hlavu se dá zaútočit, když je oživlá. Má Obranné číslo 15 a�
   duration="Do rozptýlení"
   >
 
-**Berserkří sekera**
-
 _Zbraň (jakákoli sekera), vzácná (vyžaduje sladění)_
 
 Získáš bonus +1 k hodům na útok a na zranění pomocí této magické zbraně. Mimo to, zatímco jsi sladěný s touto zbraní, tvé maximum životů se zvýší o 1 za každou úroveň, které jsi dosáhl.
@@ -624,8 +838,6 @@ Kdykoliv tě zraní nepřátelský tvor, zatímco máš tuto sekeru, musíš usp
   limit="Neomezené"
   duration="X kol"
   >
-
-**Bezedná karafa**
 
 _Divotvorný předmět, neobvyklý_
 
@@ -659,8 +871,6 @@ Jako akci můžeš odejmout zátku a vyslovit jedno ze tří zaklínadel, nač
   duration="Zvláštní"
   >
 
-**Bilarrské ocelové obruče**
-
 _Divotvorný předmět, vzácný_
 
 Tato rezavá železná koule měří v průměru 3 couly a váží libru. Pomocí akce můžeš vyslovit zaklínadlo a vrhnout kouli na Obrovského či menšího tvora, kterého vidíš do 12 sáhů od sebe. Jak koule prostupuje vzduchem, otvírá se v chuchvalec ocelových obručí.
@@ -693,8 +903,6 @@ Jakmile se obruče použijí, nelze je použít znovu až do dalšího úsvitu.
   duration="Permanentní"
   >
 
-**Bleskové kladivo**
-
 _Zbraň (palice), legendární_
 
 Získáš bonus +1 k hodům na útok a na zranění pomocí této magické zbraně.
@@ -702,6 +910,34 @@ Získáš bonus +1 k hodům na útok a na zranění pomocí této magické z
 **Obří zhouba (vyžaduje sladění).** Aby ses mohl sladit s touto zbraní, musíš mít na sobě opasek obří síly (libovolný) a rukavice zlobří síly. Sladění skončí, sundáš-li si některou z těchto věcí. Když jsi sladěný s touto zbraní a držíš ji, tvá hodnota Síly se zvýší o 4 a může přesáhnout 20, ale ne 30. Když ti při hodu na útok touto zbraní proti obrovi padne 20, obr musí uspět v záchranném hodu na Odolnost se SO 17, jinak zemře.
 
 Kladivo má také 5 dávek. Když jsi s ním sladěný, můžeš spotřebovat 1 dávku a zaútočit kladivem na dálku, přičemž ho vrhneš, jako by mělo vrhací vlastnost s normálním dostřelem 4 sáhy a dlouhým dostřelem 12 sáhů. Pokud útok zasáhne, kladivo zahřmí, že je to slyšet na 60 sáhů. Cíl a každý tvor do 6 sáhů od něj musí uspět v záchranném hodu na Odolnost se SO 17, jinak je ochromený do konce svého příštího tahu. Každý den za úsvitu si kladivo dobije 1k4 + 1 spotřebovaných dávek.
+</dnd-item>
+
+<dnd-item
+  title="Bojová standarta pekelné moci"
+  original="Battle Standard of Infernal Power"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Velmi vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Žezlo"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, velmi vzácný (vyžaduje sladění)*
+
+Tato bojová standarta byla ukuta v pekle z pekelného železa a osazena malou neotvíratelnou klíckou obsahující raracha. Uvězněný rarach je neschopný, klícka má OČ 19, 10 životů a je imunní vůči všem druhům poškození vyjma silového. Pokud je rarach zabit nebo nějakým způsobem propuštěn, zmizí v obláčku kouře a pokud není klec poškozena, objeví se v ní rarach nový.
+
+Dokud praporec třímáš, tvé útoky, stejně jako útoky tvých spojenců v okruhu 60 sáhů, se pro účely překonání imunit a odolností nepřátel počítají jako magické.
 </dnd-item>
 
 <dnd-item
@@ -724,8 +960,6 @@ Kladivo má také 5 dávek. Když jsi s ním sladěný, můžeš spotřebovat 
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Botky mrazivky**
 
 _Divotvorný předmět, neobvyklý (vyžaduje sladění)_
 
@@ -757,8 +991,6 @@ Tyto kožešinové boty jsou pohodlné a docela teplé. Když je máš na sob�
   duration="Permanentní"
   >
 
-**Boty levitace**
-
 _Divotvorný předmět, vzácný (vyžaduje sladění)_
 
 Když máš na sobě tyto boty, můžeš kdykoliv pomocí akce seslat na sebe kouzlo levitace.
@@ -784,8 +1016,6 @@ Když máš na sobě tyto boty, můžeš kdykoliv pomocí akce seslat na sebe ko
   limit="Nabití s obnovou"
   duration="X minut"
   >
-
-**Boty rychlosti**
 
 _Divotvorný předmět, vzácný (vyžaduje sladění)_
 
@@ -815,11 +1045,35 @@ Když se vlastnost bot používala celkově 10 minut, magie přestane fungovat, 
   duration="Permanentní"
   >
 
-**Boty s falešnými stopami**
-
 _Divotvorný předmět, běžný_
 
 Tyto boty si může obout pouze humanoid. Když je máš na nohou, můžeš se rozhodnout, že budou zanechávat stopy jiného humanoida tvé velikosti.
+</dnd-item>
+
+<dnd-item
+  title="Brašna zachování"
+  original="Bag of Preservation"
+
+  rulebook="Kaple na útesech"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Cestování"
+  item="Úložný předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, neobvyklý*
+
+Tato obyčejně vypadající brašna chrání svůj obsah před nepříznivým počasím, vlhkostí a nákazou. Předměty uložené v brašně se nenamočí, i když je brašna ponořena do vody a jídlo v ní vydrží 10x delší dobu, než se zkazí.
 </dnd-item>
 
 <dnd-item
@@ -871,8 +1125,6 @@ Když máš na sobě tuto brož, jsi odolný vůči silovému zranění a jsi 
   duration="Permanentní"
   >
 
-**Brýle noci**
-
 _Divotvorný předmět, neobvyklý_
 
 Když máš na sobě tyto tmavé čočky, máš vidění ve tmě do vzdálenosti 12 sáhů. Pokud již máš vidění ve tmě, nošení těchto brýlí zvýší jeho dosah o 12 sáhů.
@@ -898,8 +1150,6 @@ Když máš na sobě tyto tmavé čočky, máš vidění ve tmě do vzdálenosti
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Čadivá zbroj**
 
 _Zbroj (jakákoliv), běžná_
 
@@ -927,8 +1177,6 @@ Pokud máš tuto zbroj na sobě, stoupají z ní obláčky neškodného kouře b
   duration="Permanentní"
   >
 
-**Čarovná hůl**
-
 _Hůl, běžná_
 
 Pokud hůl držíš v ruce a umístíš nad její špičku předmět vážící maximálně 1 libru (např. úlomek křišťálu, vejce nebo kámen), předmět se vznese 1 coul do vzduchu a zůstane tam, dokud ho neodstraníš nebo dokud hůl nepustíš. Hůl takhle udrží až tři takové předměty naráz, a zároveň můžeš nechat jeden nebo více předmětů pomalu rotovat nebo otáčet se na místě.
@@ -954,8 +1202,6 @@ Pokud hůl držíš v ruce a umístíš nad její špičku předmět vážící 
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Čelenka intelektu**
 
 _Divotvorný předmět, neobvyklý (vyžaduje sladění)_
 
@@ -983,8 +1229,6 @@ Když máš na sobě tuto čelenku, tvá hodnota Inteligence je 19. Je-li tvá I
   duration="Permanentní"
   >
 
-**Čelenka výbuchu**
-
 _Divotvorný předmět, neobvyklý_
 
 Když máš na sobě tuto čelenku, můžeš použít akci a pomocí čelenky seslat kouzlo sežehující paprsek. Když si házíš na útok tohoto kouzla, použiješ útočný bonus +5. Čelenku nelze znovu použít tímto způsobem až do příštího úsvitu.
@@ -1010,8 +1254,6 @@ Když máš na sobě tuto čelenku, můžeš použít akci a pomocí čelenky 
   limit="Neomezené"
   duration="Zvláštní"
   >
-
-**Čepice vodního dechu**
 
 _Divotvorný předmět, neobvyklý_
 
@@ -1069,6 +1311,52 @@ Hlad *Černého břitu* po duších musí být pravidelně ukájen. Pokud uplyne
 </dnd-item>
 
 <dnd-item
+  title="Černý prut"
+  original="Blackstaff"
+
+  rulebook="Dračí loupež"
+
+  rarity="Legendární"
+
+  attunement="Kouzelníkem"
+  interaction="Vnímající"
+
+  purpose="Tematické efekty"
+  item="Berla"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Hůl, legendární (vyžaduje sladění s dědicem Černého prutu, který musí být kouzelníkem)*
+
+*Černý prut* je vnímající hůl s vyrytými runami a tenkým stříbrným žilkováním. Jde o symbol úřadu Černého prutu, nejvýše postaveného kouzelníka v Hlubině. Vajra Safahr, jakožto oprávněná majitelka *Černého prutu*, je jedinou osobou, která s ním může být sladěna. Hůl si však může vybrat nového majitele (viz „Osobnost“ níže).
+
+*Černý prut* má magické vlastnosti *berly moci* (viz *Průvodce Pána jeskyně*) a k tomu následující schopnosti.
+
+***Oživení kráčejících soch.*** V rámci akce můžeš utratit 1 nebo více nabití, čímž oživíš či deaktivuješ jednu nebo více kráčejících hlubinských soch (viz dodatek B). Chceš-li použít tuto schopnost, musíš být ve městě a můžeš oživit nebo deaktivovat jednu sochu za každé utracené nabití. Oživená socha poslouchá telepatické povely ducha Khelbena Arunsuna, který je v holi uvězněn (viz „Osobnost“ níže). Kráčející socha ztratí život, je-li deaktivována nebo je-li hůl zlomena.
+
+***Rozptýlení magie.*** V rámci bonusové akce můžeš utratit 1 nabití a seslat na tvora, předmět či magický efekt, kterých se dotkneš špičkou hole, kouzlo *rozptyl magii*. Je-li cílem nesouhlasící tvor či předmět v držení takového tvora, musíš předtím tvora zasáhnout *Černým prutem* útokem na blízko a až pak teprve můžeš utratit nabití na seslání kouzla.
+
+***Vysátí magie.*** Tato schopnosti má vliv pouze na tvory, kteří používají pozice kouzel. Zasáhneš-li takového tvora *Černým prutem* útokem na blízko, můžeš v rámci bonusové akce utratit 1 nabití, čímž cíl donutíš vyčerpat jednu pozici kouzla nejvyšší úrovně, kterou může vykouzlit, aniž by kouzlo seslal. Pokud cíl již všechny pozice vyčerpal, nic se nestane. Takto spotřebované pozice kouzel se doplní jako normálně, když cíl dokončí důkladný odpočinek.
+
+***Mistr očarování.*** Když vykouzlíš kouzlo typu očarování 1. nebo vyšší úrovně a držíš při tom v ruce hůl, můžeš ověřit Inteligenci (Mystika) se SO 10 + úroveň kouzla. Uspěješ-li, sešleš kouzlo, aniž bys utratil pozici.
+
+***Vnímání.*** *Černý prut* je vnímající hůl neutrálního přesvědčení s Inteligencí 22, Moudrostí 15 a Charismatem 18. Slyší, má vidění ve tmě na vzdálenost 24 sáhů a dokáže komunikovat telepaticky s jakýmkoliv tvorem, který ji drží.
+
+***Osobnost.*** Hůl má v sobě polapeny duchy všech předchozích Černých prutů. Její stvořitel, Khelben Arunsun, je však mezi nimi dominantní. Hůl je stejně jako Khelben neskutečně záludná a manipulativní. Raději majiteli poradí, než aby nad ním vysloveně přebírala kontrolu. Hlavním cílem hole je chránit Hlubinu a jejího Odhaleného lorda, kterým je nyní Laeral Stříbroruká. Druhotným úkolem je pomoct jejímu nositeli k větší moci.
+
+Stane-li se, že držitel úřadu Černého prutu přestane naplňovat přání hole, hůl přestane fungovat, dokud si nenajde vhodného dědice – někoho, jehož loajalitě k Hlubině se nedá nic vytknout.
+
+***Past na duchy.*** Když Černý prut zemře, jeho duch je lapen v holi spolu s duchy předchozích Černých prutů. (Černý prut, jehož duch je polapen v holi, nemůže být vzkříšen z mrtvých.)
+
+Zničením hole se duchové uvěznění uvnitř vypustí. Khelben se během této události může přesunout do jakéhokoliv kousku, který přežil. Tento kousek s Khelbenovým duchem  má vlastnost Vnímání, ale žádné jiné. Dokud tento kus hole existuje, Khelbenův duch může hůl opět scelit, kdykoliv si přeje. Jakmile je hůl v celku, duchové předchozích Černých prutů jsou opět polapeni uvnitř.
+</dnd-item>
+
+<dnd-item
   title="Daernova instantní pevnost"
   original="Daern's Instant Fortress"
 
@@ -1088,8 +1376,6 @@ Hlad *Černého břitu* po duších musí být pravidelně ukájen. Pokud uplyne
   limit="Neomezené"
   duration="Zvláštní"
   >
-
-**Daernova instantní pevnost**
 
 _Divotvorný předmět, vzácný_
 
@@ -1123,8 +1409,6 @@ Pevnost je z adamantinu a jeho magie zabraňuje převrácení. Střecha, dve
   duration="Permanentní"
   >
 
-**Démonická zbroj**
-
 _Zbroj (plátová), velmi vzácná (vyžaduje sladění)_
 
 Když máš na sobě tuto zbroj, získáš bonus +1 k OČ a rozumíš a umíš mluvit démonštinou. Rukavice zbroje mají navíc drápy, které mění údery beze zbraně tvých rukou v magické zbraně, které způsobují sečné zranění, s bonusem +1 k hodům na útok a na zranění a kostkou zranění 1k8.
@@ -1152,8 +1436,6 @@ Kletba. Jakmile si navlečeš tuto prokletou zbroj, nebudeš ji moci sundat, dok
   limit="Jednorázové"
   duration="Permanentní"
   >
-
-**Dimenzionální pouta**
 
 _Divotvorný předmět, vzácný_
 
@@ -1183,8 +1465,6 @@ Ty a tvorové, které určíš během nasazování pout, je můžete sejmout j
   duration="Permanentní"
   >
 
-**Dirigentská hůlka**
-
 _Hůlka, běžná_
 
 Tato hůlka má 3 dávky. Když ji držíš v ruce, můžeš v rámci akce spotřebovat 1 dávku a máváním kolem sebe nechat rozeznít orchestrální skladbu. Hudba je slyšet v okruhu 12 sáhů a když přestaneš hůlkou mávat, hrát přestane.
@@ -1212,8 +1492,6 @@ Hůlka si každý den za úsvitu obnoví všechny spotřebované dávky. Pokud u
   limit="Nabití s obnovou"
   duration="Zvláštní"
   >
-
-**Divotvorná figurka**
 
 _Divotvorný předmět, vzácnost podle figurky_
 
@@ -1261,9 +1539,9 @@ Máš-li dobré přesvědčení, tak figurka má pokaždé, když ji použiješ,
 
 **Slonovinové kozy (vzácné).** Tyto slonovinové sošky koz jsou vyrobeny vždycky po třech. Každá koza vypadá jinak a funguje odlišným způsoben než ostatní. Jejich vlastnosti jsou následující:
 
-    Koza cestování se může stát Velkou kozou se stejnými statistikami jako jezdecký kůň. Má 24 dávek a každou započatou hodinu, kterou stráví ve zvířecí podobě, stojí 1 dávku. Dokud má dávky, můžeš ji používat dle libosti. Když jí dojdou, navrátí se do figurky a nelze použít znovu, dokud neuplyne 7 dní, kdy si dobije všechny dávky.
-    Koza dřiny se stane obří kozou až na 3 hodiny. Jakmile se použije, nelze použít znovu, dokud neuplyne 30 dní.
-    Koza hrůzy se stane obří kozou až na 3 hodiny. Nemůže útočit, ale můžeš jí vyjmout rohy a použít je jako zbraně. Z jednoho rohu se stane dřevec +1 a z druhého dlouhý meč +2. Vyjmutí rohu vyžaduje akci a zbraně zmizí a rohy se vrátí, když se koza navrátí do podoby figurky. Navíc koza vyzařuje auru hrůzy o poloměru 6 sáhů, když na ní jedeš. Každý tvor, který začne svůj tah v auře a je vůči tobě nepřátelský, musí uspět v záchranném hodu na Moudrost se SO 15, jinak bude vystrašený na 1 minutu, nebo dokud se koza nenavrátí do podoby figurky. Vystrašený tvor může zopakovat záchranný hod na konci každého svého tahu a v případě úspěchu pro něj účinek skončí. Je-li záchranný hod tvora úspěšný nebo účinek pro něj skončí, je tvor imunní vůči auře kozy následujících 24 hodin. Jakmile se figurka použije, nelze použít znovu, dokud neuplyne 15 dní.
+ * Koza cestování se může stát Velkou kozou se stejnými statistikami jako jezdecký kůň. Má 24 dávek a každou započatou hodinu, kterou stráví ve zvířecí podobě, stojí 1 dávku. Dokud má dávky, můžeš ji používat dle libosti. Když jí dojdou, navrátí se do figurky a nelze použít znovu, dokud neuplyne 7 dní, kdy si dobije všechny dávky.
+ * Koza dřiny se stane obří kozou až na 3 hodiny. Jakmile se použije, nelze použít znovu, dokud neuplyne 30 dní.
+ * Koza hrůzy se stane obří kozou až na 3 hodiny. Nemůže útočit, ale můžeš jí vyjmout rohy a použít je jako zbraně. Z jednoho rohu se stane dřevec +1 a z druhého dlouhý meč +2. Vyjmutí rohu vyžaduje akci a zbraně zmizí a rohy se vrátí, když se koza navrátí do podoby figurky. Navíc koza vyzařuje auru hrůzy o poloměru 6 sáhů, když na ní jedeš. Každý tvor, který začne svůj tah v auře a je vůči tobě nepřátelský, musí uspět v záchranném hodu na Moudrost se SO 15, jinak bude vystrašený na 1 minutu, nebo dokud se koza nenavrátí do podoby figurky. Vystrašený tvor může zopakovat záchranný hod na konci každého svého tahu a v případě úspěchu pro něj účinek skončí. Je-li záchranný hod tvora úspěšný nebo účinek pro něj skončí, je tvor imunní vůči auře kozy následujících 24 hodin. Jakmile se figurka použije, nelze použít znovu, dokud neuplyne 15 dní.
 
 **Stříbrný krkavec (neobvyklý).** Tato stříbrná soška krkavce se může stát krkavcem až na 12 hodin. Jakmile se použije, nelze použít znovu, dokud neuplynou 2 dny. Dokud je figurka v krkavčí podobě, umožňuje ti libovolně seslat kouzlo zvířecí posel.
 
@@ -1321,6 +1599,32 @@ Můžeš také jako akci seslat z jablka kouzlo *najdi magii* bez použití d�
 </dnd-item>
 
 <dnd-item
+  title="Dračí plátová zbroj z obsidiánu"
+  original="Obsidian Flint Dragon Plate"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Legendární"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Zbroje"
+  item="Zbroj"
+
+  combat-effect="+oč, +odolnost/imunita, Jiný efekt"
+  bonus="+2"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Zbroj (plátová), legendární*
+
+Dokud máš na sobě tuto zbroj, získáš bonus +2 k OČ a odolnost vůči jedovému zranění. Navíc získáš výhodu ke všem ověřením vlastností a záchranným hodům prováděným pro účely pokusu o únik z uchvácení.
+</dnd-item>
+
+<dnd-item
   title="Dračí šupinová zbroj"
   original="Dragon Scale Mail"
 
@@ -1340,8 +1644,6 @@ Můžeš také jako akci seslat z jablka kouzlo *najdi magii* bez použití d�
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Dračí šupinová zbroj**
 
 _Zbroj (šupinová), velmi vzácná (vyžaduje sladění)_
 
@@ -1385,8 +1687,6 @@ Navíc jako akci můžeš zaměřit své smysly na magické rozpoznání vzdále
   duration="Permanentní"
   >
 
-**Drahokam vidění**
-
 _Divotvorný předmět, vzácný (vyžaduje sladění)_
 
 Tento drahokam má 3 dávky. Jako akci můžeš vyslovit jeho zaklínadlo a spotřebovat 1 dávku. Budeš mít 10 minut pravdivé vidění na 24 sáhů při pohledu skrz drahokam.
@@ -1413,8 +1713,6 @@ Každý den za úsvitu si drahokam dobije 1k3 spotřebovaných dávek.
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Drakomlat**
 
 _Zbraň (jakýkoli meč), vzácný_
 
@@ -1449,6 +1747,56 @@ Když máš tuto Sponu připnutou ve vlasech, mají stejnou barvu jako ona. Kouz
 </dnd-item>
 
 <dnd-item
+  title="Dušar"
+  original="Soul Coin"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Šperk"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, neobvyklý*
+
+*Dušary* mají průměr asi 5 coulů, tloušťku asi 1 coul a jsou vyraženy z pekelného železa. Každá mince váží třetinu libry a je do ní vyražen kouzelný nápis v ďábelštině, jenž v minci vězní duši. Jelikož každý *dušar* vězní jedinečnou duši, má také každý svůj jedinečný příběh. Duše mohla být uvězněna kvůli nesplněným závazkům dohody, zatímco jiná například jako oběť kletby noční ježibaby.
+
+***Nošení dušarů.*** Mít u sebe *dušar* znamená cítit duši v něm uvězněnou — ta může zuřit nebo být zničena zoufalstvím.
+
+Zlý tvor může mít tolik *dušarů*, kolik chce (pokud nepřekročí svou nosnost). Nezlí tvorové mohou mít u sebe bez postihu jen *dušary* v počtu rovném či menším, než je jejich oprava Odolnosti. Pokud má u sebe nezlý tvor více *dušarů*, než kolik toto pravidlo dovoluje, získá nevýhodu na všechny hody na útok, ověření vlastností a záchranné hody.
+
+***Používání dušarů.*** *Dušar* má 3 dávky. Tvor nesoucí minci může použít svou akci k utracení 1 dávky *dušaru* pro provedení jednoho z následujících úkonů:
+
+**Dotaz.** Telepaticky položíš duši otázku a získáš od ní krátkou
+telepatickou odpověď, jíž rozumíš. Duše ví pouze to,
+co věděla za života, ale musí odpovědět pravdivě a nejlépe,
+jak umí. Odpověď není delší než jedna, dvě věty a může
+být tajemná.
+
+**Vysátí života.** Vysaješ z uvězněné duše část její esence a získáš 1k10 dočasných životů.
+
+***Osvobození duše.*** Seslání kouzla rozptylujícího kletby na *dušar*, stejně jako utracení všech dávek, uvězněnou duši osvobodí. Po propuštění duše mince zreziví a je zničena. Osvobozené duše odcházejí do říše bohů, jimž sloužily, nebo do vnější sféry nejbližší jejich přesvědčení (rozhodne PJ). Duše zákonně zlých tvorů osvobozené z *dušarů* se typicky zrodí ve Styxu jako mátohy.
+
+Duši lze osvobodit i zničením mince. *Dušar* má OČ 19, 1 život za každou zbývající dávku a imunitu vůči všem druhům poškození, pokud není uděleno ohnivou zbraní (strana 201) nebo v kotli pekelného válečného stroje (strana 194).
+
+Osvobození duše z *dušaru* se považuje za dobrý skutek, i kdyby osvobozená duše patřila zlému tvoru.
+
+***Pekelná měna.*** *Dušary* jsou měnou Devíti pekel a ďáblové si jich velmi cení. Mince putují napříč pekelnou hierarchií v platbách za protislužby, jako úplatky, či jako odměny pro věrné služebníky.
+
+*Dušary* vyrábí Mamon a jeho vyšší ďáblové v Minauru, třetí vrstvě Devíti pekel, v děsivé komnatě, kde jsou polapené duše smrtelníků vtloukány do mincí. Tyto mince poté putují Devíti pekly, kde se používají při platbách za zboží a služby, k uzavírání ďábelských smluv, temných dohod a k uplácení.
+</dnd-item>
+
+<dnd-item
   title="Dýmající láhev"
   original="Eversmoking bottle"
 
@@ -1468,8 +1816,6 @@ Když máš tuto Sponu připnutou ve vlasech, mají stejnou barvu jako ona. Kouz
   limit="Neomezené"
   duration="X minut"
   >
-
-**Dýmající láhev**
 
 _Divotvorný předmět, neobvyklý_
 
@@ -1499,8 +1845,6 @@ Oblak vydrží, dokud je láhev otevřená. Zavření láhve vyžaduje, abys jak
   duration="Permanentní"
   >
 
-**Dýmka kouřových příšer**
-
 _Divotvorný předmět, běžný_
 
 Během bafání z této dýmky můžeš použít svou akci a vyfouknout kouř, který na sebe následně vezme podobu jednoho tvora, jako například draka, flampa nebo žabomota. Podoba je tak malá, že by se vešla do krychle o hraně 1 stopy a vydrží jen pár sekund, potom se rozplyne v obláček obyčejného kouře.
@@ -1517,17 +1861,15 @@ Během bafání z této dýmky můžeš použít svou akci a vyfouknout kouř, k
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Kouzlící"
+  purpose="Trvalý přínos"
   item="Boty"
 
-  combat-effect="Konkrétní účel"
+  combat-effect="Nebojový"
   bonus="Výhoda"
 
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Elfí boty**
 
 _Divotvorný předmět, neobvyklý_
 
@@ -1555,8 +1897,6 @@ Když máš na sobě tyto boty, tvé kroky nevydávají zvuky, bez ohledu na to,
   duration="Permanentní"
   >
 
-**Elfí drátovka**
-
 _Zbroj (drátová košile), vzácná_
 
 Když máš na sobě tuto zbroj, získáš bonus +1 k OČ. Má se za to, že jsi zdatný s touto zbrojí, i kdybys nebyl zdatný se středními zbrojemi.
@@ -1582,8 +1922,6 @@ Když máš na sobě tuto zbroj, získáš bonus +1 k OČ. Má se za to, že j
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Elfí plášť**
 
 _Divotvorný předmět, neobvyklý (vyžaduje sladění)_
 
@@ -1611,8 +1949,6 @@ Když máš na sobě tento plášť s přehozenou kapucí, ověření Moudrost
   duration="Ihned"
   >
 
-**Elixír zdraví**
-
 _Lektvar, vzácný_
 
 Když vypiješ tento lektvar, uzdraví jakoukoliv nemoc, která tě postihuje a odstraní stavy hluchý, otrávený, paralyzovaný a slepý. Jasná rudá kapalina má v sobě drobné bublinky světla.
@@ -1638,8 +1974,6 @@ Když vypiješ tento lektvar, uzdraví jakoukoliv nemoc, která tě postihuje a�
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Elonnin toulec**
 
 _Divotvorný předmět, neobvyklý_
 
@@ -1669,8 +2003,6 @@ Jakýkoliv předmět, který toulec obsahuje, můžeš vytáhnout, jako bys ho v
   duration="X minut"
   >
 
-**Éterická plátová zbroj**
-
 _Zbroj (plátová), legendární (vyžaduje sladění)_
 
 Když máš na sobě tuto zbroj, můžeš pomocí akce vyslovit její zaklínadlo a získat účinek kouzla éteričnost, který vydrží 10 minut, nebo dokud si zbroj nesundáš, či pomocí akce nevyslovíš zaklínadlo znovu. Tuto vlastnost zbroje nelze použít znovu až do příštího úsvitu.
@@ -1691,13 +2023,11 @@ Když máš na sobě tuto zbroj, můžeš pomocí akce vyslovit její zaklínadl
   item="Lektvar"
 
   combat-effect="Nebojový"
-  bonus="Žádný efekt"
+  bonus="Žádný bonus"
 
   limit="Jednorázové"
   duration="X hodin"
   >
-
-**Éterický olej**
 
 _Lektvar, vzácný_
 
@@ -1766,13 +2096,153 @@ JaD nemají žádné „příběhové mechaniky", které by spojovaly konkrétn�
   duration="Permanentní"
   >
 
-**Flétna stok**
-
 _Divotvorný předmět, neobvyklý (vyžaduje sladění)_
 
 Abys mohl použít tuto flétnu, musíš být zdatný s dechovými nástroji. Když jsi s ní sladěný, obyčejné krysy a obří krysy si tě nevšímají a nezaútočí na tebe, pokud je neohrozíš nebo nezraníš.
 
 Flétna má 3 dávky. Hraješ-li na flétnu jako akci, můžeš pomocí bonusové akce spotřebovat 1 až 3 dávky a za každou spotřebovanou dávku přivolat jedno krysí hejno (statistiky viz Bestiář), pokud je do půl míle od tebe dostatek krys, co by se daly takto přivolat (dle úvahy PJ). Není-li v okolí dostatek krys, aby vytvořily hejno, dávka se vyplýtvá bez užitku. Přivolané krysy se pohybují směrem k hudbě nejkratší možnou trasou, ale jinak nejsou pod tvou kontrolou. Každý den za úsvitu si flétna dobije 1k3 spotřebovaných dávek.
+</dnd-item>
+
+<dnd-item
+  title="Golorský kámen"
+  original="Stone of Golorr"
+
+  rulebook="Dračí loupež"
+
+  rarity="Artefakt"
+
+  attunement="Kýmkoliv"
+  interaction="Vnímající"
+
+  purpose="Artefakty"
+  item="Amulet"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, artefakt (vyžaduje sladění)*
+
+*Golorský kámen* je lesklý, nazelenale-šedý kámen akorát do dlaně. Ve skutečnosti je to abolet jménem Golor, magicky přeměněný v kámen.
+
+***Náhodné schopnosti.*** *Golorský kámen* má následující vlastnosti, které určíš hodem na tabulku v oddíle „Artefakty“ v kapitole 7 *Průvodce Pána jeskyně*:
+ * 1 vedlejší prospěšná vlastnost
+ * 1 vedlejší škodlivá vlastnost
+
+***Poslyš mýty.*** *Golorský kámen* má 3 nabití a každý den se mu při svítání 1k3 nabití obnovuje. Když kámen držíš, můžeš 1 nabití utratit a seslat kouzlo *poslyš mýty*.
+
+Použitím kamene k seslání poslyš mýty komunikuješ přímo s aboletem, který se s tebou dělí o své vědomosti. Abolet ti nesmí lhát, ale informace, které poskytne, jsou často nejasné nebo vágní.
+
+Abolet ví, kde se nachází tajný trezor lorda Bezuhlíka. Také ví, že k jeho otevření jsou potřeba tři klíče a že ho obývá drak jménem Aurinax, který poklad uvnitř střeží.
+
+***Ztráta paměti.*** Když tvé sladění s *Golorským kamenem* skončí, musíš provést záchranný hod na Moudrost se SO 16. Při neúspěchu přijdeš o veškeré vzpomínky na to, že jsi kámen vlastnil, a o veškeré vědomosti, které ti sdělil. Kouzlo *sejmi kletbu* seslané na tebe má 20procentní šanci, že ti ztracené vědomosti a vzpomínky vrátí. Kouzlo *mocné navrácení* to udělá automaticky.
+
+***Vnímání.*** *Golorský kámen* je vnímající zákonně zlý magický předmět s Inteligencí 18, Moudrostí 15 a Charismatem 18. Slyší a má vidění ve tmě na vzdálenost 24 sáhů. Dokáže komunikovat telepaticky s tvorem, který je s ním sladěný, pokud tento tvor rozumí minimálně jednomu jazyku. Abolet navíc odhalí všechny touhy tvora, který s ním telepaticky komunikuje.
+
+*Golorský kámen* lační po informacích a raději nezůstává v držení jednoho majitele příliš dlouho. Jakmile se kámen rozhodne, že chce nového majitele, začne požadovat, aby byl předán jinému inteligentnímu tvorovi. Jsou-li tyto požadavky ignorovány, převezme nad svým majitelem kontrolu (viz „Vnímající předměty“ v kapitole 7 *Průvodce Pána jeskyně*).
+
+***Osobnost.*** *Golorský kámen* má cizácký intelekt, který je jak despotický, tak lačný po vědění. Považuje sám sebe za nestárnoucího a nesmrtelného boha.
+
+***Zničení kamene.*** Abolet v kamenné podobě není tvor a nemůže být cílem efektů, které cílí na tvory. *Golorský kámen* je imunní vůči všem druhům poškození. Kouzlo *antipatie nebo sympatie* seslané na kámen ho zničí, je-li vybrán efekt antipatie a kouzlu je poručeno, aby odpuzovalo zrůdy. Je-li kouzlo takto sesláno, kámen se promění ve sliz a je zničen. Abolet Golor se objeví na neobsazeném prostoru v okruhu 6 sáhů od pozůstatků kamene. Abolet je zničením kamene rozlícen a zaútočí na všechny tvory, které vidí.
+</dnd-item>
+
+<dnd-item
+  title="Gultyasova hůl"
+  original="Gulthias Staff"
+
+  rulebook="Strádovo prokletí"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Zbraně"
+  item="Berla"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Hůl, vzácný předmět (vyžaduje sladění)*
+
+*Gultyasova hůl*, vyrobena z větve Gultyasova stromu (viz heslo sněť v Bestiáři), je zčernalý houbovitý kus dřeva. Její zlá podstata viditelně znervózňuje tvory, kteří jsou do 6 sáhů od ní. Hůl má 10 dávek a za soumraku získá 1k6 + 4 dávek zpět.
+
+Pokud je hůl zlomena nebo spálena na prach, dřevo vydá uši drásající křik, který je slyšet v okruhu 60 sáhů. Všechny sněti, které tento výkřik uslyší, okamžitě seschnou a odumřou.
+
+***Upíří úder.*** Hůl je možné nosit jako magickou hůl. Při zásahu způsobuje zranění jako normální hůl, a navíc lze využít jedno nabití a obnovit si stejný počet životů, jako bylo způsobené zranění. Při každém využití dávky vytéká z pórů hole rudá krev a nositel musí uspět v záchranném hodu na Moudrost se SO 12, jinak je dočasně zasažen krátkodobým šílenstvím (viz „Šílenství“ v kapitole 8 *Průvodce Pána jeskyně*).
+
+***Prokletí sněti.*** Jsi-li sladěný s holí, sněti ani jiná zlá stvoření tě nepovažují za nepřítele, dokud jim sám neublížíš.
+</dnd-item>
+
+<dnd-item
+  title="Hazirawn"
+  original="Hazirawn"
+
+  rulebook="Poklad dračí královny"
+
+  rarity="Legendární"
+
+  attunement="Kýmkoliv"
+  interaction="Vnímající"
+
+  purpose="Zbraně, Kouzlící"
+  item="Zbraň"
+
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+1, +2"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+_Zbraň (obouruční meč), legendární, vyžaduje sladění_
+
+Myslící obouruční meč Hazirawn (neutrální zlo) umí mluvit obecnou řečí a netherijštinou. I když nejsi s mečem sladěný, získáš při jeho použití bonus +1 k hodům na útok i zranění a udělíš při zásahu tímto mečem 1k6 nekrotického zranění navíc.
+
+**Zvýšená síla.** Když jsi s mečem sladěný, jeho bonus k hodům na útok a zranění se zvýší na +2 a zásah uděluje 2k6 nekrotického zranění navíc (namísto 1k6).
+
+**Kouzla.** Hazirawn má čtyři dávky, jimiž lze sesílat kouzla. Dokud jsi s mečem sladěný a držíš jej v ruce, můžeš seslat kouzla *najdi magii* (spotřebuje 1 dávku), *najdi zlo a dobro* (1 dávka) nebo *odhal myšlenky* (2 dávky). Hazirawn si obnoví 1k4 spotřebovaných dávek vždy o půlnoci.
+
+**Zraňující.** Když jsi s Hazirawnem sladěný, všechny bytosti, jež jím zasáhneš, si nemůžou obnovovat životy po dobu 1 minuty. Cíl si může hodit záchranný hod na Odolnost se SO 15 na konci každého svého kola a při úspěchu efekt ukončit.
+</dnd-item>
+
+<dnd-item
+  title="Helma ďábelského velení"
+  original="Helm of Devil Command"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Velmi vzácný"
+
+  attunement="Jiné"
+  interaction="žádná int."
+
+  purpose="Kouzlící"
+  item="Zbroj"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, velmi vzácný (vyžaduje sladění s tvorem, který umí mluvit ďábelštinou)*
+
+Tato rozměrná helma bez otvorů pro oči je vyrobena pro šejtána, ale magicky změní velikost podle hlavy nositele.
+
+Dokud máš helmu na hlavě, můžeš skrze ni vidět stejně, jako bys ji neměl. Navíc díky ní znáš polohu a typ všech ďáblů v okruhu 200 sáhů. Můžeš telepaticky komunikovat s jedním ďáblem v dosahu, případně můžeš své myšlenky vysílat ke všem ďáblům v dosahu najednou. Ďáblové, kteří obdrží tvé myšlenkové zprávy, nemají žádný zvláštní způsob, jak na ně odpovědět.
+
+Helma má tři dávky. Můžeš použít svou akci k utracení 1 dávky pro seslání kouzla *podrob nestvůru* (SO záchrany kouzla je 21), které působí pouze na ďábly. (Pokud je cílem jiný tvor než ďábel, kouzlo selže a dávka se vyplýtvá.) Pokud tě zacílený ďábel při sesílání kouzla vidí, uvědomí si, že jsi jej chtěl zmámit. Helma si obnoví všechny utracené dávky za 24 hodin po utracení poslední z nich.
+
+Pokud nejsi ďábel, existuje 20% šance, že při sesílání kouzla *podrob nestvůru* prostřednictvím helmy přilákáš narzugona (viz strana 213), který přijede za 1k4 hodin na hřbetě noční můry. Narzugon se pokusí helmu získat, a bude-li to nutné, nebude váhat tě zabít. Pokud helmu získá, pokusí se ji předat svému pekelnému mistrovi.
 </dnd-item>
 
 <dnd-item
@@ -1795,8 +2265,6 @@ Flétna má 3 dávky. Hraješ-li na flétnu jako akci, můžeš pomocí bonusov�
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Helma děsu**
 
 _Divotvorný předmět, běžný_
 
@@ -1824,8 +2292,6 @@ Pokud máš tuto hrůzostrašnou ocelovou přilbu na hlavě, oči ti zpoza její
   duration="Permanentní"
   >
 
-**Hlubinná svíce**
-
 _Divotvorný předmět, běžný_
 
 Plamen této svíčky při ponoření do vody nezhasne, ale vydává světlo a teplo jako normální svíčka.
@@ -1846,13 +2312,11 @@ Plamen této svíčky při ponoření do vody nezhasne, ale vydává světlo a t
   item="Všední předmět"
 
   combat-effect="Nebojový"
-  bonus="Žádný efekt"
+  bonus="Žádný bonus"
 
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Honzova praktická kořenka**
 
 _Divotvorný předmět, běžný_
 
@@ -1880,8 +2344,6 @@ Tato kořenka nošená na opasku vypadá na první pohled prázdná. Má 10 dáv
   duration="Permanentní"
   >
 
-**Honzova šikovná brašna**
-
 _Divotvorný předmět, vzácný_
 
 Tato torna má střední vak a dva postranní vaky, přičemž každý z nich je mimodimenzionální prostor. Každý z bočních vaků pojme až 20 liber materiálu do objemu 2 stopy krychlové. Velký prostřední vak pojme až 8 stop krychlových nebo 80 liber materiálu. Torna váží vždy 5 liber, bez ohledu na obsah.
@@ -1891,6 +2353,38 @@ Uložení předmětu do brašny se řídí dle normálních pravidel pro interag
 Brašna má několik omezení. Pokud se přetíží, nebo ji probodne či protrhne ostrý předmět, brašna se roztrhne a zničí se. Dojde-li ke zničení brašny, její obsah je navždy ztracen, i když artefakty se dříve či později někde znovu objeví. Je-li brašna otočena naruby, její obsah se bez poškození vysype, ale než je možné jí opět použít, musí se otočit zase na líc. Je-li do brašny vložen dýchající tvor, vydrží maximálně 10 minut a pak se začne dusit.
 
 Umístění brašny do mimodimenzionálního prostoru vytvořeného pytlem beztíže, přenosným tvorem nebo podobným předmětem okamžitě zničí oba předměty a otevře bránu do Astrální sféry. Brána vznikne tam, kde jeden předmět byl vložen do druhého. Každý tvor do 2 sáhů od brány je do ní vcucnut a vyvržen na náhodném místě v Astrální sféře. Brána se poté uzavře. Brána je jednosměrná a nedá se znovu otevřít.
+</dnd-item>
+
+<dnd-item
+  title="Hůl obrany"
+  original="Staff of Defense"
+
+  rulebook="Ztracený důl Fendelveru"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Berla"
+
+  combat-effect="+oč, Jiný efekt"
+  bonus="+1"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Hůl, vzácná (vyžaduje sladění)*
+
+Tato úzká, dutá hůl je vyrobená ze skla, avšak je silná jako buk. Váží 3 libry a k používání jejích magických vlastností je nutné se s ní sladit.
+
+S touto holí v rukou máš bonus +1 k OČ.
+
+Hůl má 10 dávek, skrz které lze sesílat kouzla v ní uložená. S holí v ruce můžeš použít svou akci k seslání jednoho z následujících kouzel, je-li toto na seznamu kouzel tvého povolání: *mágova zbroj* (1 dávka) nebo *štít* (2 dávky). Složky nejsou potřeba.
+
+Každý den za úsvitu si hůl dobije 1k6 + 4 spotřebovaných dávek. Spotřebuješ-li poslední dávku, hoď k20. Padne-li 1, hůl se rozpadne na prach a zničí se.
 </dnd-item>
 
 <dnd-item
@@ -1913,8 +2407,6 @@ Umístění brašny do mimodimenzionálního prostoru vytvořeného pytlem bezt�
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Hůl přivolávání ptáků**
 
 _Hůl, běžná_
 
@@ -1944,8 +2436,6 @@ Hůl si každý den za úsvitu obnoví 1k6 + 4 spotřebovaných dávek. Pokud ut
   duration="Permanentní"
   >
 
-**Hůlka blesků**
-
 _Hůlka, vzácná (vyžaduje sladění se sesilatelem kouzel)_
 
 Tato hůlka má 7 dávek. Když ji držíš, můžeš použitím akce spotřebovat 1 či více dávek a tím pomocí ní seslat kouzlo blesk (SO záchrany 15). Za 1 dávku sešleš verzi 3. úrovně kouzla. Za každou další spotřebovanou dávku můžeš zvýšit úroveň pozice kouzel o jedna.
@@ -1974,8 +2464,6 @@ Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotře
   duration="Permanentní"
   >
 
-**Hůlka divů**
-
 _Hůlka, vzácná (vyžaduje sladění se sesilatelem kouzel)_
 
 Tato hůlka má 7 dávek. Když ji držíš, můžeš použitím akce spotřebovat 1 z jejích dávek a zvolit cíl do 24 sáhů od tebe. Cílem může být tvor, předmět či bod v prostoru. Hoď k% a podívej se do následující tabulky, co se stane.
@@ -1985,30 +2473,30 @@ Pokud účinek způsobí, že sešleš kouzlo z hůlky, SO záchrany kouzla je
 Pokud účinek zahrnuje oblast, musíš zacentrovat kouzlo a zahrnout cíl. Má-li účinek několik možných cílů, PJ náhodně určí, na které bude působit.
 
 Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotřebuješ-li poslední dávku, hoď k20. Padne-li 1, hůlka se rozpadne na prach a zničí se.
-|**k%**|**Účinek**|
-|------|----------|
-|01–05 |Sešleš zpomalení.|
-|06–10 |Sešleš vílí oheň.|
-|11–15 |Jsi ochromený do začátku svého příštího tahu a jsi přesvědčený, že se právě stalo něco úžasného.|
-|16–20 |Sešleš poryv větru.|
-|21–25 |Sešleš odhal myšlenky na cíl, který jsi zvolil. Pokud jsi nezacílil na tvora, utrpíš místo toho psychické zranění 1k6.|
-|26–30 |Sešleš páchnoucí oblak.|
-|31–33 |V okruhu o poloměru 12 sáhů kolem cíle začne pršet hustý déšť a oblast se stane slabě zahalená. Déšť padá do začátku tvého příštího tahu.|
-|34–36 |Na volném místě co nejblíž k cíli se objeví zvíře. Zvíře není pod tvou kontrolou a jedná, jak by jednalo běžně. Hoď k% a urči, jaké zvíře se objeví. 01–25: nosorožec; 25–50: slon; 51–100: krysa. Statistiky zvířete najdeš v Bestiáři.|
-|37–46 |Sešleš blesk.|
-|47–49 |Okruh o poloměru 6 sáhů kolem cíle zaplní mračno 600 přerostlých motýlů a oblast se stane hustě zahalená. Motýli vydrží 10 minut.|
-|50–53 |Zvětšíš cíl, jako bys seslal zvětšení nebo zmenšení. Pokud cíl nelze ovlivnit tímto kouzlem, nebo jsi nezacílil tvora, staneš se cílem ty.|
-|54–58 |Sešleš tmu.|
-|59–62 |V okruhu o poloměru 12 sáhů kolem cíle vyroste tráva. Pokud už tam tráva je, vyroste do desetinásobku své normální velikosti a zůstane přerostlá 1 minutu.|
-|63–65 |Předmět dle volby PJ zmizí do Éterické sféry. Předmět nesmí nikdo držet ani nést, musí být do 24 sáhů od cíle a nesmí být větší než 2 sáhy v žádném rozsahu.|
-|66–69 |Zmenšíš se, jako bys na sebe seslal zvětšení nebo zmenšení.|
-|70–79 |Sešleš ohnivou kouli.|
-|80–84 |Sešleš na sebe neviditelnost.|
-|85–87 |Z cíle vyrostou listy. Pokud jsi zacílil bod v prostoru, listy vyraší z tvora co nejblíž k tomuto bodu. Pokud někdo listy neotrhá, zhnědnou a opadají po 24 hodinách.|
-|88–90 |Ze špičky hůlky vystřelí po 6 sáhů dlouhé a 1 sáh široké dráze proud 1k4 × 10 drahokamů, každý v hodnotě 1 zl. Každý drahokam způsobí drtivé zranění 1 a celkové zranění z drahokamů se rovnoměrně rozdělí mezi všechny tvory v dráze.|
-|91–95 |Do okruhu o poloměru 6 sáhů kolem tebe z tebe vyzáří barevné blikající světlo. Ty a každý tvor v oblasti, který vidí, musí uspět v záchranném hodu na Odolnost se SO 15, jinak oslepne na 1 minutu. Tvor může zopakovat záchranný hod na konci každého svého tahu a v případě úspěchu pro něj účinek skončí.|
-|96–97 |Kůže cíle se změní na jasně modrou na 1k10 dní. Pokud jsi zacílil bod v prostoru, je ovlivněn tvor co nejblíž k tomuto bodu.|
-|98–100|Pokud jsi zacílil tvora, musí uspět v záchranném hodu na Odolnost se SO 15. Pokud jsi nezacílil tvora, staneš se cílem ty a musíš si hodit na záchranný hod. Neuspěje-li cíl v záchranném hodu o 5 či více, ihned zkamení. Pokud cíl neuspěje jinak, je zadržený a začne kamenět. Když je cíl zadržený tímto způsobem, musí zopakovat záchranný hod na konci svého příštího tahu. Pokud neuspěje, zkamení. V případě úspěchu pro něj účinek skončí. Zkamenění trvá, dokud není cíl osvobozen kouzlem mocné navrácení či podobnou magií.|
+| **k%** | **Účinek** |
+| ------ | ---------- |
+| 01–05 | Sešleš *zpomalení*. |
+| 06–10 | Sešleš *vílí oheň*. |
+| 11–15 | Jsi ochromený do začátku svého příštího tahu a jsi přesvědčený, že se právě stalo něco úžasného. |
+| 16–20 | Sešleš *poryv větru*. |
+| 21–25 | Sešleš *odhal myšlenky* na cíl, který jsi zvolil. Pokud jsi nezacílil na tvora, utrpíš místo toho psychické zranění 1k6. |
+| 26–30 | Sešleš *páchnoucí oblak*. |
+| 31–33 | V okruhu o poloměru 12 sáhů kolem cíle začne pršet hustý déšť a oblast se stane slabě zahalená. Déšť padá do začátku tvého příštího tahu. |
+| 34–36 | Na volném místě co nejblíž k cíli se objeví zvíře. Zvíře není pod tvou kontrolou a jedná, jak by jednalo běžně. Hoď k% a urči, jaké zvíře se objeví. 01–25: nosorožec; 25–50: slon; 51–100: krysa. Statistiky zvířete najdeš v *Bestiáři*. |
+| 37–46 | Sešleš *blesk*. |
+| 47–49 | Okruh o poloměru 6 sáhů kolem cíle zaplní mračno 600 přerostlých motýlů a oblast se stane hustě zahalená. Motýli vydrží 10 minut. |
+| 50–53 | Zvětšíš cíl, jako bys seslal zvětšení nebo zmenšení. Pokud cíl nelze ovlivnit tímto kouzlem, nebo jsi nezacílil tvora, staneš se cílem ty. |
+| 54–58 | Sešleš *tmu*. |
+| 59–62 | V okruhu o poloměru 12 sáhů kolem cíle vyroste tráva. Pokud už tam tráva je, vyroste do desetinásobku své normální velikosti a zůstane přerostlá 1 minutu. |
+| 63–65 | Předmět dle volby PJ zmizí do Éterické sféry. Předmět nesmí nikdo držet ani nést, musí být do 24 sáhů od cíle a nesmí být větší než 2 sáhy v žádném rozsahu. |
+| 66–69 | Zmenšíš se, jako bys na sebe seslal *zvětšení nebo zmenšení*. |
+| 70–79 | Sešleš *ohnivou kouli*. |
+| 80–84 | Sešleš na sebe *neviditelnost*. |
+| 85–87 | Z cíle vyrostou listy. Pokud jsi zacílil bod v prostoru, listy vyraší z tvora co nejblíž k tomuto bodu. Pokud někdo listy neotrhá, zhnědnou a opadají po 24 hodinách. |
+| 88–90 | Ze špičky hůlky vystřelí po 6 sáhů dlouhé a 1 sáh široké dráze proud 1k4 × 10 drahokamů, každý v hodnotě 1 zl. Každý drahokam způsobí drtivé zranění 1 a celkové zranění z drahokamů se rovnoměrně rozdělí mezi všechny tvory v dráze. |
+| 91–95 | Do okruhu o poloměru 6 sáhů kolem tebe z tebe vyzáří barevné blikající světlo. Ty a každý tvor v oblasti, který vidí, musí uspět v záchranném hodu na Odolnost se SO 15, jinak oslepne na 1 minutu. Tvor může zopakovat záchranný hod na konci každého svého tahu a v případě úspěchu pro něj účinek skončí. |
+| 96–97 | Kůže cíle se změní na jasně modrou na 1k10 dní. Pokud jsi zacílil bod v prostoru, je ovlivněn tvor co nejblíž k tomuto bodu. |
+| 98–100 | Pokud jsi zacílil tvora, musí uspět v záchranném hodu na Odolnost se SO 15. Pokud jsi nezacílil tvora, staneš se cílem ty a musíš si hodit na záchranný hod. Neuspěje-li cíl v záchranném hodu o 5 či více, ihned zkamení. Pokud cíl neuspěje jinak, je zadržený a začne kamenět. Když je cíl zadržený tímto způsobem, musí zopakovat záchranný hod na konci svého příštího tahu. Pokud neuspěje, zkamení. V případě úspěchu pro něj účinek skončí. Zkamenění trvá, dokud není cíl osvobozen kouzlem mocné navrácení či podobnou magií. |
 </dnd-item>
 
 <dnd-item
@@ -2031,8 +2519,6 @@ Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotře
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Hůlka magických střel**
 
 _Hůlka, neobvyklá_
 
@@ -2062,8 +2548,6 @@ Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotře
   duration="Permanentní"
   >
 
-**Hůlka nalezení magie**
-
 _Hůlka, neobvyklá_
 
 Tato hůlka má 3 dávky. Když ji držíš v ruce, můžeš jako akci spotřebovat 1 dávku a tím pomocí ní seslat kouzlo najdi magii. Každý den za úsvitu si hůlka obnoví 1k3 spotřebovaných dávek.
@@ -2089,8 +2573,6 @@ Tato hůlka má 3 dávky. Když ji držíš v ruce, můžeš jako akci spotře
   limit="Nabití s obnovou"
   duration="X minut"
   >
-
-**Hůlka nalezení nepřátel**
 
 _Hůlka, vzácná (vyžaduje sladění)_
 
@@ -2120,8 +2602,6 @@ Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotře
   duration="Permanentní"
   >
 
-**Hůlka ohnivých koulí**
-
 _Hůlka, vzácná (vyžaduje sladění se sesilatelem kouzel)_
 
 Tato hůlka má 7 dávek. Když ji držíš, můžeš použitím akce spotřebovat 1 či více dávek a tím pomocí ní seslat kouzlo ohnivá koule (SO záchrany 15). Za 1 dávku sešleš verzi 3. úrovně kouzla. Za každou další spotřebovanou dávku můžeš zvýšit úroveň pozice kouzel o jedna.
@@ -2149,8 +2629,6 @@ Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotře
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Hůlka paralýzy**
 
 _Hůlka, vzácná (vyžaduje sladění se sesilatelem kouzel)_
 
@@ -2180,8 +2658,6 @@ Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotře
   duration="Permanentní"
   >
 
-**Hůlka pavučiny**
-
 _Hůlka, neobvyklá (vyžaduje sladění se sesilatelem kouzel)_
 
 Tato hůlka má 7 dávek. Když ji držíš v ruce, můžeš jako akci spotřebovat 1 dávku a tím pomocí ní seslat kouzlo pavučina (SO záchrany 15).
@@ -2209,8 +2685,6 @@ Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotře
   limit=""
   duration="Permanentní"
   >
-
-**Hůlka poutání**
 
 _Hůlka, vzácná (vyžaduje sladění se sesilatelem kouzel)_
 
@@ -2242,8 +2716,6 @@ Tato hůlka má 7 dávek pro následující vlastnosti. Každý den za úsvitu s
   duration="Permanentní"
   >
 
-**Hůlka proměn**
-
 _Hůlka, velmi vzácná (vyžaduje sladění se sesilatelem kouzel)_
 
 Tato hůlka má 7 dávek. Když ji držíš v ruce, můžeš jako akci spotřebovat 1 dávku a tím pomocí ní seslat kouzlo proměň tvora (SO záchrany 15).
@@ -2271,8 +2743,6 @@ Každý den za úsvitu si hůlka dobije 1k6 + 1 spotřebovaných dávek. Spotře
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Hůlka strachu**
 
 _Hůlka, vzácná (vyžaduje sladění)_
 
@@ -2304,8 +2774,6 @@ Kužel strachu. Když držíš hůlku, můžeš použít akci k spotřebován�
   duration="Permanentní"
   >
 
-**Hůlka tajemství**
-
 _Hůlka, neobvyklá_
 
 Tato hůlka má 3 dávky. Když ji držíš v ruce, můžeš jako akci spotřebovat 1 dávku a jsou-li do 6 sáhů od ní tajné dveře nebo past, hůlka začne pulzovat a ukáže na nejbližší dveře nebo past od tebe. Každý den za úsvitu si hůlka obnoví 1k3 spotřebovaných dávek.
@@ -2331,8 +2799,6 @@ Tato hůlka má 3 dávky. Když ji držíš v ruce, můžeš jako akci spotře
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Hůlka úsměvů**
 
 _Hůlka, běžná_
 
@@ -2362,8 +2828,6 @@ Hůlka si každý den za úsvitu obnoví všechny spotřebované dávky. Pokud u
   duration="Permanentní"
   >
 
-**Hůlka válečného mága +1, +2, nebo +3**
-
 _Hůlka, neobvyklá (+1), vzácná (+2), nebo velmi vzácná (+3), (vyžaduje sladění se sesilatelem kouzel)_
 
 Když držíš tuto hůlku v ruce, máš bonus k hodům na útok kouzlem daný její vzácností. Navíc ignoruješ poloviční kryt, když útočíš kouzlem.
@@ -2389,13 +2853,67 @@ Když držíš tuto hůlku v ruce, máš bonus k hodům na útok kouzlem dan
   duration="Permanentní"
   >
 
-**Hůlka zamračení**
-
 _Hůlka, běžná_
 
 Tato hůlka má 3 dávky. Když ji držíš v ruce, můžeš v rámci akce spotřebovat 1 dávku a ukázat jí na humanoida, kterého vidíš ve vzdálenosti do 6 sáhů. Cíl musí uspět v záchranném hodu na Charisma se SO 10, jinak se bude muset 1 minutu mračit.
 
 Hůlka si každý den za úsvitu obnoví všechny spotřebované dávky. Pokud utratíš poslední dávku, hoď k20, a když ti padne 1, hůlka se promění v *hůlku úsměvů*.
+</dnd-item>
+
+<dnd-item
+  title="Hůlka zapletení"
+  original="Wand of Entangle"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Neobvyklý"
+
+  attunement="Sesilatelem"
+  interaction="žádná int."
+
+  purpose="Kouzlící"
+  item="Hůlka"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Hůlka, neobvyklá (vyžaduje sladění se sesilatelem)*
+
+Hůlka má 7 nabití. Zatímco ji držíš, můžeš v rámci akce utratit jedno nabití na seslání kouzla *zapletení* (SO záchrany kouzla je 13). Každé ráno si hůlka obnoví 1k6 + 1 nabití. Pokud spotřebuješ všechna nabití, hoď si k20. Při hodu 1 se hůlka rozpadne v prach a bude zničena. (*Ponurá citadela*)
+</dnd-item>
+
+<dnd-item
+  title="Hůlka zimy"
+  original="Wand of Winter"
+
+  rulebook="Poklad dračí královny"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Kouzlící"
+  item="Hůlka"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+_Hůlka, vzácná_
+
+Tato hůlka vypadá a na dotek působí jako rampouch. K jejímu použití se s ní musíš sladit.
+
+Hůlka má 7 dávek, jež spotřebovává k sesílání kouzel. Pokud máš hůlku v ruce, můžeš použít svou akci k seslání jednoho z následujících kouzel, a to dokonce i v případě, že jinak nejsi schopen kouzla sesílat: mrazivý paprsek (žádná dávka nebo 1 dávka pro seslání z pozice kouzla 5. úrovně; +5 k zásahu kouzlem na dálku), zmrzlý déšť (3 dávky; SO záchranného hodu 15), nebo ledová bouře (4 dávky; SO záchranného hodu 15). Nejsou vyžadovány žádné složky.
+
+Hůlka si každý den za úsvitu obnoví 1k6 + 1 spotřebovaných dávek. Pokud spotřebuješ všechny dávky, hoď k20. Pokud je výsledek 20, hůlka se rozpustí a je navždy zničena.
 </dnd-item>
 
 <dnd-item
@@ -2418,8 +2936,6 @@ Hůlka si každý den za úsvitu obnoví všechny spotřebované dávky. Pokud u
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Chapadlové žezlo**
 
 _Žezlo, vzácná (vyžaduje sladění)_
 
@@ -2447,8 +2963,6 @@ Toto žezlo vyrobené drowy je magická zbraň, která je zakončené třemi pry
   duration="Permanentní"
   >
 
-**Ifrítí drátovka**
-
 _Zbroj (drátová), legendární (vyžaduje sladění)_
 
 Když máš na sobě tuto zbroj, získáš bonus +3 k OČ, jsi imunní vůči ohnivému zranění a rozumíš a umíš mluvit prvotštinou. Navíc můžeš stát na roztavené hornině a chodit po ní, jako by šlo o pevnou zem.
@@ -2475,8 +2989,6 @@ Když máš na sobě tuto zbroj, získáš bonus +3 k OČ, jsi imunní vůči 
   duration="Permanentní"
   >
 
-**Ifrítí láhev**
-
 _Divotvorný předmět, velmi vzácný_
 
 Tato malovaná mosazná láhev váží libru. Když ji jako akci odzátkuješ, vyjde z ní oblak hustého kouře. Na konci tvého tahu kouř zmizí ve výšlehu neškodného ohně a na volném místě do 6 sáhů od tebe se objeví ifrít. Viz jeho statistiky v Bestiáři.
@@ -2488,6 +3000,34 @@ Když se láhev otevře poprvé, PJ si hodí dle následující tabulky a urč
 |01–10  | 	Ifrít na tebe zaútočí. Po 5 kolech boje ifrít zmizí a láhev ztratí svou magii.|
 |11–90  | 	Ifrít ti bude sloužit 1 hodinu, jak mu přikážeš. Poté se vrátí do láhve a zazátkuje novou zátkou. Zátka se nedá odzátkovat následujících 24 hodin. Při dvou příštích odzátkování nastane stejný účinek. Je-li láhev otevřena počtvrté, ifrít unikne a zmizí a láhev ztratí svou magii.|
 |91–100 |	Ifrít pro tebe může třikrát seslat kouzlo přání. Po jedné hodině, nebo poté, co ti splní poslední přání, zmizí a láhev ztratí svou magii.|
+</dnd-item>
+
+<dnd-item
+  title="Insignie spárů"
+  original="Insignia of Claws"
+
+  rulebook="Poklad dračí královny"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Posilovače"
+  item=""
+
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+1"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+Divotvorný předmět, neobvyklý
+
+Když se ocitneš v boji, drahokamy na této insignii Dračího kultu se rozzáří nafialovělým světlem a posílí tvé pěsti nebo přirozené zbraně.
+
+Dokud tento odznak nosíš, získáš bonus +1 k hodům na útok a zranění, pokud bojuješ beze zbraně nebo přirozenou zbraní. Tyto útoky se považují za magické
 </dnd-item>
 
 <dnd-item
@@ -2511,9 +3051,7 @@ Když se láhev otevře poprvé, PJ si hodí dle následující tabulky a urč
   duration="Zvláštní"
   >
 
-**Iounin kámen**
-
-Divotvorný předmět, různě vzácný (vyžaduje sladění)
+*Divotvorný předmět, různě vzácný (vyžaduje sladění)*
 
 Iounin kámen je pojmenovaný po Ioun, bohyni znalostí a proroctví, jež se vyskytuje v některých světech. Existuje mnoho typů iouniných kamenů, přičemž každý z nich se liší kombinací tvaru a barvy.
 
@@ -2628,8 +3166,6 @@ Jeden prsten je především ukázkou zpracování a jeho moc odpovídá jeho kn
   duration="Zvláštní"
   >
 
-**Jedový lektvar**
-
 _Lektvar, neobvyklý_
 
 Tento odvar vypadá, voní a chutná jako léčivý lektvar či jiný prospěšný lektvar. Ale ve skutečnosti jde o jed maskovaný iluzorní magií. Kouzlo určení odhalí jeho skutečnou povahu.
@@ -2657,8 +3193,6 @@ Vypiješ-li ho, utrpíš jedové zranění 3k6 a musíš uspět v záchrann�
   limit="Nabití s obnovou"
   duration="X minut"
   >
-
-**Jedudýka**
 
 _Zbraň (dýka), vzácná_
 
@@ -2693,6 +3227,34 @@ Pomocí akce můžeš způsobit, že se čepel obalí hustým, černým jedem. J
 Když v této kadidelnici hoří kadidlo, můžeš pomocí akce vyslovit její zaklínadlo a přivolat vzdušného elementála, jako bys seslal kouzlo *vyvolej elementála*. Kadidelnici nelze znovu použít tímto způsobem až do příštího úsvitu.
 
 Tato 6 coulů široká a stopu vysoká váza připomíná pohár s ozdobnou záklopkou. Váží libru.
+</dnd-item>
+
+<dnd-item
+  title="Kámen neštěstí"
+  original="Stone of Ill Luck"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Neobvyklý"
+
+  attunement="Kýmkoliv"
+  interaction="Prokletý"
+
+  purpose="Trvalý přínos"
+  item="Amulet"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, neobvyklý (vyžaduje sladění)*
+
+Tento leštěný achát vypadá při prozkoumávání jako *kámen štěstí*, a pokud ho někdo má u sebe, je cílem jeho schopností.
+
+***Kletba.*** Jde o prokletý předmět. Dává svému nositeli –2 na ověřování vlastností a na záchranné hody. Dokud není kletba objevena, postihy k hodům tajně přičítá Pán jeskyně (se zohledněním toho, že ty si k hodům přičítáš předpokládaný bonus). Dokud není kletba odstraněna kouzlem *sejmi kletbu* nebo podobnou magií, kamene se dobrovolně nevzdáš. (*Skrytá svatyně tamoachanská*)
 </dnd-item>
 
 <dnd-item
@@ -2745,6 +3307,34 @@ Dotýká-li se kámen země, můžeš pomocí akce vyslovit jeho zaklínadlo a�
 *Divotvorný předmět, neobvyklý (vyžaduje sladění)*
 
 Když máš na sobě tento leštěný achát, získáš bonus +1 k ověřením vlastností a záchranným hodům.
+</dnd-item>
+
+<dnd-item
+  title="Kámen váhy"
+  original="Loadstone"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Vzácný"
+
+  attunement="Nevyžaduje"
+  interaction="Prokletý"
+
+  purpose="Nekonkrétní účel"
+  item="Šperk"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Do rozptýlení"
+  >
+
+*Divotvorný předmět, vzácný*
+
+Jedná se o velký drahokam v hodnotě 150 zl.
+
+***Kletba.*** Kámen je prokletý, leč jeho kouzelná podstata je ukryta; kouzlo *najdi magii* ji neodhalí. Skutečnou povahu kamene prozradí kouzlo *určení*. Kletba se aktivuje, pokud máš u sebe kámen a použiješ akci Sprint nebo Odpoutání se. Dokud kletbu nezlomí kouzlo *sejmi kletbu* nebo podobná magie, sníží se tvá rychlost o 1 sáh a maximální hodnoty tvého tlačení, vlečení a zvedání se sníží na polovinu. Taktéž nejsi ochotný se s kamenem rozloučit. (*Mrtví v Thayi*)
 </dnd-item>
 
 <dnd-item
@@ -3020,8 +3610,6 @@ Jako akci se dá jedna dávka mazání spolknout nebo natřít na pokožku. Tvor
   duration="Permanentní"
   >
 
-**Klobouk havěti**
-
 __Divotvorný předmět, běžný_
 
 Tento klobouk má 3 dávky. Když ho držíš, můžeš v rámci akce utratit jednu dávku, vyslovit zaklínadlo a přivolat tak podle svého přání netopýra, žábu nebo krysu. Přivolaný tvor se magicky vynoří z klobouku a hledí dostat se od tebe tak rychle, jak to jen jde. Tvor není ani přátelský, ani nepřátelský, ale chová se jako normální zvíře. Za jednu hodinu, nebo pokud mu životy klesnou na 0, zmizí. Klobouk si za úsvitu obnoví všechny spotřebované dávky.
@@ -3271,11 +3859,40 @@ Uzavřený tvor může použít svou akci k tlační na stěnu koule a pohyb
   duration="Permanentní"
   >
 
-**Korbel střízlivosti**
-
 _Divotvorný předmět, běžný_
 
 Tento korbel má na sobě zobrazenou přísně se tvářící tvář. Můžeš z ní pít pivo, víno nebo jakýkoliv jiný nemagický alkoholický nápoj, aniž by ses opil. Nádoba nemá žádný účinek na magické tekutiny nebo škodlivé látky, jako jsou například jedy.
+</dnd-item>
+
+<dnd-item
+  title="Koruna z černých perel"
+
+  rulebook="Pobřeží snů"
+
+  rarity="Velmi vzácný"
+
+  attunement="Sesilatelem"
+  interaction="Prokletý"
+
+  purpose="Tematické efekty"
+  item="Oblečení"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, velmi vzácný (vyžaduje sladění s kouzlící postavou)*
+
+Když korunu nosíš, máš dovednost dýchat pod vodou a dostaneš přirozenou rychlost ve vodě 6 sáhů.
+
+Koruna má 10 dávek. Když ji nosíš, můžeš použít akci k využití jedné nebo více dávek k zakouzlení jednoho z následujících kouzel, využívaje k tomu tvůj SO záchrany kouzla: *chůze po vodě* (3 dávky), *maelström* (5 dávek), *přílivová vlna* (4 dávky) nebo *vodní zeď* (3 dávky).
+
+Koruna si dobije 1k6 + 4 spotřebovaných dávek denně za úsvitu. Pokud vyčerpáš poslední dávku, hoď k20. Padne-li 1, koruna se promění ve vodu a je zničena.
+
+***Kletba.*** Jakmile si jednou tuto prokletou korunu nasadíš, nemůžeš ji sundat bez použití kouzla sejmi kletbu nebo podobné magie. Když korunu nosíš, Kult ničivých vln zná tvou polohu a ty získáš následující vadu (trvalé šílenství): „Voda je životní míza celého světa. Kdokoliv ji znesvětí, musí být smeten.“
 </dnd-item>
 
 <dnd-item
@@ -3390,11 +4007,39 @@ Přijde-li koule do styku se sférickým portálem, například tím vytvořený
   duration="Permanentní"
   >
 
-**Koule času**
-
 _Divotvorný předmět, běžný_
 
 Pokud máš tento předmět u sebe, můžeš jako akci zjistit, jestli je venku ráno, odpoledne, večer nebo noc. Tato vlastnost funguje pouze v Materiální sféře.
+</dnd-item>
+
+<dnd-item
+  title="Kouřový prach"
+  original="Smokepowder"
+
+  rulebook="Dračí loupež"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Jiný"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Jednorázové"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, neobvyklý*
+
+*Kouřový prach* je magická výbušnina používaná převážně k vystřelování kulek z hlavní střelných zbraní. Skladuje se ve vzduchotěsných dřevěných soudcích nebo malých vodotěsných balíčcích z kůže. Balíček obsahuje dost *kouřového prachu* na pět výstřelů a v soudku je ho dost na 500 výstřelů.
+
+Pokud *kouřový prach* někdo zapálí, upustí nebo s ním jinak hrubě zachází, prach vybuchne a udělí ohnivé zranění všem tvorům a předmětům v poloměru 4 sáhů: 1k6 za balíček, 9k6 za soudek. Úspěšným záchranným hodem na Obratnost se SO 12 lze zranění snížit na polovinu.
+
+Seslání kouzla *rozptyl magii* kouřový prach permanentně zneškodní.
 </dnd-item>
 
 <dnd-item
@@ -3417,8 +4062,6 @@ Pokud máš tento předmět u sebe, můžeš jako akci zjistit, jestli je venku 
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Kouzelnický klobouk**
 
 _Divotvorný předmět, běžný (vyžaduje sladění s kouzelníkem)_
 
@@ -3500,6 +4143,34 @@ Kouzelnické kouzlo na *kouzelném svitku* se dá opsat stejným způsobem, jako
 *Zbraň (jakákoli), vzácná*
 
 Když ti padne při hodu na útok s touto magickou zbraní 20, cíl utrpí dodatečné zranění typu zbraně 7.
+</dnd-item>
+
+<dnd-item
+  title="Krvavé kopí"
+  original="Blood Spear"
+
+  rulebook="Strádovo prokletí"
+
+  rarity="Neobvyklý"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Zbraň (kopí), neobvyklý předmět (vyžaduje sladění)*
+
+Kavan byl nelítostný náčelník, jehož kmen žil v Balinském pohoří mnoho staletí před příchodem Stráda von Zaroviče. Ačkoliv byl rozhodně živý, měl Kavan několik rysů společných s upíry: spal během dne a lovil v noci, pil krev svých obětí a žil pod zemí. V boji třímal kopí potřísněné krví. Bylo to první *krvavé kopí*, zbraň, jež vysává život z těch, které zabíjí, a předává jej svému nositeli, čímž ho posiluje a dodává mu výdrž v boji.
+
+Když zasáhneš útokem na blízko a snížíš počet životů cíle na 0, získáš 2k6 dočasných životů.
 </dnd-item>
 
 <dnd-item
@@ -3613,8 +4284,6 @@ Následující varianty *křišťálové koule* jsou legendární předměty, kt
   duration="Permanentní"
   >
 
-**Květináč probuzení**
-
 _Divotvorný předmět, běžný_
 
 Pokud do tohoto desetikilového hliněného hrnce zasadíš obyčejný keř a necháš ho po dobu 30 dní růst, keř se po uplynutí této doby magicky promění v **probuzený keř** (statistiky najdeš v *Bestiáři*). Po probuzení jeho kořeny prolomí květináč a zničí ho.
@@ -3642,8 +4311,6 @@ Probuzený keř je vůči tobě přátelský a dokud mu nedáš nějaký příka
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Květinová hůl**
 
 _Hůl, běžná_
 
@@ -4235,6 +4902,40 @@ Po vypití tohoto lektvaru můžeš 1 hodinu dýchat pod vodou. Jeho oblačně z
 </dnd-item>
 
 <dnd-item
+  title="Lektvar zmámení"
+  original="Potion of Mind Control"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Vzácný, Velmi vzácný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Lektvary"
+  item="Lektvar"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Jednorázové"
+  duration="1 hodina"
+  >
+
+*Lektvar, vzácnost různá*
+
+Když vypiješ *lektvar zmámení*, můžeš do konce svého příštího tahu použít na konkrétního tvora kouzlo *podrobení* (SO záchrany kouzla je 15). Neučiníš-li tak, je lektvar vyplýtván.
+
+*Lektvar zmámení* vytváří účinky kouzel *podrob zvíře*, *podrob osobu* (humanoid) nebo *podrob nestvůru* (viz tabulku níže). Neuspěje-li cíl v počátečním záchranném hodu, účinky trvají po 1 hodinu bez nutnosti soustředění. Zmámený tvor má během této doby nevýhodu k záchranným hodům na zlomení účinku. (*Proti obrům*)
+
+| Lektvar | Vzácnost |
+| --- | --- |
+| zmámení (zvíře) | vzácný |
+| zmámení (humanoid) | vzácný |
+| zmámení (nestvůra) | velmi vzácný |
+</dnd-item>
+
+<dnd-item
   title="Lektvar zmenšování"
   original="Potion of Diminution"
 
@@ -4349,6 +5050,68 @@ Koberec unese až dvojnásobek váhy uvedené v tabulce, ale pokud nese víc n
 Toto dřevěné koště, které váží 3 libry, funguje jako obyčejné koště, dokud se nad něj nepostavíš obkročmo a nevyslovíš jeho zaklínadlo. Nato se pod tebou vznese a dá se na něm létat. Má rychlost létání 10 sáhů. Unese až 400 liber, ale jeho rychlost létání klesne na 6 sáhů, když nese víc než 200 liber. Koště se přestane vznášet, když přistaneš.
 
 Můžeš vyslat koště, aby cestovalo samo na cílové místo do 1 míle od tebe, vyslovíš-li zaklínadlo a název místa, které znáš. Koště se vrátí k tobě, když znovu vyslovíš zaklínadlo, pokud je stále do 1 míle od tebe.
+</dnd-item>
+
+<dnd-item
+  title="Lotrovská páska přes oko"
+  original="Knave's Eye Patch"
+
+  rulebook="Dračí loupež"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Trvalý přínos"
+  item="Oblečení"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, vzácný (vyžaduje sladění)*
+
+Máš-li nasazenou přes oko tuto pásku, získáváš následující prospěchy:
+
+ * Získáváš výhodu k ověřením Moudrosti (Vnímání), které se opírají o zrak.
+ * Máš-li rys Citlivost na sluneční světlo, nemá na tebe žádný vliv.
+ * Jsi imunní vůči magii, která ostatním umožňuje číst tvé myšlenky nebo poznat, že lžeš. Tvorové s tebou můžou telepaticky komunikovat, pouze pokud to dovolíš.
+</dnd-item>
+
+<dnd-item
+  title="Lucerna duchů"
+  original="Ghost Lantern"
+
+  rulebook="Hrobka anihilace"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Výbava"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+_Divotvorný předmět, vzácný (vyžaduje sladění)_
+
+V lucerně duchů je polapen neklidný duch. Dokud ji držíš, můžeš použít bonusovou akci a duchovi přikázat, aby lucernu rozzářil, takže ta osvítí okruh 6 sáhů jasným a dalších 6 sáhů slabým světlem.
+
+Dokud lucernu držíš, můžeš použít svou bonusovou akci a duchovi přikázat, aby lucernu opustil a napodobil účinek kouzla mágova ruka. Jakmile kouzlo skončí, duch se vrátí do lucerny.
+
+Pokud upadneš do bezvědomí v dosahu 2 sáhů od lucerny, duch ji opustí, stabilizuje tě kouzelným dotekem, a vrátí se zpět.
+
+Duch je k lucerně připoután a nelze mu ublížit, odvrátit jej nebo vzkřísit z mrtvých. Seslání kouzla rozptyl zlo a dobro odešle ducha na onen svět a lucerna ztratí své magické schopnosti.
 </dnd-item>
 
 <dnd-item
@@ -4525,6 +5288,93 @@ Tato kniha obsahuje cviky pro zlepšení tělesné zdatnosti a její slova jso
 </dnd-item>
 
 <dnd-item
+  title="Maska černého draka"
+  original="Black Dragon Mask"
+
+  rulebook="Poklad dračí královny"
+
+  rarity="Legendární"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Všední předmět"
+
+  combat-effect="+odolnost/imunita, +oč, Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+_Divotvorný předmět, legendární, vyžaduje sladění_
+
+Tato rohatá maska z lesklého ebenu připomíná vzezřením lebku. Maska se po sladění přizpůsobí svému nositeli. Když máš masku na sobě a jsi s ní sladěný, můžeš využít její následující vlastnosti.
+
+**Pohlcení zranění.** Máš odolnost proti kyselině. Pokud už máš odolnost proti kyselině z jiného zdroje, získáš imunitu proti kyselinovému zranění. Pokud už máš imunitu proti kyselinovému zranění z jiného zdroje, obnovíš si životy ve výši poloviny kyselinového zranění, jež utrpíš.
+**Dračí majestát.** Pokud nenosíš žádnou zbroj, můžeš ke svému obrannému číslu přičíst opravu své hodnoty Charismatu.
+**Dračí dech.** Pokud máš dechovou zbraň, která vyžaduje k nabití odpočinek, změníš způsob jejího nabití na hod k6.
+**Dračí zrak.** Získáš schopnost vidění ve tmě na 12 sáhů, nebo dalších 12 sáhů, pokud už tuto schopnost máš. Jednou za den můžeš použít po dobu 5 minut na vzdálenost 6 sáhů mimozrakové vnímání.
+**Dračí jazyk.** Mluvíš a rozumíš dračí řeči. Máš také výhodu na všechna ověření Charismatu proti černým drakům.
+**Legendární odolání (1/den).** Neuspěješ-li v záchranném hodu, můžeš si místo toho zvolit, že uspěješ. Vodní dech. Můžeš dýchat pod vodou.
+</dnd-item>
+
+<dnd-item
+  title="Maska šelmy"
+  original="Mask of the Beast"
+
+  rulebook="Hrobka anihilace"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná interakce"
+
+  purpose="Kouzlící"
+  item="Všední předmět"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+_Divotvorný předmět, neobvyklý_
+
+Tato dřevěná maska je stylizovaná do tváře šelmy a má 3 dávky. Pokud máš masku nasazenou, můžeš použít svou akci a utratit jedno z nich k seslání kouzla přátelství zvířat. Maska si obnoví všechny utracené dávky za úsvitu.
+</dnd-item>
+
+<dnd-item
+  title="Matalotok"
+  original="Matalotok"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Legendární"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="+zásah, +odolnost/imunita"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Zbraň (válečné kladivo), legendární (vyžaduje sladění)*
+
+*Matalotok*, mrazivý otec, je prastaré kladivo vyrobené bohem mrazivých obrů Thrymem. Jde o oblíbenou zbraň démona Kostšije. *Matalotok* je na dotek studený a stoupá z něj mlžný opar.
+
+Dokud *Matalotok* třímáš, jsi imunní vůči chladnému zranění. Kdykoli kladivo udělí zranění jinému tvorovi, vyrazí ze sebe vlnu intezivního chladu v kouli o průměru 6 sáhů. Každý tvor v této oblasti utrpí chladné zranění 10 (3k6).
+</dnd-item>
+
+<dnd-item
   title="Mazaný zámek"
   original="Lock of Trickery"
 
@@ -4544,8 +5394,6 @@ Tato kniha obsahuje cviky pro zlepšení tělesné zdatnosti a její slova jso
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Mazaný zámek**
 
 *Divotvorný předmět, běžný*
 
@@ -4572,8 +5420,6 @@ Tento zámek vypadá jako obyčejný zámek (typ popsaný v kapitole 5 Příruč
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Meč měsíčního doteku**
 
 _Divotvorný předmět, běžný_
 
@@ -4879,8 +5725,6 @@ Proslulé a mocné kladivo Thora, boha ochránce, vládce hromu a blesku, ve kte
   duration="Permanentní"
   >
 
-**Mluvící panenka**
-
 *Divotvorný předmět, běžný (vyžaduje sladění)*
 
 Dokud je tento plyšový panáček do 1 sáhu od tebe, můžeš mu během krátkého odpočinku říct až šest vět. Žádná z nich nesmí být delší než šest slov a ty můžeš pro každou určit podmínku, za které panáček větu zopakuje. Staré fráze můžeš nahradit novými. Ať už je podmínka jakákoliv, musí se projevit v okruhu 1 sáhu od panenky, jinak panenka nepromluví. Například kdykoliv panenku někdo zvedne, může říct: “Dala bych si bonbon.” Když vaše sladění skončí, panenka o všechny naučené fráze přijde.
@@ -4936,8 +5780,6 @@ Když vytasíš tuto zbraň, můžeš uhasit všechny nemagické plameny do 6 s�
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Nablýskaná zbroj**
 
 *Zbroj (jakákoliv střední nebo těžká), běžná*
 
@@ -5051,6 +5893,34 @@ Když následně během 10 minut po vypití tohoto nápoje uvidíš tvora, stane
 </dnd-item>
 
 <dnd-item
+  title="Náramek skalní magie"
+  original="Bracelet of Rock Magic"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Velmi vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="Prokletý"
+
+  purpose="Tematické efekty"
+  item="Šperk"
+
+  combat-effect="+odolnost/imunita, Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Nabití bez obnovy"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, velmi vzácný (vyžaduje sladění)*
+
+Když nosíš tento zlatý náramek, máš imunitu vůči zkamenění a jako akci můžeš seslat kouzlo *zkamenění* (SO záchranného hodu je 15). Kouzlo můžeš seslat celkem třikrát. Po vypotřebování možností seslání *zkamenění* můžeš místo něj jako akci celkem třikrát seslat *tvaruj kámen*. Jakmile vypotřebuješ i tato seslání, amulet ztratí svou moc a zlato se změní na olovo.
+
+***Kletba.*** Spříznění náramku se zemí se manifestuje jako neobvyklá kletba. Tvorové z masa a krve mající silný vztah se zemí (jako trpaslíci a kamenní obři), dostávají na záchranný hod vůči kouzlu *zkamenění* sesílanému náramkem výhodu. Pokud v záchranném hodu uspějí, náramek zlomí své sladění s tebou a kouzlo naopak sešle na tebe; na záchranný hod máš nevýhodu, a pokud neuspěješ, okamžitě zkameníš. (*Skrytá svatyně tamoachanská*)
+</dnd-item>
+
+<dnd-item
   title="Naslouchátko"
   original="Ear Horn of Hearing"
 
@@ -5070,8 +5940,6 @@ Když následně během 10 minut po vypití tohoto nápoje uvidíš tvora, stane
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Naslouchátko**
 
 _Divotvorný předmět, běžný_
 
@@ -5140,8 +6008,6 @@ Na nástroj můžeš hrát během sesílání kouzla, jež při neúspěšném z
   duration="Zvláštní"
   >
 
-**Nástroj iluzí**
-
 _Divotvorný předmět, běžný (vyžaduje sladění)_
 
 Když hraješ na tento hudební nástroj, můžeš v okruhu 1 sáhu od nástroje vytvářet neškodné falešné optické iluze. Pokud jsi bard, zvětší se tento poloměr na 3 sáhy. Mezi typické iluze patří světelné noty, spektrální tanečnice, motýli a jemně padající sníh. Kouzelné iluze nemají ani hmotnost, ani zvuk a jsou zjevně jen zdánlivé. Jakmile přestaneš hrát, iluze skončí.
@@ -5168,13 +6034,37 @@ Když hraješ na tento hudební nástroj, můžeš v okruhu 1 sáhu od nástroje
   duration="X dní"
   >
 
-**Nástroj tajemného sdělení**
-
 _Divotvorný předmět, běžný (vyžaduje sladění)_
 
 Tento hudební nástroj má 3 dávky. Když na něj hraješ, můžeš v rámci akce utratit jednu dávku a zapsat na nemagický objekt nebo povrch, které vidíš v okruhu 6 sáhů, magickou zprávu. Zpráva může mít maximálně 6 slov a zapíše se v jazyce, který znáš. Pokud jsi bard, můžeš zapsat až dalších 7 slov a rozhodnout se, že zpráva bude slabě zářit a bude vidět v nemagické tmě. Kouzlo *rozptyl magii* zprávu smaže, jinak vydrží následujících 24 hodin.
 
 Nástroj si za úsvitu každého dne obnoví všechny spotřebované dávky.
+</dnd-item>
+
+<dnd-item
+  title="Nátepník létajících dýk"
+  original="Bracer of Flying Daggers"
+
+  rulebook="Dračí loupež"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Oblečení"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, vzácný (vyžaduje sladění)*
+
+Tento náramek na ruku vypadá, jako by na sobě měl připnuté malé dýky. V rámci akce můžeš z nátepníku vytáhnout dvě magické dýky, okamžitě je vrhnout a použít je pro útok na dálku. Dýka zmizí, pokud s ní okamžitě nehodíš, a obě dýky zmizí při zásahu i minutí cíle. Dýky v nátepníku nikdy nedojdou.
 </dnd-item>
 
 <dnd-item
@@ -5338,11 +6228,67 @@ Když máš na sobě plášť v oblasti šera či tmy, můžeš pomocí akce n
   duration="Permanentní"
   >
 
-**Nezlomitelný šíp**
-
 _Střelivo, běžné_
 
 Tento šíp nejde zlomit. Výjimkou je případ, kdy se nachází v *antimagickém poli*.
+</dnd-item>
+
+<dnd-item
+  title="Neznaboh"
+  original="Fane-Eater"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Legendární"
+
+  attunement="Klerikem, Paladinem, Přesvědčení"
+  interaction="žádná int."
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+3"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Zbraň (válečná sekera), legendární (vyžaduje sladění se zlým klerikem či paladinem)*
+
+Neznaboh je válečná sekera patřící Archánovi Hroznému (viz strana 102).
+
+S *Neznabohem* získáš bonus +3 ke všem hodům na útok a zranění s touto zbraní. Pokud zaútočíš na tvora a hodíš na útok přirozenou 20, tvor utrpí navíc 2k8 nekrotického zranění, zatímco ty si obnovíš počet životů odpovídající tomuto zranění.
+</dnd-item>
+
+<dnd-item
+  title="Noční vyvolávač"
+  original="Night Caller"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Kouzlící"
+  item="Všední předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="1/denně"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, neobvyklý*
+
+Tato píšťalka je vyřezána z průsvitného křišťálu a vypadá jako drobný drak stočený tak, že připomíná hlemýždě. Jméno *Noční vyvolávač* je do píšťalky vyřezáno trpasličími runami. Pokud postava úspěšně ověří Inteligenci (Mystika nebo Historie) se SO 20, vzpomene si, že prý takové píšťalky vyráběli pro různé zákazníky v minulosti duergaři.
+
+Pokud na píšťalku zapískáš ve tmě nebo v noci, umožní ti seslat kouzlo *oživ mrtvého*. Cíl bude ovlivněn až do hloubky 2 sáhů měkké půdy nebo obdobného materiálu a bude mu trvat 1 minutu, než se z takové hloubky vyhrabe na povrch, aby ti sloužil. Jakmile píšťalka oživí nemrtvého, nelze ji znovu použít po dobu 7 dnů.
+
+Jednou za 24 hodin můžeš na píšťalku zapískat, abys ovládl jednoho nebo dva nemrtvé, které jsi s její pomocí vytvořil. (*Ponurá citadela*)
 </dnd-item>
 
 <dnd-item
@@ -5482,11 +6428,41 @@ Tyto křišťálové čočky pasují na oči. Když je máš na sobě, vidíš m
   duration="Permanentní"
   >
 
-**Odkládací zbroj**
-
 _Zbroj (lehká, střední nebo těžká), běžná_
 
 Tuto zbroj můžeš sundat v rámci své akce.
+</dnd-item>
+
+<dnd-item
+  title="Odznak hlídky"
+  original="Badge of the Watch"
+
+  rulebook="Dračí loupež"
+
+  rarity="Vzácný"
+
+  attunement="Jiné"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Šperk"
+
+  combat-effect="+oč"
+  bonus="+2"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, vzácný (vyžaduje sladění s někým, kdo byl jmenovaný Odhaleným lordem Hlubiny)*
+
+*Odznak hlídky* se dává pouze těm, kdo si zasloužili důvěru Odhaleného lorda Hlubiny. Odznak, značící v Hlubinské městské hlídce hodnost kapitána, má na sobě symbol Hlubiny a je určen k tomu, aby se nosil na uniformě nebo jinde při sobě.
+
+Máš-li odznak u sebe, získáváš bonus +2 k OČ, pokud nepoužíváš štít.
+
+Je-li odznak dál než 1 sáh od tebe po dobu delší než 1 minuta, zmizí a neškodně se objeví na povrchu ve vzdálenosti do 1 sáhu od Odhaleného lorda. Odhalený lord může podržením odznaku zjistit tvou polohu. Podmínkou je, že jste oba ve stejné sféře existence a že tvé sladění s odznakem trvá.
+
+Odhalený lord se může v rámci akce odznaku dotknout a tvoje sladění ukončit.
 </dnd-item>
 
 <dnd-item
@@ -5537,8 +6513,6 @@ Při každém použití magie rohu je 20% šance, že roh vybuchne. Výbuch způ
   duration="Permanentní"
   >
 
-**Ohniskový předmět +X**
-
 _Různá, vyžaduje Sladění se Sesilatelem kouzel_
 
 Tento Ohniskový předmět zvýší tvůj Útočný bonus kouzel a tvůj SO Záchrany kouzel o Hodnotu danou jeho Vzácností. Vypadá jako některý standardní Ohniskový předmět. Existují varianty pro konkrétní Povolání, pro jednotlivé Typy magie (Mystickou, Božskou, Přírodní) i zcela univerzální.
@@ -5577,6 +6551,34 @@ Když držíš tuto berlu, jsi odolný vůči ohnivému zranění.
 Berla má 10 dávek. Když ji držíš, můžeš použít akci k spotřebování 1 či více dávek a tím pomocí ní seslat jedno z následujících kouzel, za použití tvého SO záchrany kouzla: *hořící ruce* (1 dávka), *ohnivá koule* (3 dávky) nebo *ohnivá zeď* (4 dávky).
 
 Každý den za úsvitu si dobije 1k6 + 4 spotřebovaných dávek. Spotřebuješ-li poslední dávku, hoď k20. Padne-li 1, berla zčerná, promění se v popel a zničí se.
+</dnd-item>
+
+<dnd-item
+  title="Ohnivá zbraň"
+  original="Hellfire Weapon"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Zbraň (libovolná), neobvyklá*
+
+Zbraň je vyrobena z pekelného železa a protkána žilkami pekelného ohně, které slabě osvětlují okolí do vzdálenosti 1 sáhu.
+
+Duše každého humanoida zabitého útokem ohnivou zbraní putuje do řeky Styx, kde se okamžitě znovuzrodí jako mátoha (viz Bestiář).
 </dnd-item>
 
 <dnd-item
@@ -5746,8 +6748,6 @@ Tyto křišťálové čočky pasují na oči. Mají 3 dávky. Když je máš na 
   limit="Jednorázové"
   duration="X hodin"
   >
-
-**Okouzlující parfém**
 
 _Divotvorný předmět, běžný_
 
@@ -6018,6 +7018,32 @@ Tyto křišťálové čočky pasují na oči. Když je máš na sobě, máš vý
 </dnd-item>
 
 <dnd-item
+  title="Orlí píšťalka"
+  original="Eagle Whistle"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Vzácný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Cestování"
+  item="Všední předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Zvláštní"
+  >
+
+*Divotvorný předmět, vzácný*
+
+Pokud setrvale pískáš na *orlí píšťalku*, letíš rychlostí rovnou dvojnásobku rychlosti své chůze. Na píšťalku dokážeš nepřetržitě pískat po (5 + oprava za Odolnost) kol (nejméně 1 kolo), případně dokud nezačneš mluvit, zadržovat dech nebo se dusit. Účinek píšťalky rovněž skončí, pokud přistaneš. Jsi-li v okamžiku, kdy přestaneš pískat, ve vzduchu, spadneš. Můžeš tak učinit třikrát a spotřebovaná použití se každé ráno obnoví. (*Skrytá svatyně tamoachanská*)
+</dnd-item>
+
+<dnd-item
   title="Osvěžující kulička"
   original="Bead of Refreshment"
 
@@ -6037,8 +7063,6 @@ Tyto křišťálové čočky pasují na oči. Když je máš na sobě, máš vý
   limit="Jednorázové"
   duration="Permanentní"
   >
-
-**Osvěžující kulička**
 
 _Divotvorný předmět, běžný_
 
@@ -6184,6 +7208,70 @@ Když tuto zbraň držíš, svítí jasným světlem v okruhu o poloměru 4 
 </dnd-item>
 
 <dnd-item
+  title="Papírová vlaštovka"
+  original="Paper Bird"
+
+  rulebook="Dračí loupež"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Svitek"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Jednorázové"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, neobvyklý*
+
+Když na tento pergamen napíšeš zprávu o 50 nebo méně slovech a vyslovíš jméno tvora, pergamen se magicky složí do Drobné papírové vlaštovky a odletí k adresátovi, jehož jméno jsi vyslovil. Adresát musí být ve stejné sféře existence jako ty, jinak se vlaštovka při odletu promění v prach.
+
+Vlaštovka je předmět s 1 životem, OČ 13, rychlostí letu 12 sáhů, Obratností 16 (+3), hodnotou 1 (–5) všech ostatních vlastností a je imunní vůči jedovému a psychickému poškození.
+
+Tou nepřímější cestou doletí do vzdálenosti 1 sáhu od zamýšleného adresáta, načež se promění v nemagický a neživý pergamen, který může otevřít pouze zamýšlený adresát. Klesnou-li životy vlaštovky na 0 či je jinak imobilizovaná, promění se v prach.
+
+*Papírové vlaštovky* se obvykle uchovávají v malých plochých krabičkách s 1k6 + 3 listy pergamenu.
+</dnd-item>
+
+<dnd-item
+  title="Pavoučí hůl"
+  original="Spider Staff"
+
+  rulebook="Ztracený důl Fendelveru"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Berla"
+
+  combat-effect="+zásah, Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Hůl, vzácná (vyžaduje sladění)*
+
+Vršek této černé adamantinové hole má tvar pavouka. Hůl váží 6 liber a k používání jejích magických vlastností je nutné se s ní sladit.
+
+Hůl lze používat v boji, přičemž při úspěšném zásahu udělí navíc 1k6 jedového zranění.
+
+Hůl má 10 dávek, skrz které lze sesílat kouzla v ní uložená. S holí v ruce můžeš použít svou akci k seslání jednoho z následujících kouzel, je-li toto na seznamu kouzel tvého povolání: *pavoučí šplh* (1 dávka) nebo *pavučina* (2 dávky, SO záchrany kouzla je 15). Složky nejsou potřeba.
+
+Každý den za soumraku si hůl dobije 1k6 + 4 spotřebovaných dávek. Spotřebuješ-li poslední dávku, hoď k20. Padne-li 1, hůl se rozpadne na prach a zničí se.
+</dnd-item>
+
+<dnd-item
   title="Pavoučí plášť"
   original="Cloak of Arachnida"
 
@@ -6213,6 +7301,66 @@ Tento hebký oděv je vyroben z černého hedvábí a protkaný jemnými st�
  * Můžeš se pohybovat nahoru, dolů i do stran na svislých površích, a dokonce i po stropech hlavou dolů s volnýma rukama.
  * Nemůžeš být chycen do pavučin žádného druhu a neprostupnými pavučinami můžeš procházet, jako by šlo o těžký terén, a pavučinami, které jsou jako těžký terén, můžeš procházet zcela volně.
  * Jako akci můžeš seslat kouzlo *pavučina* (SO záchrany 13). Pavučina vytvořená kouzlem vyplní dvojnásobek normální plochy. Tuto vlastnost pláště nelze použít znovu až do příštího úsvitu.
+</dnd-item>
+
+<dnd-item
+  title="Pekelný hlavolam"
+  original="Infernal Puzzle Box"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Úložný předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, neobvyklý*
+
+*Pekelný hlavolam* je krabička ve tvaru krychle o hraně 5 až 6 coulů a skládá se ze vzduchotěsných, navzájem propojených částí vyrobených z materiálů typických pro Devět pekel. Většina těchto krabiček je vyrobena z pekelného železa, ale najdou se i takové, které jsou vyřezané z kostí nebo rohů. *Pekelné hlavolamy* se používají k zabezpečení smluv mezi ďábly a smrtelníky, a to dokonce i poté, co jsou podmínky smlouvy splněny. Prázdný *pekelný hlavolam* váží 3 libry bez ohledu na výrobní materiál.
+
+Pokud je do *pekelného hlavolamu* umístěn předmět dost malý, aby se do něj vešel, nádoba se kolem předmětu uzavře a nelze ji žádným kouzlem otevřít. Zapečetěná krabička je imunní vůči všem druhům poškození. Pro každý *pekelný hlavolam* existuje unikátní způsob, jak jej otevřít, přičemž jde vždy o obyčejné – nikoliv kouzelné – řešení. Jakmile tvor přijde na fintu nebo pořadí kroků, které určitý pekelný hlavolam otevírají, může jej otevřít v rámci své akce a odhalit tak jeho obsah.
+
+Tvor, který stráví 1 hodinu pokusy o otevření *pekelného hlavolamu*, může provést ověření Inteligence se SO 30. Pokud uspěje, naučí se fintu nebo pořadí kroků nutné k otevření krabičky. Pokud ověření selže o 5 a více, musí tvor uspět v záchranném hodu na Moudrost se SO 18, jinak utrpí 42 (12k6) psychického zranění; polovinu při úspěchu.
+</dnd-item>
+
+<dnd-item
+  title="Pekelný postroj"
+  original="Infernal Tack"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Legendární"
+
+  attunement="Přesvědčení"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Všední předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, legendární (vyžaduje sladění s tvorem zlého přesvědčení)*
+
+Narzugon svou noční můru (viz Bestiář) ovládá pomocí *pekelného postroje* sestávajícího z opratí, ostruh, sedla, třmenů, udidla a uzdy. Noční můra navlečená do pekelného postroje musí sloužit každému, kdo nosí příslušné ostruhy, dokud má noční můra postroj na sobě nebo dokud jezdec nezemře.
+
+V rámci své akce můžeš přivolat noční můru v *pekelném postroji* tak, že secvakneš ostruhy k sobě nebo je otřeš o krev. Noční můra se objeví na začátku tvého příštího tahu v dosahu 4 sáhů od tebe. Chová se jako tvůj spojenec a sdílí tvou hodnotu iniciativy. Zůstane s tebou 1 den, dokud jeden z vás nezemře nebo dokud ji v rámci své akce neodvoláš. Pokud noční můra zemře, znovu se v Devíti peklech zrodí během následujících 24 hodin, načež ji můžeš opět povolat.
+
+Postroj nestvoří noční můru z ničeho; musíš ji nejdříve zkrotit, abys na ni postroj mohl navléct. Žádná noční můra to však neudělá dobrovolně, ale některé z nich přece jen nakonec mohou pocítit silnou oddanost svému pánu či si k němu vytvořit partnerské pouto ke konání zla.
 </dnd-item>
 
 <dnd-item
@@ -6265,6 +7413,36 @@ Když máš na sobě tento plášť, máš výhodu k záchranným hodům proti
 *Divotvorný předmět, neobvyklý (vyžaduje sladění se sesilatelem kouzel)*
 
 Když máš u sebe tuto perlu, můžeš jako akci vyslovit zaklínadlo této perly a obnovit si utracenou pozici kouzel. Byla-li utracená pozice kouzel 4. či vyšší úrovně, nová pozice je 3. úrovně. Jakmile tuto perlu použiješ, nelze ji použít znovu až do příštího úsvitu.
+</dnd-item>
+
+<dnd-item
+  title="Pero přivolání diatrymy"
+  original="Feather of Diatryma Summoning"
+
+  rulebook="Dračí loupež"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Vyvolávání"
+  item="Jiný"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Nabití s obnovou"
+  duration="6 hodin"
+  >
+
+*Divotvorný předmět, vzácný (vyžaduje sladění)*
+
+Toto pero patří diatrymě, Velkému, barevnému, nelétavému ptákovi původem z Temných říší. Využiješ-li akci na vyslovení zaklínadla a hození pera na Velké neobsazené místo na zemi do 1 sáhu od tebe, z pera se na 6 hodin stane živá diatryma, po jejichž uplynutí se vrátí do podoby pera. Do podoby pera se vrátí předčasně, klesnou-li její životy na 0, případně použiješ-li akci na opětovné vyslovení zaklínadla a budeš se tvora při tom dotýkat.
+
+Když se diatryma vrátí do podoby pera, kouzlo nemůže být použito dalších 7 dní.
+
+Diatryma používá statistiky **sekerozobáka**, až na to, že její zobák uděluje bodné zranění místo sečného. Tvor je přátelský k tobě a tvým společníkům a lze ho použít jako oře. Rozumí tvému jazyku a poslouchá tvé výslovné příkazy. Nevydáš-li žádný příkaz, diatryma se bude bránit, ale žádné jiné akce nepodnikne.
 </dnd-item>
 
 <dnd-item
@@ -6366,8 +7544,6 @@ Když máš na sobě tento plášť, vytváří iluzi, že stojíš na místě p
   duration="Permanentní"
   >
 
-**Plášť mnoha střihů**
-
 _Divotvorný předmět, běžný_
 
 Když máš oblečen tento plášť, můžeš mu využitím bonusové akce změnit styl, barvu a navenek i kvalitu materiálu. Jeho hmotnost se přitom nemění. Bez ohledu na svůj vzhled však nemůže být plášť ničím jiným než pláštěm. Může sice kopírovat vzhled jiných kouzelných plášťů, nezískává ale jejich kouzelné vlastnosti.
@@ -6399,6 +7575,36 @@ Když máš oblečen tento plášť, můžeš mu využitím bonusové akce změn
 Když máš na sobě tento plášť, můžeš si přehodit přes hlavu jeho kapuci a stát se tak neviditelným. Když jsi neviditelný, vše, co máš na sobě a neseš je neviditelné spolu s tebou. Když si kapuci stáhneš, staneš se viditelným. Nasazení nebo sundání kapuce vyžaduje akci.
 
 Během doby, kdy jsi neviditelný, se po minutách odečítá čas z maximální doby trvání pláště 2 hodiny. Po 2 hodinách používání plášť přestane fungovat. Za každých 12 hodin, co se plášť nepoužívá, si dobije 1 hodinu trvání.
+</dnd-item>
+
+<dnd-item
+  title="Plášť z pekelného ohaře"
+  original="Hell Hound Cloak"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="Prokletý"
+
+  purpose="Kouzlící"
+  item="Oblečení"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="1 hodina"
+  >
+
+*Divotvorný předmět, vzácný (vyžaduje sladění)*
+
+Tento temný plášť vyrobili z vydělané kůže pekelného ohaře. Jako akci můžeš plášti poručit, aby tě proměnil až na 1 hodinu v pekelného ohaře. Proměna se jinak podobá kouzlu *proměň tvora* s tím rozdílem, že se můžeš vrátit do původní podoby bonusovou akcí.
+
+***Kletba.*** Plášť je prokletý životní podstatou pekelného ohaře, a sladění přenese kletbu i na tebe. Dokud kletbu nezlomí kouzlo *sejmi kletbu* nebo podobná magie, nejsi ochotný se pláště vzdát a máš ho stále na dosah.
+
+Při šesté a každé následující proměně musíš uspět v záchranném hodu na Charisma se SO 15, jinak proměna potrvá až do doby, dokud nebude rozptýlena nebo dokud ti životy neklesnou na 0 a nejsi ochotný se dobrovolně proměnit zpět do své původní podoby. Zůstaneš-li někdy v podobě pekelného ohaře po dobu 6 a více hodin, proměna se stane trvalou a ty ztratíš vědomí sama sebe. Tvé statistiky nahradí statistiky pekelného ohaře. Pouze kouzlo *sejmi kletbu* a podobná magie ti vrátí tvou identitu a umožní ti návrat do normální podoby. Zůstaneš-li v podobě pekelného ohaře po dobu 6 dnů, dokáže proměnu zvrátit pouze kouzlo *přání*. (*Proti obrům*)
 </dnd-item>
 
 <dnd-item
@@ -6954,6 +8160,32 @@ Když máš navléknutý tento prsten a padáš, klesáš rychlostí 12 sáhů
 </dnd-item>
 
 <dnd-item
+  title="Prsten pravdomluvnosti"
+  original="Ring of Truth Telling"
+
+  rulebook="Dračí loupež"
+
+  rarity="Neobvyklý"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Trvalý přínos"
+  item="Prsten"
+
+  combat-effect="Nebojový"
+  bonus="Výhoda"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Prsten, neobvyklý (vyžaduje sladění)*
+
+Máš-li nasazen tento prsten, máš výhodu na ověření Moudrosti (Vhled) při odhalování lží.
+</dnd-item>
+
+<dnd-item
   title="Prsten přivolávání džinů"
   original="Ring of Djinni Summoning"
 
@@ -7254,6 +8486,51 @@ Pokud zemřeš a máš navléknutý tento prsten, tvá duše do něj vstoupí,
 </dnd-item>
 
 <dnd-item
+  title="Prsten zimy"
+  original="Ring of Winter"
+
+  rulebook="Hrobka Anihilace"
+
+  rarity="Artefakt"
+
+  attunement="Kýmkoliv"
+  interaction="Ovlivňující, Vnímající"
+
+  purpose="Artefakty"
+  item="Prsten"
+
+  combat-effect="+odolnost/imunita, Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezený"
+  duration="Permanentní"
+  >
+
+_Prsten, artefakt (vyžaduje sladění)_
+
+Artuš Cimber (viz dodatek D) vlastní tento prsten již více než sto let. _Prsten zimy_ je zlatý kroužek, který se svou velikostí sám přizpůsobí prstu nositele. Vnější plocha prstenu je pokryta tenkou vrstvou ledu, která se v běžném teple nerozpouští. Na dotek je prsten studený jako led a okamžitě znemrtví chladem ruku toho, kdo jej nosí, dokud se s ním nositel nesladí.
+
+_Prsten zimy_ je vnímající předmět, jenž se snaží ovládnout tvora, který jej nosí (viz „Vnímající kouzelné předměty“ v 7. kapitole Průvodce Pána jeskyně). Pokud uspěje, nutí svého nositele bezdůvodně ubližovat všem a všemu kolem sebe, aby na nositele přivolal zkázu a hněv nepřátel.
+
+**Vnímání.** _Prsten zimy_ je vnímající předmět s chaoticky zlým přesvědčením. Jeho hodnota Inteligence je 14, Moudrosti 14 a Charismatu 17. Prsten komunikuje prostřednictvím přenosu emocí na tvora, jenž jej nosí, slyší a vidí na vzdálenost 12 sáhů, miluje ničení a užívá si ubližování druhým.
+
+**Nenalezitelný.** _Prsten zimy_ odolá všem pokusům o jeho nalezení pomocí kouzel. Ani prsten, ani jeho nositel nemohou být cílem žádného věšteckého kouzla, a nelze je pozorovat ani jasnovideckými nástroji.
+
+**Zmražený čas.** Dokud prsten nosíš, nestárneš. Tento účinek se podobá odloženému oživení, takže když si prsten sundáš, léta tě nedoženou. Prsten však svého nositele neochrání před nadpřirozenými účinky stárnutí, jaké způsobuje například Děsivý vzhled duchů.
+
+**Imunita vůči chladu.** Pokud jsi s prstenem sladěný a máš jej nasazený, jsi imunní vůči chladnému zranění a netrpíš následky extrémního chladu (viz 5. kapitolu Průvodce Pána jeskyně).
+
+**Kouzla.** _Prsten zimy_ má 12 dávek, přičemž si všechny utracené dávky dobije vždy za úsvitu. Když máš prsten nasazený, můžeš utratit patřičný počet dávek k aktivaci následujících schopností:
+ * Za akci a 1 dávku prsten sníží teplotu v kouli o průměru 24 sáhů se středem v tobě nebo v místě v dosahu 60 sáhů, které určíš. Teplota klesne o 20 stupňů, a to až na minimum –35°C. Jakmile teplota klesne pod nulu, začnou se na površích v oblasti účinku tvořit námraza a led. Účinek je trvalý, pokud prsten nepoužiješ k jeho ukončení. V takovém případě se teplota vrátí do normálu rychlostí 5 stupňů za minutu.
+ * Můžeš utratit odpovídající počet dávek a pomocí prstenu seslat jedno z následujících kouzel (SO záchrany kouzla je 17): Bigbyho ruka (2 dávky; ruka je vytvořena z ledu, imunní na zranění chladem a jako pěst uděluje namísto silového drtivé zranění), kužel mrazu (2 dávky), maso na led (3 dávky; stejné jako maso na kámen s tím rozdílem, že cíl se promění v led pevný a odolný jako kámen), ledová bouře (2 dávky), Otilukova mrazivá koule (3 dávky), zmrzlý déšť (1 dávka), trny (1 dávka; trny jsou z ledu) a ledová zeď (2 dávky).
+ * Můžeš za akci utratit patřičný počet dávek a použít prsten k vytvoření neživého ledového předmětu (2 dávky) nebo oživeného ledového tvora (4 dávky). Ledový předmět nesmí mít pohyblivé části, musí se vejít do krychle o straně 2 sáhy a má hustotu a odolnost jako kov či kámen (podle tvé volby). Ledový tvor musí být vytvořen podle zvířete s nebezpečností 2 a nižší. Ledový tvor má statistiky své předlohy s těmito změnami: tvor je výtvor se zranitelností vůči ohnivému zranění, imunitou vůči chladnému a jedovému zranění a imunitou vůči následujícím stavům: otrávený, paralyzovaný, únava, vystrašený, zkamenělý a zmámený. Ledový tvor poslouchá pouze příkazy stvořitele. Ledový předmět nebo tvor se objeví na volném místě v dosahu 12 sáhů od tebe. Po 24 hodinách, nebo pokud přijde o všechny životy, se rozpustí v louži obyčejné vody. V extrémním horku taje a ztrácí 5 (1k10) životů za minutu. Pokud potřebuješ určit počet životů neživého předmětu, použij návody v 8. kapitole Průvodce Pána jeskyně.
+
+**Další vlastnosti.** O Prstenu zimy se říká, že má schopnosti, jež může použít pouze zlá bytost, jejíž mysl nemůže prsten ovládnout. Ledoví obři dlouho věřili, že prsten má moc uvrhnout do věčného mrazu celý svět, zatímco džinové ve službách kalimšanských pašů kdysi tvrdili, že prstenem lze vyvolat a ovládat bílé draky, stejně jako mocného prastarého ledového elementála Cryonaxe.
+
+**Zničení prstenu.** Prsten je téměř nezničitelný. Odolá i tomu největšímu magickému žáru. Zničit jej může pouze mocná vílí paní Titania, známí jako Letní královna, prostě tím, že si jej nasadí – prsten se rozpustí a je navždy zničen.
+</dnd-item>
+
+<dnd-item
   title="Přenosný otvor"
   original="Portable Hole"
 
@@ -7388,8 +8665,6 @@ Tato přilba má 3 dávky. Když ji máš na sobě, můžeš použitím akce spo
   duration="Permanentní"
   >
 
-**Pyrotechnická hůlka**
-
 _Hůlka, běžná_
 
 Tato hůlka má 7 dávek. Když ji držíš v ruce, můžeš v rámci akce spotřebovat 1 dávku a v bodě, který vidíš ve vzdálenosti do 12 sáhů, nechat vybuchnout ohňostroj různobarevného světla. Výbuch světla je doprovázen praskáním, které je slyšet až do vzdálenosti 60 sáhů. Světlo je jasné jako plamen pochodně, ale vydrží jen jednu sekundu.
@@ -7522,6 +8797,42 @@ Jako bonusovou akci ve svém tahu můžeš nařídit biči, aby uletěl až 4 s�
 </dnd-item>
 
 <dnd-item
+  title="Ravenloftská ikona"
+  original="Icon of Ravenloft"
+
+  rulebook="Strádovo prokletí"
+
+  rarity="Legendární"
+
+  attunement="Přesvědčení"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Jiný"
+
+  combat-effect="+so, Jiný efekt"
+  bonus="+2"
+
+  limit="1/denně"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, legendární (vyžaduje sladění s bytostí dobrého přesvědčení)*
+
+*Ravenloftská ikona* je 12 coulů vysoká soška z ryzího stříbra vážící 10 liber. Znázorňuje prosebně klečícího klerika.
+
+Ikonu obdržel Strád k vysvěcení hradu a jeho kaple od starého rodinného přítele, velekněze Cirila Romuliče.
+
+Každá bytost v dosahu 6 sáhů od ikony je pod účinkem kouzla *ochrana před zlem a dobrem* proti ďasům a nemrtvým. Pouze bytost sladěná s ikonou může využívat její další schopnosti.
+
+***Předvídání.*** V rámci akce můžeš s pomocí ikony seslat kouzlo *předvídání* bez využití surovinové složky kouzla. Po využití nemůže být schopnost znovu použita do příštího úsvitu.
+
+***Zhouba nemrtvých.*** Ikonu lze využít jako svatý symbol při použití schopnosti Odvracení nemrtvých nebo Odvracení znesvěcených. Pokud tak učiníš, zvyš SO záchranného hodu o 2.
+
+***Zhoj zranění.*** Když ikonu držíš, můžeš pomocí své akce vyléčit jednu bytost, kterou vidíš v dosahu 6 sáhů. Není-li cíl nemrtvý, výtvor nebo ďas, obnoví si 3k8 + 3 životů. Po využití nemůže být schopnost znovu použita do příštího úsvitu.
+</dnd-item>
+
+<dnd-item
   title="Rejnočí plášť"
   original="Cloak of the manta ray"
 
@@ -7567,36 +8878,6 @@ Když máš na sobě tento plášť s přehozenou kapucí, můžeš dýchat po
   limit="Nabití s obnovou"
   duration="Permanentní"
   >
-
-**Roh tichého poplachu**
-
-*Divotvorný předmět, běžný*
-
-Tento roh má 4 dávky. Když na něj v rámci své akce zatroubíš, uslyší jeho zvuk jeden tvor, kterého sis vybral. Ten současně nesmí být hluchý a nesmí být od tebe vzdálen více než 120 sáhů. Zvuk rohu nemůže slyšet žádný jiný tvor. Roh si za úsvitu každého dne obnoví 1k4 spotřebovaných dávek.
-</dnd-item>
-
-<dnd-item
-  title="Roh tichého poplachu"
-  original="Horn of Silent Alarm"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Konkrétní efekt"
-  item="Všední předmět"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Nabití s obnovou"
-  duration="Permanentní"
-  >
-
-**Roh tichého poplachu**
 
 *Divotvorný předmět, běžný*
 
@@ -7698,6 +8979,32 @@ Toto černé, nebo tmavě modré roucho je ozdobeno malými bílými či stříb
 Šest hvězd, které se nachází v přední horní části roucha, je obzvlášť velkých. Když máš na sobě toto roucho, můžeš jako akci strhnout jednu z hvězd a použít ji k seslání *magické střely* jako kouzla 5. úrovně. Každý den za soumraku se na rouchu znovu objeví 1k6 stržených hvězd.
 
 Když máš na sobě toto roucho, můžeš jako akci vstoupit do Astrální sféry se vším, co neseš nebo máš na sobě. Zůstaneš tam, dokud nepoužiješ akci k návratu do sféry, ve které jsi byl. Znovu se objevíš na posledním místě, které jsi zabíral, nebo na nejbližším volném místě, pokud je dané místo obsazené.
+</dnd-item>
+
+<dnd-item
+  title="Roucho léta"
+  original="Robe of Summer"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Trvalý přínos"
+  item="Oblečení"
+
+  combat-effect="+odolnost/imunita"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, vzácný (vyžaduje sladění)*
+
+Tento elegantní šat ušili z jemné látky v odstínech červené, oranžové a zlaté. Máš-li ho oblečený, získáš odolání vůči chladnému zranění. Kromě toho v šatu netrpíš neblahými účinky teplotních extrémů počasí, protože máš takové pohodlí, jako by byl příjemný den. (*Mrtví v Thayi*)
 </dnd-item>
 
 <dnd-item
@@ -7834,39 +9141,35 @@ Mimo to má roucho 4k4 dalších záplat. PJ zvolí jaké, nebo je určí náhod
   duration="Zvláštní"
   >
 
-**Rubín válečného mága**
-
 *Divotvorný předmět, běžný (vyžaduje sladění se sesilatelem)*
 
 Tento rubín o průměru jednoho coulu je pokrytý tajemnými runami a umožní ti použít jednoduchou nebo vojenskou zbraň jako Sesílací ohniskový předmět. Pokud chceš tuto vlastnost využívat, musíš ho přitisknout na danou zbraň a alespoň 10 minut ho tam držet. Rubín se pak nedá odstranit, a to ani v *antimagickém poli*, dokud není zbraň zničena nebo dokud ho v rámci akce nesundáš (ukončíš s ním sladění).
 </dnd-item>
 
 <dnd-item
-  title="Rubín válečného mága"
-  original="Ruby of the War Mage"
+  title="Ruka svaté Sidvely"
+  original="Hand of Saint Sidvela"
 
-  rulebook="Xanatharův průvodce vším"
+  rulebook="Kaple na útesech"
 
-  rarity="Běžný"
+  rarity="Artefakt"
 
-  attunement="Sesilatelem"
+  attunement=""
   interaction="žádná int."
 
-  purpose="Sesílání"
-  item="Jiný"
+  purpose="Artefakty"
+  item="Žezlo"
 
   combat-effect="Jiný efekt"
   bonus="Žádný bonus"
 
-  limit="Neomezené"
-  duration="Zvláštní"
+  limit="Nabití s obnovou"
+  duration="Permanentní"
   >
 
-**Rubín válečného mága**
+*Žezlo, artefakt (vyžaduje sladění)*
 
-*Divotvorný předmět, běžný (vyžaduje sladění se sesilatelem)*
-
-Tento rubín o průměru jednoho coulu je pokrytý tajemnými runami a umožní ti použít jednoduchou nebo vojenskou zbraň jako Sesílací ohniskový předmět. Pokud chceš tuto vlastnost využívat, musíš ho přitisknout na danou zbraň a alespoň 10 minut ho tam držet. Rubín se pak nedá odstranit, a to ani v *antimagickém poli*, dokud není zbraň zničena nebo dokud ho v rámci akce nesundáš (ukončíš s ním sladění).
+Ruka svaté Sidvely je seschlá lidská ruka. Pokud ji držíš, jsi stále chráněn kouzlem *ochrana před zlem a dobrem*. Ruka má 7 dávek. Pomocí akce můžeš spotřebovat jednu dávku a seslat jedno z následujících kouzel: *mocné navrácení* nebo *zhoj zranění* (5. úroveň). Ruka si obnoví všechny vyčerpané dávky, pokud stráví 24 hodin ve svém relikviáři na místě, které je posvátné pro Farethovu církec (např. svatyně svaté Sidvely v kapli).
 </dnd-item>
 
 <dnd-item
@@ -7893,6 +9196,32 @@ Tento rubín o průměru jednoho coulu je pokrytý tajemnými runami a umožní 
 *Divotvorný předmět, neobvyklý (vyžaduje sladění)*
 
 Když si navlečeš tyto rukavice, vypadá to, jako by téměř splynuly s tvýma rukama. Když je máš na sobě a zasáhne tě útok na dálku zbraní, můžeš jako reakci snížit zranění o 1k10 + tvá oprava Obratnosti, pokud máš volnou ruku. Snížíš-li zranění na 0, můžeš střelu chytit, je-li dost malá, aby se dala držet v ruce.
+</dnd-item>
+
+<dnd-item
+  title="Rukavice ohnivého běsnění"
+  original="Gauntlets of Flaming Fury"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Zbroje"
+  item="Zbroj"
+
+  combat-effect="+zásah"
+  bonus="Žádný bonus"
+
+  limit="1/denně"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, vzácný (vyžaduje sladění)*
+
+Dokud máš nasazeny obě tyto ocelové rukavice, považuj každou nemagickou zbraň, již třímáš v jedné či obou rukou, za magickou. Ve své bonusové akci můžeš z rukavic vyslat magický oheň, který obklopí jednu či dvě zbraně ve tvých rukou. Každá takto „zapálená“ zbraň uděluje při zásahu 1k6 ohnivého zranění navíc. Plameny přetrvají, dokud zbraně neschováš do pochvy nebo je nezahodíš. Vlastnost rukavic pak můžeš znovu použít až po dalším úsvitu.
 </dnd-item>
 
 <dnd-item
@@ -8141,36 +9470,6 @@ Existuje šest typů magických korálků. Typ každého korálku na náhrdelní
   duration="Permanentní"
   >
 
-**Rybářský prut**
-
-_Divotvorný předmět, běžný_
-
-Tato 2sáhová tyč se po vyslovení zaklínadla přemění na rybářský prut s háčkem, vlascem a navijákem. Pokud zaklínadlo vyslovíš podruhé, složí se zpět do obyčejné tyče původní délky.
-</dnd-item>
-
-<dnd-item
-  title="Rybářský prut"
-  original="Pole of Angling"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Konkrétní efekt"
-  item="Výbava"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Neomezené"
-  duration="Permanentní"
-  >
-
-**Rybářský prut**
-
 _Divotvorný předmět, běžný_
 
 Tato 2sáhová tyč se po vyslovení zaklínadla přemění na rybářský prut s háčkem, vlascem a navijákem. Pokud zaklínadlo vyslovíš podruhé, složí se zpět do obyčejné tyče původní délky.
@@ -8197,36 +9496,6 @@ Tato 2sáhová tyč se po vyslovení zaklínadla přemění na rybářský prut 
   duration="Permanentní"
   >
 
-**Samolátací oděv**
-
-*Divotvorný předmět, běžný*
-
-Toto elegantní cestovatelské oblečení se samo kouzelně opravuje a zabraňuje každodennímu opotřebení. Pokud je nějaká část oděvu zcela zničena, už se neumí sama opravit.
-</dnd-item>
-
-<dnd-item
-  title="Samolátací oděv"
-  original="Clothes of Mending"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Konkrétní efekt"
-  item="Oblečení"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Neomezené"
-  duration="Permanentní"
-  >
-
-**Samolátací oděv**
-
 *Divotvorný předmět, běžný*
 
 Toto elegantní cestovatelské oblečení se samo kouzelně opravuje a zabraňuje každodennímu opotřebení. Pokud je nějaká část oděvu zcela zničena, už se neumí sama opravit.
@@ -8252,36 +9521,6 @@ Toto elegantní cestovatelské oblečení se samo kouzelně opravuje a zabraňuj
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Samoopravovací lano**
-
-_Divotvorný předmět, běžný_
-
-Tento 10sáhový smotek konopného provazu můžeš rozřezat na libovolný počet menších kousků a pak v rámci akce vyslovit zaklínadlo, kterým se kousky opět spojí dohromady. Jednotlivé kusy musejí být ve vzájemném kontaktu a nesmějí být jinak používány. Pokud se některá jeho část ztratí nebo zničí, *samoopravovací lano* se navždy zkrátí.
-</dnd-item>
-
-<dnd-item
-  title="Samoopravovací lano"
-  original="Rope of Mending"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Konkrétní efekt"
-  item="Výbava"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Neomezené"
-  duration="Permanentní"
-  >
-
-**Samoopravovací lano**
 
 _Divotvorný předmět, běžný_
 
@@ -8503,35 +9742,6 @@ Třetí zaklínadlo způsobí, že *skládací člun* se složí zpět do krabi�
   duration="Permanentní"
   >
 
-**Skládací tyč**
-
-_Divotvorný předmět, běžný_
-
-Tato 2sáhová tyč se po vyslovení zaklínadla přemění na 1 stopu dlouhé žezlo, které se pak dá snadněji přenášet. Na váhu tyče nemá tato změna vliv. Žezlo můžeš změnit zpátky na tyč, když v rámci akce vyslovíš jiné zaklínadlo. Pokud však tyč nemá pro změnu do původní délky dost místa, její délka se této skutečnosti přizpůsobí.
-</dnd-item>
-
-<dnd-item
-  title="Skládací tyč"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Nekonkrétní efekt"
-  item="Žezlo"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Neomezené"
-  duration="Permanentní"
-  >
-
-**Skládací tyč**
-
 _Divotvorný předmět, běžný_
 
 Tato 2sáhová tyč se po vyslovení zaklínadla přemění na 1 stopu dlouhé žezlo, které se pak dá snadněji přenášet. Na váhu tyče nemá tato změna vliv. Žezlo můžeš změnit zpátky na tyč, když v rámci akce vyslovíš jiné zaklínadlo. Pokud však tyč nemá pro změnu do původní délky dost místa, její délka se této skutečnosti přizpůsobí.
@@ -8568,31 +9778,37 @@ Světelná čepel meče osvítí jasným světlem okruh o poloměru 3 sáhy a�
 </dnd-item>
 
 <dnd-item
-  title="Směrová koule"
-  original="Orb of Direction"
+  title="Sluneční meč"
+  original="Sunsword"
 
-  rulebook="Xanatharův průvodce vším"
+  rulebook="Strádovo prokletí"
 
-  rarity="Běžný"
+  rarity="Legendární"
 
   attunement="Nevyžaduje"
-  interaction="žádná int."
+  interaction="Vnímající"
 
-  purpose="Konkrétní efekt"
-  item="Jiný"
+  purpose="Zbraně"
+  item="Zbraň"
 
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+2"
 
   limit="Neomezené"
   duration="Permanentní"
   >
 
-**Směrová koule**
+*Zbraň (dlouhý meč), legendární (vyžaduje sladění)*
 
-_Divotvorný předmět, běžný_
+*Sluneční meč* je jedinečná čepel, již kdysi vlastnil Strádův bratr Sergej von Zarovič. Ve své původní podobě měl platinový jílec i záštitu a čepel z tenkého krystalu, tvrdého jako ocel.
 
-Pokud máš tento předmět u sebe, můžeš jako akci zjistit, kterým směrem leží sever. Tato vlastnost funguje pouze v Materiální sféře.
+Když Sergej zemřel, Strád pověřil mocného mága jménem Khazan, aby meč zničil. Nejdříve bylo třeba oddělit čepel od jílce, což se Khazanovi podařilo. Zatímco ale pracoval na zničení čepele, jeho učeň ukradl jílec a prchnul s ním. Khazan později objevil učňovo zohavené tělo ve Svaličském lese, ale jílec už nenašel. Aby unikl Strádovu hněvu, řekl mu, že zbraň byla zničena celá.
+
+Jílec, jakožto vnímavý předmět, ví, že už nikdy nemůže být spojen s původní krystalovou čepelí. Přesto však získal vlastnosti *sluneční čepele*.
+
+***Vnímání.*** *Sluneční meč* je vnímavá zbraň s chaoticky dobrým přesvědčením, Inteligencí 11, Moudrostí 17 a Charismatem 16. Slyší a vidí do vzdálenosti 12 sáhů. Zbraň komunikuje přenosem emocí k bytosti, která ji nese nebo drží v ruce.
+
+***Osobnost.*** Zvláštním cílem *Slunečního meče* je Strádova záhuba. Není to však kvůli tomu, že by chtěl osvobodit Barovii od zla, ale protože se chce pomstít za ztrátu své krystalové čepele. Zbraň se ve skrytu obává svého zničení.
 </dnd-item>
 
 <dnd-item
@@ -8616,11 +9832,43 @@ Pokud máš tento předmět u sebe, můžeš jako akci zjistit, kterým směrem 
   duration="Permanentní"
   >
 
-**Směrová koule**
-
 _Divotvorný předmět, běžný_
 
 Pokud máš tento předmět u sebe, můžeš jako akci zjistit, kterým směrem leží sever. Tato vlastnost funguje pouze v Materiální sféře.
+</dnd-item>
+
+<dnd-item
+  title="Stehenní kost svaté Markovie"
+  original="Saint Markovia's Thighbone"
+
+  rulebook="Strádovo prokletí"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="+zásah, Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Zbraň (palcát), vzácná (vyžaduje sladění)*
+
+*Stehenní kost svaté Markovie* má vlastnosti jako palcát rozkolu. Zasáhne-li během souboje upíra nebo upířího zplozence, rozpadne se po jeho skončení na prach.
+
+V mládí šla Markovie za svým srdcem a brzy po osmnáctých narozeninách se stala kněžkou Pána jitra. Projevila se jako charismatická šiřitelka víry, která nedovolí žádnému zlu, aby jí stálo v cestě, čímž si vysloužila úctu ještě před svými třicátinami.
+
+Markovie považovala Stráda za šíleného tyrana, ale postavit se mu odvážila až po jeho přeměně v upíra. Když shromažďovala a připravovala své následovníky k pochodu na hrad Ravenloft, vyslal Strád do jejího opatství skupinu upířích zplozenců. Střetli se s Markovií a byli do posledního zničeni.
+
+Toto spravedlivé vítězství jí dodalo sebevědomí a vyrazila na hrad. Od katakomb až po cimbuří hradeb zuřil těžký boj. Markovie se už do Barovie nikdy nevrátila a Strád ještě dlouho potom s bolestnou grimasou kulhal. Říká se, že Markovii uvěznil v kryptě pod hradem a její ostatky že tam stále leží.
+
+S tím, jak se její tělo rozkládalo, se esence Markoviiny svatosti částečně přenesla do jejích kostí. Stehenní kost, která po ní zbyla, je naplněna silou způsobující nemrtvým trýznivá zranění.
 </dnd-item>
 
 <dnd-item
@@ -8669,38 +9917,6 @@ Když držíš tento štít, máš výhodu k hodům na iniciativu a ověřen
   limit="1/denně"
   duration="Permanentní"
   >
-
-**Strojkový amulet**
-
-_Divotvorný předmět, běžný_
-
-Tento měděný amulet obsahuje drobná ozubená kolečka a je poháněn magií Mechanu, sféry předvídatelné jako hodinový strojek. Když k němu přiložíš ucho, uslyšíš slabé tikání a šumění.
-
-Když máš amulet u sebe, můžeš se při útoku vzdát hodu k20 a vzít si místo něj desítku. Tuto vlastnost můžeš znovu použít až za příštího úsvitu.
-</dnd-item>
-
-<dnd-item
-  title="Strojkový amulet"
-  original="Clockwork Amulet"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Konkrétní účel"
-  item="Amulet"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="1/denně"
-  duration="Permanentní"
-  >
-
-**Strojkový amulet**
 
 _Divotvorný předmět, běžný_
 
@@ -8761,6 +9977,42 @@ Máš bonus k hodům na útok a na zranění pomocí tohoto kusu magického 
 Tato jemná, černá látka, hebká jako hedvábí, je složená do velikosti kapesníku. Když se rozloží, je z ní kruhová plachta o průměru 6 stop.
 
 Pomocí akce můžeš *studnu mnoha světů* rozložit či přiložit na pevný povrch, kde vytvoří obousměrný portál do jiného světa nebo sféry existence. Pokaždé, když věc otevře portál, PJ rozhodne, kam vede. Pomocí akce můžeš zavřít otevřený portál tak, že chytíš látku za její okraje a složíš ji. Jakmile *studna mnoha světů* otevře portál, může to udělat znovu až za 1k8 hodin.
+</dnd-item>
+
+<dnd-item
+  title="Svatý symbol havraního lidu"
+  original="Holy Symbol of Ravenkind"
+
+  rulebook="Strádovo prokletí"
+
+  rarity="Legendární"
+
+  attunement="Klerikem, Paladinem, Přesvědčení"
+  interaction="žádná int."
+
+  purpose="Tematické efekty"
+  item="Amulet"
+
+  combat-effect="+stav, Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Nabití bez obnovy"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, legendární (vyžaduje sladění s klerikem nebo paladinem dobrého přesvědčení)*
+
+*Svatý symbol havraního lidu* je jedinečný svatý symbol zasvěcený dobrosrdečným barovijským věřícím. Předchází založení jakékoliv církve v Barovii. Podle legendy byl doručen paladince Lugdaně obrovským havranem – nebo andělem převtěleným do havrana. Lugdana pak až do své smrti využívala svatý symbol k vykořenění a zničení upířích doupat. Po její smrti byl střežen a nošen nejvyššími kněžími Ravenloftu.
+
+Svatý symbol je platinový amulet ve tvaru slunce s velkým krystalem vsazeným do jeho středu.
+
+Svatý symbol má 10 dávek s následujícími vlastnostmi. Za úsvitu si obnoví 1k6 + 4 dávek.
+
+***Znehybni upíry.*** V rámci akce můžeš utratit 1 dávku, pozvednout ho a nechat ho vyzářit svatou moc. Upíři a upíří zplozenci do 6 sáhů od svatého symbolu musí uspět v záchranném hodu na Moudrost se SO 15, jinak jsou na 1 minutu paralyzováni. Na konci každého svého kola si můžou záchranný hod zopakovat, aby tento efekt ukončili.
+
+***Odvracení nemrtvých.*** Pokud máš schopnost Odvracení nemrtvých nebo Odvracení znesvěcených, můžeš utratit 3 dávky a ukázat jej při využití této vlastnosti. Pokud tak učiníš, nemrtví mají nevýhodu k záchrannému hodu proti tomuto efektu.
+
+***Sluneční světlo.*** V rámci akce můžeš utratit 5 dávek, ukázat svatý symbol a nechat ho osvítit okruh 6 sáhů jasným světlem a dalších 6 sáhů mdlým světlem. Světlo má účinky jako sluneční světlo a vydrží 10 minut nebo dokud efekt neukončíš (není nutná akce).
 </dnd-item>
 
 <dnd-item
@@ -9010,36 +10262,6 @@ Jakmile vytáhneš z vaku třetí neurčitý předmět, nelze vak použít zno
   duration="Permanentní"
   >
 
-**Šarlatánova smrt**
-
-_Divotvorný předmět, běžný (vyžaduje sladění)_
-
-Kdykoliv hodíš touhle šestistěnnou kostkou, můžeš určit číslo, které na ní padne.
-</dnd-item>
-
-<dnd-item
-  title="Šarlatánova smrt"
-  original="Charlatan's Dice"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Kýmkoliv"
-  interaction="žádná int."
-
-  purpose="Konkrétní efekt"
-  item="Všední předmět"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Neomezené"
-  duration="Permanentní"
-  >
-
-**Šarlatánova smrt**
-
 _Divotvorný předmět, běžný (vyžaduje sladění)_
 
 Kdykoliv hodíš touhle šestistěnnou kostkou, můžeš určit číslo, které na ní padne.
@@ -9144,6 +10366,37 @@ Tento jemný stříbrný řetízek má přívěšek z černého briliantu. Kdy
 *Divotvorný předmět, neobvyklý*
 
 Když máš na sobě tento přívěšek, jsi imunní vůči nakažení jakoukoli nemocí. Pokud už jsi nakažený nějakou nemocí, účinky nemoci jsou potlačené, zatímco máš na sobě škapulíř.
+</dnd-item>
+
+<dnd-item
+  title="Škorpióní zbroj"
+  original="Scorpion Armor"
+
+  rulebook="Hrobka anihilace"
+
+  rarity="Vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="Prokletý"
+
+  purpose="Zbroje"
+  item="Zbroj"
+
+  combat-effect="Jiný efekt"
+  bonus="+5"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+_Zbroj (plátová), vzácná (vyžaduje sladění)_
+
+Tato souprava plátové zbroje je vyrobena z krunýře obřího škorpióna. Když ji máš na sobě, získáš následující prospěchy:
+ * Zbroj zlepšuje tvou bojovou připravenost: získáš bonus +5 k hodům na iniciativu, pokud nejsi neschopný.
+ * Zbroj nezpůsobuje nevýhodu k hodům na ověření Obratnosti (Nenápadnost).
+ * Zbroj nezpůsobuje nevýhodu k záchranným hodům proti účinkům extrémního horka (viz 5. kapitolu Průvodce Pána jeskyně).
+
+**Kletba.** Zbroj je prokletá. Kdykoliv si ji nasazuješ nebo svlékáš, musíš uspět v záchranném hodu na Odolnost se SO 15, jinak utrpíš 100 (10k10 + 45) jedového zranění, nebo poloviční zranění při úspěšném záchranném hodu. Kletbu může ze zbroje sejmout pouze kouzlo přání.
 </dnd-item>
 
 <dnd-item
@@ -9279,36 +10532,6 @@ Když držíš tento štít, máš výhodu k záchranným hodům proti kouzlů
   duration="nepovinný"
   >
 
-**Štít mnoha tváří**
-
-_Zbroj (štít), běžný_
-
-Přední strana štítu má tvar obličeje. Pokud ho máš na ruce, můžeš tvář v rámci bonusové akce změnit.
-</dnd-item>
-
-<dnd-item
-  title="Štít mnoha tváří"
-  original="Shield of Expression"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Zbroje"
-  item="Zbroj"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Neomezené"
-  duration="nepovinný"
-  >
-
-**Štít mnoha tváří**
-
 _Zbroj (štít), běžný_
 
 Přední strana štítu má tvar obličeje. Pokud ho máš na ruce, můžeš tvář v rámci bonusové akce změnit.
@@ -9366,6 +10589,49 @@ Když držíš tento štít, jsi odolný vůči zranění z útoků na dálku 
 </dnd-item>
 
 <dnd-item
+  title="Štít Skrytého lorda"
+  original="Shield of the Hidden Lord"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Legendární"
+
+  attunement="Kýmkoliv"
+  interaction="Vnímající"
+
+  purpose="Zbroje"
+  item="Štít"
+
+  combat-effect="+oč, +odolnost/imunita, Jiný efekt"
+  bonus="+2"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Zbroj (štít), legendární (vyžaduje sladění)*
+
+*Štít Skrytého lorda* má nebešťanský původ a slouží jako vězení pro šejtána Gargauta, jehož smrtelní nohsledi jej uctívají jako boha. Gargautovo zlo postupem času pokřivilo vzhled štítu tak, že původní nebešťanské motivy a vzhled získaly tvar ďábelské tlamy, která se neustále znepokojivě pohybuje.
+
+Dokud máš štít v ruce, získáváš bonus +2 k OČ a odolnost vůči ohnivému zranění.
+
+***Vnímání.*** *Štít Skrytého lorda* je vnímající, dokud je v něm Gargaut uvězněn. Vnímající štít má následující vlastnosti:
+
+ * Hodnota Inteligence štítu je 22, Moudrosti 18 a Charismatu 24, štít má navíc pravdivé vidění a slyší do vzdálenosti 24 sáhů.
+ * Štít umí mluvit, číst a rozumí obecné řeči a ďábelštině, přičemž může telepaticky komunikovat s každým tvorem, jehož vycítí do vzdálenosti 24 sáhů. Jeho hlas zní jako hluboký dutý šepot.
+ * Štít má 3 dávky. Můžeš použít svou akci k utracení 1 dávky pro seslání kouzla *ohnivá koule*, nebo 2 dávek pro seslání *ohnivé zdi* (SO záchrany obou kouzel je 21). *Ohnivá zeď* vydrží 1 minutu (soustředění není vyžadována). Za úsvitu si štít všechny utracené dávky obnoví.
+ * Kdykoli ve tvém tahu se štít může rozhodnout začít vyzařovat po dobu 1 minuty auru děsu (tuto schopnost štítu nemůžeš nijak kontrolovat). Každý tobě nepřátelský tvor, jenž zahájí svůj tah v dosahu 4 sáhů od štítu, musí uspět v záchranném hodu na Moudrost se SO 18. Při neúspěchu je tvor vystrašený až do začátku svého příštího tahu. Při úspěchu je tvor imunní vůči této vlastnosti štítu po dalších 24 hodin. Jakmile štít svou schopnost použije, může ji zopakovat nejdříve po následujícím úsvitu.
+
+***Gargautova osobnost.*** Gargaut zoufale touží po svobodě, ale sám se osvobodit nemůže. Šejtán neodhalí svou pravou podstatu a vždy o sobě bude mluvit jako o Skrytém lordovi. Trousí poznámky a snaží se ostatním vsugerovat, že je andělem uvězněným v nečistém vězení. Pokud je ze štítu propuštěn, dodrží veškeré úmluvy, které kvůli svému osvobození uzavřel.
+
+Dokud je uvězněn ve štítu, ponouká Gargaut opatrně jeho nositele k činům plným krutosti a nadřazenosti s cílem odsoudit nositelovu duši do Devíti pekel. Když nositel štítu udělá něco, co Gargautovi značně komplikuje možnost osvobození (například zanechání štítu na místě, kde jej bude prakticky nemožné nalézt), vznikne mezi Gargautem a nositelem konflikt.
+
+Gargaut neví, jak ze štítu uniknout. Šejtán ale věří (nesprávně), že pokud bude štít přinesen do Devíti pekel, bude jeho moc oslabena a on se tak bude moci osvobodit.
+
+***Osvobození Gargauta.*** Seslání kouzla rozptyl zlo a dobro na štít má 1% šanci, že šejtána osvobodí, pokud jej nesešle solár, planetár nebo arciďábel — v takovém případě kouzlo uspěje automaticky. Bůh může šejtána osvobodit tak, že se dotkne štítu a vyřkne Gargautovo jméno. Když je osvobozen, zjeví se Gargaut na náhodném volném místě co nejblíže štítu.
+</dnd-item>
+
+<dnd-item
   title="Štít zachytávající šípy"
   original="Arrow-catching shield"
 
@@ -9411,36 +10677,6 @@ Když držíš tento štít, získáš bonus +2 k OČ proti útokům na dálku
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Tajemný klíč**
-
-_Divotvorný předmět, běžný_
-
-Na hlavě tohoto klíče je zobrazen otazník. Klíč má 5% šanci odemknout jakýkoli zámek, do kterého je vložen. Jakmile klíč něco odemkne, zmizí.
-</dnd-item>
-
-<dnd-item
-  title="Tajemný klíč"
-  original="Mystery Key"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Konkrétní efekt"
-  item="Všední předmět"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Neomezené"
-  duration="Permanentní"
-  >
-
-**Tajemný klíč**
 
 _Divotvorný předmět, běžný_
 
@@ -9748,39 +10984,35 @@ Všechno oblečení a Zbroje vložené do této Truhly jsou, bez ohledu na svůj
   duration="Permanentní"
   >
 
-**Trvalá kniha kouzel**
-
 *Divotvorný předmět, běžný*
 
 Tuto knihu kouzel, stejně jako vše, co je na jejích stránkách napsáno, nemůže poškodit oheň ani ponoření do vody. Kromě toho se stářím nezhoršuje její stav.
 </dnd-item>
 
 <dnd-item
-  title="Trvalá kniha kouzel"
-  original="Enduring Spellbook"
+  title="Tříštihrot"
+  original="Shatterspike"
 
-  rulebook="Xanatharův průvodce vším"
+  rulebook="Příběhy ze Zejícího portálu"
 
-  rarity="Běžný"
+  rarity="Neobvyklý"
 
-  attunement="Nevyžaduje"
+  attunement="Kýmkoliv"
   interaction="žádná int."
 
-  purpose="Sesílání"
-  item="Kniha"
+  purpose="Zbraně"
+  item="Zbraň"
 
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
+  combat-effect="+útok, +zásah"
+  bonus="+1"
 
   limit="Neomezené"
   duration="Permanentní"
   >
 
-**Trvalá kniha kouzel**
+*Zbraň (dlouhý meč), neobvyklá (vyžaduje sladění)*
 
-*Divotvorný předmět, běžný*
-
-Tuto knihu kouzel, stejně jako vše, co je na jejích stránkách napsáno, nemůže poškodit oheň ani ponoření do vody. Kromě toho se stářím nezhoršuje její stav.
+Dostáváš bonus +1 k hodům na útok a na zranění, které provedeš touto zbraní. Zasáhne-li předmět, jde automaticky o kritický zásah, a způsobí předmětu drtivé nebo sečné poškození (dle tvé volby). Kromě toho poškození z nemagického zdroje zbrani neublíží. (*Ponurá citadela*)
 </dnd-item>
 
 <dnd-item
@@ -9819,31 +11051,35 @@ Když máš na sobě přilbu a utrpíš ohnivé zranění jako výsledek neús
 </dnd-item>
 
 <dnd-item
-  title="Úderné střelivo"
-  original="Walloping Ammunition"
+  title="Úbor lordů"
+  original="Lord's Ensemble"
 
-  rulebook="Xanatharův průvodce vším"
+  rulebook="Dračí loupež"
 
-  rarity="Běžný"
+  rarity="Velmi vzácný"
 
-  attunement="Nevyžaduje"
+  attunement="Jiné"
   interaction="žádná int."
 
-  purpose="Zbraně"
-  item="Zbraň"
+  purpose="Konkrétní účel"
+  item="Oblečení"
 
-  combat-effect="+stav"
+  combat-effect="Nebojový"
   bonus="Žádný bonus"
 
   limit="Neomezené"
   duration="Permanentní"
   >
 
-**Úderné střelivo**
+*Divotvorný předmět, velmi vzácný (vyžaduje sladění s tvorem s humanoidní stavbou těla)*
 
-_Zbraň (jakékoliv střelivo), běžná_
+Zahalení lordové Hlubiny si oblékají tento komplet při společných jednáních. Tento úbor činí každého lorda k nerozeznání od ostatních. Komplet se skládá ze tří částí – přilby, amuletu a pláště – které fungují jako jediný magický předmět, jsou-li nošeny pohromadě, ale pouze v Hlubině a její kanalizaci. Při sladění se sladíš s celým kompletem jako s jedním předmětem.
 
-Toto střelivo má značnou sílu. Pokud zasažený tvor neuspěje v záchranném hodu na Sílu se SO 10, srazí ho zásah k zemi.
+***Přilba lordů.*** Tato hrncová přilba pokrývá tvou hlavu a skrývá tvou tvář. Clony na očích pomáhají utajit tvou identitu, aniž by tě oslepily. Při nošení helmy je tvůj hlas magicky pozměněn, aby zněl oboupohlavně, a jsi imunní vůči magii, která umožňuje ostatním tvorům číst tvé myšlenky, zjistit, jestli lžeš, poznat tvé přesvědčení nebo poznat, jaký typ tvora jsi. Tvorové s tebou mohou komunikovat telepaticky pouze, když to umožníš.
+
+***Amulet lordů.*** Tento amulet nese erb Hlubiny a funguje jako *amulet proti nalezení a lokalizaci*.
+
+***Plášť lordů.*** Tento elegantní plášť funguje jako prsten volné akce a vytváří iluzi neurčité, oboupohlavní stavby těla výšky 6 stop.
 </dnd-item>
 
 <dnd-item
@@ -9867,11 +11103,39 @@ Toto střelivo má značnou sílu. Pokud zasažený tvor neuspěje v záchranné
   duration="Permanentní"
   >
 
-**Úderné střelivo**
-
 _Zbraň (jakékoliv střelivo), běžná_
 
 Toto střelivo má značnou sílu. Pokud zasažený tvor neuspěje v záchranném hodu na Sílu se SO 10, srazí ho zásah k zemi.
+</dnd-item>
+
+<dnd-item
+  title="Ulruf mágobijce"
+  original="Ulruf the Mage Slayer"
+
+  rulebook="Kaple na útesech"
+
+  rarity="Velmi vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+1"
+
+  limit="Neomezené, Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Zbraň (válečná sekera), velmi vzácná*
+
+Získáš bonus +1 k hodům na útok a na zranění pomocí této magické zbraně. Pokud je použita k útoku na magický předmět, způsobuje dvojnásobné zranění. Sekera má 3 dávky, ale jejich spotřebovávání vyžaduje sladění. Jednou během svého kola můžeš po úspěšném útoku spotřebovat jednu dávku a vyvolat jeden z následujících efektů: *znič zkaženost* nebo *štípání magie*. Sekera si každý den za úsvitu obnoví 1k3 dávek.
+
+***Znič zkaženost.*** Pokud umí cíl útoku sesílat bardská, čarodějská, černokněžnická nebo kouzelnická kouzla, útok způsobí navíc 4k6 sečného zranění. Cíl musí uspět v záchranném hodu na Charisma se SO 15, pokud neuspěje, přijde o jednu pozici kouzla nejvyšší úrovně, kterou má k dispozici. Pozice se obnoví ve stejný čas, kdy se mu normálně obnovují pozice kouzel.
+
+***Štípání magie.*** Na cíli ukončí všechna kouzla 3. a nižší úrovně. Za každé kouzlo 4. a vyšší úrovně proveď ověření Síly se SO 10 + úroveň kouzla. Pokud uspěješ, kouzlo je ukončeno.
 </dnd-item>
 
 <dnd-item
@@ -9898,6 +11162,32 @@ Toto střelivo má značnou sílu. Pokud zasažený tvor neuspěje v záchranné
 *Divotvorný předmět, legendární*
 
 Tato flaštička má v sobě mléčnou kapalinu se silnou vůní alkoholu. Jako akci můžeš vylít obsah flaštičky na povrch ve svém dosahu. Kapalina okamžitě rozpustí až 1 stopu krychlovou lepidla, kterého se dotýká, včetně *nejpevnějšího lepidla*.
+</dnd-item>
+
+<dnd-item
+  title="Váhy harmonie"
+  original="Balance of Harmony"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Neobvyklý"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Jiný"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Divotvorný předmět, neobvyklý*
+
+Tyto váhy nesou na jedné misce symboly nebeské a na druhé misce pekelné. Můžeš váhy použít k seslání kouzla *najdi zlo a dobro* jako rituálu. Postup je následující. Polož váhy na pevný povrch, postříkej misky svěcenou vodou nebo vlož průhledný drahokam v hodnotě alespoň 100 zl na každou misku. Pokud váhy nic nenaleznou, zůstanou bez pohybu. Pokud naleznou tvora s vhodným přesvědčením, vychýlí se na příslušnou stranu; pokud naleznou tvora, který není ani dobrý, ani zlý, budou mírně oscilovat. Pokud se po spuštění rituálu dotkneš vah, ihned se dozvíš informace, které kouzla obvykle poskytují a pak se účinek ukončí. (*Skrytá svatyně tamoachanská*)
 </dnd-item>
 
 <dnd-item
@@ -9943,36 +11233,6 @@ Pokud vrhneš tuto Sekeru, na konci tvého Tahu se ti vrátí do ruky, pokud nej
   limit="Jednorázové"
   duration="Permanentní"
   >
-
-**Veteránova špacírka**
-
-*Divotvorný předmět, běžný*
-
-Když tuto vycházkovou hůl uchopíš a pak proneseš v rámci bonusové akce zaklínadlo, promění se v obyčejný dlouhý meč a ztratí svou kouzelnou vlastnost.
-</dnd-item>
-
-<dnd-item
-  title="Veteránova špacírka"
-  original="Veteran's Cane"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Vyvolávání"
-  item="Berla, Zbraň"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Jednorázové"
-  duration="Permanentní"
-  >
-
-**Veteránova špacírka**
 
 *Divotvorný předmět, běžný*
 
@@ -10025,36 +11285,6 @@ Když držíš tento vějíř, pomocí akce z něj můžeš seslat kouzlo *por
   limit="Neomezené"
   duration="Permanentní"
   >
-
-**Vlající plášť**
-
-_Divotvorný předmět, běžný_
-
-Když máš oblečen tento plášť, můžeš ho použitím bonusové akce nechat dramaticky vlát.
-</dnd-item>
-
-<dnd-item
-  title="Vlající plášť"
-  original="Cloak of Billowing"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Nekonkrétní účel"
-  item="Oblečení"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Neomezené"
-  duration="Permanentní"
-  >
-
-**Vlající plášť**
 
 _Divotvorný předmět, běžný_
 
@@ -10154,48 +11384,6 @@ Elementál složený převážně z vody, jenž je vystaven špetce prachu, si
   duration="nepovinný"
   >
 
-**Výživná kulička**
-
-_Divotvorný předmět, běžný_
-
-Když si necháš tuto houbovitou želatinovou kuličku bez chuti rozpustit na jazyku, poskytne ti tolik energie, jako dávka potravin na 1 den.
-
-
-"
-    >
-
-**Pyrotechnická hůlka**
-
-_Hůlka, běžná_
-
-Tato hůlka má 7 dávek. Když ji držíš v ruce, můžeš v rámci akce spotřebovat 1 dávku a v bodě, který vidíš ve vzdálenosti do 12 sáhů, nechat vybuchnout ohňostroj různobarevného světla. Výbuch světla je doprovázen praskáním, které je slyšet až do vzdálenosti 60 sáhů. Světlo je jasné jako plamen pochodně, ale vydrží jen jednu sekundu.
-
-Hůlka si každý den za úsvitu obnoví 1k6 + 1 spotřebovaných dávek. Pokud utratíš poslední dávku, hoď k20, a když ti padne 1, hůlka vybuchne v neškodné spršce jisker a rozpadne se.
-</dnd-item>
-
-<dnd-item
-  title="Výživná kulička"
-  original="Bead of Nourishment"
-
-  rulebook="Xanatharův průvodce vším"
-
-  rarity="Běžný"
-
-  attunement="Nevyžaduje"
-  interaction="žádná int."
-
-  purpose="Konkrétní efekt"
-  item="Jiný"
-
-  combat-effect="Nebojový"
-  bonus="Žádný bonus"
-
-  limit="Jednorázové"
-  duration="nepovinný"
-  >
-
-**Výživná kulička**
-
 _Divotvorný předmět, běžný_
 
 Když si necháš tuto houbovitou želatinovou kuličku bez chuti rozpustit na jazyku, poskytne ti tolik energie, jako dávka potravin na 1 den.
@@ -10227,6 +11415,73 @@ Když si necháš tuto houbovitou želatinovou kuličku bez chuti rozpustit na j
 Tato malá koule z tlustého skla váží libru. Jsi-li do 12 sáhů od ní, můžeš vyslovit její zaklínadlo a způsobit, že bude svítit světlem z kouzla *světlo* nebo *denní světlo*. Jakmile se použije účinek *denního světla*, nelze tento účinek použít znovu až do příštího úsvitu.
 
 Jako akci můžeš vyslovit jiné zaklínadlo, načež se svítící koule vznese do vzduchu a bude se vznášet do 1 sáhu od tebe. Koule se tímto způsobem vznáší, dokud ji ty nebo někdo jiný neuchopí. Pokud se vzdálíš víc jak 12 sáhů od vznášející se koule, poletí za tebou, dokud nebude do 12 sáhů od tebe. Poletí nejkratší možnou trasou. Pokud je kouli zabráněno v pohybu, pomalu se snese na zem, stane se nečinnou a její světlo se zablikáním zhasne.
+</dnd-item>
+
+<dnd-item
+  title="Waythe"
+  original="Waythe"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Legendární"
+
+  attunement="Kýmkoliv"
+  interaction="Vnímající"
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="+útok, +zásah, +stav, Jiný efekt"
+  bonus="+1"
+
+  limit="Nabití s obnovou"
+  duration="Permanentní"
+  >
+
+*Zbraň (obouruční meč), legendární (vyžaduje sladění)*
+
+*Waythe* je jedinečný obouruční meč, momentálně ve vlastnictví vysoce postaveného diplomata (oblačného obra).
+
+Dostáváš bonus +1 k hodům na útok a zranění prováděným touto zbraní. Když jí zasáhneš tvora typu obr, utrpí navíc 2k6 sečného zranění a neuspěje-li v záchranném hodu na Sílu se SO 15, spadne na zem.
+
+Meč taktéž funguje jako *hůlka nalezení nepřátel*. Za úsvitu si obnoví všechna spotřebovaná nabití a v případě, že použiješ všechna nabití, mu nehrozí rozpadnutí se.
+
+***Vědomí.*** Jde o vnímající zbraň neutrálně dobrého přesvědčení, s Inteligencí 12, Moudrostí 2 a Charismatem 14. Slyší do vzdálenosti 24 sáhů a na stejnou vzdálenost má i vidění ve tmě.
+
+Zbraň rozumí a mluví obecnou řečí a gigantštinou a s uživatelem komunikuje telepaticky.
+
+***Osobnost.*** Meč věří ve svobodu a umožnění žít ostatním tak, jak chtějí. Chrání přátele a chce se spřátelit s podobně smýšlejícím uživatelem (postavě dobrého přesvědčení trvá sladění pouze 1 minutu). *Waythe* je ovšem odvážný až na hranici ztřeštěnosti a slovně ponouká k chrabrým činům. Pravděpodobně se dostane do střetu se zlým nebo plachým uživatelem. (*Proti obrům*)
+</dnd-item>
+
+<dnd-item
+  title="Záložka"
+  original="Bookmark"
+
+  rulebook="Hrobka anihilace"
+
+  rarity="Legendární"
+
+  attunement="Kýmkoliv"
+  interaction="žádná int."
+
+  purpose="Zbraně, Cestování, Kouzlící"
+  item="Zbraň"
+
+  combat-effect="+útok, +zásah"
+  bonus="+3"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+_Zbraň (dýka), legendární (vyžaduje sladění)_
+
+Tato dýka +3 patří Artuši Cimberovi (viz dodatek D). Pokud ji máš vytasenou, můžeš použít svou bonusovou akci k aktivaci jedné z jejích schopností:
+
+ * Modrý drahokam v jílci se rozzáří jasným světlem, jež jasně osvětlí okolí v dosahu 4 sáhů a slabě dosvítí do vzdálenosti dalších 4 sáhů, nebo můžeš drahokam zhasnout.
+ * Dýka se promění na kompas, který ti v dlani vždy ukáže sever.
+ * Dýka sešle dimenzionální dveře. Tuto schopnost nelze znova použít až do následujícího úsvitu.
+ * Dýka sešle kouzlo nutkání (SO záchrany kouzla je 15). Dosah kouzla se zvýší na 18 sáhů, ale může zacílit pouze pavouky, kteří jsou zároveň zvířaty. Tuto schopnost nelze znova použít až do následujícího úsvitu.
 </dnd-item>
 
 <dnd-item
@@ -10271,6 +11526,110 @@ Zbraň telepaticky komunikuje se svým nositelem a umí mluvit, číst a roz
 *Zaplavitel* má vazby k trpasličímu kmeni, který ho vytvořil, různě nazývaného Dankil nebo kmen Mocné kladivo. Touží se vrátit do tohoto kmene. Udělal by cokoliv, aby ochránil tyto trpaslíky.
 
 Kladivo si také v sobě nese tajnou hanbu. Před staletími ho chrabře používal trpaslík jménem Ctenmír. Ale Ctenmír se přeměnil na upíra. Jeho vůle byla tak silná, že přiměl *Zaplavitele* ke svým zlým cílům, dokonce i vraždění členů svého vlastního kmene.
+</dnd-item>
+
+<dnd-item
+  title="Zarielin meč"
+  original="Sword of Zariel"
+
+  rulebook="Sestup do Avernu"
+
+  rarity="Artefakt"
+
+  attunement="Jiné"
+  interaction="Vnímající"
+
+  purpose="Artefakty"
+  item="Zbraň"
+
+  combat-effect="+zásah, +stav, Jiný efekt"
+  bonus="Žádný bonus"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Zbraň (dlouhý meč), artefakt (vyžaduje sladění s tvorem, jehož meč uzná za hodného jej nosit)*
+
+Tento dlouhý meč patřil andělské Zariel předtím, než se stala padlým andělem. Je vyroben z nebešťanské oceli a jemně září a šumí. Zbraň sama rozhoduje o tom, kdo se s ní může sladit, a kdo ne. Touží po nositeli, který je ztělesněním odvahy a hrdinství.
+
+***Sladění.*** Meč ti dovolí sladit se s ním okamžitě, bez nutnosti strávit sladěním krátký odpočinek. Při prvním sladění se proměníš v nebeskou, ideální verzi sebe sama, budeš požehnán nadpozemskou krásou a dotekem nebes v srdci. Žádná magie ani božský zásah nemohou tuto proměnu zvrátit. Získáš zákonně dobré přesvědčení a následující rysy:
+
+**Andělský jazyk.** Umíš mluvit, číst a psát nebesštinou.
+
+**Andělská křídla.** Vyroste ti pár překrásných křídel, která ti dodají rychlost létání 18 sáhů a schopnost vznášení se. Pokud už máš jiná křídla, pak ti upadnou a nahradí je tato nová.
+
+**Božská přítomnost.** Tvá hodnota Charismatu se zvýší na 20, pokud již není stejná či vyšší.
+
+**Nebešťanská odolnost.** Máš odolnost vůči nekrotickému a zářivému zranění.
+
+**Pravdivé vidění.** Tvé oči jsou zářícími stříbrnými studánkami. Můžeš vidět skrz magickou tmu, spatříš neviditelné tvory a předměty a automaticky rozeznáš optické iluze a uspěješ v záchranných hodech vůči nim, rozpoznáš původní formu tvaroměnců nebo tvorů proměněných kouzly, a můžeš nahlížet i do éterické sféry, to vše v dosahu 12 sáhů.
+
+**Nová osobnost.** Získáš nové osobnostní rysy na základě hodu na každou z následujících tabulek. Tyto rysy nahradí všechny osobnostní rysy, ideály, pouta a vady, které už máš a byly by s nimi v rozporu.
+
+**Osobnostní rysy**
+
+| k8 | Osobnostní rys |
+| --- | --- |
+| 1 | Respektuji všechny bytosti, včetně nepřátel. |
+| 2 | Nikdy nelžu. |
+| 3 | Rád se s ostatními dělím o své filozofické vidění světa a své zkušenosti. |
+| 4 | V každém rozhovoru jdu přímo k věci. |
+| 5 | Často cituji (i nesprávně) náboženské texty. |
+| 6 | Rychle se rozzuřím, když spatřím krutost či křivdu. |
+| 7 | Má úcta a důvěra k ostatním není nikdy zadarmo. |
+| 8 | Mám rád věci organizované a čisté. |
+
+**Ideály**
+
+| k6 | Ideál |
+| --- | --- |
+| 1 | **Dobročinnost.** Vždy pomůžu těm, kteří to potřebují. (Dobré) |
+| 2 | **Víra.** Rozhodl jsem se dodržovat pravidla určitého zákonně dobrého božstva do posledního puntíku. (Zákonné) |
+| 3 | **Odpovědnost.** Odpovědností silných je chránit slabé. (Zákonné) |
+| 4 | **Respekt.** Všichni lidé si zaslouží uctivé jednání. (Dobré) |
+| 5 | **Čest.** Mé chování v životě bude určující pro mé postavení na onom světě. (Zákonné) |
+| 6 | **Vykoupení.** Každý tvor může změnit svůj život a zasvětit ho dobru. (Dobré) |
+
+**Pouta**
+
+| k6 | Pouto |
+| --- | --- |
+| 1 | Mám svůj oblíbený náboženský hymnus, který si stále broukám. |
+| 2 | Mám potřebu zapisovat si prožívání své víry a hříchy, jichž jsem svědkem. Až skončím, má kniha bude darem mnohovesmíru. |
+| 3 |Rád vzpomínám na Idylglen, ačkoliv jsem toto idylické město viděl jen ve snech. |
+| 4 | Zemřel bych pro ty, kdo bojují po mém boku, bez ohledu na jejich chyby. |
+| 5 | Hodlám uctít Zariel tím, že zničím všechny běsy a další zlosyny, na které narazím. |
+| 6 | Zarielin meč si mě vybral. Nesmím selhat a zklamat jeho očekávání. |
+
+**Vady**
+
+| k6 | Vada |
+| --- | --- |
+| 1 | Až moc rychle soudím ostatní. |
+| 2 | Odpouštím až moc snadno. |
+| 3 | Obětoval bych nevinné životy pro vyšší dobro. |
+| 4 | Vada? Jaká vada? Já nemám vady. Jsem dokonalost sama! |
+| 5 | Nedovolím ničemu, aby se postavilo mezi mě a mé poslání vymýtit zlo z mnohovesmíru. |
+| 6 | Ignoruji ty, kdo nepodporují mé záměry. Mé poslání je důležitější než to jejich. |
+
+***Náhodné vlastnosti.*** Meč má 2 vedlejší prospěšné vlastnosti, každou z nich urči hodem na tabulku Menší prospěšné vlastnosti v kapitole 7 *Průvodce Pána jeskyně*.
+
+***Sálající záření.*** Meč uděluje každému zasaženému tvorovi navíc zářivé zranění 9 (2k8), nebo zářivé zranění 16 (3k10), pokud jej držíš v obou rukou. Zlí tvorové, kteří utrpí zářivé zranění, musejí uspět v záchranném hodu na Odolnost se SO 17, jinak budou až do začátku svého příštího tahu oslepení.
+
+***Svaté světlo.*** Meč září jasným světlem do okruhu 1 sáhu a slabým světlem v okruhu dalšího 1 sáhu. Pro běsy je toto světlo nepříjemné a bolestivé, dokonce i když jej nevidí, a pokud jsou v dosahu jasného světla meče, mají nevýhodu k hodům na útok.
+
+Můžeš použít svou bonusovou akci k zesílení světla meče tak, že okruh jasného světla rozšíříš na 3 sáhy a okruh slabého světla na další 3 sáhy, nebo naopak zmírnit záření meče na jeho původní intenzitu.
+
+***Vidění pravdy.*** Pokud máš meč v ruce, získáš výhodu ke všem ověřením Moudrosti (Vhled).
+
+***Vnímání.** Zarielin meč je vnímající, zákonně dobrý předmět s hodnotami Inteligence 10, Moudrosti 20 a Charismatu 18. Slyší a vidí do vzdálenosti 6 sáhů.
+
+Meč komunikuje přenosem emocí k bytosti, která jej třímá.
+
+***Zničení meče.*** Zariel může meč zničit holýma rukama. Nemohla to udělat, dokud byla andělem, ale jako arciďábel nemá žádné zábrany k tomu, aby mnohovesmír této zbraně zbavila. Meč se zničí také při rozbití Souputníka (viz oddíl „Zničení Souputníka“, strana 139), pokud jej přitom nedrží anděl s nebezpečností 15 a více, nebo klerik či paladin s dobrým přesvědčením na 10. nebo vyšší úrovni.
+
+Pokud je Zariel definitivně zabita (zemře v Devíti peklech), lze meč zničit stejně jako běžný dlouhý meč.
 </dnd-item>
 
 <dnd-item
@@ -10531,6 +11890,36 @@ Meč má 1k8 + 1 dávek. Způsobíš-li kritický zásah tvorovi, který má mé
 </dnd-item>
 
 <dnd-item
+  title="Zrádné kopí"
+  original="Spear of Backbiting"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Velmi vzácný"
+
+  attunement="Kýmkoliv"
+  interaction="Prokletý"
+
+  purpose="Zbraně"
+  item="Zbraň"
+
+  combat-effect="+útok, +zásah, Jiný efekt"
+  bonus="+2"
+
+  limit="Neomezené"
+  duration="Permanentní"
+  >
+
+*Zbraň (kopí nebo oštěp), velmi vzácná (vyžaduje sladění)*
+
+Dostáváš bonus +2 k hodům na útok a na zranění prováděným touto zbraní. Vrhneš-li ho, normální dostřel i dlouhý dostřel se prodlouží o 6 sáhů a při zásahu uděluje 1 kostku zranění navíc. Po vržení, bez ohledu na to, zda zasáhneš, nebo mineš, se ihned vrací zpět do tvé ruky.
+
+***Kletba.*** Zbraň je prokletá, a sladěním se kletba přenese i na tebe. Dokud kletbu nezlomí kouzlo *sejmi kletbu* nebo podobná magie, nejsi ochotný se kopí vzdát a stále ho máš na dosah. Navíc k hodům na útok vedeným jinými zbraněmi máš nevýhodu.
+
+Kdykoli při hodu na útok vedeným kopím hodíš 1, zbraň se ti zkroutí v ruce nebo se obrátí proti tobě a pokusí se tě zasáhnout do zad. Proveď nový hod na útok s výhodou proti svému OČ. Je-li hod na útok úspěšný, utrpíš zranění, jako bys byl kopím sám napaden. (*Hrobka děsů*)
+</dnd-item>
+
+<dnd-item
   title="Zraňující meč"
   original="Sword of wounding"
 
@@ -10594,6 +11983,32 @@ Pokud zrcadlo lapí tvora, ale jeho dvanáct mimodimenzionálních cel je už pl
 Když jsi do 1 sáhu od zrcadla, můžeš jako akci vyslovit jméno jednoho v něm uvězněného tvora, nebo jmenovat konkrétní celu podle čísla. Jmenovaný tvor či tvor z jmenované cely se objeví jako obraz na povrchu zrcadla. Můžete pak s tvorem normálně komunikovat.
 
 Podobně můžeš jako akci vyslovit druhé zaklínadlo a osvobodit jednoho tvora uvězněného v zrcadle. Osvobozený tvor se objeví, spolu se svými věcmi, na nejbližším volném místě a čelem od zrcadla.
+</dnd-item>
+
+<dnd-item
+  title="Zrcadlo minulosti"
+  original="Mirror of the Past"
+
+  rulebook="Příběhy ze Zejícího portálu"
+
+  rarity="Vzácný"
+
+  attunement="Nevyžaduje"
+  interaction="žádná int."
+
+  purpose="Konkrétní účel"
+  item="Všední předmět"
+
+  combat-effect="Nebojový"
+  bonus="Žádný bonus"
+
+  limit="1/denně"
+  duration="1 minuta"
+  >
+
+*Divotvorný předmět, vzácný*
+
+Ten, kdo drží toto platinové ruční zrcátko, se může dozvědět něco o minulosti konkrétního předmětu nebo tvora; stačí se jako akci zahledět do zrcátka a myslet na cíl. Místo, aby se v zrcátku ukázal odraz hledícího, objeví se tam scény z minulosti cíle. Poskytnuté informace jsou přesné, leč náhodné a tajemné a nejsou předvedeny v žádném uspořádaném tvaru. Aktivované zrcátko funguje po 1 minutu a pak ho nelze použít až do příštího rána. (*Skrytá svatyně tamoachanská*)
 </dnd-item>
 
 <dnd-item

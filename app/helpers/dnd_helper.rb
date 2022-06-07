@@ -12,4 +12,12 @@ module DndHelper
     description += "\n\n#{spell.description}"
     description
   end
+
+  def dnd_item_description(item)
+    description = "# #{item.title}"
+    description += "\n*#{item.original}*" if item.original
+    description += "\n\n***#{item.rulebook.join(', ')}***\n"
+    description += "\n\n#{item.description}"
+    description
+  end
 end
