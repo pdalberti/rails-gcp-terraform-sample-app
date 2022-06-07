@@ -544,7 +544,7 @@ Klesnou-li hadovi jeho životy na 0, umře a navrátí se do podoby berly. Ber
 
 <dnd-item
   title="Berla lesů"
-  original="nepovinný"
+  original=""
 
   rulebook="Průvodce PH"
 
@@ -2398,7 +2398,7 @@ Každý den za úsvitu si hůl dobije 1k6 + 4 spotřebovaných dávek. Spotřebu
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Berla"
 
   combat-effect="Nebojový"
@@ -5329,7 +5329,7 @@ Tato rohatá maska z lesklého ebenu připomíná vzezřením lebku. Maska se po
   rarity="Neobvyklý"
 
   attunement="Nevyžaduje"
-  interaction="žádná interakce"
+  interaction="žádná int."
 
   purpose="Kouzlící"
   item="Všední předmět"
@@ -8489,12 +8489,12 @@ Pokud zemřeš a máš navléknutý tento prsten, tvá duše do něj vstoupí,
   title="Prsten zimy"
   original="Ring of Winter"
 
-  rulebook="Hrobka Anihilace"
+  rulebook="Hrobka anihilace"
 
   rarity="Artefakt"
 
   attunement="Kýmkoliv"
-  interaction="Ovlivňující, Vnímající"
+  interaction="Vnímající"
 
   purpose="Artefakty"
   item="Prsten"
@@ -8502,7 +8502,7 @@ Pokud zemřeš a máš navléknutý tento prsten, tvá duše do něj vstoupí,
   combat-effect="+odolnost/imunita, Jiný efekt"
   bonus="Žádný bonus"
 
-  limit="Neomezený"
+  limit="Neomezené"
   duration="Permanentní"
   >
 
@@ -8655,7 +8655,7 @@ Tato přilba má 3 dávky. Když ji máš na sobě, můžeš použitím akce spo
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Nekonkrétní efekt"
+  purpose="Nekonkrétní účel"
   item="Hůlka"
 
   combat-effect="Nebojový"
@@ -8850,7 +8850,7 @@ Každá bytost v dosahu 6 sáhů od ikony je pod účinkem kouzla *ochrana před
   bonus="Žádný bonus"
 
   limit="Neomezené"
-  duration="nepovinný"
+  duration=""
   >
 
 *Divotvorný předmět, neobvyklý*
@@ -8869,7 +8869,7 @@ Když máš na sobě tento plášť s přehozenou kapucí, můžeš dýchat po
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Všední předmět"
 
   combat-effect="Nebojový"
@@ -9460,7 +9460,7 @@ Existuje šest typů magických korálků. Typ každého korálku na náhrdelní
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Výbava"
 
   combat-effect="Nebojový"
@@ -9486,7 +9486,7 @@ Tato 2sáhová tyč se po vyslovení zaklínadla přemění na rybářský prut 
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Oblečení"
 
   combat-effect="Nebojový"
@@ -9512,7 +9512,7 @@ Toto elegantní cestovatelské oblečení se samo kouzelně opravuje a zabraňuj
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Výbava"
 
   combat-effect="Nebojový"
@@ -9732,7 +9732,7 @@ Třetí zaklínadlo způsobí, že *skládací člun* se složí zpět do krabi�
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Nekonkrétní efekt"
+  purpose="Nekonkrétní účel"
   item="Žezlo"
 
   combat-effect="Nebojový"
@@ -9822,7 +9822,7 @@ Jílec, jakožto vnímavý předmět, ví, že už nikdy nemůže být spojen s 
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Jiný"
 
   combat-effect="Nebojový"
@@ -10252,7 +10252,7 @@ Jakmile vytáhneš z vaku třetí neurčitý předmět, nelze vak použít zno
   attunement="Kýmkoliv"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Všední předmět"
 
   combat-effect="Nebojový"
@@ -10308,7 +10308,7 @@ Pokud máš tento Prsten na prstě, můžeš libovolně Sesílat Trik Zpráva.
   bonus="Žádný bonus"
 
   limit="Neomezené"
-  duration="nepovinný"
+  duration=""
   >
 
 *Divotvorný předmět, neobvyklý (vyžaduje sladění)*
@@ -10529,7 +10529,7 @@ Když držíš tento štít, máš výhodu k záchranným hodům proti kouzlů
   bonus="Žádný bonus"
 
   limit="Neomezené"
-  duration="nepovinný"
+  duration=""
   >
 
 _Zbroj (štít), běžný_
@@ -10668,7 +10668,7 @@ Když držíš tento štít, získáš bonus +2 k OČ proti útokům na dálku
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Všední předmět"
 
   combat-effect="Nebojový"
@@ -10869,7 +10869,7 @@ Tento trojzubec je magická zbraň. Má 3 dávky. Když ho držíš, můžeš ja
   bonus="Žádný bonus"
 
   limit="Neomezené"
-  duration="nepovinný"
+  duration=""
   >
 
 *Divotvorný předmět, vzácný (vyžaduje sladění)*
@@ -11257,7 +11257,7 @@ Když tuto vycházkovou hůl uchopíš a pak proneseš v rámci bonusové akce z
   bonus="Žádný bonus"
 
   limit="Nabití s obnovou"
-  duration="nepovinný"
+  duration=""
   >
 
 *Divotvorný předmět, neobvyklý*
@@ -11374,14 +11374,14 @@ Elementál složený převážně z vody, jenž je vystaven špetce prachu, si
   attunement="Nevyžaduje"
   interaction="žádná int."
 
-  purpose="Konkrétní efekt"
+  purpose="Konkrétní účel"
   item="Jiný"
 
   combat-effect="Nebojový"
   bonus="Žádný bonus"
 
   limit="Jednorázové"
-  duration="nepovinný"
+  duration=""
   >
 
 _Divotvorný předmět, běžný_
