@@ -18,7 +18,7 @@ module Dnd
       when 'rarity'                           then assign_rarity(value)
       when 'duration'                         then assign_duration(value)
       when 'title', 'original', 'interaction' then super(column, value)
-      when 'rulebook'                         then assign_unmodified_array(column, value)
+      when 'rulebook'                         then assign_uncapitalized_array(column, value)
       else assign_array(column, value)
       end
     end

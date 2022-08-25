@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_06_04_025720) do
+ActiveRecord::Schema.define(version: 2022_08_25_060851) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,26 @@ ActiveRecord::Schema.define(version: 2022_06_04_025720) do
     t.string "limit", default: [], array: true
     t.string "duration"
     t.integer "filter_duration"
+    t.text "description"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "drd2_abilities", force: :cascade do |t|
+    t.string "name"
+    t.string "rulebook"
+    t.string "level"
+    t.string "drd2_attribute"
+    t.string "related_skill", default: [], array: true
+    t.string "effect", default: [], array: true
+    t.string "purpose", default: [], array: true
+    t.string "activation"
+    t.string "activation_cost", default: [], array: true
+    t.string "class_basic"
+    t.string "class_advanced"
+    t.string "class_expert"
+    t.string "race"
+    t.string "monster"
     t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

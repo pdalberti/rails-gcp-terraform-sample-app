@@ -14,7 +14,7 @@ File.read('storage/dnd-spells.md').split("<spell\n").each do |unsanitized_spell|
   Dnd::SpellSanitizerService.call(unsanitized_spell)
 end
 
-puts "Created #{Spell.count} spells"
+puts "Created #{Spell.count} DnD spells"
 
 
 File.read('storage/dnd-items.md').gsub("\r", '').split("<dnd-item\n").each do |unsanitized_item|
@@ -24,7 +24,7 @@ File.read('storage/dnd-items.md').gsub("\r", '').split("<dnd-item\n").each do |u
   Dnd::ItemSanitizerService.call(unsanitized_item)
 end
 
-puts "Created #{Dnd::Item.count} items"
+puts "Created #{Dnd::Item.count} DnD items"
 
 
 File.read('storage/fate-stunts.md').split("<stunt\n").each do |unsanitized_stunt|
@@ -34,4 +34,14 @@ File.read('storage/fate-stunts.md').split("<stunt\n").each do |unsanitized_stunt
   Fate::TrickSanitizerService.call(unsanitized_stunt)
 end
 
-puts "Created #{Fate::Trick.count} tricks"
+puts "Created #{Fate::Trick.count} Fate stunts"
+
+
+File.read('storage/drd2-zs.md').gsub("\r", '').split("<drd2-zs\n").each do |unsanitized_ability|
+  next if unsanitized_ability.blank?
+
+  unsanitized_ability = unsanitized_ability.gsub('</drd2-zs>', '').rstrip
+  Drd2::AbilitySanitizerService.call(unsanitized_ability)
+end
+
+puts "Created #{Drd2::Ability.count} DrD2 abilities"

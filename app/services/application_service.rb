@@ -46,7 +46,7 @@ class ApplicationService
     attributes[column] = value
   end
 
-  def assign_unmodified_array(column, value)
+  def assign_uncapitalized_array(column, value)
     value = value.split(', ')
     attributes[column] = value
   end
