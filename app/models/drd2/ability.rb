@@ -22,4 +22,6 @@
 #  updated_at      :datetime         not null
 #
 class Drd2::Ability < ApplicationRecord
+  scope :sort_by_czech_name_asc, -> { sort { |a, b| Spell.collator.compare(a.name, b.name) } }
+  scope :sort_by_czech_name_desc, -> { sort { |a, b| Spell.collator.compare(b.name, a.name) } }
 end

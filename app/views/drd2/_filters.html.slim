@@ -1,0 +1,33 @@
+.form-background.p-3.mt-3.delimiter
+  = search_form_for @q, url: schopnosti_drd2_index_path do |f|
+    .row
+      .col-md-5.col-lg-3
+        = f.input :name_cont, required: false, label: 'Název'
+      .col-8.col-md-5.col-lg-3 = f.input :rulebook_in, required: false, label: 'Zdroj', collection: Drd2::Ability.pluck(:rulebook).uniq.sort, include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :level_in, required: false, label: 'Level', collection: Drd2::Ability.pluck(:level).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :drd2_attribute_in, required: false, label: 'Dovednost', collection: Drd2::Ability.pluck(:drd2_attribute).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :related_skill_array_overlaps, required: false, label: 'Related skill', collection: psql_array_czech_sort(Drd2::Ability.pluck(:related_skill)), include_blank: true, input_html: { multiple: true }
+
+      .col-6.col-md-3.col-lg-2 = f.input :effect_array_overlaps, required: false, label: 'Efekt', collection: psql_array_czech_sort(Drd2::Ability.pluck(:effect)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :purpose_array_overlaps, required: false, label: 'Účel', collection: psql_array_czech_sort(Drd2::Ability.pluck(:purpose)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :activation_in, required: false, label: 'Aktivace', collection: psql_array_czech_sort(Drd2::Ability.pluck(:activation)), include_blank: true, input_html: { multiple: true }
+      .col-5.col-md-3.col-lg-2 = f.input :activation_cost_array_overlaps, required: false, label: 'Aktivační cena', collection: psql_array_czech_sort(Drd2::Ability.pluck(:activation_cost)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :class_basic_in, required: false, label: 'Základní povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_basic)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :class_advanced_in, required: false, label: 'Pokročilé povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_advanced)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :class_expert_in, required: false, label: 'Expertní povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_expert)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :race_in, required: false, label: 'Rasa', collection: psql_array_czech_sort(Drd2::Ability.pluck(:race)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :monster_in, required: false, label: 'Monstrum', collection: psql_array_czech_sort(Drd2::Ability.pluck(:monster)), include_blank: true, input_html: { multiple: true }
+
+    p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
+    .d-flex.justify-content-between
+      p
+        span.text-primary.me-1 = @abilities.size
+        | schopností nalezeno
+      div
+        = link_to 'Reset', schopnosti_drd2_index_path, class: 'btn btn-outline-secondary mx-0 mx-sm-3'
+        = f.submit 'Hledat', class: 'btn btn-primary'
+
+.form-background.mb-5.p-3
+  h5 Seřadit podle
+  .mb-1
+    = sort_link(@q, :czech_name, 'Názvu', {}, class: 'btn btn-secondary m-1')

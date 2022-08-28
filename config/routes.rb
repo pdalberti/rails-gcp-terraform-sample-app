@@ -15,4 +15,10 @@ Rails.application.routes.draw do
       get :triky
     end
   end
+
+  resources :drd2, only: [] do
+    collection do
+      get :schopnosti
+    end
+  end
 end
