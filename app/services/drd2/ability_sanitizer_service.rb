@@ -2,7 +2,7 @@ module Drd2
   class AbilitySanitizerService < ApplicationService
     def initialize(unsanitized_ability)
       @element =    unsanitized_ability
-      @attributes = { race_and_class: [] }
+      @attributes = { origin: [] }
       super()
     end
 
@@ -19,7 +19,7 @@ module Drd2
     end
 
     def assign_column(column, value)
-      assign_race_and_class(value) if Drd2::Ability::RACE_AND_CLASS.include?(column) && value.present?
+      assign_origin(value) if Drd2::Ability::RACE_AND_CLASS.include?(column) && value.present?
 
       case column
       when 'related_skill', 'effect', 'purpose', 'activation_cost' then assign_array(column, value)
@@ -27,8 +27,8 @@ module Drd2
       end
     end
 
-    def assign_race_and_class(value)
-      attributes[:race_and_class] << value unless attributes[:race_and_class].include?(value)
+    def assign_origin(value)
+      attributes[:origin] << value unless attributes[:origin].include?(value)
     end
   end
 end

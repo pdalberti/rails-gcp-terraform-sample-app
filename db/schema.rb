@@ -49,7 +49,7 @@ ActiveRecord::Schema.define(version: 2022_08_25_060851) do
     t.string "class_expert"
     t.string "race"
     t.string "monster"
-    t.string "race_and_class", default: [], array: true
+    t.string "origin", default: [], array: true
     t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

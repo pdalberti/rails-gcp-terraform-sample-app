@@ -6,7 +6,7 @@
           .col-md-5.col-lg-3.fw-bold = ability.name
           .col-md-2.col-lg-1 = ability.drd2_attribute
           .col-md-5.col-lg-3 = ability.effect.join(', ')
-          .col-md-5.col-lg-3 = ability.race_and_class.join(', ')
+          .col-md-5.col-lg-3 = ability.origin.join(', ')
   .accordion-collapse.collapse id="abilityPanels-collapse#{ability.id}" aria-labelledby="abilityPanels-heading#{ability.id}"
     .accordion-body
       = CommonMarker.render_html(ability_description(ability), :HARDBREAKS).html_safe

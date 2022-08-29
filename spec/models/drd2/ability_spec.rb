@@ -13,9 +13,9 @@
 #  level           :string
 #  monster         :string
 #  name            :string
+#  origin          :string           default([]), is an Array
 #  purpose         :string           default([]), is an Array
 #  race            :string
-#  race_and_class  :string           default([]), is an Array
 #  related_skill   :string           default([]), is an Array
 #  rulebook        :string
 #  created_at      :datetime         not null

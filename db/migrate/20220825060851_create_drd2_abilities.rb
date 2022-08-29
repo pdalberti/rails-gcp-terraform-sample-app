@@ -14,7 +14,7 @@ class CreateDrd2Abilities < ActiveRecord::Migration[6.1]
       t.string :class_expert
       t.string :race
       t.string :monster
-      t.string :race_and_class, array: true, default: []
+      t.string :origin, array: true, default: []
       t.text :description
 
       t.timestamps
