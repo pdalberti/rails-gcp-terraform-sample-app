@@ -17,7 +17,7 @@
       .col-6.col-md-4.col-lg-2 = f.input :race_and_class_array_overlaps, required: false, label: 'Rasa', collection: psql_array_czech_sort(Drd2::Ability.pluck(:race)), include_blank: true, input_html: { multiple: true, class: 'shared-selection' }
       .col-6.col-md-4.col-lg-2 = f.input :race_and_class_array_overlaps, required: false, label: 'Monstrum', collection: psql_array_czech_sort(Drd2::Ability.pluck(:monster)), include_blank: true, input_html: { multiple: true, class: 'shared-selection' }
 
-    p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
+    = render 'shared/instructions'
     .d-flex.justify-content-between
       p
         span.text-primary.me-1 = @abilities.size

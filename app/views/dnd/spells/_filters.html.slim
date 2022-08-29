@@ -30,7 +30,7 @@
           .form-check
             = f.check_box :concentration_false, required: false, label: 'Ne', class: 'form-check-input check_boxes optional'
             = f.label :concentration_false, 'Ne', class: 'form-check-label'
-    p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
+    = render 'shared/instructions'
     .d-flex.justify-content-between
       p
         span.text-primary.me-1 = @spells.size
