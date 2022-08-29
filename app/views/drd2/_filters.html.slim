@@ -5,18 +5,17 @@
         = f.input :name_cont, required: false, label: 'Název'
       .col-8.col-md-5.col-lg-3 = f.input :rulebook_in, required: false, label: 'Zdroj', collection: Drd2::Ability.pluck(:rulebook).uniq.sort, include_blank: true, input_html: { multiple: true }
       .col-6.col-md-4.col-lg-2 = f.input :level_in, required: false, label: 'Úroveň', collection: Drd2::Ability.pluck(:level).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :drd2_attribute_in, required: false, label: 'Dovednost', collection: Drd2::Ability.pluck(:drd2_attribute).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :effect_array_overlaps, required: false, label: 'Efekt', collection: psql_array_czech_sort(Drd2::Ability.pluck(:effect)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :drd2_attribute_in, required: false, label: 'Vlastnost', collection: Drd2::Ability.pluck(:drd2_attribute).uniq.compact.sort, include_blank: true, input_html: { multiple: true }
+      .col-8.col-md-4.col-lg-3 = f.input :related_skill_array_overlaps, required: false, label: 'Související dovednost', collection: psql_array_czech_sort(Drd2::Ability.pluck(:related_skill)), include_blank: true, input_html: { multiple: true }
 
-      .col-8.col-md-4.col-lg-3 = f.input :related_skill_array_overlaps, required: false, label: 'Související schopnost', collection: psql_array_czech_sort(Drd2::Ability.pluck(:related_skill)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-3.col-lg-2 = f.input :effect_array_overlaps, required: false, label: 'Efekt', collection: psql_array_czech_sort(Drd2::Ability.pluck(:effect)), include_blank: true, input_html: { multiple: true }
       .col-6.col-md-4.col-lg-2 = f.input :purpose_array_overlaps, required: false, label: 'Účel', collection: psql_array_czech_sort(Drd2::Ability.pluck(:purpose)), include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-4.col-lg-2 = f.input :activation_in, required: false, label: 'Aktivace', collection: psql_array_czech_sort(Drd2::Ability.pluck(:activation)), include_blank: true, input_html: { multiple: true }
       .col-6.col-md-4.col-lg-2 = f.input :activation_cost_array_overlaps, required: false, label: 'Aktivační cena', collection: psql_array_czech_sort(Drd2::Ability.pluck(:activation_cost)), include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-4.col-lg-2 = f.input :class_basic_in, required: false, label: 'Základní povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_basic)), include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-4.col-lg-2 = f.input :class_advanced_in, required: false, label: 'Pokročilé povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_advanced)), include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-4.col-lg-2 = f.input :class_expert_in, required: false, label: 'Expertní povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_expert)), include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-4.col-lg-2 = f.input :race_in, required: false, label: 'Rasa', collection: psql_array_czech_sort(Drd2::Ability.pluck(:race)), include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-4.col-lg-2 = f.input :monster_in, required: false, label: 'Monstrum', collection: psql_array_czech_sort(Drd2::Ability.pluck(:monster)), include_blank: true, input_html: { multiple: true }
+      .col-6.col-md-4.col-lg-2 = f.input :race_and_class_array_overlaps, required: false, label: 'Základní povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_basic)), include_blank: true, input_html: { multiple: true, class: 'shared-selection' }
+      .col-6.col-md-4.col-lg-2 = f.input :race_and_class_array_overlaps, required: false, label: 'Pokročilé povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_advanced)), include_blank: true, input_html: { multiple: true, class: 'shared-selection' }
+      .col-6.col-md-4.col-lg-2 = f.input :race_and_class_array_overlaps, required: false, label: 'Expertní povolání', collection: psql_array_czech_sort(Drd2::Ability.pluck(:class_expert)), include_blank: true, input_html: { multiple: true, class: 'shared-selection' }
+      .col-6.col-md-4.col-lg-2 = f.input :race_and_class_array_overlaps, required: false, label: 'Rasa', collection: psql_array_czech_sort(Drd2::Ability.pluck(:race)), include_blank: true, input_html: { multiple: true, class: 'shared-selection' }
+      .col-6.col-md-4.col-lg-2 = f.input :race_and_class_array_overlaps, required: false, label: 'Monstrum', collection: psql_array_czech_sort(Drd2::Ability.pluck(:monster)), include_blank: true, input_html: { multiple: true, class: 'shared-selection' }
 
     p.text-muted Pro výběr více možností v jedné kategorii držte tlačítko CTRL.
     .d-flex.justify-content-between
@@ -31,4 +30,4 @@
   h5 Seřadit podle
   .mb-1
     = sort_link(@q, :czech_name, 'Názvu', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :attribute_and_name, 'Dovednosti', {}, class: 'btn btn-secondary m-1')
+    = sort_link(@q, :attribute_and_name, 'Vlastnosti', {}, class: 'btn btn-secondary m-1')

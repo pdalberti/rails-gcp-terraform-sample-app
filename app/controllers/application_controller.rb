@@ -4,7 +4,8 @@ class ApplicationController < ActionController::Base
   CONTRIBUTORS = {
     'kouzla' => %w[Sirien Arled],
     'predmety' => %w[Archimedesfort1 Arled],
-    'triky' => %w[Sirien]
+    'triky' => %w[Sirien],
+    'schopnosti' => %w[fafrin]
   }.freeze
 
   def default_url_options

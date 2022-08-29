@@ -3,7 +3,6 @@
 # Table name: drd2_abilities
 #
 #  id              :bigint           not null, primary key
-#  activation      :string
 #  activation_cost :string           default([]), is an Array
 #  class_advanced  :string
 #  class_basic     :string
@@ -16,12 +15,15 @@
 #  name            :string
 #  purpose         :string           default([]), is an Array
 #  race            :string
+#  race_and_class  :string           default([]), is an Array
 #  related_skill   :string           default([]), is an Array
 #  rulebook        :string
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #
 class Drd2::Ability < ApplicationRecord
+  RACE_AND_CLASS = %w[class_basic class_advanced class_expert race monster].freeze
+
   scope :sort_by_czech_name_asc, -> { sort { |a, b| Drd2::Ability.collator.compare(a.name, b.name) } }
   scope :sort_by_czech_name_desc, -> { sort { |a, b| Drd2::Ability.collator.compare(b.name, a.name) } }
   scope :sort_by_attribute_and_name_asc, lambda {

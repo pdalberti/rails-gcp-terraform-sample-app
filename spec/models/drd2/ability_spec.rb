@@ -3,7 +3,6 @@
 # Table name: drd2_abilities
 #
 #  id              :bigint           not null, primary key
-#  activation      :string
 #  activation_cost :string           default([]), is an Array
 #  class_advanced  :string
 #  class_basic     :string
@@ -16,6 +15,7 @@
 #  name            :string
 #  purpose         :string           default([]), is an Array
 #  race            :string
+#  race_and_class  :string           default([]), is an Array
 #  related_skill   :string           default([]), is an Array
 #  rulebook        :string
 #  created_at      :datetime         not null
