@@ -1,4 +1,4 @@
 footer.container.py-3.my-4.border-top.text-center
   - unless current_page?('/') && @contributors.blank?
     p Tato kartotéka existuje díky přispěvkvům uživatel#{@contributors.length == 1 ? 'e' : 'ů'} #{readable_contributors(@contributors)}.
-  = link_to 'd20.cz', 'http://www.d20.cz', target: :blank, class: 'text-muted'
+  = link_to 'd20.cz', 'http://www.d20.cz/clanky/stripky/kartoteky-kostky.html', target: :blank, class: 'text-muted'
