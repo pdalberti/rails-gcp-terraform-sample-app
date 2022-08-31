@@ -116,7 +116,7 @@ attribute="Vliv"
 related-skill=""
 effect="obsahová pravomoc"
 purpose=""
-activation-cost="1 Vliv"
+activation-cost="Vliv: 1"
 class-basic=""
 class-advanced=""
 class-expert=""
@@ -226,7 +226,7 @@ attribute="Duše"
 related-skill=""
 effect="Obsahová pravomoc"
 purpose=""
-activation-cost="1 Duše"
+activation-cost="Duše: 1"
 class-basic=""
 class-advanced=""
 class-expert=""
@@ -256,7 +256,7 @@ race="trpaslík"
 monster=""
 >
 
-_**I v nejčernější tmě vidí jako jiní v šeru. Šero je pro něj jasným dnem.**_
+_**I v nejčernější tmě vidí jako jiní v šeru. Šero je pro něj jasným dnem.**_
 
 Postava s tímto neobvyklým smyslem dokáže vidět ve tmě.
 
@@ -333,7 +333,7 @@ attribute="Vliv"
 related-skill=""
 effect="obsahová pravomoc"
 purpose="Jednání"
-activation-cost="1 Vliv"
+activation-cost="Vliv: 1"
 class-basic=""
 class-advanced=""
 class-expert=""
@@ -354,7 +354,7 @@ attribute="Duše"
 related-skill=""
 effect="obsahová pravomoc"
 purpose="Skrývání"
-activation-cost="1 Duše"
+activation-cost="Duše: 1"
 class-basic=""
 class-advanced=""
 class-expert=""
@@ -364,7 +364,7 @@ monster=""
 
 _**Když mu hrozí nějaká nepříjemnost, okamžitě pocítí neklid a zbystří.**_
 
-Hráč může určit, že jeho postava, je-li bdělá, dokáže včas zareagovat na skryté nebezpečí, jako by měla alespoň podezření na jeho přítomnost. (**_Aktivace_** 1 **_Duše_**)
+Hráč může určit, že jeho postava, je-li bdělá, dokáže včas zareagovat na skryté nebezpečí, jako by měla alespoň podezření na jeho přítomnost. (**_Aktivace_** 1 **_Duše_**)
 </drd2-zs>
 
 <drd2-zs
@@ -438,7 +438,7 @@ attribute="Duše"
 related-skill=""
 effect="Obsahová pravomoc"
 purpose=""
-activation-cost="1 Duše"
+activation-cost="Duše: 1"
 class-basic=""
 class-advanced=""
 class-expert=""
@@ -478,7 +478,7 @@ rulebook="Základní příručka"
 level=""
 attribute="Tělo"
 related-skill=""
-effect="Silné jizvy"
+effect="Silnější jizvy"
 purpose="Jizvy"
 activation-cost="Bez Aktivace"
 class-basic=""
@@ -520,7 +520,7 @@ rulebook="Základní příručka"
 level=""
 attribute="Tělo"
 related-skill=""
-effect="Přirozená zbroj"
+effect="Přirozená ochrana"
 purpose="Boj"
 activation-cost="Bez Aktivace"
 class-basic=""
@@ -543,7 +543,7 @@ attribute="Duše"
 related-skill=""
 effect="Obsahová pravomoc"
 purpose="Magie, Zřídla"
-activation-cost="1 Duše"
+activation-cost="Duše: 1"
 class-basic=""
 class-advanced=""
 class-expert=""
@@ -574,7 +574,7 @@ monster=""
 
 _**Ten chlap to s tesákem umí, a nemám na mysli jen porcování masa, jestli mi rozumíte.**_
 
-Hráč si vybere jeden druh zbraně pro boj zblízka (např. "kopí" nebo "meč"). Postava má _nadání_ (2 **_manévry_**) pro pěší i jízdní boj s tímto druhem zbraně proti jakémukoliv protivníkovi i pro jiné používání tohoto druhu zbraně.
+Hráč si vybere jeden druh zbraně pro boj zblízka (např. "kopí" nebo "meč"). Postava má _nadání_ (2 **_manévry_**) pro pěší i jízdní boj s tímto druhem zbraně proti jakémukoliv protivníkovi i pro jiné používání tohoto druhu zbraně.
 </drd2-zs>
 
 <drd2-zs
@@ -604,7 +604,7 @@ level="základní"
 attribute="Tělo"
 related-skill="Síla"
 effect="zběhlost"
-purpose="Jiné"
+purpose="Jiný"
 activation-cost="Bez Aktivace"
 class-basic="Bojovník"
 class-advanced=""
@@ -635,7 +635,7 @@ monster=""
 
 _**Svého zákazníka nebo přítele dostane živého a zdravého z jakéhokoliv nebezpečí.**_
 
-Postava může tělesnými akcemi reagovat akcí z obra­ny nejen na akce vedené na sebe, jak je obvyklé, ale i na jakékoliv akce škodící jiné postavě nebo předmětu, které má v dosahu.</drd2-zs>
+Postava může tělesnými akcemi reagovat akcí z obra­ny nejen na akce vedené na sebe, jak je obvyklé, ale i na jakékoliv akce škodící jiné postavě nebo předmětu, které má v dosahu.</drd2-zs>
 
 <drd2-zs
 name="Kruhový sek"
@@ -663,7 +663,7 @@ rulebook="Základní příručka"
 level="základní"
 attribute="Tělo"
 related-skill=""
-effect="Jiné"
+effect="Jiný"
 purpose="Boj"
 activation-cost="Bez Aktivace"
 class-basic="Bojovník"
@@ -715,7 +715,7 @@ monster=""
 
 _**Věrnému spolubojovníkovi dokáže pomoci v útoku i krýt záda.**_
 
-Postava může v boji zblízka i mimo svou akci pomoci jiné postavě s její akcí (např. vykrýt ránu, pomoci se zvednout na nohy, zapřít), pokud se nachází dostatečné blízko, a **_poskytnout_** jí pro tuto akci svoje **_Tělo_** (na zaplacení **_aktivace_**, **_náročnosti_**, **_manévrů_** nebo **_vyčerpání_**).</drd2-zs>
+Postava může v boji zblízka i mimo svou akci pomoci jiné postavě s její akcí (např. vykrýt ránu, pomoci se zvednout na nohy, zapřít), pokud se nachází dostatečné blízko, a **_poskytnout_** jí pro tuto akci svoje **_Tělo_** (na zaplacení **_aktivace_**, **_náročnosti_**, **_manévrů_** nebo **_vyčerpání_**).</drd2-zs>
 
 <drd2-zs
 name="Skald"
@@ -757,7 +757,7 @@ _**Jeho schopnost bleskově zhodnotit bojovou situaci a v okamžiku se jí přiz
 
 Je-li postava přepadena, získává 1 **_Výhodu_**.
 
-Postava může, po dostatečně předchozí přípravě bojového plánu, používat v bitce zdarma **_přístupy_** k iniciativě, dokud jdou věci podle plánu.
+Postava může, po dostatečně předchozí přípravě bojového plánu, používat v bitce zdarma **_přístupy_** k iniciativě, dokud jdou věci podle plánu.
 </drd2-zs>
 
 <drd2-zs
@@ -788,7 +788,7 @@ attribute="Vliv"
 related-skill=""
 effect="Obsahová pravomoc"
 purpose="Boj"
-activation-cost="1 Vliv"
+activation-cost="Vliv: 1"
 class-basic="Bojovník"
 class-advanced=""
 class-expert=""
@@ -885,7 +885,7 @@ name="Průzkumník"
 rulebook="Základní příručka"
 level="základní"
 attribute="Duše"
-related-skill="Orien­taci_ v _divočině"
+related-skill="Orien­taci v divočině"
 effect="zběhlost"
 purpose="Znalosti, Skrývání"
 activation-cost="Bez Aktivace"
@@ -906,7 +906,7 @@ rulebook="Základní příručka"
 level="základní"
 attribute="Duše"
 related-skill="Cestování, Orientace v divočině"
-effect="zběhlost, rozsáhle zdarma"
+effect="Zběhlost, Rozsáhle zdarma"
 purpose="Znalosti, Skrývání, Pohyb"
 activation-cost="Bez Aktivace"
 class-basic="Lovec"
@@ -930,8 +930,8 @@ level="základní"
 attribute="Duše"
 related-skill="Lovecké znalosti"
 effect="zběhlost, posílení dovednosti"
-purpose="Znalosti, Odhad"
-activation-cost="Bez aktivace, 1 Duše"
+purpose="Znalosti, Odhad, Trofeje, Zvířata"
+activation-cost="Bez aktivace, Duše: 1"
 class-basic="Lovec"
 class-advanced=""
 class-expert=""
@@ -954,7 +954,7 @@ attribute="Duše"
 related-skill=""
 effect="Zisk Zdrojů"
 purpose="Výroba, Pasti"
-activation-cost="Bez aktivace, 1 Duše"
+activation-cost="Bez aktivace, Duše: 1"
 class-basic="Lovec"
 class-advanced=""
 class-expert=""
@@ -976,8 +976,8 @@ level="základní"
 attribute="Duše"
 related-skill=""
 effect="Obsahová pravomoc"
-purpose="Jiné"
-activation-cost="1 Duše"
+purpose="Skrývání, Iniciativa, Přepadení"
+activation-cost="Duše: 1"
 class-basic="Lovec"
 class-advanced=""
 class-expert=""
@@ -997,7 +997,7 @@ level="základní"
 attribute="Vliv"
 related-skill="Ovlivňování zvířat"
 effect="zběhlost"
-purpose="Jednání"
+purpose="Jednání, Zvířata"
 activation-cost="Bez Aktivace"
 class-basic="Lovec"
 class-advanced=""
@@ -1018,7 +1018,7 @@ level="základní"
 attribute="Vliv"
 related-skill="Ovlivňování zvířat"
 effect="Obsahová pravomoc, Posílení dovednosti"
-purpose="Cvičení, Pomocníci"
+purpose="Pomocníci, Zvířata"
 activation-cost="Bez Aktivace"
 class-basic="Lovec"
 class-advanced=""
@@ -1038,8 +1038,8 @@ level="základní"
 attribute="Vliv"
 related-skill=""
 effect="Obsahová pravomoc"
-purpose="Jiné"
-activation-cost="1 Vliv"
+purpose="Jednání, Zvířata, Skrývání"
+activation-cost="Vliv: 1"
 class-basic="Lovec"
 class-advanced=""
 class-expert=""
@@ -1067,7 +1067,7 @@ race=""
 monster=""
 >
 
-_**Pokud se jím vržená zbraň chvěje v trámu vedle vaší hlavy, buďte si jistí, že neminul. Bylo to varování.**_
+_**Pokud se jím vržená zbraň chvěje v trámu vedle vaší hlavy, buďte si jistí, že neminul. Bylo to varování.**_
 
 Hráč si vybere jeden druh vrhací zbraně (např. "nůž" nebo "oštěp"). Postava má _nadání_ (2 **_manévry_**) pro vrhání tímto druhem zbraně na jakýkoliv cíl.</drd2-zs>
 
@@ -1117,7 +1117,7 @@ rulebook="Základní příručka"
 level="základní"
 attribute="Tělo"
 related-skill=""
-effect="Přirozená zbraň, Jiné"
+effect="Přirozená zbraň, Obrana zdarma, Jiný"
 purpose="Boj"
 activation-cost="Bez Aktivace"
 class-basic="Kejklíř"
@@ -1158,7 +1158,7 @@ level="základní"
 attribute="Duše"
 related-skill="Triky a kejkle"
 effect="zběhlost"
-purpose="Jiné"
+purpose="Skrývání"
 activation-cost="Bez Aktivace"
 class-basic="Kejklíř"
 class-advanced=""
@@ -1178,7 +1178,7 @@ level="základní"
 attribute="Duše"
 related-skill="Orientace ve městě"
 effect="zběhlost"
-purpose="Skrývání, Znalosti"
+purpose="Skrývání, Znalosti, Boj"
 activation-cost="Bez Aktivace"
 class-basic="Kejklíř"
 class-advanced=""
@@ -1198,7 +1198,7 @@ level="základní"
 attribute="Vliv"
 related-skill="Umění"
 effect="nadání"
-purpose="Jiné"
+purpose="Jednání"
 activation-cost="Bez Aktivace"
 class-basic="Kejklíř"
 class-advanced=""
@@ -1238,7 +1238,7 @@ level="základní"
 attribute="Vliv"
 related-skill="Umění"
 effect="zběhlost, rozsáhle zdarma"
-purpose="Jiné"
+purpose="Jednání"
 activation-cost="Bez Aktivace"
 class-basic="Kejklíř"
 class-advanced=""
@@ -1260,8 +1260,8 @@ level="základní"
 attribute="Vliv"
 related-skill="Převleky a předstírání"
 effect="Posílení dovednosti"
-purpose="Skrývání"
-activation-cost="1 Vliv"
+purpose="Skrývání, Jednání"
+activation-cost="Vliv: 1"
 class-basic="Kejklíř"
 class-advanced=""
 class-expert=""
@@ -1271,7 +1271,7 @@ monster=""
 
 _**Nepotřebuje převleky ani líčidla. Prostě jen svraští obličej, rozcuchá si vlasy, shrbí se nebo napodobí záškuby šílence tak dovedně, že jej ani přátelé nepoznají.**_
 
-Postava se s použitím _Převleků a předstírání_ dokáže vydávat za někoho jiného (například za stařenu nebo žebráka), ačkoliv neměla dost času nebo prostředky k tomu, aby se nalíčila nebo použila převlek. Nemůže se však tímto způsobem vydávat za nějakou určitou existující osobu. (**_Aktivace_** 1 **_Vliv_**)</drd2-zs>
+Postava se s použitím _Převleků a předstírání_ dokáže vydávat za někoho jiného (například za stařenu nebo žebráka), ačkoliv neměla dost času nebo prostředky k tomu, aby se nalíčila nebo použila převlek. Nemůže se však tímto způsobem vydávat za nějakou určitou existující osobu. (**_Aktivace_** 1 **_Vliv_**)</drd2-zs>
 
 <drd2-zs
 name="Skrytá kapsa"
@@ -1281,7 +1281,7 @@ attribute="Tělo"
 related-skill=""
 effect="Obsahová pravomoc"
 purpose="Skrývání"
-activation-cost="1 Tělo"
+activation-cost="Tělo: 1"
 class-basic="Kejklíř"
 class-advanced=""
 class-expert=""
@@ -1300,7 +1300,7 @@ level="základní"
 attribute="Duše"
 related-skill="Masti a jedy"
 effect="zběhlost"
-purpose="Výroba, Jedy, Masti, Léčení"
+purpose="Výroba, Jedy, Masti, Léčení, Lidé, Zvířata"
 activation-cost="Bez Aktivace"
 class-basic="Mastičkář"
 class-advanced=""
@@ -1311,7 +1311,7 @@ monster=""
 
 _**Jedy, které vyrábí, porážejí protivníky spolehlivěji než ostrá dýka, uspávadla uspávají rychleji než rána do zátylku.**_
 
-Postava je _zběhlá_ (základní **_manévry_** zdarma) v _Mas­tech a běžných jedech_.</drd2-zs>
+Postava je _zběhlá_ (základní **_manévry_** zdarma) v _Mas­tech a běžných jedech_.</drd2-zs>
 
 <drd2-zs
 name="Ranhojič"
@@ -1320,7 +1320,7 @@ level="základní"
 attribute="Duše"
 related-skill="Ošetřování lidského těla"
 effect="zběhlost"
-purpose="Znalosti, Léčení, Masti, Trofeje"
+purpose="Znalosti, Léčení, Masti, Trofeje, Lidé"
 activation-cost="Bez Aktivace"
 class-basic="Mastičkář"
 class-advanced=""
@@ -1340,8 +1340,8 @@ level="základní"
 attribute="Duše"
 related-skill="Znalost lidí"
 effect="zběhlost, posílení dovednosti"
-purpose="Znalosti"
-activation-cost="Bez aktivace, 1 Duše"
+purpose="Znalosti, Odhad, Lidé"
+activation-cost="Bez aktivace, Duše: 1"
 class-basic="Mastičkář"
 class-advanced=""
 class-expert=""
@@ -1363,7 +1363,7 @@ attribute="Duše"
 related-skill=""
 effect="Zisk zdrojů"
 purpose="Výroba, Jedy"
-activation-cost="Bez aktivace, 1 Duše"
+activation-cost="Bez aktivace, Duše: 1"
 class-basic="Mastičkář"
 class-advanced=""
 class-expert=""
@@ -1375,7 +1375,7 @@ _**Zatímco jiní zkoušejí chybějící přísadu nějak nahradit, on si zkrá
 
 Postava dokáže vyrobit základ _běžného jedu_ s použitím _nouzových_ **_Surovin_**. (**_Aktivace_** 1 **_Duše_**)
 
-Postava dokáže při výrobě posilovat libovolné _jedy_ a _protijedy_ s pomocí _nouzových_ **_Surovin_**. Za kaž­dou takto vloženou **_Surovin_** zaplatí 1 **_Duši_**.</drd2-zs>
+Postava dokáže při výrobě posilovat libovolné _jedy_ a _protijedy_ s pomocí _nouzových_ **_Surovin_**. Za kaž­dou takto vloženou **_Surovin_** zaplatí 1 **_Duši_**.</drd2-zs>
 
 <drd2-zs
 name="Neobvyklé jedy"
@@ -1385,7 +1385,7 @@ attribute="Duše"
 related-skill=""
 effect="Posílení dovednosti"
 purpose="Výroba, Jedy"
-activation-cost="1 Surovina, 3 Suroviny"
+activation-cost="Suroviny: 1, Suroviny: 3"
 class-basic="Mastičkář"
 class-advanced=""
 class-expert=""
@@ -1468,7 +1468,7 @@ level="základní"
 attribute="Vliv"
 related-skill=""
 effect="Rozšířená obrana"
-purpose="Jednání, Jiné"
+purpose="Jednání, Magie"
 activation-cost="Bez Aktivace"
 class-basic="Mastičkář"
 class-advanced=""
@@ -1479,7 +1479,7 @@ monster=""
 
 _**Umí se zastat svých přátel a jeho slova tnou hlouběji než meč.**_
 
-Postava může akcemi spadajícími pod vliv reagovat pomocí akce z obrany nejen na akce vedené na sebe, jak je obvyklé, ale i na jakékoliv akce škodící jiné postavě, která se nachází v doslechu.</drd2-zs>
+Postava může akcemi spadajícími pod vliv reagovat pomocí akce z obrany nejen na akce vedené na sebe, jak je obvyklé, ale i na jakékoliv akce škodící jiné postavě, která se nachází v doslechu.</drd2-zs>
 
 <drd2-zs
 name="Moudrý rádce"
@@ -1499,7 +1499,7 @@ monster=""
 
 _**Pouhá jeho přítomnost může jeho přátelům pomoci odolat nátlaku nebo přesvědčit o své pravdě odpůrce.**_
 
-Postava může při jednání i mimo svou akci pomoci jiné postavě s její akcí (např. napovědět, povzbudit, odlákat pozornost), pokud se nachází v doslechu, a **_poskytnout_** jí pro tuto akci svůj **_Vliv_** (na zaplacení **_aktivace_**, **_náročnosti_**, **_manévrů_** nebo **_vyčerpání_**).</drd2-zs>
+Postava může při jednání i mimo svou akci pomoci jiné postavě s její akcí (např. napovědět, povzbudit, odlákat pozornost), pokud se nachází v doslechu, a **_poskytnout_** jí pro tuto akci svůj **_Vliv_** (na zaplacení **_aktivace_**, **_náročnosti_**, **_manévrů_** nebo **_vyčerpání_**).</drd2-zs>
 
 <drd2-zs
 name="Hojivý dotek"
@@ -1509,7 +1509,7 @@ attribute="Vliv"
 related-skill=""
 effect="Posílené léčení"
 purpose="Léčení"
-activation-cost="1 Duše"
+activation-cost="Duše: 1"
 class-basic="Mastičkář"
 class-advanced=""
 class-expert=""
@@ -1528,8 +1528,8 @@ level="základní"
 attribute="Vliv"
 related-skill=""
 effect="Obsahová pravomoc"
-purpose="Jiné"
-activation-cost="1 Vliv"
+purpose="Jednání, Lidé"
+activation-cost="Vliv: 1"
 class-basic="Mastičkář"
 class-advanced=""
 class-expert=""
@@ -1548,7 +1548,7 @@ level="základní"
 attribute="Duše"
 related-skill="Učenost, Znalost nadpřirozena"
 effect="zběhlost"
-purpose="Znalosti"
+purpose="Znalosti, Obrazce, Zřídla, Rituální předměty, Odhad, Nemrtví, Oživení, Běsi, Netvoři, Magie"
 activation-cost="Bez Aktivace"
 class-basic="Zaříkávač"
 class-advanced=""
@@ -1567,9 +1567,9 @@ rulebook="Základní příručka"
 level="základní"
 attribute="Duše"
 related-skill="Ošetřování lidské duše"
-effect="zběhlost, Posílené léčení"
-purpose="Léčení"
-activation-cost="Bez aktivace, 1 Duše"
+effect="Zběhlost, Posílené léčení"
+purpose="Léčení, Lidé"
+activation-cost="Bez aktivace, Duše: 1"
 class-basic="Zaříkávač"
 class-advanced=""
 class-expert=""
@@ -1590,7 +1590,7 @@ level="základní"
 attribute="Duše"
 related-skill=""
 effect="rozšířená obrana"
-purpose="Jiné"
+purpose="Jednání, Magie, Skrývání"
 activation-cost="Bez Aktivace"
 class-basic="Zaříkávač"
 class-advanced=""
@@ -1601,7 +1601,7 @@ monster=""
 
 _**Je pohotový a v pravou chvíli dokáže pomoci příteli radou či kouzlem.**_
 
-Postava může duševními akcemi reagovat pomocí akce z obrany nejen na akce vedené na sebe, jak je obvyklé, ale i na jakékoliv akce škodící jiné postavě nebo předmětu, který se nachází v dohledu.</drd2-zs>
+Postava může duševními akcemi reagovat pomocí akce z obrany nejen na akce vedené na sebe, jak je obvyklé, ale i na jakékoliv akce škodící jiné postavě nebo předmětu, který se nachází v dohledu.</drd2-zs>
 
 <drd2-zs
 name="Dar tvoření"
@@ -1631,7 +1631,7 @@ rulebook="Základní příručka"
 level="základní"
 attribute="Duše"
 related-skill=""
-effect="Zvláštní smysl"
+effect="Neobvyklý smysl"
 purpose="Obrazce"
 activation-cost="Bez Aktivace"
 class-basic="Zaříkávač"
@@ -1653,7 +1653,7 @@ attribute="Duše"
 related-skill=""
 effect="Posílení dovednosti"
 purpose="Obrazce"
-activation-cost="1 Surovina, 3 Suroviny"
+activation-cost="Suroviny: 1, Suroviny: 3"
 class-basic="Zaříkávač"
 class-advanced=""
 class-expert=""
@@ -1685,9 +1685,9 @@ monster=""
 
 _**Svou vůlí dokáže spoutat mnoho míst současně, a tak když překonáte jednoho jeho strážce, za rohem může číhat další, ještě mocnější.**_
 
-Postava dokáže udržet spojení s více než jedním _ochranným_ _obrazcem_. Každé již udržované spojení s _ochranným_ _obrazcem_ zvyšuje **_náročnost_** tvoření dalšího _ochranného_ _obrazce_ o 1.
+Postava dokáže udržet spojení s více než jedním _ochranným_ _obrazcem_. Každé již udržované spojení s _ochranným_ _obrazcem_ zvyšuje **_náročnost_** tvoření dalšího _ochranného_ _obrazce_ o 1.
 
-Nikdy ale nemůže udržovat spojení s více než jedním _trvalým ochranným obrazcem._</drd2-zs>
+Nikdy ale nemůže udržovat spojení s více než jedním _trvalým ochranným obrazcem._</drd2-zs>
 
 <drd2-zs
 name="Divoký talent"
@@ -1696,7 +1696,7 @@ level="základní"
 attribute="Vliv"
 related-skill="Zaříkání"
 effect="zběhlost"
-purpose="Magie"
+purpose="Magie, Lidé, Zvířata"
 activation-cost="Bez Aktivace"
 class-basic="Zaříkávač"
 class-advanced=""
@@ -1716,7 +1716,7 @@ level="základní"
 attribute="Vliv"
 related-skill="Vyjednávání s nadpřirozenem"
 effect="zběhlost"
-purpose="Jednání"
+purpose="Jednání, Nemrtví, Oživení, Běsi, Netvoři"
 activation-cost="Bez Aktivace"
 class-basic="Zaříkávač"
 class-advanced=""
@@ -1736,8 +1736,8 @@ level="základní"
 attribute="Vliv"
 related-skill="Zaříkání"
 effect="posílení dovednosti"
-purpose="Magie"
-activation-cost="1 Vliv, 3 Vlivy"
+purpose="Magie, Lidé, Zvířata"
+activation-cost="Vliv: 1, Vliv: 3"
 class-basic="Zaříkávač"
 class-advanced=""
 class-expert=""
@@ -1769,7 +1769,7 @@ monster=""
 
 _**Mocným obřadem či rituálem mohou zaříkávači spojit své síly a dosáhnout zázraku.**_
 
-Postava může i mimo svou akci pomoci jiné postavě provádějící nějaký druh magie, připojí-li se k jejímu rituálu, a **_poskytnout_** jí pro tuto akci odpovídající **_Zdroje_** (na zaplacení **_aktivace_**, **_náročnosti, manévrů_** nebo **_vyčerpání_**).</drd2-zs>
+Postava může i mimo svou akci pomoci jiné postavě provádějící nějaký druh magie, připojí-li se k jejímu rituálu, a **_poskytnout_** jí pro tuto akci odpovídající **_Zdroje_** (na zaplacení **_aktivace_**, **_náročnosti, manévrů_** nebo **_vyčerpání_**).</drd2-zs>
 
 <drd2-zs
 name="Věže a chrámy"
@@ -1778,8 +1778,8 @@ level="základní"
 attribute="Vliv"
 related-skill=""
 effect="Obsahová pravomoc"
-purpose="Jiné"
-activation-cost="1 Vliv"
+purpose="Jednání, Organizace"
+activation-cost="Vliv: 1"
 class-basic="Zaříkávač"
 class-advanced=""
 class-expert=""
