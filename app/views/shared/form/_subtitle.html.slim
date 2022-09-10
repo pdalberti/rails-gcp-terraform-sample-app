@@ -1,0 +1,9 @@
+.d-flex.justify-content-between
+  p.card-subtitle.text-muted powered by #{link_to 'd20.cz', 'http://www.d20.cz', target: :blank, class: 'text-muted'}
+  div
+    - unless request.path == '/'
+      = link_to 'Zpátky k rozcestníku', root_path, class: 'card-subtitle text-muted'
+    - if cookies[:theme] == 'light'
+      = link_to '<i class="fa-solid fa-moon"></i>'.html_safe, "#{@url}?theme=dark", class: 'card-subtitle text-muted mx-2'
+    - else
+      = link_to '<i class="fa-solid fa-sun"></i>'.html_safe, "#{@url}?theme=light", class: 'card-subtitle text-muted mx-2'

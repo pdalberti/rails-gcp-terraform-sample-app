@@ -1,0 +1,13 @@
+- color = cookies[:theme] == 'light' ? 'primary' : 'danger'
+p.text-muted
+  | Pro výběr více možností v jedné kategorii držte tlačítko CTRL (jednotlivý výběr) nebo SHIFT (hromadný výběr). Pro zrušení výběru držte tlačítko CTRL.
+  - if @extra_instructions
+    br
+    = @extra_instructions
+.d-flex.justify-content-between
+  p
+    span.me-1 class="text-#{color}" = @elements.size
+    | #{elements} nalezeno
+  div
+    = link_to 'Reset', link, class: 'btn btn-outline-secondary mx-0 mx-sm-3'
+    = f.submit 'Hledat', class: "btn btn-#{color}"

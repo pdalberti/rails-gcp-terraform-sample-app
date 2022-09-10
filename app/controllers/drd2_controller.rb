@@ -1,6 +1,6 @@
 class Drd2Controller < ApplicationController
   def schopnosti
     @q = Drd2::Ability.ransack(params[:q])
-    @abilities = @q.result
+    @elements = @q.result
   end
 end

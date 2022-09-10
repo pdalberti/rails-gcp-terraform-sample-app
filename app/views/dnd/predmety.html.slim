@@ -2,9 +2,8 @@
 - content_for :meta_title, 'DnD 5e kartotéka předmětů'
 
 h1.mt-5 DnD 5e kartotéka předmětů
-.d-flex.justify-content-between
-  = render 'shared/subtitle'
+= render 'shared/form/subtitle'
 = render 'dnd/items/filters'
 
 .accordion.custom-accordion
-  = render partial: 'dnd/items/item', collection: @items
+  = render partial: 'dnd/items/item', collection: @elements

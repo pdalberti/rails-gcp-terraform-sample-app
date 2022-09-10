@@ -1,12 +1,12 @@
 class DndController < ApplicationController
   def kouzla
     @q = Spell.ransack(present_params)
-    @spells = @q.result
+    @elements = @q.result
   end
 
   def predmety
     @q = Dnd::Item.ransack(present_params)
-    @items = @q.result
+    @elements = @q.result
   end
 
   private

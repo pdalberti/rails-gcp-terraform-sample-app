@@ -2,9 +2,8 @@
 - content_for :meta_title, 'Fate kartotéka triků'
 
 h1.mt-5 Fate kartotéka triků
-.d-flex.justify-content-between
-  = render 'shared/subtitle'
+= render 'shared/form/subtitle'
 = render 'fate_filters'
 
 .accordion.custom-accordion
-  = render partial: 'fate_trick', collection: @tricks
+  = render partial: 'fate_trick', collection: @elements

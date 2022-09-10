@@ -31,7 +31,7 @@ html
 
     link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
 
-  body
+  body class="text-bg-#{cookies[:theme]}"
     = render 'shared/cookies'
     .d-flex.flex-column.justify-content-between.full-page
       .container

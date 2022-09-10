@@ -1,50 +1,44 @@
-.form-background.p-3.mt-3.delimiter
-  = search_form_for @q, url: kouzla_dnd_index_path do |f|
-    .row
-      .col-md-5.col-lg-3
-        = f.input :title_cont, required: false, placeholder: 'Český', label: 'Název'
-        = f.input :original_cont, required: false, placeholder: 'Anglický', label: false
-      .col-md-7.col-lg-4 = f.input :rulebook_array_overlaps, required: false, label: 'Zdroj', collection: psql_array_czech_sort(Spell.pluck(:rulebook)), include_blank: true, input_html: { multiple: true }
-      .col-5.col-md-3.col-lg-2 = f.input :school_in, required: false, label: 'Škola', collection: collator.sort(Spell.pluck(:school).uniq), include_blank: true, input_html: { multiple: true }
-      .col-3.col-md-2.col-lg-1 = f.input :level_in, required: false, label: 'Stupeň', collection: Spell.pluck(:level).uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :range_in, required: false, label: 'Dosah', collection: Spell::RANGE, include_blank: true, input_html: { multiple: true }
-      .col-8.col-md-4.col-lg-3 = f.input :casting_in, required: false, label: 'Vyvolání', collection: Spell::CASTING, include_blank: true, input_html: { multiple: true }
-      .col-3.col-md-2.col-lg-1
-        fieldset.mb-3.check_boxes.optional.q_ritual_eq
-          legend.col-form-label.heading-font.pt-0 Rituál?
-          .form-check
-            = f.check_box :ritual_true, required: false, label: 'Ano', class: 'form-check-input check_boxes optional'
-            = f.label :ritual_true, 'Ano', class: 'form-check-label'
-          .form-check
-            = f.check_box :ritual_false, required: false, label: 'Ne', class: 'form-check-input check_boxes optional'
-            = f.label :ritual_false, 'Ne', class: 'form-check-label'
-      .col-4.col-md-3.col-lg-2 = f.input :components_in, required: false, label: 'Složky', collection: Spell.pluck(:components).uniq.sort, include_blank: true, input_html: { multiple: true }
-      .col-6.col-md-3.col-lg-2 = f.input :classes_array_overlaps, required: false, label: 'Povolání', collection: psql_array_czech_sort(Spell.pluck(:classes)), include_blank: true, input_html: { multiple: true }
-      .col-10.col-md-5.col-lg-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell::DURATION, include_blank: true, input_html: { multiple: true }
-      .col-3.col-md-2.col-lg-1
-        fieldset.mb-3.check_boxes.optional.q_concentration_eq
-          legend.col-form-label.heading-font.pt-0 Soustředění?
-          .form-check
-            = f.check_box :concentration_true, required: false, label: 'Ano', class: 'form-check-input check_boxes optional'
-            = f.label :concentration_true, 'Ano', class: 'form-check-label'
-          .form-check
-            = f.check_box :concentration_false, required: false, label: 'Ne', class: 'form-check-input check_boxes optional'
-            = f.label :concentration_false, 'Ne', class: 'form-check-label'
-    = render 'shared/instructions'
-    .d-flex.justify-content-between
-      p
-        span.text-primary.me-1 = @spells.size
-        | kouzel nalezeno
-      div
-        = link_to 'Reset', kouzla_dnd_index_path, class: 'btn btn-outline-secondary mx-0 mx-sm-3'
-        = f.submit 'Hledat', class: 'btn btn-primary'
+.text-dark
+  .form-background.p-3.mt-3.delimiter
+    = search_form_for @q, url: kouzla_dnd_index_path do |f|
+      .row
+        .col-md-5.col-lg-3
+          = f.input :title_cont, required: false, placeholder: 'Český', label: 'Název'
+          = f.input :original_cont, required: false, placeholder: 'Anglický', label: false
+        .col-md-7.col-lg-4 = f.input :rulebook_array_overlaps, required: false, label: 'Zdroj', collection: psql_array_czech_sort(Spell.pluck(:rulebook)), include_blank: true, input_html: { multiple: true }
+        .col-5.col-md-3.col-lg-2 = f.input :school_in, required: false, label: 'Škola', collection: collator.sort(Spell.pluck(:school).uniq), include_blank: true, input_html: { multiple: true }
+        .col-3.col-md-2.col-lg-1 = f.input :level_in, required: false, label: 'Stupeň', collection: Spell.pluck(:level).uniq.sort, include_blank: true, input_html: { multiple: true }
+        .col-6.col-md-3.col-lg-2 = f.input :range_in, required: false, label: 'Dosah', collection: Spell::RANGE, include_blank: true, input_html: { multiple: true }
+        .col-8.col-md-4.col-lg-3 = f.input :casting_in, required: false, label: 'Vyvolání', collection: Spell::CASTING, include_blank: true, input_html: { multiple: true }
+        .col-3.col-md-2.col-lg-1
+          fieldset.mb-3.check_boxes.optional.q_ritual_eq
+            legend.col-form-label.heading-font.pt-0 Rituál?
+            .form-check
+              = f.check_box :ritual_true, required: false, label: 'Ano', class: 'form-check-input check_boxes optional'
+              = f.label :ritual_true, 'Ano', class: 'form-check-label'
+            .form-check
+              = f.check_box :ritual_false, required: false, label: 'Ne', class: 'form-check-input check_boxes optional'
+              = f.label :ritual_false, 'Ne', class: 'form-check-label'
+        .col-4.col-md-3.col-lg-2 = f.input :components_in, required: false, label: 'Složky', collection: Spell.pluck(:components).uniq.sort, include_blank: true, input_html: { multiple: true }
+        .col-6.col-md-3.col-lg-2 = f.input :classes_array_overlaps, required: false, label: 'Povolání', collection: psql_array_czech_sort(Spell.pluck(:classes)), include_blank: true, input_html: { multiple: true }
+        .col-10.col-md-5.col-lg-3 = f.input :duration_in, required: false, label: 'Trvání', collection: Spell::DURATION, include_blank: true, input_html: { multiple: true }
+        .col-3.col-md-2.col-lg-1
+          fieldset.mb-3.check_boxes.optional.q_concentration_eq
+            legend.col-form-label.heading-font.pt-0 Soustředění?
+            .form-check
+              = f.check_box :concentration_true, required: false, label: 'Ano', class: 'form-check-input check_boxes optional'
+              = f.label :concentration_true, 'Ano', class: 'form-check-label'
+            .form-check
+              = f.check_box :concentration_false, required: false, label: 'Ne', class: 'form-check-input check_boxes optional'
+              = f.label :concentration_false, 'Ne', class: 'form-check-label'
+      = render 'shared/form/footer', elements: 'kouzel', f: f, link: kouzla_dnd_index_path
 
-.form-background.mb-5.p-3
-  h5 Seřadit podle
-  .mb-1
-    = sort_link(@q, :czech_title, 'Názvu', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :school_and_title, 'Školy', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :level_and_title, 'Stupně', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :casting_and_title, 'Vyvolání', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :range_and_title, 'Dosahu', {}, class: 'btn btn-secondary m-1')
-    = sort_link(@q, :duration_and_title, 'Trvání', {}, class: 'btn btn-secondary m-1')
+  .form-background.mb-5.p-3
+    h5 Seřadit podle
+    .mb-1
+      = sort_link(@q, :czech_title, 'Názvu', {}, class: 'btn btn-secondary m-1')
+      = sort_link(@q, :school_and_title, 'Školy', {}, class: 'btn btn-secondary m-1')
+      = sort_link(@q, :level_and_title, 'Stupně', {}, class: 'btn btn-secondary m-1')
+      = sort_link(@q, :casting_and_title, 'Vyvolání', {}, class: 'btn btn-secondary m-1')
+      = sort_link(@q, :range_and_title, 'Dosahu', {}, class: 'btn btn-secondary m-1')
+      = sort_link(@q, :duration_and_title, 'Trvání', {}, class: 'btn btn-secondary m-1')

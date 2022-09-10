@@ -2,9 +2,8 @@
 - content_for :meta_title, 'DnD 5e kartotéka kouzel'
 
 h1.mt-5 DnD 5e kartotéka kouzel
-.d-flex.justify-content-between
-  = render 'shared/subtitle'
+= render 'shared/form/subtitle'
 = render 'dnd/spells/filters'
 
 .accordion.custom-accordion
-  = render partial: 'dnd/spells/spell', collection: @spells
+  = render partial: 'dnd/spells/spell', collection: @elements

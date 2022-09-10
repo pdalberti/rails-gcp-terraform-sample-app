@@ -2,9 +2,8 @@
 - content_for :meta_title, 'DrD 2 kartotéka schopností'
 
 h1.mt-5 DrD 2 kartotéka schopností
-.d-flex.justify-content-between
-  = render 'shared/subtitle'
+= render 'shared/form/subtitle'
 = render 'filters'
 
 .accordion.custom-accordion
-  = render partial: 'ability', collection: @abilities
+  = render partial: 'ability', collection: @elements
