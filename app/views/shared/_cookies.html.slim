@@ -1,4 +1,4 @@
 .text-center id="cookies-eu-banner" style="display: none;" class="text-bg-#{cookies[:theme]}"
   | Tento web používá k poskytování služeb a analýze návštěvnosti soubory cookie. Používáním tohoto webu s tím souhlasíte.
-  = link_to 'Více informací', "https://policies.google.com/technologies/cookies?hl=cs", id: "cookies-eu-more", class: 'mx-2'
+  = link_to 'Více informací', "https://policies.google.com/technologies/cookies?hl=cs", id: "cookies-eu-more", class: "mx-2 text-#{cookies[:theme] == 'light' ? 'primary' : 'danger'}"
   button id="cookies-eu-accept" Souhlasím
