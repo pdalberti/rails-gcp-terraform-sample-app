@@ -3,7 +3,7 @@
   div
     - unless request.path == '/'
       = link_to 'Zpátky k rozcestníku', root_path, class: 'card-subtitle text-muted'
-    - if cookies[:theme] == 'light'
-      = link_to '<i class="fa-solid fa-moon"></i>'.html_safe, "#{@url}?theme=dark", class: 'card-subtitle text-muted mx-2'
-    - else
+    - if cookies[:theme] == 'dark'
       = link_to '<i class="fa-solid fa-sun"></i>'.html_safe, "#{@url}?theme=light", class: 'card-subtitle text-muted mx-2'
+    - else
+      = link_to '<i class="fa-solid fa-moon"></i>'.html_safe, "#{@url}?theme=dark", class: 'card-subtitle text-muted mx-2'
