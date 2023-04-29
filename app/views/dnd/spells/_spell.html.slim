@@ -8,7 +8,7 @@
           .col-md-4.col-lg-2 Škola: #{spell.school}
           .col-md-4.col-lg-2 Vyvolání: #{Spell::CASTING.key(spell.casting)}
           .col-md-4.col-lg-2 Dosah: #{Spell::RANGE.key(spell.range)}
-          .col-md-4.col-lg-2 Trvání: #{Spell::DURATION.key(spell.duration)}
+          .col-md-4.col-lg-2 Trvání: #{Spell::DURATION.key(spell.duration)}#{spell.concentration ? ' (s.)' : ''}
   .accordion-collapse.collapse id="spellPanels-collapse#{spell.id}" aria-labelledby="spellPanels-heading#{spell.id}"
     .accordion-body
       = CommonMarker.render_html(dnd_spell_description(spell), :HARDBREAKS).html_safe

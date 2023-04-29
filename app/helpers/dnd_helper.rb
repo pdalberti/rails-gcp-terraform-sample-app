@@ -7,7 +7,7 @@ module DndHelper
     description += "\n\n**Vyvolání:** #{spell.original_casting}"
     description += "\n\n**Dosah:** #{spell.original_range}"
     description += "\n\n**Složky:** #{spell.original_components}"
-    description += "\n\n**Trvání:** #{spell.original_duration}"
+    description += "\n\n**Trvání:** #{spell.original_duration}#{spell.concentration ? ' (soustředění)' : ''}"
     description += "\n\n**Povolání:** #{spell.classes.join(', ')}"
     description += "\n\n#{spell.description}"
     description
